@@ -16,7 +16,7 @@ import json
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 # ---------------------------------------------------------------------------
 # News sources
@@ -91,6 +91,9 @@ NEWS_FEEDS = [
 ]
 
 MAX_ITEMS_PER_FEED = 15  # articles to show per source
+MAX_ARTICLE_AGE_DAYS = 7  # drop cached articles older than this
+
+DATA_FILE = os.path.join(os.path.dirname(__file__), "docs", "news.json")
 
 SCRAPE_HEADERS = {
     "User-Agent": (
@@ -603,15 +606,98 @@ def build_html(articles: list[dict]) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Article persistence helpers
+# ---------------------------------------------------------------------------
+def load_cached_articles() -> list[dict]:
+    """Load previously saved articles from the JSON data file."""
+    if not os.path.exists(DATA_FILE):
+        return []
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        if isinstance(data, list):
+            return data
+    except (json.JSONDecodeError, OSError):
+        pass
+    return []
+
+
+def _parse_date(date_str: str) -> datetime | None:
+    """Try to parse a date string into a timezone-aware datetime."""
+    if not date_str:
+        return None
+    for fmt in (
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d",
+    ):
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except ValueError:
+            continue
+    return None
+
+
+def merge_articles(cached: list[dict], fresh: list[dict]) -> list[dict]:
+    """
+    Merge freshly fetched articles with cached ones.
+
+    Rules:
+    - Deduplicate by article link; fresh articles take precedence.
+    - Articles older than MAX_ARTICLE_AGE_DAYS are dropped.
+    - Output order: all fresh articles first, followed by non-duplicate
+      cached articles (no source-level grouping is applied here).
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_ARTICLE_AGE_DAYS)
+
+    # Index fresh articles by link for fast lookup
+    fresh_links: set[str] = {a["link"] for a in fresh}
+
+    # Keep cached articles whose link is not superseded by a fresh one and are
+    # not stale.  Articles with no parsable date are kept (we cannot age them).
+    kept_cached: list[dict] = []
+    for article in cached:
+        if article["link"] in fresh_links:
+            continue  # fresh version will be used
+        dt = _parse_date(article.get("published", ""))
+        if dt is not None and dt < cutoff:
+            continue  # too old
+        kept_cached.append(article)
+
+    return fresh + kept_cached
+
+
+def save_articles(articles: list[dict]) -> None:
+    """Persist articles to the JSON data file."""
+    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+    with open(DATA_FILE, "w", encoding="utf-8") as fh:
+        json.dump(articles, fh, ensure_ascii=False, indent=2)
+    print(f"Articles saved to {DATA_FILE}")
+
+
+# ---------------------------------------------------------------------------
 # Entry point
 # ---------------------------------------------------------------------------
 def main() -> None:
     print("Fetching Hong Kong news…")
-    articles = fetch_all_news()
-    print(f"Total articles fetched: {len(articles)}")
+    fresh_articles = fetch_all_news()
+    print(f"Total articles fetched: {len(fresh_articles)}")
+
+    cached_articles = load_cached_articles()
+    print(f"Cached articles loaded: {len(cached_articles)}")
+
+    articles = merge_articles(cached_articles, fresh_articles)
+    print(f"Total articles after merge: {len(articles)}")
 
     out_path = os.path.join(os.path.dirname(__file__), "docs", "index.html")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+    save_articles(articles)
 
     page = build_html(articles)
     with open(out_path, "w", encoding="utf-8") as fh:
