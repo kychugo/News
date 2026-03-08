@@ -93,11 +93,55 @@ def fetch_rss(feed_info: dict) -> list[dict]:
     return articles
 
 
+_MAX_JSON_DEPTH = 6  # Covers typical Next.js __NEXT_DATA__ nesting (props→pageProps→data→categories→articles)
+
+
+def _find_article_lists(obj: object, depth: int = 0) -> list[list[dict]]:
+    """
+    Recursively search a parsed JSON object for lists that look like article
+    collections (i.e. lists of dicts that contain a 'title' or 'headline' key).
+    """
+    if depth > _MAX_JSON_DEPTH:
+        return []
+    results: list[list[dict]] = []
+    if isinstance(obj, list):
+        # Detect article list: check up to the first 3 items so that lists
+        # whose first entry lacks a title but subsequent entries have one are
+        # still recognised correctly.
+        sample = [item for item in obj[:3] if isinstance(item, dict)]
+        if sample and any(
+            item.get("title") or item.get("headline") for item in sample
+        ):
+            results.append(obj)  # type: ignore[arg-type]
+        else:
+            # Not an article list – descend into each element
+            for item in obj:
+                results.extend(_find_article_lists(item, depth + 1))
+    elif isinstance(obj, dict):
+        for val in obj.values():
+            results.extend(_find_article_lists(val, depth + 1))
+    return results
+
+
+def _build_tvb_link(slug: str, fallback: str) -> str:
+    """Convert a TVB article slug / path / URL to a full absolute URL."""
+    if not slug:
+        return fallback
+    if slug.startswith("http"):
+        return slug
+    # Absolute path (e.g. "/tc/local/20240101/12345") – prepend domain only
+    if slug.startswith("/"):
+        return "https://news.tvb.com" + slug
+    # Relative path (e.g. "local/20240101/12345") – prepend full base
+    return f"https://news.tvb.com/tc/{slug}"
+
+
 def fetch_tvb(feed_info: dict) -> list[dict]:
     """
     Scrape articles from the TVB News website (news.tvb.com/tc).
 
-    Strategy 1 – look for __NEXT_DATA__ JSON embedded in the page (Next.js).
+    Strategy 1 – look for __NEXT_DATA__ JSON embedded in the page (Next.js),
+                 then walk the entire JSON tree to find article lists.
     Strategy 2 – fall back to parsing <a> tags with article-style hrefs.
     """
     resp = requests.get(feed_info["url"], headers=SCRAPE_HEADERS, timeout=20)
@@ -111,42 +155,34 @@ def fetch_tvb(feed_info: dict) -> list[dict]:
     if next_data_tag and next_data_tag.string:
         try:
             data = json.loads(next_data_tag.string)
-            # Walk the props tree to find lists of article objects
-            # TVB typically stores articles under props.pageProps.data or similar
-            page_props = (
-                data.get("props", {}).get("pageProps", {})
-            )
-            # Try common key paths
-            candidates = []
-            for key in ("data", "articles", "newsList", "list", "items"):
-                val = page_props.get(key)
-                if isinstance(val, list) and val:
-                    candidates = val
-                    break
-                if isinstance(val, dict):
-                    for subkey in ("articles", "list", "items", "data"):
-                        subval = val.get(subkey)
-                        if isinstance(subval, list) and subval:
-                            candidates = subval
-                            break
-                if candidates:
-                    break
-
-            for item in candidates[:MAX_ITEMS_PER_FEED]:
-                if not isinstance(item, dict):
-                    continue
-                title = item.get("title") or item.get("headline") or ""
-                slug = item.get("slug") or item.get("url") or item.get("link") or ""
-                link = (
-                    slug if slug.startswith("http")
-                    else f"https://news.tvb.com/tc/{slug.lstrip('/')}" if slug
-                    else feed_info["source_url"]
-                )
-                summary = _strip_html(
-                    item.get("description") or item.get("summary") or item.get("abstract") or ""
-                )
-                published = item.get("publishedAt") or item.get("date") or item.get("createdAt") or ""
-                if title:
+            # Walk the entire props tree recursively to find article lists.
+            # TVB stores articles in various nested paths depending on the page.
+            all_lists = _find_article_lists(data)
+            seen_titles: set[str] = set()
+            for lst in all_lists:
+                for item in lst:
+                    if not isinstance(item, dict):
+                        continue
+                    title = (
+                        item.get("title") or item.get("headline")
+                        or item.get("name") or ""
+                    )
+                    if not title or title in seen_titles:
+                        continue
+                    seen_titles.add(title)
+                    slug = (
+                        item.get("slug") or item.get("url") or item.get("link")
+                        or item.get("path") or item.get("articleUrl") or ""
+                    )
+                    link = _build_tvb_link(slug, feed_info["source_url"])
+                    summary = _strip_html(
+                        item.get("description") or item.get("summary")
+                        or item.get("abstract") or ""
+                    )
+                    published = (
+                        item.get("publishedAt") or item.get("publishTime")
+                        or item.get("date") or item.get("createdAt") or ""
+                    )
                     articles.append(
                         {
                             "title": title.strip(),
@@ -158,6 +194,10 @@ def fetch_tvb(feed_info: dict) -> list[dict]:
                             "lang": feed_info["lang"],
                         }
                     )
+                    if len(articles) >= MAX_ITEMS_PER_FEED:
+                        break
+                if len(articles) >= MAX_ITEMS_PER_FEED:
+                    break
         except (json.JSONDecodeError, AttributeError):
             pass  # fall through to strategy 2
 
