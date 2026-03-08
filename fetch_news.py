@@ -1,12 +1,18 @@
 """
 fetch_news.py
-Fetches the latest Hong Kong news from public RSS feeds and web scraping,
+Fetches the latest Hong Kong and world news from public RSS feeds and web scraping,
 then generates docs/index.html for GitHub Pages.
 
 Sources:
   - RTHK (English & Chinese) – RSS
   - HK Free Press – RSS
+  - The Standard – RSS
+  - Asia Times – RSS
+  - Coconuts Hong Kong – RSS
   - TVB News (Traditional Chinese) – web scrape
+  - South China Morning Post – RSS
+  - BBC News (Hong Kong) – RSS
+  - Google News (US) – RSS
 """
 
 import os
@@ -88,10 +94,17 @@ NEWS_FEEDS = [
         "type": "rss",
         "lang": "en",
     },
+    {
+        "name": "Google News (US)",
+        "url": "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en",
+        "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+        "type": "rss",
+        "lang": "en",
+    },
 ]
 
 MAX_ITEMS_PER_FEED = 15  # articles to show per source
-MAX_ARTICLE_AGE_DAYS = 7  # drop cached articles older than this
+MAX_ARTICLE_AGE_DAYS = 3  # drop cached articles older than this
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "docs", "news.json")
 
@@ -112,8 +125,16 @@ def _strip_html(text: str) -> str:
 
 
 def fetch_rss(feed_info: dict) -> list[dict]:
-    """Fetch articles from an RSS/Atom feed."""
-    feed = feedparser.parse(feed_info["url"])
+    """Fetch articles from an RSS/Atom feed.
+
+    Uses *requests* to download the raw feed with a custom User-Agent and
+    timeout, then hands the raw bytes to feedparser for parsing.  This avoids
+    the common failure mode where sites block feedparser's default user-agent
+    or the socket hangs indefinitely.
+    """
+    resp = requests.get(feed_info["url"], headers=SCRAPE_HEADERS, timeout=20)
+    resp.raise_for_status()
+    feed = feedparser.parse(resp.content)
     articles = []
     for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
         summary = _strip_html(entry.get("summary", entry.get("description", "")))
@@ -501,7 +522,8 @@ HTML_TEMPLATE = """\
     <a href="https://coconuts.co/hongkong/" target="_blank" rel="noopener">Coconuts HK</a>,
     <a href="https://news.tvb.com/tc" target="_blank" rel="noopener">TVB News</a>,
     <a href="https://www.scmp.com/" target="_blank" rel="noopener">SCMP</a>,
-    <a href="https://www.bbc.com/news/topics/cp7r8vglne2t" target="_blank" rel="noopener">BBC News HK</a>
+    <a href="https://www.bbc.com/news/topics/cp7r8vglne2t" target="_blank" rel="noopener">BBC News HK</a>,
+    <a href="https://news.google.com/home?hl=en-US&gl=US&ceid=US:en" target="_blank" rel="noopener">Google News (US)</a>
   </footer>
 </body>
 </html>
