@@ -6,7 +6,12 @@ then generates docs/index.html for GitHub Pages.
 Sources:
   - RTHK (English & Chinese) – RSS
   - HK Free Press – RSS
+  - The Standard – RSS
+  - Asia Times – RSS
+  - The Guardian (Hong Kong) – RSS
   - TVB News (Traditional Chinese) – web scrape
+  - South China Morning Post – RSS
+  - BBC News (Asia) – RSS
 """
 
 import os
@@ -21,19 +26,32 @@ from datetime import datetime, timedelta, timezone
 # ---------------------------------------------------------------------------
 # News sources
 # ---------------------------------------------------------------------------
-# type "rss"    → fetched via feedparser
+# type "rss"    → fetched via requests + feedparser (supports fallback_urls)
 # type "scrape" → fetched via requests + BeautifulSoup
+#
+# fallback_urls: list of alternative RSS URLs tried in order when the primary
+#                url returns an empty feed or an HTTP error.
 NEWS_FEEDS = [
     {
         "name": "RTHK (English)",
-        "url": "https://rthk9.rthk.hk/rthk/news/rss/e_expressnews_e_conciseinenglish.xml",
+        # RTHK maintains several RSS feeds; try the local-news feed first, then
+        # the world-news feed as a fallback in case one is temporarily empty.
+        "url": "https://rthk9.rthk.hk/rthk/news/rss/e_expressnews_elocal.xml",
+        "fallback_urls": [
+            "https://rthk9.rthk.hk/rthk/news/rss/e_expressnews_eworldnews.xml",
+            "https://rthk9.rthk.hk/rthk/news/rss/e_expressnews_e_conciseinenglish.xml",
+        ],
         "source_url": "https://news.rthk.hk/rthk/en/",
         "type": "rss",
         "lang": "en",
     },
     {
         "name": "RTHK (中文)",
-        "url": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cutnews.xml",
+        # Chinese local-news RSS; fall back to the cut-news bulletin feed.
+        "url": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
+        "fallback_urls": [
+            "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cutnews.xml",
+        ],
         "source_url": "https://news.rthk.hk/rthk/ch/",
         "type": "rss",
         "lang": "zh",
@@ -47,7 +65,12 @@ NEWS_FEEDS = [
     },
     {
         "name": "The Standard",
-        "url": "https://www.thestandard.com.hk/rss_news_all.xml",
+        # The Standard serves its RSS via a PHP endpoint; the .xml alias is also
+        # kept as a fallback in case either URL is temporarily unavailable.
+        "url": "https://www.thestandard.com.hk/rss_news_all.php",
+        "fallback_urls": [
+            "https://www.thestandard.com.hk/rss_news_all.xml",
+        ],
         "source_url": "https://www.thestandard.com.hk/",
         "type": "rss",
         "lang": "en",
@@ -60,9 +83,11 @@ NEWS_FEEDS = [
         "lang": "en",
     },
     {
-        "name": "Coconuts Hong Kong",
-        "url": "https://coconuts.co/hongkong/feed/",
-        "source_url": "https://coconuts.co/hongkong/",
+        # Replaced Coconuts Hong Kong (subscription-gated RSS) with The Guardian's
+        # dedicated Hong Kong coverage feed, which is openly available.
+        "name": "The Guardian (Hong Kong)",
+        "url": "https://www.theguardian.com/world/hong-kong/rss",
+        "source_url": "https://www.theguardian.com/world/hong-kong",
         "type": "rss",
         "lang": "en",
     },
@@ -82,9 +107,14 @@ NEWS_FEEDS = [
         "lang": "en",
     },
     {
+        # The BBC topic-specific Hong Kong feed (cp7r8vglne2t) can be
+        # geo-restricted or rate-limited; fall back to the wider Asia RSS.
         "name": "BBC News (Hong Kong)",
-        "url": "https://feeds.bbci.co.uk/news/topics/cp7r8vglne2t.rss",
-        "source_url": "https://www.bbc.com/news/topics/cp7r8vglne2t",
+        "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+        "fallback_urls": [
+            "https://feeds.bbci.co.uk/news/topics/cp7r8vglne2t.rss",
+        ],
+        "source_url": "https://www.bbc.com/news/world/asia",
         "type": "rss",
         "lang": "en",
     },
@@ -112,23 +142,50 @@ def _strip_html(text: str) -> str:
 
 
 def fetch_rss(feed_info: dict) -> list[dict]:
-    """Fetch articles from an RSS/Atom feed."""
-    feed = feedparser.parse(feed_info["url"])
-    articles = []
-    for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
-        summary = _strip_html(entry.get("summary", entry.get("description", "")))
-        articles.append(
-            {
-                "title": entry.get("title", "").strip(),
-                "link": entry.get("link", ""),
-                "summary": summary[:300] + ("…" if len(summary) > 300 else ""),
-                "published": entry.get("published", ""),
-                "source": feed_info["name"],
-                "source_url": feed_info["source_url"],
-                "lang": feed_info["lang"],
-            }
-        )
-    return articles
+    """Fetch articles from an RSS/Atom feed.
+
+    Uses *requests* for the HTTP layer so that a proper browser-like
+    User-Agent and Accept header are sent (some providers block the
+    default feedparser user-agent).  If the primary URL yields an empty
+    feed and the feed defines ``fallback_urls``, each fallback is tried
+    in turn until articles are found.
+    """
+    urls_to_try = [feed_info["url"]] + list(feed_info.get("fallback_urls", []))
+    last_exc: Exception | None = None
+
+    for attempt_url in urls_to_try:
+        try:
+            resp = requests.get(attempt_url, headers=SCRAPE_HEADERS, timeout=20)
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
+        except Exception as exc:
+            last_exc = exc
+            continue  # try next URL
+
+        if not feed.entries and attempt_url != urls_to_try[-1]:
+            # Empty feed – try the next fallback before giving up
+            continue
+
+        articles = []
+        for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
+            summary = _strip_html(entry.get("summary", entry.get("description", "")))
+            articles.append(
+                {
+                    "title": entry.get("title", "").strip(),
+                    "link": entry.get("link", ""),
+                    "summary": summary[:300] + ("…" if len(summary) > 300 else ""),
+                    "published": entry.get("published", ""),
+                    "source": feed_info["name"],
+                    "source_url": feed_info["source_url"],
+                    "lang": feed_info["lang"],
+                }
+            )
+        return articles
+
+    # All URLs exhausted – re-raise the last exception so the caller can log it
+    if last_exc is not None:
+        raise last_exc
+    return []
 
 
 _MAX_JSON_DEPTH = 6  # Covers typical Next.js __NEXT_DATA__ nesting (props→pageProps→data→categories→articles)
@@ -285,8 +342,15 @@ def fetch_all_news() -> list[dict]:
                 items = fetch_tvb(feed_info)
             else:
                 items = fetch_rss(feed_info)
+
+            if items:
+                print(f"  ✓ {feed_info['name']}: {len(items)} articles")
+            else:
+                print(
+                    f"  ⚠ {feed_info['name']}: 0 articles "
+                    f"(feed may be empty or temporarily unavailable)"
+                )
             all_articles.extend(items)
-            print(f"  ✓ {feed_info['name']}: {len(items)} articles")
         except Exception as exc:
             print(f"  ✗ {feed_info['name']}: {exc}")
     return all_articles
@@ -498,10 +562,10 @@ HTML_TEMPLATE = """\
     <a href="https://www.hongkongfp.com/" target="_blank" rel="noopener">HK Free Press</a>,
     <a href="https://www.thestandard.com.hk/" target="_blank" rel="noopener">The Standard</a>,
     <a href="https://asiatimes.com/" target="_blank" rel="noopener">Asia Times</a>,
-    <a href="https://coconuts.co/hongkong/" target="_blank" rel="noopener">Coconuts HK</a>,
+    <a href="https://www.theguardian.com/world/hong-kong" target="_blank" rel="noopener">The Guardian HK</a>,
     <a href="https://news.tvb.com/tc" target="_blank" rel="noopener">TVB News</a>,
     <a href="https://www.scmp.com/" target="_blank" rel="noopener">SCMP</a>,
-    <a href="https://www.bbc.com/news/topics/cp7r8vglne2t" target="_blank" rel="noopener">BBC News HK</a>
+    <a href="https://www.bbc.com/news/world/asia" target="_blank" rel="noopener">BBC News Asia</a>
   </footer>
 </body>
 </html>
