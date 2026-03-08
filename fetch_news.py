@@ -74,6 +74,20 @@ NEWS_FEEDS = [
         "scraper": "tvb",
         "lang": "zh",
     },
+    {
+        "name": "South China Morning Post",
+        "url": "https://www.scmp.com/rss/91/feed",
+        "source_url": "https://www.scmp.com/",
+        "type": "rss",
+        "lang": "en",
+    },
+    {
+        "name": "BBC News (Hong Kong)",
+        "url": "https://feeds.bbci.co.uk/news/topics/cp7r8vglne2t.rss",
+        "source_url": "https://www.bbc.com/news/topics/cp7r8vglne2t",
+        "type": "rss",
+        "lang": "en",
+    },
 ]
 
 MAX_ITEMS_PER_FEED = 15  # articles to show per source
@@ -482,7 +496,9 @@ HTML_TEMPLATE = """\
     <a href="https://www.thestandard.com.hk/" target="_blank" rel="noopener">The Standard</a>,
     <a href="https://asiatimes.com/" target="_blank" rel="noopener">Asia Times</a>,
     <a href="https://coconuts.co/hongkong/" target="_blank" rel="noopener">Coconuts HK</a>,
-    <a href="https://news.tvb.com/tc" target="_blank" rel="noopener">TVB News</a>
+    <a href="https://news.tvb.com/tc" target="_blank" rel="noopener">TVB News</a>,
+    <a href="https://www.scmp.com/" target="_blank" rel="noopener">SCMP</a>,
+    <a href="https://www.bbc.com/news/topics/cp7r8vglne2t" target="_blank" rel="noopener">BBC News HK</a>
   </footer>
 </body>
 </html>
