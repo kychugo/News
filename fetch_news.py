@@ -46,6 +46,27 @@ NEWS_FEEDS = [
         "lang": "en",
     },
     {
+        "name": "The Standard",
+        "url": "https://www.thestandard.com.hk/rss_news_all.xml",
+        "source_url": "https://www.thestandard.com.hk/",
+        "type": "rss",
+        "lang": "en",
+    },
+    {
+        "name": "Asia Times",
+        "url": "https://asiatimes.com/feed/",
+        "source_url": "https://asiatimes.com/",
+        "type": "rss",
+        "lang": "en",
+    },
+    {
+        "name": "Coconuts Hong Kong",
+        "url": "https://coconuts.co/hongkong/feed/",
+        "source_url": "https://coconuts.co/hongkong/",
+        "type": "rss",
+        "lang": "en",
+    },
+    {
         "name": "TVB News (無綫新聞)",
         "url": "https://news.tvb.com/tc",
         "source_url": "https://news.tvb.com/tc",
@@ -458,6 +479,9 @@ HTML_TEMPLATE = """\
     &mdash; Sources:
     <a href="https://news.rthk.hk/rthk/en/" target="_blank" rel="noopener">RTHK</a>,
     <a href="https://www.hongkongfp.com/" target="_blank" rel="noopener">HK Free Press</a>,
+    <a href="https://www.thestandard.com.hk/" target="_blank" rel="noopener">The Standard</a>,
+    <a href="https://asiatimes.com/" target="_blank" rel="noopener">Asia Times</a>,
+    <a href="https://coconuts.co/hongkong/" target="_blank" rel="noopener">Coconuts HK</a>,
     <a href="https://news.tvb.com/tc" target="_blank" rel="noopener">TVB News</a>
   </footer>
 </body>
