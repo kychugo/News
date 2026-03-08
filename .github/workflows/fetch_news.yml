@@ -16,10 +16,20 @@ run-name: "📰 Fetch HK News – ${{ github.event_name == 'workflow_dispatch' &
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Allow only one deployment at a time; cancel any in-progress run
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   fetch-and-publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repository
@@ -44,3 +54,16 @@ jobs:
           # Only commit if there are changes
           git diff --cached --quiet || git commit -m "chore: update HK news [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Deploy only the docs/ folder to GitHub Pages
+          path: "./docs"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
