@@ -1,0 +1,543 @@
+"""
+fetch_news.py
+Fetches the latest Hong Kong news from public RSS feeds and web scraping,
+then generates docs/index.html for GitHub Pages.
+
+Sources:
+  - RTHK (English & Chinese) – RSS
+  - HK Free Press – RSS
+  - TVB News (Traditional Chinese) – web scrape
+"""
+
+import os
+import re
+import html
+import json
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+from datetime import datetime, timezone
+
+# ---------------------------------------------------------------------------
+# News sources
+# ---------------------------------------------------------------------------
+# type "rss"    → fetched via feedparser
+# type "scrape" → fetched via requests + BeautifulSoup
+NEWS_FEEDS = [
+    {
+        "name": "RTHK (English)",
+        "url": "https://rthk9.rthk.hk/rthk/news/rss/e_expressnews_e_conciseinenglish.xml",
+        "source_url": "https://news.rthk.hk/rthk/en/",
+        "type": "rss",
+        "lang": "en",
+    },
+    {
+        "name": "RTHK (中文)",
+        "url": "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cutnews.xml",
+        "source_url": "https://news.rthk.hk/rthk/ch/",
+        "type": "rss",
+        "lang": "zh",
+    },
+    {
+        "name": "HK Free Press",
+        "url": "https://www.hongkongfp.com/feed/",
+        "source_url": "https://www.hongkongfp.com/",
+        "type": "rss",
+        "lang": "en",
+    },
+    {
+        "name": "TVB News (無綫新聞)",
+        "url": "https://news.tvb.com/tc",
+        "source_url": "https://news.tvb.com/tc",
+        "type": "scrape",
+        "scraper": "tvb",
+        "lang": "zh",
+    },
+]
+
+MAX_ITEMS_PER_FEED = 15  # articles to show per source
+
+SCRAPE_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; HKNewsBot/1.0; "
+        "+https://github.com/kychugo/News)"
+    )
+}
+
+
+# ---------------------------------------------------------------------------
+# Fetch helpers
+# ---------------------------------------------------------------------------
+def _strip_html(text: str) -> str:
+    """Remove HTML tags from a string."""
+    return re.sub(r"<[^>]+>", "", text).strip()
+
+
+def fetch_rss(feed_info: dict) -> list[dict]:
+    """Fetch articles from an RSS/Atom feed."""
+    feed = feedparser.parse(feed_info["url"])
+    articles = []
+    for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
+        summary = _strip_html(entry.get("summary", entry.get("description", "")))
+        articles.append(
+            {
+                "title": entry.get("title", "").strip(),
+                "link": entry.get("link", ""),
+                "summary": summary[:300] + ("…" if len(summary) > 300 else ""),
+                "published": entry.get("published", ""),
+                "source": feed_info["name"],
+                "source_url": feed_info["source_url"],
+                "lang": feed_info["lang"],
+            }
+        )
+    return articles
+
+
+def fetch_tvb(feed_info: dict) -> list[dict]:
+    """
+    Scrape articles from the TVB News website (news.tvb.com/tc).
+
+    Strategy 1 – look for __NEXT_DATA__ JSON embedded in the page (Next.js).
+    Strategy 2 – fall back to parsing <a> tags with article-style hrefs.
+    """
+    resp = requests.get(feed_info["url"], headers=SCRAPE_HEADERS, timeout=20)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    articles: list[dict] = []
+
+    # --- Strategy 1: Next.js __NEXT_DATA__ JSON ---
+    next_data_tag = soup.find("script", id="__NEXT_DATA__")
+    if next_data_tag and next_data_tag.string:
+        try:
+            data = json.loads(next_data_tag.string)
+            # Walk the props tree to find lists of article objects
+            # TVB typically stores articles under props.pageProps.data or similar
+            page_props = (
+                data.get("props", {}).get("pageProps", {})
+            )
+            # Try common key paths
+            candidates = []
+            for key in ("data", "articles", "newsList", "list", "items"):
+                val = page_props.get(key)
+                if isinstance(val, list) and val:
+                    candidates = val
+                    break
+                if isinstance(val, dict):
+                    for subkey in ("articles", "list", "items", "data"):
+                        subval = val.get(subkey)
+                        if isinstance(subval, list) and subval:
+                            candidates = subval
+                            break
+                if candidates:
+                    break
+
+            for item in candidates[:MAX_ITEMS_PER_FEED]:
+                if not isinstance(item, dict):
+                    continue
+                title = item.get("title") or item.get("headline") or ""
+                slug = item.get("slug") or item.get("url") or item.get("link") or ""
+                link = (
+                    slug if slug.startswith("http")
+                    else f"https://news.tvb.com/tc/{slug.lstrip('/')}" if slug
+                    else feed_info["source_url"]
+                )
+                summary = _strip_html(
+                    item.get("description") or item.get("summary") or item.get("abstract") or ""
+                )
+                published = item.get("publishedAt") or item.get("date") or item.get("createdAt") or ""
+                if title:
+                    articles.append(
+                        {
+                            "title": title.strip(),
+                            "link": link,
+                            "summary": summary[:300] + ("…" if len(summary) > 300 else ""),
+                            "published": str(published),
+                            "source": feed_info["name"],
+                            "source_url": feed_info["source_url"],
+                            "lang": feed_info["lang"],
+                        }
+                    )
+        except (json.JSONDecodeError, AttributeError):
+            pass  # fall through to strategy 2
+
+    # --- Strategy 2: Parse <a> links that look like article URLs ---
+    if not articles:
+        seen: set[str] = set()
+        for tag in soup.find_all("a", href=True):
+            href: str = tag["href"]
+            # TVB article URLs typically look like /tc/topic/... or /tc/...-NNNNNN
+            if not re.search(r"/tc/[\w-]+/[\w-]", href):
+                continue
+            full_url = (
+                href if href.startswith("http")
+                else "https://news.tvb.com" + href
+            )
+            if full_url in seen:
+                continue
+            seen.add(full_url)
+            title_text = tag.get_text(separator=" ", strip=True)
+            if not title_text or len(title_text) < 5:
+                continue
+            articles.append(
+                {
+                    "title": title_text[:200],
+                    "link": full_url,
+                    "summary": "",
+                    "published": "",
+                    "source": feed_info["name"],
+                    "source_url": feed_info["source_url"],
+                    "lang": feed_info["lang"],
+                }
+            )
+            if len(articles) >= MAX_ITEMS_PER_FEED:
+                break
+
+    return articles
+
+
+def fetch_all_news() -> list[dict]:
+    """Return a combined list of article dicts from all configured feeds."""
+    all_articles: list[dict] = []
+    for feed_info in NEWS_FEEDS:
+        try:
+            if feed_info["type"] == "rss":
+                items = fetch_rss(feed_info)
+            elif feed_info.get("scraper") == "tvb":
+                items = fetch_tvb(feed_info)
+            else:
+                items = fetch_rss(feed_info)
+            all_articles.extend(items)
+            print(f"  ✓ {feed_info['name']}: {len(items)} articles")
+        except Exception as exc:
+            print(f"  ✗ {feed_info['name']}: {exc}")
+    return all_articles
+
+
+# ---------------------------------------------------------------------------
+# HTML generation
+# ---------------------------------------------------------------------------
+HTML_TEMPLATE = """\
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="3600" />
+  <title>Hong Kong News 香港新聞</title>
+  <style>
+    *, *::before, *::after {{ box-sizing: border-box; }}
+    body {{
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
+                   "Noto Sans TC", Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+    }}
+
+    /* ---- Header ---- */
+    header {{
+      background: linear-gradient(135deg, #c0392b 0%, #922b21 100%);
+      color: #fff;
+      padding: 1.5rem 1rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    }}
+    header h1 {{ margin: 0 0 .3rem; font-size: 2rem; letter-spacing: .5px; }}
+    header .sub {{
+      margin: 0 0 .8rem;
+      font-size: .88rem;
+      opacity: .85;
+    }}
+    header .stats {{
+      display: inline-block;
+      background: rgba(255,255,255,.18);
+      border-radius: 20px;
+      padding: .25rem .9rem;
+      font-size: .8rem;
+      margin-bottom: .5rem;
+    }}
+
+    /* ---- Source nav ---- */
+    nav {{
+      background: #fff;
+      border-bottom: 1px solid #e5e5e5;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    }}
+    nav ul {{
+      list-style: none;
+      margin: 0 auto;
+      padding: 0 1rem;
+      max-width: 960px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .25rem;
+    }}
+    nav ul li a {{
+      display: block;
+      padding: .55rem .85rem;
+      font-size: .85rem;
+      font-weight: 600;
+      color: #555;
+      text-decoration: none;
+      border-bottom: 3px solid transparent;
+      transition: color .15s, border-color .15s;
+    }}
+    nav ul li a:hover {{
+      color: #c0392b;
+      border-bottom-color: #c0392b;
+    }}
+
+    /* ---- Main ---- */
+    main {{
+      max-width: 960px;
+      margin: 1.5rem auto 3rem;
+      padding: 0 1rem;
+    }}
+
+    /* ---- Source section ---- */
+    .source-section {{ margin-bottom: 3rem; scroll-margin-top: 48px; }}
+    .source-header {{
+      display: flex;
+      align-items: baseline;
+      gap: .75rem;
+      margin-bottom: 1rem;
+    }}
+    .source-title {{
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-left: 4px solid #c0392b;
+      padding-left: .6rem;
+      color: #922b21;
+    }}
+    .source-link {{
+      font-size: .8rem;
+      color: #c0392b;
+      text-decoration: none;
+      opacity: .8;
+    }}
+    .source-link:hover {{ opacity: 1; text-decoration: underline; }}
+    .article-count {{
+      font-size: .78rem;
+      color: #aaa;
+      margin-left: auto;
+    }}
+
+    /* ---- Cards ---- */
+    .cards {{
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }}
+    .card {{
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.10);
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow .2s, transform .15s;
+    }}
+    .card:hover {{
+      box-shadow: 0 6px 18px rgba(0,0,0,.15);
+      transform: translateY(-2px);
+    }}
+    .card .headline {{
+      text-decoration: none;
+      color: #1a1a2e;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.45;
+      flex: 1;
+    }}
+    .card .headline:hover {{ color: #c0392b; }}
+    .card .summary {{
+      margin-top: .5rem;
+      font-size: .84rem;
+      color: #555;
+      line-height: 1.55;
+    }}
+    .card .card-footer {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: .75rem;
+      flex-wrap: wrap;
+      gap: .3rem;
+    }}
+    .card .pub-date {{
+      font-size: .73rem;
+      color: #aaa;
+    }}
+    .card .source-badge {{
+      font-size: .72rem;
+      font-weight: 600;
+      color: #fff;
+      background: #c0392b;
+      border-radius: 4px;
+      padding: .15rem .45rem;
+      text-decoration: none;
+      white-space: nowrap;
+    }}
+    .card .source-badge:hover {{ background: #922b21; }}
+
+    /* ---- Footer ---- */
+    footer {{
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: .78rem;
+      color: #aaa;
+      border-top: 1px solid #e5e5e5;
+    }}
+    footer a {{ color: #c0392b; text-decoration: none; }}
+    footer a:hover {{ text-decoration: underline; }}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🇭🇰 Hong Kong News 香港新聞</h1>
+    <p class="sub">Last updated: {updated} (UTC) &mdash; auto-refreshes every hour</p>
+    <span class="stats">📰 {total} articles from {src_count} sources</span>
+  </header>
+
+  <nav aria-label="News sources">
+    <ul>
+      {nav_items}
+    </ul>
+  </nav>
+
+  <main>
+    {sections}
+  </main>
+
+  <footer>
+    Powered by <a href="https://github.com/features/actions" target="_blank" rel="noopener">GitHub Actions</a>
+    &mdash; Sources:
+    <a href="https://news.rthk.hk/rthk/en/" target="_blank" rel="noopener">RTHK</a>,
+    <a href="https://www.hongkongfp.com/" target="_blank" rel="noopener">HK Free Press</a>,
+    <a href="https://news.tvb.com/tc" target="_blank" rel="noopener">TVB News</a>
+  </footer>
+</body>
+</html>
+"""
+
+NAV_ITEM_TEMPLATE = '<li><a href="#{anchor}">{source}</a></li>'
+
+SECTION_TEMPLATE = """\
+<div class="source-section" id="{anchor}">
+  <div class="source-header">
+    <span class="source-title">{source}</span>
+    <a class="source-link" href="{source_url}" target="_blank" rel="noopener noreferrer">
+      ↗ Visit source
+    </a>
+    <span class="article-count">{count} articles</span>
+  </div>
+  <div class="cards">
+    {cards}
+  </div>
+</div>
+"""
+
+CARD_TEMPLATE = """\
+<div class="card">
+  <a class="headline" href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>
+  {summary_block}
+  <div class="card-footer">
+    <span class="pub-date">{published}</span>
+    <a class="source-badge" href="{source_url}" target="_blank" rel="noopener noreferrer"
+       title="Visit {source} website">{source}</a>
+  </div>
+</div>
+"""
+
+
+def _slugify(text: str) -> str:
+    """Create a simple URL-safe anchor id from a source name."""
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def build_html(articles: list[dict]) -> str:
+    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+
+    # Group by source, preserving insertion order
+    sources: dict[str, list[dict]] = {}
+    for article in articles:
+        sources.setdefault(article["source"], []).append(article)
+
+    if not sources:
+        empty = (
+            '<p style="text-align:center;color:#aaa;margin-top:4rem;font-size:1.1rem;">'
+            "⚠️ No news articles could be fetched right now. Please check back later.</p>"
+        )
+        return HTML_TEMPLATE.format(
+            updated=updated,
+            total=0,
+            src_count=0,
+            nav_items="",
+            sections=empty,
+        )
+
+    nav_items_html = ""
+    sections_html = ""
+
+    for source, items in sources.items():
+        anchor = _slugify(source)
+        source_url = items[0]["source_url"]
+
+        nav_items_html += NAV_ITEM_TEMPLATE.format(
+            anchor=anchor, source=html.escape(source)
+        )
+
+        cards_html = ""
+        for item in items:
+            summary_block = ""
+            if item["summary"]:
+                summary_block = f'<p class="summary">{html.escape(item["summary"])}</p>'
+            cards_html += CARD_TEMPLATE.format(
+                link=html.escape(item["link"], quote=True),
+                title=html.escape(item["title"]),
+                summary_block=summary_block,
+                published=html.escape(item["published"]),
+                source_url=html.escape(source_url, quote=True),
+                source=html.escape(source),
+            )
+
+        sections_html += SECTION_TEMPLATE.format(
+            anchor=anchor,
+            source=html.escape(source),
+            source_url=html.escape(source_url, quote=True),
+            count=len(items),
+            cards=cards_html,
+        )
+
+    return HTML_TEMPLATE.format(
+        updated=updated,
+        total=len(articles),
+        src_count=len(sources),
+        nav_items=nav_items_html,
+        sections=sections_html,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+def main() -> None:
+    print("Fetching Hong Kong news…")
+    articles = fetch_all_news()
+    print(f"Total articles fetched: {len(articles)}")
+
+    out_path = os.path.join(os.path.dirname(__file__), "docs", "index.html")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+    page = build_html(articles)
+    with open(out_path, "w", encoding="utf-8") as fh:
+        fh.write(page)
+    print(f"HTML written to {out_path}")
+
+
+if __name__ == "__main__":
+    main()
