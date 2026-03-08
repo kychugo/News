@@ -32,7 +32,7 @@ A lightweight, automated Hong Kong news aggregator that pulls headlines from mul
 
 1. A [GitHub Actions](.github/workflows/fetch_news.yml) workflow runs **every hour**.
 2. `fetch_news.py` fetches the latest articles via **RSS feeds** (most sources) and **web scraping** (TVB News).
-3. Fresh articles are merged with a 7-day rolling cache stored in `docs/news.json`.
+3. Fresh articles are merged with a 3-day rolling cache stored in `docs/news.json`.
 4. The articles are rendered into a responsive HTML page saved to `docs/index.html`.
 5. The page is automatically deployed to **GitHub Pages**.
 
@@ -88,7 +88,7 @@ Several factors can cause a provider to return 0 articles:
 | **Feed URL changes** | Any | Publishers occasionally move their RSS endpoints; fallback URLs are configured for RTHK and BBC |
 | **Temporary outage** | Any | The provider's server may be temporarily down |
 
-The aggregator always falls back to the **7-day article cache** (`docs/news.json`) so the page never goes completely empty.
+The aggregator always falls back to the **3-day article cache** (`docs/news.json`) so the page never goes completely empty.
 
 ## 🗂️ Project Structure
 
@@ -98,7 +98,7 @@ News/
 ├── requirements.txt       # Python dependencies
 ├── docs/
 │   ├── index.html         # Generated website (auto-updated hourly)
-│   └── news.json          # Rolling 7-day article cache
+│   └── news.json          # Rolling 3-day article cache
 ├── .github/workflows/
 │   ├── fetch_news.yml     # Hourly fetch + deploy workflow
 │   └── deploy.yml         # GitHub Pages deployment workflow

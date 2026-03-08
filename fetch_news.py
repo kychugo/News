@@ -121,7 +121,7 @@ NEWS_FEEDS = [
 ]
 
 MAX_ITEMS_PER_FEED = 15  # articles to show per source
-MAX_ARTICLE_AGE_DAYS = 7  # drop cached articles older than this
+MAX_ARTICLE_AGE_DAYS = 3  # drop cached articles older than this
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "docs", "news.json")
 

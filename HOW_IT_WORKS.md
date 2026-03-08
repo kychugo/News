@@ -43,7 +43,7 @@ For a quick overview see [README.md](README.md).
 │  │                            ▼                                │   │
 │  │                   merge_articles()                          │   │
 │  │                      (deduplicate,                          │   │
-│  │                       drop >7 days)                         │   │
+│  │                       drop >3 days)                         │   │
 │  │                            │                                │   │
 │  │                 ┌──────────┴──────────┐                     │   │
 │  │                 ▼                     ▼                     │   │
@@ -67,7 +67,7 @@ For a quick overview see [README.md](README.md).
 | **1. Trigger** | GitHub Actions starts the `fetch-and-publish` job on a `cron: '0 * * * *'` schedule (every hour on the hour, UTC) or manually via `workflow_dispatch`. |
 | **2. Install deps** | `pip install -r requirements.txt` installs `feedparser`, `requests`, and `beautifulsoup4`. |
 | **3. Fetch** | `fetch_news.py` iterates over every entry in `NEWS_FEEDS` and calls the appropriate fetcher function. |
-| **4. Merge** | Fresh articles are merged with the rolling cache from `docs/news.json`, deduplicating by URL and dropping articles older than 7 days. |
+| **4. Merge** | Fresh articles are merged with the rolling cache from `docs/news.json`, deduplicating by URL and dropping articles older than 3 days. |
 | **5. Render** | `build_html()` groups the merged articles by source and produces a self-contained responsive HTML page. |
 | **6. Persist** | `docs/news.json` (cache) and `docs/index.html` (page) are written to disk. |
 | **7. Publish** | GitHub Actions commits and pushes both files; a second workflow step deploys `docs/` to GitHub Pages. |
@@ -198,7 +198,7 @@ Return articles (or raise last exception)
 ## 4. Article Caching & Merging
 
 Because some providers are occasionally unavailable, the aggregator maintains a
-rolling 7-day cache of all previously fetched articles in `docs/news.json`.
+rolling 3-day cache of all previously fetched articles in `docs/news.json`.
 
 **`merge_articles(cached, fresh)` rules:**
 
@@ -207,7 +207,7 @@ fresh_links = {a.link for a in fresh}
 
 for each article in cached:
     if article.link in fresh_links → skip  (fresh version takes precedence)
-    if article.published < now - 7 days → skip  (too old)
+    if article.published < now - 3 days → skip  (too old)
     otherwise → keep
 
 result = fresh + kept_cached
@@ -217,7 +217,7 @@ This guarantees:
 - **Freshness:** New articles always appear at the top of the page.
 - **Continuity:** If a provider is temporarily down, its recent articles are
   still shown from the cache.
-- **No stale data:** Articles older than 7 days are automatically evicted.
+- **No stale data:** Articles older than 3 days are automatically evicted.
 
 ```
          fresh[]               cached[]
@@ -227,7 +227,7 @@ This guarantees:
     │           merge_articles()            │
     │  1. index fresh by link               │
     │  2. filter cached (not in fresh,      │
-    │     not older than 7 days)            │
+    │     not older than 3 days)            │
     │  3. return fresh + filtered_cached    │
     └───────────────────────────────────────┘
                        │
@@ -322,7 +322,7 @@ Keeping `fallback_urls` in the configuration makes the aggregator resilient to
 such changes.
 
 ### Temporary outages
-Any server can be temporarily unavailable.  The 7-day rolling article cache
+Any server can be temporarily unavailable.  The 3-day rolling article cache
 ensures the page is never empty even when all live fetches fail.
 
 ---
