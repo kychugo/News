@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="3600" />
+  <title>Hong Kong News</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+    }
+    header {
+      background: linear-gradient(135deg, #c0392b 0%, #922b21 100%);
+      color: #fff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,.3);
+    }
+    header h1 { margin: 0 0 .25rem; font-size: 2rem; letter-spacing: .5px; }
+    header p  { margin: 0; font-size: .9rem; opacity: .85; }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .source-section { margin-bottom: 2.5rem; }
+    .source-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      border-left: 4px solid #c0392b;
+      padding-left: .6rem;
+      margin-bottom: 1rem;
+      color: #922b21;
+    }
+    .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.12);
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow .2s;
+    }
+    .card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+    .card a {
+      text-decoration: none;
+      color: #1a1a2e;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.4;
+      flex: 1;
+    }
+    .card a:hover { color: #c0392b; }
+    .card .summary {
+      margin-top: .5rem;
+      font-size: .85rem;
+      color: #555;
+      line-height: 1.5;
+    }
+    .card .meta {
+      margin-top: .75rem;
+      font-size: .75rem;
+      color: #999;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .8rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🇭🇰 Hong Kong News</h1>
+    <p>Last updated: 2026-03-08 06:35 (UTC) &mdash; auto-refreshes every hour</p>
+  </header>
+  <main>
+    <p style="text-align:center;color:#888;margin-top:3rem;">No news articles could be fetched. Please check back later.</p>
+  </main>
+  <footer>
+    Powered by GitHub Actions &amp; public RSS feeds &mdash;
+    RTHK, HK Free Press
+  </footer>
+</body>
+</html>
