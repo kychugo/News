@@ -47,7 +47,7 @@
   {
     "title": "Clearer statistics the missing link in Hong Kong’s waste reduction",
     "link": "https://hongkongfp.com/2026/03/14/clearer-statistics-the-missing-link-in-hong-kongs-waste-reduction/",
-    "summary": "By Steven Chan, The Green Earth Ten years ago, the government introduced the Food Wise Hong Kong campaign featuring the unforgettable mascot Big Waster – a cartoon character with eyes literally bigger than his stomach. His catchy rap still rings in our ears: “Order only portions you can finish, buy …",
+    "summary": "By Steven Chan Ten years ago, the government introduced the Food Wise Hong Kong campaign featuring the unforgettable mascot Big Waster – a cartoon character with eyes literally bigger than his stomach. His catchy rap still rings in our ears: “Order only portions you can finish, buy only what you nee…",
     "published": "Sat, 14 Mar 2026 02:00:00 +0000",
     "source": "HK Free Press",
     "source_url": "https://www.hongkongfp.com/",
@@ -270,6 +270,15 @@
     "lang": "en"
   },
   {
+    "title": "Top of the world: why Indonesian workers are happiest in Asia-Pacific",
+    "link": "https://www.scmp.com/week-asia/lifestyle-culture/article/3346545/top-world-why-indonesian-workers-are-happiest-asia-pacific?utm_source=rss_feed",
+    "summary": "A survey showing workers in Indonesia as the happiest in Asia-Pacific has prompted discussions about the factors underpinning their positive attitudes relative to their regional peers.\nA workplace report published this month by employment marketplace Jobstreet by SEEK found 82 per cent of Indonesian…",
+    "published": "Sun, 15 Mar 2026 08:00:12 +0000",
+    "source": "South China Morning Post",
+    "source_url": "https://www.scmp.com/",
+    "lang": "en"
+  },
+  {
     "title": "Couple arrested after 1-year-old son falls to his death from Hong Kong flat",
     "link": "https://www.scmp.com/news/hong-kong/society/article/3346648/couple-arrested-after-their-1-year-old-son-falls-his-death-hong-kong-flat?utm_source=rss_feed",
     "summary": "A Hong Kong couple have been arrested after their one-year-old son fell to his death from a high-rise residential building in Tsuen Wan, the South China Morning Post has learned.\nPreliminary investigations showed that the living room windows in the family’s fifth-floor unit were neither locked nor f…",
@@ -378,7 +387,7 @@
     "lang": "en"
   },
   {
-    "title": "Playing the harp amid sirens: why a Hongkonger refuses to leave Israel",
+    "title": "Playing the harp amid sirens: why a Hongkonger refuses to flee the Middle East",
     "link": "https://www.scmp.com/news/hong-kong/society/article/3346634/playing-harp-amid-sirens-why-hongkonger-refuses-flee-middle-east?utm_source=rss_feed",
     "summary": "While hundreds of Hongkongers stranded in the Middle East have scrambled for flights home after the US-Israel war against Iran broke out, a devoted Christian from the city has chosen to stay in Israel, saying she has experienced far worse before.\nThe outbreak of war was unsettling, but Gloria Mok Ch…",
     "published": "Sun, 15 Mar 2026 03:00:13 +0000",
@@ -396,19 +405,10 @@
     "lang": "en"
   },
   {
-    "title": "Inside the coconut cartel: how Chinese money squeezes Thai farmers",
-    "link": "https://www.scmp.com/week-asia/economics/article/3346531/inside-coconut-cartel-how-chinese-money-squeezes-thai-farmers?utm_source=rss_feed",
-    "summary": "Hands knotted by a lifetime of hard work, Supon Haochareon says Thai farmers in his position do not get to retire.\nInstead, the 81-year-old and his wife Lamduan, 74, must tend more than 300 trees in Samut Sakhon, an hour west of Bangkok, agonising each year as prices slump and their coconuts grow sm…",
-    "published": "Sun, 15 Mar 2026 02:30:08 +0000",
-    "source": "South China Morning Post",
-    "source_url": "https://www.scmp.com/",
-    "lang": "en"
-  },
-  {
     "title": "Trump urges world to help open Strait of Hormuz; U.S. Embassy in Baghdad hit - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNVA5eFpYMThSQmVXYk1rMUxZWVU2REVGclphQXJqUzlyaDVrRTdaZ3BMQUYtOHZCOGFwTE9VZDVMWjQxdUlkbGNjS2YyTHhjT0hKOTcwT1psa0V2OWtoN1JOU1U1bVBGT1MyUWl1ZFlqRE9KQ2pDQ0VPMlI0bXA5cElqeEdtblZ1MlVybVpMbnVGWjJJWm5hTTJ1emtfWmh3b2dKNWF0RHROOGE0Q2NYSEFNT3EwTkRITUtRUWdMNDJkQ1k?oc=5",
-    "summary": "Trump urges world to help open Strait of Hormuz; U.S. Embassy in Baghdad hit&nbsp;&nbsp;The Washington PostIran war live: Trump says not ready for deal; US, Israel pound Isfahan&nbsp;&nbsp;Al JazeeraTrump urges US allies to send warships to Strait of Hormuz as Iran vows to retaliate&nbsp;&nbsp;The H…",
-    "published": "Sun, 15 Mar 2026 04:38:54 GMT",
+    "summary": "Trump urges world to help open Strait of Hormuz; U.S. Embassy in Baghdad hit&nbsp;&nbsp;The Washington PostLive Updates: Trump Urges World to Help Protect Strait of Hormuz&nbsp;&nbsp;The New York TimesTrump urges US allies to send warships to Strait of Hormuz as Iran vows to retaliate&nbsp;&nbsp;The…",
+    "published": "Sun, 15 Mar 2026 05:22:00 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -416,8 +416,8 @@
   {
     "title": "Covington Air Force Captain among six identified in Iraq refueling plane crash - KOMO",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPakFoaGRaU1FHdy1sSjdZV3VsZWNTeVBfaHkwMDN0ZVdvU0ZlcGZZdkFxWldLcHd6Vm5aOU9LRWFPbXBwSURzV09KV2xISC1KVTVramxKX24tTkY2Nm04UHpQa0VTc3RBMXJaaFVyS2hQbmpWQk00MnR4eXlUQWpGY1pBbnJ2UHFFamxkWU1SUjVSYUtDZkpqNXpFRGQtRHAxbXhyd2huZkdBLWpwMjBKU3BBa0NKT1dmWjdfeDhBNGM3eno2aEFWU2hDUmhjX0VsSk8wOXJNSEVYQ21EUExDLU5abVB2RDRLR0dr?oc=5",
-    "summary": "Covington Air Force Captain among six identified in Iraq refueling plane crash&nbsp;&nbsp;KOMOPentagon identifies six airmen killed in plane crash in Iraq&nbsp;&nbsp;CNNCrew of fatal US military crash included Alabama father recently deployed and several from Ohio&nbsp;&nbsp;YahooAll 6 crew members …",
-    "published": "Sun, 15 Mar 2026 05:35:53 GMT",
+    "summary": "Covington Air Force Captain among six identified in Iraq refueling plane crash&nbsp;&nbsp;KOMOPentagon identifies six airmen killed in plane crash in Iraq&nbsp;&nbsp;CNNUS names six crew killed in refuelling plane crash in Iraq&nbsp;&nbsp;BBCPentagon Names 6 Military Members Killed in Iraq Tanker Cr…",
+    "published": "Sun, 15 Mar 2026 06:34:22 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -426,24 +426,24 @@
     "title": "Middle East crisis live: Trump ‘surprised’ Iran has targeted Gulf countries and claims US ‘decimated’ Kharg Island - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1M3bUpvZzd5dENxOG1xTHdab2ZORWhrUGtZNVNJNDU5dGV5dk9VeUhzWmVYUFY5cUFlUk1MOXRmY0VBZE5nM3AyUDgxX3BKdDhEZUNORVl2cmRWZEpaY0lmeHRWbDcxZjFsbHcxV19IS2syRWtuaDNZbmxqRE5WX3FyclRSLXdKcXpoWGw4OUpKSWNQQ1FYUlNyVlhhaXVGZnlkRnZnNVByYmFhLWRjaFpQcE1pQ2xJMWxOOTE2a2VMQ01N?oc=5",
     "summary": "Middle East crisis live: Trump ‘surprised’ Iran has targeted Gulf countries and claims US ‘decimated’ Kharg Island&nbsp;&nbsp;The GuardianView Full Coverage on Google News",
-    "published": "Sun, 15 Mar 2026 05:00:00 GMT",
+    "published": "Sun, 15 Mar 2026 06:25:00 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
   },
   {
-    "title": "F.C.C. Chair Threatens to Revoke Broadcasters’ Licenses Over War Coverage - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWFhQSW53M2FvN0pnUGJ3YnIxMW9acWJIMWx6MDEwck1EMFo5MkJQY1J2dXNnZnlpZTRyV3JvWUhvOW1KWDFxbmZGTWFWUHhMSEFENzRFUDRBei1ULUo4OWM0a1FxRHk3Smc3OVVXMW9yR3VIVlBFa2lvUU1fcnNjSjZiWWRsVXh3MFE?oc=5",
-    "summary": "F.C.C. Chair Threatens to Revoke Broadcasters’ Licenses Over War Coverage&nbsp;&nbsp;The New York TimesTrump administration threatens news outlets over critical coverage of Iran&nbsp;&nbsp;Al JazeeraFCC chair slams broadcasters after Trump disputes reports on Iran-damaged U.S. tankers&nbsp;&nbsp;CNB…",
-    "published": "Sun, 15 Mar 2026 05:31:19 GMT",
+    "title": "FCC chair threatens to revoke broadcasters' licenses amid Trump comments on Iran coverage - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLVdyN2dsbC02dzFNNFBvbXBxZVJFOWpOd1puYk4tb2NxeF9Yd3JqdXJjbHR1R0xMcHIycE52YjFfb2ZNSTV2eFZRSEw5ZXhjNUhqVGxwOERjTGVWUGhUaWtfZEwzNUlOWHJUdTdqRlVMYkxTa2JFNUJndjU2M1N2U2p0bktKREN4SS14azVhalhudVFYTWs4QTF0M2ZGNXpMbUVKMUJnaThZcFdUWUJ1bHE3cHdVUG02OHc?oc=5",
+    "summary": "FCC chair threatens to revoke broadcasters' licenses amid Trump comments on Iran coverage&nbsp;&nbsp;NBC NewsF.C.C. Chair Threatens to Revoke Broadcasters’ Licenses Over War Coverage&nbsp;&nbsp;The New York TimesTrump administration threatens news outlets over critical coverage of Iran&nbsp;&nbsp;Al…",
+    "published": "Sun, 15 Mar 2026 03:58:00 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
   },
   {
-    "title": "Cuba: Protesters attack ruling party's office amid blackouts - DW.com",
+    "title": "Cuba: Protesters attack ruling party's office amid blackouts - dw.com",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON0xmSXhjQ1dxbzVtd0xwT1ZoelpxT2piQXZOQUEzcXE1dTVLV0NPMXhOQy1rc1p3SWNrVTY2aFJYZ2hjYWFRY09kQ1ZXdFRka2Uwcktnam9QV0VZYkxfYWFKVDVSaC1NUkZzbG5xSXltRFhGRVBJUUlURlBWQWozR2Znc3NDNmhwaWNmMEpDeEMxREM4c0HSAZYBQVVfeXFMTXF3dFUwY1lSXzZmSTZiZDU5azRUSHNLT2FhWmZfSmIwcTRlTVY0V1FsZzlhZWJUWVkzR2Itc1BPOXY0SlpRTUVlMERDMTBGTERobnY4Zk4zY19fNVM3eXZKTzFuc1d2YXRGMzZoYmtQTllEamhVUVZ0S0llNmFXNFFNa3ZYX2NTMHFBRVhfSUE2dWlwdWhR?oc=5",
-    "summary": "Cuba: Protesters attack ruling party's office amid blackouts&nbsp;&nbsp;DW.comCuban protesters ransack Communist office as energy crisis deepens&nbsp;&nbsp;BBCProtesters in Cuba attack Communist Party office in rare riot over blackouts&nbsp;&nbsp;ReutersProtests erupt in Cuba as US restrictions spar…",
+    "summary": "Cuba: Protesters attack ruling party's office amid blackouts&nbsp;&nbsp;dw.comCuban protesters ransack Communist office as energy crisis deepens&nbsp;&nbsp;BBCProtesters in Cuba attack Communist Party office in rare riot over blackouts&nbsp;&nbsp;ReutersProtests erupt in Cuba as US restrictions spar…",
     "published": "Sun, 15 Mar 2026 03:39:37 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
@@ -452,7 +452,7 @@
   {
     "title": "The latest: Heavy snow moving into Minnesota overnight - Star Tribune",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWWVrZFUwSmFZaXR0andJdnRGOWpheFhpV3gyQU9adUR2X1pCbGRscGNYN2hmQWdldVU0bzBGdEZPV0hRbXU1RE9BbjJaRTVseWMxMThSNmVld2JtZmp0NzBZcW8yRUt3MGw0MkFaMDgxTHJDRFIwZXZPdGhILWRSU3lR?oc=5",
-    "summary": "The latest: Heavy snow moving into Minnesota overnight&nbsp;&nbsp;Star TribuneWinter Storm In Upper Midwest To Bring Blizzard Conditions; Record Snow Possible In Parts Of Wisconsin, Michigan&nbsp;&nbsp;The Weather ChannelMarch megastorm: Blizzard, dangerous winds to threaten nearly 200 million&nbsp;…",
+    "summary": "The latest: Heavy snow moving into Minnesota overnight&nbsp;&nbsp;Star TribuneBlizzard warnings upgraded as major snowstorm targets the Twin Cities&nbsp;&nbsp;MPR NewsForecast First Alert: Blizzard Warning Continues&nbsp;&nbsp;5 EYEWITNESS NEWS‘Historic March Winter Storm’ to Slam Upper Midwest, For…",
     "published": "Sun, 15 Mar 2026 03:56:43 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
@@ -470,7 +470,7 @@
   {
     "title": "Hawaii residents, visitors urged to stay indoors as storm floods roads, cuts power to 111,000 - San Francisco Chronicle",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc1FBMVpjN2ROa3RCZ1hNYVVCZmh6SC1jdzEzWGxRdThQLWpMbUNVS3pUM3pvWFhRUksxNmtzel9zUlpmcXRhZ2NOSGV0UmVFVy1TaUF4XzBFcWZmcURUdHNZWDcxWVhsN1BLbUlwYVRRck04bFpjUXlsR1YtV2JTUHJCaEN1Zw?oc=5",
-    "summary": "Hawaii residents, visitors urged to stay indoors as storm floods roads, cuts power to 111,000&nbsp;&nbsp;San Francisco ChronicleReservoir check, drifting house among Honolulu storm recovery efforts&nbsp;&nbsp;Hawaii News NowOver 55k Hawaiian Electric customers left in the dark amid Kona low storm; p…",
+    "summary": "Hawaii residents, visitors urged to stay indoors as storm floods roads, cuts power to 111,000&nbsp;&nbsp;San Francisco ChronicleReservoir check, drifting house among Honolulu storm recovery efforts&nbsp;&nbsp;Hawaii News NowHawaiʻi Storm Update: Flash Flooding Continues&nbsp;&nbsp;Big Island Video N…",
     "published": "Sun, 15 Mar 2026 01:37:46 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
@@ -479,7 +479,7 @@
   {
     "title": "Trump says Iran is ready to negotiate a ceasefire but he's not ready to make a deal - NBC News",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQjloT1l2RFpONldNWmQxRi1IQWpFV3N6UldJc1NHcVA2UGZVM3VVRExrRWJjVnd4d3J5LTRrZ2xLZmt3V3NwNURiZHRZNHJzU1BVQm9vMkdXVlQwcmVWc2ZlRlVtbU8zZUk5OV9KOVA5RDdyeXBnUjg0VmZNOHZZb0VnbFhCMGpkcHZDYnQ3X0FOTnJNajBCRF95VURIanJxMm1DZlJCXzVzX290dnc?oc=5",
-    "summary": "Trump says Iran is ready to negotiate a ceasefire but he's not ready to make a deal&nbsp;&nbsp;NBC NewsDonald Trump&nbsp;&nbsp;The GuardianScoop: Trump claimed in G7 call that Iran is \"about to surrender\"&nbsp;&nbsp;AxiosTrump Was \"Surprised\" With Iran's Attack On Middle Eastern Countries&nbsp;&nbsp…",
+    "summary": "Trump says Iran is ready to negotiate a ceasefire but he's not ready to make a deal&nbsp;&nbsp;NBC NewsIran war live: Trump says not ready for deal; US, Israel pound Isfahan&nbsp;&nbsp;Al JazeeraTrump Rejects Deal With Iran on Current Terms as War Rages On&nbsp;&nbsp;Bloomberg.com‘A Very Big Hurdle’…",
     "published": "Sat, 14 Mar 2026 23:12:05 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
@@ -495,10 +495,10 @@
     "lang": "en"
   },
   {
-    "title": "Another 3 members of Iran's women's soccer team decide against staying in Australia as refugees - PBS",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkg3Zm5ZbExkZDJmU3JndUZMdWpITzAyV19HV21DenB1Z0gzTGNkQTB0WUFMaGhZMElpeExqMElTbzdOV1MwT3I4eXhERnNUN19feTEwbVRuV1JvdVppQTdIYVlDbklyS201WlU0ZDAwUXFzb1diMWMwTkN3cklmQkFScFdGbHd5bEdvM0xHTGxlNlBkSnVQMFlHcUVubmxTVkFYMG14VlYzd3N2c2JINVZXSkxiOVN2MjRHV3JNVnNNTk5JVnhj0gHMAUFVX3lxTFBnTTAxYmxrV1FDNC00WlphZS1zV3pldHktV0dYalNCckFCd1ZWb0YzUDd5dF9sTFVVckk2bjRPVmVNVWxqaWZaUjFlY3lybWkzMHh2TzhrZnlpZGE1MmVucTJYc3ZJY3ptY3NtZXUtcW02aXh6elhPYVoxVkFsZUJKMG02YjVCQkk0OVRnM3ZwLVNqTTVaQjhKa3kzUE1SVl9WVlNzSGNxdmxOcWJ1WUZTbm13anRYQUw1UkFLSGttSHEySFExSEJCZC1UVA?oc=5",
-    "summary": "Another 3 members of Iran's women's soccer team decide against staying in Australia as refugees&nbsp;&nbsp;PBSThree More Iranian Soccer Players Withdraw Bid for Asylum in Australia&nbsp;&nbsp;The New York TimesMore Iran women's soccer players decide to leave Australia&nbsp;&nbsp;ESPNThree members of…",
-    "published": "Sat, 14 Mar 2026 22:35:15 GMT",
+    "title": "3 more members of Iran women's soccer team change course, decline to accept asylum in Australia - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcl8zdUxwaThqVHYyMjAwWTY0RWUyNHVLZU9LWWJtU1A2NnhtSGFvUWhDWDdnaHpVeU9scDZSdTdsaEVUVkI0c3ZMZ1FxT1BXWF94VUtWX1kwOHdTdTNEdDBuLW9zeGVYeHlNODI5bGZkSG5vZVpMYkZvMHl3eW5fTUpycTltSXVpR3MwbzItMVZ3WkZ4emfSAZsBQVVfeXFMTnE1ZjhvS1JSOFZCU2NjMEU2YnBKR0JFV1B2eVNqNERvc2lRTmpKZlk0OE1GQ3FHZmFlMlpjQ21XUFFtWlVhNzhveTNpOTNTQzR1enZpOG9ZWndSSmVfa1JoUXY4R0YtbWdJaTd2UjFJTE5PWkVwREQ1TzBxanhrUnBQcm4yMHA1Z1k3T18zTDZJOWE2YW9zb2ExQnM?oc=5",
+    "summary": "3 more members of Iran women's soccer team change course, decline to accept asylum in Australia&nbsp;&nbsp;CBS NewsThree More Iranian Soccer Players Withdraw Bid for Asylum in Australia&nbsp;&nbsp;The New York TimesMore Iran women's soccer players decide to leave Australia&nbsp;&nbsp;ESPNThree membe…",
+    "published": "Sat, 14 Mar 2026 23:44:00 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -513,10 +513,10 @@
     "lang": "en"
   },
   {
-    "title": "North Korea fired 10 ballistic missiles, says Seoul - DW.com",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU2huUmdrMVVGbUJnNFBhMXh4WVlUaGFwVmNyc2piQ2ZLNHl0aFV4MnBpU0gyV1dyR2VFVElXYkJZaFZmTzBKYlZ3R3o1NVpjZDVROWVPSjdFaEdVUTJvTEI5bVhObnk4YzJmbFVxaWpHdjREY3JMTzM4LU9XUl9vUFA0dE1NOEpyYVYw0gGLAUFVX3lxTE5fSmJyeTNkQ2lqbDZHSUhlTWt1LTg2LWVvQ04zWmxRQ2c4dlY5a0QwWTFpQ2l4YTdCaGlBR1R6bm9vUWtFd2k0c0w3NTdMSWFJakVvYXY5cmQzMlFKMUZuUXNzeGdfQjhfelM4Z0phM0dORDNVVUdrdDlPY3YxQlh3MTZfR2VLMEI0X2c?oc=5",
-    "summary": "North Korea fired 10 ballistic missiles, says Seoul&nbsp;&nbsp;DW.comKim Jong Un Oversees Test of Tactical-Nuke Launchers&nbsp;&nbsp;WSJNorth Korea fires about 10 ballistic missiles toward sea in show of force, South Korea says&nbsp;&nbsp;PBSNorth Korean leader Kim oversees test-launch of multiple r…",
-    "published": "Sat, 14 Mar 2026 12:42:01 GMT",
+    "title": "North Korea fires about 10 ballistic missiles toward sea in show of force, South Korea says - PBS",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRmFYeW9xODhISm5qWHY0Z1ZTa3ZRVjlSUGdhcXhNNWFLQXM3bjJwa2NBbGpQMlFTa2JJQ3JwSVZNaHRyS1otMFFIQ0hNTVB1SVVDaEFVUWZONHh2emlESkdCbEs0eHh3ZWpWcnJjS3JfZHlDM255dll0S2lkSE5FSmJ2NjRGcHVJdERXOG9PZ3NNYklFSU9kc3NMMVA0dm9icVJBSU9CTE5aQ0pNMzhxYUdmSWVBUTZyZFZWeWZwWDZZeGfSAcgBQVVfeXFMTkhXYnRSNldCOEJzSGVuNmN5a1RVV21nWVhJaHA1OTJkRGpTTUx5TVZ5eDlINThGLW9ZeUhrR1IxQWJTMlN4REVaVk52Q0JIQmRLWU9VZTZ1MHlBcWU1OFA0QmlSaFFGeWx0OXd5NmlEOW1qNGk5alg2THl0QjlIUHdrTGlxa0VxWXJVUmt1YU14bUZ2dUdKaWxPZ29fZi1OdS0xdHdHTnI4aUdBVEFVWGIyblJBVHNQRUhzNlB5Q0FlWVlJYTdQMEw?oc=5",
+    "summary": "North Korea fires about 10 ballistic missiles toward sea in show of force, South Korea says&nbsp;&nbsp;PBSKim Jong Un Oversees Test of Tactical-Nuke Launchers&nbsp;&nbsp;WSJNorth Korean leader Kim oversees test-launch of multiple rocket launchers -KCNA&nbsp;&nbsp;ReutersKim Jong Un appears with teen…",
+    "published": "Sat, 14 Mar 2026 17:17:25 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -524,8 +524,53 @@
   {
     "title": "Dozens of Medical Workers Killed as Israel Hits Lebanon - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdm1JNkFodkhEWnExTTVfbmJOUy1rUk9saC1OZE5EVDkyaGJlTkt5Y3d6N0ZyazJUSUJuVEF5T0RQamNtQzB6TGVlc3hjRmpTZXI2bTVGVXlPY25tenlReHZYWUo3Q2ZkbmVRVVhHQ3c1ZUlka0xRa1FiVnlKWFJtY2ZPYTNPNkZXd2RpMkxnZjg?oc=5",
-    "summary": "Dozens of Medical Workers Killed as Israel Hits Lebanon&nbsp;&nbsp;The New York TimesThe war that never ended: Israel seizes moment to finish fight against Hezbollah, Iran’s proxy in Lebanon&nbsp;&nbsp;CNNIsrael planning massive ground invasion of Lebanon, officials say&nbsp;&nbsp;AxiosIsrael and Le…",
+    "summary": "Dozens of Medical Workers Killed as Israel Hits Lebanon&nbsp;&nbsp;The New York TimesIsrael planning massive ground invasion of Lebanon, officials say&nbsp;&nbsp;AxiosIsrael and Lebanon to talk as war with Hezbollah rages, Haaretz reports&nbsp;&nbsp;ReutersIsraeli strike in south Lebanon kills 17 me…",
     "published": "Sat, 14 Mar 2026 18:14:25 GMT",
+    "source": "Google News (US)",
+    "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+    "lang": "en"
+  },
+  {
+    "title": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Become the Next Nvidia by 2030 - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWV2UEY2WnpzMXNzMVpLbGp6b1BUMHltYW9KNkE0RXBOQzFIOEZtemowQjlKRjhnUC13U0REcUQtTlFpaW0xNmh2b2pIMXZaYUMwaDNsYVJCdDJIX1Q5Q2FhRWVGVkgzTWVhdVRrMnVKM1lza2FUal9nVFJBQzF5T2JVcXo4enBCS01XU1RwWDFiY2V4MjRtQg?oc=5",
+    "summary": "Prediction: This Artificial Intelligence (AI) Chip Stock Will Become the Next Nvidia by 2030&nbsp;&nbsp;The Motley FoolYou'll Never Believe What Broadcom's CEO Just Said About AI Demand&nbsp;&nbsp;Yahoo FinanceAfter Earnings, Is Broadcom Stock a Buy, a Sell, or Fairly Valued?&nbsp;&nbsp;MorningstarT…",
+    "published": "Sun, 15 Mar 2026 01:28:00 GMT",
+    "source": "Google News (US)",
+    "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+    "lang": "en"
+  },
+  {
+    "title": "Inside the coconut cartel: how Chinese money squeezes Thai farmers",
+    "link": "https://www.scmp.com/week-asia/economics/article/3346531/inside-coconut-cartel-how-chinese-money-squeezes-thai-farmers?utm_source=rss_feed",
+    "summary": "Hands knotted by a lifetime of hard work, Supon Haochareon says Thai farmers in his position do not get to retire.\nInstead, the 81-year-old and his wife Lamduan, 74, must tend more than 300 trees in Samut Sakhon, an hour west of Bangkok, agonising each year as prices slump and their coconuts grow sm…",
+    "published": "Sun, 15 Mar 2026 02:30:08 +0000",
+    "source": "South China Morning Post",
+    "source_url": "https://www.scmp.com/",
+    "lang": "en"
+  },
+  {
+    "title": "F.C.C. Chair Threatens to Revoke Broadcasters’ Licenses Over War Coverage - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWFhQSW53M2FvN0pnUGJ3YnIxMW9acWJIMWx6MDEwck1EMFo5MkJQY1J2dXNnZnlpZTRyV3JvWUhvOW1KWDFxbmZGTWFWUHhMSEFENzRFUDRBei1ULUo4OWM0a1FxRHk3Smc3OVVXMW9yR3VIVlBFa2lvUU1fcnNjSjZiWWRsVXh3MFE?oc=5",
+    "summary": "F.C.C. Chair Threatens to Revoke Broadcasters’ Licenses Over War Coverage&nbsp;&nbsp;The New York TimesTrump administration threatens news outlets over critical coverage of Iran&nbsp;&nbsp;Al JazeeraFCC chair slams broadcasters after Trump disputes reports on Iran-damaged U.S. tankers&nbsp;&nbsp;CNB…",
+    "published": "Sun, 15 Mar 2026 05:31:19 GMT",
+    "source": "Google News (US)",
+    "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+    "lang": "en"
+  },
+  {
+    "title": "Another 3 members of Iran's women's soccer team decide against staying in Australia as refugees - PBS",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSkg3Zm5ZbExkZDJmU3JndUZMdWpITzAyV19HV21DenB1Z0gzTGNkQTB0WUFMaGhZMElpeExqMElTbzdOV1MwT3I4eXhERnNUN19feTEwbVRuV1JvdVppQTdIYVlDbklyS201WlU0ZDAwUXFzb1diMWMwTkN3cklmQkFScFdGbHd5bEdvM0xHTGxlNlBkSnVQMFlHcUVubmxTVkFYMG14VlYzd3N2c2JINVZXSkxiOVN2MjRHV3JNVnNNTk5JVnhj0gHMAUFVX3lxTFBnTTAxYmxrV1FDNC00WlphZS1zV3pldHktV0dYalNCckFCd1ZWb0YzUDd5dF9sTFVVckk2bjRPVmVNVWxqaWZaUjFlY3lybWkzMHh2TzhrZnlpZGE1MmVucTJYc3ZJY3ptY3NtZXUtcW02aXh6elhPYVoxVkFsZUJKMG02YjVCQkk0OVRnM3ZwLVNqTTVaQjhKa3kzUE1SVl9WVlNzSGNxdmxOcWJ1WUZTbm13anRYQUw1UkFLSGttSHEySFExSEJCZC1UVA?oc=5",
+    "summary": "Another 3 members of Iran's women's soccer team decide against staying in Australia as refugees&nbsp;&nbsp;PBSThree More Iranian Soccer Players Withdraw Bid for Asylum in Australia&nbsp;&nbsp;The New York TimesMore Iran women's soccer players decide to leave Australia&nbsp;&nbsp;ESPNThree members of…",
+    "published": "Sat, 14 Mar 2026 22:35:15 GMT",
+    "source": "Google News (US)",
+    "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
+    "lang": "en"
+  },
+  {
+    "title": "North Korea fired 10 ballistic missiles, says Seoul - DW.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU2huUmdrMVVGbUJnNFBhMXh4WVlUaGFwVmNyc2piQ2ZLNHl0aFV4MnBpU0gyV1dyR2VFVElXYkJZaFZmTzBKYlZ3R3o1NVpjZDVROWVPSjdFaEdVUTJvTEI5bVhObnk4YzJmbFVxaWpHdjREY3JMTzM4LU9XUl9vUFA0dE1NOEpyYVYw0gGLAUFVX3lxTE5fSmJyeTNkQ2lqbDZHSUhlTWt1LTg2LWVvQ04zWmxRQ2c4dlY5a0QwWTFpQ2l4YTdCaGlBR1R6bm9vUWtFd2k0c0w3NTdMSWFJakVvYXY5cmQzMlFKMUZuUXNzeGdfQjhfelM4Z0phM0dORDNVVUdrdDlPY3YxQlh3MTZfR2VLMEI0X2c?oc=5",
+    "summary": "North Korea fired 10 ballistic missiles, says Seoul&nbsp;&nbsp;DW.comKim Jong Un Oversees Test of Tactical-Nuke Launchers&nbsp;&nbsp;WSJNorth Korea fires about 10 ballistic missiles toward sea in show of force, South Korea says&nbsp;&nbsp;PBSNorth Korean leader Kim oversees test-launch of multiple r…",
+    "published": "Sat, 14 Mar 2026 12:42:01 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -643,15 +688,6 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeElOc1A0ajVJQUpPcDhCS0doYm1VSlVKeFBuclRQLURJZm1GX01lOWdOUS1tdDFuN1lGa0lCa2d0SXZzNFJmQkt1WmUxeG4wWW9uMzVZcVlIS2J6RnRKanI5ZWVfQ1hHOVVKSi0tZ09zTjlKYnZJYjlSVjdkbU8ySkhleGtpdFZfM0VrOGdZOU9QYklfOWpVTVZJWHBvU1QtS2tpMkpNWjQ5aURqMmVQYm1wVDhaaUFMdGww?oc=5",
     "summary": "Russian strike on the Kyiv region kills 4 and wounds at least 15, with peace talks stalled&nbsp;&nbsp;NBC NewsRussian Offensive Campaign Assessment, March 14, 2026&nbsp;&nbsp;Institute for the Study of WarUkraine war briefing: six people killed as Russia unleashes missile and drone attacks, official…",
     "published": "Sat, 14 Mar 2026 12:34:14 GMT",
-    "source": "Google News (US)",
-    "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
-    "lang": "en"
-  },
-  {
-    "title": "North Korea fires about 10 ballistic missiles toward sea in show of force, South Korea says - PBS",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRmFYeW9xODhISm5qWHY0Z1ZTa3ZRVjlSUGdhcXhNNWFLQXM3bjJwa2NBbGpQMlFTa2JJQ3JwSVZNaHRyS1otMFFIQ0hNTVB1SVVDaEFVUWZONHh2emlESkdCbEs0eHh3ZWpWcnJjS3JfZHlDM255dll0S2lkSE5FSmJ2NjRGcHVJdERXOG9PZ3NNYklFSU9kc3NMMVA0dm9icVJBSU9CTE5aQ0pNMzhxYUdmSWVBUTZyZFZWeWZwWDZZeGfSAcgBQVVfeXFMTkhXYnRSNldCOEJzSGVuNmN5a1RVV21nWVhJaHA1OTJkRGpTTUx5TVZ5eDlINThGLW9ZeUhrR1IxQWJTMlN4REVaVk52Q0JIQmRLWU9VZTZ1MHlBcWU1OFA0QmlSaFFGeWx0OXd5NmlEOW1qNGk5alg2THl0QjlIUHdrTGlxa0VxWXJVUmt1YU14bUZ2dUdKaWxPZ29fZi1OdS0xdHdHTnI4aUdBVEFVWGIyblJBVHNQRUhzNlB5Q0FlWVlJYTdQMEw?oc=5",
-    "summary": "North Korea fires about 10 ballistic missiles toward sea in show of force, South Korea says&nbsp;&nbsp;PBSKim Jong Un Oversees Test of Tactical-Nuke Launchers&nbsp;&nbsp;WSJNorth Korean leader Kim oversees test-launch of multiple rocket launchers -KCNA&nbsp;&nbsp;ReutersNorth Korea fires missiles in…",
-    "published": "Sat, 14 Mar 2026 17:17:25 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -796,15 +832,6 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc2JGclFOLXhNaG9uc0dLUmZCRnE2RVlMQjZlUU5aeVIzTHRwS2FaS0UyTmgyV2xuUWh5SEFYV3cxWWkxaE52RURKRC15ZmZ5bnNCWXJFd2lfT0xFckgxakxCSnZzYmFYdmVqVnZsbS1pQUpOTWoyVkxkX1lEVTlYX3pXNldqQUo2RFJBZVNJanQweGFiYTV0WGNOUF9sbkVFUGNna2NpWVBWYXVDR3ZzZ1lLZEQtMlBqUGdkNjdQTk9SOC1kOGRIeTRYSm5nYmxnTXlFMm5FeWYwRHVi?oc=5",
     "summary": "Ukraine war briefing: six people killed as Russia unleashes missile and drone attacks, officials say&nbsp;&nbsp;The GuardianRussian Offensive Campaign Assessment, March 14, 2026&nbsp;&nbsp;Institute for the Study of WarRussian strike on the Kyiv region kills 4 and wounds at least 15, with peace talk…",
     "published": "Sun, 15 Mar 2026 02:13:00 GMT",
-    "source": "Google News (US)",
-    "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
-    "lang": "en"
-  },
-  {
-    "title": "3 more members of Iran women's soccer team change course, decline to accept asylum in Australia - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcl8zdUxwaThqVHYyMjAwWTY0RWUyNHVLZU9LWWJtU1A2NnhtSGFvUWhDWDdnaHpVeU9scDZSdTdsaEVUVkI0c3ZMZ1FxT1BXWF94VUtWX1kwOHdTdTNEdDBuLW9zeGVYeHlNODI5bGZkSG5vZVpMYkZvMHl3eW5fTUpycTltSXVpR3MwbzItMVZ3WkZ4emfSAZsBQVVfeXFMTnE1ZjhvS1JSOFZCU2NjMEU2YnBKR0JFV1B2eVNqNERvc2lRTmpKZlk0OE1GQ3FHZmFlMlpjQ21XUFFtWlVhNzhveTNpOTNTQzR1enZpOG9ZWndSSmVfa1JoUXY4R0YtbWdJaTd2UjFJTE5PWkVwREQ1TzBxanhrUnBQcm4yMHA1Z1k3T18zTDZJOWE2YW9zb2ExQnM?oc=5",
-    "summary": "3 more members of Iran women's soccer team change course, decline to accept asylum in Australia&nbsp;&nbsp;CBS NewsThree more Iran football team members change minds over asylum&nbsp;&nbsp;BBCThree More Iranian Soccer Players Withdraw Bid for Asylum in Australia&nbsp;&nbsp;The New York TimesThree me…",
-    "published": "Sat, 14 Mar 2026 23:44:00 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
     "lang": "en"
@@ -2247,15 +2274,6 @@
     "published": "Sat, 14 Mar 2026 01:21:00 GMT",
     "source": "Google News (US)",
     "source_url": "https://news.google.com/home?hl=en-US&gl=US&ceid=US:en",
-    "lang": "en"
-  },
-  {
-    "title": "China approves ‘ethnic unity’ law denounced by rights groups",
-    "link": "https://hongkongfp.com/2026/03/12/china-to-approve-ethnic-unity-law-denounced-by-rights-groups/",
-    "summary": "China approved what it called an &#8220;ethnic unity&#8221; law on Thursday, which rights advocates warn could further marginalise minority groups such as the Uyghurs. The law, passed by the National People&#8217;s Congress, formalises policies to promote Mandarin as the &#8220;national common langu…",
-    "published": "Thu, 12 Mar 2026 07:42:39 +0000",
-    "source": "HK Free Press",
-    "source_url": "https://www.hongkongfp.com/",
     "lang": "en"
   },
   {
@@ -5449,42 +5467,6 @@
     "link": "https://www.scmp.com/business/cryptocurrency/article/3346311/hong-kong-poised-grant-first-stablecoin-licences-hsbc-standard-chartered-sources?utm_source=rss_feed",
     "summary": "HSBC and a joint venture led by Standard Chartered are expected to be among the first companies to obtain Hong Kong’s stablecoin licences within two weeks, according to people familiar with the matter.\nThe number of licences and timetable had yet to be finalised and remained subject to change, but s…",
     "published": "Thu, 12 Mar 2026 09:00:08 +0000",
-    "source": "South China Morning Post",
-    "source_url": "https://www.scmp.com/",
-    "lang": "en"
-  },
-  {
-    "title": "Over 160 complaints filed after Mayday shifts Hong Kong show: Consumer Council",
-    "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3346341/over-160-complaints-filed-after-mayday-shifts-hong-kong-show-consumer-council?utm_source=rss_feed",
-    "summary": "Hong Kong’s consumer watchdog has received more than 160 complaints after Taiwanese rock band Mayday cancelled one of its coming concerts at Kai Tak Sports Park and rescheduled it for later, sparking frustration among fans.\nAlaina Shum Jiu-fai, chief executive of the Consumer Council, urged the orga…",
-    "published": "Thu, 12 Mar 2026 08:05:30 +0000",
-    "source": "South China Morning Post",
-    "source_url": "https://www.scmp.com/",
-    "lang": "en"
-  },
-  {
-    "title": "How China can win friends and influencers to help tell the country’s story well",
-    "link": "https://www.scmp.com/news/china/diplomacy/article/3346313/how-china-can-win-friends-and-influencers-help-tell-countrys-story-well?utm_source=rss_feed",
-    "summary": "Tourists, international students and foreign employees of Chinese companies could serve as grass-roots ambassadors, helping China’s story to resonate with audiences worldwide, according to one of the country’s leading political advisers.\nZhang Bo, a professor at Beijing Language and Culture Universi…",
-    "published": "Thu, 12 Mar 2026 08:00:10 +0000",
-    "source": "South China Morning Post",
-    "source_url": "https://www.scmp.com/",
-    "lang": "en"
-  },
-  {
-    "title": "Cathay Pacific, HK Express to double fuel surcharges on Wednesday as costs surge",
-    "link": "https://www.scmp.com/news/hong-kong/transport/article/3346338/cathay-pacific-nearly-double-fuel-surcharge-wednesday-costs-surge?utm_source=rss_feed",
-    "summary": "Cathay Pacific Airways and its budget carrier HK Express will nearly double their fuel surcharges starting from Wednesday, following a similar move by another Hong Kong carrier amid rising oil prices driven by conflict in the Middle East.\nThe city’s flag carrier said on Thursday the increase would a…",
-    "published": "Thu, 12 Mar 2026 07:49:40 +0000",
-    "source": "South China Morning Post",
-    "source_url": "https://www.scmp.com/",
-    "lang": "en"
-  },
-  {
-    "title": "In South Korea, witnesses describe chain of failures as Itaewon crowd crush inquiry begins",
-    "link": "https://www.scmp.com/news/asia/east-asia/article/3346336/south-korea-witnesses-describe-chain-failures-itaewon-crowd-crush-inquiry-begins?utm_source=rss_feed",
-    "summary": "South Korea’s long-awaited public inquiry into the 2022 Itaewon crowd crush opened on Thursday with tearful testimony from survivors and heated exchanges between police officials accused of mishandling emergency calls on the night of the disaster.\nThe hearing came more than three years after the tra…",
-    "published": "Thu, 12 Mar 2026 07:43:42 +0000",
     "source": "South China Morning Post",
     "source_url": "https://www.scmp.com/",
     "lang": "en"
