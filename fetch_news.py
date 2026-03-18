@@ -756,10 +756,16 @@ HTML_TEMPLATE = """\
       var a = NEWS_DATA[idx];
       if (!a) return;
 
+      /* Only allow http/https URLs to prevent javascript: injection */
+      function safeUrl(url) {{
+        return (url && (url.indexOf('http://') === 0 || url.indexOf('https://') === 0)) ? url : '#';
+      }}
+
       /* Image */
       var imgEl = document.getElementById('modal-img');
-      if (a.image) {{
-        imgEl.src = a.image;
+      var imgUrl = safeUrl(a.image);
+      if (imgUrl !== '#') {{
+        imgEl.src = imgUrl;
         imgEl.alt = a.title;
         imgEl.style.display = 'block';
       }} else {{
@@ -774,11 +780,11 @@ HTML_TEMPLATE = """\
 
       /* Source link */
       var srcLink = document.getElementById('modal-source-link');
-      srcLink.href = a.source_url;
+      srcLink.href = safeUrl(a.source_url);
       srcLink.textContent = '\u2197 ' + a.source;
 
       /* Read-more link */
-      document.getElementById('modal-read-more').href = a.link;
+      document.getElementById('modal-read-more').href = safeUrl(a.link);
 
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
