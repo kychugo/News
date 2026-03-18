@@ -124,6 +124,54 @@ def _strip_html(text: str) -> str:
     return re.sub(r"<[^>]+>", "", text).strip()
 
 
+def _extract_image(entry) -> str:  # type: ignore[no-untyped-def]
+    """Extract the best available image URL from a feedparser entry."""
+    # media:thumbnail (Yahoo Media RSS)
+    thumbnails = getattr(entry, "media_thumbnail", None)
+    if thumbnails and isinstance(thumbnails, list):
+        url = thumbnails[0].get("url", "")
+        if url:
+            return url
+
+    # media:content with medium="image"
+    media_content = getattr(entry, "media_content", None)
+    if media_content and isinstance(media_content, list):
+        for m in media_content:
+            if m.get("medium") == "image" or m.get("type", "").startswith("image/"):
+                url = m.get("url", "")
+                if url:
+                    return url
+        # fallback: first media:content item regardless of medium
+        url = media_content[0].get("url", "")
+        if url:
+            return url
+
+    # <enclosure> of image type
+    enclosures = getattr(entry, "enclosures", None)
+    if enclosures and isinstance(enclosures, list):
+        for enc in enclosures:
+            if enc.get("type", "").startswith("image/"):
+                url = enc.get("href", enc.get("url", ""))
+                if url:
+                    return url
+
+    # Try to pull the first <img> tag out of content or summary HTML
+    for attr in ("content", "summary", "description"):
+        raw = ""
+        if attr == "content":
+            entry_content = getattr(entry, "content", None)
+            if entry_content and isinstance(entry_content, list):
+                raw = entry_content[0].get("value", "")
+        else:
+            raw = entry.get(attr, "")
+        if raw:
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', raw, re.IGNORECASE)
+            if m:
+                return m.group(1)
+
+    return ""
+
+
 def fetch_rss(feed_info: dict) -> list[dict]:
     """Fetch articles from an RSS/Atom feed.
 
@@ -149,8 +197,9 @@ def fetch_rss(feed_info: dict) -> list[dict]:
             {
                 "title": entry.get("title", "").strip(),
                 "link": entry.get("link", ""),
-                "summary": content[:500] + ("…" if len(content) > 500 else ""),
+                "summary": content[:2000] + ("…" if len(content) > 2000 else ""),
                 "published": entry.get("published", ""),
+                "image": _extract_image(entry),
                 "source": feed_info["name"],
                 "source_url": feed_info["source_url"],
                 "lang": feed_info["lang"],
@@ -249,12 +298,19 @@ def fetch_tvb(feed_info: dict) -> list[dict]:
                         item.get("publishedAt") or item.get("publishTime")
                         or item.get("date") or item.get("createdAt") or ""
                     )
+                    image = (
+                        item.get("image") or item.get("thumbnail")
+                        or item.get("imageUrl") or item.get("img") or ""
+                    )
+                    if isinstance(image, dict):
+                        image = image.get("url") or image.get("src") or ""
                     articles.append(
                         {
                             "title": title.strip(),
                             "link": link,
-                            "summary": summary[:500] + ("…" if len(summary) > 500 else ""),
+                            "summary": summary[:2000] + ("…" if len(summary) > 2000 else ""),
                             "published": str(published),
+                            "image": str(image),
                             "source": feed_info["name"],
                             "source_url": feed_info["source_url"],
                             "lang": feed_info["lang"],
@@ -291,6 +347,7 @@ def fetch_tvb(feed_info: dict) -> list[dict]:
                     "link": full_url,
                     "summary": "",
                     "published": "",
+                    "image": "",
                     "source": feed_info["name"],
                     "source_url": feed_info["source_url"],
                     "lang": feed_info["lang"],
@@ -460,30 +517,48 @@ HTML_TEMPLATE = """\
       background: #faf5ed;
       border: 1px solid #d4c9b8;
       border-radius: 2px;
-      padding: 1.1rem 1.2rem 1rem;
       display: flex;
       flex-direction: column;
       transition: border-color .25s, box-shadow .25s;
+      cursor: pointer;
+      overflow: hidden;
     }}
     .card:hover {{
       border-color: #a0785a;
       box-shadow: 2px 3px 10px rgba(90,60,30,.10);
     }}
+    .card-thumb {{
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid #d4c9b8;
+      background: #ede6da;
+    }}
+    .card-body {{
+      padding: 1.1rem 1.2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }}
     .card .headline {{
-      text-decoration: none;
       color: #3a3028;
       font-size: .98rem;
       font-weight: bold;
       line-height: 1.5;
       flex: 1;
     }}
-    .card .headline:hover {{ color: #7b4f2e; text-decoration: underline; }}
+    .card:hover .headline {{ color: #7b4f2e; }}
     .card .summary {{
       margin-top: .6rem;
       font-size: .83rem;
       color: #6a5848;
       line-height: 1.6;
       font-family: Georgia, "Times New Roman", serif;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }}
     .card .card-footer {{
       display: flex;
@@ -508,16 +583,144 @@ HTML_TEMPLATE = """\
       border: 1px solid #c4a882;
       border-radius: 2px;
       padding: .12rem .45rem;
-      text-decoration: none;
       white-space: nowrap;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .02em;
+    }}
+    .card .read-more {{
+      font-size: .72rem;
+      color: #a0785a;
+      font-style: italic;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin-top: .4rem;
+    }}
+
+    /* ---- Modal overlay ---- */
+    .modal-overlay {{
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(50,38,28,.55);
+      z-index: 500;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 2rem 1rem;
+      overflow-y: auto;
+    }}
+    .modal-overlay.open {{ display: flex; }}
+    .modal {{
+      background: #faf5ed;
+      border: 1px solid #c9bfaf;
+      border-radius: 3px;
+      max-width: 720px;
+      width: 100%;
+      position: relative;
+      box-shadow: 0 8px 40px rgba(50,38,28,.25);
+      animation: modalIn .18s ease-out;
+      margin: auto;
+    }}
+    @keyframes modalIn {{
+      from {{ opacity: 0; transform: translateY(-18px); }}
+      to   {{ opacity: 1; transform: translateY(0); }}
+    }}
+    .modal-close {{
+      position: absolute;
+      top: .7rem;
+      right: .9rem;
+      background: none;
+      border: none;
+      font-size: 1.4rem;
+      color: #8a7060;
+      cursor: pointer;
+      line-height: 1;
+      padding: .2rem .4rem;
+      border-radius: 2px;
+      transition: color .2s, background .2s;
+    }}
+    .modal-close:hover {{ color: #3a3028; background: #ede6da; }}
+    .modal-image {{
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid #d4c9b8;
+      border-radius: 3px 3px 0 0;
+    }}
+    .modal-content {{
+      padding: 1.6rem 1.8rem 1.8rem;
+    }}
+    .modal-meta {{
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+      flex-wrap: wrap;
+      margin-bottom: .9rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
+    .modal-source-badge {{
+      font-size: .72rem;
+      color: #7b4f2e;
+      background: transparent;
+      border: 1px solid #c4a882;
+      border-radius: 2px;
+      padding: .15rem .5rem;
+      white-space: nowrap;
+      letter-spacing: .02em;
+    }}
+    .modal-date {{
+      font-size: .72rem;
+      color: #b0a090;
+      font-style: italic;
+    }}
+    .modal-title {{
+      font-size: 1.3rem;
+      font-weight: bold;
+      line-height: 1.45;
+      color: #3a3028;
+      margin: 0 0 1rem;
+    }}
+    .modal-body {{
+      font-size: .92rem;
+      color: #4a3c30;
+      line-height: 1.75;
+      white-space: pre-wrap;
+      font-family: Georgia, "Times New Roman", serif;
+      margin-bottom: 1.4rem;
+    }}
+    .modal-actions {{
+      display: flex;
+      gap: .8rem;
+      flex-wrap: wrap;
+      border-top: 1px solid #e0d5c5;
+      padding-top: 1rem;
+    }}
+    .btn-read-full {{
+      display: inline-block;
+      padding: .55rem 1.1rem;
+      background: #7b4f2e;
+      color: #faf5ed;
+      border-radius: 2px;
+      text-decoration: none;
+      font-size: .82rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .02em;
+      transition: background .2s;
+    }}
+    .btn-read-full:hover {{ background: #5c3820; }}
+    .btn-visit-source {{
+      display: inline-block;
+      padding: .55rem 1.1rem;
+      background: transparent;
+      color: #7b4f2e;
+      border: 1px solid #c4a882;
+      border-radius: 2px;
+      text-decoration: none;
+      font-size: .82rem;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       letter-spacing: .02em;
       transition: background .2s, color .2s;
     }}
-    .card .source-badge:hover {{
-      background: #ede0cf;
-      color: #5c3020;
-    }}
+    .btn-visit-source:hover {{ background: #ede0cf; color: #5c3020; }}
 
     /* ---- Footer ---- */
     footer {{
@@ -563,6 +766,91 @@ HTML_TEMPLATE = """\
     <a href="https://www.bbc.com/news/topics/cp7r8vglne2t" target="_blank" rel="noopener">BBC News HK</a>,
     <a href="https://news.google.com/home?hl=en-US&gl=US&ceid=US:en" target="_blank" rel="noopener">Google News (US)</a>
   </footer>
+
+  <!-- ---- Article detail modal ---- -->
+  <div class="modal-overlay" id="newsModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <img class="modal-image" id="modalImage" src="" alt="" />
+      <div class="modal-content">
+        <div class="modal-meta">
+          <span class="modal-source-badge" id="modalSource"></span>
+          <span class="modal-date" id="modalDate"></span>
+        </div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <p class="modal-body" id="modalBody"></p>
+        <div class="modal-actions">
+          <a class="btn-read-full" id="modalReadFull" href="#" target="_blank" rel="noopener noreferrer">↗ Read full article</a>
+          <a class="btn-visit-source" id="modalVisitSource" href="#" target="_blank" rel="noopener noreferrer">Visit source website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {{
+      var overlay = document.getElementById('newsModal');
+      var modalImage = document.getElementById('modalImage');
+      var modalSource = document.getElementById('modalSource');
+      var modalDate = document.getElementById('modalDate');
+      var modalTitle = document.getElementById('modalTitle');
+      var modalBody = document.getElementById('modalBody');
+      var modalReadFull = document.getElementById('modalReadFull');
+      var modalVisitSource = document.getElementById('modalVisitSource');
+      var closeBtn = document.getElementById('modalClose');
+
+      function safeUrl(url) {{
+        try {{
+          var u = new URL(url);
+          return (u.protocol === 'https:' || u.protocol === 'http:') ? url : '#';
+        }} catch (e) {{ return '#'; }}
+      }}
+
+      function openModal(card) {{
+        modalTitle.textContent = card.dataset.title || '';
+        modalBody.textContent = card.dataset.summary || '';
+        modalDate.textContent = card.dataset.published || '';
+        modalSource.textContent = card.dataset.source || '';
+        modalReadFull.href = safeUrl(card.dataset.link || '');
+        modalVisitSource.href = safeUrl(card.dataset.sourceUrl || '');
+        modalVisitSource.textContent = 'Visit ' + (card.dataset.source || 'source') + ' website';
+
+        var img = safeUrl(card.dataset.image || '');
+        if (img && img !== '#') {{
+          modalImage.src = img;
+          modalImage.alt = card.dataset.title || '';
+          modalImage.style.display = 'block';
+        }} else {{
+          modalImage.src = '';
+          modalImage.style.display = 'none';
+        }}
+
+        overlay.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        closeBtn.focus();
+      }}
+
+      function closeModal() {{
+        overlay.classList.remove('open');
+        document.body.style.overflow = '';
+      }}
+
+      document.querySelectorAll('.card').forEach(function (card) {{
+        card.addEventListener('click', function () {{ openModal(card); }});
+        card.addEventListener('keydown', function (e) {{
+          if (e.key === 'Enter' || e.key === ' ') {{ e.preventDefault(); openModal(card); }}
+        }});
+      }});
+
+      closeBtn.addEventListener('click', closeModal);
+      overlay.addEventListener('click', function (e) {{
+        if (e.target === overlay) closeModal();
+      }});
+      document.addEventListener('keydown', function (e) {{
+        if (e.key === 'Escape') closeModal();
+      }});
+    }})();
+  </script>
 </body>
 </html>
 """
@@ -585,13 +873,23 @@ SECTION_TEMPLATE = """\
 """
 
 CARD_TEMPLATE = """\
-<div class="card">
-  <a class="headline" href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>
-  {summary_block}
-  <div class="card-footer">
-    <span class="pub-date">{published}</span>
-    <a class="source-badge" href="{source_url}" target="_blank" rel="noopener noreferrer"
-       title="Visit {source} website">{source}</a>
+<div class="card" tabindex="0"
+  data-title="{title}"
+  data-summary="{summary}"
+  data-published="{published}"
+  data-link="{link}"
+  data-image="{image}"
+  data-source="{source}"
+  data-source-url="{source_url}">
+  {thumb_block}
+  <div class="card-body">
+    <span class="headline">{title}</span>
+    {summary_block}
+    <div class="card-footer">
+      <span class="pub-date">{published}</span>
+      <span class="source-badge">{source}</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
   </div>
 </div>
 """
@@ -637,15 +935,24 @@ def build_html(articles: list[dict]) -> str:
         cards_html = ""
         for item in items:
             summary_block = ""
-            if item["summary"]:
-                summary_block = f'<p class="summary">{html.escape(item["summary"])}</p>'
+            snippet = item.get("summary", "")
+            if snippet:
+                # Show a 3-line clipped preview on the card; full text goes into modal
+                summary_block = f'<p class="summary">{html.escape(snippet[:300])}{"…" if len(snippet) > 300 else ""}</p>'
+            image_url = item.get("image", "")
+            thumb_block = ""
+            if image_url:
+                thumb_block = f'<img class="card-thumb" src="{html.escape(image_url, quote=True)}" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
             cards_html += CARD_TEMPLATE.format(
                 link=html.escape(item["link"], quote=True),
                 title=html.escape(item["title"]),
+                summary=html.escape(item.get("summary", ""), quote=True),
                 summary_block=summary_block,
                 published=html.escape(item["published"]),
+                image=html.escape(image_url, quote=True),
                 source_url=html.escape(source_url, quote=True),
                 source=html.escape(source),
+                thumb_block=thumb_block,
             )
 
         sections_html += SECTION_TEMPLATE.format(
