@@ -149,7 +149,7 @@ def fetch_rss(feed_info: dict) -> list[dict]:
             {
                 "title": entry.get("title", "").strip(),
                 "link": entry.get("link", ""),
-                "summary": content[:500] + ("…" if len(content) > 500 else ""),
+                "summary": content[:2000] + ("…" if len(content) > 2000 else ""),
                 "published": entry.get("published", ""),
                 "source": feed_info["name"],
                 "source_url": feed_info["source_url"],
@@ -253,7 +253,7 @@ def fetch_tvb(feed_info: dict) -> list[dict]:
                         {
                             "title": title.strip(),
                             "link": link,
-                            "summary": summary[:500] + ("…" if len(summary) > 500 else ""),
+                            "summary": summary[:2000] + ("…" if len(summary) > 2000 else ""),
                             "published": str(published),
                             "source": feed_info["name"],
                             "source_url": feed_info["source_url"],
@@ -531,6 +531,101 @@ HTML_TEMPLATE = """\
     }}
     footer a {{ color: #a0785a; text-decoration: none; }}
     footer a:hover {{ text-decoration: underline; }}
+
+    /* ---- Card (clickable) ---- */
+    .card {{ cursor: pointer; }}
+
+    /* ---- Modal overlay ---- */
+    .modal-overlay {{
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(60,45,30,.55);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }}
+    .modal-overlay.open {{ display: flex; }}
+    .modal {{
+      background: #faf5ed;
+      border: 1px solid #c9bfaf;
+      border-radius: 3px;
+      max-width: 680px;
+      width: 100%;
+      max-height: 88vh;
+      overflow-y: auto;
+      padding: 2rem 2rem 1.5rem;
+      position: relative;
+      box-shadow: 0 8px 32px rgba(60,40,20,.25);
+    }}
+    .modal-close {{
+      position: absolute;
+      top: .8rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      font-size: 1.6rem;
+      color: #8a7060;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0 .3rem;
+    }}
+    .modal-close:hover {{ color: #3a3028; }}
+    .modal-title {{
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: #3a3028;
+      margin: 0 0 .5rem;
+      line-height: 1.5;
+      padding-right: 2rem;
+    }}
+    .modal-date {{
+      font-size: .75rem;
+      color: #b0a090;
+      font-style: italic;
+      margin: 0 0 1.2rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
+    .modal-body {{
+      font-size: .92rem;
+      color: #3a3028;
+      line-height: 1.75;
+      white-space: pre-wrap;
+      margin-bottom: 1.5rem;
+    }}
+    .modal-footer {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      border-top: 1px solid #e0d5c5;
+      padding-top: 1rem;
+      flex-wrap: wrap;
+    }}
+    .modal-read-btn {{
+      display: inline-block;
+      background: #7b4f2e;
+      color: #faf5ed;
+      text-decoration: none;
+      padding: .45rem 1.1rem;
+      border-radius: 2px;
+      font-size: .83rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: background .2s;
+    }}
+    .modal-read-btn:hover {{ background: #5c3020; color: #faf5ed; }}
+    .modal-source-badge {{
+      font-size: .75rem;
+      color: #7b4f2e;
+      border: 1px solid #c4a882;
+      border-radius: 2px;
+      padding: .15rem .55rem;
+      text-decoration: none;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      white-space: nowrap;
+    }}
+    .modal-source-badge:hover {{ background: #ede0cf; }}
   </style>
 </head>
 <body>
@@ -563,6 +658,42 @@ HTML_TEMPLATE = """\
     <a href="https://www.bbc.com/news/topics/cp7r8vglne2t" target="_blank" rel="noopener">BBC News HK</a>,
     <a href="https://news.google.com/home?hl=en-US&gl=US&ceid=US:en" target="_blank" rel="noopener">Google News (US)</a>
   </footer>
+
+  <!-- Article detail modal -->
+  <div id="modal-overlay" class="modal-overlay" onclick="closeModal()">
+    <div class="modal" onclick="event.stopPropagation()" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+      <h2 id="modal-title" class="modal-title"></h2>
+      <p id="modal-date" class="modal-date"></p>
+      <div id="modal-body" class="modal-body"></div>
+      <div class="modal-footer">
+        <a id="modal-source-link" href="#" target="_blank" rel="noopener noreferrer" class="modal-source-badge"></a>
+        <a id="modal-article-link" href="#" target="_blank" rel="noopener noreferrer" class="modal-read-btn">Read full article ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openModal(card) {{
+      var overlay = document.getElementById('modal-overlay');
+      document.getElementById('modal-title').textContent = card.dataset.title;
+      document.getElementById('modal-date').textContent = card.dataset.date;
+      document.getElementById('modal-body').textContent = card.dataset.summary || '';
+      document.getElementById('modal-article-link').href = card.dataset.link;
+      var sourceLink = document.getElementById('modal-source-link');
+      sourceLink.href = card.dataset.sourceUrl;
+      sourceLink.textContent = card.dataset.source;
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }}
+    function closeModal() {{
+      document.getElementById('modal-overlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }}
+    document.addEventListener('keydown', function(e) {{
+      if (e.key === 'Escape') closeModal();
+    }});
+  </script>
 </body>
 </html>
 """
@@ -585,13 +716,16 @@ SECTION_TEMPLATE = """\
 """
 
 CARD_TEMPLATE = """\
-<div class="card">
-  <a class="headline" href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>
+<div class="card" tabindex="0" role="button"
+     data-link="{link}" data-title="{title_attr}" data-summary="{summary_attr}"
+     data-date="{published_attr}" data-source="{source_attr}" data-source-url="{source_url}"
+     onclick="openModal(this)" onkeydown="if(event.key==='Enter'||event.key===' '){{openModal(this);event.preventDefault();}}">
+  <span class="headline">{title}</span>
   {summary_block}
   <div class="card-footer">
     <span class="pub-date">{published}</span>
     <a class="source-badge" href="{source_url}" target="_blank" rel="noopener noreferrer"
-       title="Visit {source} website">{source}</a>
+       onclick="event.stopPropagation()" title="Visit {source} website">{source}</a>
   </div>
 </div>
 """
@@ -636,16 +770,21 @@ def build_html(articles: list[dict]) -> str:
 
         cards_html = ""
         for item in items:
+            summary = item["summary"]
             summary_block = ""
-            if item["summary"]:
-                summary_block = f'<p class="summary">{html.escape(item["summary"])}</p>'
+            if summary:
+                summary_block = f'<p class="summary">{html.escape(summary)}</p>'
             cards_html += CARD_TEMPLATE.format(
                 link=html.escape(item["link"], quote=True),
                 title=html.escape(item["title"]),
+                title_attr=html.escape(item["title"], quote=True),
                 summary_block=summary_block,
+                summary_attr=html.escape(summary, quote=True),
                 published=html.escape(item["published"]),
+                published_attr=html.escape(item["published"], quote=True),
                 source_url=html.escape(source_url, quote=True),
                 source=html.escape(source),
+                source_attr=html.escape(source, quote=True),
             )
 
         sections_html += SECTION_TEMPLATE.format(
