@@ -137,12 +137,19 @@ def fetch_rss(feed_info: dict) -> list[dict]:
     feed = feedparser.parse(resp.content)
     articles = []
     for entry in feed.entries[:MAX_ITEMS_PER_FEED]:
-        summary = _strip_html(entry.get("summary", entry.get("description", "")))
+        # Prefer full article content when available (Atom <content> or RSS
+        # content:encoded), then fall back to summary / description.
+        content = ""
+        entry_content = getattr(entry, "content", None)
+        if entry_content:
+            content = _strip_html(entry_content[0].get("value", ""))
+        if not content:
+            content = _strip_html(entry.get("summary", entry.get("description", "")))
         articles.append(
             {
                 "title": entry.get("title", "").strip(),
                 "link": entry.get("link", ""),
-                "summary": summary[:300] + ("…" if len(summary) > 300 else ""),
+                "summary": content[:500] + ("…" if len(content) > 500 else ""),
                 "published": entry.get("published", ""),
                 "source": feed_info["name"],
                 "source_url": feed_info["source_url"],
@@ -246,7 +253,7 @@ def fetch_tvb(feed_info: dict) -> list[dict]:
                         {
                             "title": title.strip(),
                             "link": link,
-                            "summary": summary[:300] + ("…" if len(summary) > 300 else ""),
+                            "summary": summary[:500] + ("…" if len(summary) > 500 else ""),
                             "published": str(published),
                             "source": feed_info["name"],
                             "source_url": feed_info["source_url"],
@@ -314,7 +321,7 @@ def fetch_all_news() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# HTML generation
+# HTML generation (wabi-sabi aesthetic)
 # ---------------------------------------------------------------------------
 HTML_TEMPLATE = """\
 <!DOCTYPE html>
@@ -325,181 +332,212 @@ HTML_TEMPLATE = """\
   <meta http-equiv="refresh" content="3600" />
   <title>Hong Kong News 香港新聞</title>
   <style>
+    /* ---- Base ---- */
     *, *::before, *::after {{ box-sizing: border-box; }}
     body {{
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
-                   "Noto Sans TC", Roboto, Helvetica, Arial, sans-serif;
-      background: #f0f2f5;
-      color: #1a1a2e;
+      font-family: Georgia, "Times New Roman", "PingFang TC", "Noto Serif TC",
+                   "Noto Sans TC", serif;
+      background: #f2ede4;
+      color: #3a3028;
+      line-height: 1.65;
     }}
 
     /* ---- Header ---- */
     header {{
-      background: linear-gradient(135deg, #c0392b 0%, #922b21 100%);
-      color: #fff;
-      padding: 1.5rem 1rem 1rem;
+      background: #e8dfd0;
+      border-bottom: 1px solid #c9bfaf;
+      padding: 2rem 1rem 1.4rem;
       text-align: center;
-      box-shadow: 0 2px 6px rgba(0,0,0,.3);
     }}
-    header h1 {{ margin: 0 0 .3rem; font-size: 2rem; letter-spacing: .5px; }}
+    header h1 {{
+      margin: 0 0 .4rem;
+      font-size: 1.9rem;
+      font-weight: normal;
+      letter-spacing: .04em;
+      color: #5c4033;
+    }}
     header .sub {{
       margin: 0 0 .8rem;
-      font-size: .88rem;
-      opacity: .85;
+      font-size: .82rem;
+      color: #8a7060;
+      font-style: italic;
     }}
     header .stats {{
       display: inline-block;
-      background: rgba(255,255,255,.18);
-      border-radius: 20px;
-      padding: .25rem .9rem;
-      font-size: .8rem;
-      margin-bottom: .5rem;
+      border: 1px solid #c9bfaf;
+      border-radius: 2px;
+      padding: .2rem .85rem;
+      font-size: .78rem;
+      color: #7a6555;
+      letter-spacing: .02em;
     }}
 
     /* ---- Source nav ---- */
     nav {{
-      background: #fff;
-      border-bottom: 1px solid #e5e5e5;
+      background: #ede6da;
+      border-bottom: 1px solid #c9bfaf;
       position: sticky;
       top: 0;
       z-index: 100;
-      box-shadow: 0 1px 4px rgba(0,0,0,.08);
     }}
     nav ul {{
       list-style: none;
       margin: 0 auto;
       padding: 0 1rem;
-      max-width: 960px;
+      max-width: 1000px;
       display: flex;
       flex-wrap: wrap;
-      gap: .25rem;
+      gap: .1rem;
     }}
     nav ul li a {{
       display: block;
-      padding: .55rem .85rem;
-      font-size: .85rem;
-      font-weight: 600;
-      color: #555;
+      padding: .5rem .8rem;
+      font-size: .8rem;
+      color: #7a6555;
       text-decoration: none;
-      border-bottom: 3px solid transparent;
-      transition: color .15s, border-color .15s;
+      border-bottom: 2px solid transparent;
+      transition: color .2s, border-color .2s;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .01em;
     }}
     nav ul li a:hover {{
-      color: #c0392b;
-      border-bottom-color: #c0392b;
+      color: #5c4033;
+      border-bottom-color: #a0785a;
     }}
 
     /* ---- Main ---- */
     main {{
-      max-width: 960px;
-      margin: 1.5rem auto 3rem;
+      max-width: 1000px;
+      margin: 2rem auto 4rem;
       padding: 0 1rem;
     }}
 
     /* ---- Source section ---- */
-    .source-section {{ margin-bottom: 3rem; scroll-margin-top: 48px; }}
+    .source-section {{
+      margin-bottom: 3.5rem;
+      scroll-margin-top: 44px;
+    }}
     .source-header {{
       display: flex;
       align-items: baseline;
-      gap: .75rem;
-      margin-bottom: 1rem;
+      gap: .8rem;
+      margin-bottom: 1.1rem;
+      border-bottom: 1px solid #c9bfaf;
+      padding-bottom: .5rem;
     }}
     .source-title {{
-      font-size: 1.2rem;
-      font-weight: 700;
-      border-left: 4px solid #c0392b;
-      padding-left: .6rem;
-      color: #922b21;
+      font-size: 1.05rem;
+      font-weight: normal;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: #5c4033;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }}
     .source-link {{
-      font-size: .8rem;
-      color: #c0392b;
+      font-size: .75rem;
+      color: #a0785a;
       text-decoration: none;
-      opacity: .8;
+      font-style: italic;
     }}
-    .source-link:hover {{ opacity: 1; text-decoration: underline; }}
+    .source-link:hover {{ text-decoration: underline; }}
     .article-count {{
-      font-size: .78rem;
-      color: #aaa;
+      font-size: .72rem;
+      color: #b0a090;
       margin-left: auto;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }}
 
-    /* ---- Cards ---- */
+    /* ---- Cards grid ---- */
     .cards {{
       display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.1rem;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     }}
+
+    /* ---- Card ---- */
     .card {{
-      background: #fff;
-      border-radius: 10px;
-      padding: 1rem 1.2rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,.10);
+      background: #faf5ed;
+      border: 1px solid #d4c9b8;
+      border-radius: 2px;
+      padding: 1.1rem 1.2rem 1rem;
       display: flex;
       flex-direction: column;
-      transition: box-shadow .2s, transform .15s;
+      transition: border-color .25s, box-shadow .25s;
     }}
     .card:hover {{
-      box-shadow: 0 6px 18px rgba(0,0,0,.15);
-      transform: translateY(-2px);
+      border-color: #a0785a;
+      box-shadow: 2px 3px 10px rgba(90,60,30,.10);
     }}
     .card .headline {{
       text-decoration: none;
-      color: #1a1a2e;
-      font-size: 1rem;
-      font-weight: 600;
-      line-height: 1.45;
+      color: #3a3028;
+      font-size: .98rem;
+      font-weight: bold;
+      line-height: 1.5;
       flex: 1;
     }}
-    .card .headline:hover {{ color: #c0392b; }}
+    .card .headline:hover {{ color: #7b4f2e; text-decoration: underline; }}
     .card .summary {{
-      margin-top: .5rem;
-      font-size: .84rem;
-      color: #555;
-      line-height: 1.55;
+      margin-top: .6rem;
+      font-size: .83rem;
+      color: #6a5848;
+      line-height: 1.6;
+      font-family: Georgia, "Times New Roman", serif;
     }}
     .card .card-footer {{
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-top: .75rem;
+      margin-top: .85rem;
+      padding-top: .6rem;
+      border-top: 1px solid #e0d5c5;
       flex-wrap: wrap;
       gap: .3rem;
     }}
     .card .pub-date {{
-      font-size: .73rem;
-      color: #aaa;
+      font-size: .7rem;
+      color: #b0a090;
+      font-style: italic;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }}
     .card .source-badge {{
-      font-size: .72rem;
-      font-weight: 600;
-      color: #fff;
-      background: #c0392b;
-      border-radius: 4px;
-      padding: .15rem .45rem;
+      font-size: .68rem;
+      color: #7b4f2e;
+      background: transparent;
+      border: 1px solid #c4a882;
+      border-radius: 2px;
+      padding: .12rem .45rem;
       text-decoration: none;
       white-space: nowrap;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: .02em;
+      transition: background .2s, color .2s;
     }}
-    .card .source-badge:hover {{ background: #922b21; }}
+    .card .source-badge:hover {{
+      background: #ede0cf;
+      color: #5c3020;
+    }}
 
     /* ---- Footer ---- */
     footer {{
       text-align: center;
       padding: 1.5rem 1rem;
-      font-size: .78rem;
-      color: #aaa;
-      border-top: 1px solid #e5e5e5;
+      font-size: .75rem;
+      color: #b0a090;
+      border-top: 1px solid #c9bfaf;
+      font-style: italic;
+      font-family: Georgia, serif;
     }}
-    footer a {{ color: #c0392b; text-decoration: none; }}
+    footer a {{ color: #a0785a; text-decoration: none; }}
     footer a:hover {{ text-decoration: underline; }}
   </style>
 </head>
 <body>
   <header>
-    <h1>🇭🇰 Hong Kong News 香港新聞</h1>
-    <p class="sub">Last updated: {updated} (UTC) &mdash; auto-refreshes every hour</p>
-    <span class="stats">📰 {total} articles from {src_count} sources</span>
+    <h1>🇭🇰 Hong Kong News &ensp;香港新聞</h1>
+    <p class="sub">Last updated: {updated} UTC &mdash; refreshes every hour</p>
+    <span class="stats">📰 {total} articles &thinsp;&middot;&thinsp; {src_count} sources</span>
   </header>
 
   <nav aria-label="News sources">
