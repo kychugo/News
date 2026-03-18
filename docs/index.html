@@ -356,7 +356,7 @@
 <body>
   <header>
     <h1>🇭🇰 Hong Kong News &ensp;香港新聞</h1>
-    <p class="sub">Last updated: 2026-03-18 23:07 UTC &mdash; refreshes every hour</p>
+    <p class="sub">Last updated: 2026-03-18 23:16 UTC &mdash; refreshes every hour</p>
     <span class="stats">📰 1541 articles &thinsp;&middot;&thinsp; 4 sources</span>
   </header>
 
@@ -30520,17 +30520,24 @@ With the conflict creating turmoil across the Middle East an…</p>
       var modalVisitSource = document.getElementById('modalVisitSource');
       var closeBtn = document.getElementById('modalClose');
 
+      function safeUrl(url) {
+        try {
+          var u = new URL(url);
+          return (u.protocol === 'https:' || u.protocol === 'http:') ? url : '#';
+        } catch (e) { return '#'; }
+      }
+
       function openModal(card) {
         modalTitle.textContent = card.dataset.title || '';
         modalBody.textContent = card.dataset.summary || '';
         modalDate.textContent = card.dataset.published || '';
         modalSource.textContent = card.dataset.source || '';
-        modalReadFull.href = card.dataset.link || '#';
-        modalVisitSource.href = card.dataset.sourceUrl || '#';
+        modalReadFull.href = safeUrl(card.dataset.link || '');
+        modalVisitSource.href = safeUrl(card.dataset.sourceUrl || '');
         modalVisitSource.textContent = 'Visit ' + (card.dataset.source || 'source') + ' website';
 
-        var img = card.dataset.image || '';
-        if (img) {
+        var img = safeUrl(card.dataset.image || '');
+        if (img && img !== '#') {
           modalImage.src = img;
           modalImage.alt = card.dataset.title || '';
           modalImage.style.display = 'block';

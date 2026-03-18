@@ -799,17 +799,24 @@ HTML_TEMPLATE = """\
       var modalVisitSource = document.getElementById('modalVisitSource');
       var closeBtn = document.getElementById('modalClose');
 
+      function safeUrl(url) {{
+        try {{
+          var u = new URL(url);
+          return (u.protocol === 'https:' || u.protocol === 'http:') ? url : '#';
+        }} catch (e) {{ return '#'; }}
+      }}
+
       function openModal(card) {{
         modalTitle.textContent = card.dataset.title || '';
         modalBody.textContent = card.dataset.summary || '';
         modalDate.textContent = card.dataset.published || '';
         modalSource.textContent = card.dataset.source || '';
-        modalReadFull.href = card.dataset.link || '#';
-        modalVisitSource.href = card.dataset.sourceUrl || '#';
+        modalReadFull.href = safeUrl(card.dataset.link || '');
+        modalVisitSource.href = safeUrl(card.dataset.sourceUrl || '');
         modalVisitSource.textContent = 'Visit ' + (card.dataset.source || 'source') + ' website';
 
-        var img = card.dataset.image || '';
-        if (img) {{
+        var img = safeUrl(card.dataset.image || '');
+        if (img && img !== '#') {{
           modalImage.src = img;
           modalImage.alt = card.dataset.title || '';
           modalImage.style.display = 'block';
