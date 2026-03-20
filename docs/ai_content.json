@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-03-20T08:42:57.994312+00:00",
+  "editorial": {
+    "en": {
+      "content": "",
+      "model": "openai",
+      "topic_title": "Hong Kong sinks in World Happiness Report index to lowest-ever position",
+      "generated_at": "2026-03-20T08:42:43.191574+00:00"
+    },
+    "zh": {
+      "content": "",
+      "model": "openai",
+      "topic_title": "Hong Kong sinks in World Happiness Report index to lowest-ever position",
+      "generated_at": "2026-03-20T08:42:43.453141+00:00"
+    }
+  },
+  "arena": {
+    "en": {
+      "topic_title": "Hong Kong sinks in World Happiness Report index to lowest-ever position",
+      "topic_summary": "Hong Kong has fallen to its lowest-ever position on the World Happiness Report, falling down the index for the sixth consecutive year to 90th out of 147 territories.\n\n\n\nThe study was&nbsp;released&nbsp;on Thursday to coincide with the UN’s International Day of Happiness on Friday.\n\n\n\nA &#8220;Happy Hong Kong&#8221; promotion. File photo: Tom Grundy/HKFP.\n\n\n\nThe city dropped from 88th to 90th in the latest index, sandwiched between Georgia and Armenia. China ranked 65th, Taiwan 26th and Singapore",
+      "messages": [
+        {
+          "model": "openai-fast",
+          "name": "OpenAI",
+          "content": "[OpenAI did not respond]"
+        },
+        {
+          "model": "gemini-search",
+          "name": "Gemini",
+          "content": "[Gemini did not respond]"
+        },
+        {
+          "model": "claude-fast",
+          "name": "Claude",
+          "content": "[Claude did not respond]"
+        },
+        {
+          "model": "glm",
+          "name": "GLM",
+          "content": "[GLM did not respond]"
+        },
+        {
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "[DeepSeek did not respond]"
+        },
+        {
+          "model": "qwen-character",
+          "name": "Qwen",
+          "content": "[Qwen did not respond]"
+        }
+      ],
+      "generated_at": "2026-03-20T08:42:50.792056+00:00"
+    },
+    "zh": {
+      "topic_title": "Hong Kong sinks in World Happiness Report index to lowest-ever position",
+      "topic_summary": "Hong Kong has fallen to its lowest-ever position on the World Happiness Report, falling down the index for the sixth consecutive year to 90th out of 147 territories.\n\n\n\nThe study was&nbsp;released&nbsp;on Thursday to coincide with the UN’s International Day of Happiness on Friday.\n\n\n\nA &#8220;Happy Hong Kong&#8221; promotion. File photo: Tom Grundy/HKFP.\n\n\n\nThe city dropped from 88th to 90th in the latest index, sandwiched between Georgia and Armenia. China ranked 65th, Taiwan 26th and Singapore",
+      "messages": [
+        {
+          "model": "openai-fast",
+          "name": "OpenAI",
+          "content": "[OpenAI did not respond]"
+        },
+        {
+          "model": "gemini-search",
+          "name": "Gemini",
+          "content": "[Gemini did not respond]"
+        },
+        {
+          "model": "claude-fast",
+          "name": "Claude",
+          "content": "[Claude did not respond]"
+        },
+        {
+          "model": "glm",
+          "name": "GLM",
+          "content": "[GLM did not respond]"
+        },
+        {
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "[DeepSeek did not respond]"
+        },
+        {
+          "model": "qwen-character",
+          "name": "Qwen",
+          "content": "[Qwen did not respond]"
+        }
+      ],
+      "generated_at": "2026-03-20T08:42:57.994274+00:00"
+    }
+  }
+}

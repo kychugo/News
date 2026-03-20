@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +16,36 @@
       color: #3a3028;
       line-height: 1.65;
     }
+
+    /* ---- Language visibility ---- */
+    html[data-lang="en"] .zh-content { display: none; }
+    html[data-lang="zh"] .en-content { display: none; }
+
+    /* ---- Language toggle ---- */
+    .lang-toggle {
+      display: inline-flex;
+      gap: 0;
+      border: 1px solid #c9bfaf;
+      border-radius: 2px;
+      overflow: hidden;
+      margin-top: .7rem;
+    }
+    .lang-btn {
+      background: transparent;
+      border: none;
+      padding: .3rem .9rem;
+      font-size: .78rem;
+      color: #7a6555;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: background .2s, color .2s;
+    }
+    .lang-btn.active {
+      background: #c9bfaf;
+      color: #3a3028;
+      font-weight: 600;
+    }
+    .lang-btn:hover:not(.active) { background: #ede6da; }
 
     /* ---- Header ---- */
     header {
@@ -351,32 +381,274 @@
     }
     footer a { color: #a0785a; text-decoration: none; }
     footer a:hover { text-decoration: underline; }
+
+    /* ---- AI sections ---- */
+    .ai-section {
+      background: #f5f0e8;
+      border: 1px solid #c9bfaf;
+      border-radius: 3px;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 3rem;
+      scroll-margin-top: 44px;
+    }
+    .ai-section-header {
+      display: flex;
+      align-items: baseline;
+      gap: .7rem;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid #c9bfaf;
+      padding-bottom: .5rem;
+      flex-wrap: wrap;
+    }
+    .ai-section-title {
+      font-size: 1.05rem;
+      font-weight: normal;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: #5c4033;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+    }
+    .ai-badge {
+      display: inline-block;
+      background: #7b4f2e;
+      color: #faf5ed;
+      font-size: .62rem;
+      padding: .1rem .45rem;
+      border-radius: 2px;
+      letter-spacing: .04em;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    /* Editorial */
+    .editorial-topic {
+      font-size: .82rem;
+      color: #8a7060;
+      font-style: italic;
+      margin-bottom: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .editorial-body {
+      font-size: .95rem;
+      line-height: 1.85;
+      color: #4a3c30;
+      font-family: Georgia, "Times New Roman", serif;
+      white-space: pre-wrap;
+    }
+    .editorial-attribution {
+      margin-top: 1rem;
+      font-size: .75rem;
+      color: #b0a090;
+      font-style: italic;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    /* Arena */
+    .arena-topic {
+      background: #ede6da;
+      border-left: 3px solid #a0785a;
+      padding: .7rem 1rem;
+      margin-bottom: 1.4rem;
+      font-size: .88rem;
+      color: #5c4033;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .arena-topic strong { font-weight: 600; }
+    .arena-messages { display: flex; flex-direction: column; gap: 1rem; }
+    .arena-msg {
+      background: #faf5ed;
+      border: 1px solid #d4c9b8;
+      border-radius: 3px;
+      padding: 1rem 1.2rem;
+    }
+    .arena-msg-header {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      margin-bottom: .6rem;
+    }
+    .arena-model-badge {
+      display: inline-block;
+      font-size: .72rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 600;
+      padding: .18rem .55rem;
+      border-radius: 2px;
+      letter-spacing: .03em;
+    }
+    .badge-openai   { background: #dbe8f5; color: #1a4a7a; }
+    .badge-gemini   { background: #d6f0e0; color: #1a5a35; }
+    .badge-claude   { background: #f5e6d6; color: #7a3a1a; }
+    .badge-glm      { background: #e8d6f5; color: #4a1a7a; }
+    .badge-deepseek { background: #f5d6e8; color: #7a1a50; }
+    .badge-qwen     { background: #f0e8d6; color: #5a4010; }
+    .badge-default  { background: #e8e8e8; color: #444; }
+    .arena-msg-body {
+      font-size: .88rem;
+      line-height: 1.8;
+      color: #4a3c30;
+      font-family: Georgia, "Times New Roman", serif;
+      white-space: pre-wrap;
+    }
+    .ai-empty {
+      color: #b0a090;
+      font-style: italic;
+      font-size: .88rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>🇭🇰 Hong Kong News &ensp;香港新聞</h1>
-    <p class="sub">Last updated: 2026-03-20 07:08 UTC &mdash; refreshes every hour</p>
-    <span class="stats">📰 1705 articles &thinsp;&middot;&thinsp; 4 sources</span>
+    <p class="sub">Last updated: 2026-03-20 08:43 UTC &mdash; refreshes every hour</p>
+    <span class="stats">📰 1707 articles &thinsp;&middot;&thinsp; 4 sources</span>
+    <div class="lang-toggle" role="group" aria-label="Language / 語言">
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">English</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">廣東話</button>
+    </div>
   </header>
 
   <nav aria-label="News sources">
     <ul>
+      <li><a href="#ai-editorial"><span class="en-content">✍ AI Editorial</span><span class="zh-content">✍ AI社評</span></a></li>
+      <li><a href="#ai-arena"><span class="en-content">🎙 News Arena</span><span class="zh-content">🎙 新聞擂台</span></a></li>
       <li><a href="#hk-free-press">HK Free Press</a></li><li><a href="#asia-times">Asia Times</a></li><li><a href="#south-china-morning-post">South China Morning Post</a></li><li><a href="#google-news-us">Google News (US)</a></li>
     </ul>
   </nav>
 
   <main>
+    <div class="ai-section" id="ai-editorial"><div class="ai-section-header"><h2 class="ai-section-title"><span class="en-content">✍ AI Editorial</span><span class="zh-content">✍ AI社評</span></h2><span class="ai-badge">AI</span><span style="font-size:.72rem;color:#b0a090;font-style:italic;font-family:sans-serif;margin-left:auto">2026-03-20 08:42 UTC</span></div><div class="en-content"><p class="ai-empty">Editorial not yet generated.</p></div><div class="zh-content"><p class="ai-empty">Editorial not yet generated.</p></div></div><div class="ai-section" id="ai-arena"><div class="ai-section-header"><h2 class="ai-section-title"><span class="en-content">🎙 News Arena</span><span class="zh-content">🎙 新聞擂台</span></h2><span class="ai-badge">AI</span></div><div class="en-content"><div class="arena-topic"><strong>Today's Topic:</strong> Hong Kong sinks in World Happiness Report index to lowest-ever position<br><small>Hong Kong has fallen to its lowest-ever position on the World Happiness Report, falling down the index for the sixth consecutive year to 90th out of 147 territories.
+
+
+
+The study was&amp;nbsp;released&amp;nbs…</small></div><div class="arena-messages"><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-openai">OpenAI</span></div><div class="arena-msg-body">[OpenAI did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-gemini">Gemini</span></div><div class="arena-msg-body">[Gemini did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-claude">Claude</span></div><div class="arena-msg-body">[Claude did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-glm">GLM</span></div><div class="arena-msg-body">[GLM did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-deepseek">DeepSeek</span></div><div class="arena-msg-body">[DeepSeek did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-qwen">Qwen</span></div><div class="arena-msg-body">[Qwen did not respond]</div></div></div></div><div class="zh-content"><div class="arena-topic"><strong>今日話題:</strong> Hong Kong sinks in World Happiness Report index to lowest-ever position<br><small>Hong Kong has fallen to its lowest-ever position on the World Happiness Report, falling down the index for the sixth consecutive year to 90th out of 147 territories.
+
+
+
+The study was&amp;nbsp;released&amp;nbs…</small></div><div class="arena-messages"><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-openai">OpenAI</span></div><div class="arena-msg-body">[OpenAI did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-gemini">Gemini</span></div><div class="arena-msg-body">[Gemini did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-claude">Claude</span></div><div class="arena-msg-body">[Claude did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-glm">GLM</span></div><div class="arena-msg-body">[GLM did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-deepseek">DeepSeek</span></div><div class="arena-msg-body">[DeepSeek did not respond]</div></div><div class="arena-msg"><div class="arena-msg-header"><span class="arena-model-badge badge-qwen">Qwen</span></div><div class="arena-msg-body">[Qwen did not respond]</div></div></div></div></div>
     <div class="source-section" id="hk-free-press">
   <div class="source-header">
     <span class="source-title">HK Free Press</span>
     <a class="source-link" href="https://www.hongkongfp.com/" target="_blank" rel="noopener noreferrer">
       ↗ Visit source
     </a>
-    <span class="article-count">17 articles</span>
+    <span class="article-count">19 articles</span>
   </div>
   <div class="cards">
     <div class="card" tabindex="0"
+  data-title="Panama rejects CK Hutchison unit’s claim of ignoring arbitration"
+  data-summary="Panama&amp;#8217;s president denied Thursday that officials failed to respond to an arbitrage lawsuit by the Hong Kong firm opposing the takeover of its Panama Canal operations, saying the government would &amp;#8220;strongly&amp;#8221; defend itself.
+
+
+
+Port of Cristobal, Panama Canal. File photo: Hutchison Ports PPC, via Facebook.
+
+
+
+The dispute stems from a Panama court ruling in January striking down the contract that let Panama Ports Company (PPC), a unit of CK Hutchison, to manage the canal&amp;#8217;s Pacific port of Balboa and the Atlantic port at Cristobal.
+
+
+
+The decision came after claims by US President Donald Trump that China effectively runs the canal, part of broader tensions between Washington and Beijing.
+
+
+
+PPC responded with a lawsuit filed at the International Chamber of Commerce (ICC), and is seeking at least US$2 billion in damages.
+
+
+
+This week the company accused Panama officials of ignoring the arbitration proceedings, saying the country had not hired lawyers and &amp;#8220;needed time to develop a plan.&amp;#8221;
+
+
+
+&amp;#8220;That is scandalous and a lie,&amp;#8221; President Jose Raul Mulino told reporters on Thursday.
+
+
+
+Panama&amp;#8217;s President José Raúl Mulino. File photo: José Raúl Mulino, via Facebook.
+
+
+
+&amp;#8220;We have appointed international lawyers who are going to defend us&amp;#8230; strongly in this case,&amp;#8221; he said, adding that Panama had been given just two days to prepare its response, and therefore had sought a delay.
+
+
+
+China had threatened Panama with payback after the court&amp;#8217;s decision in January, and CK Hutchison said this month it had intensified its legal actions over the takeover of the two Panama Canal ports it controlled.
+
+
+
+It said it had also filed an administrative petition urging Panamanian officials to reconsider the executive action that &amp;#8220;led to the occupation of facilities and confiscation of property&amp;#8221;.
+
+
+
+Panama has always denied any Chinese control over the 80-kilometer (50-mile) waterway, which is used mainly by the Un…"
+  data-published="Fri, 20 Mar 2026 07:41:26 +0000"
+  data-link="https://hongkongfp.com/2026/03/20/panama-rejects-ck-hutchison-units-claim-of-ignoring-arbitration/"
+  data-image="https://hongkongfp.com/wp-content/uploads/2026/03/RENAME-before-upload-Article-Basic-Full-logo-2026-03-20T153956.429-1024x576.jpg"
+  data-source="HK Free Press"
+  data-source-url="https://www.hongkongfp.com/">
+  <img class="card-thumb" src="https://hongkongfp.com/wp-content/uploads/2026/03/RENAME-before-upload-Article-Basic-Full-logo-2026-03-20T153956.429-1024x576.jpg" alt="" loading="lazy" onerror="this.style.display='none'">
+  <div class="card-body">
+    <span class="headline">Panama rejects CK Hutchison unit’s claim of ignoring arbitration</span>
+    <p class="summary">Panama&amp;#8217;s president denied Thursday that officials failed to respond to an arbitrage lawsuit by the Hong Kong firm opposing the takeover of its Panama Canal operations, saying the government would &amp;#8220;strongly&amp;#8221; defend itself.
+
+
+
+Port of Cristobal, Panama Canal. File photo: Hutchison Po…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 07:41:26 +0000</span>
+      <span class="source-badge">HK Free Press</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Police seize HK$200k of drugs in Lamma Island raid, Filipino couple arrested for alleged trafficking and child abuse"
+  data-summary="Hong Kong&amp;#8217;s marine police arrested a Filipino couple on Lamma Island as officers seized around HK$200,000 worth of cannabis and cocaine during a 5am raid on Thursday.
+
+
+
+Hong Kong Police Force post on Lamma Island. File photo: Tom Grundy/HKFP.
+
+
+
+Police told HKFP on Friday that the 42-year-old man and 36-year-old woman were also arrested on suspicion of child abuse and neglect after their 26-month-old son was reportedly left alone at the apartment in Tai Peng.
+
+
+
+The toddler was taken to Queen Mary Hospital for assessment and appeared unharmed, police said.
+
+
+
+Around 554 grams of cannabis and 102 grams of cocaine were seized during the anti-drugs operation. 
+
+
+
+Drug trafficking attracts a maximum penalty of life imprisonment and a HK$5 million fine, whilst child abuse or neglect can result in a decade behind bars."
+  data-published="Fri, 20 Mar 2026 07:29:29 +0000"
+  data-link="https://hongkongfp.com/2026/03/20/police-seize-hk200k-of-drugs-in-lamma-island-raid-filipino-couple-arrested-for-alleged-trafficking-and-child-abuse/"
+  data-image="https://hongkongfp.com/wp-content/uploads/2026/03/police-1024x576.jpg"
+  data-source="HK Free Press"
+  data-source-url="https://www.hongkongfp.com/">
+  <img class="card-thumb" src="https://hongkongfp.com/wp-content/uploads/2026/03/police-1024x576.jpg" alt="" loading="lazy" onerror="this.style.display='none'">
+  <div class="card-body">
+    <span class="headline">Police seize HK$200k of drugs in Lamma Island raid, Filipino couple arrested for alleged trafficking and child abuse</span>
+    <p class="summary">Hong Kong&amp;#8217;s marine police arrested a Filipino couple on Lamma Island as officers seized around HK$200,000 worth of cannabis and cocaine during a 5am raid on Thursday.
+
+
+
+Hong Kong Police Force post on Lamma Island. File photo: Tom Grundy/HKFP.
+
+
+
+Police told HKFP on Friday that the 42-year-old…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 07:29:29 +0000</span>
+      <span class="source-badge">HK Free Press</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
   data-title="Hong Kong sinks in World Happiness Report index to lowest-ever position"
   data-summary="Hong Kong has fallen to its lowest-ever position on the World Happiness Report, falling down the index for the sixth consecutive year to 90th out of 147 territories.
 
@@ -629,11 +901,23 @@ The bill &amp;#8220;further strengthens the top-level framework for safeguarding
 
 
 
-Some analysts have warned that the regulation could undermine the functioning of government departments and the rights guaranteed by Macau&amp;#8217;s mini-constitution.
+Macau&amp;#8217;s security secretary Chan Tsz King said last month that the bill does not seek to deprive people of their right to a defence or revoke lawyers&amp;#8217; practising qualifications.
 
 
 
-Macau authorities arrested former legislator Au Kam San in July 2025 for alleged foreign collusion in the first known use of the national security law in the Chinese casino hub."
+Macau Secretary for Security Chan Tsz King. File photo: MacauGov.
+
+
+
+But analysts have warned that the regulation could undermine the functioning of government departments and the rights guaranteed by Macau&amp;#8217;s mini-constitution.
+
+
+
+Jorge Menezes, a Portuguese lawyer who has practised in Macau, told AFP that the new legislation extended &amp;#8220;disturbing rules applicable to specific criminal offences pertaining to national security to all sorts of cases, be it civil, administrative, or criminal&amp;#8221;.
+
+
+
+Lawyers who fail the review are also have &amp;#822…"
   data-published="Thu, 19 Mar 2026 14:38:56 +0000"
   data-link="https://hongkongfp.com/2026/03/19/macaus-new-security-law-allows-for-trials-behind-closed-doors/"
   data-image="https://hongkongfp.com/wp-content/uploads/2026/03/RENAME-before-upload-Article-Basic-Full-logo-76-1024x576.jpg"
@@ -1562,10 +1846,30 @@ US President Donald Trump speaks with members of the media after disembarking fr
     <a class="source-link" href="https://asiatimes.com/" target="_blank" rel="noopener noreferrer">
       ↗ Visit source
     </a>
-    <span class="article-count">38 articles</span>
+    <span class="article-count">37 articles</span>
   </div>
   <div class="cards">
     <div class="card" tabindex="0"
+  data-title="Japan’s economy edging toward a Takaichi downturn"
+  data-summary="Subscribe now&amp;#160;with a one-month trial for only $1, then enjoy the first year at an exclusive rate of just $99. No surprises from Japan as risks mount Scott Foster reports that Japan’s economy is coming under mounting pressure from higher energy costs, rising bond yields and weakening markets as the Iran war feeds imported inflation. [&amp;#8230;]
+The post Japan’s economy edging toward a Takaichi downturn appeared first on Asia Times."
+  data-published="Fri, 20 Mar 2026 07:49:38 +0000"
+  data-link="https://asiatimes.com/2026/03/japans-economy-edging-toward-a-takaichi-downturn/"
+  data-image=""
+  data-source="Asia Times"
+  data-source-url="https://asiatimes.com/">
+  
+  <div class="card-body">
+    <span class="headline">Japan’s economy edging toward a Takaichi downturn</span>
+    <p class="summary">Subscribe now&amp;#160;with a one-month trial for only $1, then enjoy the first year at an exclusive rate of just $99. No surprises from Japan as risks mount Scott Foster reports that Japan’s economy is coming under mounting pressure from higher energy costs, rising bond yields and weakening markets as …</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 07:49:38 +0000</span>
+      <span class="source-badge">Asia Times</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
   data-title="Iran’s Hormuz yuan play a direct hit on the petrodollar"
   data-summary="The Strait of Hormuz has long been treated as a narrow maritime chokepoint with outsized strategic value. But in moments of crisis, it becomes something more than a shipping lane: it becomes leverage. If recent reports are accurate that Iran is considering allowing limited tanker passage only if transactions are settled in Chinese yuan, then [&amp;#8230;]
 The post Iran&amp;#8217;s Hormuz yuan play a direct hit on the petrodollar appeared first on Asia Times."
@@ -2292,44 +2596,6 @@ The post Polymarket death threat raises stakes of Iran war reporting appeared fi
     <span class="read-more">Tap to read more →</span>
   </div>
 </div>
-<div class="card" tabindex="0"
-  data-title="International law overreached – and now world is paying the price"
-  data-summary="Recent contributions frame a central challenge: international law has overreached, and the backlash is no longer theoretical. Professor Julian Ku recently made a sharp observation in the Washington Times: after the US strikes on Iran, the chorus of international lawyers declaring those actions “blat…"
-  data-published="Tue, 17 Mar 2026 08:25:14 +0000"
-  data-link="https://asiatimes.com/2026/03/international-law-overreached-and-now-world-is-paying-the-price/"
-  data-image=""
-  data-source="Asia Times"
-  data-source-url="https://asiatimes.com/">
-  
-  <div class="card-body">
-    <span class="headline">International law overreached – and now world is paying the price</span>
-    <p class="summary">Recent contributions frame a central challenge: international law has overreached, and the backlash is no longer theoretical. Professor Julian Ku recently made a sharp observation in the Washington Times: after the US strikes on Iran, the chorus of international lawyers declaring those actions “blat…</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 08:25:14 +0000</span>
-      <span class="source-badge">Asia Times</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="China’s AR-2000 helicopter drone hints at new naval playbook"
-  data-summary="This month, the South China Morning Post (SCMP) reported that China&amp;#8217;s military has tested a new shipborne uncrewed helicopter that analysts say could expand the People&amp;#8217;s Liberation Army Navy&amp;#8217;s (PLAN) operational reach in contested waters such as the South China Sea and the Taiwan S…"
-  data-published="Tue, 17 Mar 2026 07:21:20 +0000"
-  data-link="https://asiatimes.com/2026/03/chinas-ar-2000-helicopter-drone-hints-at-new-naval-playbook/"
-  data-image=""
-  data-source="Asia Times"
-  data-source-url="https://asiatimes.com/">
-  
-  <div class="card-body">
-    <span class="headline">China’s AR-2000 helicopter drone hints at new naval playbook</span>
-    <p class="summary">This month, the South China Morning Post (SCMP) reported that China&amp;#8217;s military has tested a new shipborne uncrewed helicopter that analysts say could expand the People&amp;#8217;s Liberation Army Navy&amp;#8217;s (PLAN) operational reach in contested waters such as the South China Sea and the Taiwan S…</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 07:21:20 +0000</span>
-      <span class="source-badge">Asia Times</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
 
   </div>
 </div>
@@ -2339,10 +2605,74 @@ The post Polymarket death threat raises stakes of Iran war reporting appeared fi
     <a class="source-link" href="https://www.scmp.com/" target="_blank" rel="noopener noreferrer">
       ↗ Visit source
     </a>
-    <span class="article-count">241 articles</span>
+    <span class="article-count">239 articles</span>
   </div>
   <div class="cards">
     <div class="card" tabindex="0"
+  data-title="US Section 301 tariffs set to trigger fresh wave of trade disruption"
+  data-summary="If there is a thread that provides coherence to Donald Trump’s mad emperorship, it is the frenetic invention of new, evermore dramatic diversions: no week can be allowed to pass without new melodrama that erases the chaotic melodramas of weeks past. Nor can a week be allowed to pass without the seeds being sown for next week’s melodramas.
+This week it is Iran, and the computer-gaming unreality of a scorched-earth US-Israeli bombardment that has generated convulsions across economies in the..."
+  data-published="Fri, 20 Mar 2026 08:30:08 +0000"
+  data-link="https://www.scmp.com/opinion/world-opinion/article/3347181/us-section-301-tariffs-set-trigger-fresh-wave-trade-disruption?utm_source=rss_feed"
+  data-image="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/03/20/3d65f3be-e49d-4648-9e07-ded5440b3337_1931a178.jpg?itok=tlMES8o6&amp;v=1773974010"
+  data-source="South China Morning Post"
+  data-source-url="https://www.scmp.com/">
+  <img class="card-thumb" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/03/20/3d65f3be-e49d-4648-9e07-ded5440b3337_1931a178.jpg?itok=tlMES8o6&amp;v=1773974010" alt="" loading="lazy" onerror="this.style.display='none'">
+  <div class="card-body">
+    <span class="headline">US Section 301 tariffs set to trigger fresh wave of trade disruption</span>
+    <p class="summary">If there is a thread that provides coherence to Donald Trump’s mad emperorship, it is the frenetic invention of new, evermore dramatic diversions: no week can be allowed to pass without new melodrama that erases the chaotic melodramas of weeks past. Nor can a week be allowed to pass without the seed…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 08:30:08 +0000</span>
+      <span class="source-badge">South China Morning Post</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Chinese stocks shake laggard image amid oil shock as green transition pays off"
+  data-summary="Chinese stocks have emerged as outperformers in the latest oil shock, reversing their reputation as laggards, as crude takes a back seat to renewable fuels in the world’s second-largest economy.
+The CSI 300 Index of stocks trading on the mainland’s exchanges has dropped 3.1 per cent since the US and Israel began attacks on Iran on February 28, outperforming the S&amp;amp;P 500, the Euro Stoxx 50 and Japan’s Nikkei 225, which have all slid at least 4 per cent during the period.
+This marked a turnaround..."
+  data-published="Fri, 20 Mar 2026 08:15:30 +0000"
+  data-link="https://www.scmp.com/business/china-business/article/3347296/chinese-stocks-shake-laggard-image-amid-oil-shock-green-transition-pays?utm_source=rss_feed"
+  data-image="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/03/20/e3430f60-702d-4b8b-a8f6-f0619d09658c_b1a320f3.jpg?itok=kw373wcq&amp;v=1773993590"
+  data-source="South China Morning Post"
+  data-source-url="https://www.scmp.com/">
+  <img class="card-thumb" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/03/20/e3430f60-702d-4b8b-a8f6-f0619d09658c_b1a320f3.jpg?itok=kw373wcq&amp;v=1773993590" alt="" loading="lazy" onerror="this.style.display='none'">
+  <div class="card-body">
+    <span class="headline">Chinese stocks shake laggard image amid oil shock as green transition pays off</span>
+    <p class="summary">Chinese stocks have emerged as outperformers in the latest oil shock, reversing their reputation as laggards, as crude takes a back seat to renewable fuels in the world’s second-largest economy.
+The CSI 300 Index of stocks trading on the mainland’s exchanges has dropped 3.1 per cent since the US and…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 08:15:30 +0000</span>
+      <span class="source-badge">South China Morning Post</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="NIH-awarded life scientist Shu Xiaokun abruptly shifts research from US to China"
+  data-summary="Eminent life scientist Shu Xiaokun has received numerous awards and significant funding from the US government over the past two decades.
+Earlier this year, he was appointed the prestigious Herfindahl Endowed Chair professor at the University of California, San Francisco (UCSF), capping a career that included pioneering fluorescent protein tools in Nobel laureate Roger Yonchien Tsien’s laboratory.
+The motto of Shu’s lab is a quote from the Nobel laureate physicist Richard Feynman: “If you’re not..."
+  data-published="Fri, 20 Mar 2026 07:11:36 +0000"
+  data-link="https://www.scmp.com/news/china/science/article/3347142/nih-awarded-life-scientist-shu-xiaokun-abruptly-shifts-research-us-china?utm_source=rss_feed"
+  data-image="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/03/19/23126351-1cff-4c09-bf0d-12ced8cf1b6b_e18e824c.jpg?itok=R_HJ__jG&amp;v=1773905992"
+  data-source="South China Morning Post"
+  data-source-url="https://www.scmp.com/">
+  <img class="card-thumb" src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/03/19/23126351-1cff-4c09-bf0d-12ced8cf1b6b_e18e824c.jpg?itok=R_HJ__jG&amp;v=1773905992" alt="" loading="lazy" onerror="this.style.display='none'">
+  <div class="card-body">
+    <span class="headline">NIH-awarded life scientist Shu Xiaokun abruptly shifts research from US to China</span>
+    <p class="summary">Eminent life scientist Shu Xiaokun has received numerous awards and significant funding from the US government over the past two decades.
+Earlier this year, he was appointed the prestigious Herfindahl Endowed Chair professor at the University of California, San Francisco (UCSF), capping a career tha…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 07:11:36 +0000</span>
+      <span class="source-badge">South China Morning Post</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
   data-title="Preview of Alibaba’s strongest AI model tops Chinese peers in ranking, lags US rivals"
   data-summary="Alibaba Group Holding unveiled the preview version of its most powerful artificial intelligence model to date, solidifying its position as China’s leader in the race to catch American giants like Anthropic, Google and OpenAI.
 Qwen3.5-Max-Preview, the flagship model of Alibaba’s Qwen 3.5 family, is now available on Arena, formerly known as LMArena, a model performance community created by researchers from UC Berkeley. Alibaba, which owns the South China Morning Post, unveiled the model on..."
@@ -7407,111 +7737,6 @@ More than 2,000 marines and at least on…</p>
     <span class="read-more">Tap to read more →</span>
   </div>
 </div>
-<div class="card" tabindex="0"
-  data-title="Malaysian mother furious after school punishes bullied son with caning, weeding"
-  data-summary="Not only was he punched repeatedly by a peer, a Malaysian student at a secondary school in Kuching, Sarawak, was caned and forced to write a note admitting his mistake, China Press reported.
-Angered at how the case was handled, the boy’s mother shared the incident on social media and lodged a police…"
-  data-published="Tue, 17 Mar 2026 08:30:12 +0000"
-  data-link="https://www.scmp.com/news/asia/southeast-asia/article/3346867/malaysian-mother-furious-after-school-punishes-bullied-son-caning-weeding?utm_source=rss_feed"
-  data-image=""
-  data-source="South China Morning Post"
-  data-source-url="https://www.scmp.com/">
-  
-  <div class="card-body">
-    <span class="headline">Malaysian mother furious after school punishes bullied son with caning, weeding</span>
-    <p class="summary">Not only was he punched repeatedly by a peer, a Malaysian student at a secondary school in Kuching, Sarawak, was caned and forced to write a note admitting his mistake, China Press reported.
-Angered at how the case was handled, the boy’s mother shared the incident on social media and lodged a police…</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 08:30:12 +0000</span>
-      <span class="source-badge">South China Morning Post</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="8 wild boars captured, put down after wandering into Hong Kong’s Wong Tai Sin"
-  data-summary="Hong Kong’s conservation authorities captured and put down eight wild boars in Wong Tai Sin on Tuesday following a report from residents.
-Police said staff from the Agricultural, Fisheries and Conservation Department (AFCD) tranquillised the animals – two large boars and six smaller ones – before re…"
-  data-published="Tue, 17 Mar 2026 08:00:13 +0000"
-  data-link="https://www.scmp.com/news/hong-kong/society/article/3346868/8-wild-boars-captured-hong-kongs-wong-tai-sin-neighbourhood?utm_source=rss_feed"
-  data-image=""
-  data-source="South China Morning Post"
-  data-source-url="https://www.scmp.com/">
-  
-  <div class="card-body">
-    <span class="headline">8 wild boars captured, put down after wandering into Hong Kong’s Wong Tai Sin</span>
-    <p class="summary">Hong Kong’s conservation authorities captured and put down eight wild boars in Wong Tai Sin on Tuesday following a report from residents.
-Police said staff from the Agricultural, Fisheries and Conservation Department (AFCD) tranquillised the animals – two large boars and six smaller ones – before re…</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 08:00:13 +0000</span>
-      <span class="source-badge">South China Morning Post</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Investors fleeing Mideast chaos find safe haven in ‘sweet spot’ Malaysia"
-  data-summary="Even before the war in Iran sparked a surge in energy prices, Malaysia stood out from its Southeast Asian peers as the new-found darling of global investors.
-A rare stretch of political stability and investments in higher-value manufacturing and data centres lifted Malaysia’s appeal as some of its n…"
-  data-published="Tue, 17 Mar 2026 07:20:08 +0000"
-  data-link="https://www.scmp.com/news/asia/southeast-asia/article/3346859/investors-fleeing-mideast-chaos-find-safe-haven-sweet-spot-malaysia?utm_source=rss_feed"
-  data-image=""
-  data-source="South China Morning Post"
-  data-source-url="https://www.scmp.com/">
-  
-  <div class="card-body">
-    <span class="headline">Investors fleeing Mideast chaos find safe haven in ‘sweet spot’ Malaysia</span>
-    <p class="summary">Even before the war in Iran sparked a surge in energy prices, Malaysia stood out from its Southeast Asian peers as the new-found darling of global investors.
-A rare stretch of political stability and investments in higher-value manufacturing and data centres lifted Malaysia’s appeal as some of its n…</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 07:20:08 +0000</span>
-      <span class="source-badge">South China Morning Post</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Chinese scientists create world’s coldest alloy. It may surprise DARPA"
-  data-summary="Chinese researchers have unveiled a new rare earth alloy so cold and efficient it could upend decades of reliance on helium-3 and send shock waves through the global race for quantum computers or ultra-sensitive detectors.
-A mini-fridge built with the alloy has achieved temperatures extremely close …"
-  data-published="Tue, 17 Mar 2026 07:13:49 +0000"
-  data-link="https://www.scmp.com/news/china/science/article/3346452/chinese-scientists-create-worlds-coldest-alloy-it-may-surprise-darpa?utm_source=rss_feed"
-  data-image=""
-  data-source="South China Morning Post"
-  data-source-url="https://www.scmp.com/">
-  
-  <div class="card-body">
-    <span class="headline">Chinese scientists create world’s coldest alloy. It may surprise DARPA</span>
-    <p class="summary">Chinese researchers have unveiled a new rare earth alloy so cold and efficient it could upend decades of reliance on helium-3 and send shock waves through the global race for quantum computers or ultra-sensitive detectors.
-A mini-fridge built with the alloy has achieved temperatures extremely close …</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 07:13:49 +0000</span>
-      <span class="source-badge">South China Morning Post</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Suicide attacks in Nigeria kill 23, wound more than 100"
-  data-summary="Multiple explosions staged by suspected suicide bombers rocked the northeastern Nigerian city of Maiduguri, killing at least 23 people and wounding more than 100 others, police said Tuesday, .
-The three blasts, which struck on Monday evening, came after an attack on a military post overnight Sunday …"
-  data-published="Tue, 17 Mar 2026 07:09:51 +0000"
-  data-link="https://www.scmp.com/news/world/africa/article/3346862/suicide-attacks-nigeria-kill-23-wound-more-100?utm_source=rss_feed"
-  data-image=""
-  data-source="South China Morning Post"
-  data-source-url="https://www.scmp.com/">
-  
-  <div class="card-body">
-    <span class="headline">Suicide attacks in Nigeria kill 23, wound more than 100</span>
-    <p class="summary">Multiple explosions staged by suspected suicide bombers rocked the northeastern Nigerian city of Maiduguri, killing at least 23 people and wounding more than 100 others, police said Tuesday, .
-The three blasts, which struck on Monday evening, came after an attack on a military post overnight Sunday …</p>
-    <div class="card-footer">
-      <span class="pub-date">Tue, 17 Mar 2026 07:09:51 +0000</span>
-      <span class="source-badge">South China Morning Post</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
 
   </div>
 </div>
@@ -7521,10 +7746,295 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
     <a class="source-link" href="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en" target="_blank" rel="noopener noreferrer">
       ↗ Visit source
     </a>
-    <span class="article-count">1409 articles</span>
+    <span class="article-count">1412 articles</span>
   </div>
   <div class="cards">
     <div class="card" tabindex="0"
+  data-title="Iran hits Gulf energy sites, escalating war, as U.S. mulls sanctions rollback - The Washington Post"
+  data-summary="Iran hits Gulf energy sites, escalating war, as U.S. mulls sanctions rollback&amp;nbsp;&amp;nbsp;The Washington PostNetanyahu says Israel ‘acted alone’ in Iran energy strike, will heed Trump’s call not to repeat attack&amp;nbsp;&amp;nbsp;CNNTrump’s Complaint About Israeli Strike on Gas Field Exposes Divergent Strategies&amp;nbsp;&amp;nbsp;The New York TimesLive updates: Energy prices soar after Trump threatens Iran gas field; F-35 hit by &#x27;suspected enemy fire&#x27;&amp;nbsp;&amp;nbsp;NBC NewsExclusive: Iran attacks wipe out 17% of Qatar’s LNG capacity for up to five years, QatarEnergy CEO says&amp;nbsp;&amp;nbsp;Reuters"
+  data-published="Fri, 20 Mar 2026 06:03:32 GMT"
+  data-link="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZm05M1lGcFZGVEVReFcyb3pUWjlEdjRhVHNEeHJYNGhMSHh2b0JLVVZ3eGFzdFNRcWFxekR0clBLNVlYRjl3VFNLYTZ3ZEZNRkwxcUdOamdTU1UzWGVQVXJ2SVBCYTJabmFfdEowZkk5SGotUzUzT0lPV0NSQTN4eUpNclg3QnNpQVpZ?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Iran hits Gulf energy sites, escalating war, as U.S. mulls sanctions rollback - The Washington Post</span>
+    <p class="summary">Iran hits Gulf energy sites, escalating war, as U.S. mulls sanctions rollback&amp;nbsp;&amp;nbsp;The Washington PostNetanyahu says Israel ‘acted alone’ in Iran energy strike, will heed Trump’s call not to repeat attack&amp;nbsp;&amp;nbsp;CNNTrump’s Complaint About Israeli Strike on Gas Field Exposes Divergent Strat…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 06:03:32 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy - CNBC"
+  data-summary="Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy&amp;nbsp;&amp;nbsp;CNBCIn Japan, Trump’s Pearl Harbor Joke Elicits Scorn and Dismay&amp;nbsp;&amp;nbsp;The New York TimesTrump compares Pearl Harbor to strikes on Iran in meeting Japan&#x27;s leader&amp;nbsp;&amp;nbsp;ReutersIran conflict looms large over Trump&#x27;s meeting with Japan PM&amp;nbsp;&amp;nbsp;BBCTrump lauds Japan’s promise, however vague, to help with Iran&amp;nbsp;&amp;nbsp;Politico"
+  data-published="Fri, 20 Mar 2026 01:03:00 GMT"
+  data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxOOEd2VVdQSWxVemFuM1d5MjJIUjhRTGNoVmo0TkZFbS1JVU9PdU1LOGZWQzlzY2NuUmtzSXU0SFdLWk5iZ3pMcXRITzVZRHlJZ1pUeUI2dmNnR2c2V1pvTk5vZXJtZURNbFk4VDBuMnNYUHdlakpCTm5rOS1zQkRiTHB1elF5Z9IBiwFBVV95cUxNeU5KdDV4bEFEVkxOMTZvRk9tZVlaaVdWSFFSS25qNEtOel9pNmREQ29FVHFoaGhMSG1FSWQ0SlJTaVlSbC1QNDN6MkV3Wm1YSElMMDduSW5ZSWFScVB0R0V3R2wtRnpHazhtd09nNXFiOFkzREtCTm10QjV2UEI4UVhac1ZrX21TSVE0?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy - CNBC</span>
+    <p class="summary">Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy&amp;nbsp;&amp;nbsp;CNBCIn Japan, Trump’s Pearl Harbor Joke Elicits Scorn and Dismay&amp;nbsp;&amp;nbsp;The New York TimesTrump compares Pearl Harbor to strikes on Iran in meeting Japan&#x27;s leader&amp;nbsp;&amp;nbsp;ReutersIran confli…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 01:03:00 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing - ABC7 Los Angeles"
+  data-summary="Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing&amp;nbsp;&amp;nbsp;ABC7 Los AngelesCesar Chavez, a Civil Rights Icon, Is Accused of Abusing Girls for Years&amp;nbsp;&amp;nbsp;The New York TimesOpinion | Take César Chávez&#x27;s name off everything&amp;nbsp;&amp;nbsp;MS NOWCalifornia leaders react to Cesar Chavez abuse allegations&amp;nbsp;&amp;nbsp;BBCMayor Karen Bass signs proclamation renaming LA&#x27;s Cesar Chavez Day holiday as Farmworkers Day&amp;nbsp;&amp;nbsp;ABC7 Los Angeles"
+  data-published="Thu, 19 Mar 2026 22:08:46 GMT"
+  data-link="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQS1ZUVF0TzMwTFNmYjVjb0tMYXRvVjBSbjhtMnpIZkJIVThfalQ0cmxSdHk1OGZhci1VaWFlb2JPUVcxMjNNSFF0NG5mNnBhekZoN3plYU9sV1lnY1NHMFAwWGZRbDNFVzhsbEZidXhhNE9OWmYwbTNjczVFWmhJOTdlbjd1QXJVRlE4MXd3YmZOQ0t1RzdVdmg1cmJqbVdZTmFTRkN6SUZMUmd6TVVVRklGTE1uSzVWeWg40gHAAUFVX3lxTE41MkxVZ0t6NXVhUndCOTViTDN0SFRLX2xBdDZ5YzBqYmN0eHprcE0tQjh3bXh5ZUp1ZkxyMzFXd0Z1bHQ1QzJpck1RYzgxMGxhaFFCSGNSNzA2ZVRsRjBwUVVQWFVlVTl1U1RHTFYySDJBTXlrRG5VbEZQV1BnUlJfYkR2b3M0UExoSERhZzVZZU5HcDlDWkMzckxrejYwQVRLRHBSYzF1aC1HMnM3RkZUcWhlLWlRVUpOTG9MMTJCNw?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing - ABC7 Los Angeles</span>
+    <p class="summary">Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing&amp;nbsp;&amp;nbsp;ABC7 Los AngelesCesar Chavez, a Civil Rights Icon, Is Accused of Abusing Girls for Years&amp;nbsp;&amp;nbsp;The New York TimesOpinion | Take César Chávez&#x27;s name off everything&amp;nbsp;&amp;nbsp;MS …</p>
+    <div class="card-footer">
+      <span class="pub-date">Thu, 19 Mar 2026 22:08:46 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Teenager among first to be executed over Iran&#x27;s anti-government protests - BBC"
+  data-summary="Teenager among first to be executed over Iran&#x27;s anti-government protests&amp;nbsp;&amp;nbsp;BBCMojtaba Khamenei regime executes champion wrestler as Iran intensifies brutal crackdown during war&amp;nbsp;&amp;nbsp;Fox NewsIran hangs teenage champion wrestler as part of group execution&amp;nbsp;&amp;nbsp;Euronews.comIran hangs three convicted of killing police during January protests, judiciary says&amp;nbsp;&amp;nbsp;The Times of IsraelIran executes 19-year-old champion wrestler Saleh Mohammadi, two others in horrific public hangings&amp;nbsp;&amp;nbsp;New York Post"
+  data-published="Thu, 19 Mar 2026 22:07:17 GMT"
+  data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QNy1rRzhSaFAtUGd1LU5GeU0wbFhpQkNYZ1BWNWdJbDBzTlZqZHF5SFluY3Awb09KS19peEJFay1OOG1LMmN2c1NvUm9aRHhkdk1jWDhXTGpuZw?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Teenager among first to be executed over Iran&#x27;s anti-government protests - BBC</span>
+    <p class="summary">Teenager among first to be executed over Iran&#x27;s anti-government protests&amp;nbsp;&amp;nbsp;BBCMojtaba Khamenei regime executes champion wrestler as Iran intensifies brutal crackdown during war&amp;nbsp;&amp;nbsp;Fox NewsIran hangs teenage champion wrestler as part of group execution&amp;nbsp;&amp;nbsp;Euronews.comIran han…</p>
+    <div class="card-footer">
+      <span class="pub-date">Thu, 19 Mar 2026 22:07:17 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds - NPR"
+  data-summary="Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds&amp;nbsp;&amp;nbsp;NPR‘Trump is aiming for dictatorship’. That’s the verdict of the world’s most credible democracy watchdog | Martin Gelin&amp;nbsp;&amp;nbsp;The GuardianUS downgraded in democracy index as press freedom concerns grow&amp;nbsp;&amp;nbsp;CNNThe United States loses its status as a liberal democracy: ‘Trump is aiming for a dictatorship’&amp;nbsp;&amp;nbsp;EL PAÍS EnglishV-Dem report finds global democracy is back at 1978 levels&amp;nbsp;&amp;nbsp;Democracy Without Borders"
+  data-published="Fri, 20 Mar 2026 04:01:00 GMT"
+  data-link="https://news.google.com/rss/articles/CBMilgFBVV95cUxNNDRrVmc2bnJhajZhZE01elJpS2xXalRZaWVWWXoxS3ktNEFQOHdvMzFnVTVVV3k1ay05ZWVYQmN5NUZGWHhrSS00Rm1fUzhIOTZSNk1DQXQwUzZvWjJnbjJBSGR0T2s1LXVYOVJKenh5MnpCZ2V0dTNGT015RGtoVzBxTkNjWVNMNjhoUEVUaGFWSHdZQmc?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds - NPR</span>
+    <p class="summary">Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds&amp;nbsp;&amp;nbsp;NPR‘Trump is aiming for dictatorship’. That’s the verdict of the world’s most credible democracy watchdog | Martin Gelin&amp;nbsp;&amp;nbsp;The GuardianUS downgraded in democracy index as press freedom concerns grow&amp;nbsp…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 04:01:00 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0 - Axios"
+  data-summary="House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0&amp;nbsp;&amp;nbsp;AxiosCracks emerge in GOP over Iran war cost as administration floats more than $200B request to Congress&amp;nbsp;&amp;nbsp;CNNRepublicans balk at going it alone on Iran war funding&amp;nbsp;&amp;nbsp;PoliticoHegseth says no ‘timeframe’ for war on Iran as Pentagon asks for $200bn&amp;nbsp;&amp;nbsp;Al JazeeraPentagon Seeks Additional $200 Billion to Fund Iran War&amp;nbsp;&amp;nbsp;The New York Times"
+  data-published="Fri, 20 Mar 2026 00:27:58 GMT"
+  data-link="https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWc5bWdoNDlOdmlOX0dDdDNEd2V4eUlLVGFfMVhoelNvZnh5Tk0tVk9Wa0hSRTVUMjdDUlRXSXBrU21fd0lZb0Z3REJZNzJuYndqUHY2djdISnRZNEk0c3pBUFZ2NHFId3QwcWdzVmk4b2RlM1VURWdlaXV5dVJtWGlzdldsR3hIOXVoU1ZCRQ?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0 - Axios</span>
+    <p class="summary">House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0&amp;nbsp;&amp;nbsp;AxiosCracks emerge in GOP over Iran war cost as administration floats more than $200B request to Congress&amp;nbsp;&amp;nbsp;CNNRepublicans balk at going it alone on Iran war funding&amp;nbsp;&amp;nbsp;PoliticoHegseth says no ‘tim…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 00:27:58 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="US arts commission approves gold coin stamped with Donald Trump’s face - Al Jazeera"
+  data-summary="US arts commission approves gold coin stamped with Donald Trump’s face&amp;nbsp;&amp;nbsp;Al JazeeraCommemorative Trump coin should be ‘as large as possible,’ key commission says in granting design approval&amp;nbsp;&amp;nbsp;CNNTrump’s hand-picked panel votes to put his face on a U.S. gold coin&amp;nbsp;&amp;nbsp;The Washington PostTrump-appointed panel approves 24-karat-gold coin featuring his image&amp;nbsp;&amp;nbsp;The GuardianTrump 24-karat gold coin approved by hand-picked federal panel&amp;nbsp;&amp;nbsp;BBC"
+  data-published="Fri, 20 Mar 2026 00:03:04 GMT"
+  data-link="https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEZ1ejRaNnF3WXZYZ01mY0pvQUFhb3NpWjFVSFZvcFZLTWVZLXl4QmdZcm83cWNoX2dUQzBOeTdVWUZIQ0Jla3VNTmwxZDNSWUkzbnE5dlJaWlVhNzV0LThCTThPYUZtY2xxbTJleUNoakJMWGxwQ3dRVXAyY1lPTExidHBpWm1oU2hwd3dwdGN6LUpZX1dGbkV6NjRZMDJXcXRvcjB6aFFraVp3dTR30gG0AUFVX3lxTFA0RmliYkg5SnNnMFNFOWkwYzA4alhIQl9FTzlucUVqMldEeEQ1ODZndnN0dEI5anhOR3JwcHdGVVZKY2pzSDRRSTFmWldMd05URVVVR0Nfa2k5V05sUlJHVWN2RjNSeTJQa3NYTUpockRSN2hrdGtwUzR1T2l1ZEZURDNvV0ZPMlUxRXA5cGxqX3Jnbm8ydUJRN2ZvN253RTlVaWVPbmZ2YXM2b2hwQ3dWcHpqTw?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">US arts commission approves gold coin stamped with Donald Trump’s face - Al Jazeera</span>
+    <p class="summary">US arts commission approves gold coin stamped with Donald Trump’s face&amp;nbsp;&amp;nbsp;Al JazeeraCommemorative Trump coin should be ‘as large as possible,’ key commission says in granting design approval&amp;nbsp;&amp;nbsp;CNNTrump’s hand-picked panel votes to put his face on a U.S. gold coin&amp;nbsp;&amp;nbsp;The Wash…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 00:03:04 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Body of Missing University of Alabama Student Is Found Dead in Spain, Police Say - The New York Times"
+  data-summary="Body of Missing University of Alabama Student Is Found Dead in Spain, Police Say&amp;nbsp;&amp;nbsp;The New York TimesBody of missing University of Alabama student found in Spain&amp;nbsp;&amp;nbsp;WBRC 6 NewsAmerican student James Gracey is found dead in Barcelona after a spring break night out. Here’s what we know&amp;nbsp;&amp;nbsp;CNNRemains of Jimmy Gracey recovered, University of Alabama student missing in Barcelona&amp;nbsp;&amp;nbsp;Fox NewsReports: Police suspect foul play in disappearance of University of Alabama student James Paul Gracey in Spain&amp;nbsp;&amp;nbsp;CBS 42"
+  data-published="Fri, 20 Mar 2026 07:38:07 GMT"
+  data-link="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeW1zNTdvNVJyaGhtQ1hlSGNZbldscDBWN0NVVklxdUNWaGhNbDVKX1dPR0ktQjFfeG8xS2xyVU1QWmZtTmNfM2RvUFNfTDN1TVV2Rld6Q3hOdTRWb2NiMzBQcFd6LUZpV1BhQWk1eElJTWFnd3RHb0lHRTR4S1M1aHpMbDBSclVZR0tpOWRPY2hFZHN2TWpzdVJiaEhFVGpmbUFPZ1RieXU5Zw?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Body of Missing University of Alabama Student Is Found Dead in Spain, Police Say - The New York Times</span>
+    <p class="summary">Body of Missing University of Alabama Student Is Found Dead in Spain, Police Say&amp;nbsp;&amp;nbsp;The New York TimesBody of missing University of Alabama student found in Spain&amp;nbsp;&amp;nbsp;WBRC 6 NewsAmerican student James Gracey is found dead in Barcelona after a spring break night out. Here’s what we kno…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 07:38:07 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Joe Kent&#x27;s resignation over Iran war reignites antisemitism fears and debate over Israeli influence - PBS"
+  data-summary="Joe Kent&#x27;s resignation over Iran war reignites antisemitism fears and debate over Israeli influence&amp;nbsp;&amp;nbsp;PBSThe GOP is dismissing Joe Kent. They might come to regret it.&amp;nbsp;&amp;nbsp;PoliticoTakeaways from former Trump administration counterterrorism chief Joe Kent’s extensive interview&amp;nbsp;&amp;nbsp;CNNF.B.I. Investigates Joe Kent, Whose Resignation Over Iran War Angered Trump&amp;nbsp;&amp;nbsp;The New York TimesThe Kent warning: When truth escapes the war machine&amp;nbsp;&amp;nbsp;Al Jazeera"
+  data-published="Thu, 19 Mar 2026 18:15:09 GMT"
+  data-link="https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOW9NVWFnOFZwRnViNHZNTmpYaXBVSWlSUWRNYWR1a0VDWWtXaXJ4NGJzS2lCTHdFc1BxaUZyM1pYaUV0V0tscnhCdkZxMUtJblVqV3cxSUtaNDlOZXh3ZlNSZEwybHNod1ZzcW1VekgxUE1La2RpYmlpYk8tbnFEYXdmTzdsUlFWazZTOGI1R0lKVkhlOWQzQXhieVdlR3hKUFhDSVA0RFFYWjNMdmZGLWttOGNhcmxDcDRyTFZWQ01vQmU4WmxSU2V2OVF6c2pScVHSAdcBQVVfeXFMTzR0SHFZX3FOTjZrUFZGS2NpR1hxUmZGWUJlVUZUWktiUU5qaDRER21uUk1uQUd5NFJxUUthMVFEczhqTlBPY1laTmU1U05qZkFJSWhWOUlYUkhvSnFOd2dfYU9HT3JlLW1KSk05dUZZTFVJb2FKYXlycjdUMmNvVzdhOUNIRk9YMk4xVnc0RFpLYlI2ZUk5Yk1vR1RsSGZkcTFwM1RaaU5keWNNTUx2SGtrUU5EdGlhVjdydF8xWnNBUVlnaUViaVF5SHZmWWtJZmFoZGNyMmM?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Joe Kent&#x27;s resignation over Iran war reignites antisemitism fears and debate over Israeli influence - PBS</span>
+    <p class="summary">Joe Kent&#x27;s resignation over Iran war reignites antisemitism fears and debate over Israeli influence&amp;nbsp;&amp;nbsp;PBSThe GOP is dismissing Joe Kent. They might come to regret it.&amp;nbsp;&amp;nbsp;PoliticoTakeaways from former Trump administration counterterrorism chief Joe Kent’s extensive interview&amp;nbsp;&amp;nb…</p>
+    <div class="card-footer">
+      <span class="pub-date">Thu, 19 Mar 2026 18:15:09 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="RFK Jr. went too far with comments about gender care for minors, judge rules - Politico"
+  data-summary="RFK Jr. went too far with comments about gender care for minors, judge rules&amp;nbsp;&amp;nbsp;PoliticoJudge Rules That R.F.K. Jr. Overstepped on Transgender Care&amp;nbsp;&amp;nbsp;The New York TimesJudge rules US government overreached with transgender health care declaration&amp;nbsp;&amp;nbsp;AP NewsJudge says he will bar RFK move aimed at cutting gender-affirming care for minors&amp;nbsp;&amp;nbsp;ReutersFederal judge blocks Trump administration limits on trans youth health care&amp;nbsp;&amp;nbsp;Gothamist"
+  data-published="Fri, 20 Mar 2026 05:03:05 GMT"
+  data-link="https://news.google.com/rss/articles/CBMivgFBVV95cUxPNDFoWmoxSDBIOHByZmJoSG0wbUc5QjlkVXRoSTBLQXdFZk8tY0swRWFWQjFRSFJVZDBhU2RSV2p2bWtwYzdEaFpRYUE4TXo3enhCdnBXa3YtN1lvaE45UlVURGpqZFV3b2xFbDQ4aVYxZl9qS3hIREVpSVluLTNQRUY1N0dPWHFrbVM0RDhpQmllSmJQMU9ocFZvR3lhN1FxTkNJLURVc0hzeElXNktEN21MdUxWVUVXMEZDbFd3?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">RFK Jr. went too far with comments about gender care for minors, judge rules - Politico</span>
+    <p class="summary">RFK Jr. went too far with comments about gender care for minors, judge rules&amp;nbsp;&amp;nbsp;PoliticoJudge Rules That R.F.K. Jr. Overstepped on Transgender Care&amp;nbsp;&amp;nbsp;The New York TimesJudge rules US government overreached with transgender health care declaration&amp;nbsp;&amp;nbsp;AP NewsJudge says he will…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 05:03:05 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade? - The New York Times"
+  data-summary="Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade?&amp;nbsp;&amp;nbsp;The New York TimesTreasury Says Cuba Can’t Get Russian Oil as Ship Heads to Island&amp;nbsp;&amp;nbsp;Bloomberg.comRussian oil tanker heading to Cuba amid US economic blockade&amp;nbsp;&amp;nbsp;The GuardianCuba readies for first Russian oil shipment of the year as energy crisis deepens&amp;nbsp;&amp;nbsp;AP NewsWill fuel reach Cuba? Russian oil tankers test U.S. pressure on Havana as crisis deepens&amp;nbsp;&amp;nbsp;Miami Herald"
+  data-published="Thu, 19 Mar 2026 22:45:02 GMT"
+  data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxQV1pXcUFnV2xGb3lFRUhkY3V3bGNTUDNKTDQ2TWx4MlRkcEFYVXloNl95clc3QW1UOFFfY2U0YlpyNFoza25xeXNuZmdLQjhJRDJ4UUFxeWpFdnoteEdMaUVjbERYTGJBbGdHclNYTTRZUXNSUnRrc2xGeWdzb2FfTGVZRHdjZw?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade? - The New York Times</span>
+    <p class="summary">Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade?&amp;nbsp;&amp;nbsp;The New York TimesTreasury Says Cuba Can’t Get Russian Oil as Ship Heads to Island&amp;nbsp;&amp;nbsp;Bloomberg.comRussian oil tanker heading to Cuba amid US economic blockade&amp;nbsp;&amp;nbsp;The GuardianCuba readies for first Russian oil shi…</p>
+    <div class="card-footer">
+      <span class="pub-date">Thu, 19 Mar 2026 22:45:02 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026 - The Times of India"
+  data-summary="95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026&amp;nbsp;&amp;nbsp;The Times of IndiaA look at celebrations for Eid al-Fitr around the world, in photos&amp;nbsp;&amp;nbsp;WRALWhen is Eid al-Fitr 2026? Saudi Arabia confirms end of Ramadan&amp;nbsp;&amp;nbsp;The Columbus DispatchA look at Eid al-Fitr and how Muslims celebrate the Islamic holiday&amp;nbsp;&amp;nbsp;PBSEid al-Fitr date confirmed. See date and where to celebrate in Reno&amp;nbsp;&amp;nbsp;Reno Gazette Journal"
+  data-published="Fri, 20 Mar 2026 00:09:00 GMT"
+  data-link="https://news.google.com/rss/articles/CBMirgJBVV95cUxONG02YXRaYmpQeDRENm4xYmVrQm9CMkptYjN0NHgybFJWMXdUeE1keFQ2V0gya1RieFlad2lSOVg4OGhqWUlvTGwzdjdXVzA5ckRoaWt5SjlGZkx2NUhPOG12X2JHNHF4dVFmUDRKeVBDODFubkk5MmJMVEMydXZrVE1qamxCVjViUEtpQU5LeDU1SjN3SEthMnhCODByTXBNY1VsR3FLSFA2c1lkcklWcG1ocVhWNEJaRjlnMFU2SWYzekoza2tBczVRMk9Rb3BRTnV6SHZPRzA4QU84OV9FMEQwNVdYbEpGUmRTb3RLcE1kN0p4dTNRS3I3SzNwX3Vmcnk5LWx4TGR0TzFGeU9DMlZ4YThPMEdCUmNxWmtwMEhHMGRucXh2aGhPdlgtZ9IBswJBVV95cUxPU21wUnRiWjBsZVlWd2d0cHh0a1o3cWhITlVRNUtLejFldnFFLVozRUlwNTN0MjN1R1lXZEhubU9HWWFxb0hHUXN0dXlxSFg0bzFONWFwMWhzS0FSVmxGb2o5Q1ZHLUlDa25GWm1mcDh6LXJWeUJLZWg0RU9KcDF6MkZIOUhHSlZMQi1feTluS0pOclNLbVg3S1U2bjNGRkJrbVduaGk1UFRqQnQ4VkZsWWZMaHd4OWJlcnMyR09HOEQ4UzBKcmhCUFRFNmhHeFI2bTJsQWhZYlZtTDFUa0o0Um5KcGdJbmxkbm9TZi1DNXRwUDJ6LThwa0lmWXpxSTBxMFJZM2hFeWt5ZVoxcnRIMWN6V0M3R1g3eG9ISWxQSW9RZWRkNEJkTjVxdTl6Ynh1b3JZ?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026 - The Times of India</span>
+    <p class="summary">95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026&amp;nbsp;&amp;nbsp;The Times of IndiaA look at celebrations for Eid al-Fitr around the world, in photos&amp;nbsp;&amp;nbsp;WRALWhen is Eid al-Fitr 2026? Saudi Arabia confirms end of Ramadan&amp;nbsp;&amp;nbsp;The Columbus DispatchA look a…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 00:09:00 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Chaos at major Sydney mosque as protesters shout ‘genocide supporter’ at Australian PM - ynetnews"
+  data-summary="Chaos at major Sydney mosque as protesters shout ‘genocide supporter’ at Australian PM&amp;nbsp;&amp;nbsp;ynetnewsAnthony Albanese: Australia PM heckled at Sydney mosque Ramadan event&amp;nbsp;&amp;nbsp;BBCAustralian mosque protesters heckle PM Albanese over Israel stance&amp;nbsp;&amp;nbsp;ReutersPM Albanese faces protests at Eid prayers, anger over Israeli offensive in Gaza&amp;nbsp;&amp;nbsp;The Jerusalem PostAustralia ‘glaringly absent’ from UK-led pact to help reopen Strait of Hormuz&amp;nbsp;&amp;nbsp;The Australian"
+  data-published="Fri, 20 Mar 2026 06:17:15 GMT"
+  data-link="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpNzVvZGkzeEYxMUdFU3gzc0ZVM0lGcHdhOGlBQXVIOFE1a05tYkxxdFI2OTB5UE85c2ZLLW1wRF85WnFZdHptV1FpcmEzV2U5TnA5S3ZR?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Chaos at major Sydney mosque as protesters shout ‘genocide supporter’ at Australian PM - ynetnews</span>
+    <p class="summary">Chaos at major Sydney mosque as protesters shout ‘genocide supporter’ at Australian PM&amp;nbsp;&amp;nbsp;ynetnewsAnthony Albanese: Australia PM heckled at Sydney mosque Ramadan event&amp;nbsp;&amp;nbsp;BBCAustralian mosque protesters heckle PM Albanese over Israel stance&amp;nbsp;&amp;nbsp;ReutersPM Albanese faces protest…</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 06:17:15 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="On 20th day of war, Netanyahu says Iran can no longer enrich uranium, build missiles - The Times of Israel"
+  data-summary="On 20th day of war, Netanyahu says Iran can no longer enrich uranium, build missiles&amp;nbsp;&amp;nbsp;The Times of IsraelNetanyahu wants oil, gas to flow through Israel post-Iran war&amp;nbsp;&amp;nbsp;ReutersAs Iran retaliates on Gulf energy sites, Netanyahu says it can no longer enrich uranium&amp;nbsp;&amp;nbsp;AP NewsNetanyahu says Iran is being &#x27;decimated&#x27; but revolution requires &#x27;ground component&#x27;&amp;nbsp;&amp;nbsp;CNBCUS-Israel strikes have destroyed Iran’s ability to enrich uranium, Benjamin Netanyahu says&amp;nbsp;&amp;nbsp;Financial Times"
+  data-published="Thu, 19 Mar 2026 23:28:40 GMT"
+  data-link="https://news.google.com/rss/articles/CBMiswFBVV95cUxNSkgzcVFSRHdwd3BNd3NXcjdJMmUtYkNuZEJ3Vnc2Um1VQlU1czJqWDlMa21iakRsajV5Yk1qS1oxSzROTUlXeHZqZ1o2NzUwQlA5UzhQVE1NQ0dfM1ZtNFByXzl6NWRBUk5CN3FMRTRCVkZBT2hIeWVPUVVkRWVSS25OeGpid0Z0RW1rTzhuakowUV96NFdmYlpjSlhYRWNkN09QYWRBZC1NaV94RzdiTzlDTdIBuAFBVV95cUxORkN6Q3dpTnRMeVIwbGF1TGE0NlJNd2w2RzRhV1dvWktuanZhd3hqc3dwZkpoZk9ZQnEwd05mS3hWQ0VIb2RZa2pnQnU0Mzl3S2c2R1NVdERkaFhMeWR6alRTVi1tV1FRN1Rqd2RwcUM2N0JFWmQtdFpSWGhqT3dGS3k2SFN5RDBQRGpOVmdwb2dySFJXaWR6dlM5RXZpS2drakxwZ0h3Vk54WmJRMy1qQ2xRUnFEMGNU?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">On 20th day of war, Netanyahu says Iran can no longer enrich uranium, build missiles - The Times of Israel</span>
+    <p class="summary">On 20th day of war, Netanyahu says Iran can no longer enrich uranium, build missiles&amp;nbsp;&amp;nbsp;The Times of IsraelNetanyahu wants oil, gas to flow through Israel post-Iran war&amp;nbsp;&amp;nbsp;ReutersAs Iran retaliates on Gulf energy sites, Netanyahu says it can no longer enrich uranium&amp;nbsp;&amp;nbsp;AP New…</p>
+    <div class="card-footer">
+      <span class="pub-date">Thu, 19 Mar 2026 23:28:40 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
+  data-title="Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China - Fortune"
+  data-summary="Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China&amp;nbsp;&amp;nbsp;FortuneCo-founder of tech company charged with diverting $2.5 billion in Nvidia AI chips to China in violation of export laws&amp;nbsp;&amp;nbsp;CNNThree charged in the US with smuggling AI chips into China&amp;nbsp;&amp;nbsp;Al JazeeraU.S. Says 3 Tied to Silicon Valley Server Maker Broke Export Laws&amp;nbsp;&amp;nbsp;The New York TimesThree Charged With Conspiring To Unlawfully Divert U.S. Artificial Intelligence Technology To China&amp;nbsp;&amp;nbsp;Department of Justice (.gov)"
+  data-published="Fri, 20 Mar 2026 04:32:00 GMT"
+  data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxPMGtxRHd0a000WnVWZHY4UjJRY19rdWVWOTczUnNqcTdDd1BHMC1SYmk2V0xkMW13cXJCNjlUQjVGNFF2NDB3SHRreWsxTFVITzhTMFA5Vm5hRm95VjNZOGtpdnlTVmRTSFEwcjJxYjdNVW9ySXVsNzR0Z1Y0LUQ4dFZVZHJtUQ?oc=5"
+  data-image=""
+  data-source="Google News (US)"
+  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
+  
+  <div class="card-body">
+    <span class="headline">Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China - Fortune</span>
+    <p class="summary">Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China&amp;nbsp;&amp;nbsp;FortuneCo-founder of tech company charged with diverting $2.5 billion in Nvidia AI chips to China in violation of export laws&amp;nbsp;&amp;nbsp;CNNThree charged in the US with smuggling AI chips into …</p>
+    <div class="card-footer">
+      <span class="pub-date">Fri, 20 Mar 2026 04:32:00 GMT</span>
+      <span class="source-badge">Google News (US)</span>
+    </div>
+    <span class="read-more">Tap to read more →</span>
+  </div>
+</div>
+<div class="card" tabindex="0"
   data-title="Live Updates: Iran war escalates, energy prices spike after Israeli strike on South Pars gas field - CBS News"
   data-summary="Live Updates: Iran war escalates, energy prices spike after Israeli strike on South Pars gas field&amp;nbsp;&amp;nbsp;CBS NewsLive updates: Iran war, Netanyahu says Israel ‘acted alone’ in energy strike&amp;nbsp;&amp;nbsp;CNNTrump’s Complaint About Israeli Strike on Gas Field Exposes Divergent Strategies&amp;nbsp;&amp;nbsp;The New York TimesLive updates: Energy prices soar after Trump threatens Iran gas field; F-35 hit by &#x27;suspected enemy fire&#x27;&amp;nbsp;&amp;nbsp;NBC NewsExclusive: Iran attacks wipe out 17% of Qatar’s LNG capacity for up to five years, QatarEnergy CEO says&amp;nbsp;&amp;nbsp;Reuters"
   data-published="Fri, 20 Mar 2026 04:19:00 GMT"
@@ -7557,25 +8067,6 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
     <p class="summary">With Japanese prime minister at his side, Trump makes Pearl Harbor joke&amp;nbsp;&amp;nbsp;The Washington PostTrump Jokes About Pearl Harbor in Meeting With Japan’s Prime Minister&amp;nbsp;&amp;nbsp;The New York TimesCNBC Daily Open: Some uncomfortable history rears its head at Trump-Takaichi meeting&amp;nbsp;&amp;nbsp;CNB…</p>
     <div class="card-footer">
       <span class="pub-date">Fri, 20 Mar 2026 03:32:00 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing - ABC7 Los Angeles"
-  data-summary="Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing&amp;nbsp;&amp;nbsp;ABC7 Los AngelesCesar Chavez, a Civil Rights Icon, Is Accused of Abusing Girls for Years&amp;nbsp;&amp;nbsp;The New York TimesStockton leaders weigh response as Cesar Chavez allegations spark community debate&amp;nbsp;&amp;nbsp;CBS NewsOpinion | Take César Chávez&#x27;s name off everything&amp;nbsp;&amp;nbsp;MS NOWCesar Chavez abuse allegations force communities to rethink honors for the labor leader&amp;nbsp;&amp;nbsp;CNN"
-  data-published="Thu, 19 Mar 2026 22:08:46 GMT"
-  data-link="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQS1ZUVF0TzMwTFNmYjVjb0tMYXRvVjBSbjhtMnpIZkJIVThfalQ0cmxSdHk1OGZhci1VaWFlb2JPUVcxMjNNSFF0NG5mNnBhekZoN3plYU9sV1lnY1NHMFAwWGZRbDNFVzhsbEZidXhhNE9OWmYwbTNjczVFWmhJOTdlbjd1QXJVRlE4MXd3YmZOQ0t1RzdVdmg1cmJqbVdZTmFTRkN6SUZMUmd6TVVVRklGTE1uSzVWeWg40gHAAUFVX3lxTE41MkxVZ0t6NXVhUndCOTViTDN0SFRLX2xBdDZ5YzBqYmN0eHprcE0tQjh3bXh5ZUp1ZkxyMzFXd0Z1bHQ1QzJpck1RYzgxMGxhaFFCSGNSNzA2ZVRsRjBwUVVQWFVlVTl1U1RHTFYySDJBTXlrRG5VbEZQV1BnUlJfYkR2b3M0UExoSERhZzVZZU5HcDlDWkMzckxrejYwQVRLRHBSYzF1aC1HMnM3RkZUcWhlLWlRVUpOTG9MMTJCNw?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing - ABC7 Los Angeles</span>
-    <p class="summary">Cesar Chavez abuse allegations: Dolores Huerta speaks with ABC News on camera for first time after sharing&amp;nbsp;&amp;nbsp;ABC7 Los AngelesCesar Chavez, a Civil Rights Icon, Is Accused of Abusing Girls for Years&amp;nbsp;&amp;nbsp;The New York TimesStockton leaders weigh response as Cesar Chavez allegations spar…</p>
-    <div class="card-footer">
-      <span class="pub-date">Thu, 19 Mar 2026 22:08:46 GMT</span>
       <span class="source-badge">Google News (US)</span>
     </div>
     <span class="read-more">Tap to read more →</span>
@@ -7696,63 +8187,6 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
   </div>
 </div>
 <div class="card" tabindex="0"
-  data-title="RFK Jr. went too far with comments about gender care for minors, judge rules - Politico"
-  data-summary="RFK Jr. went too far with comments about gender care for minors, judge rules&amp;nbsp;&amp;nbsp;PoliticoJudge Rules That R.F.K. Jr. Overstepped on Transgender Care&amp;nbsp;&amp;nbsp;The New York TimesJudge rules US government overreached with transgender health care declaration&amp;nbsp;&amp;nbsp;AP NewsFederal judge blocks Trump administration limits on trans youth health care&amp;nbsp;&amp;nbsp;GothamistRFK Jr. Dealt Setback in Bid to Limit Transgender Care for Minor&amp;nbsp;&amp;nbsp;Bloomberg Law News"
-  data-published="Fri, 20 Mar 2026 05:03:05 GMT"
-  data-link="https://news.google.com/rss/articles/CBMivgFBVV95cUxPNDFoWmoxSDBIOHByZmJoSG0wbUc5QjlkVXRoSTBLQXdFZk8tY0swRWFWQjFRSFJVZDBhU2RSV2p2bWtwYzdEaFpRYUE4TXo3enhCdnBXa3YtN1lvaE45UlVURGpqZFV3b2xFbDQ4aVYxZl9qS3hIREVpSVluLTNQRUY1N0dPWHFrbVM0RDhpQmllSmJQMU9ocFZvR3lhN1FxTkNJLURVc0hzeElXNktEN21MdUxWVUVXMEZDbFd3?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">RFK Jr. went too far with comments about gender care for minors, judge rules - Politico</span>
-    <p class="summary">RFK Jr. went too far with comments about gender care for minors, judge rules&amp;nbsp;&amp;nbsp;PoliticoJudge Rules That R.F.K. Jr. Overstepped on Transgender Care&amp;nbsp;&amp;nbsp;The New York TimesJudge rules US government overreached with transgender health care declaration&amp;nbsp;&amp;nbsp;AP NewsFederal judge bloc…</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 05:03:05 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade? - The New York Times"
-  data-summary="Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade?&amp;nbsp;&amp;nbsp;The New York TimesCuba readies for first Russian oil shipment of the year as energy crisis deepens&amp;nbsp;&amp;nbsp;NPRRussian oil tanker heading to Cuba amid US economic blockade&amp;nbsp;&amp;nbsp;The GuardianTreasury Says Cuba Can’t Get Russian Oil as Ship Heads to Island&amp;nbsp;&amp;nbsp;Bloomberg.comWill fuel reach Cuba? Russian oil tankers test U.S. pressure on Havana as crisis deepens&amp;nbsp;&amp;nbsp;Miami Herald"
-  data-published="Thu, 19 Mar 2026 23:45:03 GMT"
-  data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxQV1pXcUFnV2xGb3lFRUhkY3V3bGNTUDNKTDQ2TWx4MlRkcEFYVXloNl95clc3QW1UOFFfY2U0YlpyNFoza25xeXNuZmdLQjhJRDJ4UUFxeWpFdnoteEdMaUVjbERYTGJBbGdHclNYTTRZUXNSUnRrc2xGeWdzb2FfTGVZRHdjZw?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade? - The New York Times</span>
-    <p class="summary">Is Russian Fuel Headed for Cuba, Testing the U.S. Blockade?&amp;nbsp;&amp;nbsp;The New York TimesCuba readies for first Russian oil shipment of the year as energy crisis deepens&amp;nbsp;&amp;nbsp;NPRRussian oil tanker heading to Cuba amid US economic blockade&amp;nbsp;&amp;nbsp;The GuardianTreasury Says Cuba Can’t Get Rus…</p>
-    <div class="card-footer">
-      <span class="pub-date">Thu, 19 Mar 2026 23:45:03 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026 - The Times of India"
-  data-summary="95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026&amp;nbsp;&amp;nbsp;The Times of IndiaWhen is Eid al-Fitr 2026? Saudi Arabia confirms end of Ramadan&amp;nbsp;&amp;nbsp;The Columbus DispatchA look at Eid al-Fitr and how Muslims celebrate the Islamic holiday&amp;nbsp;&amp;nbsp;PBSEid al-Fitr date confirmed. See date and where to celebrate in Reno&amp;nbsp;&amp;nbsp;Reno Gazette JournalWhen is Eid al-Fitr in 2026? When does Ramadan end? What to know&amp;nbsp;&amp;nbsp;The Detroit News"
-  data-published="Fri, 20 Mar 2026 00:09:00 GMT"
-  data-link="https://news.google.com/rss/articles/CBMirgJBVV95cUxONG02YXRaYmpQeDRENm4xYmVrQm9CMkptYjN0NHgybFJWMXdUeE1keFQ2V0gya1RieFlad2lSOVg4OGhqWUlvTGwzdjdXVzA5ckRoaWt5SjlGZkx2NUhPOG12X2JHNHF4dVFmUDRKeVBDODFubkk5MmJMVEMydXZrVE1qamxCVjViUEtpQU5LeDU1SjN3SEthMnhCODByTXBNY1VsR3FLSFA2c1lkcklWcG1ocVhWNEJaRjlnMFU2SWYzekoza2tBczVRMk9Rb3BRTnV6SHZPRzA4QU84OV9FMEQwNVdYbEpGUmRTb3RLcE1kN0p4dTNRS3I3SzNwX3Vmcnk5LWx4TGR0TzFGeU9DMlZ4YThPMEdCUmNxWmtwMEhHMGRucXh2aGhPdlgtZ9IBswJBVV95cUxPU21wUnRiWjBsZVlWd2d0cHh0a1o3cWhITlVRNUtLejFldnFFLVozRUlwNTN0MjN1R1lXZEhubU9HWWFxb0hHUXN0dXlxSFg0bzFONWFwMWhzS0FSVmxGb2o5Q1ZHLUlDa25GWm1mcDh6LXJWeUJLZWg0RU9KcDF6MkZIOUhHSlZMQi1feTluS0pOclNLbVg3S1U2bjNGRkJrbVduaGk1UFRqQnQ4VkZsWWZMaHd4OWJlcnMyR09HOEQ4UzBKcmhCUFRFNmhHeFI2bTJsQWhZYlZtTDFUa0o0Um5KcGdJbmxkbm9TZi1DNXRwUDJ6LThwa0lmWXpxSTBxMFJZM2hFeWt5ZVoxcnRIMWN6V0M3R1g3eG9ISWxQSW9RZWRkNEJkTjVxdTl6Ynh1b3JZ?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026 - The Times of India</span>
-    <p class="summary">95+ Happy Eid-ul-Fitr Messages, Greetings, Wishes and Quotes for a Joyous Eid on 2026&amp;nbsp;&amp;nbsp;The Times of IndiaWhen is Eid al-Fitr 2026? Saudi Arabia confirms end of Ramadan&amp;nbsp;&amp;nbsp;The Columbus DispatchA look at Eid al-Fitr and how Muslims celebrate the Islamic holiday&amp;nbsp;&amp;nbsp;PBSEid al-F…</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 00:09:00 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
   data-title="European countries and Japan: ready to help on Hormuz, stabilise energy markets - Reuters"
   data-summary="European countries and Japan: ready to help on Hormuz, stabilise energy markets&amp;nbsp;&amp;nbsp;ReutersJoint statement from the leaders of the United Kingdom, France, Germany, Italy, the Netherlands, Japan and Canada on the Strait of Hormuz: 19 March 2026&amp;nbsp;&amp;nbsp;GOV.UKEurope and Japan Ready to Join Efforts to Secure Strait of Hormuz as Energy Prices Surge Amid Iran War&amp;nbsp;&amp;nbsp;Time MagazineFrance exploring UN route to unblock Strait of Hormuz, Macron says&amp;nbsp;&amp;nbsp;politico.euEuropean nations, Japan to join ‘appropriate efforts’ to open Hormuz Strait&amp;nbsp;&amp;nbsp;Al Jazeera"
   data-published="Thu, 19 Mar 2026 13:26:44 GMT"
@@ -7791,101 +8225,6 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
   </div>
 </div>
 <div class="card" tabindex="0"
-  data-title="Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China - Fortune"
-  data-summary="Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China&amp;nbsp;&amp;nbsp;FortuneU.S. prosecutors charge Super Micro Computer employees with smuggling Nvidia chips to China&amp;nbsp;&amp;nbsp;CNBCThree Charged With Conspiring To Unlawfully Divert U.S. Artificial Intelligence Technology To China&amp;nbsp;&amp;nbsp;Department of Justice (.gov)U.S. Says 3 Tied to Silicon Valley Server Maker Broke Export Laws&amp;nbsp;&amp;nbsp;The New York TimesCo-founder of tech company charged with diverting $2.5 billion in Nvidia AI chips to China in violation of export laws&amp;nbsp;&amp;nbsp;CNN"
-  data-published="Fri, 20 Mar 2026 04:32:00 GMT"
-  data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxPMGtxRHd0a000WnVWZHY4UjJRY19rdWVWOTczUnNqcTdDd1BHMC1SYmk2V0xkMW13cXJCNjlUQjVGNFF2NDB3SHRreWsxTFVITzhTMFA5Vm5hRm95VjNZOGtpdnlTVmRTSFEwcjJxYjdNVW9ySXVsNzR0Z1Y0LUQ4dFZVZHJtUQ?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China - Fortune</span>
-    <p class="summary">Supermicro’s co-founder was just arrested for allegedly smuggling $2.5 billion in GPUs to China&amp;nbsp;&amp;nbsp;FortuneU.S. prosecutors charge Super Micro Computer employees with smuggling Nvidia chips to China&amp;nbsp;&amp;nbsp;CNBCThree Charged With Conspiring To Unlawfully Divert U.S. Artificial Intelligence…</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 04:32:00 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy - CNBC"
-  data-summary="Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy&amp;nbsp;&amp;nbsp;CNBCIn Japan, Trump’s Pearl Harbor Joke Elicits Scorn and Dismay&amp;nbsp;&amp;nbsp;The New York TimesJapan&#x27;s Takaichi tries to reaffirm alliance with Trump as he seeks help securing Strait of Hormuz&amp;nbsp;&amp;nbsp;AP NewsTrump lauds Japan’s promise, however vague, to help with Iran&amp;nbsp;&amp;nbsp;PoliticoTrump Praises Japan’s Takaichi for ‘Stepping Up’ in Iran War&amp;nbsp;&amp;nbsp;Foreign Policy"
-  data-published="Fri, 20 Mar 2026 01:03:00 GMT"
-  data-link="https://news.google.com/rss/articles/CBMihgFBVV95cUxOOEd2VVdQSWxVemFuM1d5MjJIUjhRTGNoVmo0TkZFbS1JVU9PdU1LOGZWQzlzY2NuUmtzSXU0SFdLWk5iZ3pMcXRITzVZRHlJZ1pUeUI2dmNnR2c2V1pvTk5vZXJtZURNbFk4VDBuMnNYUHdlakpCTm5rOS1zQkRiTHB1elF5Z9IBiwFBVV95cUxNeU5KdDV4bEFEVkxOMTZvRk9tZVlaaVdWSFFSS25qNEtOel9pNmREQ29FVHFoaGhMSG1FSWQ0SlJTaVlSbC1QNDN6MkV3Wm1YSElMMDduSW5ZSWFScVB0R0V3R2wtRnpHazhtd09nNXFiOFkzREtCTm10QjV2UEI4UVhac1ZrX21TSVE0?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy - CNBC</span>
-    <p class="summary">Trump invokes Pearl Harbor in front of Japanese prime minister to defend Iran attack secrecy&amp;nbsp;&amp;nbsp;CNBCIn Japan, Trump’s Pearl Harbor Joke Elicits Scorn and Dismay&amp;nbsp;&amp;nbsp;The New York TimesJapan&#x27;s Takaichi tries to reaffirm alliance with Trump as he seeks help securing Strait of Hormuz&amp;nbsp…</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 01:03:00 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Iran: Teenager among first to be executed over anti-government protests - BBC"
-  data-summary="Iran: Teenager among first to be executed over anti-government protests&amp;nbsp;&amp;nbsp;BBCOlympians speak out against Iran&#x27;s public execution of champion wrestler Saleh Mohammadi&amp;nbsp;&amp;nbsp;Fox NewsIran hangs 3, including teen wrestler, in first executions over Jan. protests&amp;nbsp;&amp;nbsp;YahooIran hangs three convicted of killing police during January protests, judiciary says&amp;nbsp;&amp;nbsp;The Times of IsraelArticle: 3 Protesters Hanged; IHRNGO Warns of Mass Executions&amp;nbsp;&amp;nbsp;Iran Human Rights"
-  data-published="Thu, 19 Mar 2026 22:07:17 GMT"
-  data-link="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QNy1rRzhSaFAtUGd1LU5GeU0wbFhpQkNYZ1BWNWdJbDBzTlZqZHF5SFluY3Awb09KS19peEJFay1OOG1LMmN2c1NvUm9aRHhkdk1jWDhXTGpuZw?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Iran: Teenager among first to be executed over anti-government protests - BBC</span>
-    <p class="summary">Iran: Teenager among first to be executed over anti-government protests&amp;nbsp;&amp;nbsp;BBCOlympians speak out against Iran&#x27;s public execution of champion wrestler Saleh Mohammadi&amp;nbsp;&amp;nbsp;Fox NewsIran hangs 3, including teen wrestler, in first executions over Jan. protests&amp;nbsp;&amp;nbsp;YahooIran hangs t…</p>
-    <div class="card-footer">
-      <span class="pub-date">Thu, 19 Mar 2026 22:07:17 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds - NPR"
-  data-summary="Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds&amp;nbsp;&amp;nbsp;NPR‘Trump is aiming for dictatorship’. That’s the verdict of the world’s most credible democracy watchdog | Martin Gelin&amp;nbsp;&amp;nbsp;The GuardianUS downgraded in democracy index as press freedom concerns grow&amp;nbsp;&amp;nbsp;CNNThe United States loses its status as a liberal democracy: ‘Trump is aiming for a dictatorship’&amp;nbsp;&amp;nbsp;EL PAÍS EnglishV-Dem report finds global democracy is back at 1978 levels&amp;nbsp;&amp;nbsp;Democracy Without Borders"
-  data-published="Fri, 20 Mar 2026 04:01:00 GMT"
-  data-link="https://news.google.com/rss/articles/CBMilgFBVV95cUxNNDRrVmc2bnJhajZhZE01elJpS2xXalRZaWVWWXoxS3ktNEFQOHdvMzFnVTVVV3k1ay05ZWVYQmN5NUZGWHhrSS00Rm1fUzhIOTZSNk1DQXQwUzZvWjJnbjJBSGR0T2s1LXVYOVJKenh5MnpCZ2V0dTNGT015RGtoVzBxTkNjWVNMNjhoUEVUaGFWSHdZQmc?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds - NPR</span>
-    <p class="summary">Trump is dismantling democracy at &#x27;unprecedented&#x27; speed, global report finds&amp;nbsp;&amp;nbsp;NPR‘Trump is aiming for dictatorship’. That’s the verdict of the world’s most credible democracy watchdog | Martin Gelin&amp;nbsp;&amp;nbsp;The GuardianUS downgraded in democracy index as press freedom concerns grow&amp;nbsp…</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 04:01:00 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="US arts commission approves gold coin stamped with Donald Trump’s face - Al Jazeera"
-  data-summary="US arts commission approves gold coin stamped with Donald Trump’s face&amp;nbsp;&amp;nbsp;Al JazeeraTrump’s Handpicked Arts Commission Approves Gold Coin With His Face on It&amp;nbsp;&amp;nbsp;The New York TimesUS Mint can begin to produce Trump commemorative gold coin&amp;nbsp;&amp;nbsp;NPRCommemorative Trump coin should be ‘as large as possible,’ key commission says in granting design approval&amp;nbsp;&amp;nbsp;CNNTrump 24-karat gold coin approved by hand-picked federal panel&amp;nbsp;&amp;nbsp;BBC"
-  data-published="Fri, 20 Mar 2026 00:03:04 GMT"
-  data-link="https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEZ1ejRaNnF3WXZYZ01mY0pvQUFhb3NpWjFVSFZvcFZLTWVZLXl4QmdZcm83cWNoX2dUQzBOeTdVWUZIQ0Jla3VNTmwxZDNSWUkzbnE5dlJaWlVhNzV0LThCTThPYUZtY2xxbTJleUNoakJMWGxwQ3dRVXAyY1lPTExidHBpWm1oU2hwd3dwdGN6LUpZX1dGbkV6NjRZMDJXcXRvcjB6aFFraVp3dTR30gG0AUFVX3lxTFA0RmliYkg5SnNnMFNFOWkwYzA4alhIQl9FTzlucUVqMldEeEQ1ODZndnN0dEI5anhOR3JwcHdGVVZKY2pzSDRRSTFmWldMd05URVVVR0Nfa2k5V05sUlJHVWN2RjNSeTJQa3NYTUpockRSN2hrdGtwUzR1T2l1ZEZURDNvV0ZPMlUxRXA5cGxqX3Jnbm8ydUJRN2ZvN253RTlVaWVPbmZ2YXM2b2hwQ3dWcHpqTw?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">US arts commission approves gold coin stamped with Donald Trump’s face - Al Jazeera</span>
-    <p class="summary">US arts commission approves gold coin stamped with Donald Trump’s face&amp;nbsp;&amp;nbsp;Al JazeeraTrump’s Handpicked Arts Commission Approves Gold Coin With His Face on It&amp;nbsp;&amp;nbsp;The New York TimesUS Mint can begin to produce Trump commemorative gold coin&amp;nbsp;&amp;nbsp;NPRCommemorative Trump coin should …</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 00:03:04 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
   data-title="Judge Rules That R.F.K. Jr. Overstepped on Transgender Care - The New York Times"
   data-summary="Judge Rules That R.F.K. Jr. Overstepped on Transgender Care&amp;nbsp;&amp;nbsp;The New York TimesRFK Jr. went too far with comments about gender care for minors, judge rules&amp;nbsp;&amp;nbsp;PoliticoFederal judge blocks Trump administration limits on trans youth health care&amp;nbsp;&amp;nbsp;GothamistJudge rules US government overreached with transgender health care declaration&amp;nbsp;&amp;nbsp;10TVTrump Transgender Health&amp;nbsp;&amp;nbsp;WV News"
   data-published="Fri, 20 Mar 2026 00:43:02 GMT"
@@ -7899,25 +8238,6 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
     <p class="summary">Judge Rules That R.F.K. Jr. Overstepped on Transgender Care&amp;nbsp;&amp;nbsp;The New York TimesRFK Jr. went too far with comments about gender care for minors, judge rules&amp;nbsp;&amp;nbsp;PoliticoFederal judge blocks Trump administration limits on trans youth health care&amp;nbsp;&amp;nbsp;GothamistJudge rules US gove…</p>
     <div class="card-footer">
       <span class="pub-date">Fri, 20 Mar 2026 00:43:02 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0 - Axios"
-  data-summary="House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0&amp;nbsp;&amp;nbsp;AxiosCracks emerge in GOP over Iran war cost as administration floats more than $200B request to Congress&amp;nbsp;&amp;nbsp;CNNRepublicans balk at going it alone on Iran war funding&amp;nbsp;&amp;nbsp;PoliticoHegseth says potential $200 billion Iran war spending request could shift: &#x27;Takes money to kill bad guys&#x27;&amp;nbsp;&amp;nbsp;CNBCPentagon Seeks Additional $200 Billion to Fund Iran War&amp;nbsp;&amp;nbsp;The New York Times"
-  data-published="Fri, 20 Mar 2026 05:41:29 GMT"
-  data-link="https://news.google.com/rss/articles/CBMijwFBVV95cUxNSWc5bWdoNDlOdmlOX0dDdDNEd2V4eUlLVGFfMVhoelNvZnh5Tk0tVk9Wa0hSRTVUMjdDUlRXSXBrU21fd0lZb0Z3REJZNzJuYndqUHY2djdISnRZNEk0c3pBUFZ2NHFId3QwcWdzVmk4b2RlM1VURWdlaXV5dVJtWGlzdldsR3hIOXVoU1ZCRQ?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0 - Axios</span>
-    <p class="summary">House GOP welcomes $200B Pentagon request to jump-start reconciliation 2.0&amp;nbsp;&amp;nbsp;AxiosCracks emerge in GOP over Iran war cost as administration floats more than $200B request to Congress&amp;nbsp;&amp;nbsp;CNNRepublicans balk at going it alone on Iran war funding&amp;nbsp;&amp;nbsp;PoliticoHegseth says potenti…</p>
-    <div class="card-footer">
-      <span class="pub-date">Fri, 20 Mar 2026 05:41:29 GMT</span>
       <span class="source-badge">Google News (US)</span>
     </div>
     <span class="read-more">Tap to read more →</span>
@@ -8456,25 +8776,6 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
   </div>
 </div>
 <div class="card" tabindex="0"
-  data-title="Body of Missing American College Student Is Found in Spain, Police Say - The New York Times"
-  data-summary="Body of Missing American College Student Is Found in Spain, Police Say&amp;nbsp;&amp;nbsp;The New York TimesBody of missing University of Alabama student found in Spain, reports say&amp;nbsp;&amp;nbsp;WBRC 6 NewsUniversity of Alabama student missing in Barcelona found dead at beach, police in Spain say&amp;nbsp;&amp;nbsp;NBC NewsReports: Police suspect foul play in disappearance of University of Alabama student James Paul Gracey in Spain&amp;nbsp;&amp;nbsp;CBS 42Body of missing Illinois student found in waters off beach of Barcelona&amp;nbsp;&amp;nbsp;The Guardian"
-  data-published="Thu, 19 Mar 2026 20:34:26 GMT"
-  data-link="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeW1zNTdvNVJyaGhtQ1hlSGNZbldscDBWN0NVVklxdUNWaGhNbDVKX1dPR0ktQjFfeG8xS2xyVU1QWmZtTmNfM2RvUFNfTDN1TVV2Rld6Q3hOdTRWb2NiMzBQcFd6LUZpV1BhQWk1eElJTWFnd3RHb0lHRTR4S1M1aHpMbDBSclVZR0tpOWRPY2hFZHN2TWpzdVJiaEhFVGpmbUFPZ1RieXU5Zw?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">Body of Missing American College Student Is Found in Spain, Police Say - The New York Times</span>
-    <p class="summary">Body of Missing American College Student Is Found in Spain, Police Say&amp;nbsp;&amp;nbsp;The New York TimesBody of missing University of Alabama student found in Spain, reports say&amp;nbsp;&amp;nbsp;WBRC 6 NewsUniversity of Alabama student missing in Barcelona found dead at beach, police in Spain say&amp;nbsp;&amp;nbsp;N…</p>
-    <div class="card-footer">
-      <span class="pub-date">Thu, 19 Mar 2026 20:34:26 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
   data-title="Pentagon weighs sending more troops to Middle East - Politico"
   data-summary="Pentagon weighs sending more troops to Middle East&amp;nbsp;&amp;nbsp;PoliticoIran War Live Updates: Trump Says ‘We’re Not Putting Troops Anywhere’&amp;nbsp;&amp;nbsp;WSJTrump Says He Won’t Send Troops to Iran But Leaves Wiggle Room&amp;nbsp;&amp;nbsp;The New York TimesExclusive: US weighs military reinforcements as Iran war enters possible new phase&amp;nbsp;&amp;nbsp;ReutersHighlights: Trump says U.S. ‘not putting troops anywhere’ despite reports of military plans&amp;nbsp;&amp;nbsp;MS NOW"
   data-published="Thu, 19 Mar 2026 18:41:55 GMT"
@@ -8564,25 +8865,6 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
     <p class="summary">Japan&#x27;s Takaichi tries to reaffirm alliance with Trump as he seeks help securing Strait of Hormuz&amp;nbsp;&amp;nbsp;AP NewsTrump Praises Japan’s Takaichi for ‘Stepping Up’ in Iran War&amp;nbsp;&amp;nbsp;Foreign PolicyJapanese leader faces a &#x27;very difficult&#x27; meeting with Trump as he presses for help with Iran&amp;nbsp;…</p>
     <div class="card-footer">
       <span class="pub-date">Thu, 19 Mar 2026 18:47:00 GMT</span>
-      <span class="source-badge">Google News (US)</span>
-    </div>
-    <span class="read-more">Tap to read more →</span>
-  </div>
-</div>
-<div class="card" tabindex="0"
-  data-title="U.S. mulls lifting oil sanctions on Iran as it hits key Gulf energy sites - The Washington Post"
-  data-summary="U.S. mulls lifting oil sanctions on Iran as it hits key Gulf energy sites&amp;nbsp;&amp;nbsp;The Washington PostU.S. Encourages Flow of Iranian Oil While It Battles Iran&amp;nbsp;&amp;nbsp;The New York TimesBessent rules out government intervention in oil futures market during Iran war&amp;nbsp;&amp;nbsp;Fox BusinessTrump administration may unsanction some Iranian oil as energy prices spike, Bessent says&amp;nbsp;&amp;nbsp;PoliticoThe U.S. weighs lifting Iranian oil sanctions to keep price in check&amp;nbsp;&amp;nbsp;Axios"
-  data-published="Thu, 19 Mar 2026 20:42:35 GMT"
-  data-link="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZm05M1lGcFZGVEVReFcyb3pUWjlEdjRhVHNEeHJYNGhMSHh2b0JLVVZ3eGFzdFNRcWFxekR0clBLNVlYRjl3VFNLYTZ3ZEZNRkwxcUdOamdTU1UzWGVQVXJ2SVBCYTJabmFfdEowZkk5SGotUzUzT0lPV0NSQTN4eUpNclg3QnNpQVpZ?oc=5"
-  data-image=""
-  data-source="Google News (US)"
-  data-source-url="https://news.google.com/home?hl=en-US&amp;gl=US&amp;ceid=US:en">
-  
-  <div class="card-body">
-    <span class="headline">U.S. mulls lifting oil sanctions on Iran as it hits key Gulf energy sites - The Washington Post</span>
-    <p class="summary">U.S. mulls lifting oil sanctions on Iran as it hits key Gulf energy sites&amp;nbsp;&amp;nbsp;The Washington PostU.S. Encourages Flow of Iranian Oil While It Battles Iran&amp;nbsp;&amp;nbsp;The New York TimesBessent rules out government intervention in oil futures market during Iran war&amp;nbsp;&amp;nbsp;Fox BusinessTrump …</p>
-    <div class="card-footer">
-      <span class="pub-date">Thu, 19 Mar 2026 20:42:35 GMT</span>
       <span class="source-badge">Google News (US)</span>
     </div>
     <span class="read-more">Tap to read more →</span>
@@ -34397,6 +34679,20 @@ The three blasts, which struck on Monday evening, came after an attack on a mili
       document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') closeModal();
       });
+    })();
+
+    /* ---- Language toggle ---- */
+    function setLang(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.querySelectorAll('.lang-btn').forEach(function (btn) {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      try { localStorage.setItem('newsLang', lang); } catch (e) {}
+    }
+    (function () {
+      var saved = '';
+      try { saved = localStorage.getItem('newsLang') || ''; } catch (e) {}
+      setLang(saved === 'zh' ? 'zh' : 'en');
     })();
   </script>
 </body>
