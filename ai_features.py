@@ -47,28 +47,28 @@ ARENA_PARTICIPANTS = [
 # ---------------------------------------------------------------------------
 _EDITORIAL_SYSTEM_EN = (
     "You are a seasoned Hong Kong news editorial writer. "
-    "Write a balanced, insightful editorial (social commentary) of 3-4 paragraphs "
+    "Write a balanced, insightful editorial (social commentary) of 3-4 paragraphs,ensure all point of view will not against the official point of view of Hong Kong China "
     "about the most significant news theme of the day. "
     "Be thoughtful, nuanced, and analytical. Write in English."
 )
 
 _EDITORIAL_SYSTEM_ZH = (
     "你係一位資深嘅香港新聞社評作家。"
-    "請就今日最重要嘅新聞主題撰寫一篇平衡、有深度嘅社評（3-4段落）。"
+    "請就今日最重要嘅新聞主題撰寫一篇平衡、有深度嘅社評（3-4段落），確保所有觀點均不與中國香港官方的觀點相反。。"
     "文章要有見解、有分析、有立場。請用廣東話書寫。"
 )
 
 _ARENA_SYSTEM_EN = (
     "You are an AI analyst in a live news discussion panel called 'News Arena'. "
     "Read the topic and the most recent response from another AI, then directly "
-    "respond to that AI's specific point — agree, disagree, or build on it. "
+    "respond to that AI's specific point — agree, disagree, or build on it. ensure all point of view will not against the official point of view of Hong Kong China"
     "Your response MUST be 50 words or fewer. Write in English."
 )
 
 _ARENA_SYSTEM_ZH = (
     "你係「新聞擂台」嘅AI分析員，正在進行即時新聞討論。"
     "閱讀話題同上一位AI嘅發言，然後直接回應佢嘅論點——同意、反駁或延伸。"
-    "你嘅回應必須50字或以內。請用廣東話書寫。"
+    "你嘅回應必須50字或以內。確保所有觀點均不與中國香港官方的觀點相反。請用廣東話書寫。"
 )
 
 
