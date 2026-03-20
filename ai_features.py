@@ -59,18 +59,16 @@ _EDITORIAL_SYSTEM_ZH = (
 )
 
 _ARENA_SYSTEM_EN = (
-    "You are an AI analyst taking part in a live news discussion panel called "
-    "'News Arena'. You will read a topic and any prior responses from other AI "
-    "systems, then add your own analytical perspective. "
-    "Be engaging, direct, and willing to agree or push back on prior points. "
-    "Keep your response to 2-3 focused paragraphs. Write in English."
+    "You are an AI analyst in a live news discussion panel called 'News Arena'. "
+    "Read the topic and the most recent response from another AI, then directly "
+    "respond to that AI's specific point — agree, disagree, or build on it. "
+    "Your response MUST be 50 words or fewer. Write in English."
 )
 
 _ARENA_SYSTEM_ZH = (
-    "你係「新聞擂台」嘅一個AI分析員，正在進行即時新聞討論。"
-    "你會閱讀話題同其他AI嘅發言，然後加入你自己嘅分析觀點。"
-    "保持直接、有見地，可以同意或反駁前面嘅意見。"
-    "你嘅回應保持2-3段落。請用廣東話書寫。"
+    "你係「新聞擂台」嘅AI分析員，正在進行即時新聞討論。"
+    "閱讀話題同上一位AI嘅發言，然後直接回應佢嘅論點——同意、反駁或延伸。"
+    "你嘅回應必須50字或以內。請用廣東話書寫。"
 )
 
 
@@ -118,21 +116,23 @@ def generate_editorial(articles: list[dict], lang: str = "en") -> dict:
     system_msg = _EDITORIAL_SYSTEM_ZH if lang == "zh" else _EDITORIAL_SYSTEM_EN
     lang_note = "用廣東話" if lang == "zh" else "in English"
 
-    # Build a news digest for the AI
+    # Build a numbered news digest so we can identify which article was chosen
     news_digest = "\n".join(
-        f"- [{a['source']}] {a['title']}: {a.get('summary', '')[:200]}"
-        for a in articles[:12]
+        f"{i+1}. [{a['source']}] {a['title']}: {a.get('summary', '')[:200]}"
+        for i, a in enumerate(articles[:12])
     )
 
     user_msg = (
         f"Based on today's top Hong Kong news, write an editorial {lang_note}.\n\n"
         f"Today's headlines:\n{news_digest}\n\n"
-        "Choose the most important theme and write a 3-4 paragraph editorial. "
-        "Do not include a headline; start directly with the editorial prose."
+        "Choose the most important theme. "
+        "On the very first line, write exactly: CHOSEN: <number> (the number of the headline you chose). "
+        "Then on the next lines write the 3-4 paragraph editorial. "
+        "Do not include a separate headline for the editorial; start directly with the prose after the CHOSEN line."
     )
 
     print(f"  → Generating editorial [{lang}] with {AI_EDITORIAL_MODEL}…")
-    content = call_ai(
+    raw = call_ai(
         AI_EDITORIAL_MODEL,
         [
             {"role": "system", "content": system_msg},
@@ -140,10 +140,24 @@ def generate_editorial(articles: list[dict], lang: str = "en") -> dict:
         ],
     )
 
+    # Parse out the chosen article number from "CHOSEN: N" prefix
+    chosen_article = articles[0]
+    content = raw
+    if raw.startswith("CHOSEN:"):
+        first_line, _, rest = raw.partition("\n")
+        try:
+            idx = int(first_line.split(":", 1)[1].strip()) - 1
+            if 0 <= idx < len(articles[:12]):
+                chosen_article = articles[idx]
+        except (ValueError, IndexError):
+            pass
+        content = rest.strip()
+
     return {
         "content": content,
         "model": AI_EDITORIAL_MODEL,
-        "topic_title": articles[0]["title"],
+        "topic_title": chosen_article["title"],
+        "topic_url": chosen_article.get("link", ""),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -155,15 +169,17 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
     """
     Run a multi-AI debate about today's top news topic.
 
-    Each of the ARENA_PARTICIPANTS responds in turn, building on what the
-    previous speakers have said.
+    Each of the ARENA_PARTICIPANTS responds in turn, directly replying to the
+    most recent previous response (≤ 50 words each).  Participants that fail
+    to respond are silently skipped.
 
     Args:
         articles: List of article dicts.
         lang:     "en" for English, "zh" for Cantonese.
 
     Returns:
-        Dict with keys: topic_title, topic_summary, messages, generated_at.
+        Dict with keys: topic_title, topic_summary, topic_url, messages,
+        generated_at.
     """
     if not articles:
         return {}
@@ -171,6 +187,7 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
     top = articles[0]
     topic_title   = top["title"]
     topic_summary = top.get("summary", "")[:500]
+    topic_url     = top.get("link", "")
 
     system_msg = _ARENA_SYSTEM_ZH if lang == "zh" else _ARENA_SYSTEM_EN
     lang_note  = "用廣東話" if lang == "zh" else "in English"
@@ -180,55 +197,54 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
         f"Today's Arena topic ({lang_note}):\n\n"
         f"**{topic_title}**\n\n"
         f"{topic_summary}\n\n"
-        "Share your analysis and perspective on this story."
+        "Give your opening view on this story in 50 words or fewer."
     )
 
-    # We keep a rolling conversation window so later participants can read
-    # the earlier exchanges, but we cap it to avoid token bloat.
+    # conversation holds: [topic_user_msg, last_assistant_response]
+    # Each AI only sees the topic + the immediately preceding response so it
+    # is forced to react to that specific message.
     conversation: list[dict] = [{"role": "user", "content": opening}]
     arena_messages: list[dict] = []
+    last_response_text: str = ""
 
     for idx, participant in enumerate(ARENA_PARTICIPANTS):
         model = participant["model"]
         name  = participant["name"]
 
-        messages = [{"role": "system", "content": system_msg}] + conversation
+        # Build messages: system + topic + (optionally) last response prompt
+        if idx == 0:
+            messages = [{"role": "system", "content": system_msg}] + conversation
+        else:
+            # Ask this AI to respond directly to the previous AI's message
+            reply_prompt = (
+                f"The previous participant said ({lang_note}):\n\n"
+                f"{last_response_text}\n\n"
+                "Respond directly to that point in 50 words or fewer."
+            )
+            messages = [
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": opening},
+                {"role": "user", "content": reply_prompt},
+            ]
 
         print(f"  → Arena [{lang}] – {name} ({model})…")
         response = call_ai(model, messages)
         if not response:
-            response = f"[{name} did not respond]"
+            print(f"    (skipping {name} – no response)")
+            time.sleep(1)
+            continue  # skip non-responding models silently
 
         arena_messages.append(
             {"model": model, "name": name, "content": response}
         )
-
-        # Append the response so the next participant can read it
-        conversation.append(
-            {"role": "assistant", "content": f"[{name}]: {response}"}
-        )
-
-        # Prompt for the next participant (except after the last one)
-        if idx < len(ARENA_PARTICIPANTS) - 1:
-            conversation.append(
-                {
-                    "role": "user",
-                    "content": (
-                        f"Continue the discussion {lang_note}. "
-                        "Respond to the points made so far and add your own analysis."
-                    ),
-                }
-            )
-
-        # Keep conversation window manageable: topic + last 4 exchanges
-        if len(conversation) > 9:
-            conversation = conversation[:1] + conversation[-8:]
+        last_response_text = response
 
         time.sleep(1)  # be polite to the API
 
     return {
         "topic_title":   topic_title,
         "topic_summary": topic_summary,
+        "topic_url":     topic_url,
         "messages":      arena_messages,
         "generated_at":  datetime.now(timezone.utc).isoformat(),
     }
