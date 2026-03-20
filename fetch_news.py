@@ -24,6 +24,8 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
 
+from ai_features import load_ai_content
+
 # ---------------------------------------------------------------------------
 # News sources
 # ---------------------------------------------------------------------------
@@ -382,7 +384,7 @@ def fetch_all_news() -> list[dict]:
 # ---------------------------------------------------------------------------
 HTML_TEMPLATE = """\
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -399,6 +401,36 @@ HTML_TEMPLATE = """\
       color: #3a3028;
       line-height: 1.65;
     }}
+
+    /* ---- Language visibility ---- */
+    html[data-lang="en"] .zh-content {{ display: none; }}
+    html[data-lang="zh"] .en-content {{ display: none; }}
+
+    /* ---- Language toggle ---- */
+    .lang-toggle {{
+      display: inline-flex;
+      gap: 0;
+      border: 1px solid #c9bfaf;
+      border-radius: 2px;
+      overflow: hidden;
+      margin-top: .7rem;
+    }}
+    .lang-btn {{
+      background: transparent;
+      border: none;
+      padding: .3rem .9rem;
+      font-size: .78rem;
+      color: #7a6555;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: background .2s, color .2s;
+    }}
+    .lang-btn.active {{
+      background: #c9bfaf;
+      color: #3a3028;
+      font-weight: 600;
+    }}
+    .lang-btn:hover:not(.active) {{ background: #ede6da; }}
 
     /* ---- Header ---- */
     header {{
@@ -734,6 +766,119 @@ HTML_TEMPLATE = """\
     }}
     footer a {{ color: #a0785a; text-decoration: none; }}
     footer a:hover {{ text-decoration: underline; }}
+
+    /* ---- AI sections ---- */
+    .ai-section {{
+      background: #f5f0e8;
+      border: 1px solid #c9bfaf;
+      border-radius: 3px;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 3rem;
+      scroll-margin-top: 44px;
+    }}
+    .ai-section-header {{
+      display: flex;
+      align-items: baseline;
+      gap: .7rem;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid #c9bfaf;
+      padding-bottom: .5rem;
+      flex-wrap: wrap;
+    }}
+    .ai-section-title {{
+      font-size: 1.05rem;
+      font-weight: normal;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: #5c4033;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+    }}
+    .ai-badge {{
+      display: inline-block;
+      background: #7b4f2e;
+      color: #faf5ed;
+      font-size: .62rem;
+      padding: .1rem .45rem;
+      border-radius: 2px;
+      letter-spacing: .04em;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
+    /* Editorial */
+    .editorial-topic {{
+      font-size: .82rem;
+      color: #8a7060;
+      font-style: italic;
+      margin-bottom: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
+    .editorial-body {{
+      font-size: .95rem;
+      line-height: 1.85;
+      color: #4a3c30;
+      font-family: Georgia, "Times New Roman", serif;
+      white-space: pre-wrap;
+    }}
+    .editorial-attribution {{
+      margin-top: 1rem;
+      font-size: .75rem;
+      color: #b0a090;
+      font-style: italic;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
+    /* Arena */
+    .arena-topic {{
+      background: #ede6da;
+      border-left: 3px solid #a0785a;
+      padding: .7rem 1rem;
+      margin-bottom: 1.4rem;
+      font-size: .88rem;
+      color: #5c4033;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
+    .arena-topic strong {{ font-weight: 600; }}
+    .arena-messages {{ display: flex; flex-direction: column; gap: 1rem; }}
+    .arena-msg {{
+      background: #faf5ed;
+      border: 1px solid #d4c9b8;
+      border-radius: 3px;
+      padding: 1rem 1.2rem;
+    }}
+    .arena-msg-header {{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      margin-bottom: .6rem;
+    }}
+    .arena-model-badge {{
+      display: inline-block;
+      font-size: .72rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 600;
+      padding: .18rem .55rem;
+      border-radius: 2px;
+      letter-spacing: .03em;
+    }}
+    .badge-openai   {{ background: #dbe8f5; color: #1a4a7a; }}
+    .badge-gemini   {{ background: #d6f0e0; color: #1a5a35; }}
+    .badge-claude   {{ background: #f5e6d6; color: #7a3a1a; }}
+    .badge-glm      {{ background: #e8d6f5; color: #4a1a7a; }}
+    .badge-deepseek {{ background: #f5d6e8; color: #7a1a50; }}
+    .badge-qwen     {{ background: #f0e8d6; color: #5a4010; }}
+    .badge-default  {{ background: #e8e8e8; color: #444; }}
+    .arena-msg-body {{
+      font-size: .88rem;
+      line-height: 1.8;
+      color: #4a3c30;
+      font-family: Georgia, "Times New Roman", serif;
+      white-space: pre-wrap;
+    }}
+    .ai-empty {{
+      color: #b0a090;
+      font-style: italic;
+      font-size: .88rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }}
   </style>
 </head>
 <body>
@@ -741,15 +886,22 @@ HTML_TEMPLATE = """\
     <h1>🇭🇰 Hong Kong News &ensp;香港新聞</h1>
     <p class="sub">Last updated: {updated} UTC &mdash; refreshes every hour</p>
     <span class="stats">📰 {total} articles &thinsp;&middot;&thinsp; {src_count} sources</span>
+    <div class="lang-toggle" role="group" aria-label="Language / 語言">
+      <button class="lang-btn" data-lang="en" onclick="setLang('en')">English</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">廣東話</button>
+    </div>
   </header>
 
   <nav aria-label="News sources">
     <ul>
+      <li><a href="#ai-editorial"><span class="en-content">✍ AI Editorial</span><span class="zh-content">✍ AI社評</span></a></li>
+      <li><a href="#ai-arena"><span class="en-content">🎙 News Arena</span><span class="zh-content">🎙 新聞擂台</span></a></li>
       {nav_items}
     </ul>
   </nav>
 
   <main>
+    {ai_sections}
     {sections}
   </main>
 
@@ -850,6 +1002,20 @@ HTML_TEMPLATE = """\
         if (e.key === 'Escape') closeModal();
       }});
     }})();
+
+    /* ---- Language toggle ---- */
+    function setLang(lang) {{
+      document.documentElement.setAttribute('data-lang', lang);
+      document.querySelectorAll('.lang-btn').forEach(function (btn) {{
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      }});
+      try {{ localStorage.setItem('newsLang', lang); }} catch (e) {{}}
+    }}
+    (function () {{
+      var saved = '';
+      try {{ saved = localStorage.getItem('newsLang') || ''; }} catch (e) {{}}
+      setLang(saved === 'zh' ? 'zh' : 'en');
+    }})();
   </script>
 </body>
 </html>
@@ -900,8 +1066,168 @@ def _slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
+def _model_badge_class(model_name: str) -> str:
+    """Return a CSS badge class for a given AI model name."""
+    name = model_name.lower()
+    if "openai" in name:
+        return "badge-openai"
+    if "gemini" in name:
+        return "badge-gemini"
+    if "claude" in name:
+        return "badge-claude"
+    if "glm" in name:
+        return "badge-glm"
+    if "deepseek" in name:
+        return "badge-deepseek"
+    if "qwen" in name:
+        return "badge-qwen"
+    return "badge-default"
+
+
+def _build_editorial_html(editorial: dict, lang: str) -> str:
+    """Build HTML for one language version of the AI Editorial."""
+    content = editorial.get("content", "").strip()
+    model   = editorial.get("model", "AI")
+    topic   = editorial.get("topic_title", "")
+
+    if not content:
+        return (
+            f'<div class="{lang}-content">'
+            '<p class="ai-empty">Editorial not yet generated.</p>'
+            "</div>"
+        )
+
+    topic_html = (
+        f'<p class="editorial-topic">'
+        f'{"基於以下新聞" if lang == "zh" else "Based on"}: '
+        f"{html.escape(topic)}"
+        f"</p>"
+    ) if topic else ""
+
+    return (
+        f'<div class="{lang}-content">'
+        f"{topic_html}"
+        f'<div class="editorial-body">{html.escape(content)}</div>'
+        f'<p class="editorial-attribution">— {html.escape(model)}</p>'
+        f"</div>"
+    )
+
+
+def _build_arena_html(arena: dict, lang: str) -> str:
+    """Build HTML for one language version of the AI Arena."""
+    messages     = arena.get("messages", [])
+    topic_title  = arena.get("topic_title", "")
+    topic_summary = arena.get("topic_summary", "")
+
+    if not messages:
+        return (
+            f'<div class="{lang}-content">'
+            '<p class="ai-empty">Arena not yet generated.</p>'
+            "</div>"
+        )
+
+    topic_label = "今日話題" if lang == "zh" else "Today's Topic"
+    topic_html = (
+        f'<div class="arena-topic">'
+        f"<strong>{topic_label}:</strong> {html.escape(topic_title)}"
+        + (
+            f"<br><small>{html.escape(topic_summary[:200])}{'…' if len(topic_summary) > 200 else ''}</small>"
+            if topic_summary else ""
+        )
+        + "</div>"
+    )
+
+    msgs_html = ""
+    for msg in messages:
+        name    = msg.get("name", "AI")
+        model   = msg.get("model", "")
+        content = msg.get("content", "").strip()
+        badge_cls = _model_badge_class(model)
+        msgs_html += (
+            f'<div class="arena-msg">'
+            f'<div class="arena-msg-header">'
+            f'<span class="arena-model-badge {badge_cls}">{html.escape(name)}</span>'
+            f"</div>"
+            f'<div class="arena-msg-body">{html.escape(content)}</div>'
+            f"</div>"
+        )
+
+    return (
+        f'<div class="{lang}-content">'
+        f"{topic_html}"
+        f'<div class="arena-messages">{msgs_html}</div>'
+        f"</div>"
+    )
+
+
+def build_ai_sections_html(ai_content: dict) -> str:
+    """
+    Build HTML for the AI Editorial and AI Arena sections.
+
+    Both sections contain English and Cantonese versions; the active language
+    is controlled by the ``data-lang`` attribute on ``<html>`` via JavaScript.
+    """
+    if not ai_content:
+        return ""
+
+    editorial_data = ai_content.get("editorial", {})
+    arena_data     = ai_content.get("arena", {})
+    generated_at   = ai_content.get("generated_at", "")
+
+    gen_note = ""
+    if generated_at:
+        try:
+            dt = datetime.fromisoformat(generated_at)
+            gen_note = dt.strftime("%Y-%m-%d %H:%M UTC")
+        except ValueError:
+            gen_note = generated_at
+
+    # --- Editorial section ---
+    editorial_en = _build_editorial_html(editorial_data.get("en", {}), "en")
+    editorial_zh = _build_editorial_html(editorial_data.get("zh", {}), "zh")
+
+    editorial_section = (
+        '<div class="ai-section" id="ai-editorial">'
+        '<div class="ai-section-header">'
+        '<h2 class="ai-section-title">'
+        '<span class="en-content">✍ AI Editorial</span>'
+        '<span class="zh-content">✍ AI社評</span>'
+        '</h2>'
+        '<span class="ai-badge">AI</span>'
+        + (f'<span style="font-size:.72rem;color:#b0a090;font-style:italic;font-family:sans-serif;margin-left:auto">{html.escape(gen_note)}</span>' if gen_note else "")
+        + "</div>"
+        + editorial_en
+        + editorial_zh
+        + "</div>"
+    )
+
+    # --- Arena section ---
+    arena_en = _build_arena_html(arena_data.get("en", {}), "en")
+    arena_zh = _build_arena_html(arena_data.get("zh", {}), "zh")
+
+    arena_section = (
+        '<div class="ai-section" id="ai-arena">'
+        '<div class="ai-section-header">'
+        '<h2 class="ai-section-title">'
+        '<span class="en-content">🎙 News Arena</span>'
+        '<span class="zh-content">🎙 新聞擂台</span>'
+        '</h2>'
+        '<span class="ai-badge">AI</span>'
+        "</div>"
+        + arena_en
+        + arena_zh
+        + "</div>"
+    )
+
+    return editorial_section + arena_section
+
+
 def build_html(articles: list[dict]) -> str:
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+
+    # Load AI-generated content (editorial + arena)
+    ai_content = load_ai_content()
+    ai_sections_html = build_ai_sections_html(ai_content)
 
     # Group by source, preserving insertion order
     sources: dict[str, list[dict]] = {}
@@ -918,6 +1244,7 @@ def build_html(articles: list[dict]) -> str:
             total=0,
             src_count=0,
             nav_items="",
+            ai_sections=ai_sections_html,
             sections=empty,
         )
 
@@ -968,6 +1295,7 @@ def build_html(articles: list[dict]) -> str:
         total=len(articles),
         src_count=len(sources),
         nav_items=nav_items_html,
+        ai_sections=ai_sections_html,
         sections=sections_html,
     )
 
