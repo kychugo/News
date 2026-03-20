@@ -24,7 +24,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
 
-from ai_features import load_ai_content
+from ai_features import load_ai_content, _no_response_text
 
 # ---------------------------------------------------------------------------
 # News sources
@@ -879,6 +879,16 @@ HTML_TEMPLATE = """\
       font-size: .88rem;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }}
+    .editorial-topic-link, .arena-topic-link {{
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: #c8a880;
+      text-underline-offset: 2px;
+    }}
+    .editorial-topic-link:hover, .arena-topic-link:hover {{
+      color: #7a4a20;
+      text-decoration-color: #7a4a20;
+    }}
   </style>
 </head>
 <body>
@@ -1089,6 +1099,7 @@ def _build_editorial_html(editorial: dict, lang: str) -> str:
     content = editorial.get("content", "").strip()
     model   = editorial.get("model", "AI")
     topic   = editorial.get("topic_title", "")
+    topic_url = editorial.get("topic_url", "")
 
     if not content:
         return (
@@ -1097,12 +1108,18 @@ def _build_editorial_html(editorial: dict, lang: str) -> str:
             "</div>"
         )
 
-    topic_html = (
-        f'<p class="editorial-topic">'
-        f'{"基於以下新聞" if lang == "zh" else "Based on"}: '
-        f"{html.escape(topic)}"
-        f"</p>"
-    ) if topic else ""
+    if topic:
+        label = "基於以下新聞" if lang == "zh" else "Based on"
+        if topic_url:
+            topic_link = (
+                f'<a href="{html.escape(topic_url)}" target="_blank" rel="noopener" '
+                f'class="editorial-topic-link">{html.escape(topic)}</a>'
+            )
+        else:
+            topic_link = html.escape(topic)
+        topic_html = f'<p class="editorial-topic">{label}: {topic_link}</p>'
+    else:
+        topic_html = ""
 
     return (
         f'<div class="{lang}-content">'
@@ -1115,9 +1132,17 @@ def _build_editorial_html(editorial: dict, lang: str) -> str:
 
 def _build_arena_html(arena: dict, lang: str) -> str:
     """Build HTML for one language version of the AI Arena."""
-    messages     = arena.get("messages", [])
-    topic_title  = arena.get("topic_title", "")
+    messages      = arena.get("messages", [])
+    topic_title   = arena.get("topic_title", "")
+    topic_url     = arena.get("topic_url", "")
     topic_summary = arena.get("topic_summary", "")
+
+    # Filter out messages from AIs that did not respond
+    messages = [
+        m for m in messages
+        if m.get("content", "").strip()
+        and m.get("content", "").strip() != _no_response_text(m.get("name", ""))
+    ]
 
     if not messages:
         return (
@@ -1127,9 +1152,16 @@ def _build_arena_html(arena: dict, lang: str) -> str:
         )
 
     topic_label = "今日話題" if lang == "zh" else "Today's Topic"
+    if topic_url:
+        topic_title_html = (
+            f'<a href="{html.escape(topic_url)}" target="_blank" rel="noopener" '
+            f'class="arena-topic-link">{html.escape(topic_title)}</a>'
+        )
+    else:
+        topic_title_html = html.escape(topic_title)
     topic_html = (
         f'<div class="arena-topic">'
-        f"<strong>{topic_label}:</strong> {html.escape(topic_title)}"
+        f"<strong>{topic_label}:</strong> {topic_title_html}"
         + (
             f"<br><small>{html.escape(topic_summary[:200])}{'…' if len(topic_summary) > 200 else ''}</small>"
             if topic_summary else ""
