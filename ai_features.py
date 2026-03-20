@@ -27,6 +27,7 @@ import requests
 # Configuration
 # ---------------------------------------------------------------------------
 AI_API_URL = "https://gen.pollinations.ai/v1/chat/completions"
+POLLINATIONS_API_KEY = os.environ.get("POLLINATIONS_API_KEY", "")
 AI_CONTENT_FILE = os.path.join(os.path.dirname(__file__), "docs", "ai_content.json")
 
 AI_EDITORIAL_MODEL = "openai"
@@ -83,8 +84,11 @@ def call_ai(model: str, messages: list[dict], timeout: int = 90) -> str:
     Returns the assistant's text content, or an empty string on failure.
     """
     payload = {"model": model, "messages": messages}
+    headers = {"Content-Type": "application/json"}
+    if POLLINATIONS_API_KEY:
+        headers["Authorization"] = f"Bearer {POLLINATIONS_API_KEY}"
     try:
-        resp = requests.post(AI_API_URL, json=payload, timeout=timeout)
+        resp = requests.post(AI_API_URL, json=payload, headers=headers, timeout=timeout)
         resp.raise_for_status()
         data = resp.json()
         content = data["choices"][0]["message"]["content"]

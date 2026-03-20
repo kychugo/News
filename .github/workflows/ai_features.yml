@@ -47,6 +47,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate AI Editorial and News Arena content
+        env:
+          POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
         run: python ai_features.py
 
       - name: Regenerate news HTML with updated AI content
