@@ -879,6 +879,22 @@ HTML_TEMPLATE = """\
       font-size: .88rem;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }}
+    .ai-disclaimer {{
+      margin-top: 1rem;
+      font-size: .72rem;
+      color: #b0a090;
+      font-style: italic;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      border-top: 1px solid #d4c9b8;
+      padding-top: .5rem;
+    }}
+    .editorial-topic-link, .arena-topic-link {{
+      color: #a0785a;
+      text-decoration: underline;
+    }}
+    .editorial-topic-link:hover, .arena-topic-link:hover {{
+      color: #5c4033;
+    }}
   </style>
 </head>
 <body>
@@ -1087,8 +1103,8 @@ def _model_badge_class(model_name: str) -> str:
 def _build_editorial_html(editorial: dict, lang: str) -> str:
     """Build HTML for one language version of the AI Editorial."""
     content = editorial.get("content", "").strip()
-    model   = editorial.get("model", "AI")
     topic   = editorial.get("topic_title", "")
+    topic_url = editorial.get("topic_url", "")
 
     if not content:
         return (
@@ -1097,27 +1113,37 @@ def _build_editorial_html(editorial: dict, lang: str) -> str:
             "</div>"
         )
 
-    topic_html = (
-        f'<p class="editorial-topic">'
-        f'{"基於以下新聞" if lang == "zh" else "Based on"}: '
-        f"{html.escape(topic)}"
-        f"</p>"
-    ) if topic else ""
+    if topic:
+        label = "基於以下新聞" if lang == "zh" else "Based on"
+        if topic_url:
+            topic_link = (
+                f'<a href="{html.escape(topic_url, quote=True)}" '
+                f'target="_blank" rel="noopener" class="editorial-topic-link">'
+                f'{html.escape(topic)}</a>'
+            )
+        else:
+            topic_link = html.escape(topic)
+        topic_html = f'<p class="editorial-topic">{label}: {topic_link}</p>'
+    else:
+        topic_html = ""
 
     return (
         f'<div class="{lang}-content">'
         f"{topic_html}"
         f'<div class="editorial-body">{html.escape(content)}</div>'
-        f'<p class="editorial-attribution">— {html.escape(model)}</p>'
         f"</div>"
     )
 
 
 def _build_arena_html(arena: dict, lang: str) -> str:
     """Build HTML for one language version of the AI Arena."""
-    messages     = arena.get("messages", [])
-    topic_title  = arena.get("topic_title", "")
+    messages      = arena.get("messages", [])
+    topic_title   = arena.get("topic_title", "")
     topic_summary = arena.get("topic_summary", "")
+    topic_url     = arena.get("topic_url", "")
+
+    # Filter out any empty / failed messages
+    messages = [m for m in messages if m.get("content", "").strip()]
 
     if not messages:
         return (
@@ -1127,9 +1153,18 @@ def _build_arena_html(arena: dict, lang: str) -> str:
         )
 
     topic_label = "今日話題" if lang == "zh" else "Today's Topic"
+    if topic_url:
+        topic_title_html = (
+            f'<a href="{html.escape(topic_url, quote=True)}" '
+            f'target="_blank" rel="noopener" class="arena-topic-link">'
+            f'{html.escape(topic_title)}</a>'
+        )
+    else:
+        topic_title_html = html.escape(topic_title)
+
     topic_html = (
         f'<div class="arena-topic">'
-        f"<strong>{topic_label}:</strong> {html.escape(topic_title)}"
+        f"<strong>{topic_label}:</strong> {topic_title_html}"
         + (
             f"<br><small>{html.escape(topic_summary[:200])}{'…' if len(topic_summary) > 200 else ''}</small>"
             if topic_summary else ""
@@ -1139,15 +1174,9 @@ def _build_arena_html(arena: dict, lang: str) -> str:
 
     msgs_html = ""
     for msg in messages:
-        name    = msg.get("name", "AI")
-        model   = msg.get("model", "")
         content = msg.get("content", "").strip()
-        badge_cls = _model_badge_class(model)
         msgs_html += (
             f'<div class="arena-msg">'
-            f'<div class="arena-msg-header">'
-            f'<span class="arena-model-badge {badge_cls}">{html.escape(name)}</span>'
-            f"</div>"
             f'<div class="arena-msg-body">{html.escape(content)}</div>'
             f"</div>"
         )
@@ -1182,6 +1211,13 @@ def build_ai_sections_html(ai_content: dict) -> str:
         except ValueError:
             gen_note = generated_at
 
+    disclaimer = (
+        '<p class="ai-disclaimer">'
+        '<span class="en-content">Generated content represents AI\'s stance and is unrelated to the site owner.</span>'
+        '<span class="zh-content">生成內容為AI立場，與版主無關。</span>'
+        '</p>'
+    )
+
     # --- Editorial section ---
     editorial_en = _build_editorial_html(editorial_data.get("en", {}), "en")
     editorial_zh = _build_editorial_html(editorial_data.get("zh", {}), "zh")
@@ -1198,6 +1234,7 @@ def build_ai_sections_html(ai_content: dict) -> str:
         + "</div>"
         + editorial_en
         + editorial_zh
+        + disclaimer
         + "</div>"
     )
 
@@ -1216,6 +1253,7 @@ def build_ai_sections_html(ai_content: dict) -> str:
         "</div>"
         + arena_en
         + arena_zh
+        + disclaimer
         + "</div>"
     )
 
