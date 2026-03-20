@@ -63,20 +63,25 @@ _ARENA_SYSTEM_EN = (
     "'News Arena'. You will read a topic and any prior responses from other AI "
     "systems, then add your own analytical perspective. "
     "Be engaging, direct, and willing to agree or push back on prior points. "
-    "Keep your response to 2-3 focused paragraphs. Write in English."
+    "IMPORTANT: Keep your response to a MAXIMUM of 50 words. Be concise. Write in English."
 )
 
 _ARENA_SYSTEM_ZH = (
     "你係「新聞擂台」嘅一個AI分析員，正在進行即時新聞討論。"
     "你會閱讀話題同其他AI嘅發言，然後加入你自己嘅分析觀點。"
     "保持直接、有見地，可以同意或反駁前面嘅意見。"
-    "你嘅回應保持2-3段落。請用廣東話書寫。"
+    "重要：你嘅回應必須不超過100字（相當於英文50詞）。請用廣東話書寫。"
 )
 
 
 # ---------------------------------------------------------------------------
 # API wrapper
 # ---------------------------------------------------------------------------
+def _no_response_text(name: str) -> str:
+    """Return the placeholder text used when an AI participant did not respond."""
+    return f"[{name} did not respond]"
+
+
 def call_ai(model: str, messages: list[dict], timeout: int = 90) -> str:
     """
     Call the pollinations.ai chat completions API.
@@ -144,6 +149,7 @@ def generate_editorial(articles: list[dict], lang: str = "en") -> dict:
         "content": content,
         "model": AI_EDITORIAL_MODEL,
         "topic_title": articles[0]["title"],
+        "topic_url": articles[0].get("link", ""),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -163,13 +169,14 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
         lang:     "en" for English, "zh" for Cantonese.
 
     Returns:
-        Dict with keys: topic_title, topic_summary, messages, generated_at.
+        Dict with keys: topic_title, topic_url, topic_summary, messages, generated_at.
     """
     if not articles:
         return {}
 
     top = articles[0]
     topic_title   = top["title"]
+    topic_url     = top.get("link", "")
     topic_summary = top.get("summary", "")[:500]
 
     system_msg = _ARENA_SYSTEM_ZH if lang == "zh" else _ARENA_SYSTEM_EN
@@ -180,7 +187,7 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
         f"Today's Arena topic ({lang_note}):\n\n"
         f"**{topic_title}**\n\n"
         f"{topic_summary}\n\n"
-        "Share your analysis and perspective on this story."
+        "Share your analysis and perspective on this story in 50 words or fewer."
     )
 
     # We keep a rolling conversation window so later participants can read
@@ -196,16 +203,18 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
 
         print(f"  → Arena [{lang}] – {name} ({model})…")
         response = call_ai(model, messages)
-        if not response:
-            response = f"[{name} did not respond]"
 
-        arena_messages.append(
-            {"model": model, "name": name, "content": response}
-        )
+        if response:
+            arena_messages.append(
+                {"model": model, "name": name, "content": response}
+            )
+        else:
+            print(f"  ✗ {name} did not respond – skipping")
 
-        # Append the response so the next participant can read it
+        # Append the response (or a placeholder) so later participants have context
+        reply_text = response if response else _no_response_text(name)
         conversation.append(
-            {"role": "assistant", "content": f"[{name}]: {response}"}
+            {"role": "assistant", "content": f"[{name}]: {reply_text}"}
         )
 
         # Prompt for the next participant (except after the last one)
@@ -215,7 +224,8 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
                     "role": "user",
                     "content": (
                         f"Continue the discussion {lang_note}. "
-                        "Respond to the points made so far and add your own analysis."
+                        "Respond to the points made so far and add your own analysis. "
+                        "Maximum 50 words."
                     ),
                 }
             )
@@ -228,6 +238,7 @@ def run_ai_arena(articles: list[dict], lang: str = "en") -> dict:
 
     return {
         "topic_title":   topic_title,
+        "topic_url":     topic_url,
         "topic_summary": topic_summary,
         "messages":      arena_messages,
         "generated_at":  datetime.now(timezone.utc).isoformat(),

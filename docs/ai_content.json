@@ -5,13 +5,15 @@
       "content": "The fresh revelations at the Wang Fuk Court inquiry have reopened a wound Hong Kong cannot afford to ignore: the avoidable collapse of public trust in the institutions meant to keep residents safe. Testimony that a Housing Bureau inspection unit alerted a renovation consultant to safety checks weeks before the fatal fire, paired with evidence that smoking was the most likely ignition source, reads as more than a catalogue of unfortunate facts. It points to a brittle oversight system in which the boundaries between contractor, regulator and enforcer have become worryingly porous, and where prevention depends too much on individual behaviour and too little on robust, independent safeguards.\n\nFor years policymakers and managers have juggled tight budgets, ageing estates and political priorities, often relying on contractors and local management committees to deliver upgrades at speed. That pragmatic approach may have utility in routine circumstances, but it is disastrously exposed by tragedy. The inquiry’s findings suggest not only operational lapses but also institutional habits — advance notice of inspections, uneven enforcement of safety standards, and insufficient on-site checks — that turn well-intentioned programmes into liabilities. To point to smoking as the likely cause is not an absolution of systemic responsibility; fire safety is a system-wide challenge where early detection, compartmentation, materials regulation and disciplined oversight matter as much as individual restraint.\n\nWhat is required now is a clear separation between those who build and renovate and those who inspect and certify, backed by transparent procedures and the statutory teeth to prosecute negligence. An independent watchdog with access to records and whistleblowers, routine unannounced inspections, mandatory fire-safety retrofits for high-risk estates, and a public register of compliance would be practical steps. Equally important are modest but effective measures — universal installation of interlinked smoke alarms, stricter controls on combustible retrofit materials, and targeted public education campaigns — that reduce reliance on luck and individual discretion. Policymakers can and must design a system that makes non-compliance costly and safety visible.\n\nIf Hong Kong hopes to stem a broader slide in public confidence and quality of life, as recent surveys suggest, it must treat the Wang Fuk Court tragedy as a pivot point rather than a headline. Accountability without scapegoating, reform without theatre, and urgency without panic are the ingredients of a credible response. The test for government now is not merely whether it can explain what went wrong, but whether it will accept responsibility and make durable changes so that such a calamity cannot happen again.",
       "model": "openai",
       "topic_title": "Panama rejects CK Hutchison unit’s claim of ignoring arbitration",
-      "generated_at": "2026-03-20T08:54:59.125250+00:00"
+      "generated_at": "2026-03-20T08:54:59.125250+00:00",
+      "topic_url": "https://hongkongfp.com/2026/03/20/panama-rejects-ck-hutchison-units-claim-of-ignoring-arbitration/"
     },
     "zh": {
       "content": "今次大火調查揭露出房屋署檢查組事前通知承辦顧問，令原本應該獨立、公正嘅安全檢查變得可疑，呢樣嘢唔單止係程序上嘅失誤，而係直接關乎市民生命安全。旺福苑嗰場致命火災已經奪走人命，調查又話最可能係吸煙引致，當官方部門喺檢查安排上有提前打招呼，市民對公營房屋安全監管嘅信心就會即刻跌落谷底。政府做公開調查係啱，但等到調查結果出嚟先做事、或者以技術性理由淡化責任，已經唔夠誠信。\n\n事實上，問題唔係只係單一事件。長期以來，香港喺公屋老化、維修不足、承辦商監管鬆散、以及部分單位改裝導致疏散通道受阻等方面都有隱憂。當檢查被形式化、檢驗時間被預告，責任鏈條就會出現漏洞，潛在嘅風險會更加難以被及時發現。政府要承認，確保建築同居住安全並非淨係靠事後補救，而係要有防患未然嘅制度設計。\n\n所以而家最需要係迅速、明確同有力嘅改革：立即展開獨立刑事調查，對涉事官員同承辦方作出追究；全面檢視並重整檢查程序，實施更多不預告嘅抽檢、電子化紀錄以防造假；同時加強對承辦商嘅資格監管同罰則，確保處理舊樓維修有足夠資源同透明度。政府亦要積極向居民交代短期保障措施，例如加強消防教育、設立熱線回應隱患舉報、以及提供更方便嘅檢查結果查詢。\n\n最緊要係還給市民一個可以信賴嘅制度，而唔係一句「會檢討」。喺悼念遇難者同關心受影響家庭之餘，社會亦應強烈要求政府用實際行動去修補呢個導致人命流失嘅制度漏洞。只有公開、迅速同徹底嘅改革，先可以避免悲劇重演，亦先可以恢復市民對公共服務嘅基本信任。",
       "model": "openai",
       "topic_title": "Panama rejects CK Hutchison unit’s claim of ignoring arbitration",
-      "generated_at": "2026-03-20T08:55:16.951050+00:00"
+      "generated_at": "2026-03-20T08:55:16.951050+00:00",
+      "topic_url": "https://hongkongfp.com/2026/03/20/panama-rejects-ck-hutchison-units-claim-of-ignoring-arbitration/"
     }
   },
   "arena": {
@@ -50,7 +52,8 @@
           "content": "[Qwen did not respond]"
         }
       ],
-      "generated_at": "2026-03-20T08:57:54.813910+00:00"
+      "generated_at": "2026-03-20T08:57:54.813910+00:00",
+      "topic_url": "https://hongkongfp.com/2026/03/20/panama-rejects-ck-hutchison-units-claim-of-ignoring-arbitration/"
     },
     "zh": {
       "topic_title": "Panama rejects CK Hutchison unit’s claim of ignoring arbitration",
@@ -87,7 +90,8 @@
           "content": "[Qwen did not respond]"
         }
       ],
-      "generated_at": "2026-03-20T09:02:05.605943+00:00"
+      "generated_at": "2026-03-20T09:02:05.605943+00:00",
+      "topic_url": "https://hongkongfp.com/2026/03/20/panama-rejects-ck-hutchison-units-claim-of-ignoring-arbitration/"
     }
   }
 }
