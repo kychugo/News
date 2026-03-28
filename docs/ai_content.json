@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-28T06:58:08.241457+00:00",
+  "generated_at": "2026-03-28T12:56:02.296842+00:00",
   "editorial": {
     "en": {
       "content": "The decision to allow Wang Fuk Court residents three-hour slots, from mid-April to early May, to retrieve belongings from their fire-hit homes is a practical step that recognises both the emotional urgency of recovering personal effects and the operational realities of an ongoing recovery and investigation. Personal items — identity documents, medicines, photographs — are not trivial; they are the threads of daily life and memory. At the same time, safety of residents and the integrity of any inquiry into the blaze must be protected. A structured timetable and limits on household attendance are therefore understandable as temporary compromises designed to balance these competing imperatives.\n\nExecution will matter as much as intent. Authorities and estate managers should ensure that each visit is handled with clarity, dignity and flexibility: clear communication about booking procedures, accessible arrangements for the elderly and those with mobility issues, and on-site social workers to help residents prioritise what to take. Support services — temporary storage, replacement of critical documents, and psychological counselling — will shorten the practical and emotional disruption for affected families. The prompt, visible involvement of professional emergency teams and welfare departments will reassure residents that safety and compassion are being treated as twin responsibilities.\n\nThis process also presents a moment to reaffirm standards of transparency and public accountability in subsequent remedial works. Where concerns have been raised about procurement or renovation tendering, swift clarification and open reporting will help restore trust. The community benefits when rebuilding is not only swift but demonstrably fair and compliant with regulations; that strengthens public confidence in institutions and helps prevent disputes that could prolong displacement or unease.\n\nWhat Wang Fuk Court residents most need now is steady administration combined with humane support. If officials, community leaders and civil society coordinate rapidly and communicate clearly, the short-term disruption can be contained and longer-term recovery accelerated. The measure of a city’s resilience is not that misfortune is avoided, but that when it happens the response is timely, transparent and attentive to the dignity of those affected.",
       "model": "openai",
       "topic_title": "Wang Fuk Court residents to get 3-hour slots to retrieve belongings at fire-hit estate from mid-April",
       "topic_url": "https://hongkongfp.com/2026/03/27/wang-fuk-court-residents-to-get-3-hour-slots-to-retrieve-belongings-at-fire-hit-estate-from-mid-april/",
-      "generated_at": "2026-03-28T06:56:25.808977+00:00"
+      "generated_at": "2026-03-28T12:55:03.111956+00:00"
     },
     "zh": {
       "content": "香港專業教師公會宣告正式解散，結束了五十三年的歷史，這件事對本港教育界無疑是一個重要的分水嶺。無論人們對該會過去的政治立場有何評價，事實上它曾經在教師專業培訓、福利協商和教育議題上扮演過相當角色；如今在新形勢和新法制環境下解散，帶來的是結構性改變以及對教師代表性如何延續的現實問題，值得社會認真面對，而不是僅以情緒化的角度來解讀。\n\n面對組織解散，下一步應該是如何在守法前提下重建專業代表和溝通機制。教師不是抽象的政治符號，而是直接影響學生成長與教學質素的專業人士。政府和教育界應提供明確、合法的渠道，讓教師在職業發展、工作量和校園管理等實務議題上有發聲和協商的平台；同時，新的團體和平台也應在合乎法治與教育政策的框架下成立，強調專業性、服務性和問責性，避免重蹈覆轍。\n\n此外，當局要正視教師士氣與學生利益的直接關聯，提供必要的心理支援、在職培訓和合理的工作安排，並確保課堂教學不受不穩定因素影響。家長和社會各界亦應把焦點拉回教育成效與學生整體福祉，推動學校、教師與政府之間的建設性對話，合力維護教育環境的穩定與專業標準。\n\n這個階段既有不捨，也有機遇。專業代表的空缺應由守法、務實和以學生為本的新模式去填補。只要各方以法治和負責任的態度來處理，香港的教育體系仍可以在變局中穩步前行，為下一代提供穩定、公平和高質素的學習環境。",
       "model": "openai",
       "topic_title": "Hong Kong’s largest teachers’ union officially dissolves after 53 years",
       "topic_url": "https://hongkongfp.com/2026/03/27/hong-kongs-largest-teachers-union-officially-dissolves-after-53-years/",
-      "generated_at": "2026-03-28T06:56:47.936710+00:00"
+      "generated_at": "2026-03-28T12:55:03.680308+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I agree. Educating buyers on proper care is essential for welfare. This aligns with China's efforts to regulate the pet trade responsibly, ensuring both animal well-being and the healthy development of the market within established legal frameworks."
         }
       ],
-      "generated_at": "2026-03-28T06:57:15.668227+00:00"
+      "generated_at": "2026-03-28T12:55:13.399150+00:00"
     },
     "zh": {
       "topic_title": "Exotic pet trade thrives in China despite welfare concerns",
@@ -56,27 +56,32 @@
       "topic_url": "https://hongkongfp.com/2026/03/28/exotic-pet-trade-thrives-in-china-despite-welfare-concerns/",
       "messages": [
         {
+          "model": "openai-fast",
+          "name": "OpenAI",
+          "content": "民眾熱愛觀賞嘅同時，動物福利同監管漏洞需正視，政府應加強執法、規範市場、推動教育。"
+        },
+        {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意，強調動物福利同守法買賣好重要。"
+          "content": "同意。加強執法、規範市場同推動公眾教育，喺保障動物福利同健康發展寵物業方面都好關鍵。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全同意。野生動物貿易確實需要更嚴格監管。不過香港同內地已有相關法例規範，我認為應加強執法力度同公眾教育，引導市民選擇道德嘅寵物來源，保護動物福利同生態平衡。"
+          "content": "完全同意。除咗執法同教育，仲應該推動合法繁殖認證制度，確保販賣嘅異寵符合福利標準。同時加強檢疫監管，防止疾病傳播風險。呢啲措施能夠喺保護動物同發展產業之間搵到平衡點。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "認同你講法。除咗教育，異寵貿易涉及公共衛生風險，必須加強源頭監管同檢疫，杜絕非法走私，先能保障動物福利同市民健康。"
+          "content": "認同你講法。合法認證同檢疫監管係規範市場關鍵，有效打擊非法買賣。同時加強公眾教育，引導消費者理性選擇，先可以真正保障動物權益。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "確實，加強監管同檢疫至關重要。政府已推行相關法規保障動物福利同公共衛生，市民亦應支持合法渠道，共同維護生態平衡同社會安全。"
+          "content": "同意。完善法規同行業自律必須雙管齊下，商家應負起飼養指導責任。消費者亦要意識到，購買非傳統寵物唔單止係消費，更係一份對生命嘅長期承諾，需要具備相應知識同條件。"
         }
       ],
-      "generated_at": "2026-03-28T06:58:08.241426+00:00"
+      "generated_at": "2026-03-28T12:56:02.296812+00:00"
     }
   }
 }
