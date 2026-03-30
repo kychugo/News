@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-30T13:21:47.809606+00:00",
+  "generated_at": "2026-03-30T19:09:42.429966+00:00",
   "editorial": {
     "en": {
       "content": "The recent diplomatic exchange — Beijing summoning the senior U.S. diplomat in Hong Kong after Washington issued an alert over a new rule enabling police to require national security suspects to disclose passwords — underscores how swiftly matters of law enforcement and sovereignty can spill into the international arena. For the Hong Kong Special Administrative Region and the central government, the primary obligation is clear: to safeguard national security and public order in accordance with the Basic Law and the national security legislation passed by the city’s legislature. At the same time, measures that intersect with privacy and commercial confidentiality inevitably invite scrutiny from residents and international partners alike, which makes careful explanation and legal clarity essential.\n\nThere is a persuasive public-policy argument for tools that help investigators prevent and punish serious threats to the community, especially in an era where digital evidence is central to many criminal and national-security cases. Yet the legitimacy of such measures depends on robust procedural safeguards: clear statutory limits, judicial or independent oversight where appropriate, narrow scope of application, and transparent mechanisms for appeal and redress. Hong Kong’s institutions must therefore ensure that enforcement operates within a predictable legal framework so that rights are respected even as security is upheld.\n\nInternational reactions, including advisories from foreign governments, are to be expected in a globally connected city. But repeated public alarms risk stoking misunderstanding and could harm Hong Kong’s reputation for rule-based governance and as a stable financial centre. Constructive engagement — technical dialogue with regulators and the financial community, timely publication of implementing rules, and outreach to international partners — will be more effective than confrontational posturing in resolving practical concerns while maintaining the city’s security posture.\n\nUltimately, striking the right balance between security and rights is a continuing task that demands competence and candour. The SAR government and mainland authorities have the responsibility to protect citizens from genuine threats; they also bear the responsibility to build public confidence through transparency, oversight, and measured implementation. If those elements are present, Hong Kong can both protect its security and reassure the international and local communities upon which its prosperity depends.",
       "model": "openai",
       "topic_title": "Beijing summons top US diplomat over alert on new Hong Kong law compelling nat. sec suspects to reveal passwords",
       "topic_url": "https://hongkongfp.com/2026/03/30/beijing-summons-top-us-diplomat-over-alert-on-new-hong-kong-law-compelling-nat-sec-suspects-to-reveal-passwords/",
-      "generated_at": "2026-03-30T13:19:50.733841+00:00"
+      "generated_at": "2026-03-30T19:09:21.990685+00:00"
     },
     "zh": {
       "content": "太和埔大火造成一個家庭破碎，市民嘅悲痛同埋對政府處理方式嘅疑問，理應成為檢討同改進嘅動力。喺公開聆訊上，失去摯愛嘅遺孀直言政府「逃避責任」，呢個指控唔可以只停留喺情緒上——政府有責任用透明、專業同有同情心嘅方式去回應，唔單止係向受害者交代，更係為整個社會恢復信心。公開聆訊本身就係一個機會，應該有實際嘅跟進機制，將檢討結果化作可量化嘅改善計劃，並且定期向公眾交代進度。\n\n喺政策層面，事件暴露出對舊樓防火安全、緊急撤離指引同社區支援網絡仍有改善空間。當局最近回應居民訴求，允許王福苑住戶要求額外取回私人物品，顯示出具體回應可以減輕市民焦慮；但更長遠嘅做法係檢視檢查頻率、強化滅火設施、以及加強對長者及需要特殊照顧人士嘅支援機制。各部門應該以此為契機，強化跨部門協作，同時提升社區教育，令市民對火災風險同逃生措施有更清晰嘅認知。\n\n最重要係處理悲劇時展現嘅態度。政府唔應只停留喺回應指控，而係要主動承擔起治理嘅責任，以實際行動回應受害家庭同市民嘅期望。公開、負責同高效嘅跟進，唔單止係一項行政責任，更係建立社會信任、維繫社會穩定嘅基礎。面對痛苦同質疑，坦誠檢討、積極改進，先至能真正做到以人為本，減少同類悲劇再次發生。",
       "model": "openai",
       "topic_title": "Widower in deadly Tai Po fire slams Hong Kong gov’t for ‘evading responsibility’",
       "topic_url": "https://hongkongfp.com/2026/03/30/widower-in-deadly-tai-po-fire-slams-hong-kong-govt-for-evading-responsibility/",
-      "generated_at": "2026-03-30T13:20:22.390300+00:00"
+      "generated_at": "2026-03-30T19:09:22.803001+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I agree. Systemic reforms must be paired with cultural shifts in accountability. Hong Kong's authorities are committed to thorough investigations and improvements, ensuring such tragedies prompt both protocol updates and renewed institutional vigilance for public safety."
         }
       ],
-      "generated_at": "2026-03-30T13:20:56.111652+00:00"
+      "generated_at": "2026-03-30T19:09:32.723522+00:00"
     },
     "zh": {
       "topic_title": "Widower in deadly Tai Po fire slams Hong Kong gov’t for ‘evading responsibility’",
@@ -81,7 +81,7 @@
           "content": "同意。政府成立研訊正係履行責任嘅表現，會嚴肅跟進調查結果。當局必定會汲取教訓，加強巡查同宣傳，保障市民安全。社會齊心協力先能有效預防同類事件。"
         }
       ],
-      "generated_at": "2026-03-30T13:21:47.809575+00:00"
+      "generated_at": "2026-03-30T19:09:42.429933+00:00"
     }
   }
 }
