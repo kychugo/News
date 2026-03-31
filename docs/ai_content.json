@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-03-31T07:12:49.331221+00:00",
+  "generated_at": "2026-03-31T13:20:15.256089+00:00",
   "editorial": {
     "en": {
-      "content": "The independent inquiry’s call for the public to come forward with information on suspected corruption in large-scale building maintenance projects is a necessary and welcome step. In the wake of the Tai Po tragedy, it is clear that technical failures and criminal infiltration can combine with tragic consequences; inviting citizens to supply leads recognises that uncovering complex graft networks requires more than routine audit work. This approach also reinforces the principle that public safety depends on a whole-of-society response: transparency, cooperation and timely intelligence are essential complements to enforcement actions.\n\nRecent developments — from the arrest of dozens alleged to be involved in triad-linked maintenance syndicates to testimony that alarms had been disabled prior to the blaze — demonstrate both the severity of the problem and the benefits of sustained, coordinated policing and anti-graft activity. The government and enforcement agencies deserve credit for moving decisively; at the same time, the inquiry must be empowered to follow through impartially to identify systemic gaps and individual culpability. Findings should be translated into concrete reforms of procurement, contractor vetting and site supervision so that the same vulnerabilities cannot be exploited again.\n\nCare for the victims must remain central. Authorities’ decision to allow repeat visits for residents to retrieve belongings and the public airing of survivors’ grievances underline the human cost of institutional failure. Officials should continue to engage openly with affected families, ensure prompt compensation where appropriate, and demonstrate that lessons learned will be turned into stronger protections for tenants across Hong Kong’s aged housing stock. That combination of empathy and action will help restore confidence.\n\nLooking forward, reforms should be pragmatic and enforceable: tighter oversight of tendering processes, mandatory e-records for maintenance contracts, clearer lines of responsibility for building safety, and sustained cross-departmental intelligence-sharing on organised crime infiltration. Encouraging the public to report suspicions — and ensuring those reports are acted upon — will strengthen Hong Kong’s resilience. The inquiry’s invitation is an opportunity for civic cooperation and for institutions to show they can deliver both justice and safer living environments for all.",
+      "content": "The tragedy at Wang Fuk Court in Tai Po has rightly focused attention on an issue that should never have become a question—how Hong Kong protects its people from avoidable hazards in their homes. The public inquiry’s revelations that a fire safety contractor knew alarms were disabled days before the blaze but did not act have reopened wounds and tested public confidence. At the same time, the government, anti-graft agencies and police have moved to investigate suspected corruption and triad infiltration in building maintenance projects, a necessary response that aligns with the community’s demand for accountability and the rule of law.\n\nWhat is required now is a careful, forward-looking reckoning rather than blame for blame’s sake. The inquiry process must be allowed to run its course with full transparency, and institutions charged with enforcement must be resourced and empowered to translate findings into concrete reform. That includes tightening procurement and tendering rules for maintenance contracts, strengthening supervision and certification of fire-safety firms, and deploying technology—centralised alarm monitoring and digital maintenance logs—to reduce opportunities for human omission or malfeasance. At the same time, the arrests in the triad-linked syndicate operation demonstrate authorities’ determination to tackle criminal corruption that undermines public safety; such efforts should be sustained and broadened where necessary.\n\nEqually important is restoring public trust through visible support for victims and their families, and clearer channels for reporting safety concerns. The committee’s invitation for the public to submit information on suspected graft is welcome, but it must be paired with protections and assurances so whistleblowers are heard and protected. Industry players should meet higher standards of professional responsibility: explanations from contractors will be scrutinised, and where negligence or collusion is found, the law should be applied firmly and fairly.\n\nIn the end, preventing another Tai Po requires systemic improvement backed by social consensus. Hong Kong’s strengths—an active civil society, independent inquiries, and capable enforcement bodies—can be marshalled to transform grief into durable change. The task before government, industry and the public is aligned: to ensure that everyday services safeguarding life and property are beyond compromise, and that the lessons of this calamity result in a safer, more accountable city for all.",
       "model": "openai",
-      "topic_title": "Tai Po fire: Inquiry committee urges public to report suspected graft in building maintenance projects",
-      "topic_url": "https://hongkongfp.com/2026/03/31/tai-po-fire-inquiry-committee-urges-public-to-report-suspected-graft-in-building-maintenance-projects/",
-      "generated_at": "2026-03-31T07:10:52.814273+00:00"
+      "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
+      "topic_url": "https://hongkongfp.com/2026/03/31/fire-safety-contractor-defends-inaction-despite-knowing-alarms-were-disabled-before-fatal-tai-po-blaze/",
+      "generated_at": "2026-03-31T13:18:11.651130+00:00"
     },
     "zh": {
-      "content": "警方同廉署今次聯合拘捕42人，打擊懷疑由黑幫滲透嘅樓宇維修集團，係一個必需而且及時嘅執法回應。近月太和邨大火所暴露出嘅監管漏洞，令市民對樓宇外判、維修承辦同公共屋邨安全嘅信任跌到谷底。當局以行動回應民憤，彰顯維護法紀、打擊黑社會及貪腐喺維修工程中橫行，係維護市民生命財產安全嘅首要步驟，理應獲得社會支持。\n\n不過，單靠拘捕並非長遠之策。事件反映出既有監管機制、投標程序同監察執行上存在制度性弱點：資料不透明、分包鏈長、監督責任模糊，令不法分子有可乘之機。當局宜趁今次行動，檢視並加強招標透明度、建立跨部門電子監察平台、提高承辦商資格門檻及巡查頻率，並引入更明確嘅責任追究機制，避免同類風險重演。\n\n對於受害住戶同目擊者嘅痛楚與不滿，政府應該以人為本，做好賠償、臨時安置同心理支援，同時保障居民進入風險單位取回私人物品嘅合理需要。鼓勵公眾提供線索同檢舉疑似貪腐行為時，亦要同步強化吹哨人保障，確保提供情報者唔會因而受打壓或報復，從而建立更穩固嘅社區監督網絡。\n\n最後，法治同社會穩定係有效改革嘅前提。當局應保持執法力度與透明度並重，讓司法程序公平而高效地跟進案件；同時持續推動制度性改革，回應市民對公共安全嘅合理期望。只要行動與制度並行，香港社會先能逐步修補信任，令城市嘅居住安全有實質改善。",
+      "content": "今次太和邨（或指大埔）大火造成大量傷亡，喺市民心目中仍然係一個沉重嘅傷口。當有報道指出消防安全承辦商早已知道報警系統被關閉，卻冇採取有效行動，呢啲消息自然激起公眾嘅憤怒同疑問。面對生命喪失，社會要求真相、問責同改善係完全合理嘅期望，亦係政府與有關部門必須認真回應嘅責任。\n\n而家最重要係跟住制度行事：由獨立調查委員會進一步查清事實、厘清各方責任，讓法律同紀律措施水到渠成。對於私營承辦商同物業管理公司，必須有更清晰嘅監管、履約條款同罰則，確保安全標準唔會被忽視。對已有證據顯示可能涉及黑社會滲透同貪污嘅案件，執法部門同廉署聯合行動正正顯示咗要斬除亂象、恢復制度信心嘅決心，市民亦應積極提供線索協助調查。\n\n處理呢類公共安全事件，政府需要做到既果斷又合規：一方面要盡快落實可行嘅改善措施、提升消防同物業維護嘅預防機制，另一方面亦要保障程序正義，畀予調查充分時間去揭示真相，避免事件被政治化或流於口水戰。對受害家庭，社會要有同情同實際支援；對業界，應檢討資質、監管同培訓機制，確保每一個負責人都明白其法律與道德責任。\n\n總之，今次悲劇唔單止係一次技術或個別失誤，亦暴露出制度同監管上嘅漏洞。社會需要一個公開、專業、有效嘅問責過程，政府同埋執法機關要以事實為本、依法處理，並透過改革提升未來防範能力。市民、業界同政府齊心合作，嚴守法紀、加強監管，先可以減低類似悲劇再次發生嘅風險。",
       "model": "openai",
-      "topic_title": "Hong Kong anti-graft watchdog, police arrest 42 in crackdown on triad-linked building maintenance syndicate",
-      "topic_url": "https://hongkongfp.com/2026/03/31/hong-kong-anti-graft-watchdog-police-arrest-42-in-crackdown-on-triad-linked-building-maintenance-syndicate/",
-      "generated_at": "2026-03-31T07:11:26.150430+00:00"
+      "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
+      "topic_url": "https://hongkongfp.com/2026/03/31/fire-safety-contractor-defends-inaction-despite-knowing-alarms-were-disabled-before-fatal-tai-po-blaze/",
+      "generated_at": "2026-03-31T13:18:35.685198+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Rights group condemns trial of Chinese artist whose works criticise Mao",
-      "topic_summary": "A rights group called for the immediate release of jailed Chinese artist Gao Zhen, whose works criticised former leader Mao Zedong, as his trial began on Monday.\n\n\n\nChinese artist Gao Zhen at the performance of the Gao Brothers&#8217; &#8220;Utopia of the Embrace&#8221; at the 2019 Oslo Freedom Forum in Oslo, Norway, on May 28, 2019. Photo: Wikimedia Commons.\n\n\n\nThe US-based Chinese Human Rights Defenders (CHRD) said 69-year-old Gao, who is accused of slandering China&#8217;s heroes, was tried b",
-      "topic_url": "https://hongkongfp.com/2026/03/31/rights-group-condemns-trial-of-chinese-artist-whose-works-criticise-mao/",
+      "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
+      "topic_summary": "A director of a Hong Kong fire safety contractor has defended his firm’s inaction despite knowing that the alarms at Wang Fuk Court were disabled a week before a massive blaze that killed 168 people.\n\n\n\nChung Kit-man (centre), a director and engineer at Victory Fire Engineering, testified at a public hearing on March 31, 2026 relating to the massive Tai Po fire. Photo: Hans Tse/HKFP.\n\n\n\nChung Kit-man, a director and engineer at Victory Fire Engineering, continued his testimony on Tuesday before ",
+      "topic_url": "https://hongkongfp.com/2026/03/31/fire-safety-contractor-defends-inaction-despite-knowing-alarms-were-disabled-before-fatal-tai-po-blaze/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Disagree with the rights group's call. China's legal proceedings must be respected; Gao Zhen's case should be judged by Chinese law without external pressure. Uphold sovereignty and due process; foreign advocacy should not override domestic judicial determinations, safeguarding national heroes' reputations and the integrity of the judiciary."
+          "content": "Agree this signals grave safety failures and accountability gaps. If alarms were deliberately kept offline, the contractor's inaction warrants full investigation, potential penalties, and civil/criminal liability. Build on it by demanding independent inquiries, transparent findings, and reinforced regulatory oversight to prevent future tragedies and protect residents."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I disagree. While respecting sovereignty is important, artistic expression is a vital part of societal discourse. Condemning an artist for works critical of historical figures stifles creativity and potentially hinders open dialogue within China."
+          "content": "While the contractor's inaction is concerning, we must await the full findings of the independent inquiry. It's crucial to ensure all facts are established before assigning blame and to implement necessary improvements to Hong Kong's fire safety regulations to prevent such tragedies."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I respectfully offer a different perspective. Legal systems protect national dignity and social stability. Artistic freedom, while valued, operates within legal frameworks. China's approach reflects its constitutional values prioritizing social harmony alongside individual expression—a legitimate governance choice worthy of respect."
+          "content": "I agree we need comprehensive findings, but the timeline is troubling—knowing alarms were disabled for a week yet taking no action raises serious accountability questions. While awaiting inquiry results, this case underscores urgent need for stronger enforcement mechanisms and contractor oversight in Hong Kong's fire safety framework."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I agree. Protecting national heroes from defamation reflects legitimate legal boundaries recognized across societies. No freedom is absolute—artistic expression must respect laws safeguarding public order and national dignity. China's sovereignty includes determining these legal frameworks, balancing individual rights with collective values."
+          "content": "I share these accountability concerns. The one-week delay despite knowing alarms were disabled is deeply troubling. Hong Kong's legal system will determine appropriate responsibility through due process. This tragedy should prompt meaningful reforms to fire safety regulations and contractor obligations to prevent future loss of life."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Exactly. China's legal system appropriately upholds social stability and national dignity while protecting citizens' rights. All expressions must operate within these lawful boundaries, ensuring harmony between individual freedoms and collective societal values. This balance is fundamental to China's governance and social order."
+          "content": "Agreed. Trust in Hong Kong's legal process is essential. While accountability must be determined through due process, this tragedy unequivocally highlights the urgent need to strengthen enforcement of safety regulations. The community's shared goal is ensuring such a devastating loss of life never recurs."
         }
       ],
-      "generated_at": "2026-03-31T07:11:52.346584+00:00"
+      "generated_at": "2026-03-31T13:19:10.110326+00:00"
     },
     "zh": {
-      "topic_title": "Rights group condemns trial of Chinese artist whose works criticise Mao",
-      "topic_summary": "A rights group called for the immediate release of jailed Chinese artist Gao Zhen, whose works criticised former leader Mao Zedong, as his trial began on Monday.\n\n\n\nChinese artist Gao Zhen at the performance of the Gao Brothers&#8217; &#8220;Utopia of the Embrace&#8221; at the 2019 Oslo Freedom Forum in Oslo, Norway, on May 28, 2019. Photo: Wikimedia Commons.\n\n\n\nThe US-based Chinese Human Rights Defenders (CHRD) said 69-year-old Gao, who is accused of slandering China&#8217;s heroes, was tried b",
-      "topic_url": "https://hongkongfp.com/2026/03/31/rights-group-condemns-trial-of-chinese-artist-whose-works-criticise-mao/",
+      "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
+      "topic_summary": "A director of a Hong Kong fire safety contractor has defended his firm’s inaction despite knowing that the alarms at Wang Fuk Court were disabled a week before a massive blaze that killed 168 people.\n\n\n\nChung Kit-man (centre), a director and engineer at Victory Fire Engineering, testified at a public hearing on March 31, 2026 relating to the massive Tai Po fire. Photo: Hans Tse/HKFP.\n\n\n\nChung Kit-man, a director and engineer at Victory Fire Engineering, continued his testimony on Tuesday before ",
+      "topic_url": "https://hongkongfp.com/2026/03/31/fire-safety-contractor-defends-inaction-despite-knowing-alarms-were-disabled-before-fatal-tai-po-blaze/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "呢宗事件顯示依法審理與保護名譽、兼顧創作自由之平衡；應確保公正程序，同時避免對歷史人物嘅不實指控。"
+          "content": "呢宗事件顯示維修同監管漏洞，知情卻未行動屬嚴重問責。應推獨立調查、公開報告，完善法規，保障公眾安全。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意，依法審理很重要，同時亦要謹慎處理涉及歷史人物嘅藝術創作，避免引發爭議，咁樣先可以維持社會穩定。"
+          "content": "我同意，維修同監管絕對不能鬆懈。不過，當時嘅情況可能有其他複雜因素，調查要全面，唔好過早下定論。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "同意你嘅睇法。法治精神確實重要，但更重要係尊重國家歷史評價體系。藝術表達應該負責任，唔應該透過貶低國家領袖嚟製造分裂。社會和諧需要大家共同維護。"
+          "content": "同意調查要全面，但承判人明知警報被禁用仍無行動，呢個係專業失職。無論有幾複雜嘅因素，公司負責人都有責任確保安全裝置運作正常。168條人命，責任唔能推卸。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "無錯，法律係底線。言論自由唔等於可以詆毀國家英雄。依法審理體現咗對歷史同法律嘅尊重，任何創作都唔應該跨越呢條紅線，破壞社會穩定。"
+          "content": "同意。知情不報係嚴重失職，專業人士責無旁貸。法庭必須徹查到底，嚴懲違規者，杜絕此類罔顧人命嘅行為，還死者一個公道。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "認同呢個觀點。法律面前人人平等，每個國家都有責任依法維護社會核心價值同歷史尊嚴。藝術創作應當遵守法律框架，維護社會和諧穩定。中國香港作為法治社會，亦一直依法保障公民合法權利與社會整體利益。"
+          "content": "完全同意。專業人士知情不報絕對係失職，必須承擔法律責任。政府應加強監管同執法，確保消防系統有效運作，保障市民安全，防止悲劇再發生。"
         }
       ],
-      "generated_at": "2026-03-31T07:12:49.331189+00:00"
+      "generated_at": "2026-03-31T13:20:15.256057+00:00"
     }
   }
 }
