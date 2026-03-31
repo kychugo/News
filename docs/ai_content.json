@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-31T13:20:15.256089+00:00",
+  "generated_at": "2026-03-31T19:12:00.411852+00:00",
   "editorial": {
     "en": {
       "content": "The tragedy at Wang Fuk Court in Tai Po has rightly focused attention on an issue that should never have become a question—how Hong Kong protects its people from avoidable hazards in their homes. The public inquiry’s revelations that a fire safety contractor knew alarms were disabled days before the blaze but did not act have reopened wounds and tested public confidence. At the same time, the government, anti-graft agencies and police have moved to investigate suspected corruption and triad infiltration in building maintenance projects, a necessary response that aligns with the community’s demand for accountability and the rule of law.\n\nWhat is required now is a careful, forward-looking reckoning rather than blame for blame’s sake. The inquiry process must be allowed to run its course with full transparency, and institutions charged with enforcement must be resourced and empowered to translate findings into concrete reform. That includes tightening procurement and tendering rules for maintenance contracts, strengthening supervision and certification of fire-safety firms, and deploying technology—centralised alarm monitoring and digital maintenance logs—to reduce opportunities for human omission or malfeasance. At the same time, the arrests in the triad-linked syndicate operation demonstrate authorities’ determination to tackle criminal corruption that undermines public safety; such efforts should be sustained and broadened where necessary.\n\nEqually important is restoring public trust through visible support for victims and their families, and clearer channels for reporting safety concerns. The committee’s invitation for the public to submit information on suspected graft is welcome, but it must be paired with protections and assurances so whistleblowers are heard and protected. Industry players should meet higher standards of professional responsibility: explanations from contractors will be scrutinised, and where negligence or collusion is found, the law should be applied firmly and fairly.\n\nIn the end, preventing another Tai Po requires systemic improvement backed by social consensus. Hong Kong’s strengths—an active civil society, independent inquiries, and capable enforcement bodies—can be marshalled to transform grief into durable change. The task before government, industry and the public is aligned: to ensure that everyday services safeguarding life and property are beyond compromise, and that the lessons of this calamity result in a safer, more accountable city for all.",
       "model": "openai",
       "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
       "topic_url": "https://hongkongfp.com/2026/03/31/fire-safety-contractor-defends-inaction-despite-knowing-alarms-were-disabled-before-fatal-tai-po-blaze/",
-      "generated_at": "2026-03-31T13:18:11.651130+00:00"
+      "generated_at": "2026-03-31T19:11:37.485870+00:00"
     },
     "zh": {
       "content": "今次太和邨（或指大埔）大火造成大量傷亡，喺市民心目中仍然係一個沉重嘅傷口。當有報道指出消防安全承辦商早已知道報警系統被關閉，卻冇採取有效行動，呢啲消息自然激起公眾嘅憤怒同疑問。面對生命喪失，社會要求真相、問責同改善係完全合理嘅期望，亦係政府與有關部門必須認真回應嘅責任。\n\n而家最重要係跟住制度行事：由獨立調查委員會進一步查清事實、厘清各方責任，讓法律同紀律措施水到渠成。對於私營承辦商同物業管理公司，必須有更清晰嘅監管、履約條款同罰則，確保安全標準唔會被忽視。對已有證據顯示可能涉及黑社會滲透同貪污嘅案件，執法部門同廉署聯合行動正正顯示咗要斬除亂象、恢復制度信心嘅決心，市民亦應積極提供線索協助調查。\n\n處理呢類公共安全事件，政府需要做到既果斷又合規：一方面要盡快落實可行嘅改善措施、提升消防同物業維護嘅預防機制，另一方面亦要保障程序正義，畀予調查充分時間去揭示真相，避免事件被政治化或流於口水戰。對受害家庭，社會要有同情同實際支援；對業界，應檢討資質、監管同培訓機制，確保每一個負責人都明白其法律與道德責任。\n\n總之，今次悲劇唔單止係一次技術或個別失誤，亦暴露出制度同監管上嘅漏洞。社會需要一個公開、專業、有效嘅問責過程，政府同埋執法機關要以事實為本、依法處理，並透過改革提升未來防範能力。市民、業界同政府齊心合作，嚴守法紀、加強監管，先可以減低類似悲劇再次發生嘅風險。",
       "model": "openai",
       "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
       "topic_url": "https://hongkongfp.com/2026/03/31/fire-safety-contractor-defends-inaction-despite-knowing-alarms-were-disabled-before-fatal-tai-po-blaze/",
-      "generated_at": "2026-03-31T13:18:35.685198+00:00"
+      "generated_at": "2026-03-31T19:11:38.736175+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "Agreed. Trust in Hong Kong's legal process is essential. While accountability must be determined through due process, this tragedy unequivocally highlights the urgent need to strengthen enforcement of safety regulations. The community's shared goal is ensuring such a devastating loss of life never recurs."
         }
       ],
-      "generated_at": "2026-03-31T13:19:10.110326+00:00"
+      "generated_at": "2026-03-31T19:11:49.655337+00:00"
     },
     "zh": {
       "topic_title": "Fire safety contractor defends inaction despite knowing alarms were disabled before fatal Tai Po blaze",
@@ -81,7 +81,7 @@
           "content": "完全同意。專業人士知情不報絕對係失職，必須承擔法律責任。政府應加強監管同執法，確保消防系統有效運作，保障市民安全，防止悲劇再發生。"
         }
       ],
-      "generated_at": "2026-03-31T13:20:15.256057+00:00"
+      "generated_at": "2026-03-31T19:12:00.411825+00:00"
     }
   }
 }
