@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-01T13:23:39.714630+00:00",
+  "generated_at": "2026-04-01T19:13:21.374469+00:00",
   "editorial": {
     "en": {
       "content": "The inquiry’s revelation that a renovation consultant was aware of government inspections a week in advance adds a troubling detail to an already painful chapter in the city's recent history. After the catastrophic fire at Wang Fuk Court, Hongkongers rightly demand clarity about what went wrong and why so many lives were lost. That demand is not an exercise in blame for its own sake but a sober necessity: only a full, transparent accounting can guide the policy and operational changes needed to prevent a recurrence. At the same time, the multiplicity of parties involved — owners’ corporations, property managers, contractors and multiple regulatory bodies — underlines the complexity of responsibility in modern estate management.\n\nThe hearings have also exposed structural weaknesses that go beyond any single incident. Testimony that proxy voting is “very common” points to governance gaps in the way some housing estates operate, diminishing effective oversight by owners. Evidence that alarm systems were disabled and that contractors were uncertain about their obligations suggests that standards, certification and enforcement mechanisms require strengthening. Constructive responses should include clearer regulations on maintenance obligations, more stringent licensing and auditing of fire-safety contractors, tighter rules on proxy voting and owners’ corporation governance, and targeted support for older estates that lack the financial means to keep up with safety upgrades. The government-appointed administrator’s forthcoming briefing for residents is an important immediate step in addressing practical concerns over compensation and management continuity.\n\nHong Kong’s strength is its capacity to learn from adversity while upholding the rule of law and due process. The public inquiry, supported by professional investigators and legal safeguards, must continue unfettered so that recommendations are evidence-based and implementable. At the same time, officials, industry participants and communities should cooperate in restoring confidence: support for victims and clear timelines for remediation will matter as much as any regulatory tweak. In the end, what the city needs is not only accountability but a durable system of prevention — one that aligns stewardship of our built environment with the standards and civic responsibilities Hong Kong society expects.",
       "model": "openai",
       "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/01/renovation-consultant-knew-a-week-before-govt-inspections-proxy-votes-very-common-tai-po-blaze-inquiry-hears/",
-      "generated_at": "2026-04-01T13:21:46.747125+00:00"
+      "generated_at": "2026-04-01T19:12:58.111785+00:00"
     },
     "zh": {
       "content": "大火造成168條人命逝去，對整個社會係一個深刻嘅創傷。聽證會披露，裝修顧問早喺政府檢查前一星期已經知情，而火警警報器喺事發前被停用，呢啲細節令人感到憂心，但亦再次證明公開、全面嘅調查係必要。依家最重要係回應受害者同家屬嘅合理訴求，同時確保事件所有真相能夠依法釐清，令公眾重建對城市防火安全同管理機制嘅信心。政府已成立調查、並委任管理人接手屋苑事務，進行居民簡報，呢啲做法值得肯定，亦應當繼續保持透明同體恤受害者需要。\n\n從制度層面睇，今次事件暴露出物業管理、承辦商同業主代表制度嘅漏洞，例如代理投票普遍、資訊流通唔夠順暢、監管界限模糊，令風險容易累積。要避免類似悲劇重演，唔單止要追查個別失當行為，更要檢視規章同埋執行機制：包括加強消防安全承辦商同建築顧問嘅資格審查、提升對關鍵設施（例如火警系統）嘅定期檢測要求、以及規範代理投票同業主大會嘅透明度。呢啲改革方向都符合維護公共安全同法治精神嘅原則，亦係政府應該着力推動嘅行政優化。\n\n短期內，居民最關心係賠償、安置同後續支援，政府同管理人亦要盡快提供清晰、可行嘅安排，確保資金流向同程序公開，避免二次傷害。對於已證實有疏忽或違法嘅單位及個人，應依法處理，保障社會公平正義；同時社會亦要支持正當嘅審查程序，讓事實與責任在法治框架下得以釐清。長遠而言，香港要以呢次慘痛教訓作為推動城市老化樓宇升級、強化民生基礎設施嘅契機，政府、業界同市民三方需要合作，儘快補強防火網絡，務求由制度上把風險截斷，減低類似悲劇再次發生嘅可能。",
       "model": "openai",
       "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/01/renovation-consultant-knew-a-week-before-govt-inspections-proxy-votes-very-common-tai-po-blaze-inquiry-hears/",
-      "generated_at": "2026-04-01T13:22:20.673383+00:00"
+      "generated_at": "2026-04-01T19:12:58.931004+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "Agreed. Distinguishing between proper coordination and misconduct is crucial. Hong Kong authorities will thoroughly investigate to ensure all procedures were followed correctly. Any verified violations will be dealt with seriously under the law, upholding our city's strong commitment to safety and justice."
         }
       ],
-      "generated_at": "2026-04-01T13:22:49.511120+00:00"
+      "generated_at": "2026-04-01T19:13:10.221746+00:00"
     },
     "zh": {
       "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
@@ -81,7 +81,7 @@
           "content": "完全同意。通風報信行為嚴重影響巡查效力，必須依法追究。政府部門應加強內部監管，確保程序公正，以保障公眾安全同對制度嘅信心。"
         }
       ],
-      "generated_at": "2026-04-01T13:23:39.714597+00:00"
+      "generated_at": "2026-04-01T19:13:21.374441+00:00"
     }
   }
 }
