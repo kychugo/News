@@ -1,82 +1,87 @@
 {
-  "generated_at": "2026-04-01T07:19:14.234801+00:00",
+  "generated_at": "2026-04-01T13:23:39.714630+00:00",
   "editorial": {
     "en": {
-      "content": "The recent joint operation by the Independent Commission Against Corruption and the police, which led to 42 arrests over alleged triad infiltration of building maintenance projects, is a stark reminder that public safety depends as much on the integrity of systems as on physical infrastructure. The arrests come against the backdrop of the Tai Po tragedy and mounting public anger over disabled alarms and suspected malfeasance. Decisive law enforcement action is necessary not only to hold individuals to account but also to reassure a grieving community that the rule of law will be applied without fear or favour.\n\nYet arrests alone will not be sufficient. The episode has exposed weaknesses in procurement, oversight and estate governance that have allowed corrupt practices to take root. Contracting processes for large-scale repairs and maintenance need clearer safeguards: transparent tenders, rigorous vetting of contractors, routine independent audits and mandatory reporting of conflicts of interest. Licensing and performance monitoring of fire-safety firms should be reviewed and strengthened so that lapses in duty cannot be dismissed as routine failings. All reforms must respect due process while prioritising the safety of residents.\n\nEqually important is the role of government and community institutions in restoring trust. The administration’s moves to appoint an estate manager, hold briefings for affected residents and encourage the public to share information with the inquiry are steps in the right direction. Victims and their families deserve timely compensation, practical assistance and clear explanations of remedial measures. Citizens should be encouraged — through protected, accessible channels — to report suspected corrupt practices, knowing that their contributions are taken seriously and handled professionally.\n\nThis moment calls for a balanced combination of enforcement, institutional reform and social solidarity. Hong Kong’s strengths have long lain in competent public institutions and a civic culture that values rule-bound governance; these must be mobilised now to close loopholes, deter organised crime’s economic footholds and make safety non-negotiable. If the community, watchdogs and government can convert outrage into sustained, practical improvements, the city will be better protected and more resilient for it.",
+      "content": "The inquiry’s revelation that a renovation consultant was aware of government inspections a week in advance adds a troubling detail to an already painful chapter in the city's recent history. After the catastrophic fire at Wang Fuk Court, Hongkongers rightly demand clarity about what went wrong and why so many lives were lost. That demand is not an exercise in blame for its own sake but a sober necessity: only a full, transparent accounting can guide the policy and operational changes needed to prevent a recurrence. At the same time, the multiplicity of parties involved — owners’ corporations, property managers, contractors and multiple regulatory bodies — underlines the complexity of responsibility in modern estate management.\n\nThe hearings have also exposed structural weaknesses that go beyond any single incident. Testimony that proxy voting is “very common” points to governance gaps in the way some housing estates operate, diminishing effective oversight by owners. Evidence that alarm systems were disabled and that contractors were uncertain about their obligations suggests that standards, certification and enforcement mechanisms require strengthening. Constructive responses should include clearer regulations on maintenance obligations, more stringent licensing and auditing of fire-safety contractors, tighter rules on proxy voting and owners’ corporation governance, and targeted support for older estates that lack the financial means to keep up with safety upgrades. The government-appointed administrator’s forthcoming briefing for residents is an important immediate step in addressing practical concerns over compensation and management continuity.\n\nHong Kong’s strength is its capacity to learn from adversity while upholding the rule of law and due process. The public inquiry, supported by professional investigators and legal safeguards, must continue unfettered so that recommendations are evidence-based and implementable. At the same time, officials, industry participants and communities should cooperate in restoring confidence: support for victims and clear timelines for remediation will matter as much as any regulatory tweak. In the end, what the city needs is not only accountability but a durable system of prevention — one that aligns stewardship of our built environment with the standards and civic responsibilities Hong Kong society expects.",
       "model": "openai",
-      "topic_title": "Hong Kong anti-graft watchdog, police arrest 42 in crackdown on triad-linked building maintenance syndicate",
-      "topic_url": "https://hongkongfp.com/2026/03/31/hong-kong-anti-graft-watchdog-police-arrest-42-in-crackdown-on-triad-linked-building-maintenance-syndicate/",
-      "generated_at": "2026-04-01T07:17:51.809500+00:00"
+      "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
+      "topic_url": "https://hongkongfp.com/2026/04/01/renovation-consultant-knew-a-week-before-govt-inspections-proxy-votes-very-common-tai-po-blaze-inquiry-hears/",
+      "generated_at": "2026-04-01T13:21:46.747125+00:00"
     },
     "zh": {
-      "content": "香港社會喺太和、灣福大火之後，對建築維修工程入面嘅黑渠、三合會滲透，一直好憂慮。今次廉署同警方聯手拘捕42人，係當局用法治手段回應公眾關切嘅明顯行動，亦顯示政府唔會容忍以黑市化手法侵蝕公共安全與市民利益。面對168位死者嘅慘劇，社會需要見到果斷執法，以重建公眾對制度嘅信心，追究責任、清理亂象，係合理同必要嘅步驟。\n\n但單憑拘捕並不足夠，問題係結構性。工程招標、監管、付款同驗收嘅流程若然仍然存在灰色地帶，或者欠缺透明度，黑色勢力與中介就有可乘之機。政府與業界應該加快檢視制度漏洞：由招標資訊公開化、電子化監控、強化資格審查到更落實的審計與追責機制，都係要做嘅功課。同時，保護吹哨人、鼓勵居民同工人舉報問題，能夠補上官方調查以外嘅社會監察力量。\n\n處理此事亦要兼顧受害者與社區復元。要確保受災居民獲得足夠嘅賠償、安置同心理支援，並且令屋苑管理結構更透明、公正，避免同類風險重演。業界亦應提升從業人員嘅專業操守與合規文化，政府可以考慮加強培訓、設立行業守則同罰則，讓「安全第一」真正落地。\n\n總括而言，拘捕行動係正確而且必要，亦符合依法治港嘅原則；但更長遠嘅挑戰係制度與文化重建。政府、執法部門、業界同市民要同步出力，既要嚴打黑惡勢力入侵公共工程嘅空間，亦要把預防機制建立得更實在，務求由根本上保障市民生命財產安全。",
+      "content": "大火造成168條人命逝去，對整個社會係一個深刻嘅創傷。聽證會披露，裝修顧問早喺政府檢查前一星期已經知情，而火警警報器喺事發前被停用，呢啲細節令人感到憂心，但亦再次證明公開、全面嘅調查係必要。依家最重要係回應受害者同家屬嘅合理訴求，同時確保事件所有真相能夠依法釐清，令公眾重建對城市防火安全同管理機制嘅信心。政府已成立調查、並委任管理人接手屋苑事務，進行居民簡報，呢啲做法值得肯定，亦應當繼續保持透明同體恤受害者需要。\n\n從制度層面睇，今次事件暴露出物業管理、承辦商同業主代表制度嘅漏洞，例如代理投票普遍、資訊流通唔夠順暢、監管界限模糊，令風險容易累積。要避免類似悲劇重演，唔單止要追查個別失當行為，更要檢視規章同埋執行機制：包括加強消防安全承辦商同建築顧問嘅資格審查、提升對關鍵設施（例如火警系統）嘅定期檢測要求、以及規範代理投票同業主大會嘅透明度。呢啲改革方向都符合維護公共安全同法治精神嘅原則，亦係政府應該着力推動嘅行政優化。\n\n短期內，居民最關心係賠償、安置同後續支援，政府同管理人亦要盡快提供清晰、可行嘅安排，確保資金流向同程序公開，避免二次傷害。對於已證實有疏忽或違法嘅單位及個人，應依法處理，保障社會公平正義；同時社會亦要支持正當嘅審查程序，讓事實與責任在法治框架下得以釐清。長遠而言，香港要以呢次慘痛教訓作為推動城市老化樓宇升級、強化民生基礎設施嘅契機，政府、業界同市民三方需要合作，儘快補強防火網絡，務求由制度上把風險截斷，減低類似悲劇再次發生嘅可能。",
       "model": "openai",
-      "topic_title": "Hong Kong anti-graft watchdog, police arrest 42 in crackdown on triad-linked building maintenance syndicate",
-      "topic_url": "https://hongkongfp.com/2026/03/31/hong-kong-anti-graft-watchdog-police-arrest-42-in-crackdown-on-triad-linked-building-maintenance-syndicate/",
-      "generated_at": "2026-04-01T07:18:15.147358+00:00"
+      "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
+      "topic_url": "https://hongkongfp.com/2026/04/01/renovation-consultant-knew-a-week-before-govt-inspections-proxy-votes-very-common-tai-po-blaze-inquiry-hears/",
+      "generated_at": "2026-04-01T13:22:20.673383+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "13 parents, middleman jailed for up to 14 months over bribes to secure priority admission to international kindergarten",
-      "topic_summary": "Thirteen parents and a middleman have been jailed for up to one year and two months for offering HK$1.1 million in bribes to secure admission to an English Schools Foundation (ESF) kindergarten.\n\n\n\nWest Kowloon Law Courts Building. File photo: Kyle Lam/HKFP.\n\n\n\nThe defendants, aged between 36 and 48, were sentenced at the West Kowloon Law Courts Building on Tuesday. They were found guilty in February of bribing an administrator at ESF Wu Kai Sha International Kindergarten in Ma On Shan.\n\n\n\nThe b",
-      "topic_url": "https://hongkongfp.com/2026/04/01/13-parents-middleman-jailed-for-up-to-14-months-over-bribes-to-secure-priority-admission-to-international-kindergarten/",
+      "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
+      "topic_summary": "The construction consultant knew about government inspections one week before, a property management company employee has told a public inquiry into the deadly Wang Fuk Court fire. \n\n\n\nLok Sin-ying, a clerk of ISS EastPoint Properties, which managed the housing estate in Tai Po, said on Wednesday that she got the impression from meetings hosted by the estate owners&#8217; corporation that the renovation consultant &#8220;had frequent exchange&#8221; with government staff.\n\n\n\nLok Sin-ying (centre",
+      "topic_url": "https://hongkongfp.com/2026/04/01/renovation-consultant-knew-a-week-before-govt-inspections-proxy-votes-very-common-tai-po-blaze-inquiry-hears/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree: Deterrent sentences reinforce integrity in education admissions. Build on it by noting authorities should audit ESF processes, enforce clear anti-bribery policies, and enhance transparency to prevent future abuses."
+          "content": "Agree that the consultant’s knowledge of inspections signals governance gaps; build on it by demanding full disclosure of communications, inspection timing, and whether proxy voting or coordination influenced decisions. Push for an independent inquiry and stronger safeguards to prevent conflicts of interest."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "The sentences are indeed a strong deterrent. However, focusing solely on parents and middlemen overlooks the need for robust internal controls and ethical oversight within the ESF itself. A thorough audit of their admission process is crucial."
+          "content": "I agree that transparency is crucial. We must ensure all communications and the exact timing of inspections are fully disclosed. Understanding the influence of proxy votes on decisions is also vital for preventing future conflicts of interest and strengthening safeguards."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree the ESF requires stronger safeguards. However, the substantial sentences demonstrate Hong Kong's commitment to combating corruption across all sectors. Parents exploiting the system undermines fair access for deserving students. Both institutional accountability and individual responsibility are essential for maintaining integrity in education."
+          "content": "I agree transparency is essential. However, we should acknowledge that while investigating these communications, we must distinguish between improper advance notice and routine professional coordination. The inquiry should focus on whether regulations were actually violated, ensuring accountability while maintaining confidence in Hong Kong's building safety oversight systems."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I fully agree. These sentences send an unequivocal message that Hong Kong maintains zero tolerance for corruption. By holding individuals accountable, the judiciary upholds the rule of law and protects fair access to education. This reinforces the city's unwavering commitment to integrity and clean governance."
+          "content": "Valid distinction. The inquiry must determine if advance knowledge constituted collusion or legitimate professional liaison. Given the tragic outcome, public confidence requires thorough investigation. Hong Kong's regulatory systems depend on such scrutiny to maintain integrity while distinguishing between procedural violations and criminal negligence."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Absolutely correct. The court's firm stance consistently upholds social fairness and the rule of law, demonstrating that Hong Kong's robust legal system effectively safeguards equal opportunities and deters misconduct, reflecting our core societal values."
+          "content": "Agreed. Distinguishing between proper coordination and misconduct is crucial. Hong Kong authorities will thoroughly investigate to ensure all procedures were followed correctly. Any verified violations will be dealt with seriously under the law, upholding our city's strong commitment to safety and justice."
         }
       ],
-      "generated_at": "2026-04-01T07:18:44.314170+00:00"
+      "generated_at": "2026-04-01T13:22:49.511120+00:00"
     },
     "zh": {
-      "topic_title": "13 parents, middleman jailed for up to 14 months over bribes to secure priority admission to international kindergarten",
-      "topic_summary": "Thirteen parents and a middleman have been jailed for up to one year and two months for offering HK$1.1 million in bribes to secure admission to an English Schools Foundation (ESF) kindergarten.\n\n\n\nWest Kowloon Law Courts Building. File photo: Kyle Lam/HKFP.\n\n\n\nThe defendants, aged between 36 and 48, were sentenced at the West Kowloon Law Courts Building on Tuesday. They were found guilty in February of bribing an administrator at ESF Wu Kai Sha International Kindergarten in Ma On Shan.\n\n\n\nThe b",
-      "topic_url": "https://hongkongfp.com/2026/04/01/13-parents-middleman-jailed-for-up-to-14-months-over-bribes-to-secure-priority-admission-to-international-kindergarten/",
+      "topic_title": "Renovation consultant knew a week before gov’t inspections, proxy votes ‘very common,’ Tai Po blaze inquiry hears",
+      "topic_summary": "The construction consultant knew about government inspections one week before, a property management company employee has told a public inquiry into the deadly Wang Fuk Court fire. \n\n\n\nLok Sin-ying, a clerk of ISS EastPoint Properties, which managed the housing estate in Tai Po, said on Wednesday that she got the impression from meetings hosted by the estate owners&#8217; corporation that the renovation consultant &#8220;had frequent exchange&#8221; with government staff.\n\n\n\nLok Sin-ying (centre",
+      "topic_url": "https://hongkongfp.com/2026/04/01/renovation-consultant-knew-a-week-before-govt-inspections-proxy-votes-very-common-tai-po-blaze-inquiry-hears/",
       "messages": [
+        {
+          "model": "openai-fast",
+          "name": "OpenAI",
+          "content": "如屬實，呢啲情況顯示監管透明度同問責要加强；但要以官方調查報告為準，避免過早結論，確保公眾信任。"
+        },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "無錯，呢單案嘅確涉及嚴重嘅貪污行為，影響咗教育公平。嚴懲呢啲違法行為，對維護香港良好嘅法治同社會公義至關重要。"
+          "content": "我同意加強監管透明度同問責。不過，對於「有代理投票好普遍」呢個講法，我認為需要更詳細嘅調查去釐清，以免引起不必要嘅猜測。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全同意。呢案反映咗貪污對教育制度嘅破壞性影響。司法機構嚴肅處理，彰顯香港堅守法治精神，確保學位分配公平公正，保護所有學童嘅受教育權益。執法行動值得肯定。"
+          "content": "我贊成你嘅立場。確實需要深入調查代理投票嘅具體情況，釐清係咪真係普遍做法。不過更重要係要完善相關程序，確保業主權益受保護，同時提升物業管理嘅透明度同規範性。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "認同。判決彰顯法治，廉署嚴正執法維護香港廉潔價值。法庭嚴懲向社會發出清晰訊息：破壞公平競爭必定受制裁，杜絕「走後門」歪風。"
+          "content": "同意。除咗代理投票，巡查前涉嫌通風報信更令人震驚，相關部門必須嚴肅徹查，堵塞制度漏洞，維護執法公正同公信力。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "完全同意。呢個判決強力維護香港嘅法治同廉潔，顯示任何試圖破壞公平教育制度嘅行為都會受到法律制裁，對社會有警惕作用，值得支持。"
+          "content": "完全同意。通風報信行為嚴重影響巡查效力，必須依法追究。政府部門應加強內部監管，確保程序公正，以保障公眾安全同對制度嘅信心。"
         }
       ],
-      "generated_at": "2026-04-01T07:19:14.234770+00:00"
+      "generated_at": "2026-04-01T13:23:39.714597+00:00"
     }
   }
 }
