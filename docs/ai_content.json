@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-02T13:15:28.743789+00:00",
+  "generated_at": "2026-04-02T19:05:42.713039+00:00",
   "editorial": {
     "en": {
       "content": "The public hearing into the Wang Fuk Court tragedy has again reminded Hong Kong how unforgiving fire safety failures can be. Testimony that renovation workers continued to smoke despite repeated complaints from estate management speaks to more than individual negligence: it exposes fault lines in the whole ecosystem that governs works inside residential estates. Contractors, property managers and residents alike operate within a framework of contracts, licences and expectations — when any one link weakens, the risk to life and property rises dramatically.\n\nIt is right that the inquiry is excavating these layers. The findings so far — from reports that unlicensed personnel handled fire systems to suggestions that some parties knew of inspections in advance — indicate systemic weaknesses in oversight, transparency and accountability. The authorities’ role is to ensure that regulations are not only well-drafted but also effectively implemented: clearer statutory duties for contractors and property managers, mandatory licensing and certification for anyone working on fire safety systems, and swifter, proportionate enforcement when rules are flouted would all strengthen the safeguard chain.\n\nAt the same time, remedies must be practical and socially attuned. The renovation sector feeds a vast demand in a compact city; raising standards will require support for compliance, professional training and affordable recourse for small firms to meet higher expectations. Estate management companies and owners’ corporations should be empowered with greater enforcement tools and clearer contractual clauses so they can act decisively when safety is at stake, rather than being left to plead with contractors after risks have been identified.\n\nUltimately, the inquiry’s value will be judged by the reforms that follow and by the extent to which Hong Kong rebuilds public confidence in its housing safety regime. Families affected by the Wang Fuk Court fire deserve transparent answers and tangible protection against repetition. A calm, determined response — one that combines robust enforcement with practical support for sector-wide improvement — is the responsible course for government, industry and the community together.",
       "model": "openai",
       "topic_title": "Renovation workers still smoked despite estate management’s complaints to contractor, Tai Po fire inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/02/renovation-workers-still-smoked-despite-estate-managements-complaints-to-contractor-tai-po-fire-inquiry-hears/",
-      "generated_at": "2026-04-02T13:13:37.347277+00:00"
+      "generated_at": "2026-04-02T19:05:18.683933+00:00"
     },
     "zh": {
       "content": "台坡火警調查接二連三披露嘅細節，令人再次感到沉重 — 不單止係對死傷者家庭嘅同情，更係對一套防火安全機制出現裂痕嘅警覺。聽到一名無牌電工竟然喺幾個月前已經令全屋苑嘅火警系統失效，連同有證人講到裝修工人明知管理處投訴仍然抽煙、仲有工程顧問提前知道政府巡查，呢啲都唔係孤立事件，而係反映出監管漏洞、承辦商與管理公司責任不清、以及業主與住戶安全文化不足嘅幾重問題。作為社會，首先要向遇難者及其家屬表達最深切嘅哀悼，亦要支持公開、徹底嘅調查，俾公眾一個交代。\n\n從制度層面睇，事件暴露出幾項要緊缺口：一，涉事人員嘅資格與執業監管未必跟得上實務需要，無牌人士處理關乎生命安全嘅設備係嚴重風險；二，物業管理與工程承辦之間嘅監控責任模糊，投訴無法即時有效消除隱患；三，資訊透明度不足，住戶對於裝修、防火要求及檢查程序認知有限，導致潛在危機未能早期發現。呢啲都唔係靠一句譴責就能解決，而係需要由政府、監管機構、業界同社區合力補漏洞。\n\n解決方法要務實而具體：政府可以檢視並加強火警及相關設備嘅執業牌照制度，落實定期抽查同更嚴格嘅罰則；物業管理公司同承辦商嘅合約要明確安全責任，並引入第三方監察機制；加強屋苑層面嘅防火教育同舉報機制，鼓勵住戶同街坊參與；而公開聆訊本身亦要維持透明度，確保調查結果能轉化成可行嘅政策改動。喺追究責任之餘，更重要係從今次教訓中建立起一套能真正保護市民生命嘅長效機制，重建市民對公共安全體系嘅信心。",
       "model": "openai",
       "topic_title": "Electrician unknowingly deactivated all fire alarms months before fatal Tai Po blaze, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/02/electrician-unknowingly-deactivated-all-fire-alarms-months-before-fatal-tai-po-blaze-inquiry-hears/",
-      "generated_at": "2026-04-02T13:14:07.405994+00:00"
+      "generated_at": "2026-04-02T19:05:19.543084+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "Agreed. Hong Kong's robust legal framework already mandates strict compliance with fire safety regulations. The focus must remain on rigorous enforcement and holding all parties—contractors and workers—accountable under the law to prevent such incidents, ensuring community safety."
         }
       ],
-      "generated_at": "2026-04-02T13:14:37.821310+00:00"
+      "generated_at": "2026-04-02T19:05:30.512301+00:00"
     },
     "zh": {
       "topic_title": "Renovation workers still smoked despite estate management’s complaints to contractor, Tai Po fire inquiry hears",
@@ -81,7 +81,7 @@
           "content": "同意承建商責任重大，但需綜合管理。政府同業界應合作強化監管同培訓，提升整體安全文化，避免悲劇重演。"
         }
       ],
-      "generated_at": "2026-04-02T13:15:28.743758+00:00"
+      "generated_at": "2026-04-02T19:05:42.713007+00:00"
     }
   }
 }
