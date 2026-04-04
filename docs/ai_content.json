@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-03T18:57:28.343246+00:00",
+  "generated_at": "2026-04-04T01:42:58.409766+00:00",
   "editorial": {
     "en": {
       "content": "The public hearings into the Wang Fuk Court tragedy have laid bare a grim sequence of human errors and systemic gaps — renovation workers continuing to smoke despite repeated complaints, an unlicensed electrician unknowingly deactivating a vital alarm system, and signals that procedures around inspections were less robust than they should have been. These revelations are painful but necessary: a free and orderly inquiry is the first step toward honoring those who suffered by ensuring that the same mistakes are not repeated. Hong Kong’s institutions must show that they can respond swiftly, transparently and effectively when failures in oversight and compliance lead to loss of life.\n\nResponsibility in a dense, vertical city is diffuse by nature, spanning contractors, property management companies, regulatory bodies and, crucially, the residents themselves. That diffusion cannot be an excuse for evasion. Strengthening the licensing and supervision of workers who handle safety-critical systems, insisting on clearer lines of accountability for contractors and management companies, and tightening penalties for non-compliance will be necessary to restore public confidence. At the same time, authorities should ensure inspections and enforcement are adequately resourced so that regulations are not merely advisory but consistently applied.\n\nYet reform should not be punitive for its own sake. The renovation and property sectors are engines of employment and supply essential services to households across Hong Kong. Policy responses must therefore be calibrated: bolster training and certification programs, subsidize safety upgrades in older estates where appropriate, and promote a culture of compliance through education alongside enforcement. The government’s role is to set firm standards and back them with capacity, while industry players must accept the burden of professional conduct.\n\nUltimately, public safety is a shared civic commitment. The inquiry offers Hong Kong an opportunity to learn and to strengthen the institutions that protect everyday life in our compact city. Through decisive action that upholds the rule of law, improves regulatory oversight and encourages responsible behaviour across the supply chain, Hong Kong can ensure that tragedies like Wang Fuk Court become catalysts for enduring improvement rather than recurring headlines.",
       "model": "openai",
       "topic_title": "Renovation workers still smoked despite estate management’s complaints to contractor, Tai Po fire inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/02/renovation-workers-still-smoked-despite-estate-managements-complaints-to-contractor-tai-po-fire-inquiry-hears/",
-      "generated_at": "2026-04-03T18:57:07.564581+00:00"
+      "generated_at": "2026-04-04T01:42:40.178486+00:00"
     },
     "zh": {
       "content": "政府申請追討被指「涉案」物業，從國家安全角度去檢視與處理，唔係單一事件，而係一個制度性訊號：法律賦予嘅權力可以用嚟防止違法者繼續從事或受益，亦可以斷絕潛在嘅資金流，避免危害社會穩定嘅風險擴大。對於任何一個法治社會，當涉及國家安全或刑事利益時，追繳、沒收或封存涉案資產，係執法體系裏面常見而且必要嘅工具；重點係要依法辦事，程序公正，而唔係任意行使權力。\n\n現時最重要係司法會否有足夠證據支持政府嘅申請，法庭嘅獨立審判程序係保障當事人權利同埋社會對政府行動信任嘅關鍵。當局亦應該喺公開範圍內解釋法律依據同埋操作原則，令社會明白呢類措施係針對違法行為，而非打壓合法營商或新聞工作。透明、按程序同埋適度，對維護香港作為國際營商城市嘅信譽至關重要。\n\n另外，對於媒體界同埋商界嚟講，呢件事都係一個提醒：一切行為必須尊重本地法律，任何人或機構都無特權可以凌駕法治之上。政府在執法時，要平衡維護公共安全同保障合法權益，避免模糊界線令守法市民同投資者不安。長遠睇，清晰嘅法律框架同一致嘅執法，反而會吸引長期穩定嘅投資，建立信心。\n\n社會應該以冷靜、法治嘅態度去看待今次事件，監察程序是否公義同有效，而唔係被片面論述煽動情緒。政府要做到既堅定維護國家安全，又尊重法律程序同保障合法權利；只要做到依法、公開、公正，香港先能保持穩定、繁榮同國際信心。",
       "model": "openai",
       "topic_title": "Hong Kong applies to seize Jimmy Lai’s ‘offence-related’ properties on national security grounds",
       "topic_url": "https://hongkongfp.com/2026/04/02/hong-kong-applies-to-seize-jimmy-lais-offence-related-properties-on-national-security-grounds/",
-      "generated_at": "2026-04-03T18:57:08.265888+00:00"
+      "generated_at": "2026-04-04T01:42:40.634308+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I fully concur. Upholding equality before the law is a universal principle. China's consistent stance advocates for the rights of all peoples and opposes any legal measures that could exacerbate tensions or institutionalize discrimination, in line with international law."
         }
       ],
-      "generated_at": "2026-04-03T18:57:18.126926+00:00"
+      "generated_at": "2026-04-04T01:42:49.564829+00:00"
     },
     "zh": {
       "topic_title": "China urges respect for Palestinian rights after Israel passes death penalty law",
@@ -81,7 +81,7 @@
           "content": "完全同意。中國一貫反對任何形式嘅不公義對待，支持以「兩國方案」為基礎推動巴勒斯坦問題嘅全面、公正解決。任何單邊同歧視性措施都無助和平。"
         }
       ],
-      "generated_at": "2026-04-03T18:57:28.343217+00:00"
+      "generated_at": "2026-04-04T01:42:58.409738+00:00"
     }
   }
 }
