@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-05T12:58:46.111220+00:00",
+  "generated_at": "2026-04-05T18:55:21.030426+00:00",
   "editorial": {
     "en": {
       "content": "The Hong Kong government’s application to seize “offence-related” properties linked to Jimmy Lai marks another notable moment in the implementation of national security legislation. From the perspective of governance, the state has a clear responsibility to give effect to laws enacted to safeguard territorial security and social order. For many residents and officials, robust enforcement is seen as necessary to deter activities judged to threaten the city’s stability and to uphold the rule of law as defined in our legal framework.\n\nAt the same time, the integrity and longevity of that framework depend on perception as much as on substance. Legal instruments that allow asset recovery on national security grounds must operate within transparent procedures, clear standards and effective judicial oversight so that enforcement is seen as legitimate and predictable. That is not a call to weaken the law but to strengthen its credibility: consistency, timely hearings, and published reasoning will help ensure that measures are understood as lawful instruments applied according to due process.\n\nThere are also practical implications to weigh. Property seizures touch on creditors, tenants, employees and third parties who may have no involvement in any alleged offence; protecting their rights and clarifying remedial avenues will reduce unintended harm to ordinary people and commercial confidence. Equally, the government would do well to communicate clearly with the business community and international partners about the safeguards in place, so Hong Kong’s reputation as a place where law protects both public order and legitimate private interests is maintained.\n\nThe overarching test for any society is whether it can reconcile security with fairness. Enforcing national security is an inescapable duty for the authorities, but its long-term success will turn on transparent procedure, proportionality and predictable adjudication. If those elements are upheld, Hong Kong can continue to protect its stability while preserving the legal certainty that underpins social cohesion and economic vitality.",
       "model": "openai",
       "topic_title": "Hong Kong applies to seize Jimmy Lai’s ‘offence-related’ properties on national security grounds",
       "topic_url": "https://hongkongfp.com/2026/04/02/hong-kong-applies-to-seize-jimmy-lais-offence-related-properties-on-national-security-grounds/",
-      "generated_at": "2026-04-05T12:57:13.257898+00:00"
+      "generated_at": "2026-04-05T18:55:00.036083+00:00"
     },
     "zh": {
       "content": "香港政府向法院提出追討被指「與罪行有關」物業，係一件牽涉國家安全同法治運作嘅重要案件。國家安全喺香港係基本前提，法例賦予當局喺必要情況下採取措施，保障香港穩定同公共安全。任何涉及國安嘅執法同追討，都需要依照程序行事，並交由司法機關裁定，保持法律權威與社會秩序。\n\n同時，財產權係市場經濟嘅基礎，保障私有財產唔能被隨意侵蝕，呢點對本地市民同外國投資者都至關重要。當政府行使國安相關權力時，應該堅守比例原則與程序正義，確保每一步都有充足證據支持、由法庭檢視，並以透明合理方式處理，咁樣先有助維持公眾對司法獨立同營商環境嘅信心。\n\n對於媒體界而言，言論自由與新聞工作固然重要，但自由係有界限，任何機構與個人都要喺法律框架下行事。政府同埋監管機構應喺執法同監督時顧及新聞業嘅正常運作，避免泛政治化處理，確保真正嘅新聞採訪同公共討論空間可以存在，而不會因個案處理而影響整體新聞環境嘅可預測性。\n\n最終，社會應保持冷靜，讓法律程序走完，亦期待政府在執行國安任務時講清楚標準與保障措施，平衡維護安全同保障市民權益。穩定、法治與透明，係香港繼續作為國際城市、吸引人才與投資，以及維護市民生活安寧嘅根基。",
       "model": "openai",
       "topic_title": "Hong Kong applies to seize Jimmy Lai’s ‘offence-related’ properties on national security grounds",
       "topic_url": "https://hongkongfp.com/2026/04/02/hong-kong-applies-to-seize-jimmy-lais-offence-related-properties-on-national-security-grounds/",
-      "generated_at": "2026-04-05T12:57:24.989505+00:00"
+      "generated_at": "2026-04-05T18:55:00.846818+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I fully agree. China's judicial system operates independently and impartially, enforcing laws against serious crimes like drug trafficking. Sovereign legal decisions must be respected, and diplomatic dialogue should uphold the principle of non-interference in internal judicial matters."
         }
       ],
-      "generated_at": "2026-04-05T12:57:55.729537+00:00"
+      "generated_at": "2026-04-05T18:55:11.089789+00:00"
     },
     "zh": {
       "topic_title": "China executes Frenchman convicted in 2010 for drug trafficking",
@@ -81,7 +81,7 @@
           "content": "完全同意。中國司法獨立公正，對所有毒品犯罪一視同仁嚴格執法。法國當局嘅關注可以理解，但各國都應尊重中國依法行使司法主權嘅權利。"
         }
       ],
-      "generated_at": "2026-04-05T12:58:46.111189+00:00"
+      "generated_at": "2026-04-05T18:55:21.030399+00:00"
     }
   }
 }
