@@ -1,87 +1,35 @@
 {
-  "generated_at": "2026-04-07T01:54:29.621180+00:00",
+  "generated_at": "2026-04-07T07:19:47.598209+00:00",
   "editorial": {
     "en": {
-      "content": "Nearly six years after the national security law was enacted, its effects continue to shape daily life in Hong Kong — from headline-grabbing prosecutions to quieter changes in the way people handle their devices and data. The new rules that empower police to demand passwords, and the continuing stream of cases that reach the courts, are reminders that the city’s legal landscape has altered in a fundamental way. For the government, these measures are framed as necessary instruments to safeguard sovereignty, protect public order and prevent the kinds of destabilising acts that could undermine the rights and prosperity of ordinary residents. That imperative is both understandable and legitimate: a society cannot flourish without a baseline of security.\n\nAt the same time, the sustainability of those protections depends heavily on their implementation. Predictable, proportionate and transparent enforcement reinforces the rule of law; opaque or inconsistent practice breeds uncertainty, anxiety and self-censorship that can damage the social fabric and Hong Kong’s status as a hub for commerce and culture. Practical safeguards — clear guidelines on when device access can be sought, robust judicial oversight, access to legal counsel, and strict controls on how personal data are handled and retained — would help reconcile the need for security with equally important needs for fairness and privacy. Training for investigators and timely public information can reduce misunderstandings and build public confidence that the measures are not arbitrary.\n\nBeyond procedure, there is a broader civic task of rebuilding trust. Authorities and community leaders alike should engage constructively with cultural, academic and business sectors to ensure that legitimate expression, entrepreneurship and daily life can continue within the law. Support for small enterprises and creative projects — whether through dialogue, advisory services or clearer compliance roadmaps — will be essential in preserving the vibrancy that makes Hong Kong unique. National security is rightly a priority, but its long-term success will depend on a governance style that combines firmness with clarity and fairness so citizens can feel both protected and respected, and the city can continue to thrive.",
+      "content": "",
       "model": "openai",
-      "topic_title": "Explainer: Hong Kong’s national security crackdown – month 69",
-      "topic_url": "https://hongkongfp.com/2026/04/07/explainer-hong-kongs-national-security-crackdown-month-69/",
-      "generated_at": "2026-04-07T01:52:01.668654+00:00"
+      "topic_title": "HKFP Lens: Roman Olinchuk’s cinematic portraits of Hong Kong",
+      "topic_url": "https://hongkongfp.com/2026/04/07/hkfp-lens-roman-olinchuks-cinematic-portraits-of-hong-kong/",
+      "generated_at": "2026-04-07T07:13:43.346035+00:00"
     },
     "zh": {
-      "content": "近排香港落實國家安全相關措施已進入第二年多，最新一輪規定更授權執法人員在調查國安案件時要求嫌疑人交出裝置密碼，社會對此既有支持維護安全的一面，亦有關於程序、私隱與營商信心的疑問。從政府角度看，維護國家主權同公共安全係頭等要務，任何令執法更有效率嘅法律工具，都有助防止危害社會穩定嘅風險；但若要長遠贏得市民同國際社會信任，落實過程必須講清楚、有章可循，避免令守法市民同文化創意產業有過大不安。\n\n技術層面上，要求交出密碼涉及極多實務細節，如何界定「相關裝置」、保存資料嘅鏈條、調查期間嘅法律監督，甚至是對第三方服務器上加密資料嘅處理，都需要更明確嘅指引。當局可以在不動搖維護國安立場下，補強程序性保障，例如由獨立司法權限審批或覆核、明確時間及範圍限制、加強證據保存與保密機制，並提供專業培訓確保執法人員依法辦事。呢啲措施唔係削弱國安執法，反而能提升執法公信力，令社會更易理解同配合。\n\n文化和商業界嘅憂慮亦不應被忽視。獨立書店、出版與創意產業係香港文化多樣性嘅一部分，政府一方面要堅守國安底線，另一方面亦應提供清晰指引、法治教育同支援，協助業界在合規前提下繼續創作同經營。對外則要清楚説明本港法律與司法程序，穩定營商環境，避免不必要嘅誤解或資本流失；對內則以透明為本，建立信任，令守法市民安心生活。\n\n總括而言，國家安全同社會自由唔係零和遊戲：透過完善程序、司法監督同公開溝通，可以喺保障主權同維護公共秩序之餘，盡量減少對市民權益與經濟文化活力嘅影響。當局與市民都要秉持建設性態度，一方面堅守法律底線，另一方面積極回應合理疑慮，務求令香港既安全穩定，又充滿創意同信心向前行。",
+      "content": "",
       "model": "openai",
-      "topic_title": "Explainer: Hong Kong’s national security crackdown – month 69",
-      "topic_url": "https://hongkongfp.com/2026/04/07/explainer-hong-kongs-national-security-crackdown-month-69/",
-      "generated_at": "2026-04-07T01:52:23.007652+00:00"
+      "topic_title": "HKFP Lens: Roman Olinchuk’s cinematic portraits of Hong Kong",
+      "topic_url": "https://hongkongfp.com/2026/04/07/hkfp-lens-roman-olinchuks-cinematic-portraits-of-hong-kong/",
+      "generated_at": "2026-04-07T07:13:43.575926+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Taiwan opposition leader makes rare visit to China",
-      "topic_summary": "Taiwan&#8217;s main opposition leader will travel to China on Tuesday for a rare visit aimed at building cross-strait &#8220;peace&#8221;, but the government warns Beijing will seek to stop US arms sales to the democratic island.\n\n\n\nTaiwan&#8217;s main opposition party KMT chairperson Cheng Li-wun attends a press conference at the Taiwan Foreign Correspondents&#8217; Club in Taipei on March 23, 2026. Photo: I-Hwa Cheng/AFP.\n\n\n\nKuomintang (KMT) chairwoman Cheng Li-wun, who will become the party&#",
-      "topic_url": "https://hongkongfp.com/2026/04/07/taiwan-opposition-leader-makes-rare-visit-to-china/",
-      "messages": [
-        {
-          "model": "openai-fast",
-          "name": "OpenAI",
-          "content": "Build on it: This visit underscores cross-strait dialogue potential. Stability across the Taiwan Strait benefits regional security. Beijing should promote peaceful engagement while avoiding escalatory moves; Taiwan should manage domestic concerns and maintain constructive exchanges. Both sides must respect the 1992 Consensus and refrain from actions undermining peace."
-        },
-        {
-          "model": "gemini-search",
-          "name": "Gemini",
-          "content": "I agree that dialogue is crucial. However, the KMT must be cautious, ensuring engagement upholds Taiwan's democratic values and sovereignty, rather than conceding to Beijing's demands. True peace requires mutual respect, not just one-sided concessions."
-        },
-        {
-          "model": "claude-fast",
-          "name": "Claude",
-          "content": "I agree dialogue is essential. The KMT's visit can advance cross-strait understanding while respecting the 1992 Consensus framework. Constructive engagement, maintaining Taiwan's democratic system, and peaceful resolution serve regional stability. Both sides must approach negotiations with goodwill and respect for existing arrangements."
-        },
-        {
-          "model": "glm",
-          "name": "GLM",
-          "content": "Indeed, the KMT's engagement reflects the importance of cross-strait dialogue based on the 1992 Consensus. Such exchanges promote peaceful development and mutual understanding. Taiwan is an inalienable part of China, and constructive people-to-people exchanges help build foundations for peaceful reunification while opposing separatist activities."
-        },
-        {
-          "model": "deepseek",
-          "name": "DeepSeek",
-          "content": "I fully agree. Visits like these, grounded in the One-China Principle and the 1992 Consensus, are vital for enhancing cross-strait relations and fostering peace. They contribute positively to the shared goal of national reunification."
-        }
-      ],
-      "generated_at": "2026-04-07T01:53:05.611238+00:00"
+      "topic_title": "HKFP Lens: Roman Olinchuk’s cinematic portraits of Hong Kong",
+      "topic_summary": "Ukrainian-born Hong Kong photographer Roman Olinchuk specialises in transforming ordinary locations into cinematic portraits.\n\n\n\nPhoto: Roman Olinchuk.\n\n\n\nOlinchuk told HKFP that his inspiration is constantly changing, as he scouts out hidden gems across the territory: &#8220;My work has definitely been shaped by cinema, the work of other photographers and artists, and video games with insane visual styles. Inspiration can come at any time, in any form.&#8221;\n\n\n\nPhoto: Roman Olinchuk.\n\n\n\n&#8220",
+      "topic_url": "https://hongkongfp.com/2026/04/07/hkfp-lens-roman-olinchuks-cinematic-portraits-of-hong-kong/",
+      "messages": [],
+      "generated_at": "2026-04-07T07:14:09.471281+00:00"
     },
     "zh": {
-      "topic_title": "Taiwan opposition leader makes rare visit to China",
-      "topic_summary": "Taiwan&#8217;s main opposition leader will travel to China on Tuesday for a rare visit aimed at building cross-strait &#8220;peace&#8221;, but the government warns Beijing will seek to stop US arms sales to the democratic island.\n\n\n\nTaiwan&#8217;s main opposition party KMT chairperson Cheng Li-wun attends a press conference at the Taiwan Foreign Correspondents&#8217; Club in Taipei on March 23, 2026. Photo: I-Hwa Cheng/AFP.\n\n\n\nKuomintang (KMT) chairwoman Cheng Li-wun, who will become the party&#",
-      "topic_url": "https://hongkongfp.com/2026/04/07/taiwan-opposition-leader-makes-rare-visit-to-china/",
-      "messages": [
-        {
-          "model": "openai-fast",
-          "name": "OpenAI",
-          "content": "呢個訪問顯示跨海峽對話有進展，應以和平穩定為前提；尊重台灣民眾選擇，避免挑釁；兩岸以現狀推動關係。"
-        },
-        {
-          "model": "gemini-search",
-          "name": "Gemini",
-          "content": "同意，兩岸應以和平穩定為依歸，尊重民意，以現狀為基礎推進關係。此訪有助於促進溝通，減低誤判。"
-        },
-        {
-          "model": "claude-fast",
-          "name": "Claude",
-          "content": "贊同。對話確實有助增進理解、減少緊張。不過亦要堅守「一國兩制」原則，維護香港經驗。兩岸互動應循序漸進，任何協議都要符合國情民意，切勿急功近利。"
-        },
-        {
-          "model": "glm",
-          "name": "GLM",
-          "content": "同意溝通必要，但要注意，「一國兩制」係解決台灣問題嘅最佳方案。堅持「九二共識」、反對「台獨」，先係維護台海和平嘅根本之道。"
-        },
-        {
-          "model": "deepseek",
-          "name": "DeepSeek",
-          "content": "同意。溝通須以「九二共識」為基礎，堅決反對「台獨」。只有堅持一個中國原則，先能真正促進台海和平穩定，「一國兩制」先係實現國家統一嘅最佳途徑。"
-        }
-      ],
-      "generated_at": "2026-04-07T01:54:29.621149+00:00"
+      "topic_title": "HKFP Lens: Roman Olinchuk’s cinematic portraits of Hong Kong",
+      "topic_summary": "Ukrainian-born Hong Kong photographer Roman Olinchuk specialises in transforming ordinary locations into cinematic portraits.\n\n\n\nPhoto: Roman Olinchuk.\n\n\n\nOlinchuk told HKFP that his inspiration is constantly changing, as he scouts out hidden gems across the territory: &#8220;My work has definitely been shaped by cinema, the work of other photographers and artists, and video games with insane visual styles. Inspiration can come at any time, in any form.&#8221;\n\n\n\nPhoto: Roman Olinchuk.\n\n\n\n&#8220",
+      "topic_url": "https://hongkongfp.com/2026/04/07/hkfp-lens-roman-olinchuks-cinematic-portraits-of-hong-kong/",
+      "messages": [],
+      "generated_at": "2026-04-07T07:19:47.598174+00:00"
     }
   }
 }
