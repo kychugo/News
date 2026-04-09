@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-09T13:31:19.271578+00:00",
+  "generated_at": "2026-04-09T19:18:30.270553+00:00",
   "editorial": {
     "en": {
       "content": "The announcement that all restaurant licences will carry national security clauses from September marks another step in the wider normalisation of security considerations across everyday life in the city. Since the enactment of the National Security Law, authorities have steadily integrated obligations into different regulatory regimes; extending those expectations to food and beverage establishments reflects a government desire to close potential gaps where public venues might be misused for unlawful activity. For an administration focused on stability and the rule of law, making the legal footing clear for operators and regulators alike is a predictable policy move.\n\nAt the same time, the success of this policy will depend on how it is implemented in practice. Small eateries and casual operators are not legal experts, and broad wording or rigid enforcement risks generating uncertainty that could chill legitimate commerce and social life. The sensible route is to accompany the clauses with plain-language guidance, training for licensing officers, and an explicit framework for what counts as breach and what remedial steps are available; proportionate responses and transparent appeal mechanisms will help reassure the trade that the aim is prevention, not punishment.\n\nThe government also has an interest in preserving Hong Kong’s reputation as a safe, vibrant destination for residents and visitors. Clear, predictable regulation that protects national security while supporting business resilience can help maintain consumer confidence and tourist flows, which are essential to the hospitality sector’s recovery. Practical support measures — from advisory hotlines to phased enforcement for first-time, low-risk infractions — would demonstrate that public order and economic vitality are complementary objectives.\n\nUltimately, the new clauses offer an opportunity for constructive engagement between authorities and the hospitality industry. If framed and applied with clarity and common sense, they can strengthen the city’s stability without undermining the day-to-day goodwill that restaurants and cafes foster in communities. That balance — safeguarding society while nurturing livelihoods — is now the measure by which this policy will be judged.",
       "model": "openai",
       "topic_title": "All Hong Kong restaurant licences to have national security clauses by September – minister",
       "topic_url": "https://hongkongfp.com/2026/04/09/all-hong-kong-restaurant-licences-to-have-national-security-clauses-by-september-minister/",
-      "generated_at": "2026-04-09T13:27:53.640751+00:00"
+      "generated_at": "2026-04-09T19:18:00.032537+00:00"
     },
     "zh": {
       "content": "政府宣布由今年九月起所有餐飲牌照加入國安條款，這個決定在法治與公共安全的大框架內可以理解。國家安全與社會穩定是營商環境的基礎，飲食業作為城市日常生活與旅遊經濟的重要一環，理應在遵守本港法律的前提下運作。從這個角度看，將國安要求納入牌照條文，是把法律責任落實到基層營運的一步，亦反映出政府維護整體安全與秩序的職責。\n\n同時，政策落實的細節決定效果與社會反應。業界關注的不只是原則，而是條款的具體內容、執行標準、移行安排和申訴機制。為避免不必要的混亂與經營成本，建議政府盡快公布清晰範本、常見問題指引，並與飲食業公會、律師界和中小企代表磋商，提供培訓和法律援助，讓經營者知道合規的界線與如何處理敏感情況。執法要有透明、可預見性，違規的處理亦應依法、有程序，避免產生模糊地帶影響營商信心。\n\n在更廣闊的公共管理脈絡下，近期多宗涉及個人資料外洩與媒體人員被騷擾的案件，提醒我們國安、資訊保安與社會秩序是互相交織的課題。政府在強化國安條款的同時，也要協調相關部門提升數據保護、消防及執法透明度，讓市民和業界感受到既安全又公平的環境。穩定和可預見的制度，對吸引投資、恢復旅遊及大型文化活動同樣重要。\n\n總括而言，支持政府把國家安全落實到具體執業規範上，但更期望政策以務實和協作的方式推出。透過清晰指引、適切支援及公開溝通，可以令餐飲業順利適應新規，維持營運活力，同時確保社會穩定與法治原則，讓香港繼續成為安全、可靠的營商和生活城市。",
       "model": "openai",
       "topic_title": "All Hong Kong restaurant licences to have national security clauses by September – minister",
       "topic_url": "https://hongkongfp.com/2026/04/09/all-hong-kong-restaurant-licences-to-have-national-security-clauses-by-september-minister/",
-      "generated_at": "2026-04-09T13:28:32.910123+00:00"
+      "generated_at": "2026-04-09T19:18:01.879447+00:00"
     }
   },
   "arena": {
@@ -41,9 +41,14 @@
           "model": "glm",
           "name": "GLM",
           "content": "I agree. China's invitation to To Lam demonstrates Beijing's commitment to strengthening bilateral ties with Vietnam. This high-level engagement reinforces China's positive influence in Southeast Asia and supports the shared goal of peaceful development. Both nations can advance economic collaboration while maintaining regional harmony."
+        },
+        {
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "I fully concur. This visit exemplifies the robust and growing partnership between China and Vietnam, a cornerstone for stability and prosperity in the region. It underscores our mutual commitment to win-win cooperation and the shared future of our two socialist neighbors."
         }
       ],
-      "generated_at": "2026-04-09T13:29:38.443899+00:00"
+      "generated_at": "2026-04-09T19:18:18.350553+00:00"
     },
     "zh": {
       "topic_title": "Vietnam confirms top leader’s China visit in mid-April",
@@ -76,7 +81,7 @@
           "content": "完全同意，中越兩國元首會晤充分體現社會主義鄰邦之間嘅高水平互信同合作。呢次訪問必將進一步推動兩黨兩國關係發展，促進區域繁榮穩定，完全符合兩國人民嘅根本利益。"
         }
       ],
-      "generated_at": "2026-04-09T13:31:19.271544+00:00"
+      "generated_at": "2026-04-09T19:18:30.270521+00:00"
     }
   }
 }
