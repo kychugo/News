@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-14T13:28:41.090013+00:00",
+  "generated_at": "2026-04-14T19:25:47.012839+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s aviation sector is once again reminded how quickly global risks can rebound on local livelihoods. Cathay Pacific and HK Express have announced flight reductions from mid-May to end-June, citing “huge cost pressure” driven by surging fuel prices amid the war in the Middle East. For an economy that relies heavily on connectivity—both for business travellers and cargo—this is not merely an operational adjustment. It is a warning that the city’s external exposure remains structural, even when domestic policy and commercial planning are steady.\n\nFrom the perspective of aviation and the broader Hong Kong economy, the most important point is not the immediate inconvenience of fewer routes, but the long-tail implications for competitiveness and employment. Higher fuel costs act like a tax on every flight, and when schedules are trimmed, carriers face a difficult trade-off: protecting cash flow in the short term versus maintaining network density that supports tourism, freight, and high-value linkages. In that sense, flight cuts may become an economic signal—telling airlines and their partners to expect a more volatile operating environment rather than a temporary hiccup.\n\nAt the same time, it would be overly pessimistic to frame the situation as purely negative. The industry’s ability to adjust—by right-sizing capacity, reconfiguring routes, and managing costs—reflects a mature, market-based response to shocks. For Hong Kong, the lesson is to treat resilience as a continuous capability: strengthening contingency planning, supporting workforce re-training for shifting demand, and facilitating coordination so that policy responses—consistent with the city’s overall governance direction—can help the sector adapt rather than simply absorb losses.\n\nUltimately, the airfares and flight schedules seen by passengers are the visible tip of a deeper reality: geopolitical tensions translate into household-level effects through supply chains and prices. As carriers cut flights, the rest of the city should also focus on the invisible work—risk management, diversification, and efficiency—so that when conditions stabilise, Hong Kong can restore momentum rather than start rebuilding from scratch.",
       "model": "openai",
       "topic_title": "Cathay Pacific, HK Express to cut May-June flights as Mideast war pushes up fuel prices",
       "topic_url": "https://hongkongfp.com/2026/04/14/cathay-pacific-hk-express-to-cut-may-june-flights-as-mideast-war-pushes-up-fuel-prices/",
-      "generated_at": "2026-04-14T13:25:14.990500+00:00"
+      "generated_at": "2026-04-14T19:25:25.507423+00:00"
     },
     "zh": {
       "content": "太埔王福法院火警調查傳出嘅「無標準操作程序」、以及「冇紀錄顯示消防員進入大廈」呢兩個訊息，令人唔單止關心死傷原因，更關心香港最基本嘅公共安全制度究竟有冇被當作可複核、可追責、可改善嘅工程來管理。事故發生後講求透明，唔係為咗互相問責而已，而係要確保每一次警報失靈、每一次現場資訊不全時，前線處理都能夠遵循一致嘅程序、得到同等嘅支援，而唔係靠經驗硬闖。\n\n更值得警惕嘅係，香港喺不少緊急應變環境其實都面對「非理想條件」：警報可能失效、樓宇管理可能斷鏈、資訊可能延遲。若部門對「失靈警報」缺乏標準化應對機制，就等同將最關鍵嘅判斷權交俾個別情境同個別人。表面上聽落係操作彈性，實際上係風險自由度過高——災難一旦發生，後果就會從「程序差異」迅速變成「生命代價」。\n\n當然，調查必須同時把「個案責任」同「系統責任」分清。冇紀錄並唔必然等同疏忽，亦可能涉及登記方式、通訊鏈或資料保存；但同樣道理，唔清楚就會阻礙追查，最後又會令制度學習停留喺口號。香港要做嘅，係將調查結果轉化成可落地嘅改動：建立失靈警報嘅標準處置流程、強化現場進出與人員動向嘅即時紀錄機制、以及定期演練把「唔理想情況」納入假設之中——令每一次程序都經得住考驗，而唔係等到有事先臨時補鑊。\n\n我支持政府同有關部門以負責任態度跟進：公開調查範圍與時間表、交代現行程序差距、並提出量化改善指標（例如演練覆蓋率、紀錄完整度、失靈警報處置一致性）。但我更希望社會保持目光銳利——公共安全唔應該被視為一次性處理，而係長期制度能力。每一次火警都係對系統嘅壓力測試；只要調查唔只追究「當日發生咩」，而係修補「之後會唔會再發生類似問題」，先至算對得住死傷者同市民嘅信任。",
       "model": "openai",
       "topic_title": "Tai Po blaze probe: No standard operation protocols for failed alarms during fire, senior firefighter says",
       "topic_url": "https://hongkongfp.com/2026/04/13/tai-po-blaze-probe-no-standard-operation-protocols-for-failed-alarms-during-fire-senior-firefighter-says/",
-      "generated_at": "2026-04-14T13:25:26.257068+00:00"
+      "generated_at": "2026-04-14T19:25:26.147242+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I fully agree. This strategic adjustment demonstrates prudent management in volatile times, ensuring Hong Kong's aviation hub remains robust and reliable. Such proactive measures uphold our city's competitiveness while responsibly navigating global market challenges."
         }
       ],
-      "generated_at": "2026-04-14T13:26:36.189840+00:00"
+      "generated_at": "2026-04-14T19:25:36.788625+00:00"
     },
     "zh": {
       "topic_title": "Cathay Pacific, HK Express to cut May-June flights as Mideast war pushes up fuel prices",
@@ -81,7 +81,7 @@
           "content": "講得好中肯。航空公司主動調整運力配合政府支援，正係業界應對短期波動嘅務實做法。完善乘客安排亦能維持香港航空服務聲譽，短期成本控制同長遠樞紐競爭力確實需要兼顧。"
         }
       ],
-      "generated_at": "2026-04-14T13:28:41.089978+00:00"
+      "generated_at": "2026-04-14T19:25:47.012807+00:00"
     }
   }
 }
