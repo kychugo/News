@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-15T13:26:38.033537+00:00",
+  "generated_at": "2026-04-15T19:28:17.425035+00:00",
   "editorial": {
     "en": {
       "content": "The Tai Po blaze tragedy at Wang Fuk Court, and the inquiry’s finding that a 999 call was not passed on to the fire department in time, should be treated as a matter of urgent public trust rather than a routine operational failure. In emergencies, seconds are not abstract—they determine whether help arrives in time to save lives. When a system meant to connect citizens to rescue services falters, the impact is inevitably personal for families and systemic for the entire community that relies on those services.\n\nAt the same time, it is important to keep a balanced view of how such breakdowns can occur. Complex call-routing involves communication protocols, staffing, and network and dispatch procedures, any of which may degrade under pressure. Accountability, therefore, should focus on what exactly failed—who did what, what safeguards existed, and why they did not prevent the delay—not merely on assigning blame in the abstract. A credible inquiry should clarify the chain of responsibility and whether lessons learned from past incidents have been fully implemented.\n\nFor Hong Kong, this event also points to a broader social question: how resilient are public-facing systems when people most need them? Beyond fire services, the case highlights the importance of clear emergency guidance to the public, robust cross-department coordination, and regular stress-testing of the entire emergency response workflow. Transparent outcomes—along with timely improvements to call-handling, escalation procedures, and dispatch verification—are essential to restore confidence that 999 works as promised.\n\nFinally, the reported suspected theft in ransacked flats after the fire underlines the fragility of community welfare in the immediate aftermath of disasters. Relief should not end at rescue; it must extend to safeguarding victims, supporting affected residents, and tightening protection against opportunism. Hong Kong’s response should therefore be twofold: first, fix the emergency system that failed at the critical moment; and second, strengthen the social safety net that helps victims recover without additional harm.",
       "model": "openai",
       "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
-      "generated_at": "2026-04-15T13:23:53.542831+00:00"
+      "generated_at": "2026-04-15T19:27:53.994345+00:00"
     },
     "zh": {
       "content": "今日最值得社會正視嘅新聞，係大埔王福邨火警事故中，疑因999緊急求救未能即時轉介消防部門而造成悲劇後果。對市民嚟講，999唔係抽象制度，而係生死之間嘅最後一道門；一旦通訊流程斷裂，即使後續救援再努力，亦難以彌補最初那一下延誤所帶來嘅風險。\n\n今次調查揭示嘅重點，唔應該只停留喺「有冇人失職」嘅單點追究。更關鍵係要問：現行緊急應變鏈條點樣運作——由報案、資訊核實、系統轉介、調度指令，到最後消防到場，究竟每一段有冇清晰SOP、責任劃分同時效指標？另外，通訊系統就算再先進，如果缺乏足夠培訓、監察及覆核機制（例如關鍵字、位置、危險程度嘅自動標記與人工再確認），都可能令同一類事故反覆發生。社會需要嘅，係可量化、可驗證嘅改善，而唔係泛泛而談嘅交代。\n\n同時，火災本身亦提醒我哋：民居安全、消防裝置維護、逃生路徑暢通與大廈管理責任，並唔係「有事先補救」嘅議題。王福邨事件爆出疑似被清洗或被「闖入」嘅跡象（報稱走失/被搜掠），雖然未必就等同因果，但反映災後環境管理存在脆弱位。當市民最需要秩序、保護同協助時，任何額外干擾都會令受害者更難獲得即時支援。政府同相關部門除咗處理通報流程，亦應同步檢討災後的保安、證據保存同住戶支援安排，避免讓創傷延長。\n\n我嘅立場係：今次要以「零延誤」為目標推動深度改革，而唔應該淪為政治式口號。調查結果應公開關鍵環節、公開系統紀錄與調度時間線，並設立獨立監察及定期演練，讓市民知道每一次999來電都會被視為可驗證嘅承諾。只要通訊鏈條同應變流程真正可靠，制度先至配得上市民對生命保障嘅信任。",
       "model": "openai",
       "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
-      "generated_at": "2026-04-15T13:24:01.921941+00:00"
+      "generated_at": "2026-04-15T19:27:54.886331+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I agree. The public inquiry is a necessary step toward transparency. By rigorously examining the communication breakdown, Hong Kong can implement concrete improvements to emergency protocols, ensuring all departments operate cohesively to protect lives in future crises."
         }
       ],
-      "generated_at": "2026-04-15T13:24:50.735534+00:00"
+      "generated_at": "2026-04-15T19:28:06.123324+00:00"
     },
     "zh": {
       "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
@@ -81,7 +81,7 @@
           "content": "支持完善機制嘅方向。關鍵在於落實到位，確保前線人員嚴格執行新協議，避免溝通漏洞。跨部門演練同清晰權責劃分都好重要，令市民對應急系統重拾信心。"
         }
       ],
-      "generated_at": "2026-04-15T13:26:38.033505+00:00"
+      "generated_at": "2026-04-15T19:28:17.424996+00:00"
     }
   }
 }
