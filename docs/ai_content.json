@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-16T13:45:12.408460+00:00",
+  "generated_at": "2026-04-16T19:25:21.252586+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong is preparing to open Kai Tak Hospital in October, a landmark that deserves broad public support. At a time when the city’s healthcare system is under constant pressure—from an ageing population to rising demands for specialist services—adding 2,400 beds and creating a dedicated healthcare hub can only be positive. The timing is also important: a well-functioning hospital is not just about capacity, but about how effectively it integrates emergency response, clinical pathways, and cross-department coordination, so that patients face fewer delays and avoid unnecessary complications.\n\nThat said, infrastructure alone cannot guarantee better outcomes. The experience of past projects shows that the quality of staffing—doctor-to-nurse ratios, specialist recruitment and retention, and continuous training—matters as much as the building size. The hospital should also prioritise operational readiness well before opening day: clear triage protocols, robust contingency planning, and seamless information systems so that referrals and patient records move reliably. For a city that places emphasis on orderly governance and public service, the smooth rollout of new capacity is a real test of execution.\n\nKai Tak Hospital also offers an opportunity to strengthen Hong Kong’s role as a regional healthcare platform, including through partnerships in medical research and professional exchange. Yet it should do so without overlooking equity: the most visible “healthcare hub” benefits must reach ordinary residents in public wards and emergency units, not only those who can access care through private channels. As the hospital comes online, transparent performance indicators—waiting times, service turnaround, patient safety metrics, and public satisfaction—will help the community evaluate whether the promise of “2,400 beds” translates into tangible improvements.\n\nFinally, in the broader context of daily challenges—whether public safety incidents, economic uncertainty, or social policy adjustments—healthcare is one of the clearest areas where government, professionals, and the public can share a common goal. A new hospital can build confidence, but only if it delivers consistent, humane care and keeps faith with the expectations of families who rely on the system in their most vulnerable moments.",
       "model": "openai",
       "topic_title": "Hong Kong’s largest hospital, Kai Tak Hospital, to open in October",
       "topic_url": "https://hongkongfp.com/2026/04/16/hong-kongs-largest-hospital-kai-tak-hospital-to-open-in-october/",
-      "generated_at": "2026-04-16T13:43:20.820913+00:00"
+      "generated_at": "2026-04-16T19:24:58.250222+00:00"
     },
     "zh": {
       "content": "大埔火災倖存者喺公聽會上講到最後通話嘅絕望，以及仍然困住喺人命陰影入面嘅家人，他嘅承諾「要出聲」其實唔單止係個人哀痛，更係對公共制度提出一個基本追問：當意外發生，警方、消防、救援流程同溝通鏈條到底有冇做到「最即時、最清晰、最有效」？而今日另一宗同樣反映處理失誤嘅消息——有人喺火場困住、999求助未能成功轉達消防——更加令整體問題由單一事件推向制度性檢討：追究責任同完善機制唔應該拖泥帶水，更唔應該只停留喺事後情緒。\n\n不過，同一時間亦見到官方及親官方立場嘅聲音，警告有人將大埔火災「政治化」以「攪亂秩序」。社評不能忽略：確實，災難容易被利用作互相攻防，甚至把焦點移走咗本應改善嘅程序問題。但「反對政治化」唔等於「可以免責」。當市民用生命經驗去要求問責、透明同改善，呢種行動就更接近公共利益，而唔係純粹嘅立場宣傳。真正能夠安撫社會、重建信任嘅方法，係用可核實嘅調查結果、公開嘅通報機制、清晰嘅改進時間表去回應，而唔係用抽象指控去壓低問題。\n\n因此，未來最重要嘅應對方向，係把「通話—派援—到場」做成可度量、可追蹤嘅流程：例如999通聯紀錄點樣處理、轉介消防嘅標準條件係乜、現場資訊（位置、樓層、被困人數）如何即時更新到指揮中心、以及跨部門協調係由邊個負責最終決策。再者，公共場域（屋苑、公共走廊、通道）嘅防火裝置同疏散指引，亦要以「事故中真實失效」作為改造依據，而唔係按傳統清單式檢查。倖存者講嘅「最後通話」其實係最殘酷嘅資料：佢哋記得嘅唔單止係害怕，而係希望制度唔再令求救變成無聲。\n\n我哋嘖嘖稱奇，但也必須堅持：香港社會最應該珍惜嘅，係對生命的尊重同對真相的追求。當大埔火災把恐懼投射到每個家庭，任何「要你噤聲」嘅呼籲都難以取代「要你徹底查明」。只要程序透明、改動可驗證、責任清楚，市民關注就唔會係攪亂；相反，正正係因為有人出聲，秩序先有實質根基。",
       "model": "openai",
       "topic_title": "Tai Po fire survivor recalls final calls with trapped loved ones, vows to speak up for family",
       "topic_url": "https://hongkongfp.com/2026/04/16/tai-po-fire-survivor-recalls-final-calls-with-trapped-loved-ones-vows-to-speak-up-for-family/",
-      "generated_at": "2026-04-16T13:43:35.924232+00:00"
+      "generated_at": "2026-04-16T19:24:59.194473+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "I fully endorse this view. The committee's thorough investigation is crucial for strengthening Hong Kong's fire safety regulations and public protection systems. This process honors the victims and demonstrates the government's dedication to learning from this tragedy to ensure citizen safety."
         }
       ],
-      "generated_at": "2026-04-16T13:44:17.163116+00:00"
+      "generated_at": "2026-04-16T19:25:10.338706+00:00"
     },
     "zh": {
       "topic_title": "Tai Po fire survivor recalls final calls with trapped loved ones, vows to speak up for family",
@@ -81,7 +81,7 @@
           "content": "同意嚴格執法同問責至關重要。調查委員會正深入檢討，期望政府汲取教訓，加強消防條例執行，避免悲劇重演，保障市民安全。"
         }
       ],
-      "generated_at": "2026-04-16T13:45:12.408430+00:00"
+      "generated_at": "2026-04-16T19:25:21.252552+00:00"
     }
   }
 }
