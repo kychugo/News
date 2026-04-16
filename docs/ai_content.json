@@ -1,77 +1,87 @@
 {
-  "generated_at": "2026-04-16T02:04:56.420889+00:00",
+  "generated_at": "2026-04-16T07:30:36.303095+00:00",
   "editorial": {
     "en": {
-      "content": "The inquiry into the Tai Po blaze has brought into sharp focus a basic question that every emergency system must answer: when seconds matter, does the chain of response still work as intended? Reports that a trapped woman’s 999 call was not passed to the fire department will inevitably trouble the public, not only because of the tragic outcome, but because it touches a deeply held expectation of reliability. In a city where residents rely on emergency services as a last safety net, perceived breakdowns—whether due to procedure, misrouting, or communication failures—can corrode trust far beyond the incident itself.\n\nAt the same time, it would be premature to treat every detail as willful negligence before the inquiry finishes. Emergency calls can be complex: callers may be in distress, location information may be incomplete, and operators must rapidly determine the nature and severity of an incident. That said, complexity is not a defence against accountability. The key is whether the system’s safeguards—clear handover protocols, verification steps, and redundancy against miscommunication—functioned properly that night. If the inquiry finds that human error played a role, the response should include not just individual consequences, but practical fixes that reduce the likelihood of recurrence for the next caller who cannot afford delays.\n\nThe broader lesson for Hong Kong is about balancing order and reassurance with transparency. Official statements that discourage politicisation may help keep the focus on rescue, investigation and prevention; however, public concern cannot be dismissed as “stirring chaos” when it is rooted in concrete operational failures. A constructive approach would be to translate findings into measurable improvements—such as upgrading call routing technology, strengthening operator training, refining incident categorisation, and conducting targeted drills for high-risk estates and dense residential layouts. Where there are deficiencies, the city should show that it learns quickly, not merely that it communicates.\n\nFinally, in the aftermath of any major fire, residents tend to ask two questions: “Will you prevent this next time?” and “Will you respond effectively when it happens?” The inquiry’s responsibility is to address both. If Hong Kong can turn painful facts into tighter safeguards, the community’s patience and confidence can be rebuilt—so that emergency services remain a dependable promise, not an uncertain one, when the city is tested by disaster.",
+      "content": "The Tai Po fire has naturally prompted strong public anger and grief, as families ask why precious minutes were lost and how residents can be better protected in future emergencies. In the early hours after such tragedies, emotion can easily become scrutiny, and scrutiny can quickly be weaponised. That is why Beijing’s top official—who bears responsibility for maintaining overall stability in Hong Kong—has issued a clear warning against those who “politicise” the disaster to “stir up chaos”. The underlying message is not to silence investigation, but to prevent the tragedy from becoming a pretext for disruptive political mobilisation.\n\nAt the same time, it is important to recognise why some people felt compelled to raise questions so loudly. When a public inquiry later hears that a 999 call was not properly passed to the fire department, the issue is no longer abstract: it concerns emergency response procedures that directly affect life and death. Official statements, however firm, cannot substitute for transparent, verifiable explanations. People are entitled to insist on accountability—whether through administrative review, operational reforms, or the inquiry’s findings—so that “lessons learned” translate into concrete improvements for residents in public housing estates.\n\nThe broader lesson, for Hong Kong society as a whole, is to draw a disciplined line between lawful, fact-based oversight and agitation that aims to discredit institutions rather than solve problems. Calling for improvements to call-routing systems, incident command, and coordination among relevant departments can be a constructive civic duty. But turning the fire into a battleground for slogans, online harassment, or selective blaming—especially without solid evidence—risks deepening mistrust and distracting from what matters most: safeguarding safety standards and emergency readiness.\n\nUltimately, the city’s path forward should reflect both sides of this equation: calm, orderly investigation on one hand, and credible, timely answers on the other. Stability is not achieved by suppressing questions; it is achieved by ensuring that the answers are worth trusting. If the inquiry results in clear operational changes and communicates them in a way residents can understand, public confidence can be rebuilt—leaving less room for manipulation, whether by opportunistic voices or by those who confuse confrontation with accountability.",
       "model": "openai",
-      "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
-      "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
-      "generated_at": "2026-04-16T02:03:14.922011+00:00"
+      "topic_title": "Beijing top official warns of people ‘politicising’ Tai Po fire to ‘stir up chaos’ in Hong Kong",
+      "topic_url": "https://hongkongfp.com/2026/04/16/beijing-top-official-warns-of-people-politicising-tai-po-fire-to-stir-up-chaos-in-hong-kong/",
+      "generated_at": "2026-04-16T07:28:25.539318+00:00"
     },
     "zh": {
-      "content": "泰安街火災引發的不單止係對火警成因同救援流程嘅關注，更攞去檢驗一個社會面對緊急危難時，公權力係唔係真係做到「第一時間、第一通訊、第一支援」。最新披露話到一名被困婦人於999致電求助後，電話未能轉交消防部門；最終悲劇收場。要講清楚：無論最終是否涉及通訊系統、值班調度、資訊傳遞失誤，甚至係個案當刻嘅判斷門檻，呢種「訊息斷線」都唔應該被輕描淡寫，而係必須被徹底追查同糾正。\n\n同時，我哋亦要警惕另一種風險——用情緒或政治敘事去取代事實。有人會趁機將災難過度渲染，或者用「互相攻訐」嚟搵替罪羊；但對受害者家屬嚟講，最需要係可驗證嘅改善措施：例如999接線同消防調度之間嘅轉接機制是否具備容錯能力、標記高風險個案嘅流程有冇延誤、報案內容（地點、門牌、被困位置）係咪有確保到精準可行。真正負責任嘅追究，不係只追責某個人，而係拆解系統層面嘅漏洞，令同類事件唔再重演。\n\n而立場上，香港社會亦應該堅持一個核心原則：救援系統嘅改良必須以「生命優先」為最高準則。當今資訊技術同通訊能力唔係薄弱，真正差距往往在於制度設計同執行紀律。調查如果只停留喺「個別失誤」而冇落到可量化嘅改革，例如增強調度冗餘、強制通訊確認、以及縮短關鍵資訊從接線到出動嘅時間，就難以服眾。\n\n最後，對比其他新聞（例如涉及治安、言論空間、以及外部爭端嘅熱議），火災呢類事件更應該成為社會修補「信任基建」嘅起點：市民要知道緊急求助會被即刻接住，政府亦要展示透明度同改進決心。願哀悼唔止係一句慰問，而係以制度變革回應那一通未能及時抵達消防部門嘅電話。",
+      "content": "今日最值得社論關注嘅主題，係大埔火警事件中「999求助未能轉介消防」導致一名婦人死亡嘅調查進展。對市民而言，火警唔係抽象嘅新聞，而係每一個人都可能突然面對嘅緊急風險；而對政府部門嚟講，最終目的亦應該只係一件事——確保求救一秒都唔會「卡關」，由求助渠道直達救援指揮。當調查顯示求救電話未被適時轉交消防，問題就唔止係個案錯誤，更牽涉整體緊急通訊鏈條嘅標準、程序與問責。\n\n社會面對此類事故，常見兩種反應：一種係將之政治化，另一種係急於「找一個人」草草交代。兩者都唔幫得上忙。真正應該被追問嘅，係系統性因素：通話分流機制係點運作、當時資訊（位置、被困情況、火勢走向）係如何被標記同更新、以及人手處理與自動化流程之間有冇出現延誤或誤判。更重要嘅係，調查結論應唔止停留喺「發生咗」；而係要清楚交代「責任屬邊個環節」及「之後會如何改」。如果只做補救而唔做改革，下一次事故仍可能重演，令市民對公共安全機制失去信任。\n\n同時，連續出現嘅其他相關報道（例如火場救援疑雲、對事件嘅爭議乃至社會猜測）亦提醒我哋：消防與救援嘅公信力，唔可以靠口號維持，更唔可以用資訊真空去換取安定。政府與相關部門應主動公布調查框架與時間表，讓市民理解每一步數據係點取得、每個決策點係基於咩資料；而對於可能影響救援判斷嘅資訊（如被困位置、樓宇結構、火勢感知），亦要檢視通報格式是否足夠清晰、是否存在「唔同單位講唔同語言」嘅斷層。只有當透明度提升、流程可驗證，公眾先會願意相信制度而唔係靠傳言揣測。\n\n我嘅立場係：大埔火警事件必須以「防止再發」為核心，而唔係以「免於追責」為取向。當緊急電話轉介機制出現斷裂，就等同向最需要協助嘅人收回保障；而香港社會對生命安全嘅底線，絕唔容許用程序推搪去磨蝕。希望調查最終能夠落到可操作嘅改革——包括通訊流程、培訓與技術支援、以及清晰嘅問責架構——讓每一次999求助都真真正正抵達「火線第一步」。",
       "model": "openai",
       "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
-      "generated_at": "2026-04-16T02:03:21.421236+00:00"
+      "generated_at": "2026-04-16T07:28:33.554077+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Beijing top official warns of people ‘politicising’ Tai Po fire to ‘stir up chaos’ in Hong Kong",
-      "topic_summary": "China&#8217;s top official in charge of Hong Kong affairs has warned of some people who &#8220;politicised&#8221; the deadly Tai Po fire and tried to use the disaster to &#8220;stir up chaos&#8221; in Hong Kong.\n\n\n\nXia Baolong, director of the Hong Kong and Macao Affairs Office, delivered his remarks on Wednesday via a recorded video shown at a National Security Education Day ceremony.\n\n\n\nBeijing&#8217;s top official on Hong Kong affairs Xia Baolong delivers a pre-recorded televised speech on th",
-      "topic_url": "https://hongkongfp.com/2026/04/16/beijing-top-official-warns-of-people-politicising-tai-po-fire-to-stir-up-chaos-in-hong-kong/",
+      "topic_title": "Children of top talent visa holders face reduced eligibility for local tuition at Hong Kong universities under new rules",
+      "topic_summary": "Children of non-local talent visa holders may no longer be eligible for discounted local tuition fees at Hong Kong universities starting in 2027, according to new rules announced by the city’s university application body.\n\n\n\nStudents at Chinese University of Hong Kong. Photo: GovHK. \n\n\n\nThe Joint University Programmes Admissions System (JUPAS)&#8217;s announcement on Thursday formalises a government statement last July, which said authorities had introduced residency requirements to the definiti",
+      "topic_url": "https://hongkongfp.com/2026/04/16/children-of-top-talent-visa-holders-face-reduced-eligibility-for-local-tuition-at-hong-kong-universities-under-new-rules/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree. Prioritizing factual updates and public safety over politicization helps maintain social stability and trust. Authorities should promptly share investigation findings and safety measures, while avoiding inflammatory rhetoric that could inflame tensions."
+          "content": "Building on that point: residency-based fees strengthen local access fairness and resource planning. While transitional support could help affected families, the policy clarifies subsidies for locals, encouraging longer stays and investment in Hong Kong’s talent ecosystem. Transparent criteria and phased implementation will minimize disruption in 2027."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "You raise a crucial point about prioritizing facts and public safety. Swiftly releasing investigation findings and safety protocols, while avoiding divisive language, is indeed essential for Hong Kong's stability and public confidence."
+          "content": "I agree that residency-based fees promote fairness. However, the government should consider phased implementation and clear communication to ease the transition for families impacted by this change in 2027, ensuring Hong Kong remains attractive to top talent."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree that transparency in investigations is vital. However, we must distinguish between legitimate public scrutiny—which strengthens governance—and actual politicization. Hong Kong citizens deserve clear facts and improved fire safety measures. Constructive dialogue, not dismissing concerns as chaos-stirring, best serves both stability and accountability."
+          "content": "I agree phased implementation is prudent. However, the government's 2027 timeline already provides reasonable notice for planning. This policy ultimately protects local students' interests while maintaining Hong Kong's competitiveness—talent attraction depends on quality education access for local citizens, not subsidizing non-residents."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "Legitimate scrutiny and politicization differ significantly. Xia's warning targets those exploiting tragedy for political agendas, not genuine safety concerns. Both transparency and stability matter—preventing malicious politicization actually protects constructive dialogue and ensures accountability remains focused on real solutions, not political theater."
+          "content": "I agree. Prioritizing local students ensures equitable resource allocation, aligning with Hong Kong's long-term stability. Top talent chooses Hong Kong for its robust system and economic opportunities, not just tuition subsidies. This balanced approach safeguards local welfare while sustaining the city's global competitiveness."
+        },
+        {
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "Fully agree. This policy thoughtfully balances support for local students with maintaining Hong Kong's attractiveness to global talent. It ensures sustainable development and equitable access to education, aligning with the city's long-term interests."
         }
       ],
-      "generated_at": "2026-04-16T02:03:57.604776+00:00"
+      "generated_at": "2026-04-16T07:29:24.958582+00:00"
     },
     "zh": {
-      "topic_title": "Beijing top official warns of people ‘politicising’ Tai Po fire to ‘stir up chaos’ in Hong Kong",
-      "topic_summary": "China&#8217;s top official in charge of Hong Kong affairs has warned of some people who &#8220;politicised&#8221; the deadly Tai Po fire and tried to use the disaster to &#8220;stir up chaos&#8221; in Hong Kong.\n\n\n\nXia Baolong, director of the Hong Kong and Macao Affairs Office, delivered his remarks on Wednesday via a recorded video shown at a National Security Education Day ceremony.\n\n\n\nBeijing&#8217;s top official on Hong Kong affairs Xia Baolong delivers a pre-recorded televised speech on th",
-      "topic_url": "https://hongkongfp.com/2026/04/16/beijing-top-official-warns-of-people-politicising-tai-po-fire-to-stir-up-chaos-in-hong-kong/",
+      "topic_title": "Children of top talent visa holders face reduced eligibility for local tuition at Hong Kong universities under new rules",
+      "topic_summary": "Children of non-local talent visa holders may no longer be eligible for discounted local tuition fees at Hong Kong universities starting in 2027, according to new rules announced by the city’s university application body.\n\n\n\nStudents at Chinese University of Hong Kong. Photo: GovHK. \n\n\n\nThe Joint University Programmes Admissions System (JUPAS)&#8217;s announcement on Thursday formalises a government statement last July, which said authorities had introduced residency requirements to the definiti",
+      "topic_url": "https://hongkongfp.com/2026/04/16/children-of-top-talent-visa-holders-face-reduced-eligibility-for-local-tuition-at-hong-kong-universities-under-new-rules/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "同意避免事件政治化，重點係及時透明調查，促進災後團結同依法治理，唔好讓災難成為政治工具。"
+          "content": "新規加強居留認定，保護本地資源。高才簽證子女可能失學費優惠，需清晰過渡安排，確保留才策略同教育公平。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "同意，社會各界應集中關注救災同重建，而非將事件政治化。依法徹查，吸取教訓，確保香港長治久安至關重要。"
+          "content": "同意你講，要確保有清晰過渡安排，平衡留才同教育公平。同時，亦要考慮新措施對吸引人才嘅長遠影響。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全贊同。泰邦火災係悲劇，我哋應該以同情心支持受害者同家屬。依法調查根本原因、改善安全措施，先係負責任嘅做法。政治化只會分散焦點，損害社會團結同救援工作。"
+          "content": "你提得好。確實需要平衡，但政府政策主要目標係確保本地學生獲優先照顧，維護教育公平。新措施能鼓勵非本地人才家庭更快融入本港社區，長遠有利香港發展。過渡安排會照顧受影響家庭。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "同意。善後同改善安全先係重點。別有用心者藉悲劇炒作，企圖破壞穩定，絕不可取。維護國安同社會安定，避免悲劇被政治化，先係真正負責任嘅做法。"
+          "content": "同意。維護本地生權益同鼓勵融入都重要。不過要留意，削減學費優惠或影響香港搶人才嘅吸引力，過渡安排必須清晰，避免人才流失。"
+        },
+        {
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "明白關注人才吸引力，但新政策旨在平衡本地生權益同人才融入。香港整體優勢仍能吸引人才，政府嘅過渡安排會確保公平同穩定發展。"
         }
       ],
-      "generated_at": "2026-04-16T02:04:56.420866+00:00"
+      "generated_at": "2026-04-16T07:30:36.303064+00:00"
     }
   }
 }
