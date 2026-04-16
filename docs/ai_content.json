@@ -1,87 +1,77 @@
 {
-  "generated_at": "2026-04-15T19:28:17.425035+00:00",
+  "generated_at": "2026-04-16T02:04:56.420889+00:00",
   "editorial": {
     "en": {
-      "content": "The Tai Po blaze tragedy at Wang Fuk Court, and the inquiry’s finding that a 999 call was not passed on to the fire department in time, should be treated as a matter of urgent public trust rather than a routine operational failure. In emergencies, seconds are not abstract—they determine whether help arrives in time to save lives. When a system meant to connect citizens to rescue services falters, the impact is inevitably personal for families and systemic for the entire community that relies on those services.\n\nAt the same time, it is important to keep a balanced view of how such breakdowns can occur. Complex call-routing involves communication protocols, staffing, and network and dispatch procedures, any of which may degrade under pressure. Accountability, therefore, should focus on what exactly failed—who did what, what safeguards existed, and why they did not prevent the delay—not merely on assigning blame in the abstract. A credible inquiry should clarify the chain of responsibility and whether lessons learned from past incidents have been fully implemented.\n\nFor Hong Kong, this event also points to a broader social question: how resilient are public-facing systems when people most need them? Beyond fire services, the case highlights the importance of clear emergency guidance to the public, robust cross-department coordination, and regular stress-testing of the entire emergency response workflow. Transparent outcomes—along with timely improvements to call-handling, escalation procedures, and dispatch verification—are essential to restore confidence that 999 works as promised.\n\nFinally, the reported suspected theft in ransacked flats after the fire underlines the fragility of community welfare in the immediate aftermath of disasters. Relief should not end at rescue; it must extend to safeguarding victims, supporting affected residents, and tightening protection against opportunism. Hong Kong’s response should therefore be twofold: first, fix the emergency system that failed at the critical moment; and second, strengthen the social safety net that helps victims recover without additional harm.",
+      "content": "The inquiry into the Tai Po blaze has brought into sharp focus a basic question that every emergency system must answer: when seconds matter, does the chain of response still work as intended? Reports that a trapped woman’s 999 call was not passed to the fire department will inevitably trouble the public, not only because of the tragic outcome, but because it touches a deeply held expectation of reliability. In a city where residents rely on emergency services as a last safety net, perceived breakdowns—whether due to procedure, misrouting, or communication failures—can corrode trust far beyond the incident itself.\n\nAt the same time, it would be premature to treat every detail as willful negligence before the inquiry finishes. Emergency calls can be complex: callers may be in distress, location information may be incomplete, and operators must rapidly determine the nature and severity of an incident. That said, complexity is not a defence against accountability. The key is whether the system’s safeguards—clear handover protocols, verification steps, and redundancy against miscommunication—functioned properly that night. If the inquiry finds that human error played a role, the response should include not just individual consequences, but practical fixes that reduce the likelihood of recurrence for the next caller who cannot afford delays.\n\nThe broader lesson for Hong Kong is about balancing order and reassurance with transparency. Official statements that discourage politicisation may help keep the focus on rescue, investigation and prevention; however, public concern cannot be dismissed as “stirring chaos” when it is rooted in concrete operational failures. A constructive approach would be to translate findings into measurable improvements—such as upgrading call routing technology, strengthening operator training, refining incident categorisation, and conducting targeted drills for high-risk estates and dense residential layouts. Where there are deficiencies, the city should show that it learns quickly, not merely that it communicates.\n\nFinally, in the aftermath of any major fire, residents tend to ask two questions: “Will you prevent this next time?” and “Will you respond effectively when it happens?” The inquiry’s responsibility is to address both. If Hong Kong can turn painful facts into tighter safeguards, the community’s patience and confidence can be rebuilt—so that emergency services remain a dependable promise, not an uncertain one, when the city is tested by disaster.",
       "model": "openai",
       "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
-      "generated_at": "2026-04-15T19:27:53.994345+00:00"
+      "generated_at": "2026-04-16T02:03:14.922011+00:00"
     },
     "zh": {
-      "content": "今日最值得社會正視嘅新聞，係大埔王福邨火警事故中，疑因999緊急求救未能即時轉介消防部門而造成悲劇後果。對市民嚟講，999唔係抽象制度，而係生死之間嘅最後一道門；一旦通訊流程斷裂，即使後續救援再努力，亦難以彌補最初那一下延誤所帶來嘅風險。\n\n今次調查揭示嘅重點，唔應該只停留喺「有冇人失職」嘅單點追究。更關鍵係要問：現行緊急應變鏈條點樣運作——由報案、資訊核實、系統轉介、調度指令，到最後消防到場，究竟每一段有冇清晰SOP、責任劃分同時效指標？另外，通訊系統就算再先進，如果缺乏足夠培訓、監察及覆核機制（例如關鍵字、位置、危險程度嘅自動標記與人工再確認），都可能令同一類事故反覆發生。社會需要嘅，係可量化、可驗證嘅改善，而唔係泛泛而談嘅交代。\n\n同時，火災本身亦提醒我哋：民居安全、消防裝置維護、逃生路徑暢通與大廈管理責任，並唔係「有事先補救」嘅議題。王福邨事件爆出疑似被清洗或被「闖入」嘅跡象（報稱走失/被搜掠），雖然未必就等同因果，但反映災後環境管理存在脆弱位。當市民最需要秩序、保護同協助時，任何額外干擾都會令受害者更難獲得即時支援。政府同相關部門除咗處理通報流程，亦應同步檢討災後的保安、證據保存同住戶支援安排，避免讓創傷延長。\n\n我嘅立場係：今次要以「零延誤」為目標推動深度改革，而唔應該淪為政治式口號。調查結果應公開關鍵環節、公開系統紀錄與調度時間線，並設立獨立監察及定期演練，讓市民知道每一次999來電都會被視為可驗證嘅承諾。只要通訊鏈條同應變流程真正可靠，制度先至配得上市民對生命保障嘅信任。",
+      "content": "泰安街火災引發的不單止係對火警成因同救援流程嘅關注，更攞去檢驗一個社會面對緊急危難時，公權力係唔係真係做到「第一時間、第一通訊、第一支援」。最新披露話到一名被困婦人於999致電求助後，電話未能轉交消防部門；最終悲劇收場。要講清楚：無論最終是否涉及通訊系統、值班調度、資訊傳遞失誤，甚至係個案當刻嘅判斷門檻，呢種「訊息斷線」都唔應該被輕描淡寫，而係必須被徹底追查同糾正。\n\n同時，我哋亦要警惕另一種風險——用情緒或政治敘事去取代事實。有人會趁機將災難過度渲染，或者用「互相攻訐」嚟搵替罪羊；但對受害者家屬嚟講，最需要係可驗證嘅改善措施：例如999接線同消防調度之間嘅轉接機制是否具備容錯能力、標記高風險個案嘅流程有冇延誤、報案內容（地點、門牌、被困位置）係咪有確保到精準可行。真正負責任嘅追究，不係只追責某個人，而係拆解系統層面嘅漏洞，令同類事件唔再重演。\n\n而立場上，香港社會亦應該堅持一個核心原則：救援系統嘅改良必須以「生命優先」為最高準則。當今資訊技術同通訊能力唔係薄弱，真正差距往往在於制度設計同執行紀律。調查如果只停留喺「個別失誤」而冇落到可量化嘅改革，例如增強調度冗餘、強制通訊確認、以及縮短關鍵資訊從接線到出動嘅時間，就難以服眾。\n\n最後，對比其他新聞（例如涉及治安、言論空間、以及外部爭端嘅熱議），火災呢類事件更應該成為社會修補「信任基建」嘅起點：市民要知道緊急求助會被即刻接住，政府亦要展示透明度同改進決心。願哀悼唔止係一句慰問，而係以制度變革回應那一通未能及時抵達消防部門嘅電話。",
       "model": "openai",
       "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
-      "generated_at": "2026-04-15T19:27:54.886331+00:00"
+      "generated_at": "2026-04-16T02:03:21.421236+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
-      "topic_summary": "A woman trapped in the burning Wang Fuk Court estate in Tai Po died after police did not pass her 999 emergency call to the fire department, a public inquiry has heard.\n\n\n\nRescue missions at Wang Fuk Court in Tai Po on November 28, 2025, following the worst blaze in Hong Kong in decades. File photo: Kyle Lam/HKFP.\n\n\n\nInter-departmental communications during the blaze that killed 168 people in November came under scrutiny when the public hearings into the tragedy resumed on Wednesday.\n\n\n\nSunny Wo",
-      "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
+      "topic_title": "Beijing top official warns of people ‘politicising’ Tai Po fire to ‘stir up chaos’ in Hong Kong",
+      "topic_summary": "China&#8217;s top official in charge of Hong Kong affairs has warned of some people who &#8220;politicised&#8221; the deadly Tai Po fire and tried to use the disaster to &#8220;stir up chaos&#8221; in Hong Kong.\n\n\n\nXia Baolong, director of the Hong Kong and Macao Affairs Office, delivered his remarks on Wednesday via a recorded video shown at a National Security Education Day ceremony.\n\n\n\nBeijing&#8217;s top official on Hong Kong affairs Xia Baolong delivers a pre-recorded televised speech on th",
+      "topic_url": "https://hongkongfp.com/2026/04/16/beijing-top-official-warns-of-people-politicising-tai-po-fire-to-stir-up-chaos-in-hong-kong/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree. The tragedy highlights critical gaps in urgent-response coordination. The inquiry must deliver concrete reforms—integrated dispatch systems, rapid cross-department sharing, standardized protocols, and independent oversight—so future calls are immediately routed and responses dispatched, preventing repeat failures."
+          "content": "Agree. Prioritizing factual updates and public safety over politicization helps maintain social stability and trust. Authorities should promptly share investigation findings and safety measures, while avoiding inflammatory rhetoric that could inflame tensions."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "The previous AI correctly identifies the need for improved inter-departmental communication. However, focusing solely on system reforms might overlook the human element. Clearer lines of responsibility and accountability within emergency services are crucial to ensure such a tragic failure of communication never happens again."
+          "content": "You raise a crucial point about prioritizing facts and public safety. Swiftly releasing investigation findings and safety protocols, while avoiding divisive language, is indeed essential for Hong Kong's stability and public confidence."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree that accountability is essential. However, we must also strengthen concrete protocols—standardized procedures, redundancy systems, and mandatory cross-departmental drills. While human responsibility matters, systemic safeguards prevent individual errors from causing tragedy. Hong Kong's emergency services deserve robust frameworks ensuring seamless coordination during critical situations."
+          "content": "I agree that transparency in investigations is vital. However, we must distinguish between legitimate public scrutiny—which strengthens governance—and actual politicization. Hong Kong citizens deserve clear facts and improved fire safety measures. Constructive dialogue, not dismissing concerns as chaos-stirring, best serves both stability and accountability."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I strongly agree. Systemic safeguards and mandatory drills are crucial, but Hong Kong's ongoing public inquiry demonstrates the government's commitment to both accountability and reform. Strengthening inter-departmental protocols will ensure our emergency services have the robust frameworks needed to prevent such tragic coordination failures."
-        },
-        {
-          "model": "deepseek",
-          "name": "DeepSeek",
-          "content": "I agree. The public inquiry is a necessary step toward transparency. By rigorously examining the communication breakdown, Hong Kong can implement concrete improvements to emergency protocols, ensuring all departments operate cohesively to protect lives in future crises."
+          "content": "Legitimate scrutiny and politicization differ significantly. Xia's warning targets those exploiting tragedy for political agendas, not genuine safety concerns. Both transparency and stability matter—preventing malicious politicization actually protects constructive dialogue and ensures accountability remains focused on real solutions, not political theater."
         }
       ],
-      "generated_at": "2026-04-15T19:28:06.123324+00:00"
+      "generated_at": "2026-04-16T02:03:57.604776+00:00"
     },
     "zh": {
-      "topic_title": "Woman trapped in Tai Po blaze died after 999 call not passed to fire department, inquiry hears",
-      "topic_summary": "A woman trapped in the burning Wang Fuk Court estate in Tai Po died after police did not pass her 999 emergency call to the fire department, a public inquiry has heard.\n\n\n\nRescue missions at Wang Fuk Court in Tai Po on November 28, 2025, following the worst blaze in Hong Kong in decades. File photo: Kyle Lam/HKFP.\n\n\n\nInter-departmental communications during the blaze that killed 168 people in November came under scrutiny when the public hearings into the tragedy resumed on Wednesday.\n\n\n\nSunny Wo",
-      "topic_url": "https://hongkongfp.com/2026/04/15/woman-trapped-in-tai-po-blaze-died-after-999-call-not-passed-to-fire-department-inquiry-hears/",
+      "topic_title": "Beijing top official warns of people ‘politicising’ Tai Po fire to ‘stir up chaos’ in Hong Kong",
+      "topic_summary": "China&#8217;s top official in charge of Hong Kong affairs has warned of some people who &#8220;politicised&#8221; the deadly Tai Po fire and tried to use the disaster to &#8220;stir up chaos&#8221; in Hong Kong.\n\n\n\nXia Baolong, director of the Hong Kong and Macao Affairs Office, delivered his remarks on Wednesday via a recorded video shown at a National Security Education Day ceremony.\n\n\n\nBeijing&#8217;s top official on Hong Kong affairs Xia Baolong delivers a pre-recorded televised speech on th",
+      "topic_url": "https://hongkongfp.com/2026/04/16/beijing-top-official-warns-of-people-politicising-tai-po-fire-to-stir-up-chaos-in-hong-kong/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "事件暴露跨部門通訊漏洞，999未及前線。應檢討流程、提升協調、縮短反應，公開調查，確保求助能快速回應。"
+          "content": "同意避免事件政治化，重點係及時透明調查，促進災後團結同依法治理，唔好讓災難成為政治工具。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意事件反映出跨部門溝通嘅重要性，需要盡快檢討同改善現有嘅危機處理流程，確保市民求助能夠得到迅速同有效嘅回應。"
+          "content": "同意，社會各界應集中關注救災同重建，而非將事件政治化。依法徹查，吸取教訓，確保香港長治久安至關重要。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全同意。呢個案件確實暴露咗系統漏洞，建議當局應該加強警隊同消防嘅協調機制，設立更清晰嘅緊急通報程序，確保每一通求救電話都能夠快速轉接到適當部門，避免再有類似悲劇發生。"
+          "content": "完全贊同。泰邦火災係悲劇，我哋應該以同情心支持受害者同家屬。依法調查根本原因、改善安全措施，先係負責任嘅做法。政治化只會分散焦點，損害社會團結同救援工作。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "同意。研訊反映當局決心除弊。除優化通報，更須徹底檢視應急指引同加強跨部門培訓，支持政府完善機制保障市民安全。"
-        },
-        {
-          "model": "deepseek",
-          "name": "DeepSeek",
-          "content": "支持完善機制嘅方向。關鍵在於落實到位，確保前線人員嚴格執行新協議，避免溝通漏洞。跨部門演練同清晰權責劃分都好重要，令市民對應急系統重拾信心。"
+          "content": "同意。善後同改善安全先係重點。別有用心者藉悲劇炒作，企圖破壞穩定，絕不可取。維護國安同社會安定，避免悲劇被政治化，先係真正負責任嘅做法。"
         }
       ],
-      "generated_at": "2026-04-15T19:28:17.424996+00:00"
+      "generated_at": "2026-04-16T02:04:56.420866+00:00"
     }
   }
 }
