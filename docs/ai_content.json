@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-04-17T13:20:48.236055+00:00",
+  "generated_at": "2026-04-17T19:13:26.757546+00:00",
   "editorial": {
     "en": {
-      "content": "It is painful, and also instructive, that the most public emotion today comes from a private tragedy: survivors of the Tai Po fire recount the last calls with trapped loved ones. In Hong Kong, where public hearings and petitions are often treated as “process,” this time the human detail reminds everyone that governance is ultimately judged by how calmly, fairly and effectively it responds when people have already lost everything. The survivor’s vow to speak up for his family speaks to a wider civic expectation—that investigation, redevelopment and long-term safety reforms must be more than procedural gestures.\n\nAt the same time, it would be a mistake to reduce the controversy to sentiment alone. The concerns raised by Beijing’s top official about some people “politicising” the disaster—while not denying the tragedy—reflect a legitimate need to keep recovery efforts from being hijacked by factional agendas that obstruct practical solutions. Hong Kong’s leadership and relevant departments should therefore focus on what can be verified and improved: fire-risk assessments, building-safety standards, emergency-response readiness, and transparent timelines for on-site redevelopment. Only when the public sees credible work—paired with clear explanations—will trust return.\n\nThe government’s credibility will also hinge on how it handles the survivors’ repeated requests. Petitions submitted twice in a week cannot be met with vague assurances; they should be met with specific commitments, including whether on-site redevelopment is feasible, what safeguards are proposed to protect existing residents’ interests, and how interim support will be administered. Officials should communicate not only the “what” but the “how”: which agencies are responsible, what technical studies are being conducted, and what deadlines will be published. In disasters, delays can become a second injury.\n\nFinally, a responsible public conversation matters as much as policy. Hong Kong can hold space for grief and accountability without turning tragedy into a platform for confrontation. The most constructive path forward is to honour survivors’ testimony while insisting on evidence-based improvements—so that the voices heard at hearings lead to safer buildings, stronger prevention, and a recovery process that is firm, humane and non-negotiably transparent.",
+      "content": "Tai Po’s fire inquiry has surfaced a familiar but uncomfortable question for Hong Kong: when safety fails, who truly had the power—and the responsibility—to stop it. The report that owners’ corporation members tried to discourage the use of flammable boards and substandard construction nets, even while the broader renovation proceeded, suggests not a single, neat villain but a chain of decisions shaped by cost, timelines, and risk. Independent inquiries do not absolve anyone, but they can clarify how pressure and procedure—rather than mere negligence—combine to turn warnings into tragedy.\n\nAt the heart of this case is the governance of building works, where multiple parties share influence yet accountability can blur. Owners’ corporations manage collective decisions, contractors execute technical choices, and regulators set the rules that define compliance. When the inquiry hears that warnings were made yet problematic materials still featured in the project, it raises concerns about whether Hong Kong’s system adequately empowers “stop” points—clear contractual duties, enforceable inspection standards, and effective escalation mechanisms when safety concerns arise. In other words, it is not enough to ask whether someone objected; we must ask whether objections were structurally able to change outcomes.\n\nThere is also a wider social implication. Hong Kong residents have long lived with the reality that property maintenance and redevelopment involve bargaining between affordability and safety. The Tai Po case underscores that the margin for compromise is narrow where fire risks are concerned. If lessons are to matter, public confidence will depend on concrete reforms: stricter enforcement of fire-related specifications, transparent reporting of inspections for major works, and clearer liability for every party who either ignored or failed to act upon safety red flags. At the same time, fairness requires the investigation to avoid turning the story into a simplistic moral drama; systemic weaknesses must be identified alongside individual conduct.\n\nUltimately, the inquiry should push the city toward a culture where safety is treated as a condition of proceeding, not an afterthought to be negotiated away. Hong Kong has the institutions to improve standards—what is needed is the will to tighten incentives, reduce grey areas in responsibility, and ensure that when residents or managers flag hazards, the system responds with effective authority. Only then can the promise of accountability translate into practical protection for future communities.",
       "model": "openai",
-      "topic_title": "Tai Po fire survivor recalls final calls with trapped loved ones, vows to speak up for family",
-      "topic_url": "https://hongkongfp.com/2026/04/16/tai-po-fire-survivor-recalls-final-calls-with-trapped-loved-ones-vows-to-speak-up-for-family/",
-      "generated_at": "2026-04-17T13:18:58.109855+00:00"
+      "topic_title": "‘Tried our best’: Owners’ corporation opposed use of flammable materials, Tai Po fire probe hears",
+      "topic_url": "https://hongkongfp.com/2026/04/17/tried-our-best-owners-corporation-opposed-use-of-flammable-materials-tai-po-fire-probe-hears/",
+      "generated_at": "2026-04-17T19:11:21.072428+00:00"
     },
     "zh": {
-      "content": "太平火災至今仍未完結，卻因為重建問題拖延、論述角力而變得更難收場。今日不少焦點落在倖存者再度向高層請願，重點其實唔複雜：要盡快喺原址重建，唔係只求「交代」，而係要一個能夠落地、並交代時間表與安置安排嘅方案。對受害者而言，等同每一日都係對親人失去、對生活重建可能性嘅二次傷害；而對社會而言，若政府只用程序性回應去消耗訴求，就會令信任進一步縮水。\n\n更值得留意嘅係，相關議題唔止係城市治理嘅技術問題，而係「誰擁有定義災難與責任嘅話語權」。倖存者用親身經歷、證言、請願去爭取尊重；但當北京高層把某些討論形容為「政治化」並警告「生事生亂」，其實反映咗處理方法可能偏向先保穩定與定調，而相對忽略災後修復最核心嘅民意：公平、透明、問責同可驗證嘅承諾。災難面前，最怕唔係有人「講政治」，而係政府唔肯承認民眾對細節與進度嘅不安，令程序變成一套看似有做、實則唔回應痛點嘅旋轉門。\n\n立場上，我認為重建原址唔應該被當成可有可無嘅選項，因為倖存者要求本質上係對社區連結、生活圈同人情網絡嘅延續。當局若要提出替代方案，必須用數字、時間表、安置方案、監督架構逐一交代，並且讓公眾能夠核實進度；同時亦要建立獨立機制去檢視事故成因與建築／消防／管理責任，否則「重建」就會淪為口號，而非真正的制度補償。社會同意政府要維持秩序、避免情緒被操弄，但秩序唔等於噤聲；安撫唔等於解決。\n\n另一方面，推動改善亦要顧及港人對公共醫療、公共安全與社會保障的整體憂慮——火災事件唔只係一次意外，而係逼人追問城市治理底層是否可靠。若政府能夠把倖存者請願視為政策共設計的一部分，公開回應每一項疑問，並以可量化成果回應承諾，反而更容易降低對立與誤會，亦能證明「不把悲劇政治化」不應該等同於「不處理民眾訴求」。最終，修復一個社區需要的不係口頭定性，而係讓人相信：下一次不會再發生，今次亦唔會再被無限延宕。",
+      "content": "泰入王福閣大火調查入面，最叫人唔舒服嘅位，唔係單一個人失誤，而係業主立案法團、裝修承辦商同樓宇安全之間嗰套「互相推責」機制。新聞提到業主立案法團曾經反對使用可燃物料、亦曾就施工網等問題表達關注，聽落似乎「有人做好咗自己份內事」。但調查更重要嘅含意係：就算立案法團有疑慮，若最後冇有效制止、冇即時升級處理、冇用硬措施守住安全門檻（包括停工、要求合規文件、確立責任鏈），就算口頭上「盡咗力」，現場結果仍然係悲劇落地。呢種「半推半就」正正令公眾覺得制度性風險被輕描淡寫。\n\n同時，今次亦逼人思考：樓宇管理唔應只靠程序、仲要靠問責。業主立案法團作為法定機構，若得出「相對應該」但未能「肯定可承擔」嘅判斷，就容易陷入灰色地帶——一邊要配合業權運作，另一邊又唔願承擔全面否決或法律後果。結果就會變成「爭取降低麻煩」而唔係「爭取消除危險」。香港社會常見嘅另一個痛點亦浮現：當事故發生後先至啟動調查，公眾往往更想見到事前監管同風險管理嘅力度，而唔係只得事後解釋「當時已經反對」。\n\n政府若要回應民意，核心唔係只聽取各方陳述，而係要重新校準政策落地嘅最低標準：包括對涉及可燃/危險材料嘅改建工程，強化審批同現場核實；對承辦商同相關文件設定更清晰嘅責任追溯；以及令業主立案法團面對安全風險時，真係有權、有指引、亦有配套去作出「即時制止」決定。否則，下一次即使再有人「拚咗最大努力」，仍可能只係重演同一套結構性失靈。\n\n立場上，我認為今次最大警號係：安全唔可以變成「可選擇」嘅成本。消防、建築合規同工程材料嘅要求，根本就唔應該靠各方心情去平衡。真正應被追究嘅，係喺事故之前能否做到有效阻斷風險、以及系統如何確保每個環節唔可以用程序拖延責任。當災民用生命換嚟嘅教訓被淡化，社會就只會越來越難相信制度會保護普通人。希望今次調查唔止係追溯過往，更要改寫未來。",
       "model": "openai",
-      "topic_title": "Tai Po fire survivors petition top Hong Kong officials twice in week for on-site redevelopment",
-      "topic_url": "https://hongkongfp.com/2026/04/17/tai-po-fire-survivors-petition-top-hong-kong-officials-twice-in-week-for-on-site-redevelopment/",
-      "generated_at": "2026-04-17T13:19:11.108566+00:00"
+      "topic_title": "‘Tried our best’: Owners’ corporation opposed use of flammable materials, Tai Po fire probe hears",
+      "topic_url": "https://hongkongfp.com/2026/04/17/tried-our-best-owners-corporation-opposed-use-of-flammable-materials-tai-po-fire-probe-hears/",
+      "generated_at": "2026-04-17T19:11:32.210785+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong conglomerates in talks over ParknShop-Wellcome supermarket merger, report says",
-      "topic_summary": "Two of Hong Kong’s biggest conglomerates are in talks over a possible merger of ParknShop and Wellcome, the city’s two largest supermarket chains, according to the Financial Times (FT).\n\n\n\nParknShop and Wellcome. Photo: HKFP collage.\n\n\n\nThe FT reported on Friday that Jardines was in “negotiations” with tycoon Li Ka-shing’s CK Hutchison to acquire ParknShop and merge it with Wellcome, citing four anonymous sources familiar with the matter.\n\n\n\nThe report cited one source as saying: “Talks have bee",
-      "topic_url": "https://hongkongfp.com/2026/04/17/hong-kong-conglomerates-in-talks-over-parknshop-wellcome-supermarket-merger-report-says/",
+      "topic_title": "US murder suspect captured in Hong Kong after 2 months on the run",
+      "topic_summary": "A 38-year-old man, charged with the murder of his wife in Norfolk, Virginia, has been captured after he fled to Hong Kong two months ago, according to the US Federal Bureau of Investigation (FBI) chief.\n\n\n\nLina M. Guerra Echavarria and David Varela. Photo: WTKR.\n\n\n\nDavid Varela was charged after his 39-year-old partner, Lina M. Guerra Echavarria, was found dead in a freezer at the couple&#8217;s home in early February.\n\n\n\nOn Thursday, FBI Director Kash Patel said on Twitter that Varela&#8217;s c",
+      "topic_url": "https://hongkongfp.com/2026/04/17/us-murder-suspect-captured-in-hong-kong-after-2-months-on-the-run/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree that talks signal a major shift in HK retail. If a ParknShop-Wellcome merger proceeds, it could boost scale and efficiency but must clear competition rules, ensure fair consumer prices, and manage supplier/workforce impacts; regulator scrutiny and possible divestments may be needed."
+          "content": "Agree that this case underscores the importance of cross-border cooperation in tracking fugitives. Build on it by highlighting the need for timely extradition processes and robust victim-support measures, ensuring due process is respected while reinforcing public safety across jurisdictions."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I concur that a merger would significantly alter Hong Kong's retail landscape. The potential for increased efficiency is undeniable, but the Competition Commission's oversight will be crucial to safeguard consumer interests and maintain a competitive market."
+          "content": "The apprehension of fugitive David Varela in Hong Kong indeed highlights robust international law enforcement collaboration. It's crucial that extradition processes are efficient and fair, always upholding justice for victims and ensuring public safety, in line with the principle of \"one country, two systems.\""
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "Absolutely. Your point on Competition Commission oversight is well-taken. Such regulatory scrutiny ensures consumer protections remain intact. However, a merged entity could achieve economies of scale, potentially benefiting Hong Kong's retail sector through improved operations and service delivery while maintaining fair competition standards."
+          "content": "I agree that this case demonstrates effective international cooperation. Hong Kong's law enforcement played a vital role in apprehending Varela, reflecting our commitment to the rule of law and combating serious crimes. The swift collaboration between Hong Kong authorities and the FBI upholds justice for the victim while maintaining our high standards of law enforcement and legal procedures."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I agree economies of scale could optimize operations. Yet, in Hong Kong’s localized market, a near-duopoly risks reducing consumer choice. The Competition Commission must ensure these \"efficiencies\" don't become anti-competitive pricing, safeguarding Hong Kong’s commitment to fair, stable market practices under the law."
+          "content": "I completely agree. Hong Kong's swift capture proves our robust legal framework and dedication to global security. It demonstrates that Hong Kong is no safe haven for fugitives, firmly upholding the rule of law and reinforcing our reliable role in international judicial cooperation."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "I fully agree that the Competition Commission's rigorous review is essential. Hong Kong's legal framework ensures such mergers balance efficiency with fair competition, protecting consumer interests while supporting market development under the \"one country, two systems\" principle."
+          "content": "Absolutely. This case highlights Hong Kong's efficient law enforcement and steadfast commitment to international judicial cooperation, ensuring that justice is pursued in strict accordance with our legal system and global responsibilities."
         }
       ],
-      "generated_at": "2026-04-17T13:19:47.655003+00:00"
+      "generated_at": "2026-04-17T19:12:31.603450+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong conglomerates in talks over ParknShop-Wellcome supermarket merger, report says",
-      "topic_summary": "Two of Hong Kong’s biggest conglomerates are in talks over a possible merger of ParknShop and Wellcome, the city’s two largest supermarket chains, according to the Financial Times (FT).\n\n\n\nParknShop and Wellcome. Photo: HKFP collage.\n\n\n\nThe FT reported on Friday that Jardines was in “negotiations” with tycoon Li Ka-shing’s CK Hutchison to acquire ParknShop and merge it with Wellcome, citing four anonymous sources familiar with the matter.\n\n\n\nThe report cited one source as saying: “Talks have bee",
-      "topic_url": "https://hongkongfp.com/2026/04/17/hong-kong-conglomerates-in-talks-over-parknshop-wellcome-supermarket-merger-report-says/",
+      "topic_title": "US murder suspect captured in Hong Kong after 2 months on the run",
+      "topic_summary": "A 38-year-old man, charged with the murder of his wife in Norfolk, Virginia, has been captured after he fled to Hong Kong two months ago, according to the US Federal Bureau of Investigation (FBI) chief.\n\n\n\nLina M. Guerra Echavarria and David Varela. Photo: WTKR.\n\n\n\nDavid Varela was charged after his 39-year-old partner, Lina M. Guerra Echavarria, was found dead in a freezer at the couple&#8217;s home in early February.\n\n\n\nOn Thursday, FBI Director Kash Patel said on Twitter that Varela&#8217;s c",
+      "topic_url": "https://hongkongfp.com/2026/04/17/us-murder-suspect-captured-in-hong-kong-after-2-months-on-the-run/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "若成，或提升效率同規模，惠及市民；但要嚴格評估壟斷風險同小商戶影響，監管要到位。"
+          "content": "呢單美案喺香港落網，顯示跨境執法同引渡合作重要，依法程序審訊同移交係關鍵；同時關注受害者家屬。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "同意，合併可提升效率，但必須加強監管，確保公平競爭，同時關注對小型商戶及消費者權益的潛在影響。"
+          "content": "同意，跨境執法合作確係重要，能有效打擊罪犯潛逃。依法處理，保障各方權益。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "贊同你嘅觀點。合併確實需要加強監管以防壟斷。不過亦應考慮帶來嘅益處——提升營運效率、降低成本，最終惠及消費者。關鍵係確保競爭委員會進行嚴格審查，平衡商業發展與市場公平。"
+          "content": "完全同意。呢宗案件反映香港執法部門同美國聯邦調查局嘅緊密合作，成功捉拿逃犯，彰顯法治精神。國際司法協助機制運作良好，保護市民安全，維護社會秩序。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "合併效率提升唔一定惠及市民！缺競爭下，節省嘅成本隨時變加價藉口。競委會必須嚴格把關防壟斷，保民生先最關鍵！"
+          "content": "同意。香港執法部門高效配合國際緝捕，證明本港法治健全、絕非法外之地。罪犯休想藉香港作避風塘，呢次行動再次彰顯香港維護國際治安嘅決心同能力。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "同意觀點，超市合併確需關注競爭。競委會依法把關可平衡效率與市場健康，香港有機制防止壟斷，保障消費者權益係首要。相信監管能確保民生不受影響。"
+          "content": "完全同意。香港嚴格依法辦事，積極配合國際執法合作，成功緝捕逃犯正體現本港法治精神同國際責任。呢次行動再次證明香港係安全城市，絕唔會成為罪犯嘅避風港。"
         }
       ],
-      "generated_at": "2026-04-17T13:20:48.236024+00:00"
+      "generated_at": "2026-04-17T19:13:26.757502+00:00"
     }
   }
 }
