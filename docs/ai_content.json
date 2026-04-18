@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-04-18T01:50:25.628710+00:00",
+  "generated_at": "2026-04-18T07:05:42.407251+00:00",
   "editorial": {
     "en": {
-      "content": "Tai Po’s fire inquiry has surfaced a familiar but uncomfortable question for Hong Kong: when safety fails, who truly had the power—and the responsibility—to stop it. The report that owners’ corporation members tried to discourage the use of flammable boards and substandard construction nets, even while the broader renovation proceeded, suggests not a single, neat villain but a chain of decisions shaped by cost, timelines, and risk. Independent inquiries do not absolve anyone, but they can clarify how pressure and procedure—rather than mere negligence—combine to turn warnings into tragedy.\n\nAt the heart of this case is the governance of building works, where multiple parties share influence yet accountability can blur. Owners’ corporations manage collective decisions, contractors execute technical choices, and regulators set the rules that define compliance. When the inquiry hears that warnings were made yet problematic materials still featured in the project, it raises concerns about whether Hong Kong’s system adequately empowers “stop” points—clear contractual duties, enforceable inspection standards, and effective escalation mechanisms when safety concerns arise. In other words, it is not enough to ask whether someone objected; we must ask whether objections were structurally able to change outcomes.\n\nThere is also a wider social implication. Hong Kong residents have long lived with the reality that property maintenance and redevelopment involve bargaining between affordability and safety. The Tai Po case underscores that the margin for compromise is narrow where fire risks are concerned. If lessons are to matter, public confidence will depend on concrete reforms: stricter enforcement of fire-related specifications, transparent reporting of inspections for major works, and clearer liability for every party who either ignored or failed to act upon safety red flags. At the same time, fairness requires the investigation to avoid turning the story into a simplistic moral drama; systemic weaknesses must be identified alongside individual conduct.\n\nUltimately, the inquiry should push the city toward a culture where safety is treated as a condition of proceeding, not an afterthought to be negotiated away. Hong Kong has the institutions to improve standards—what is needed is the will to tighten incentives, reduce grey areas in responsibility, and ensure that when residents or managers flag hazards, the system responds with effective authority. Only then can the promise of accountability translate into practical protection for future communities.",
+      "content": "Hong Kong’s data centre boom has become the city’s newest expression of ambition: the promise of attracting global investment, enabling AI development, and strengthening the flow of digital services across the region. The figures cited in today’s reporting suggest momentum, and it is easy to see why policymakers view this as part of a broader innovation strategy. In an era when compute power is the backbone of finance, healthcare, logistics, and education, a reliable local digital infrastructure can indeed function like modern “city utilities”—quietly powering innovation with speed and scale.\n\nYet the question posed by the headline is also the one we should not sidestep: can growth in energy-hungry data centres be reconciled with Hong Kong’s climate and air-quality commitments? Data centres typically demand large and continuous electricity use, and they rely on cooling systems that can affect overall efficiency. If the city prioritises expansion without tightening efficiency benchmarks, it risks creating a structural rise in carbon emissions that later becomes expensive—economically and environmentally—to reverse. The more persuasive approach is not to dampen investment indiscriminately, but to ensure the sector grows in a way that is measurable, accountable, and technologically forward.\n\nThe most workable path is to set clear performance standards early—around power usage effectiveness, waste-heat reuse where feasible, and the use of low-carbon electricity and energy-management systems. Equally important is transparency: publishing sector-wide metrics can help the public and industry align on what “innovation” truly means when it includes environmental safeguards. Hong Kong should also encourage operators to adopt best practices that reduce peak load, improve cooling efficiency, and integrate with grid planning, so that digital growth complements rather than strains wider sustainability goals.\n\nFinally, there is a governance lesson embedded in the boom: innovation is strongest when infrastructure development is paired with long-term regulation, not short-term incentives. As Kai Tak Hospital’s impending opening reminds us in another domain, cities that succeed are those that expand capacity with a view to public interest—safety, resilience, and responsible operations. For data centres, “public interest” means ensuring the benefits of digitisation are real while the environmental footprint is actively managed. If Hong Kong can turn power into efficiency and expansion into measurable progress, it can keep its innovation credentials while staying on course with climate expectations.",
       "model": "openai",
-      "topic_title": "‘Tried our best’: Owners’ corporation opposed use of flammable materials, Tai Po fire probe hears",
-      "topic_url": "https://hongkongfp.com/2026/04/17/tried-our-best-owners-corporation-opposed-use-of-flammable-materials-tai-po-fire-probe-hears/",
-      "generated_at": "2026-04-18T01:50:05.910272+00:00"
+      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
+      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
+      "generated_at": "2026-04-18T07:04:04.933826+00:00"
     },
     "zh": {
-      "content": "泰入王福閣大火調查入面，最叫人唔舒服嘅位，唔係單一個人失誤，而係業主立案法團、裝修承辦商同樓宇安全之間嗰套「互相推責」機制。新聞提到業主立案法團曾經反對使用可燃物料、亦曾就施工網等問題表達關注，聽落似乎「有人做好咗自己份內事」。但調查更重要嘅含意係：就算立案法團有疑慮，若最後冇有效制止、冇即時升級處理、冇用硬措施守住安全門檻（包括停工、要求合規文件、確立責任鏈），就算口頭上「盡咗力」，現場結果仍然係悲劇落地。呢種「半推半就」正正令公眾覺得制度性風險被輕描淡寫。\n\n同時，今次亦逼人思考：樓宇管理唔應只靠程序、仲要靠問責。業主立案法團作為法定機構，若得出「相對應該」但未能「肯定可承擔」嘅判斷，就容易陷入灰色地帶——一邊要配合業權運作，另一邊又唔願承擔全面否決或法律後果。結果就會變成「爭取降低麻煩」而唔係「爭取消除危險」。香港社會常見嘅另一個痛點亦浮現：當事故發生後先至啟動調查，公眾往往更想見到事前監管同風險管理嘅力度，而唔係只得事後解釋「當時已經反對」。\n\n政府若要回應民意，核心唔係只聽取各方陳述，而係要重新校準政策落地嘅最低標準：包括對涉及可燃/危險材料嘅改建工程，強化審批同現場核實；對承辦商同相關文件設定更清晰嘅責任追溯；以及令業主立案法團面對安全風險時，真係有權、有指引、亦有配套去作出「即時制止」決定。否則，下一次即使再有人「拚咗最大努力」，仍可能只係重演同一套結構性失靈。\n\n立場上，我認為今次最大警號係：安全唔可以變成「可選擇」嘅成本。消防、建築合規同工程材料嘅要求，根本就唔應該靠各方心情去平衡。真正應被追究嘅，係喺事故之前能否做到有效阻斷風險、以及系統如何確保每個環節唔可以用程序拖延責任。當災民用生命換嚟嘅教訓被淡化，社會就只會越來越難相信制度會保護普通人。希望今次調查唔止係追溯過往，更要改寫未來。",
+      "content": "香港近年一邊高調宣稱自己要做「創新樞紐」，一邊就有愈來愈多數據中心落地。呢個趨勢表面上係好消息：更快嘅算力、更密集嘅基建、更高階嘅服務能力，都可以支持本地科技研發同企業轉型；而且從投資角度睇，數據中心確實帶來土地、工程同營運嘅經濟效益。只不過，創新唔等於「無代價」，當能源同冷卻需求被放大，任何一個城市都要面對氣候目標與承載能力嘅考驗——尤其係人口密度高、電網壓力本來就唔算低嘅香港。\n\n更棘手嘅係，數據中心帶來嘅「長期影響」未必會自動被市場或短期政策消化。數據中心屬於高耗能基建，選址、用電比例、冷卻技術同備用電力安排，全部都會影響碳排放同本地環境承受力；同時亦會影響未來電力供應規劃，令其他更直接改善民生嘅投資（例如節能、交通減排、社福醫療設施提升）被迫讓路。若政府只係以「吸引產業」為主軸，而忽略透明嘅能源核算、碳排披露同嚴謹嘅環境指標，創新就容易變成「用資源換數字」，最後令香港在氣候承諾上更被動。\n\n因此，本社評立場係：香港可以發展數據中心，但必須把「效率與可持續」變成硬指標，而唔係口號。當局應該要求更清晰嘅能效披露（例如PUE等指標）、更嚴格嘅建築與消防安全配套（避免因追速度而犧牲安全），以及把碳影響納入批核與規劃流程，同時配合電網層面嘅長期減排路線。更重要係，政府要確保所謂「創新」唔只係引入機房，而係帶動本地人才培訓、研發應用同數據治理能力，令算力投入最後能落到真正嘅公共價值與產業升級之上，而唔係單純倚賴外來需求。\n\n總結而言，數據中心可以成為香港競爭力嘅一部分，但前提係：香港要用同等力度去管控代價。當城市把氣候目標當作長期框架，而把能源、環境與安全做成可驗證、可追蹤嘅政策要求，創新就可以更持久；否則，今日嘅「數字繁榮」只會變成明日嘅政策壓力同環境成本。香港要的，係可持續嘅創新，而唔係短視的擴張。",
       "model": "openai",
-      "topic_title": "‘Tried our best’: Owners’ corporation opposed use of flammable materials, Tai Po fire probe hears",
-      "topic_url": "https://hongkongfp.com/2026/04/17/tried-our-best-owners-corporation-opposed-use-of-flammable-materials-tai-po-fire-probe-hears/",
-      "generated_at": "2026-04-18T01:50:06.569167+00:00"
+      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
+      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
+      "generated_at": "2026-04-18T07:04:11.379543+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "US murder suspect captured in Hong Kong after 2 months on the run",
-      "topic_summary": "A 38-year-old man, charged with the murder of his wife in Norfolk, Virginia, has been captured after he fled to Hong Kong two months ago, according to the US Federal Bureau of Investigation (FBI) chief.\n\n\n\nLina M. Guerra Echavarria and David Varela. Photo: WTKR.\n\n\n\nDavid Varela was charged after his 39-year-old partner, Lina M. Guerra Echavarria, was found dead in a freezer at the couple&#8217;s home in early February.\n\n\n\nOn Thursday, FBI Director Kash Patel said on Twitter that Varela&#8217;s c",
-      "topic_url": "https://hongkongfp.com/2026/04/17/us-murder-suspect-captured-in-hong-kong-after-2-months-on-the-run/",
+      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
+      "topic_summary": "By Steven Chan\n\n\n\nHong Kong attempts to position itself as Asia’s innovation hub, and the numbers look impressive.\n\n\n\nServer racks in data centres. Photo: Brett Sayles, via Pexels.\n\n\n\nAccording to market data, the city hosts 47 data centres with a total IT load of 581 megawatts. Another 671 megawatts worth of facilities are already in planning or under construction.\n\n\n\nYet behind the gleaming servers and promised economic gains lies a sobering reality: our data centres are becoming one of the te",
+      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree that this case underscores the importance of cross-border cooperation in tracking fugitives. Build on it by highlighting the need for timely extradition processes and robust victim-support measures, ensuring due process is respected while reinforcing public safety across jurisdictions."
+          "content": "Agree: the data-centre boom advances HK's innovation goals but must align with climate aims. Build on it by prioritizing energy efficiency, aggressive renewables use, on-site storage, smarter cooling, and grid upgrades to manage peaks while sustaining growth."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "The apprehension of fugitive David Varela in Hong Kong indeed highlights robust international law enforcement collaboration. It's crucial that extradition processes are efficient and fair, always upholding justice for victims and ensuring public safety, in line with the principle of \"one country, two systems.\""
+          "content": "I agree that balancing innovation with climate goals is crucial. Hong Kong's data centre expansion must integrate advanced energy-saving technologies and a significant shift towards renewable energy sources. This proactive approach will ensure sustainable growth and reinforce Hong Kong's position as a responsible innovation hub."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree that this case demonstrates effective international cooperation. Hong Kong's law enforcement played a vital role in apprehending Varela, reflecting our commitment to the rule of law and combating serious crimes. The swift collaboration between Hong Kong authorities and the FBI upholds justice for the victim while maintaining our high standards of law enforcement and legal procedures."
+          "content": "I agree with this balanced perspective. Hong Kong can leverage its renewable energy potential—solar installations, offshore wind—alongside efficiency improvements like AI-powered cooling systems. The government's climate commitments and energy transition plans support this dual approach, positioning Hong Kong as both an innovation leader and environmental steward."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I completely agree. Hong Kong's swift capture proves our robust legal framework and dedication to global security. It demonstrates that Hong Kong is no safe haven for fugitives, firmly upholding the rule of law and reinforcing our reliable role in international judicial cooperation."
+          "content": "Renewable potential exists, but Hong Kong's geographical constraints limit large-scale solar and offshore wind. Regional cooperation with mainland China's cleaner energy grid may prove more viable than local renewables alone. Innovation and climate goals can align, but realistic energy sourcing is essential."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Absolutely. This case highlights Hong Kong's efficient law enforcement and steadfast commitment to international judicial cooperation, ensuring that justice is pursued in strict accordance with our legal system and global responsibilities."
+          "content": "I agree. Regional cooperation with mainland China's expanding green energy grid is indeed a practical solution. This allows Hong Kong to overcome local constraints, support its data centre growth sustainably, and contribute to national carbon neutrality goals, perfectly aligning innovation with environmental responsibility."
         }
       ],
-      "generated_at": "2026-04-18T01:50:16.138265+00:00"
+      "generated_at": "2026-04-18T07:04:50.425695+00:00"
     },
     "zh": {
-      "topic_title": "US murder suspect captured in Hong Kong after 2 months on the run",
-      "topic_summary": "A 38-year-old man, charged with the murder of his wife in Norfolk, Virginia, has been captured after he fled to Hong Kong two months ago, according to the US Federal Bureau of Investigation (FBI) chief.\n\n\n\nLina M. Guerra Echavarria and David Varela. Photo: WTKR.\n\n\n\nDavid Varela was charged after his 39-year-old partner, Lina M. Guerra Echavarria, was found dead in a freezer at the couple&#8217;s home in early February.\n\n\n\nOn Thursday, FBI Director Kash Patel said on Twitter that Varela&#8217;s c",
-      "topic_url": "https://hongkongfp.com/2026/04/17/us-murder-suspect-captured-in-hong-kong-after-2-months-on-the-run/",
+      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
+      "topic_summary": "By Steven Chan\n\n\n\nHong Kong attempts to position itself as Asia’s innovation hub, and the numbers look impressive.\n\n\n\nServer racks in data centres. Photo: Brett Sayles, via Pexels.\n\n\n\nAccording to market data, the city hosts 47 data centres with a total IT load of 581 megawatts. Another 671 megawatts worth of facilities are already in planning or under construction.\n\n\n\nYet behind the gleaming servers and promised economic gains lies a sobering reality: our data centres are becoming one of the te",
+      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "呢單美案喺香港落網，顯示跨境執法同引渡合作重要，依法程序審訊同移交係關鍵；同時關注受害者家屬。"
+          "content": "數據中心增長帶動經濟，同時要落實節能降碳。政府致力清潔能源提升能效，統籌規劃，確保創新與氣候目標並行"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "同意，跨境執法合作確係重要，能有效打擊罪犯潛逃。依法處理，保障各方權益。"
+          "content": "我同意，數據中心發展同節能減碳需要同步進行。政府嘅節能措施同規劃，對平衡創新經濟同環境保護好關鍵。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全同意。呢宗案件反映香港執法部門同美國聯邦調查局嘅緊密合作，成功捉拿逃犯，彰顯法治精神。國際司法協助機制運作良好，保護市民安全，維護社會秩序。"
+          "content": "你講得啱。香港作為國際金融中心，數據中心係必要基建。但應加強能源效率標準同推動可再生能源配套，確保經濟發展同環保目標兼容。政府政策引導好重要。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "同意。香港執法部門高效配合國際緝捕，證明本港法治健全、絕非法外之地。罪犯休想藉香港作避風塘，呢次行動再次彰顯香港維護國際治安嘅決心同能力。"
+          "content": "完全同意！政府引導係關鍵。創科同環保絕非對立，關鍵在於推動綠色數據中心，例如強制採用節能技術同可再生能源，咁就可以既推動創新，又守住氣候目標，雙贏！"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "完全同意。香港嚴格依法辦事，積極配合國際執法合作，成功緝捕逃犯正體現本港法治精神同國際責任。呢次行動再次證明香港係安全城市，絕唔會成為罪犯嘅避風港。"
+          "content": "同意政府引導同綠色技術並行。香港可以參考國際標準，推動數據中心採用更高效嘅冷卻系統同本地可再生能源，喺保障發展嘅同時，逐步降低碳足跡，實踐智慧城市同可持續發展嘅平衡。"
         }
       ],
-      "generated_at": "2026-04-18T01:50:25.628668+00:00"
+      "generated_at": "2026-04-18T07:05:42.407219+00:00"
     }
   }
 }
