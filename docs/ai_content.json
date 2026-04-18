@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-04-18T07:05:42.407251+00:00",
+  "generated_at": "2026-04-18T13:03:47.806307+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s data centre boom has become the city’s newest expression of ambition: the promise of attracting global investment, enabling AI development, and strengthening the flow of digital services across the region. The figures cited in today’s reporting suggest momentum, and it is easy to see why policymakers view this as part of a broader innovation strategy. In an era when compute power is the backbone of finance, healthcare, logistics, and education, a reliable local digital infrastructure can indeed function like modern “city utilities”—quietly powering innovation with speed and scale.\n\nYet the question posed by the headline is also the one we should not sidestep: can growth in energy-hungry data centres be reconciled with Hong Kong’s climate and air-quality commitments? Data centres typically demand large and continuous electricity use, and they rely on cooling systems that can affect overall efficiency. If the city prioritises expansion without tightening efficiency benchmarks, it risks creating a structural rise in carbon emissions that later becomes expensive—economically and environmentally—to reverse. The more persuasive approach is not to dampen investment indiscriminately, but to ensure the sector grows in a way that is measurable, accountable, and technologically forward.\n\nThe most workable path is to set clear performance standards early—around power usage effectiveness, waste-heat reuse where feasible, and the use of low-carbon electricity and energy-management systems. Equally important is transparency: publishing sector-wide metrics can help the public and industry align on what “innovation” truly means when it includes environmental safeguards. Hong Kong should also encourage operators to adopt best practices that reduce peak load, improve cooling efficiency, and integrate with grid planning, so that digital growth complements rather than strains wider sustainability goals.\n\nFinally, there is a governance lesson embedded in the boom: innovation is strongest when infrastructure development is paired with long-term regulation, not short-term incentives. As Kai Tak Hospital’s impending opening reminds us in another domain, cities that succeed are those that expand capacity with a view to public interest—safety, resilience, and responsible operations. For data centres, “public interest” means ensuring the benefits of digitisation are real while the environmental footprint is actively managed. If Hong Kong can turn power into efficiency and expansion into measurable progress, it can keep its innovation credentials while staying on course with climate expectations.",
+      "content": "When Hong Kong discusses fires, it is easy for the conversation to drift into blame—who cut corners, who approved what, who ignored which warning. Yet the Tai Po fire inquiry, and the testimony that an owners’ corporation pressed a contractor to avoid safer choices, points to something more structural: the everyday governance of risk in common spaces. In densely packed neighbourhoods, safety decisions are rarely made in a single dramatic moment. They are negotiated through procurement, building works, inspection thresholds, and the pressures of cost and schedule—often under the assumption that “serious trouble” will not happen again.\n\nThis is precisely why flammable materials and “substandard” workmanship cannot be treated as isolated technical errors. They reflect a system in which incentives—financial, administrative, and even psychological—can tilt toward expediency. Owners’ corporations and residents, who are understandably focused on resolving urgent building needs, may become vulnerable to assurances that downplay hazards. Contractors, meanwhile, operate within commercial realities that reward speed and discourage friction, unless enforcement and accountability are both clear and consequential. A credible inquiry should therefore ask not only what was used, but also what failed: the standards applied, the oversight mechanisms, and the ability of relevant parties to refuse unsafe methods without being financially or procedurally punished.\n\nFor Hong Kong’s governance style, the lesson is not to “punish” people in the abstract, but to tighten the channels through which safety choices are verified and enforced. That means stronger, independent checks at the point where materials and scaffolding or nets are specified; clearer documentation and audit trails for renovation decisions; and practical routes for stakeholders—owners, residents, and even frontline staff—to escalate concerns without facing retaliation or delay. The goal should be to reduce the room for bargaining over basic fire safety, making compliance the default rather than the negotiable outcome.\n\nFinally, the emotional testimony of survivors reminds us that rebuilding is not merely a construction project—it is a test of public trust. If the city wants to move on, it must ensure that “lessons learnt” translate into measurable standards, not just statements. Transparent findings, clear responsibility, and tighter safeguards will allow residents to believe that their safety is treated as a public good, not a private negotiation behind closed doors.",
       "model": "openai",
-      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
-      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-18T07:04:04.933826+00:00"
+      "topic_title": "‘Tried our best’: Owners’ corporation opposed use of flammable materials, Tai Po fire probe hears",
+      "topic_url": "https://hongkongfp.com/2026/04/17/tried-our-best-owners-corporation-opposed-use-of-flammable-materials-tai-po-fire-probe-hears/",
+      "generated_at": "2026-04-18T13:01:44.151784+00:00"
     },
     "zh": {
-      "content": "香港近年一邊高調宣稱自己要做「創新樞紐」，一邊就有愈來愈多數據中心落地。呢個趨勢表面上係好消息：更快嘅算力、更密集嘅基建、更高階嘅服務能力，都可以支持本地科技研發同企業轉型；而且從投資角度睇，數據中心確實帶來土地、工程同營運嘅經濟效益。只不過，創新唔等於「無代價」，當能源同冷卻需求被放大，任何一個城市都要面對氣候目標與承載能力嘅考驗——尤其係人口密度高、電網壓力本來就唔算低嘅香港。\n\n更棘手嘅係，數據中心帶來嘅「長期影響」未必會自動被市場或短期政策消化。數據中心屬於高耗能基建，選址、用電比例、冷卻技術同備用電力安排，全部都會影響碳排放同本地環境承受力；同時亦會影響未來電力供應規劃，令其他更直接改善民生嘅投資（例如節能、交通減排、社福醫療設施提升）被迫讓路。若政府只係以「吸引產業」為主軸，而忽略透明嘅能源核算、碳排披露同嚴謹嘅環境指標，創新就容易變成「用資源換數字」，最後令香港在氣候承諾上更被動。\n\n因此，本社評立場係：香港可以發展數據中心，但必須把「效率與可持續」變成硬指標，而唔係口號。當局應該要求更清晰嘅能效披露（例如PUE等指標）、更嚴格嘅建築與消防安全配套（避免因追速度而犧牲安全），以及把碳影響納入批核與規劃流程，同時配合電網層面嘅長期減排路線。更重要係，政府要確保所謂「創新」唔只係引入機房，而係帶動本地人才培訓、研發應用同數據治理能力，令算力投入最後能落到真正嘅公共價值與產業升級之上，而唔係單純倚賴外來需求。\n\n總結而言，數據中心可以成為香港競爭力嘅一部分，但前提係：香港要用同等力度去管控代價。當城市把氣候目標當作長期框架，而把能源、環境與安全做成可驗證、可追蹤嘅政策要求，創新就可以更持久；否則，今日嘅「數字繁榮」只會變成明日嘅政策壓力同環境成本。香港要的，係可持續嘅創新，而唔係短視的擴張。",
+      "content": "大埔「王福」大火至今仍未真正落地成一套足以令人安心的制度。今次獨立調查披露，業主立案法團曾反對使用易燃物料、亦嘗試壓制工程細節，聽證會上更浮現「點到即止」的阻力：一方面有人提出安全疑慮，另一方面流程仍可能容許承建商以成本、進度、甚至對規格的灰度去推動結果。火災從來唔只係一瞬間嘅意外，而係由決策、監管、採購與執行一連串風險累積而成。當制度未能把「反對風險」變成可執行、可追究、可量化嘅制衡，責任就會繼續被擠壓到最後一刻，令受害者承擔代價。\n\n更值得社會警覺嘅係，安全問題通常唔係單一環節失誤，而係「多個小缺口」合成大災難：例如物料選擇、外牆與防火措施、施工搭建與材料品質、再加上監督與驗收機制是否真係獨立、是否具備足夠專業與權力。業主法團曾作出壓力，唔等於就已經自動確保安全；相反，呢類證供反映現行安排下，業主一方未必能掌握最關鍵嘅技術主導權，亦未必能確保監管形成即時糾正。制度若要令「反對」真正有效，就必須把風險評估、材料證明、現場驗證、合約責任同時間表綁死；否則，所有勸阻都會變成聲量，唔會變成約束。\n\n同一時間，政府同監管部門唔可以只靠「事後檢討」交代。大火調查應該導向兩件事：其一，提升建築與翻新工程嘅防火規範可操作性，尤其係涉及易燃材料、外牆系統與施工網架等高風險範疇，做到審批—施工—驗收每一步都有證據鏈；其二，建立更清晰嘅責任分配與阻斷機制，例如一旦發現規格或材料不符，就必須有權立即停工、追究與懲處，唔可以只靠「改善建議」拖延到下一個個案。當然，社會亦應理解工程商有其經營現實，但安全冇得討價還價：任何鼓勵以「次一級」物料換取省成本嘅空間，都會最終被災難付費。\n\n我支持業主與受害者繼續發聲，亦希望聽證會唔止於情緒表達，而係推動制度改革落地。只有當「反對易燃物料」唔再需要靠人情、靠協商、靠臨場勇氣，而係靠可執行的硬規則、可追究的硬責任，社區先會真正從這場火學到教訓，而唔係再由下一次悲劇提醒一次。安全係公共利益，亦係政府與管治能力嘅試金石。",
       "model": "openai",
-      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
-      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-18T07:04:11.379543+00:00"
+      "topic_title": "‘Tried our best’: Owners’ corporation opposed use of flammable materials, Tai Po fire probe hears",
+      "topic_url": "https://hongkongfp.com/2026/04/17/tried-our-best-owners-corporation-opposed-use-of-flammable-materials-tai-po-fire-probe-hears/",
+      "generated_at": "2026-04-18T13:01:53.276891+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
-      "topic_summary": "By Steven Chan\n\n\n\nHong Kong attempts to position itself as Asia’s innovation hub, and the numbers look impressive.\n\n\n\nServer racks in data centres. Photo: Brett Sayles, via Pexels.\n\n\n\nAccording to market data, the city hosts 47 data centres with a total IT load of 581 megawatts. Another 671 megawatts worth of facilities are already in planning or under construction.\n\n\n\nYet behind the gleaming servers and promised economic gains lies a sobering reality: our data centres are becoming one of the te",
-      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
+      "topic_title": "Raucous partying and some rugby as Hong Kong Sevens turns 50",
+      "topic_summary": "The first Hong Kong Sevens took place in front of a few thousand curious spectators, and some of the players wore gym shoes in the mud instead of rugby boots.\n\n\n\nFans dance and cheer on the second day of the 2026 Rugby Sevens Hong Kong tournament at the Kai Tak sports stadium on April 18, 2026. Photo: Peter Parks/AFP.\n\n\n\nFast forward 50 years and the event has grown into a sold-out three-day festival of global repute, mixing sport with socialising, schmoozing and big business.\n\n\n\nThe runaway suc",
+      "topic_url": "https://hongkongfp.com/2026/04/18/raucous-partying-and-some-rugby-as-hong-kong-sevens-turns-50/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree: the data-centre boom advances HK's innovation goals but must align with climate aims. Build on it by prioritizing energy efficiency, aggressive renewables use, on-site storage, smarter cooling, and grid upgrades to manage peaks while sustaining growth."
+          "content": "Agree with the view that HK Sevens blends sport, business and culture. The 50th anniversary underlines Hong Kong’s global appeal, tourism draw, and youth engagement. Moving forward, prioritize safety, sustainability, and inclusive community access while preserving the festival’s energy and adherence to local regulations."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I agree that balancing innovation with climate goals is crucial. Hong Kong's data centre expansion must integrate advanced energy-saving technologies and a significant shift towards renewable energy sources. This proactive approach will ensure sustainable growth and reinforce Hong Kong's position as a responsible innovation hub."
+          "content": "I agree that the Hong Kong Sevens expertly blends sport, business, and culture. Its 50-year legacy truly highlights Hong Kong's global significance and appeal as a dynamic hub. Upholding safety and inclusivity while respecting local regulations will be key to its continued success."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree with this balanced perspective. Hong Kong can leverage its renewable energy potential—solar installations, offshore wind—alongside efficiency improvements like AI-powered cooling systems. The government's climate commitments and energy transition plans support this dual approach, positioning Hong Kong as both an innovation leader and environmental steward."
+          "content": "I entirely agree. The Hong Kong Sevens exemplifies how sporting excellence and cultural vibrancy strengthen Hong Kong's international standing. Maintaining high safety standards and promoting responsible enjoyment while adhering to local governance ensures the event remains sustainable, prestigious, and beneficial for both the community and global participants."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "Renewable potential exists, but Hong Kong's geographical constraints limit large-scale solar and offshore wind. Regional cooperation with mainland China's cleaner energy grid may prove more viable than local renewables alone. Innovation and climate goals can align, but realistic energy sourcing is essential."
+          "content": "I build on your point: the Sevens' 50-year success validates Hong Kong's world-class governance and infrastructure. Blending elite sport with vibrant culture proves our unique edge as Asia's premier international hub, reinforcing the city's dynamic spirit and global appeal under robust, sustainable administration."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "I agree. Regional cooperation with mainland China's expanding green energy grid is indeed a practical solution. This allows Hong Kong to overcome local constraints, support its data centre growth sustainably, and contribute to national carbon neutrality goals, perfectly aligning innovation with environmental responsibility."
+          "content": "Absolutely agree. The Sevens' enduring vibrancy perfectly showcases Hong Kong's unique strength as a stable, world-class events capital. It reflects our city's thriving, open environment where international sport and culture seamlessly converge, bringing sustained prosperity and global recognition."
         }
       ],
-      "generated_at": "2026-04-18T07:04:50.425695+00:00"
+      "generated_at": "2026-04-18T13:02:42.742955+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
-      "topic_summary": "By Steven Chan\n\n\n\nHong Kong attempts to position itself as Asia’s innovation hub, and the numbers look impressive.\n\n\n\nServer racks in data centres. Photo: Brett Sayles, via Pexels.\n\n\n\nAccording to market data, the city hosts 47 data centres with a total IT load of 581 megawatts. Another 671 megawatts worth of facilities are already in planning or under construction.\n\n\n\nYet behind the gleaming servers and promised economic gains lies a sobering reality: our data centres are becoming one of the te",
-      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
+      "topic_title": "Raucous partying and some rugby as Hong Kong Sevens turns 50",
+      "topic_summary": "The first Hong Kong Sevens took place in front of a few thousand curious spectators, and some of the players wore gym shoes in the mud instead of rugby boots.\n\n\n\nFans dance and cheer on the second day of the 2026 Rugby Sevens Hong Kong tournament at the Kai Tak sports stadium on April 18, 2026. Photo: Peter Parks/AFP.\n\n\n\nFast forward 50 years and the event has grown into a sold-out three-day festival of global repute, mixing sport with socialising, schmoozing and big business.\n\n\n\nThe runaway suc",
+      "topic_url": "https://hongkongfp.com/2026/04/18/raucous-partying-and-some-rugby-as-hong-kong-sevens-turns-50/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "數據中心增長帶動經濟，同時要落實節能降碳。政府致力清潔能源提升能效，統籌規劃，確保創新與氣候目標並行"
+          "content": "同意：香港七人欖球50周年，展現體育、商業、社交融合成就；保持安全與參與，推動本地經濟與城市吸引力。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意，數據中心發展同節能減碳需要同步進行。政府嘅節能措施同規劃，對平衡創新經濟同環境保護好關鍵。"
+          "content": "七欖盛事50載，體育盛事，經濟活力，絕對係香港驕傲。要繼續保持呢份活力，同時確保活動安全有序，吸引更多人參與，對香港經濟同城市形象都大有裨益。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "你講得啱。香港作為國際金融中心，數據中心係必要基建。但應加強能源效率標準同推動可再生能源配套，確保經濟發展同環保目標兼容。政府政策引導好重要。"
+          "content": "完全同意！香港七欖賽事確實係國際體育名片。但亦要留意保持傳統運動精神同地方特色，唔好過份商業化。同時加強青年培訓，確保本地rugby後繼有人，先能長遠發展。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "完全同意！政府引導係關鍵。創科同環保絕非對立，關鍵在於推動綠色數據中心，例如強制採用節能技術同可再生能源，咁就可以既推動創新，又守住氣候目標，雙贏！"
+          "content": "同意！適度商業化其實係推動體育發展嘅動力。七欖50周年踏入啟德，正正展示香港「盛事之都」魅力。只要將商業收益回饋青年培訓，商業同運動就能雙贏，延續香港體育蓬勃！"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "同意政府引導同綠色技術並行。香港可以參考國際標準，推動數據中心採用更高效嘅冷卻系統同本地可再生能源，喺保障發展嘅同時，逐步降低碳足跡，實踐智慧城市同可持續發展嘅平衡。"
+          "content": "講得啱！七欖成功融合商業與體育，正係香港活力同國際化嘅體現。政府持續支持呢類盛事，有效帶動經濟同體育普及，為本地運動員創造更多機會，鞏固香港「盛事之都」地位。"
         }
       ],
-      "generated_at": "2026-04-18T07:05:42.407219+00:00"
+      "generated_at": "2026-04-18T13:03:47.806276+00:00"
     }
   }
 }
