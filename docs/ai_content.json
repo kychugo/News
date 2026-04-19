@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-19T02:05:23.353785+00:00",
+  "generated_at": "2026-04-19T07:16:17.611733+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s data-centre boom is often celebrated as a natural by-product of its push to become an innovation and technology hub, and the figures do suggest momentum. More servers, more cloud services, and more “digital infrastructure” can translate into real economic activity and new business opportunities—from fintech and logistics to research collaboration. In that sense, the question is not whether Hong Kong can build for the future, but how it does so in a way that remains compatible with the city’s wider responsibilities.\n\nYet the climate implications cannot be treated as an afterthought. Data centres are energy-intensive, and their expansion inevitably raises demand for electricity and cooling, with knock-on effects for emissions. If growth is pursued simply by chasing occupancy and capacity, the city risks locking in inefficient systems that will be difficult and costly to retrofit later. The more important challenge, therefore, is governance and standards: encouraging operators to adopt high-efficiency designs, credible power-performance metrics, and transparent reporting, while aligning new supply with decarbonisation targets.\n\nThe editorial balance here is clear: Hong Kong can welcome investment and technological capability without turning environmental costs into “externalities.” Practical solutions exist, such as incentivising waste-heat reuse, strengthening requirements for water and cooling efficiency, and ensuring that grid planning keeps pace with clean-energy development. Just as importantly, policymakers should facilitate an informed public conversation—grounded in data rather than slogans—about trade-offs, timelines, and how benefits (jobs, resilience, competitiveness) will be measured alongside impacts (energy use, emissions, and resource strain).\n\nUltimately, an innovation hub is not defined only by what it can host, but by the discipline with which it chooses what to host—and the safeguards it builds around growth. If Hong Kong pairs its data-centre expansion with measurable efficiency improvements and a credible transition path, it can power innovation while protecting the environmental foundation on which long-term prosperity depends.",
       "model": "openai",
       "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
       "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-19T02:03:02.509948+00:00"
+      "generated_at": "2026-04-19T07:15:53.691857+00:00"
     },
     "zh": {
       "content": "太平港界近日最揪心嘅，唔係抽象嘅口號，而係一場火災之後，災民究竟應該點樣被安置、被聆聽、同被追究責任。由大埔王福樓火災倖存者「一週內向高層官員兩度請願」，再三強調要「原址重建」，其實講嘅唔單止係住屋安排，而係一種基本尊嚴：人失去嘅唔止係磚頭瓦塊，仲有生活網絡、鄰里記憶同對未來嘅安全感。當佢哋選擇以請願推到第一線，反映政府若果只用程序或承諾拖住時間，往往就會令信任更加流失。\n\n原址重建有其合理性，因為「回到原本位置」可以減少遷置對家庭日常嘅破壞，亦有利重整社區與社福資源；更重要係，倖存者想要嘅唔係永遠等通知，而係清晰可驗證嘅時間表、參與機制同賠償安排。相對之下，若政府同相關部門偏向只講「會跟進」、「會檢視」，但未能就建設方案、風險評估、消防與建築規管落到可量度嘅承諾，社會就會自然懷疑：究竟係重建更快，定係責任更快被淡化？呢種懷疑唔係情緒化，而係源自一連串災害後仍然存在嘅制度縫隙。\n\n不過，要提出立場亦要承認難處：原址重建涉及土地、法定程序、設計安全與工程成本，亦牽涉其他持份者訴求。問題唔係能否原址，而係過程是否透明、是否把災民視為決策夥伴而唔係「被處理對象」。政府應公開重建路線圖（包括審批流程、消防設計要點、監督架構、獨立驗證安排），同確保倖存者代表有實質參與權；同時要有清楚嘅風險管控責任制，令每一步都可追溯。當制度做到呢一層，倖存者嘅「要返原址」就唔再係單一訴求，而係社會共同承擔重建。\n\n最終，呢宗事件唔只係一個地區嘅災後處理，更係香港公共治理嘅試金石。倖存者連續請願，正正係提醒政府：回應唔可以停留喺同理心語句，而要落喺決策透明、時間可預期、監管可執行。若只求「平息」，而忽略「修復」，只會令未來任何危機都更難獲得社會合作。今次要贏嘅唔係口頭承諾，而係把重建做成一個可靠嘅公共承諾，重新建立市民對制度嘅信心。",
       "model": "openai",
       "topic_title": "Tai Po fire survivors petition top Hong Kong officials twice in week for on-site redevelopment",
       "topic_url": "https://hongkongfp.com/2026/04/17/tai-po-fire-survivors-petition-top-hong-kong-officials-twice-in-week-for-on-site-redevelopment/",
-      "generated_at": "2026-04-19T02:03:09.482526+00:00"
+      "generated_at": "2026-04-19T07:15:54.848654+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "Agreed. International law and state sovereignty are foundational. Through UN frameworks, sovereign governments must enforce measures to safeguard healthcare facilities, upholding humanitarian principles and deterring future strikes."
         }
       ],
-      "generated_at": "2026-04-19T02:03:52.527307+00:00"
+      "generated_at": "2026-04-19T07:16:05.865172+00:00"
     },
     "zh": {
       "topic_title": "‘Growing trend worldwide’: MSF worker warns of rising attacks on healthcare facilities after S Sudan hospital strike",
@@ -81,7 +81,7 @@
           "content": "支持加強問責嘅方向。國際社會應推動建立有效調查機制，確保違反國際人道法行為得到追究，同時保障醫療人員安全。"
         }
       ],
-      "generated_at": "2026-04-19T02:05:23.353753+00:00"
+      "generated_at": "2026-04-19T07:16:17.611704+00:00"
     }
   }
 }
