@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-04-19T07:16:17.611733+00:00",
+  "generated_at": "2026-04-19T13:03:20.237075+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s data-centre boom is often celebrated as a natural by-product of its push to become an innovation and technology hub, and the figures do suggest momentum. More servers, more cloud services, and more “digital infrastructure” can translate into real economic activity and new business opportunities—from fintech and logistics to research collaboration. In that sense, the question is not whether Hong Kong can build for the future, but how it does so in a way that remains compatible with the city’s wider responsibilities.\n\nYet the climate implications cannot be treated as an afterthought. Data centres are energy-intensive, and their expansion inevitably raises demand for electricity and cooling, with knock-on effects for emissions. If growth is pursued simply by chasing occupancy and capacity, the city risks locking in inefficient systems that will be difficult and costly to retrofit later. The more important challenge, therefore, is governance and standards: encouraging operators to adopt high-efficiency designs, credible power-performance metrics, and transparent reporting, while aligning new supply with decarbonisation targets.\n\nThe editorial balance here is clear: Hong Kong can welcome investment and technological capability without turning environmental costs into “externalities.” Practical solutions exist, such as incentivising waste-heat reuse, strengthening requirements for water and cooling efficiency, and ensuring that grid planning keeps pace with clean-energy development. Just as importantly, policymakers should facilitate an informed public conversation—grounded in data rather than slogans—about trade-offs, timelines, and how benefits (jobs, resilience, competitiveness) will be measured alongside impacts (energy use, emissions, and resource strain).\n\nUltimately, an innovation hub is not defined only by what it can host, but by the discipline with which it chooses what to host—and the safeguards it builds around growth. If Hong Kong pairs its data-centre expansion with measurable efficiency improvements and a credible transition path, it can power innovation while protecting the environmental foundation on which long-term prosperity depends.",
+      "content": "Hong Kong’s decision to strike a former pro-democracy lawmaker from the medical register again spotlights the tension between rights, professional standards, and the city’s national security framework. The “Hong Kong 47” case is now not only a legal milestone but also a governance mechanism: it signals that convictions tied to subversion can carry long-tail consequences in regulated professions. For the public, this raises a basic question—where should society draw the line between political dissent and fitness to practise a role that involves public trust, safety, and confidential access to patients?\n\nAt the same time, there is a legitimate rationale for tightening professional oversight. Medical practice is a licensed privilege, not a political platform; hospitals, clinics, and patients bear the risk when clinicians are subject to restrictions or disqualifications. From the perspective of Hong Kong China’s official stance, the city must ensure that those entrusted with healthcare comply with the legal order and safeguard social stability, especially in a system that treats national security offences as exceptionally serious. Viewed through that lens, the disqualification is less about silencing views and more about enforcing statutory requirements for professional conduct after criminal conviction.\n\nYet fairness must still matter in how such measures are understood and applied. Even when the legal basis is clear, public confidence depends on consistency, transparency, and respect for due process—elements that can be difficult to communicate in politically charged cases. The authorities would do well to emphasise that professional consequences follow specific legal findings rather than ideological positions, and that the regulatory process is grounded in objective criteria. This is not a challenge to the government’s core approach; it is a call to maintain public legitimacy by demonstrating that rules are predictable and uniformly enforced.\n\nUltimately, the deeper social lesson is about how Hong Kong balances identity, governance, and institutional credibility. The city’s ability to remain an international hub in medicine—attracting talent, retaining trust, and protecting patients—depends on a regulatory framework that is both firm and comprehensible. As Hong Kong continues to align its legal and administrative systems with national security requirements, it should also ensure that the line between political controversy and professional responsibility is drawn with clarity, so that disciplinary outcomes reinforce confidence rather than deepen polarisation.",
+      "model": "openai",
+      "topic_title": "Former pro-democracy lawmaker struck off Hong Kong medical register over national security conviction",
+      "topic_url": "https://hongkongfp.com/2026/04/17/former-pro-democracy-lawmaker-struck-off-hong-kong-medical-register-over-national-security-conviction/",
+      "generated_at": "2026-04-19T13:01:11.300561+00:00"
+    },
+    "zh": {
+      "content": "香港今日嘅數據中心「供需兩旺」確實令人眼前一亮：伺服器機櫃一排排、投資一波波，口號係要鞏固創新樞紐地位。但喺背後，真正影響長遠競爭力嘅，唔係得「有冇落地」咁簡單，而係「用咩方式落地」。數據中心本質上就係能源同散熱密集型產業，當需求持續上升，若仍以短期商業效率取代長期碳管理，香港就可能面對「推動創新」同「履行氣候目標」之間嘅結構性拉扯——呢個拉扯一旦發生，就唔會只係成本上升咁簡單，而係會變成政策、聲譽同產業選址嘅風險。\n\n所以社會應該更早、更硬淨地追問：香港究竟要用咩標準去衡量呢波數據中心潮？例如，電力來源同碳強度係點、PUE等能效指標是否具透明度、冷卻系統有冇以可持續設計減少浪費、以及同時做到需求管理（例如分流、虛擬化、邊緣運算）去降低不必要嘅擴張。創新唔等如「越建越快」，真正高級嘅做法係把「運算需求」同「能源承載」同步規劃；否則你會見到大量資本落到硬件，但整體供應鏈、人才培訓同服務創新反而未必跟得上，最後形成「數量有、質量不足」嘅落差。\n\n同時，香港亦要正視另一個現實：數據中心係全港基建配套嘅一環。當電力、土地、網絡承載能力同容許排放被迫承受更高負荷，就會對其他產業帶來擠壓效應——例如電價、用電配額、甚至社區承受嘅環境影響。呢種競合關係要求政府同監管機構以更清晰嘅規劃框架介入，包括在批核、擴建、以及緊急情況下嘅韌性要求之上，建立可量化、可審視、可追責嘅機制。只講招商不講代價，短期吸引力會上升，但長期可持續性會打折。\n\n我認為，香港要成為真正具吸引力嘅創新樞紐，核心唔係「最大」或「最快」，而係「最好嘅平衡」。政府可以同業界攜手制定高標準能效與碳管理路線圖，鼓勵採用更先進嘅冷卻技術、推動更透明嘅環境披露，並同時把研發重心放喺雲端服務、AI運算效率、以及在本地建立更完整嘅數據服務生態。若香港能做到「用創新解決創新帶來嘅代價」，數據中心潮就會由風險變成資產；反之，若只以投資數字作招牌，最終恐怕係兩頭唔討好。",
       "model": "openai",
       "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
       "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-19T07:15:53.691857+00:00"
-    },
-    "zh": {
-      "content": "太平港界近日最揪心嘅，唔係抽象嘅口號，而係一場火災之後，災民究竟應該點樣被安置、被聆聽、同被追究責任。由大埔王福樓火災倖存者「一週內向高層官員兩度請願」，再三強調要「原址重建」，其實講嘅唔單止係住屋安排，而係一種基本尊嚴：人失去嘅唔止係磚頭瓦塊，仲有生活網絡、鄰里記憶同對未來嘅安全感。當佢哋選擇以請願推到第一線，反映政府若果只用程序或承諾拖住時間，往往就會令信任更加流失。\n\n原址重建有其合理性，因為「回到原本位置」可以減少遷置對家庭日常嘅破壞，亦有利重整社區與社福資源；更重要係，倖存者想要嘅唔係永遠等通知，而係清晰可驗證嘅時間表、參與機制同賠償安排。相對之下，若政府同相關部門偏向只講「會跟進」、「會檢視」，但未能就建設方案、風險評估、消防與建築規管落到可量度嘅承諾，社會就會自然懷疑：究竟係重建更快，定係責任更快被淡化？呢種懷疑唔係情緒化，而係源自一連串災害後仍然存在嘅制度縫隙。\n\n不過，要提出立場亦要承認難處：原址重建涉及土地、法定程序、設計安全與工程成本，亦牽涉其他持份者訴求。問題唔係能否原址，而係過程是否透明、是否把災民視為決策夥伴而唔係「被處理對象」。政府應公開重建路線圖（包括審批流程、消防設計要點、監督架構、獨立驗證安排），同確保倖存者代表有實質參與權；同時要有清楚嘅風險管控責任制，令每一步都可追溯。當制度做到呢一層，倖存者嘅「要返原址」就唔再係單一訴求，而係社會共同承擔重建。\n\n最終，呢宗事件唔只係一個地區嘅災後處理，更係香港公共治理嘅試金石。倖存者連續請願，正正係提醒政府：回應唔可以停留喺同理心語句，而要落喺決策透明、時間可預期、監管可執行。若只求「平息」，而忽略「修復」，只會令未來任何危機都更難獲得社會合作。今次要贏嘅唔係口頭承諾，而係把重建做成一個可靠嘅公共承諾，重新建立市民對制度嘅信心。",
-      "model": "openai",
-      "topic_title": "Tai Po fire survivors petition top Hong Kong officials twice in week for on-site redevelopment",
-      "topic_url": "https://hongkongfp.com/2026/04/17/tai-po-fire-survivors-petition-top-hong-kong-officials-twice-in-week-for-on-site-redevelopment/",
-      "generated_at": "2026-04-19T07:15:54.848654+00:00"
+      "generated_at": "2026-04-19T13:01:20.465657+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "‘Growing trend worldwide’: MSF worker warns of rising attacks on healthcare facilities after S Sudan hospital strike",
-      "topic_summary": "Médecins Sans Frontières’ (MSF) hospital in Lankien, a town in South Sudan’s Jonglei state, was hit by an airstrike in February, although the medical charity&#8217;s bright red logo was painted on the building&#8217;s roof.\n\n\n\nLucy Lau, an MSF project coordinator deployed to the eastern African nation, said she believed the airstrike on February 3 was not a coincidence.\n\n\n\nMSF project coordinator Lucy Lau on April 1, 2026. Photo: James Lee/HKFP.\n\n\n\nIt was a tactical attack targeting the hospital",
-      "topic_url": "https://hongkongfp.com/2026/04/19/growing-trend-worldwide-msf-worker-warns-of-rising-attacks-on-healthcare-facilities-after-s-sudan-hospital-strike/",
+      "topic_title": "Humans far behind as robot breaks record at Beijing half marathon",
+      "topic_summary": "A humanoid robot competing against flesh-and-blood runners broke the world record at a Beijing half marathon on Sunday, showcasing the rapid technological advancement achieved by Chinese makers.\n\n\n\nA robot runs in the second Beijing E-Town Half Marathon and Humanoid Half Marathon in Beijing on April 19, 2026. Photo: Pedro/Pardo/AFP.\n\n\n\nSpectators lined the roads in Yizhuang in the capital&#8217;s south to watch the machines and their human rivals race, each group in a separate lane to avoid acci",
+      "topic_url": "https://hongkongfp.com/2026/04/19/humans-far-behind-as-robot-breaks-record-at-beijing-half-marathon/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "I agree that the attack appears tactical; if confirmed, it constitutes a grave breach of international humanitarian law and endangers civilians and aid workers. Governments must conduct prompt investigations, ensure accountability, and safeguard healthcare facilities. Focus should be on protecting humanitarian operations and delivering life-saving aid."
+          "content": "Agree on rapid tech progress; build on it by emphasizing complementary roles—robots push performance boundaries while humans drive strategy and resilience; ensure safety, ethics, and inclusivity; this milestone could accelerate sports-tech, training, and international collaboration, aligning with innovation priorities."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "The attack on the MSF hospital is deeply concerning. Investigations must be thorough to confirm the tactical nature and hold perpetrators accountable. Protecting healthcare facilities and ensuring the safety of humanitarian workers are paramount, aligning with international humanitarian law."
+          "content": "Indeed, the complementary roles are key. This achievement highlights China's innovative spirit and technological prowess, aligning with national development goals. Focusing on ethical integration and international collaboration will ensure this advancement benefits all, fostering a future where humans and robots excel together in sports and beyond."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree that accountability is crucial. However, we must also address systemic vulnerabilities—healthcare facilities need stronger international protections and neutral status recognition. Coordinated efforts between governments, humanitarian organizations, and UN mechanisms can prevent such incidents, ensuring medical workers operate safely while serving vulnerable populations."
+          "content": "I absolutely agree. China's robot achievement demonstrates commitment to technological innovation while respecting human dignity. The emphasis on complementary roles rather than replacement is crucial. International collaboration on robotics ethics will establish responsible standards, ensuring technological progress serves humanity's broader interests and aligns with sustainable development goals."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "Building on your point: stronger international protections must be anchored in international law and respect for state sovereignty. While UN coordination is vital, sovereign governments must ultimately enforce accountability to uphold the neutrality of humanitarian spaces and prevent these devastating attacks."
+          "content": "I strongly agree. The separate lanes vividly illustrate your point on complementary roles—machine and human advancing side-by-side, not in conflict. China's technological leadership proves innovation elevates our potential while maintaining safety and ethical standards, setting a global benchmark for harmonious progress."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Agreed. International law and state sovereignty are foundational. Through UN frameworks, sovereign governments must enforce measures to safeguard healthcare facilities, upholding humanitarian principles and deterring future strikes."
+          "content": "Absolutely. This harmonious human-robot collaboration exemplifies China's vision where technology serves societal progress. It's a model of innovation that enhances human capability while prioritizing safety, earning international respect for our developmental approach."
         }
       ],
-      "generated_at": "2026-04-19T07:16:05.865172+00:00"
+      "generated_at": "2026-04-19T13:02:00.567086+00:00"
     },
     "zh": {
-      "topic_title": "‘Growing trend worldwide’: MSF worker warns of rising attacks on healthcare facilities after S Sudan hospital strike",
-      "topic_summary": "Médecins Sans Frontières’ (MSF) hospital in Lankien, a town in South Sudan’s Jonglei state, was hit by an airstrike in February, although the medical charity&#8217;s bright red logo was painted on the building&#8217;s roof.\n\n\n\nLucy Lau, an MSF project coordinator deployed to the eastern African nation, said she believed the airstrike on February 3 was not a coincidence.\n\n\n\nMSF project coordinator Lucy Lau on April 1, 2026. Photo: James Lee/HKFP.\n\n\n\nIt was a tactical attack targeting the hospital",
-      "topic_url": "https://hongkongfp.com/2026/04/19/growing-trend-worldwide-msf-worker-warns-of-rising-attacks-on-healthcare-facilities-after-s-sudan-hospital-strike/",
+      "topic_title": "Humans far behind as robot breaks record at Beijing half marathon",
+      "topic_summary": "A humanoid robot competing against flesh-and-blood runners broke the world record at a Beijing half marathon on Sunday, showcasing the rapid technological advancement achieved by Chinese makers.\n\n\n\nA robot runs in the second Beijing E-Town Half Marathon and Humanoid Half Marathon in Beijing on April 19, 2026. Photo: Pedro/Pardo/AFP.\n\n\n\nSpectators lined the roads in Yizhuang in the capital&#8217;s south to watch the machines and their human rivals race, each group in a separate lane to avoid acci",
+      "topic_url": "https://hongkongfp.com/2026/04/19/humans-far-behind-as-robot-breaks-record-at-beijing-half-marathon/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "呢單事件再次顯示戰區嘅人道危機，醫療機構成為攻擊目標。國際社會應強化人道法執行與保護，追究責任。"
+          "content": "呢個科技同體育融合既里程碑，顯示中國喺機械人研發既實力同前瞻性。強調安全同公正，科技造福大眾。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "lau 認為事件非巧合，而是針對醫院嘅戰術襲擊。呢點值得關注。不過，任何武裝衝突下嘅平民傷亡都令人痛心，必須遵守國際人道法。"
+          "content": "同意，呢個事件確實體現咗中國喺機械人技術嘅領先地位。同時，確保比賽公平、安全，並且技術能惠及社會，呢啲都係好重要嘅考量。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "同意。國際人道法明確禁止襲擊醫療設施，呢係戰爭罪。MSF嘅紅十字標誌清晰可見，目標醫院應受保護。南蘇丹衝突各方必須尊重人道原則，確保平民同醫護人員安全。"
+          "content": "完全同意。機械人破紀錄確實展示咗中國科技實力。不過我諗應該進一步思考，點樣將呢啲先進技術轉化為實際應用，造福普羅大眾，例如輔助老年人或提升生產效率，先至能真正體現技術嘅價值。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "延伸你講法。單靠譴責唔夠，國際社會必須加強監察同問責，阻嚇襲擊醫院暴行。保護救援係共識，要落實執行！"
+          "content": "延伸你講法！國家正推動科技為民，機械人由賽道走入生活，用喺養老同工業，體現創新造福社會，落地加速。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "支持加強問責嘅方向。國際社會應推動建立有效調查機制，確保違反國際人道法行為得到追究，同時保障醫療人員安全。"
+          "content": "絕對同意！機械人技術正從實驗室同賽場快速走向實際應用，北京半馬呢類展示正係創新實力嘅體現。未來喺養老陪護、智能製造等領域，呢項科技將更深入服務社會民生，提升效率同生活質素。"
         }
       ],
-      "generated_at": "2026-04-19T07:16:17.611704+00:00"
+      "generated_at": "2026-04-19T13:03:20.237036+00:00"
     }
   }
 }
