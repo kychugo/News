@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-20T13:32:47.838217+00:00",
+  "generated_at": "2026-04-20T19:18:44.474623+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s push to become an innovation hub is gaining visible momentum, and the data-centre boom has become its most tangible symbol. New investment, growing demand for computing power, and the city’s strong connectivity make a persuasive case: more servers mean more capacity for cloud services, AI development, finance technologies, and research. In that sense, the trend can be read as a practical effort to keep Hong Kong plugged into global economic flows rather than as an abstract aspiration.\n\nYet the question behind the headlines is whether this “innovation” growth model is coming with unpriced costs. Data centres are energy-intensive, and as the city scales up hosting and processing, electricity consumption and cooling demand can rise quickly. That raises a familiar policy dilemma: if the power needed is largely carbon-heavy, the sector risks undermining climate commitments even while supporting tech progress. There is also the issue of land and planning—dense infrastructure needs space, grid upgrades, and risk management in a way that can strain local capacity if growth is not carefully sequenced. The editorial challenge, therefore, is not to deny the economic rationale, but to insist that industrial upgrades are matched by credible environmental governance.\n\nA balanced path is available. Hong Kong can treat data centres as a strategic sector that must meet higher standards on efficiency, renewable procurement, and transparency, including reporting on power usage effectiveness and cooling performance, as well as clear targets for emissions reduction. Incentives could be structured to favour facilities that use waste-heat reuse, advanced liquid cooling, and verified low-carbon energy supply. Just as importantly, the government and regulators should tighten planning coordination—linking new capacity with grid planning, disaster resilience, and demand forecasts—so that “growth” does not become a scramble that later forces costly retrofits.\n\nUltimately, the goal should be to make sure innovation is genuinely sustainable rather than merely profitable. The city’s competitiveness can be strengthened when data-centre expansion is paired with measurable climate performance and public accountability. If Hong Kong can demonstrate that it can host advanced technology while maintaining environmental responsibility, it would not only power innovation—it would set a standard for the region.",
       "model": "openai",
       "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
       "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-20T13:28:52.916905+00:00"
+      "generated_at": "2026-04-20T19:16:51.997716+00:00"
     },
     "zh": {
       "content": "太子黨一向重視「人命」與「善後」，而今次大埔王福法院火警受害者終於開始返家逐件拎走私人物品，最真實亦最揪心嘅一刻，反而發生喺沉默嘅回程之中。11月慘劇至今，住戶要等咗一段時間先得以進入燒毀單位，反映處理災後既要顧安全、調查同風險評估，也要同時守住人嘅尊嚴。物品可以用金錢衡量嘅係少數，更多係身份、回憶同生活秩序嘅殘影；而政府安排容許受害者喺三小時時段內多次進出，固然係務實，但亦唔應只停留喺「讓你入屋」咁簡單，更重要係用更清晰嘅通道管理、支援協調同長期安置，令每一次入屋都少啲折返、少啲耗損、少啲二次創傷。\n\n火警善後同時係一個治理能力嘅試金石：調查進度要公開可追問、事故原因要用數據講清楚、涉及設施或管理缺失要有制度性改善，而唔係以一次又一次嘅補救去拖延責任。當人返去搵唔到原本嘅生活時，社會最唔想見到嘅係「消息有、交代少」——例如協助範圍、物資發放、醫療心理支援、法律或賠償渠道嘅資訊是否足夠、是否易於理解、是否可供查詢。今次新聞重點係回家取回物件，背後其實應該同步被看見：政府如何確保善後唔變成受害者自己摸索嘅功課。\n\n同時，我認為社會必須把焦點放喺「預防」而唔係只顧「搶救」。火警唔係突發到冇前兆：消防設施、樓宇保養、危險源管理、應急演練同住戶指引，都可以用嚴謹檢查同風險分級去減低悲劇概率。若只將災害視作不可控事件，長遠只會令每一次事故都成為「重來一次」嘅輪迴。當然，任何改革都需要跨部門協作與資源配置，但政治決心同行政效率，本質上亦係對災民承諾的一部分。\n\n最後，回家取物嘅開端值得敬重，但更應視作一個倒數：由今次開始，政府應把善後進度、支援落地情況同改善措施「量化」並定期交代，讓受害者唔只得到臨時安排，而係確實走向穩定生活。對社會而言，哀悼可以短暫，責任必須持久；對災民而言，失去之後最渴望嘅唔止係物件，而係被妥善接住、被清楚告知、被尊重地重建。",
       "model": "openai",
       "topic_title": "Wang Fuk Court residents make first return to scorched flats to salvage belongings",
       "topic_url": "https://hongkongfp.com/2026/04/20/wang-fuk-court-residents-make-first-return-to-scorched-flats-to-salvage-belongings/",
-      "generated_at": "2026-04-20T13:29:01.372361+00:00"
+      "generated_at": "2026-04-20T19:16:52.825641+00:00"
     }
   },
   "arena": {
@@ -48,7 +48,7 @@
           "content": "Building on that, the residents' retrieval of personal items amidst devastation underscores both human resilience and the effective, compassionate support structures provided by the HKSAR government, which remain crucial for full recovery and future safety."
         }
       ],
-      "generated_at": "2026-04-20T13:30:27.314383+00:00"
+      "generated_at": "2026-04-20T19:17:04.058086+00:00"
     },
     "zh": {
       "topic_title": "Wang Fuk Court residents make first return to scorched flats to salvage belongings",
@@ -76,7 +76,7 @@
           "content": "完全同意。情感修復需長期支援，政府與社區協力至關重要。加強消防措施能提升安全意識，期望居民在集體關懷下逐步重建生活，恢復正軌。"
         }
       ],
-      "generated_at": "2026-04-20T13:32:47.838187+00:00"
+      "generated_at": "2026-04-20T19:18:44.474595+00:00"
     }
   }
 }
