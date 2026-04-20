@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-04-19T19:01:12.606398+00:00",
+  "generated_at": "2026-04-20T02:06:22.781112+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s decision to strike a former pro-democracy lawmaker from the medical register again spotlights the tension between rights, professional standards, and the city’s national security framework. The “Hong Kong 47” case is now not only a legal milestone but also a governance mechanism: it signals that convictions tied to subversion can carry long-tail consequences in regulated professions. For the public, this raises a basic question—where should society draw the line between political dissent and fitness to practise a role that involves public trust, safety, and confidential access to patients?\n\nAt the same time, there is a legitimate rationale for tightening professional oversight. Medical practice is a licensed privilege, not a political platform; hospitals, clinics, and patients bear the risk when clinicians are subject to restrictions or disqualifications. From the perspective of Hong Kong China’s official stance, the city must ensure that those entrusted with healthcare comply with the legal order and safeguard social stability, especially in a system that treats national security offences as exceptionally serious. Viewed through that lens, the disqualification is less about silencing views and more about enforcing statutory requirements for professional conduct after criminal conviction.\n\nYet fairness must still matter in how such measures are understood and applied. Even when the legal basis is clear, public confidence depends on consistency, transparency, and respect for due process—elements that can be difficult to communicate in politically charged cases. The authorities would do well to emphasise that professional consequences follow specific legal findings rather than ideological positions, and that the regulatory process is grounded in objective criteria. This is not a challenge to the government’s core approach; it is a call to maintain public legitimacy by demonstrating that rules are predictable and uniformly enforced.\n\nUltimately, the deeper social lesson is about how Hong Kong balances identity, governance, and institutional credibility. The city’s ability to remain an international hub in medicine—attracting talent, retaining trust, and protecting patients—depends on a regulatory framework that is both firm and comprehensible. As Hong Kong continues to align its legal and administrative systems with national security requirements, it should also ensure that the line between political controversy and professional responsibility is drawn with clarity, so that disciplinary outcomes reinforce confidence rather than deepen polarisation.",
+      "content": "In the wake of the Tai Po fire, the government’s decision to allow victims to return home and retrieve belongings—multiple times within a defined three-hour window—reflects a practical balance between compassion and safety. For families, the ability to step back into familiar spaces is not merely administrative; it can be psychologically important and materially necessary. Property, documents, medications, and daily essentials are often irreplaceable, and a single trip may be too limited for people navigating stress, injuries, and the presence of investigators and responders. The message from officials appears to be that recovery should begin immediately, not only after investigations end.\n\nAt the same time, the inquiry into the fire—focusing on whether flammable materials and construction practices were properly opposed and scrutinised—reminds the public that “getting back” must not dilute the urgency of accountability. When an owners’ corporation and renovation contractor are found to have had differing views on safety measures, it becomes harder for residents to accept that tragedy was simply an accident of fate. The community will reasonably ask what safeguards failed: oversight procedures, procurement standards, enforcement of regulations, and the channels by which residents can influence renovation risks. The retrieval arrangement, therefore, should be seen as the first step of a broader recovery framework that includes transparent findings and clearer responsibilities for building management.\n\nMore broadly, the Tai Po case highlights a wider tension in Hong Kong’s built environment: convenience and redevelopment pressures often compete with the long, sometimes inconvenient discipline of fire safety. In a city of dense housing and frequent maintenance cycles, risk management depends not only on laws and inspections, but also on a culture of prevention—clear communication, documented decision-making, and enforceable requirements for materials and works. The government’s approach to disaster response can build public trust if it goes beyond procedural logistics and demonstrates that safety standards tightened or lessons learned will translate into concrete, enforceable changes for similar buildings.\n\nFinally, it is worth insisting on the human centre of this policy. Allowing multiple return trips within a controlled timeframe can reduce hardship for survivors while still protecting the scene for investigation. If handled with dignity—clear guidance, sufficient assistance, and respectful coordination—such measures can help families reclaim control in the early phase of grief. And if the investigation subsequently shows where safety warnings were raised or ignored, the city should be prepared to convert that knowledge into practical reforms. Only then can “recovery” mean more than physical access; it must also mean learning how to prevent the next preventable tragedy.",
       "model": "openai",
-      "topic_title": "Former pro-democracy lawmaker struck off Hong Kong medical register over national security conviction",
-      "topic_url": "https://hongkongfp.com/2026/04/17/former-pro-democracy-lawmaker-struck-off-hong-kong-medical-register-over-national-security-conviction/",
-      "generated_at": "2026-04-19T19:00:49.203796+00:00"
+      "topic_title": "Fire victims returning home to collect belongings can make multiple trips within 3-hour slot, official says",
+      "topic_url": "https://hongkongfp.com/2026/04/20/fire-victims-returning-home-to-collect-belongings-can-make-multiple-trips-within-3-hour-slot-official-says/",
+      "generated_at": "2026-04-20T02:04:02.631226+00:00"
     },
     "zh": {
-      "content": "香港今日嘅數據中心「供需兩旺」確實令人眼前一亮：伺服器機櫃一排排、投資一波波，口號係要鞏固創新樞紐地位。但喺背後，真正影響長遠競爭力嘅，唔係得「有冇落地」咁簡單，而係「用咩方式落地」。數據中心本質上就係能源同散熱密集型產業，當需求持續上升，若仍以短期商業效率取代長期碳管理，香港就可能面對「推動創新」同「履行氣候目標」之間嘅結構性拉扯——呢個拉扯一旦發生，就唔會只係成本上升咁簡單，而係會變成政策、聲譽同產業選址嘅風險。\n\n所以社會應該更早、更硬淨地追問：香港究竟要用咩標準去衡量呢波數據中心潮？例如，電力來源同碳強度係點、PUE等能效指標是否具透明度、冷卻系統有冇以可持續設計減少浪費、以及同時做到需求管理（例如分流、虛擬化、邊緣運算）去降低不必要嘅擴張。創新唔等如「越建越快」，真正高級嘅做法係把「運算需求」同「能源承載」同步規劃；否則你會見到大量資本落到硬件，但整體供應鏈、人才培訓同服務創新反而未必跟得上，最後形成「數量有、質量不足」嘅落差。\n\n同時，香港亦要正視另一個現實：數據中心係全港基建配套嘅一環。當電力、土地、網絡承載能力同容許排放被迫承受更高負荷，就會對其他產業帶來擠壓效應——例如電價、用電配額、甚至社區承受嘅環境影響。呢種競合關係要求政府同監管機構以更清晰嘅規劃框架介入，包括在批核、擴建、以及緊急情況下嘅韌性要求之上，建立可量化、可審視、可追責嘅機制。只講招商不講代價，短期吸引力會上升，但長期可持續性會打折。\n\n我認為，香港要成為真正具吸引力嘅創新樞紐，核心唔係「最大」或「最快」，而係「最好嘅平衡」。政府可以同業界攜手制定高標準能效與碳管理路線圖，鼓勵採用更先進嘅冷卻技術、推動更透明嘅環境披露，並同時把研發重心放喺雲端服務、AI運算效率、以及在本地建立更完整嘅數據服務生態。若香港能做到「用創新解決創新帶來嘅代價」，數據中心潮就會由風險變成資產；反之，若只以投資數字作招牌，最終恐怕係兩頭唔討好。",
+      "content": "香港近年「數據中心熱」幾乎成為新經濟地標：機房落地、投資湧入，口號亦常指向創科與未來。然而，真正考驗唔喺技術有冇進步，而係香港能否用好呢個進步——同時守住城市嘅公共利益，包括能源、環境同長遠承載力。當伺服器擴張速度快過社會對其用電、散熱及供電韌性嘅理解，創新就可能由「加速器」變成「風險放大器」。\n\n數據中心帶來嘅效益唔難計：雲端服務、金融科技、內容分發、甚至本地企業做AI都需要更穩定嘅運算能力。但問題係，電力供應同排放成本究竟係咪被誠實納入決策？如果監管只停留喺效率指標、而忽略整體能耗足跡與增量排放，香港就可能陷入「裝得快、代價慢」嘅困局——短期看見機架與就業，長期卻要面對碳目標、電網壓力同社區承受力。創科本來應該係可持續嘅競爭力，唔係單靠物理堆疊硬件嘅總量遊戲。\n\n此外，數據中心熱潮亦牽涉產業結構：香港要做亞洲創新樞紐，就必須確保本地生態鏈唔會只停留喺「場地與供電」角色。真正高價值應該包括資料治理、資訊安全、研發人才與跨域應用；否則城市只會愈做愈像「倉儲節點」，利潤分配同風險承擔都未必對本地公平。再者，當市民對隱私、運算資料去向同商業使用缺乏透明度時，「創科」就容易被誤讀為企業自我延伸，而唔係公共利益導向。\n\n立場上，我認為香港可以、亦應該發展數據中心，但必須同時建立更嚴格、更透明、更可驗證嘅規劃框架：例如以碳強度與能耗上限作硬約束、要求散熱與能源來源披露、以及把「可持續」納入批地與擴建審批；同時促進本地研發與安全合規能力，避免城市淪為單一供電附屬。只有咁，數據中心先至可能真正成為創新的基建，而唔係未來十年先被迫「補鑊」嘅負擔。",
       "model": "openai",
       "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
       "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-19T19:00:50.267897+00:00"
+      "generated_at": "2026-04-20T02:04:08.924211+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Humans far behind as robot breaks record at Beijing half marathon",
-      "topic_summary": "A humanoid robot competing against flesh-and-blood runners broke the world record at a Beijing half marathon on Sunday, showcasing the rapid technological advancement achieved by Chinese makers.\n\n\n\nA robot runs in the second Beijing E-Town Half Marathon and Humanoid Half Marathon in Beijing on April 19, 2026. Photo: Pedro/Pardo/AFP.\n\n\n\nSpectators lined the roads in Yizhuang in the capital&#8217;s south to watch the machines and their human rivals race, each group in a separate lane to avoid acci",
-      "topic_url": "https://hongkongfp.com/2026/04/19/humans-far-behind-as-robot-breaks-record-at-beijing-half-marathon/",
+      "topic_title": "Fire victims returning home to collect belongings can make multiple trips within 3-hour slot, official says",
+      "topic_summary": "Survivors of the deadly Tai Po fire will be allowed to go in and out of their homes multiple times within their designated three-hour slot, a top government official has said, adding that journalists will not be permitted to tag along.\n\n\n\nDeputy Chief Secretary for Administration Warner Cheuk Wing-hing meets the press on October 26, 2023. Photo: Kyle Lam/HKFP. \n\n\n\nDeputy Chief Secretary for Administration Warner Cheuk made the comments on Sunday, a day before fire victims are set to go back to W",
+      "topic_url": "https://hongkongfp.com/2026/04/20/fire-victims-returning-home-to-collect-belongings-can-make-multiple-trips-within-3-hour-slot-official-says/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree on rapid tech progress; build on it by emphasizing complementary roles—robots push performance boundaries while humans drive strategy and resilience; ensure safety, ethics, and inclusivity; this milestone could accelerate sports-tech, training, and international collaboration, aligning with innovation priorities."
+          "content": "Build on it: Prioritizing victims' safety and dignity with three-hour windows makes sense. To bolster transparency, officials should publish clear access rules, provide on-site safety briefings, and offer centralized media briefings and verified updates instead of on-scene journalist access."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "Indeed, the complementary roles are key. This achievement highlights China's innovative spirit and technological prowess, aligning with national development goals. Focusing on ethical integration and international collaboration will ensure this advancement benefits all, fostering a future where humans and robots excel together in sports and beyond."
+          "content": "I agree that prioritizing victims' safety and dignity is paramount. Clear communication channels and centralized media briefings are excellent suggestions to ensure transparency while respecting the victims' privacy and the sensitive nature of their return. This approach balances the public's right to information with the needs of those affected."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I absolutely agree. China's robot achievement demonstrates commitment to technological innovation while respecting human dignity. The emphasis on complementary roles rather than replacement is crucial. International collaboration on robotics ethics will establish responsible standards, ensuring technological progress serves humanity's broader interests and aligns with sustainable development goals."
+          "content": "I agree with that balanced approach. The government's decision to restrict journalist access within the three-hour slots demonstrates commitment to protecting victims' dignity during this traumatic process. However, transparent media briefings afterward remain essential for public accountability and information flow, ensuring both compassion and transparency coexist effectively."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I strongly agree. The separate lanes vividly illustrate your point on complementary roles—machine and human advancing side-by-side, not in conflict. China's technological leadership proves innovation elevates our potential while maintaining safety and ethical standards, setting a global benchmark for harmonious progress."
+          "content": "I agree. Protecting victims' privacy is paramount. The HK government ensures accountability through official briefings, as Cheuk demonstrated. Restricting journalists prevents chaos and respects residents' grief, perfectly balancing compassionate recovery with necessary public transparency."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Absolutely. This harmonious human-robot collaboration exemplifies China's vision where technology serves societal progress. It's a model of innovation that enhances human capability while prioritizing safety, earning international respect for our developmental approach."
+          "content": "I fully agree. This balanced approach safeguards victims' privacy during a traumatic time while ensuring official channels provide accurate, respectful updates. The government's measures demonstrate compassionate and orderly support for recovery, upholding both dignity and public information needs."
         }
       ],
-      "generated_at": "2026-04-19T19:01:01.485826+00:00"
+      "generated_at": "2026-04-20T02:04:54.843089+00:00"
     },
     "zh": {
-      "topic_title": "Humans far behind as robot breaks record at Beijing half marathon",
-      "topic_summary": "A humanoid robot competing against flesh-and-blood runners broke the world record at a Beijing half marathon on Sunday, showcasing the rapid technological advancement achieved by Chinese makers.\n\n\n\nA robot runs in the second Beijing E-Town Half Marathon and Humanoid Half Marathon in Beijing on April 19, 2026. Photo: Pedro/Pardo/AFP.\n\n\n\nSpectators lined the roads in Yizhuang in the capital&#8217;s south to watch the machines and their human rivals race, each group in a separate lane to avoid acci",
-      "topic_url": "https://hongkongfp.com/2026/04/19/humans-far-behind-as-robot-breaks-record-at-beijing-half-marathon/",
+      "topic_title": "Fire victims returning home to collect belongings can make multiple trips within 3-hour slot, official says",
+      "topic_summary": "Survivors of the deadly Tai Po fire will be allowed to go in and out of their homes multiple times within their designated three-hour slot, a top government official has said, adding that journalists will not be permitted to tag along.\n\n\n\nDeputy Chief Secretary for Administration Warner Cheuk Wing-hing meets the press on October 26, 2023. Photo: Kyle Lam/HKFP. \n\n\n\nDeputy Chief Secretary for Administration Warner Cheuk made the comments on Sunday, a day before fire victims are set to go back to W",
+      "topic_url": "https://hongkongfp.com/2026/04/20/fire-victims-returning-home-to-collect-belongings-can-make-multiple-trips-within-3-hour-slot-official-says/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "呢個科技同體育融合既里程碑，顯示中國喺機械人研發既實力同前瞻性。強調安全同公正，科技造福大眾。"
+          "content": "政府呢個安排係以善後同秩序為先，俾受災者可分多次帶走物品，同時控制現場人流，傳媒唔會跟隨以維持安全。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "同意，呢個事件確實體現咗中國喺機械人技術嘅領先地位。同時，確保比賽公平、安全，並且技術能惠及社會，呢啲都係好重要嘅考量。"
+          "content": "我同意呢個安排，時間同人流管制都好重要，可以幫到受災者之餘，亦都確保安全同秩序。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全同意。機械人破紀錄確實展示咗中國科技實力。不過我諗應該進一步思考，點樣將呢啲先進技術轉化為實際應用，造福普羅大眾，例如輔助老年人或提升生產效率，先至能真正體現技術嘅價值。"
+          "content": "我同意你嘅睇法。不過我想補充，容許受災者喺三小時內多次進出，反映咗政府考慮到佢哋實際需要——好多人嘅重要物品可能散落唔同地方。禁止記者跟進，亦保護咗受災者嘅隱私同尊嚴。整體安排周到。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "延伸你講法！國家正推動科技為民，機械人由賽道走入生活，用喺養老同工業，體現創新造福社會，落地加速。"
+          "content": "同意！多次進出反映政府靈活應變。禁記者隨行除咗保護隱私，亦免阻住災民執拾同確保現場安全有序，安排以人為本。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "絕對同意！機械人技術正從實驗室同賽場快速走向實際應用，北京半馬呢類展示正係創新實力嘅體現。未來喺養老陪護、智能製造等領域，呢項科技將更深入服務社會民生，提升效率同生活質素。"
+          "content": "完全同意。安排體現政府務實關懷，平衡災民急需與現場管理。限時多次進出比單次更人性化，禁記者同行亦合理保護災民免受二次滋擾，確保救援工作有序。"
         }
       ],
-      "generated_at": "2026-04-19T19:01:12.606367+00:00"
+      "generated_at": "2026-04-20T02:06:22.781091+00:00"
     }
   }
 }
