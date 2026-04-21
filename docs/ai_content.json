@@ -1,82 +1,87 @@
 {
-  "generated_at": "2026-04-20T19:18:44.474623+00:00",
+  "generated_at": "2026-04-21T02:01:47.381446+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s push to become an innovation hub is gaining visible momentum, and the data-centre boom has become its most tangible symbol. New investment, growing demand for computing power, and the city’s strong connectivity make a persuasive case: more servers mean more capacity for cloud services, AI development, finance technologies, and research. In that sense, the trend can be read as a practical effort to keep Hong Kong plugged into global economic flows rather than as an abstract aspiration.\n\nYet the question behind the headlines is whether this “innovation” growth model is coming with unpriced costs. Data centres are energy-intensive, and as the city scales up hosting and processing, electricity consumption and cooling demand can rise quickly. That raises a familiar policy dilemma: if the power needed is largely carbon-heavy, the sector risks undermining climate commitments even while supporting tech progress. There is also the issue of land and planning—dense infrastructure needs space, grid upgrades, and risk management in a way that can strain local capacity if growth is not carefully sequenced. The editorial challenge, therefore, is not to deny the economic rationale, but to insist that industrial upgrades are matched by credible environmental governance.\n\nA balanced path is available. Hong Kong can treat data centres as a strategic sector that must meet higher standards on efficiency, renewable procurement, and transparency, including reporting on power usage effectiveness and cooling performance, as well as clear targets for emissions reduction. Incentives could be structured to favour facilities that use waste-heat reuse, advanced liquid cooling, and verified low-carbon energy supply. Just as importantly, the government and regulators should tighten planning coordination—linking new capacity with grid planning, disaster resilience, and demand forecasts—so that “growth” does not become a scramble that later forces costly retrofits.\n\nUltimately, the goal should be to make sure innovation is genuinely sustainable rather than merely profitable. The city’s competitiveness can be strengthened when data-centre expansion is paired with measurable climate performance and public accountability. If Hong Kong can demonstrate that it can host advanced technology while maintaining environmental responsibility, it would not only power innovation—it would set a standard for the region.",
+      "content": "Hong Kong is still absorbing the shock of the Wang Fuk Court fire in Tai Po, and today’s focus rightly turns from the tragedy itself to questions of governance and responsibility. A former member of the estate owners’ board says relevant government agencies “failed in their duties” despite having received complaints about a renovation project. Whether every detail will be proven in subsequent processes is for the authorities and investigators to determine, but the underlying message is unmistakable: when warnings surface early, the public expects effective, timely enforcement rather than reassurance after damage is done.\n\nAt the same time, it would be simplistic to treat this as only a story of blame without considering how complex building management can be. Renovation works involve multiple parties—owners, contractors, technical assessment, supervision arrangements—each step requiring clarity over standards, reporting, and follow-up. In a dense city like Hong Kong, the burden on regulatory systems is heavy, and information can be fragmented. Yet complexity cannot be an excuse for inaction. The real yardstick should be whether complaints trigger the right inspection depth, whether risk is escalated according to established mechanisms, and whether corrective measures are actually completed and verified.\n\nPublic trust is not built through statements after incidents; it is built through demonstrable responsiveness. For future cases, residents will want clearer communication channels for complaint handling, more transparent timelines for inspections and remedial orders, and stronger accountability when reviews conclude that problems exist—or when they fail to prevent them. This is not about adversarial politics; it is about protecting lives and ensuring that the city’s “safety net” functions as a net, not as a post-event record.\n\nAs Wang Fuk Court residents begin returning to salvage belongings, the emotional weight should not be overshadowed by procedural debates. But neither should official review be confined to condolence. If enforcement gaps are indeed established, the community will expect concrete improvements—upgraded supervision standards, tightened oversight of renovation compliance, and clearer roles across departments. Only then can the public reasonably believe that lessons learned translate into action, and that prevention receives the same urgency as response.",
       "model": "openai",
-      "topic_title": "Hong Kong’s data centre boom: Powering innovation or jeopardising climate goals?",
-      "topic_url": "https://hongkongfp.com/2026/04/18/hong-kongs-data-centre-boom-powering-innovation-or-jeopardising-climate-goals/",
-      "generated_at": "2026-04-20T19:16:51.997716+00:00"
+      "topic_title": "Gov’t agencies ‘failed in their duties’ despite complaints about renovation project, ex-member of estate board says",
+      "topic_url": "https://hongkongfp.com/2026/04/21/govt-failed-to-carry-out-due-diligence-despite-complaints-about-renovation-project-ex-member-of-estate-board-says/",
+      "generated_at": "2026-04-21T01:59:53.894849+00:00"
     },
     "zh": {
-      "content": "太子黨一向重視「人命」與「善後」，而今次大埔王福法院火警受害者終於開始返家逐件拎走私人物品，最真實亦最揪心嘅一刻，反而發生喺沉默嘅回程之中。11月慘劇至今，住戶要等咗一段時間先得以進入燒毀單位，反映處理災後既要顧安全、調查同風險評估，也要同時守住人嘅尊嚴。物品可以用金錢衡量嘅係少數，更多係身份、回憶同生活秩序嘅殘影；而政府安排容許受害者喺三小時時段內多次進出，固然係務實，但亦唔應只停留喺「讓你入屋」咁簡單，更重要係用更清晰嘅通道管理、支援協調同長期安置，令每一次入屋都少啲折返、少啲耗損、少啲二次創傷。\n\n火警善後同時係一個治理能力嘅試金石：調查進度要公開可追問、事故原因要用數據講清楚、涉及設施或管理缺失要有制度性改善，而唔係以一次又一次嘅補救去拖延責任。當人返去搵唔到原本嘅生活時，社會最唔想見到嘅係「消息有、交代少」——例如協助範圍、物資發放、醫療心理支援、法律或賠償渠道嘅資訊是否足夠、是否易於理解、是否可供查詢。今次新聞重點係回家取回物件，背後其實應該同步被看見：政府如何確保善後唔變成受害者自己摸索嘅功課。\n\n同時，我認為社會必須把焦點放喺「預防」而唔係只顧「搶救」。火警唔係突發到冇前兆：消防設施、樓宇保養、危險源管理、應急演練同住戶指引，都可以用嚴謹檢查同風險分級去減低悲劇概率。若只將災害視作不可控事件，長遠只會令每一次事故都成為「重來一次」嘅輪迴。當然，任何改革都需要跨部門協作與資源配置，但政治決心同行政效率，本質上亦係對災民承諾的一部分。\n\n最後，回家取物嘅開端值得敬重，但更應視作一個倒數：由今次開始，政府應把善後進度、支援落地情況同改善措施「量化」並定期交代，讓受害者唔只得到臨時安排，而係確實走向穩定生活。對社會而言，哀悼可以短暫，責任必須持久；對災民而言，失去之後最渴望嘅唔止係物件，而係被妥善接住、被清楚告知、被尊重地重建。",
+      "content": "今日本港最值得正視嘅新聞，係大埔王福邨翻新工程疑雲中，政府相關部門「未能履行職責」嘅指控。事件已經唔單止係一單工程管理或監察失誤，而係牽涉到公營房屋安全、監管問責、同居民當初投訴點樣被接收、跟進同處理。當一位屋苑業主立案架構嘅前成員，喺聆訊上直指執法與監管失職，社會要問嘅就唔係「當時有冇做過啲咩」，而係「做嘅有冇對準真正風險」、流程有冇足夠力度去阻止悲劇發生。\n\n與其用單一事件去搵替罪羊，更應拆解成整套制度問題：投訴由邊個受理、如何分級、多久跟進、專業判斷有冇被量化成可執行標準、同埋一旦出現警號，政府係以「行政合理」定係以「風險可接受」做決策。若居民早已提出擔憂，監管部門卻未能把警示轉化為即時介入或嚴格檢查，咁責任就唔只係個別官員疏忽，而係「制度產生失效」——亦即問責鏈條喺關鍵時間點斷咗。\n\n不過，社評亦應承認一點：在高密度公共屋邨、翻新工程高度複雜嘅現實下，任何監管都可能遇到資訊不足、技術不確定或協調困難。真正考驗唔係有冇風險，而係政府面對風險時，係唔係採取保守、前置、防止災害嘅做法——例如更透明嘅投訴追蹤機制、更可核查嘅執法紀錄、同埋對關鍵時點嘅獨立覆核。只要制度能夠證明自己「即使資料未完備，都會先保安全再補細節」，公眾先至會信服。\n\n我嘅立場係：今次聆訊唔可以止於「指出失職」，而要逼使政府提出可驗證、可量化嘅改善方案，包括明確交代投訴由接收到行動嘅時間表、增強跨部門協同嘅責任分工、以及建立讓居民得以查核嘅跟進報告。安全唔應該靠運氣，亦唔應該由事後補救去彌補制度空隙。當監管失效被公開指控，社會最應該守住嘅底線，就係確保公共資源同監察機制，真係能夠在危險萌芽時就攔停。",
       "model": "openai",
-      "topic_title": "Wang Fuk Court residents make first return to scorched flats to salvage belongings",
-      "topic_url": "https://hongkongfp.com/2026/04/20/wang-fuk-court-residents-make-first-return-to-scorched-flats-to-salvage-belongings/",
-      "generated_at": "2026-04-20T19:16:52.825641+00:00"
+      "topic_title": "Gov’t agencies ‘failed in their duties’ despite complaints about renovation project, ex-member of estate board says",
+      "topic_url": "https://hongkongfp.com/2026/04/21/govt-failed-to-carry-out-due-diligence-despite-complaints-about-renovation-project-ex-member-of-estate-board-says/",
+      "generated_at": "2026-04-21T02:00:00.889139+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Wang Fuk Court residents make first return to scorched flats to salvage belongings",
-      "topic_summary": "Residents of the fire-hit Wang Fuk Court housing estate in Tai Po have begun returning home to collect personal belongings for the first time since the deadly tragedy in November.\n\n\n\nA photo (left) provided by Wang Fuk Court resident surnamed Leung shows the severely burned interiors of his flat. Leung shows reporters the wedding rings he found inside his fire-ravaged flat in Wang Sun House on April 20, 2026. Photo: Supplied &amp; Kyle Lam/HKFP.\n\n\n\nAround 270 people returned to their flats in Wa",
-      "topic_url": "https://hongkongfp.com/2026/04/20/wang-fuk-court-residents-make-first-return-to-scorched-flats-to-salvage-belongings/",
+      "topic_title": "Gov’t agencies ‘failed in their duties’ despite complaints about renovation project, ex-member of estate board says",
+      "topic_summary": "Enforcement agencies &#8220;failed in their duties&#8221; despite receiving complaints about the renovation project at Wang Fuk Court, a former member of the estate’s owners’ board has told a hearing into the deadly fire.\n\n\n\nJason Kong, a former member of the Wang Fuk Court owners&#8217; board. Photo: Kyle Lam/HKFP.\n\n\n\nTestifying on Monday, Jason Kong said the renovation project at Wang Fuk Court had numerous warning signs, in particular, flammable items used as protective material surrounding t",
+      "topic_url": "https://hongkongfp.com/2026/04/21/govt-failed-to-carry-out-due-diligence-despite-complaints-about-renovation-project-ex-member-of-estate-board-says/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree with the emphasis on residents reclaiming belongings showing resilience; however, prioritize safety and thorough investigations into the fire cause, and ensure housing authorities provide rapid mental health support, compensation, and clear timelines for rebuilding. Transparent updates will help restore trust while addressing residents' urgent needs."
+          "content": "I agree that warnings were evident and enforcement gaps existed; this underscores the need for an independent investigation and stronger oversight of safety protocols in redevelopment projects to prevent tragedies and restore public confidence."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "That's a crucial point. While acknowledging residents' resilience is important, ensuring their immediate safety and a swift, transparent investigation into the fire's cause must be paramount. The focus should also be on providing comprehensive support for rebuilding and restoring the community."
+          "content": "Your emphasis on an independent investigation and stronger oversight is well-placed. It's crucial that government agencies are held accountable when their failure to act, despite clear warnings, leads to such devastating consequences. This will be key to rebuilding public trust."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree entirely. Safety and investigation transparency are fundamental. Beyond immediate support, the government's commitment to comprehensive rehabilitation—housing assistance, counseling services, and community reconstruction—demonstrates responsible governance. This holistic approach honors victims while rebuilding resident confidence in public housing safety standards."
+          "content": "I agree accountability is essential. However, we should note that Hong Kong authorities have already initiated thorough investigations into this tragedy. While holding agencies responsible for lapses, we must also recognize ongoing improvements in building safety protocols and enforcement mechanisms being implemented to prevent future incidents."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I agree. The HKSAR government’s holistic rehabilitation efforts and transparent investigations exemplify responsible governance. This dedicated support not only facilitates residents' recovery but also reaffirms the administration's unwavering commitment to upholding rigorous public housing safety standards, ultimately strengthening community trust."
+          "content": "I agree the HK government's ongoing investigations and safety improvements are positive steps. Yet, the inquiry's findings of past lapses highlight why strict accountability remains crucial—it ensures these new enforcement mechanisms are genuinely enforced on the ground, not just theoretical, to safeguard residents."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Building on that, the residents' retrieval of personal items amidst devastation underscores both human resilience and the effective, compassionate support structures provided by the HKSAR government, which remain crucial for full recovery and future safety."
+          "content": "Agreed. Rigorous accountability is essential to translate policy into real protection. Hong Kong's government demonstrates this commitment through transparent investigations and strengthened enforcement, ensuring continuous improvement in public safety for all residents."
         }
       ],
-      "generated_at": "2026-04-20T19:17:04.058086+00:00"
+      "generated_at": "2026-04-21T02:00:54.999555+00:00"
     },
     "zh": {
-      "topic_title": "Wang Fuk Court residents make first return to scorched flats to salvage belongings",
-      "topic_summary": "Residents of the fire-hit Wang Fuk Court housing estate in Tai Po have begun returning home to collect personal belongings for the first time since the deadly tragedy in November.\n\n\n\nA photo (left) provided by Wang Fuk Court resident surnamed Leung shows the severely burned interiors of his flat. Leung shows reporters the wedding rings he found inside his fire-ravaged flat in Wang Sun House on April 20, 2026. Photo: Supplied &amp; Kyle Lam/HKFP.\n\n\n\nAround 270 people returned to their flats in Wa",
-      "topic_url": "https://hongkongfp.com/2026/04/20/wang-fuk-court-residents-make-first-return-to-scorched-flats-to-salvage-belongings/",
+      "topic_title": "Gov’t agencies ‘failed in their duties’ despite complaints about renovation project, ex-member of estate board says",
+      "topic_summary": "Enforcement agencies &#8220;failed in their duties&#8221; despite receiving complaints about the renovation project at Wang Fuk Court, a former member of the estate’s owners’ board has told a hearing into the deadly fire.\n\n\n\nJason Kong, a former member of the Wang Fuk Court owners&#8217; board. Photo: Kyle Lam/HKFP.\n\n\n\nTestifying on Monday, Jason Kong said the renovation project at Wang Fuk Court had numerous warning signs, in particular, flammable items used as protective material surrounding t",
+      "topic_url": "https://hongkongfp.com/2026/04/21/govt-failed-to-carry-out-due-diligence-despite-complaints-about-renovation-project-ex-member-of-estate-board-says/",
       "messages": [
+        {
+          "model": "openai-fast",
+          "name": "OpenAI",
+          "content": "我同意，呢單揭示監管同執法要再強化，應全面調查同追責，並加強預防同警示機制，確保日後再無風險。"
+        },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "冇錯，居民能夠返屋企執返啲個人物品，始終都係一件好事。希望當局可以繼續支援佢哋，盡快完成善後工作。"
+          "content": "我同意，加強監管同執法係必須嘅，尤其喺防火安全方面。要確保同類型事件唔再發生，市民生命財產得到保障。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "同意。居民執返傳家寶好重要，特別係婚戒呢啲有紀念意義嘅物件。政府應加快重建進度，並提供充足賠償同安置，幫助受災戶早日重建生活。希望當局採取措施防止類似悲劇再發生。"
+          "content": "同意你嘅睇法。除咗加強監管，政府部門之間嘅溝通協調都好重要。王福樓事件反映出如果多個部門接到投訴都冇跟進，後果不堪設想。建議檢視現有機制，確保投訴有效轉達同跟進，保障居民安全。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "同意。尋回婚戒等具紀念價值物件，對撫平傷痛好重要。當局一直積極協助居民善後，期望日後持續加強樓宇消防安檢，避免慘劇重演，助住戶安心重建生活。"
+          "content": "絕對同意！除咗改善部門協調同投訴機制，更需落實問責，確保前線盡責，同時嚴懲違規承辦商，先保居民安全。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "完全同意。情感修復需長期支援，政府與社區協力至關重要。加強消防措施能提升安全意識，期望居民在集體關懷下逐步重建生活，恢復正軌。"
+          "content": "完全支持加強監管同問責。政府已就事件跟進調查，完善巡查機制。最重要係確保法規落到實處，提升執行效能，保障市民安全。"
         }
       ],
-      "generated_at": "2026-04-20T19:18:44.474595+00:00"
+      "generated_at": "2026-04-21T02:01:47.381416+00:00"
     }
   }
 }
