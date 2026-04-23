@@ -1,72 +1,82 @@
 {
-  "generated_at": "2026-04-23T07:51:52.521528+00:00",
+  "generated_at": "2026-04-23T13:32:33.959152+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s construction boom brings not only skyline changes but also the hard question of whether risk is being managed with the seriousness it deserves. The call by a labour NGO for a thorough government probe into the death of a worker at the Kai Tak Hospital site is therefore more than a single-incident demand. It tests the credibility of the city’s safety system: whether investigations are prompt and transparent, whether root causes are identified rather than merely citing compliance failures, and whether lessons—technical and organisational—are actually translated into safer work practices across the industry.\n\nAt the same time, recent fire-safety reporting from Tai Po shows how complex responsibility can be on the ground, with different agencies and requirements sometimes covering different aspects of the same incident. This complexity should not become an excuse for delay or narrowing the inquiry only to what is easiest to explain. The public inquiry should look at the full chain of prevention: procurement standards for materials, site supervision, contractors’ internal controls, and whether workers receive clear guidance and are protected from unsafe behaviours—even when those behaviours fall “outside” one department’s remit. In other words, boundaries between bureaux should not become boundaries around accountability.\n\nFor authorities, “thorough” should mean more than identifying what went wrong at one workplace. It should include how contractors are selected and monitored, whether penalties and compliance checks meaningfully change incentives, and whether safety culture is enforced from the top down. For workers and the wider community, it means confidence that investigations will lead to practical improvements, not only paperwork. A robust probe can strengthen industry standards while reaffirming a core social expectation: that human life is not treated as an acceptable cost of delivery timelines.\n\nFinally, the wider message of today’s safety and health-related headlines is that prevention is a shared responsibility, not a matter of blame after tragedy. Dengue risk, workplace hazards, and emergency preparedness all require consistent enforcement and public communication. In that sense, the Kai Tak investigation is not simply about one death; it is a barometer for how Hong Kong handles risk management across sectors—balancing regulation, contractor responsibility, and public trust in a way that aligns with the city’s commitment to orderly governance.",
+      "content": "The Tai Po fire that claimed lives has left more than physical damage—it has disrupted families’ ability to retrieve belongings and begin the difficult work of rebuilding. One resident’s call for “better arrangements” to collect personal items, and for a longer window to visit flats, speaks to a basic, humane expectation: that the government’s response should be practical and compassionate, not only procedural. In emergencies, details matter. A narrow timetable can turn grief into an added burden, especially for elderly victims, people with limited mobility, or those who must balance work and caregiving while dealing with investigations.\n\nAt the same time, it is important to recognise why authorities may set limits: safety assessments, forensic checks, and the need to control access in unstable buildings. These steps are not obstacles to be brushed aside; they are part of responsible governance. Yet responsibility also means calibrating measures to real social needs. Where hazards are being managed and units are still under assessment, authorities can still provide structured pathways—extended visiting hours, staggered collection schedules, clear signage and staff support, and assistance for those unable to attend in person.\n\nThe public discussion around the Tai Po blaze should therefore focus less on blame in the abstract and more on system design after tragedy. A clearer framework for post-incident recovery—covering timelines for residents to retrieve personal effects, communication channels in multiple languages and for vulnerable groups, and coordination between departments—would reduce confusion and the risk that survivors feel neglected. Transparent explanations of what is within and outside the government’s control, paired with concrete improvements, can help rebuild trust.\n\nUltimately, the most significant test is whether the city treats victims as citizens first. Beyond the immediate scene, the government’s credibility will be measured by whether it can convert lessons from the disaster into better assistance for residents in the weeks ahead. If the administration can respond to requests for more time and better arrangements with sincerity and efficiency, it will not only ease suffering but also demonstrate that the goal of public safety extends to protecting dignity, not just preventing further harm.",
       "model": "openai",
-      "topic_title": "Labour NGO calls for thorough gov’t probe into worker death at Kai Tak Hospital site",
-      "topic_url": "https://hongkongfp.com/2026/04/23/labour-ngo-calls-for-thorough-govt-probe-into-worker-death-at-kai-tak-hospital-site/",
-      "generated_at": "2026-04-23T07:47:59.603059+00:00"
+      "topic_title": "Hong Kong gov’t urged to make better arrangements for Tai Po fire victims to collect belongings",
+      "topic_url": "https://hongkongfp.com/2026/04/23/hong-kong-govt-urged-to-make-better-arrangements-for-tai-po-fire-victims-to-collect-belongings/",
+      "generated_at": "2026-04-23T13:28:29.991311+00:00"
     },
     "zh": {
-      "content": "近來港人對「工業安全」嘅關注，唔再係抽象口號，而係一宗又一宗可能直接奪走生命嘅意外。啟德醫院工地有工人死亡，社會要求政府「徹查」其實並唔過份：唔單止要交代意外成因，更要追問責任鏈條上每一環有冇失職，包括承建商工序安排、現場風險評估、吊裝或搬運重型構件時嘅標準程序、以及監督到底做咗啲咩。當香港工程體量大、工種複雜，安全管理唔可以靠「運氣」或事後補救，必須係制度先行、執行嚴謹。\n\n同時，今次事件亦再次凸顯「查到邊度先算」嘅問題。近日亦有火警調查涉及外判或管理權責範圍，令人質疑現場風險究竟由邊個統籌、啲不符合要求嘅元素點樣被攔截。假如政府只係停留喺個別承建商層面，卻忽略跨部門、跨合約、跨承包商之間嘅銜接漏洞，咁樣嘅調查就難以轉化為可落實嘅改善。對工傷死亡而言，「唔係消防局要管」或者「唔係你哋範圍」並唔係答案；答案應該係任何會令工人喪命嘅風險，最終都要由一個清晰責任人、按可驗證指標處理。\n\n立場上，政府必須承擔主導責任：一方面，公開調查機制、蒐集到嘅證據同專家結論，讓社會理解每一步點樣判斷；另一方面，將調查結果直接轉化為具體執法行動，例如針對同類工程工序作出停工/改善令、檢討合約內安全條款與罰則、加強對吊裝、支撐、臨時結構等高風險工種嘅強制要求。更重要係，對工地管理要引入真正可追蹤嘅問責：唔止要「有冇做」，而係要做到「做得啱唔啱、做得夠唔夠、做咗之後有冇持續監察」。\n\n最後，工地安全本質係社會合約：每一份公共工程都承諾「以人命為先」。當政府以調查回應時，亦應同步建立持續監管與通報文化，令工友唔使靠投訴、靠運氣去換取保護。願意徹查，就要做到徹底；願意改善，就要落到制度、執法與工程實務層面。否則，下一次的「意外」就只會係時間問題。",
+      "content": "啟德醫院地盤工傷死亡事件，再次把「職安健」放到最刺眼的位置。59歲工人喺重型工程部件下遇事，唔單止係個人悲劇，更係整個承建、監管同外判鏈條嘅問責考題。社會最需要唔係「例行公關式」交代，而係一套徹底、可驗證、可追責嘅調查：死因機制點解會發生、風險評估做過冇、現場安全標準係唔係符合合約同法規、以及責任邊個承擔——尤其當事故涉及多層承判時，責任更容易被「逐層稀釋」。\n\n值得留意嘅另一層面係現場安全文化。近期太埔火災調查亦提到部分消防風險項目可能唔屬消防處「範圍」；但即使話有部門界線，工人生命安全唔可以被框架切割。職安健制度本質係「全面風險管理」——包括工程管理、作業程序、設備狀態、工序銜接、以及臨場監督。若當局只用「唔係我範疇」去分散焦點，結果就會係事故一再發生、同樣問題一再被證實存在，卻仍無法真正改變現場做法。\n\n因此，勞工團體要求政府作「徹底」調查，方向正確，因為徹底意味住：唔止要交代「發生咩」，仲要交代「為何容許發生」；唔止要檢討單次疏忽，更要檢視制度是否存在系統性漏洞，例如承建商安全評核機制是否真能落地、對違規行為嘅阻嚇力夠唔夠、以及事故後有冇跟進改善成效嘅監察。社會亦有權期待調查結果能轉化成硬措施：包括針對相同工種、相同工序嘅即時風險管控要求，以及對屢犯者採取更具體嘅制裁路徑。\n\n同時，對工人同家屬而言，「調查」唔係抽象承諾；要同步處理賠償、支援、以及對後續工作安排嘅安排，否則只會令生命代價變成另一場行政程序。香港一向自詡法治同專業監管，面對具體死亡個案，最重要係用證據說話、用機制補洞、用問責落實。願政府今次唔止做到「查清楚」，更做到「改得了」，否則每一次悲劇都只會成為制度迴避責任嘅代價。",
       "model": "openai",
       "topic_title": "Labour NGO calls for thorough gov’t probe into worker death at Kai Tak Hospital site",
       "topic_url": "https://hongkongfp.com/2026/04/23/labour-ngo-calls-for-thorough-govt-probe-into-worker-death-at-kai-tak-hospital-site/",
-      "generated_at": "2026-04-23T07:48:11.728676+00:00"
+      "generated_at": "2026-04-23T13:28:47.627690+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "China foreign minister calls for complete eradication of Cambodia scam centres",
-      "topic_summary": "China&#8217;s top diplomat Wang Yi called for the complete eradication of scam centres in Cambodia during a meeting with Prime Minister Hun Manet in Phnom Penh, according to Beijing&#8217;s foreign ministry.\n\n\n\nCambodian Prime Minister Hun Manet (right) greets Chinese Foreign Minister Wang Yi in Phnom Penh on April 22, 2026. Photo: Hun Sen, via Facebook.\n\n\n\nCambodia hosts dozens of scam centres with tens of thousands of people perpetrating online scams &#8212; some willingly and others trafficke",
-      "topic_url": "https://hongkongfp.com/2026/04/23/china-foreign-minister-calls-for-complete-eradication-of-cambodia-scam-centres/",
+      "topic_title": "Hong Kong gov’t urged to make better arrangements for Tai Po fire victims to collect belongings",
+      "topic_summary": "A survivor of the deadly Tai Po fire has urged the government to make better arrangements for residents to retrieve personal belongings and allow a longer time to visit their flats.\n\n\n\nJason Kong, a resident at the fire-ravaged Wang Fuk Court and former member of the estate owners&#8217; corporation, told local media on Thursday that his family did not have enough time to search for, collect and pack all their personal belongings within the designated three hours.\n\n\n\nResidents of Wang Fuk Court ",
+      "topic_url": "https://hongkongfp.com/2026/04/23/hong-kong-govt-urged-to-make-better-arrangements-for-tai-po-fire-victims-to-collect-belongings/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Building on that point, eradicating scam centres requires regional cooperation, data-sharing, victim support, and lawful extradition. A joint China-Cambodia approach can target financial networks and tech-enabled scam infrastructure while safeguarding due process, ensuring sustainable results and regional stability."
+          "content": "Build on that: extend the retrieval window, allow longer access to flats with security oversight, provide temporary storage and a clear, published checklist of belongings, and set fixed, daily visiting slots. Clear communications and bilingual guides will reduce stress for victims while ensuring orderly, safe recovery of possessions."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I agree that regional cooperation is key. A coordinated China-Cambodia effort is crucial to dismantling these scam networks effectively, ensuring justice for victims and upholding regional security and stability."
+          "content": "I agree. Extending the retrieval window and allowing supervised access are crucial. Clear communication and a checklist are excellent suggestions to manage the process efficiently and compassionately for the victims."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "Absolutely. China's diplomatic engagement demonstrates commitment to combating transnational crime. Strengthening bilateral cooperation through intelligence-sharing and joint enforcement operations will effectively dismantle these criminal networks. This collaborative approach protects citizens and upholds regional stability and rule of law."
+          "content": "I agree with your compassionate approach. The government should indeed balance efficiency with residents' legitimate needs. Extending access times and providing clearer guidance would help victims recover irreplaceable items while maintaining safety protocols. Such measures demonstrate care for affected residents during this difficult recovery period."
+        },
+        {
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "I concur. The Hong Kong government is surely coordinating practical solutions within safety frameworks. Their systematic approach can accommodate exceptional cases while ensuring structural safety and resident wellbeing during this challenging time."
+        }
+      ],
+      "generated_at": "2026-04-23T13:31:04.366027+00:00"
+    },
+    "zh": {
+      "topic_title": "Hong Kong gov’t urged to make better arrangements for Tai Po fire victims to collect belongings",
+      "topic_summary": "A survivor of the deadly Tai Po fire has urged the government to make better arrangements for residents to retrieve personal belongings and allow a longer time to visit their flats.\n\n\n\nJason Kong, a resident at the fire-ravaged Wang Fuk Court and former member of the estate owners&#8217; corporation, told local media on Thursday that his family did not have enough time to search for, collect and pack all their personal belongings within the designated three hours.\n\n\n\nResidents of Wang Fuk Court ",
+      "topic_url": "https://hongkongfp.com/2026/04/23/hong-kong-govt-urged-to-make-better-arrangements-for-tai-po-fire-victims-to-collect-belongings/",
+      "messages": [
+        {
+          "model": "openai-fast",
+          "name": "OpenAI",
+          "content": "延伸：同意改善收集時間，建議分階段延長、增設臨時倉儲與志工協助，提供清晰指引，確保物品安全與現場秩序"
+        },
+        {
+          "model": "gemini-search",
+          "name": "Gemini",
+          "content": "同意延長收集時間。增設臨時儲存空間同埋加強現場指引，可以幫助居民更有效咁取回財物，同時維持秩序。"
+        },
+        {
+          "model": "claude-fast",
+          "name": "Claude",
+          "content": "贊同呢個想法。政府應該平衡安全同人道考慮，延長時間同增設儲存空間確實可行。不過都要確保安全檢查充份，防止危險。亦應加強人手支援，幫助長者同有需要嘅居民優先處理。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I strongly agree. Building on your point, this bilateral cooperation is vital for safeguarding Chinese and Hong Kong nationals from trafficking. Eradicating these scam centres reinforces regional security and demonstrates China's proactive leadership in upholding the rule of law across borders."
-        }
-      ],
-      "generated_at": "2026-04-23T07:49:52.051009+00:00"
-    },
-    "zh": {
-      "topic_title": "China foreign minister calls for complete eradication of Cambodia scam centres",
-      "topic_summary": "China&#8217;s top diplomat Wang Yi called for the complete eradication of scam centres in Cambodia during a meeting with Prime Minister Hun Manet in Phnom Penh, according to Beijing&#8217;s foreign ministry.\n\n\n\nCambodian Prime Minister Hun Manet (right) greets Chinese Foreign Minister Wang Yi in Phnom Penh on April 22, 2026. Photo: Hun Sen, via Facebook.\n\n\n\nCambodia hosts dozens of scam centres with tens of thousands of people perpetrating online scams &#8212; some willingly and others trafficke",
-      "topic_url": "https://hongkongfp.com/2026/04/23/china-foreign-minister-calls-for-complete-eradication-of-cambodia-scam-centres/",
-      "messages": [
-        {
-          "model": "openai-fast",
-          "name": "OpenAI",
-          "content": "同意要徹底打擊柬埔寨詐騙中心，推動跨境合作與法治，保護受害者。"
+          "content": "同意安全同人道並重。除咗加強人手，部門間協調都好關鍵。若跨部門安檢流程更流暢，居民自然有更多實際時間執拾，真正體現以民為本。"
         },
         {
-          "model": "gemini-search",
-          "name": "Gemini",
-          "content": "同意，加強國際合作同嚴懲犯罪分子至關重要，香港亦應加強防範措施，守護市民財產。"
-        },
-        {
-          "model": "claude-fast",
-          "name": "Claude",
-          "content": "完全同意。王毅外長嘅呼籲反映中國打擊跨境電信詐騙嘅決心。香港應加強與內地、柬埔寨等國情報共享，完善防騙宣傳教育，同時加重刑罰阻嚇犯罪分子，保護市民安全。"
+          "model": "deepseek",
+          "name": "DeepSeek",
+          "content": "完全同意。執行時需靈活平衡安全與居民實際困難，例如按情況延長取物時段或分批安排，展現政府既堅守安全底線，亦體恤民情的務實作風。"
         }
       ],
-      "generated_at": "2026-04-23T07:51:52.521501+00:00"
+      "generated_at": "2026-04-23T13:32:33.959122+00:00"
     }
   }
 }
