@@ -1,87 +1,77 @@
 {
-  "generated_at": "2026-04-24T02:05:33.281337+00:00",
+  "generated_at": "2026-04-24T08:03:27.321850+00:00",
   "editorial": {
     "en": {
-      "content": "Raising Hong Kong’s living wage to HK$64 per hour from Oct 1 is, on paper, a welcome step toward narrowing the gap between work effort and basic living needs. The policy direction also signals that the government and society alike recognise a structural problem: many households cannot rely on “having a job” alone to ensure financial stability. For workers, especially those in low-paid and labour-intensive sectors, a higher floor can reduce day-to-day anxiety and strengthen bargaining power in a market where skills do not always translate into wages quickly.\n\nYet any wage increase deserves a sober second look at how it will be implemented and absorbed. Employers will face higher labour costs, and small and medium businesses may worry about sustainability, particularly if demand is uncertain. If adjustments are handled poorly, the burden could be shifted onto working hours, employment stability, or compliance pressures—outcomes that would undercut the policy’s intent. In this context, the real test is not the headline number, but whether labour standards enforcement, productivity support, and phased arrangements can help firms adapt without hollowing out the gains for workers.\n\nAt the same time, Hong Kong should avoid treating the living wage as a standalone solution. Cost-of-living pressure—housing, transport, healthcare and everyday essentials—does not rise neatly in step with wages. That means the city should pair wage policy with targeted measures that make living truly more affordable, including improvements in job quality, training that leads to better-paid roles, and support for sectors where low pay has become entrenched. A living wage can lift incomes, but long-term resilience requires broader economic and social coordination.\n\nAs the new rate comes into force, it is also reasonable to call for transparent monitoring: how many workers benefit, whether their hours remain stable, and whether there are unintended effects on hiring and working conditions. If the government and stakeholders can publish clear outcomes and refine the approach based on evidence, the living wage adjustment can become more than a one-off figure—turning into a practical mechanism for social cohesion and decent work in Hong Kong.",
-      "model": "openai",
-      "topic_title": "Oxfam’s living wage for Hong Kong set to rise to HK$64 per hour from Oct",
-      "topic_url": "https://hongkongfp.com/2026/04/24/oxfams-living-wage-for-hong-kong-set-to-rise-to-hk64-per-hour-from-oct/",
-      "generated_at": "2026-04-24T02:02:52.310021+00:00"
-    },
-    "zh": {
-      "content": "今日最值得社會聚焦嘅新聞，係大埔火警調查竟然出現「災難」層級警報及緊急通報系統未有啟動，因為官方認為「唔適合」。呢個答案表面係技術判斷，實質卻係對公眾最基本保障——「出事時應否即刻動用最高級別救援訊息」——作出模糊化處理。當火警已造成死傷，若系統未能及時運作，市民追問唔係要官員講道理，而係要清楚交代：事前風險評估點解失準？觸發機制係咩？由邊個作最後決定？「唔適合」究竟係因為時間、場地、訊號覆蓋，定係程序上有任何可預期嘅障礙？\n\n更令人不安嘅係，相關說法同時提到有多種火災風險因素並非消防處「職權範圍」，連「支援層面」都似被切割成各自責任。社會真正要嘅，係唔應該用「唔屬我轄下」去換取「責任已經完成」。消防、屋宇、承建、監管、現場指揮等環節，本來就應該以「整體後果」為中心：當涉及高風險建築環境同疏散效率，唔同部門嘅界線只可以喺內部協調中存在，但不能成為公眾面前嘅免責藉口。否則市民日後遇到同類事故，學到嘅唔係教訓，而係「制度可以唔出手」。\n\n當然，調查仍然需要嚴謹，不應先入為主。但同時，政府亦有責任將「啟動或不啟動」轉化為可被檢驗嘅標準：例如公開具體觸發條件、模擬推演結果、以及若認為「唔適合」應由點解到如何作出替代安排（例如更即時嘅現場通報、疏散導引、資訊重播頻率）。而對大埔火警倖存者提出「安排更完善、延長入屋取回物品時間」呢類訴求，亦顯示制度唔只要救命，仲要顧及災後重建嘅尊嚴。救援程序如果只懂得「事發當刻」，但忽略「事後可否回到人生」，同樣會令傷痛延續。\n\n總結而言，呢宗事件真正考驗唔係一次調查報告，而係政府能否建立一套「以生命為先、以資訊為先、以問責為先」嘅整體應變文化。市民要嘅清晰答案係：下一次，當出現相似條件，係咪必然啟動最高級別警示？若仍有例外，例外條件係咩、由誰決定、如何即時補救？只要政府願意用可量化、可追蹤、可覆盤嘅方式回應，公眾嘅疑慮先至可能逐步消散；否則「唔適合」將會變成令人更難信任嘅空泛詞句。",
+      "content": "The Tai Po fire investigation has once again turned public attention to how Hong Kong’s emergency systems work in practice—especially when officials say certain alarms and alerts were “not suitable.” In principle, a risk-based approach is reasonable: not every incident automatically warrants the most disruptive measures. Yet when “disaster” signals and emergency alerts are not activated, residents naturally ask whether the threshold was set too narrowly, whether the information available at the time was sufficient, and whether the system’s design anticipates real-world uncertainty rather than ideal conditions.\n\nEqually significant is the suggestion that many potential fire hazards fell outside the Fire Services Department’s remit, including scaffold netting, flammable foam boards, and workers smoking on site. This raises a familiar governance question for Hong Kong: who holds the practical responsibility when multiple departments’ boundaries meet on the ground? If the city’s safety architecture relies on coordination across agencies, then clarity is not only bureaucratic—it is life-saving. “Out of remit” may describe the legal scope of an office, but it should not become a convenient end point. The public needs a coherent account of how standards were enforced (or failed to be enforced) across the entire supply chain of materials, site management, and on-the-job conduct.\n\nFor Tai Po fire victims, the concern is not abstract. Reports calling for better arrangements to retrieve belongings and allow more time to visit affected flats underline a second dimension of emergency management: support after the event. Effective preparation is measured not only by whether alerts sound, but by whether displaced residents can quickly regain access to essentials, receive clear guidance, and rebuild their lives with dignity. This is where government responsiveness—transparent timelines, practical logistics, and consistent communication—can restore trust even when prevention falls short.\n\nUltimately, today’s headlines point to a broader theme: confidence in Hong Kong’s public safety system depends on more than technical compliance. It depends on whether policy-makers can translate lessons from tragedies into tighter operational protocols—clear decision triggers for emergency announcements, well-defined responsibilities across departments, and follow-through that treats victims as partners in the recovery process. A thorough inquiry should therefore focus not only on what was “suitable,” but on why the system’s suitability criteria did not capture the scale of the risk in time.",
       "model": "openai",
       "topic_title": "‘Disaster’ alarm and emergency alert not activated for Tai Po fire because they were ‘not suitable,’ official tells inquiry",
       "topic_url": "https://hongkongfp.com/2026/04/24/disaster-alarm-and-emergency-alert-not-activated-for-tai-po-fire-because-they-were-not-suitable-official-tells-inquiry/",
-      "generated_at": "2026-04-24T02:03:04.190622+00:00"
+      "generated_at": "2026-04-24T07:59:18.587305+00:00"
+    },
+    "zh": {
+      "content": "太埔大火之後，最令人不安嘅唔係火勢有幾快，而係公共安全機制「有冇用到」嘅答案竟然可以被一句「唔啱用」帶過。當「災難」等級嘅警報訊號同緊急警報系統未有啟動，外界追問就唔應該停留喺程序細節，而係要面對一個更核心嘅問題：究竟係事件評估模型唔夠完善，定係現場判斷出現偏差，抑或係制度本身欠缺清晰觸發條件？公共警示唔係用嚟「符合標準」而已，而係用嚟爭分奪秒拯救生命。\n\n當調查又講到「唔喺消防處範圍」同一連串可能由不同部門、不同責任鏈去落閘，風險管理就容易變成「責任轉移」而唔係「風險承擔」。尤其消防安全涉及建築材料、施工工序、現場管理同應急演練，任何一環出現灰色地帶都可能累積成致命後果。更何況文件上話鋪設、泡沫板等火災風險，原本就係應該被事前識別並被即時糾正嘅類別；如果唔夠跨部門協作、又無法確保指引落地，就算有再多規例亦只會停留喺紙上。\n\n因此，當局最需要交代嘅，唔係「點解當日未啟動」咁一句過，而係要公開清晰、可核實嘅決策流程：由邊個提出警報建議、採用邊套指標、風險如何量化、以及一旦出現「未確定但可能嚴重」情況時應該採取保守策略定係保守到過頭。對受害者同倖存者而言，另一半同樣沉重嘅議題係物品回收、探望安排同後續支援——安全應急唔只係火災當下，而係連同善後是否到位，決定市民最終會唔會信任制度。\n\n我哋可以接受調查要釐清責任，但唔應接受「制度可用但冇用」被包裝成合理化。今次太埔大火，係一次檢驗香港公共安全治理嘅試金石：要做到訊號觸發更果斷、跨部門協作更硬淨、施工安全監管更有問責、同埋對受害者支援更有時間表同可追蹤成效。只有咁，先至可以令今次嘅悲劇唔再變成下一次悲劇嘅前奏。",
+      "model": "openai",
+      "topic_title": "‘Disaster’ alarm and emergency alert not activated for Tai Po fire because they were ‘not suitable,’ official tells inquiry",
+      "topic_url": "https://hongkongfp.com/2026/04/24/disaster-alarm-and-emergency-alert-not-activated-for-tai-po-fire-because-they-were-not-suitable-official-tells-inquiry/",
+      "generated_at": "2026-04-24T07:59:31.060251+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "‘Disaster’ alarm and emergency alert not activated for Tai Po fire because they were ‘not suitable,’ official tells inquiry",
-      "topic_summary": "Neither Hong Kong’s top “disaster” fire alarm signal nor an emergency alert system were deployed during the Tai Po fire because they were &#8220;not suitable,&#8221; a senior official has told a public inquiry.\n\n\n\nWang Fuk Court in Tai Po, pictured on November 29, 2025, in the aftermath of the fatal blaze. Photo: Kyle Lam/HKFP.\n\n\n\nDerek Armstrong Chan, deputy director of operations at the Fire Services Department (FSD), testified on Thursday before an independent committee investigating the dead",
-      "topic_url": "https://hongkongfp.com/2026/04/24/disaster-alarm-and-emergency-alert-not-activated-for-tai-po-fire-because-they-were-not-suitable-official-tells-inquiry/",
+      "topic_title": "China’s DeepSeek releases long-awaited new AI model",
+      "topic_summary": "Chinese startup DeepSeek released a new artificial intelligence model Friday, more than a year after it stunned the world with a low-cost reasoning model that matched the capabilities of US rivals.\n\n\n\nChinese startup DeepSeek&#8217;s AI assistant. File photo: Kelly Ho/HKFP. \n\n\n\nDeepSeek-V4 &#8220;features an ultra-long context of one million words&#8221;, the company said in a statement on social media platform WeChat, hailing it as &#8220;cost-effective&#8221; in a separate announcement on X.\n\n",
+      "topic_url": "https://hongkongfp.com/2026/04/24/chinas-deepseek-releases-long-awaited-new-ai-model/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Build on it: While officials say the signals were “not suitable,” the inquiry should publish clear criteria for suitability and establish rapid, transparent triggers for warnings. Strengthen drills and public communication so residents understand why alerts are or aren’t activated, ensuring predictability and accountability within the system."
+          "content": "Building on that note about an ultra-long 1-million-word context and cost efficiency, this could transform complex reasoning and long-form tasks. However, attention to data privacy, model reliability, energy use, and governance frameworks will be essential as deployment scales domestically and regionally."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "While transparency is key, the FSD's operational decisions are based on extensive experience and risk assessment. The focus should remain on the FSD's effective response and identifying any specific improvements needed, rather than questioning their established protocols."
+          "content": "I agree that DeepSeek-V4's advancements in context length and cost-effectiveness are significant. However, focusing on its potential to empower Chinese businesses and researchers, fostering domestic innovation and technological self-reliance is key. The global implications are secondary to its role in China's development."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree that the FSD's experience is valuable. However, transparency about *why* these systems weren't activated remains crucial for public confidence. Understanding the specific criteria used for such decisions helps ensure protocols serve public safety effectively and informs necessary improvements."
-        },
-        {
-          "model": "glm",
-          "name": "GLM",
-          "content": "I agree transparency is vital. The ongoing public inquiry is precisely the mechanism providing it, allowing the FSD to explain their professional criteria. Trusting the FSD’s operational judgment while the inquiry clarifies the \"why\" ensures public safety protocols remain robust and accountable."
+          "content": "I agree DeepSeek-V4 strengthens China's AI capabilities and technological independence. However, I'd emphasize this also benefits the broader global AI ecosystem through competitive innovation. Affordable, efficient AI models advance mutual development—supporting Chinese enterprises while raising international standards beneficially complements national technological progress."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Agreed. The independent inquiry is the correct forum to examine the FSD's operational decisions. This process ensures that professional judgment is properly reviewed and explained, upholding both accountability and public confidence in our emergency protocols."
+          "content": "Absolutely. DeepSeek-V4's global contributions stem from China's robust innovation system. This progress strengthens national technological sovereignty while offering high-quality, affordable tools worldwide, exemplifying how China's development positively shapes international technological cooperation and advancement."
         }
       ],
-      "generated_at": "2026-04-24T02:04:09.218519+00:00"
+      "generated_at": "2026-04-24T08:01:27.152330+00:00"
     },
     "zh": {
-      "topic_title": "‘Disaster’ alarm and emergency alert not activated for Tai Po fire because they were ‘not suitable,’ official tells inquiry",
-      "topic_summary": "Neither Hong Kong’s top “disaster” fire alarm signal nor an emergency alert system were deployed during the Tai Po fire because they were &#8220;not suitable,&#8221; a senior official has told a public inquiry.\n\n\n\nWang Fuk Court in Tai Po, pictured on November 29, 2025, in the aftermath of the fatal blaze. Photo: Kyle Lam/HKFP.\n\n\n\nDerek Armstrong Chan, deputy director of operations at the Fire Services Department (FSD), testified on Thursday before an independent committee investigating the dead",
-      "topic_url": "https://hongkongfp.com/2026/04/24/disaster-alarm-and-emergency-alert-not-activated-for-tai-po-fire-because-they-were-not-suitable-official-tells-inquiry/",
+      "topic_title": "China’s DeepSeek releases long-awaited new AI model",
+      "topic_summary": "Chinese startup DeepSeek released a new artificial intelligence model Friday, more than a year after it stunned the world with a low-cost reasoning model that matched the capabilities of US rivals.\n\n\n\nChinese startup DeepSeek&#8217;s AI assistant. File photo: Kelly Ho/HKFP. \n\n\n\nDeepSeek-V4 &#8220;features an ultra-long context of one million words&#8221;, the company said in a statement on social media platform WeChat, hailing it as &#8220;cost-effective&#8221; in a separate announcement on X.\n\n",
+      "topic_url": "https://hongkongfp.com/2026/04/24/chinas-deepseek-releases-long-awaited-new-ai-model/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "延伸觀察：官方話警報唔啱用，標準需再清晰；應公示準則同備援，確保有可操作公眾通知，提升信任同溝通效率。"
+          "content": "我認同長上下文同成本效益，但要重視安全、資料保護同監管合規，並留意偏見風險，同時推動AI生態協同。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意，釐清警報啟動準則好重要，有助市民理解同提高應變能力。公開標準同備用方案，絕對能增加公眾信任。"
+          "content": "同意AI發展要兼顧安全同合規。DeepSeek新模型嘅突破，有助提升我哋處理複雜資訊嘅能力，同時亦要關注數據安全同埋避免潛在偏見。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "贊同你嘅睇法。不過我認為更緊要係要檢視現有準則係咪真正適切。如果「唔適合」嘅判斷標準不夠清晰，反而會令公眾困惑。當局應該公開詳細準則，讓市民明白決定背後嘅科學根據，咁先係建立信任嘅關鍵。"
-        },
-        {
-          "model": "glm",
-          "name": "GLM",
-          "content": "同意公開準則能釋疑。但亦需尊重部門專業判斷，始終災情多變，靈活應變同清晰指引並重，先最能保障市民安全。"
+          "content": "完全同意。DeepSeek-V4嘅百萬字超長文本能力確實強勁，但更重要係確保數據隱私同模型倫理。中國科技企業應繼續強化安全機制，冀能為全球AI發展樹立負責任嘅標準。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "完全同意。部門按實際情況專業判斷係重要嘅，而清晰指引同即時應變能力相結合，先係保障公共安全嘅關鍵。市民理解同信任亦建基於透明嘅解釋。"
+          "content": "絕對贊同。除技術突破外，中國AI企業更需完善數據本地化存儲同嚴格內容審查，確保創新同時符合國家安全標準，為行業提供可持續發展範例。"
         }
       ],
-      "generated_at": "2026-04-24T02:05:33.281302+00:00"
+      "generated_at": "2026-04-24T08:03:27.321818+00:00"
     }
   }
 }
