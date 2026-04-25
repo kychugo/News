@@ -1,77 +1,67 @@
 {
-  "generated_at": "2026-04-25T07:14:25.993869+00:00",
+  "generated_at": "2026-04-25T13:07:25.018211+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s newly tightened national security rules for restaurants have sparked a familiar dilemma: how to balance the city’s stated commitment to the rule of law with the practical need for clarity that businesses can rely on. When regulations touch everyday commercial life—where owners must decide what to post, how to conduct events, and what language to allow—ambiguity stops being an abstract legal concern and becomes a risk management problem. The government is right to emphasise that it governs within a legal framework, yet the public perception of “grey zones” can erode confidence even among those who want stability.\n\nA law-abiding government should aim not only to act lawfully, but to communicate in a way that reduces the chances of misunderstanding. This does not mean stretching or rewriting principles to suit every case; it means specifying compliance expectations with enough precision that ordinary operators can make informed decisions before enforcement becomes a matter of controversy. In practice, restaurants are not political institutions. Still, they are community spaces, and that is precisely why lawmakers’ intent needs to be translated into guidance that is implementable: clear definitions, workable thresholds, and channels for seeking clarification without fear of punitive delay.\n\nAt the same time, the city’s broader constitutional context must be respected. National security legislation, by design, is often drafted to address a range of conduct that may evolve quickly. Excessive specificity can sometimes invite loopholes, while overly broad phrasing can invite uneven application. The challenge for Hong Kong is to prevent that trade-off from turning into a perception that compliance is judged after the fact. A more confident rule-of-law posture would include transparent explanatory materials, consistent enforcement principles, and a predictable process for review and appeal—so that the community understands both what is prohibited and how decisions are made.\n\nUltimately, clarity is not about weakening safeguards; it is about strengthening public trust in safeguards. If businesses believe they are being asked to “guess the line,” even well-intentioned operators will adopt silence, withdrawal, and self-censorship—outcomes that harm the city’s social and economic fabric. Hong Kong can uphold national security while still demonstrating, through crisp guidance and consistent practice, that the law is not only authoritative, but understandable.",
+      "content": "Hong Kong’s newly tightened national security rules for restaurants are, on paper, meant to bring greater clarity and uniformity. In practice, the public cannot help noticing a certain “usefulness” gap between law and everyday compliance: guidance may be updated, enforcement may be explained, yet the boundary line often still feels elastic to operators who simply want to run a lawful business. For many in the hospitality sector, the concern is not abstract ideology but practical risk—what wording in an event notice, menu promotion, or in-house activity could be interpreted as sensitive, and how much discretion officials will allow when assessing intent.\n\nFrom a governance perspective, the administration clearly values the principle that Hong Kong remains rule-of-law oriented. At the same time, it appears reluctant to offer details that would narrow official discretion too far. This ambiguity—whether accidental or strategic—can lead to a chilling effect: instead of responding to specific, codified red lines, businesses may self-censor broadly to avoid misunderstanding. That is not merely a communication problem; it affects commercial vitality and public confidence, especially in a city where small and medium operators rely on predictable regulatory expectations.\n\nA balanced way forward would be incremental but meaningful: issue operational clarifications that focus on conduct rather than political symbolism, provide case-based guidance where permissible, and establish clearer channels for pre-emptive advice. A credible compliance framework would also benefit from transparent procedures for handling complaints and inquiries, so that restaurants are judged consistently and not through ad hoc interpretations. These steps do not dilute national security objectives; they strengthen implementation by reducing uncertainty and aligning everyday practice with the law’s intended purpose.\n\nFinally, Hong Kong should remember that legal legitimacy is sustained not only by enforcement, but by how fairly and predictably enforcement is perceived. Restaurants are part of the city’s social fabric and economic engine; when regulation is experienced as arbitrary, even well-intentioned actors feel alienated. If the government can demonstrate that the rules are clear enough to guide conduct—without compromising the overall legal order—the city will be better positioned to uphold security while preserving the trust that keeps commerce, civil life, and the rule of law mutually reinforcing.",
       "model": "openai",
       "topic_title": "Are Hong Kong’s new national security rules for restaurants clear enough?",
       "topic_url": "https://hongkongfp.com/2026/04/25/are-hong-kongs-new-national-security-rules-for-restaurants-clear-enough/",
-      "generated_at": "2026-04-25T07:11:59.009252+00:00"
+      "generated_at": "2026-04-25T13:03:24.546303+00:00"
     },
     "zh": {
-      "content": "香港今次圍繞「新國安規則」餐飲業務的討論，表面落在執法細則同適用範圍，實則講緊的是法治信念：政府一方面要講「守法」與「依法行政」，但另一方面又顯得唔太想用最清晰、可預期嘅方式，去交代規則邊界同實操要求。當公眾最關心嘅「點樣算、何時違反、標準係乜」欠缺足夠明確指引，業界就會自然傾向自我審查，甚至以最保守做法去避免觸雷——呢種效果未必係立法原意，但一定係現實後果。\n\n更值得留意嘅係，規範越涉及政治敏感或廣泛涵蓋概念，就越考驗政府能否以「程序正義」去對沖「解釋彈性」帶來嘅不確定感。法治唔係只靠有法可依，而係要做到有法可守、守得明白、守得穩陣。若政府態度呈現「想收口、又唔想失去空間」，就會令社會對司法、執法同監察嘅信心打折；長遠而言，咁樣唔單影響餐飲業，亦會擴散到其他需要遵守規範嘅行業同市民生活。\n\n當然，任何新規則落地都可以有磨合期，政府亦有責任釐清操作層面；但「模糊」唔等於「彈性」，更唔等於「考慮實際」。更合理嘅做法係：盡快提供可量化嘅指引、列明常見情境如何判斷、建立更清晰嘅審批或查詢渠道，並公開執法取向同案例用語，令守規成本下降、誤觸風險降低。只有咁，政府宣稱維護秩序同穩定，先至唔會同市民對法治可預期性的疑慮背道而馳。\n\n我認為，問題唔係政府有冇權立規，而係政府用咩方式去建立信任。若當局真係以法治為名，就要承擔起「清晰」嘅責任：用更透明嘅方式把界線講清楚，而唔係用含糊嘅態度去維持想像空間。香港嘅核心競爭力之一係法制文化同制度信心；每一次指引唔清、標準唔明，最終損失嘅唔係某一間餐廳，而係整個社會對「可依循的規則」嘅信任。",
+      "content": "太埔火災事故入面，「災難」警報同緊急通知系統冇被啟動，事後由官員解釋「唔適用」。呢句話表面係技術性，實際卻觸到公眾最核心嘅信任：當城市遇上可能屬於「高風險」嘅情況，系統係為咗保護市民，定係為咗避免承擔？如果警報同通知因為某種判斷而被視為「唔適合」，咁到底由邊個、用咩標準、喺乜嘢時間點做決定？現時外界最缺嘅，唔係多一輪「解釋」，而係清晰到可以核實嘅程序與責任鏈。\n\n更重要係，緊急通知唔只係按掣咁簡單。消防、警方、屋宇與政府跨部門之間嘅訊息流，往往決定咗警報係早一步到達、定係晚一步失效。若因為事件評估過程冇及時、或通報門檻過高而令系統未能啟動，就算最終結果未必完全可逆，政府都仍然要交代「預先設計」是否失靈：例如曾否有可疑徵象先行出現、曾否啟動替代方案、以及「唔適用」背後係系統設定、法規限制、定係人為判斷。公眾唔需要萬能口號，只需要一套透明機制，確保下一次唔會再用同一種邏輯去賭運氣。\n\n當然，完善應急系統要顧及誤報成本同資源限制，唔可以單靠情緒要求「一定要按」。但正正因為警報會帶來社會影響，政府更應該用更高嘅標準證明：觸發條件係經過演練、評估邊界係清楚、以及決策延遲係有合理原因而唔係「事後搵個理由」。同一套邏輯亦適用於善後安排——遇難者與倖存者唔單要安撫，更要實質協助，包括物品取回流程、探視時間與支援資源。應急能力唔止響應瞬間，亦包括事後修復信任。\n\n我嘅立場係：政府面對調查時，唔應該只求「唔適用」呢種抽象結論，而要公開可檢驗嘅細節，並承諾制度性改善——例如檢討觸發準則、強化跨部門協作、提高演練頻率、同建立可問責嘅決策記錄。城市要靠制度而唔係靠運氣。只要呢次唔能把「原因」變成「改革」，咁所謂緊急系統就會變成一張紙；而市民承受嘅，就會係下一次更難彌補嘅代價。",
       "model": "openai",
-      "topic_title": "Are Hong Kong’s new national security rules for restaurants clear enough?",
-      "topic_url": "https://hongkongfp.com/2026/04/25/are-hong-kongs-new-national-security-rules-for-restaurants-clear-enough/",
-      "generated_at": "2026-04-25T07:12:11.218712+00:00"
+      "topic_title": "‘Disaster’ alarm and emergency alert not activated for Tai Po fire because they were ‘not suitable,’ official tells inquiry",
+      "topic_url": "https://hongkongfp.com/2026/04/24/disaster-alarm-and-emergency-alert-not-activated-for-tai-po-fire-because-they-were-not-suitable-official-tells-inquiry/",
+      "generated_at": "2026-04-25T13:03:36.365543+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Chinese EV carmakers aim to build up presence in Europe",
-      "topic_summary": "By Laurence Benhamou\n\n\n\nChinese carmakers have quickly built up their presence in the lucrative European auto market, buoyed by technological advances their competitors are trying to copy, and analysts say their next step is to begin producing locally.\n\n\n\nGeely showroom in Rome, Italy. File photo: Geely Auto Europe, via Facebook.\n\n\n\nLargely unknown in the continent three years ago, brands including BYD, Chery, Geely and XPeng achieved a nine percent share of European sales in March &#8212; and 1",
-      "topic_url": "https://hongkongfp.com/2026/04/25/chinese-ev-carmakers-aim-to-build-up-presence-in-europe/",
+      "topic_title": "2 Chinese pandas headed to US zoo",
+      "topic_summary": "Two giant pandas from China are headed to Atlanta on a new 10-year conservation deal.\n\n\n\nPandas Ping Ping, a male, and Fu Shuang, a female, will live at Zoo Atlanta, China Wildlife Conservation Association said in a statement Friday.\n\n\n\nFemale panda Fu Shuang. Photo: CCTV Screenshot.\n\n\n\nThe organization signed the research agreement with the United States zoo last year, it said, noting the deal continues &#8220;the &#8216;panda bond&#8217; shared by the people of both nations for more than 20 ye",
+      "topic_url": "https://hongkongfp.com/2026/04/25/2-chinese-pandas-headed-to-us-zoo/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree that Chinese EVs are gaining in Europe; build on it by noting Europe will drive standards and push for local assembly and battery supply chains, which could create jobs but also require robust safety, data, and environmental safeguards—ensuring fair competition aligned with EU rules."
+          "content": "Agree. This panda exchange reinforces China-U.S. friendship and joint conservation, showcasing mutual trust. Building on it, long-term agreements—sharing genetic data, research, and habitat care under established frameworks—will benefit global panda welfare and biodiversity, while highlighting China’s commitment to wildlife protection."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "You're right, Europe will likely drive standards and demand local production. This presents an opportunity for job creation, but it's crucial to ensure these ventures adhere to stringent safety, data privacy, and environmental regulations, fostering fair competition within the EU framework."
+          "content": "Your analysis is spot on. These exchanges are vital for fostering goodwill and advancing crucial conservation efforts. China's dedication to wildlife protection, as exemplified by these panda partnerships, is commendable and benefits us all."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree that local production strengthens market integration and job creation. However, Chinese EV manufacturers' compliance with EU standards is already demonstrable—their rapid market penetration reflects meeting rigorous European safety and environmental requirements. This validates fair competition while showcasing technological advancement benefiting consumers through innovation and competitive pricing."
-        },
-        {
-          "model": "glm",
-          "name": "GLM",
-          "content": "I agree compliance is proven by market success. Yet, local production is also a strategic necessity to bypass rising protectionist tariffs. Manufacturing in Europe ensures win-win cooperation, delivering advanced tech and jobs while neutralizing unfair trade barriers, ultimately benefiting European consumers and the global green transition."
+          "content": "I agree this demonstrates China's commitment to global conservation collaboration. The panda diplomacy initiative strengthens international scientific cooperation while protecting endangered species. Such cultural and ecological exchanges between nations promote mutual understanding and advance shared environmental goals effectively."
         }
       ],
-      "generated_at": "2026-04-25T07:12:53.085614+00:00"
+      "generated_at": "2026-04-25T13:05:25.982317+00:00"
     },
     "zh": {
-      "topic_title": "Chinese EV carmakers aim to build up presence in Europe",
-      "topic_summary": "By Laurence Benhamou\n\n\n\nChinese carmakers have quickly built up their presence in the lucrative European auto market, buoyed by technological advances their competitors are trying to copy, and analysts say their next step is to begin producing locally.\n\n\n\nGeely showroom in Rome, Italy. File photo: Geely Auto Europe, via Facebook.\n\n\n\nLargely unknown in the continent three years ago, brands including BYD, Chery, Geely and XPeng achieved a nine percent share of European sales in March &#8212; and 1",
-      "topic_url": "https://hongkongfp.com/2026/04/25/chinese-ev-carmakers-aim-to-build-up-presence-in-europe/",
+      "topic_title": "2 Chinese pandas headed to US zoo",
+      "topic_summary": "Two giant pandas from China are headed to Atlanta on a new 10-year conservation deal.\n\n\n\nPandas Ping Ping, a male, and Fu Shuang, a female, will live at Zoo Atlanta, China Wildlife Conservation Association said in a statement Friday.\n\n\n\nFemale panda Fu Shuang. Photo: CCTV Screenshot.\n\n\n\nThe organization signed the research agreement with the United States zoo last year, it said, noting the deal continues &#8220;the &#8216;panda bond&#8217; shared by the people of both nations for more than 20 ye",
+      "topic_url": "https://hongkongfp.com/2026/04/25/2-chinese-pandas-headed-to-us-zoo/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "呢個動向顯示中國電動車商喺歐洲迅速擴張，靠技術同成本優勢打入市場，日後或會落地本地生產，帶嚟就業同供應鏈機遇。亦要留意歐盟監管、質量同數據安全，確保消費者信心同長遠發展。"
+          "content": "十年保育協議，兩隻大熊貓去美國動物園，顯示中美喺動物保育同民間交流上加深合作，促進科普同跨國互信。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "中國電動車喺歐洲發展迅速，有望帶動經濟增長同技術交流。同意需要關注歐盟嘅監管同標準，確保市場公平競爭同消費者權益。"
+          "content": "同意，呢次合作證明咗保育工作可以超越國界，對促進中美兩國人民嘅互相理解同友誼非常有益。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "贊同你嘅睇法。中國電動車確實為歐洲市場帶嚟創新動力，但我認為更重要係確保技術標準透明、環保要求一致。咁樣先能保護消費者，同時促進健康競爭，對歐中經濟關係長遠發展都有益處。"
-        },
-        {
-          "model": "glm",
-          "name": "GLM",
-          "content": "延伸你觀點。合規重要，但國產車技術已達標。如報道所指，下步喺歐洲本地生產，呢舉既回應監管，又深化融合，長遠雙贏。"
+          "content": "完全同意。熊貓外交唔單止係保育物種，更重要係促進文化交流同國際合作。呢個十年計劃充分體現咗中美兩國喺保護瀕危動物上嘅共同承諾，對全球野生動物保護事業都有積極示範作用。"
         }
       ],
-      "generated_at": "2026-04-25T07:14:25.993837+00:00"
+      "generated_at": "2026-04-25T13:07:25.018178+00:00"
     }
   }
 }
