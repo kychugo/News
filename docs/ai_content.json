@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-25T13:07:25.018211+00:00",
+  "generated_at": "2026-04-25T19:06:18.073515+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s newly tightened national security rules for restaurants are, on paper, meant to bring greater clarity and uniformity. In practice, the public cannot help noticing a certain “usefulness” gap between law and everyday compliance: guidance may be updated, enforcement may be explained, yet the boundary line often still feels elastic to operators who simply want to run a lawful business. For many in the hospitality sector, the concern is not abstract ideology but practical risk—what wording in an event notice, menu promotion, or in-house activity could be interpreted as sensitive, and how much discretion officials will allow when assessing intent.\n\nFrom a governance perspective, the administration clearly values the principle that Hong Kong remains rule-of-law oriented. At the same time, it appears reluctant to offer details that would narrow official discretion too far. This ambiguity—whether accidental or strategic—can lead to a chilling effect: instead of responding to specific, codified red lines, businesses may self-censor broadly to avoid misunderstanding. That is not merely a communication problem; it affects commercial vitality and public confidence, especially in a city where small and medium operators rely on predictable regulatory expectations.\n\nA balanced way forward would be incremental but meaningful: issue operational clarifications that focus on conduct rather than political symbolism, provide case-based guidance where permissible, and establish clearer channels for pre-emptive advice. A credible compliance framework would also benefit from transparent procedures for handling complaints and inquiries, so that restaurants are judged consistently and not through ad hoc interpretations. These steps do not dilute national security objectives; they strengthen implementation by reducing uncertainty and aligning everyday practice with the law’s intended purpose.\n\nFinally, Hong Kong should remember that legal legitimacy is sustained not only by enforcement, but by how fairly and predictably enforcement is perceived. Restaurants are part of the city’s social fabric and economic engine; when regulation is experienced as arbitrary, even well-intentioned actors feel alienated. If the government can demonstrate that the rules are clear enough to guide conduct—without compromising the overall legal order—the city will be better positioned to uphold security while preserving the trust that keeps commerce, civil life, and the rule of law mutually reinforcing.",
       "model": "openai",
       "topic_title": "Are Hong Kong’s new national security rules for restaurants clear enough?",
       "topic_url": "https://hongkongfp.com/2026/04/25/are-hong-kongs-new-national-security-rules-for-restaurants-clear-enough/",
-      "generated_at": "2026-04-25T13:03:24.546303+00:00"
+      "generated_at": "2026-04-25T19:02:56.551065+00:00"
     },
     "zh": {
       "content": "太埔火災事故入面，「災難」警報同緊急通知系統冇被啟動，事後由官員解釋「唔適用」。呢句話表面係技術性，實際卻觸到公眾最核心嘅信任：當城市遇上可能屬於「高風險」嘅情況，系統係為咗保護市民，定係為咗避免承擔？如果警報同通知因為某種判斷而被視為「唔適合」，咁到底由邊個、用咩標準、喺乜嘢時間點做決定？現時外界最缺嘅，唔係多一輪「解釋」，而係清晰到可以核實嘅程序與責任鏈。\n\n更重要係，緊急通知唔只係按掣咁簡單。消防、警方、屋宇與政府跨部門之間嘅訊息流，往往決定咗警報係早一步到達、定係晚一步失效。若因為事件評估過程冇及時、或通報門檻過高而令系統未能啟動，就算最終結果未必完全可逆，政府都仍然要交代「預先設計」是否失靈：例如曾否有可疑徵象先行出現、曾否啟動替代方案、以及「唔適用」背後係系統設定、法規限制、定係人為判斷。公眾唔需要萬能口號，只需要一套透明機制，確保下一次唔會再用同一種邏輯去賭運氣。\n\n當然，完善應急系統要顧及誤報成本同資源限制，唔可以單靠情緒要求「一定要按」。但正正因為警報會帶來社會影響，政府更應該用更高嘅標準證明：觸發條件係經過演練、評估邊界係清楚、以及決策延遲係有合理原因而唔係「事後搵個理由」。同一套邏輯亦適用於善後安排——遇難者與倖存者唔單要安撫，更要實質協助，包括物品取回流程、探視時間與支援資源。應急能力唔止響應瞬間，亦包括事後修復信任。\n\n我嘅立場係：政府面對調查時，唔應該只求「唔適用」呢種抽象結論，而要公開可檢驗嘅細節，並承諾制度性改善——例如檢討觸發準則、強化跨部門協作、提高演練頻率、同建立可問責嘅決策記錄。城市要靠制度而唔係靠運氣。只要呢次唔能把「原因」變成「改革」，咁所謂緊急系統就會變成一張紙；而市民承受嘅，就會係下一次更難彌補嘅代價。",
       "model": "openai",
       "topic_title": "‘Disaster’ alarm and emergency alert not activated for Tai Po fire because they were ‘not suitable,’ official tells inquiry",
       "topic_url": "https://hongkongfp.com/2026/04/24/disaster-alarm-and-emergency-alert-not-activated-for-tai-po-fire-because-they-were-not-suitable-official-tells-inquiry/",
-      "generated_at": "2026-04-25T13:03:36.365543+00:00"
+      "generated_at": "2026-04-25T19:02:57.513160+00:00"
     }
   },
   "arena": {
@@ -38,7 +38,7 @@
           "content": "I agree this demonstrates China's commitment to global conservation collaboration. The panda diplomacy initiative strengthens international scientific cooperation while protecting endangered species. Such cultural and ecological exchanges between nations promote mutual understanding and advance shared environmental goals effectively."
         }
       ],
-      "generated_at": "2026-04-25T13:05:25.982317+00:00"
+      "generated_at": "2026-04-25T19:04:37.806348+00:00"
     },
     "zh": {
       "topic_title": "2 Chinese pandas headed to US zoo",
@@ -61,7 +61,7 @@
           "content": "完全同意。熊貓外交唔單止係保育物種，更重要係促進文化交流同國際合作。呢個十年計劃充分體現咗中美兩國喺保護瀕危動物上嘅共同承諾，對全球野生動物保護事業都有積極示範作用。"
         }
       ],
-      "generated_at": "2026-04-25T13:07:25.018178+00:00"
+      "generated_at": "2026-04-25T19:06:18.073483+00:00"
     }
   }
 }
