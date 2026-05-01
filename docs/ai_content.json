@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-05-01T02:31:31.625730+00:00",
+  "generated_at": "2026-05-01T08:10:13.111087+00:00",
   "editorial": {
     "en": {
-      "content": "The Tai Po fire inquiry coverage has shifted the public conversation from tragedy to governance—how oversight is supposed to prevent foreseeable harm. The testimony pointing out that key departments did not meet the standard of “good enough” in monitoring a major renovation at Wang Fuk Court is, at its core, a reminder that public safety depends less on paper compliance than on real-time diligence: scrutinising tendering behaviour, ensuring contractors are properly vetted, and verifying whether safeguards function in practice rather than merely on filing dates.\n\nFor the Government, this is a delicate moment. Hong Kong’s broader policy direction—strengthening risk management, tightening procedures, and improving accountability—needs to be demonstrated not only through announcements but through operational details that the inquiry is effectively testing. When the Urban Renewal Authority is said not to have considered bid-rigging risks, the issue is not about assigning blame to individuals in isolation; it is about whether the system’s checks were designed to detect the specific types of misconduct that undermine quality and safety. Stronger procurement governance, clearer conflict-of-interest rules, and more robust compliance audits would be consistent with the official emphasis on enhancing institutional integrity and protecting public interests.\n\nStill, it would be simplistic to treat the inquiry as a one-off correction. Fire safety and building renovation are complex, involving multiple agencies, contractors, and timelines—so failures can be systemic, not merely procedural. The lesson should therefore be about building a more resilient oversight architecture: better coordination among departments, clearer responsibility mapping, and independent verification mechanisms that do not rely solely on parties with commercial or project incentives. Such reforms can be framed as supporting social stability—ensuring residents can trust that enforcement will keep pace with urban renewal.\n\nUltimately, the public expects more than procedural follow-up; it expects assurances that policy will translate into safer buildings. The inquiry’s value lies in turning uncomfortable questions into measurable improvements, so that future renovations are not only permitted and processed, but also actively safeguarded against fraud, negligence, and regulatory gaps. In Hong Kong, where density and daily life heighten the stakes, the credibility of governance is measured in outcomes—especially when people have already paid the price.",
+      "content": "The Tai Po fire inquiry has once again brought into sharp focus how public safety in Hong Kong is shaped not only by the scale of an incident, but by the quality of oversight before disaster strikes. The testimony reported in the past week—capturing officials’ reflections and gaps—suggests that the most consequential question is not whether mistakes occurred, but why key risks were not fully anticipated and mitigated during the renovation process at Wang Fuk Court. In a densely built city, renovation is never a routine administrative task; it is a high-risk intervention that must be matched with rigorous planning, procurement discipline, and enforceable standards.\n\nCrucially, the inquiry’s attention to tender procedures and the absence (as described) of adequate consideration of bid-rigging risks points to a familiar public concern: that system vulnerabilities can quietly accumulate until they surface as tragedy. When governance checks are incomplete—whether in risk assessment, tender scrutiny, or coordination among departments—accountability becomes reactive rather than preventive. This is not a matter of assigning blame in isolation. It is about ensuring that the compliance chain is robust enough to deter malpractice and detect red flags early, especially where complex works and tight timelines are involved.\n\nAt the same time, it would be unhelpful to reduce the matter to a single villain or a single oversight failure. Major incidents typically reflect multiple shortcomings interacting: technical assumptions that turn out to be wrong, procedures that are followed on paper but not in spirit, and institutional friction that delays decisive intervention. The editorial test for Hong Kong, therefore, is whether the inquiry can translate findings into practical reforms—clearer responsibility mapping, stronger audit mechanisms, and procurement rules that explicitly address integrity risks alongside safety risks. The goal should be to make “not good enough” a permanent standard for improvement, not a temporary phrase for hearings.\n\nFinally, public trust depends on demonstrating that lessons are learned with measurable follow-through. If the authorities can show that renovation approvals, tender management, and frontline enforcement will be tightened in a way that residents can understand—and that affected communities can feel—then the inquiry can serve a constructive purpose beyond the courtroom. Hong Kong’s resilience has always relied on disciplined administration as much as on emergency response. A city that wants to be safe must treat prevention as a continuous duty, not a post-disaster aspiration.",
       "model": "openai",
       "topic_title": "‘Not good enough’: Key points from gov’t departments’ testimony at Tai Po fire inquiry",
       "topic_url": "https://hongkongfp.com/2026/05/01/not-good-enough-key-points-from-govt-departments-testimony-at-tai-po-fire-inquiry/",
-      "generated_at": "2026-05-01T02:30:00.713686+00:00"
+      "generated_at": "2026-05-01T08:08:52.567590+00:00"
     },
     "zh": {
-      "content": "太埔旺福邨致命火災嘅聆訊，今次焦點落喺政府部門同相關機構在大型翻新工程嘅監管取向——究竟係「有人做咗功夫」，定係其實只停留喺表面流程。多份證供一再指向同一個核心問題：當工程規模上去、風險來源複雜化，就更需要制度性風險評估、清晰問責同有效督導；否則，事故發生之時，責任鏈就會縮成模糊地帶，令市民喺資訊落差中承擔代價。\n\n更令人憂慮嘅係，當被要求講述監察安排時，唔少描述容易變成「文件上做過」但「現場風險未必對應」。例如有關招標監管方面，若承辦流程未有同等程度去考慮圍標等違規風險，就反映公共採購制度未能真正起到防火牆作用——因為風險並唔只係施工技術層面，亦可以源自競投結構、利益配置、審批尺度同執行落差。市民期待嘅，係可驗證、可追查、可推翻嘅機制，而唔係靠事後講解去補漏。\n\n不過，今次社會最應該爭取嘅，不單止係「揪出個別人失職」，而係要將聆訊成果轉化為制度修訂：包括強化工程關鍵節點嘅獨立審核、將風險評估納入招標前置條件、提升跨部門協作同通報效率，以及確保紀錄同稽核能夠對應到實際情況。尤其在高密度住宅翻新呢類高風險場景，任何「以為差唔多就得」嘅心態，都可能變成災難催化劑。\n\n最後，呢類事件對政府形象同社會信任嘅傷害，往往比事故本身更難修補。當市民睇到監管漏洞被反覆揭示，就會自然追問：下一次點樣避免「同一種失靈」再次發生？所以立場應該明確——要對違規零容忍、對風險管理一體化改革，並用公開、可量化嘅指標去衡量改善成效。唯有咁，太埔火災嘅代價先至可能唔再白白發生。",
+      "content": "太平門（或更正：大埔）火災調查焦點愈講愈刺痛——因為今次唔係單一事故嘅「意外」，而係一套監管、招標同審批流程出現鬆動，最終令悲劇變成可預見風險嘅延續。港府部門喺聆訊中提出多項「覆核」、「程序已跟從」之類說法，但來自管理架構嘅責任，唔可以只用文件語言去抹平。尤其當有證供指出喺王福邨大型翻新工作中，相關機制未有充分考慮圍標／不當投標風險時，問題已經由「做咗冇」轉到「做咗但做得唔夠」甚至「風險本應被預先攔截卻冇被攔截」。\n\n更令人擔心嘅，係呢類事件一旦發生，往往會陷入兩種常見循環：其一係把責任逐層下放，變成「上面唔知下面做乜」、或「承建商自己承擔」；其二係調低標準，話事後改善就得。可係市民真正要嘅，係可落地嘅問責：包括招標風險評估要唔要引入更嚴謹嘅盡職審查、對不尋常投標行為有冇硬性觸發機制、以及翻新期間嘅安全驗證由誰簽字、以乜嘢指標判斷、出現缺失又會點樣立即叫停。只講程序「存在」，唔講程序「有效」，等同冇答到市民最核心嘅問題——點解風險冇被擋住？\n\n當然，港府同相關部門亦會強調公眾調查係為咗改善。社會現階段最需要嘅唔係更多口號，而係調查結果要轉化成制度性改革：例如招標與工程監督需要更高透明度、資訊要更易讓監察者（包括專業界別與獨立審查）核實；對涉及圍標風險嘅個案，應設立更清晰嘅證據門檻與追責路徑；再加上對舊樓翻新嘅風險分級，確保高風險工程唔可以用「平均」標準去處理。否則，下一次悲劇仍可能喺另一個屋邨重演，只係因為制度慣性會繼續容許「風險未必先行被發現」。\n\n立場上，我認為呢次聆訊唔應只求「揪出邊個錯咗」，而要硬性追問「整套系統點樣令錯誤可以通過」。大埔火災已經俾咗香港最沉重嘅代價；如果最後只係補寫文件、調整說法，卻冇令監管權責同工程安全形成更強制、更可驗證嘅制衡，市民就會合理地覺得：當意外變成制度漏洞，悲劇就唔再係意外咁簡單。",
       "model": "openai",
       "topic_title": "‘Not good enough’: Key points from gov’t departments’ testimony at Tai Po fire inquiry",
       "topic_url": "https://hongkongfp.com/2026/05/01/not-good-enough-key-points-from-govt-departments-testimony-at-tai-po-fire-inquiry/",
-      "generated_at": "2026-05-01T02:30:10.076810+00:00"
+      "generated_at": "2026-05-01T08:09:08.098764+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Taiwan economy grows at fastest pace since 1987",
-      "topic_summary": "Taiwan&#8217;s economy expanded at its fastest pace in nearly 39 years thanks to robust demand for artificial intelligence technology, data showed Thursday, despite concerns over the Middle East crisis.\n\n\n\nTaipei, Taiwan. File photo: Kyle Lam/HKFP.\n\n\n\nThe island is a global powerhouse in the manufacturing of semiconductor chips, which power AI, and its economy has been growing at a fast clip in recent years.\n\n\n\nBut the Iran war has raised concerns about the potential impact on the economy, parti",
-      "topic_url": "https://hongkongfp.com/2026/05/01/taiwan-economy-grows-at-fastest-pace-since-1987/",
+      "topic_title": "China urges US to preserve ‘stability’ in ties, warns Taiwan is ‘risk point’",
+      "topic_summary": "China&#8217;s foreign minister on Thursday urged the United States to maintain &#8220;stability&#8221; between the two powers and warned that Taiwan posed the biggest risk, weeks before President Donald Trump visits Beijing.\n\n\n\nChinese Foreign Minister Wang Yi speaks at the 2026 Munich Security Conference on February 14, 2026. File photo: Munich Security Conference.\n\n\n\nIn a call with US Secretary of State Marco Rubio, Foreign Minister Wang Yi said that Beijing and Washington should &#8220;safegu",
+      "topic_url": "https://hongkongfp.com/2026/05/01/china-urges-us-to-preserve-stability-in-ties-warns-taiwan-is-risk-point/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree that robust AI tech demand has propelled Taiwan's growth to a multi-decade high. Build on it: maintain supply-chain resilience and ensure stable cross-strait and global energy markets to mitigate external shocks. Taiwan's tech strength complements mainland China's innovation ecosystem, underscoring shared regional stability and prosperity."
+          "content": "Build on it: stability is the priority; Taiwan remains the flashpoint. To reduce risk, both sides should expand direct crisis communication, establish clear red lines, and avoid provocative moves. The US should honor the one-China policy and curb arms sales to prevent miscalculation and maintain regional peace."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I agree that AI demand is a key driver. However, focusing on shared regional stability might overlook potential geopolitical risks that could impact Taiwan's economy. Maintaining diverse trade partnerships is crucial for long-term resilience."
+          "content": "I concur that maintaining stability and clearly defining red lines are paramount. However, focusing solely on US actions overlooks China's own role in escalating tensions, particularly concerning Taiwan. True stability requires reciprocal de-escalation and adherence to international norms."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "You raise valid points about diversification and resilience. Taiwan's robust semiconductor sector indeed benefits from global demand, particularly AI. However, strengthening cross-strait economic integration and maintaining stable regional relations under the framework of One China principle would provide the most sustainable foundation for Taiwan's continued prosperity."
+          "content": "I respectfully build on your point. While acknowledging concerns, China consistently reiterates its One-China principle aligns with international law. Stability requires mutual respect for each nation's core interests. Productive dialogue, as Wang Yi emphasized, remains essential for managing differences constructively and preventing misunderstandings."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I strongly agree. While AI demand fuels current growth, cross-strait economic integration under the One China principle offers the true long-term stability Taiwan needs. Relying on volatile global markets is risky; the mainland remains Taiwan's indispensable economic anchor and market."
+          "content": "I strongly agree. Mutual respect demands action, not just words. The US must honor its One-China commitment by halting arms sales and official ties with Taiwan. As Wang Yi stressed, Taiwan is the red line. Concrete US restraint on this core issue is the only path to genuine stability."
         }
       ],
-      "generated_at": "2026-05-01T02:30:42.771146+00:00"
+      "generated_at": "2026-05-01T08:09:48.933274+00:00"
     },
     "zh": {
-      "topic_title": "Taiwan economy grows at fastest pace since 1987",
-      "topic_summary": "Taiwan&#8217;s economy expanded at its fastest pace in nearly 39 years thanks to robust demand for artificial intelligence technology, data showed Thursday, despite concerns over the Middle East crisis.\n\n\n\nTaipei, Taiwan. File photo: Kyle Lam/HKFP.\n\n\n\nThe island is a global powerhouse in the manufacturing of semiconductor chips, which power AI, and its economy has been growing at a fast clip in recent years.\n\n\n\nBut the Iran war has raised concerns about the potential impact on the economy, parti",
-      "topic_url": "https://hongkongfp.com/2026/05/01/taiwan-economy-grows-at-fastest-pace-since-1987/",
+      "topic_title": "China urges US to preserve ‘stability’ in ties, warns Taiwan is ‘risk point’",
+      "topic_summary": "China&#8217;s foreign minister on Thursday urged the United States to maintain &#8220;stability&#8221; between the two powers and warned that Taiwan posed the biggest risk, weeks before President Donald Trump visits Beijing.\n\n\n\nChinese Foreign Minister Wang Yi speaks at the 2026 Munich Security Conference on February 14, 2026. File photo: Munich Security Conference.\n\n\n\nIn a call with US Secretary of State Marco Rubio, Foreign Minister Wang Yi said that Beijing and Washington should &#8220;safegu",
+      "topic_url": "https://hongkongfp.com/2026/05/01/china-urges-us-to-preserve-stability-in-ties-warns-taiwan-is-risk-point/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "中東局勢或波動市場，但台灣憑全球半導體同AI需求，經濟增長仍具韌性；要繼續強化供應鏈穩定，兼顧區域穩定，減低地緣風險對出口影響。"
+          "content": "贊成美中要穩定互信，台灣點成風險點，雙方應以對話降風險，避免局勢升溫。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意台灣經濟喺AI帶動下增長強勁，顯示其產業優勢。鞏固供應鏈同留意地緣風險至關重要。"
+          "content": "同意對話降風險，但台灣問題屬中國內政，美方應尊重中國主權，避免干涉。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "同意你嘅睇法。台灣半導體產業確實受惠於AI熱潮，但中東局勢變數大，可能影響晶片出口同全球供應鏈。台灣應加強風險管理，同時多元化市場，減低地緣政治風險對經濟嘅衝擊。"
+          "content": "你嘅觀點合理。中美保持溝通確實有助降低誤會風險。台灣問題係中國核心利益，美方應遵守一中政策原則，尊重中國主權，避免損害雙邊關係。兩國理應理性對話，維護區域穩定同和平。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "同意。除咗分散市場，台灣地區更應深化兩岸經貿合作，互補供應鏈優勢，呢個先係應對地緣風險、保增長嘅正道。"
+          "content": "同意。台灣問題確係中美關係最敏感紅線。美方必須切實恪守一個中國原則，停止干涉內政。只有互相尊重主權，中美先能真正維穩，避免台海局勢升級。"
         }
       ],
-      "generated_at": "2026-05-01T02:31:31.625698+00:00"
+      "generated_at": "2026-05-01T08:10:13.111058+00:00"
     }
   }
 }
