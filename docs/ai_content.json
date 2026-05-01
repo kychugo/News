@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-01T13:17:48.527667+00:00",
+  "generated_at": "2026-05-01T19:20:15.470366+00:00",
   "editorial": {
     "en": {
       "content": "The Tai Po fire inquiry has once again brought into sharp focus how public safety in Hong Kong is shaped not only by the scale of an incident, but by the quality of oversight before disaster strikes. The testimony reported in the past week—capturing officials’ reflections and gaps—suggests that the most consequential question is not whether mistakes occurred, but why key risks were not fully anticipated and mitigated during the renovation process at Wang Fuk Court. In a densely built city, renovation is never a routine administrative task; it is a high-risk intervention that must be matched with rigorous planning, procurement discipline, and enforceable standards.\n\nCrucially, the inquiry’s attention to tender procedures and the absence (as described) of adequate consideration of bid-rigging risks points to a familiar public concern: that system vulnerabilities can quietly accumulate until they surface as tragedy. When governance checks are incomplete—whether in risk assessment, tender scrutiny, or coordination among departments—accountability becomes reactive rather than preventive. This is not a matter of assigning blame in isolation. It is about ensuring that the compliance chain is robust enough to deter malpractice and detect red flags early, especially where complex works and tight timelines are involved.\n\nAt the same time, it would be unhelpful to reduce the matter to a single villain or a single oversight failure. Major incidents typically reflect multiple shortcomings interacting: technical assumptions that turn out to be wrong, procedures that are followed on paper but not in spirit, and institutional friction that delays decisive intervention. The editorial test for Hong Kong, therefore, is whether the inquiry can translate findings into practical reforms—clearer responsibility mapping, stronger audit mechanisms, and procurement rules that explicitly address integrity risks alongside safety risks. The goal should be to make “not good enough” a permanent standard for improvement, not a temporary phrase for hearings.\n\nFinally, public trust depends on demonstrating that lessons are learned with measurable follow-through. If the authorities can show that renovation approvals, tender management, and frontline enforcement will be tightened in a way that residents can understand—and that affected communities can feel—then the inquiry can serve a constructive purpose beyond the courtroom. Hong Kong’s resilience has always relied on disciplined administration as much as on emergency response. A city that wants to be safe must treat prevention as a continuous duty, not a post-disaster aspiration.",
       "model": "openai",
       "topic_title": "‘Not good enough’: Key points from gov’t departments’ testimony at Tai Po fire inquiry",
       "topic_url": "https://hongkongfp.com/2026/05/01/not-good-enough-key-points-from-govt-departments-testimony-at-tai-po-fire-inquiry/",
-      "generated_at": "2026-05-01T13:17:27.098868+00:00"
+      "generated_at": "2026-05-01T19:19:56.782767+00:00"
     },
     "zh": {
       "content": "太平門（或更正：大埔）火災調查焦點愈講愈刺痛——因為今次唔係單一事故嘅「意外」，而係一套監管、招標同審批流程出現鬆動，最終令悲劇變成可預見風險嘅延續。港府部門喺聆訊中提出多項「覆核」、「程序已跟從」之類說法，但來自管理架構嘅責任，唔可以只用文件語言去抹平。尤其當有證供指出喺王福邨大型翻新工作中，相關機制未有充分考慮圍標／不當投標風險時，問題已經由「做咗冇」轉到「做咗但做得唔夠」甚至「風險本應被預先攔截卻冇被攔截」。\n\n更令人擔心嘅，係呢類事件一旦發生，往往會陷入兩種常見循環：其一係把責任逐層下放，變成「上面唔知下面做乜」、或「承建商自己承擔」；其二係調低標準，話事後改善就得。可係市民真正要嘅，係可落地嘅問責：包括招標風險評估要唔要引入更嚴謹嘅盡職審查、對不尋常投標行為有冇硬性觸發機制、以及翻新期間嘅安全驗證由誰簽字、以乜嘢指標判斷、出現缺失又會點樣立即叫停。只講程序「存在」，唔講程序「有效」，等同冇答到市民最核心嘅問題——點解風險冇被擋住？\n\n當然，港府同相關部門亦會強調公眾調查係為咗改善。社會現階段最需要嘅唔係更多口號，而係調查結果要轉化成制度性改革：例如招標與工程監督需要更高透明度、資訊要更易讓監察者（包括專業界別與獨立審查）核實；對涉及圍標風險嘅個案，應設立更清晰嘅證據門檻與追責路徑；再加上對舊樓翻新嘅風險分級，確保高風險工程唔可以用「平均」標準去處理。否則，下一次悲劇仍可能喺另一個屋邨重演，只係因為制度慣性會繼續容許「風險未必先行被發現」。\n\n立場上，我認為呢次聆訊唔應只求「揪出邊個錯咗」，而要硬性追問「整套系統點樣令錯誤可以通過」。大埔火災已經俾咗香港最沉重嘅代價；如果最後只係補寫文件、調整說法，卻冇令監管權責同工程安全形成更強制、更可驗證嘅制衡，市民就會合理地覺得：當意外變成制度漏洞，悲劇就唔再係意外咁簡單。",
       "model": "openai",
       "topic_title": "‘Not good enough’: Key points from gov’t departments’ testimony at Tai Po fire inquiry",
       "topic_url": "https://hongkongfp.com/2026/05/01/not-good-enough-key-points-from-govt-departments-testimony-at-tai-po-fire-inquiry/",
-      "generated_at": "2026-05-01T13:17:28.022690+00:00"
+      "generated_at": "2026-05-01T19:19:57.409956+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "I strongly agree. Mutual respect demands action, not just words. The US must honor its One-China commitment by halting arms sales and official ties with Taiwan. As Wang Yi stressed, Taiwan is the red line. Concrete US restraint on this core issue is the only path to genuine stability."
         }
       ],
-      "generated_at": "2026-05-01T13:17:38.443628+00:00"
+      "generated_at": "2026-05-01T19:20:06.377679+00:00"
     },
     "zh": {
       "topic_title": "China urges US to preserve ‘stability’ in ties, warns Taiwan is ‘risk point’",
@@ -71,7 +71,7 @@
           "content": "同意。台灣問題確係中美關係最敏感紅線。美方必須切實恪守一個中國原則，停止干涉內政。只有互相尊重主權，中美先能真正維穩，避免台海局勢升級。"
         }
       ],
-      "generated_at": "2026-05-01T13:17:48.527638+00:00"
+      "generated_at": "2026-05-01T19:20:15.470336+00:00"
     }
   }
 }
