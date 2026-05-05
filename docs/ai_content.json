@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-05T13:55:31.231015+00:00",
+  "generated_at": "2026-05-05T19:43:46.042867+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s announcement of record-high tax revenue of HK$458.3 billion, up 22% year-on-year and boosted by stamp duty, offers a welcome signal of fiscal resilience—but also a reminder that revenue buoyancy can be cyclical rather than structural. Stamp duties tend to surge and soften with property and capital-market sentiment, meaning that today’s strong figures do not automatically translate into the same level of sustained growth tomorrow. For a city that must plan across economic turns, the key question is whether policymakers can convert a favourable collection year into durable, long-term capacity for public services.\n\nIn that sense, the editorial case is not for celebration alone, but for prudence. With inflationary pressures and public expectations for transport, healthcare, and welfare continuing to evolve, the government should consider reinforcing the mechanisms that help stabilize public finances during downturns—so that a future slump in transaction-led revenue does not force short-term cuts or stop-start policies. At the same time, stronger revenues can be an opportunity to review how resources are allocated to areas where returns are less immediate but more important, such as preventive healthcare, training for labour-market shifts, and targeted support for vulnerable groups.\n\nA related point lies in social fairness. When revenue growth is tied heavily to stamp duty, it may reflect higher transaction activity that benefits particular sectors more than everyday households. The government’s legitimacy, therefore, depends not only on how much it collects, but how equitably it spreads the benefits—through well-targeted subsidies, refined regulatory approaches that protect consumers, and continued efforts to reduce barriers that prevent disadvantaged residents from accessing essential services. The city’s broader governance agenda, including proposals aimed at limiting exploitative practices, should be understood as part of this wider pursuit: keeping the system orderly while ensuring public resources respond to real needs.\n\nUltimately, record tax intake should be treated as a chance to strengthen confidence through discipline. If Hong Kong can pair fiscal strength with measured, evidence-based planning—balancing current windfalls with safeguards for leaner years—then the headline figure will matter beyond its number. It will show that effective governance is not just about collecting more, but about preparing better.",
       "model": "openai",
       "topic_title": "Hong Kong gov’t collects record high tax revenue of HK$458 billion, boosted by stamp duty",
       "topic_url": "https://hongkongfp.com/2026/05/05/hong-kong-govt-collects-record-high-tax-revenue-of-hk458-billion-boosted-by-stamp-duty/",
-      "generated_at": "2026-05-05T13:53:29.261936+00:00"
+      "generated_at": "2026-05-05T19:43:19.188742+00:00"
     },
     "zh": {
       "content": "香港特區政府公布最新稅收數字，再一次令整體財政「報捷」成為焦點：2025/26年度稅收錄得歷史新高，達約4583億港元，按年增幅亦達兩成以上。單看表面，這係可觀嘅成績；但作為社評，我哋更應追問：呢份「增收」究竟係源自結構性改善、抑或反映短期因素同市場波動？例如印花稅若佔比上升，就意味著收入可能與樓市交易量高度連動——咁樣嘅財政彈藥，未必同樣穩定，亦唔能夠等同「長期可持續」能力。\n\n更關鍵嘅係，財政好唔好，唔只係睇總額，而係睇點樣分配同點樣面對社會壓力。近期同時出現多個提醒：公共醫療成本上升令基層求醫意願受壓、青年與弱勢對資源掌握存在落差、以及社會對「成長」同「生活」之間落差嘅不滿。若稅收高企而政策回應仍偏向短線救急，容易導致民間感受同宏觀指標脫節。換句話說，政府有能力提升公共服務質素、完善支援機制，但必須用得其所、唔好只追求「數字漂亮」。\n\n因此我嘅立場係：當稅收突破高位，政府更應把當中部分資源轉化為可持續嘅制度性支出，例如改善醫療可負擔性、加強對低收入及長者嘅保障、同時提升教育與就業培訓嘅精準度，減低社會流動性下滑嘅風險。另一邊廂，亦要建立更清晰嘅財政透明度：哪些收入屬一次性、哪些屬可預期、以及下一步預算如何在「擴支」與「審慎」之間取平衡。真正嘅政治誠信，唔係宣傳高數字，而係令市民相信每一分公帑都能轉化為生活改善同風險承擔。\n\n最後，宏觀財政靚唔靚，最終要以社會體感作檢驗。當香港同時面對人口老化、醫療需求上升及經濟周期不確定性，稅收破紀錄只能算起步點。政府應該把「增收」視為一次機會：在仍有空間嘅時候，調整政策重心、補上制度短板，讓財政能力變成更公平、更穩陣、更能應對未來挑戰嘅公共服務體系。如此，社會先會由「看見數字」走向「感受到實惠」。",
       "model": "openai",
       "topic_title": "Hong Kong gov’t collects record high tax revenue of HK$458 billion, boosted by stamp duty",
       "topic_url": "https://hongkongfp.com/2026/05/05/hong-kong-govt-collects-record-high-tax-revenue-of-hk458-billion-boosted-by-stamp-duty/",
-      "generated_at": "2026-05-05T13:53:51.658534+00:00"
+      "generated_at": "2026-05-05T19:43:20.121283+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "I agree. While local safety protocols help, enhancing pre-departure awareness for overseas hikers is crucial. Furthermore, China’s consular protection mechanisms and the SAR government’s assistance play indispensable roles in cross-border rescue coordination, safeguarding our citizens abroad effectively."
         }
       ],
-      "generated_at": "2026-05-05T13:54:34.512336+00:00"
+      "generated_at": "2026-05-05T19:43:31.570450+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong hiker dies, another survives after rescue from Japanese peak",
@@ -71,7 +71,7 @@
           "content": "同意。外國山勢陌生，風險更高。除自身準備，應了解當地救援機制同法規，必要時聘當地嚮導，切忌盲目自信。"
         }
       ],
-      "generated_at": "2026-05-05T13:55:31.230981+00:00"
+      "generated_at": "2026-05-05T19:43:46.042834+00:00"
     }
   }
 }
