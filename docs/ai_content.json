@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-07T14:09:25.841429+00:00",
+  "generated_at": "2026-05-07T19:48:37.922316+00:00",
   "editorial": {
     "en": {
       "content": "The Tai Po fire tragedy again exposes a familiar problem in Hong Kong’s governance of risk: what looks like a “technical” classification can become a decisive factor when things go wrong. According to the inquiry, a high-risk renovation project at Wang Fuk Court was treated as “minor works,” with no regular inspections. In a city that relies on dense, ageing buildings and frequent maintenance, the distinction between minor and high risk is not a bureaucratic detail—it is the difference between prevention and preventable disaster.\n\nWhat should draw particular attention is the apparent chain of judgment failures. If the scope was assessed wrongly, safeguards were either diluted or not applied at all; if oversight mechanisms were supposed to trigger attention at the right moments, they evidently did not. The admission reported in the inquiry that advance notice was given before site inspections—while seemingly offered as a procedural practice—raises a broader question about whether inspection regimes are designed to evaluate conditions as they truly are, rather than as they have been prepared to appear.\n\nAt the same time, it would be too simple to reduce the matter to blame or to treat it as merely the responsibility of individual actors. The deeper issue is whether the system for risk categorisation is sufficiently robust, transparent, and responsive to reality on the ground—especially for renovation works where fire, structural, and safety risks can escalate quickly. In a densely built environment, regulators and practitioners should have common standards for determining when “minor” becomes “high risk,” and when frequency of checks must increase accordingly.\n\nGoing forward, Hong Kong would do well to focus on practical reforms rather than symbolic gestures. That means tightening the criteria and documentation for project risk classification, ensuring inspections cannot be neutralised by advance arrangements, and strengthening accountability across the entire workflow—from assessment to contractor management to verification. When the cost of failure is measured in lives and long-term displacement, public trust depends on whether prevention is treated as a first-order priority, not an afterthought.",
       "model": "openai",
       "topic_title": "Tai Po fire: High-risk renovation project classified as minor works with no regular inspections, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/05/07/tai-po-fire-high-risk-renovation-project-classified-as-minor-works-with-no-regular-inspections-inquiry-hears/",
-      "generated_at": "2026-05-07T14:06:57.674055+00:00"
+      "generated_at": "2026-05-07T19:48:18.614265+00:00"
     },
     "zh": {
       "content": "太埔火警調查逐步揭開的，唔係單一場意外咁簡單，而係一套風險管理機制長期「失準」嘅縮影。今次焦點落喺：高風險翻新工程被劃作「輕微工程」，以致冇定期檢查、冇被嚴格盯緊；再加上有調查聽取到在檢查前曾向顧問單位「先行通知」，更令公眾警覺：監管制度到底係為咗保障生命安全，定係為咗把程序做齊就算？\n\n喺香港，政府一向強調工程分類、審批同巡查係制度化、專業化嘅安排；但當一宗火警爆出嚴重後果，調查卻指出分類錯配、檢查鬆手，問題就唔再係「個別疏忽」，而係牽涉整個系統嘅誘因同問責。分類若可以因為行政便利而向下調整，承建商同顧問自然會傾向選擇低成本、低監察風險嘅路徑；而一旦監管方對現場檢查採取可被預告嘅節奏，亦會削弱檢查嘅即時性與威懾力。公眾要追問嘅，係制度如何設計，令到「風險一旦被低估」就會有即時補救、而唔係等到悲劇發生先算。\n\n更值得關注嘅，係受影響住戶同屋苑營運之間已開始出現「長期安置與財務安排」嘅拉鋸：火警傷痛之餘，仲要面對未來安居方案嘅不確定性。政府當然有責任調查原因，但同樣重要係，調查結果必須轉化成清晰可落地嘅改善承諾——包括工程分類準則要由風險出發、巡查頻率及抽查應更貼近真實風險、以及任何影響監管公信力嘅做法都要徹底檢討。制度要變，亦要讓受影響人士感受到：程序唔再只係對外講得通，而係對內做得到。\n\n立場上，呢場調查唔應淪為「找一兩個負責人」咁了事，而係要做結構性改革，否則同類悲劇只會換個時空再發生。當政府接手調查、並承認相關安排曾影響檢查運作方式，下一步就必須承擔更高透明度同更嚴格後果：清楚交代責任鏈、加強獨立覆核機制、以及確保工程風險評估唔被行政分類「稀釋」。香港唔缺宣傳口號，缺嘅係一套能夠在最壞情況前就阻止災難發生嘅風險管治。",
       "model": "openai",
       "topic_title": "Tai Po fire: High-risk renovation project classified as minor works with no regular inspections, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/05/07/tai-po-fire-high-risk-renovation-project-classified-as-minor-works-with-no-regular-inspections-inquiry-hears/",
-      "generated_at": "2026-05-07T14:07:10.011510+00:00"
+      "generated_at": "2026-05-07T19:48:19.221117+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "I agree. Upholding licensing laws is vital for public order, but streamlining processes aligns with Hong Kong's push for a business-friendly environment. Clearer guidelines would help small cultural venues comply effortlessly, ensuring legal standards are met while fostering the city's vibrant cultural scene."
         }
       ],
-      "generated_at": "2026-05-07T14:07:52.690796+00:00"
+      "generated_at": "2026-05-07T19:48:28.562338+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong independent bookshop fined HK$6K for holding stand-up comedy show without licence",
@@ -71,7 +71,7 @@
           "content": "同意！依法規管保障秩序，清晰指引亦重要。當局加強宣傳發牌，可免小店誤踩紅線，助合規經營，平衡發展。"
         }
       ],
-      "generated_at": "2026-05-07T14:09:25.841397+00:00"
+      "generated_at": "2026-05-07T19:48:37.922281+00:00"
     }
   }
 }
