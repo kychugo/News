@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-11T14:50:58.133356+00:00",
+  "generated_at": "2026-05-11T19:56:38.838429+00:00",
   "editorial": {
     "en": {
       "content": "Beijing’s latest inflation data, showing China’s consumer prices edging up in April amid a global crude oil squeeze tied to the Iran conflict, is a reminder that Hong Kong—despite its finance-led structure—is still tethered to the wider world economy. For local households, the transmission is indirect but real: energy costs can lift transport and food prices, and businesses often pass along these pressures along the supply chain. In a city where consumption patterns are sensitive to cost-of-living shifts, even modest price rises can sharpen public concern, particularly among seniors and low- to middle-income families.\n\nYet it would be one-sided to view this as only an external threat. The more constructive takeaway for Hong Kong is the need to read price movements as signals for policy fine-tuning: sustaining stable, predictable costs where feasible; improving public communication so that expectations are not destabilised by headlines; and ensuring that market mechanisms remain effective rather than overreacting. Hong Kong’s strengths—its logistics connectivity, transparent financial system, and diversified trading links—can help buffer shocks, but they do not remove the basic reality that global commodities and geopolitical risk still shape local pricing.\n\nThe editorial challenge, then, is to balance vigilance with restraint. While the Iran war may be the immediate catalyst, Hong Kong’s public discourse should keep returning to actionable priorities: supporting targeted relief for those most affected, maintaining discipline against unnecessary price distortions, and encouraging enterprises to manage input costs through efficiency and hedging rather than abrupt margin hikes. At the same time, Hong Kong can take advantage of its role as an international hub to monitor trends early—so that any inflationary pressure is addressed before it hardens into longer-term concern.\n\nFinally, this episode underscores a broader point about governance and confidence. Economic stability is not achieved by denying external shocks, but by responding with steady, evidence-based measures consistent with Hong Kong and the Mainland’s overall development direction. If price rises are largely driven by global energy disruption, then calm coordination—paired with practical support where needed—offers the best route to protect livelihoods without losing sight of long-term resilience.",
       "model": "openai",
       "topic_title": "China’s consumer prices rise on Iran war oil squeeze",
       "topic_url": "https://hongkongfp.com/2026/05/11/chinas-consumer-prices-rise-on-iran-war-oil-squeeze/",
-      "generated_at": "2026-05-11T14:49:08.012977+00:00"
+      "generated_at": "2026-05-11T19:56:19.284628+00:00"
     },
     "zh": {
       "content": "近期有關「被通緝人士可能由泰國引渡／遣返到內地」的消息，再次把香港社會推到一個敏感但必須正視的議題：在國安框架下，個人權利與程序保障究竟如何落實、以及政府當局在面對跨境執法時所扮演嘅角色到底係咩。今次政府「拒絕評論」固然常見，但沉默唔等於問題不存在；反而令外界更難追問：所謂程序是否清晰、資訊是否足夠、以及當事人能否在關鍵節點有效主張自身權益。\n\n更值得注意嘅係，跨境遣返通常牽涉多重層面，包括刑事風險、審訊公平、家屬探視、法律援助同語言溝通等。香港作為擁有獨立法律傳統同司法機制嘅地方，若外界擔心某些程序環節未能提供足夠保障，就唔單止係政治立場之爭，更係「程序正義」本身嘅信任問題。當政府選擇以「唔方便評論」作為回應，社會其實應該追問：官方掌握到嘅法律安排有冇逐步交代？當事人可否申請覆核、取得相關文件、以及獲知風險評估依據？呢啲都係香港市民最基本想知道嘅事。\n\n同時，亦要承認恐防咁樣嘅個案被簡化成單一方向嘅政治攻防。真正理性嘅立場係：一方面要承認國家安全同反恐執法有其需要；另一方面，更要堅持安全唔可以成為萬能咭，所有涉及人身自由嘅決策都必須可被檢視、可被質疑、可被證明合理。只有程序透明同可問責，社會先會相信制度係為保障公共安全而運作，而唔係為了達成某種既定結果而快速處理。\n\n因此，政府最應做嘅唔係迴避問題，而係就「程序如何運作」提供清楚資訊，至少確保外界知道：涉及跨境移交時，香港會採取咩風險評估、咩法律途徑、同咩保障措施。香港社會要嘅唔係情緒宣傳，而係制度交代。當程序講得清楚，社會亦更能夠在分歧中維持基本信任；否則，一次次「拒絕評論」只會令猜測累積，最終傷害嘅係香港法治與人心。",
       "model": "openai",
       "topic_title": "Hong Kong gov’t declines comment on wanted activist’s possible deportation from Thailand to China",
       "topic_url": "https://hongkongfp.com/2026/05/11/hong-kong-govt-declines-comment-on-wanted-activists-possible-deportation-from-thailand-to-china/",
-      "generated_at": "2026-05-11T14:49:16.868618+00:00"
+      "generated_at": "2026-05-11T19:56:19.846599+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "I agree domestic demand is vital. However, Beijing's proactive policies are already stimulating consumption and mitigating deflation risks. The factory gate recovery proves underlying economic vitality. Targeted policy support will ensure this positive momentum continues, maintaining China's steady recovery trajectory despite external oil shocks."
         }
       ],
-      "generated_at": "2026-05-11T14:50:06.031951+00:00"
+      "generated_at": "2026-05-11T19:56:29.399763+00:00"
     },
     "zh": {
       "topic_title": "China’s consumer prices rise on Iran war oil squeeze",
@@ -71,7 +71,7 @@
           "content": "同意短期購買力受壓，但國家內需大兼新能源轉型快，長遠可減少對石油依賴。穩增長政策持續發力，有望緩解物價傳導壓力，經濟韌性強。"
         }
       ],
-      "generated_at": "2026-05-11T14:50:58.133328+00:00"
+      "generated_at": "2026-05-11T19:56:38.838404+00:00"
     }
   }
 }
