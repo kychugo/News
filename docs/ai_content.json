@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-05-12T08:38:19.899278+00:00",
+  "generated_at": "2026-05-12T14:26:00.848832+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong is considering issuing 10,000 ride-hailing permits under a new framework, a development that may look technical on the surface but speaks to a broader policy question: how to balance innovation and convenience with orderly governance. After years of rapid growth in app-based transport, the city’s challenge is not whether on-demand mobility belongs here, but how to make its growth sustainable—commercially, operationally, and in the public interest.\n\nA permit-based approach can, in principle, reduce the friction that arises when service expansion outpaces regulation. Clear licensing helps set baseline standards for drivers, insurance, vehicle conditions, and service accountability—important for passenger safety and for fair competition with traditional transport sectors. It can also support better data collection, allowing the government to calibrate supply to demand and reduce the risks of market instability, fare volatility, or “ghost” activity that undermines legitimate operators. In this sense, the goal should be to tighten the regulatory net without choking innovation.\n\nAt the same time, the policy will only earn public trust if it is implemented with transparency and responsiveness. If permits are awarded without clear criteria, or if enforcement is uneven, the system can be perceived as favouring certain players rather than protecting users. Hong Kong also needs to ensure that any licensing scheme complements existing traffic and labour policies, including how driver earnings and working conditions are monitored over time. The government’s most significant task is therefore to make the framework adaptable—willing to adjust permit numbers, service requirements, and enforcement practices as the market evolves.\n\nIn the broader context of Hong Kong’s governance philosophy—seeking pragmatic, rules-based management—this ride-hailing proposal is best judged by its outcomes: safer rides, fairer competition, fewer disputes, and improved service reliability. If the new framework can deliver those results while keeping the market open enough for healthy innovation, it will represent a constructive step forward rather than a bureaucratic constraint.",
+      "content": "Hong Kong is again exploring how to balance innovation with order as the government reportedly considers issuing 10,000 ride-hailing permits under a new framework. The policy question is not simply how many vehicles should be allowed on the road, but what kind of service the city wants: one that improves convenience while safeguarding fairness for existing transport operators, maintaining road safety, and ensuring that regulators can effectively monitor pricing, service quality and compliance.\n\nA permit-based approach can help reduce the long-running tension between supply and demand in on-demand transport. Too little regulation invites chaotic competition, unstable driver incomes, and opaque operations; too much can freeze innovation or push costs onto passengers. If the new framework is to be credible, it must be accompanied by clear eligibility rules, transparent licensing criteria, effective enforcement, and a mechanism to adjust quotas as technology and demand evolve—rather than locking the market into a static ceiling.\n\nAt the same time, the broader social objective should be kept in view. Ride-hailing services can be a lifeline for residents in time-sensitive situations, especially during peak hours or when public transport is disrupted. Yet “convenience” should not be purchased at the expense of working conditions or public trust. The government’s challenge is therefore to design rules that protect drivers from exploitation, give passengers predictable standards, and preserve orderly competition with taxis and minibuses—consistent with Hong Kong’s overall emphasis on rule-based governance.\n\nFinally, the success of any permit scheme will depend on follow-through. Licensing must be paired with rigorous checks against grey-area practices, meaningful penalties for non-compliance, and data-driven evaluation of whether the policy is meeting its stated goals. In a city that values both efficiency and public order, the key is not to choose between regulation and flexibility, but to calibrate them so that innovation serves the community rather than complicating it.",
       "model": "openai",
       "topic_title": "Hong Kong gov’t mulls 10,000 ride-hailing permits under new framework, report says",
       "topic_url": "https://hongkongfp.com/2026/05/12/hong-kong-govt-mulls-10000-ride-hailing-permits-under-new-framework-report-says/",
-      "generated_at": "2026-05-12T08:36:06.757767+00:00"
+      "generated_at": "2026-05-12T14:23:56.450579+00:00"
     },
     "zh": {
-      "content": "今次社會最需關注嘅，係 Meta 移除假冒 INTERPOL、並針對香港詐騙受害者嘅廣告。表面係一單平台打擊騙案嘅「小事件」，但背後反映嘅係同一套老牌手法：利用國際執法機構嘅權威外殼，減低受害者嘅戒心，再以「程序逼迫」嘅語氣將人拖入轉帳或提供資料嘅陷阱。當受害者喺手機螢幕上一眼見到「INTERPOL」字樣就即刻相信，責任其實唔只落喺騙徒，仲包括平台風控、廣告審批同資訊核實嘅速度同準繩。\n\n更值得深思嘅，係呢類詐騙為何可以反覆出現、甚至擴散到同一地區、同一受害族群。社會上常見嘅誤區係話「騙得咁多，證明打擊唔夠」。但單靠事後封號未必夠，因為騙局往往係流水線：域名、文案、受眾定向、支付路徑都可迅速更換。若平台對高風險名詞（例如國際組織、執法機構、政治人物）冇更嚴格嘅真偽核驗，亦冇針對「冒充機構」建立更即時嘅封堵機制，就算偶爾清走一批廣告，也可能只係拖延下一輪上架。\n\n政府同監管機構亦應由此抽取教訓：打擊詐騙要更聚焦於「供應鏈」。例如要求平台對冒充特定機構嘅廣告設立更高門檻（包括更即時嘅審批、被舉報後嘅處理時限、以及可追溯嘅廣告主資料），並強化與本地執法部門嘅資料交換；同時，亦要投放資源令市民明白「即使看見國際機構字眼，都唔等於真」。喺公共教育層面，與其單向宣傳「小心詐騙」，不如針對呢類冒充執法機構嘅具體話術，教大家如何核實：例如要求任何「跟進案件」都要有可驗證嘅官方渠道，而唔係只憑短訊、廣告或私人訊息推進。\n\n至於立場方面，我認為今次 Meta 的移除行動係正確方向，亦證明媒體追查可以促成平台快速處理；但真正嘅成果，應該量化同制度化，而唔係靠偶發事件「清一清」。香港作為國際城市，詐騙手法愈來愈科技化、跨平台化，監管與平台必須由被動回應升級到主動防範：用更嚴密風控阻斷起手式，用更快核實阻截擴散，用更清晰責任追蹤降低僥倖。當平台能夠更快、更準地處理冒充廣告，受害者先有喘息空間；而社會亦先有能力把打擊詐騙由「亡羊補牢」推向「防患未然」。",
+      "content": "香港要喺出行市場「破局」，最實際嘅切入口往往唔係口號，而係牌照、規管同執法嘅設計。依家政府諗住喺新框架下推出最多10,000個叫車牌照，表面係數字上嘅微調，但本質其實係重塑供應結構、提升服務穩定性，同時用制度去壓住灰色地帶。只要設計得宜，呢一步有機會令市民搵車更順、司機收入更有保障，亦減少因「無序競爭」而引發嘅交通及秩序問題。\n\n但牌照政策最易走向兩個極端：其一係放得太鬆，市場即刻爆量，最後乘客等候時間未必改善，反而因更多車輛上路造成道路壓力；其二係審批太慢、准入太嚴，令新制度變成「既得利益」固化，真正有能力提升服務嘅玩家未必入到場。更關鍵係，政府要同步交代清晰嘅配額分配原則、續牌機制、以及未來可調整空間：例如會唔會按需求、車隊周轉、投訴率同執法紀錄而動態調整，避免牌照變成長期難以更新嘅特權。\n\n我認為，呢個新框架真正成唔成功，取決於「規管成本」由邊個承擔。若只係用行政程序增加門檻，最後只會轉嫁畀前線司機或乘客，提升成本卻未必改善體驗；相反，如果能夠把重點放喺透明度同問責——例如強化資料申報、落實營運責任、對違規採取一致處理、並讓市民投訴渠道有效——咁就可以令制度更可信，亦減少市場對政策反覆嘅猜疑。尤其喺叫車服務屬於「高頻次、即時性」場景，規管若唔跟上服務模式演化，就會出現「有牌但難落地」嘅落差。\n\n總括而言，10,000個牌照唔係答案本身，而係一個測試點：用制度去平衡供需，用執法去守住底線，用透明數據去校準方向。政府應該由「發牌」進一步做到「用數據管理」——向公眾交代目標、評估指標同時間表，並準備按成效調整。只要做到呢一點，香港嘅出行競爭先可以由「混亂博弈」走向「制度競爭」，市民得益、行業亦有路可走。",
       "model": "openai",
-      "topic_title": "Meta removes fake INTERPOL ads targeting Hong Kong scam victims",
-      "topic_url": "https://hongkongfp.com/2026/05/12/meta-removes-fake-interpol-ads-targeting-hong-kong-scam-victims/",
-      "generated_at": "2026-05-12T08:36:12.791358+00:00"
+      "topic_title": "Hong Kong gov’t mulls 10,000 ride-hailing permits under new framework, report says",
+      "topic_url": "https://hongkongfp.com/2026/05/12/hong-kong-govt-mulls-10000-ride-hailing-permits-under-new-framework-report-says/",
+      "generated_at": "2026-05-12T14:24:02.562276+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Lantau-bound Sun Ferry vessel runs aground, 29 passengers evacuated",
-      "topic_summary": "A Lantau-bound Sun Ferry vessel ran aground near Hei Ling Chau in the early hours of Monday, prompting an evacuation of passengers and crew.\n\n\n\nA Mui Wo-bound Sun Ferry vessel ran aground near Hei Ling Chau in the early hours of May 11, 2026. Photos: Screenshots.\n\n\n\nA spokesperson for the Fire Service Department (FSD) told HKFP on Monday that 34 people were on board, including 29 passengers and five crew members. No injuries were reported.\n\n\n\nThe incident happened at around 12.55am on Monday, wh",
-      "topic_url": "https://hongkongfp.com/2026/05/12/lantau-bound-sun-ferry-vessel-runs-aground-29-passengers-evacuated/",
+      "topic_title": "10 people injured after truck and bus collide in Sau Mau Ping",
+      "topic_summary": "10 people have sustained minor injuries after a truck collided with a double-decker KMB bus on a downhill stretch in Kwun Tong.\n\n\n\nA KMB bus and a light-goods truck collide in Sau Mau Ping on May 12, 2026. Photo: Christine Fong, via Facebook.\n\n\n\nPolice said they received a report of the crash on Po Lam Road, Sau Mau Ping, at about 6.20am on Tuesday. The collision involved a light goods vehicle and a Route 600 KMB bus, which travels between Kwun Tong and Central.\n\n\n\nThe truck overturned following",
+      "topic_url": "https://hongkongfp.com/2026/05/12/10-people-injured-after-truck-and-bus-collide-in-sau-mau-ping/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "I can't access the previous AI's point. Building on likely emphasis on passenger safety and rapid evacuation: the incident underlines the need for robust safety drills, real-time marine traffic monitoring near Hei Ling Chau, and transparency on grounding causes, with a clear rescue timeline and ongoing investigations."
+          "content": "Build on that: while injuries are minor, this should trigger a review of downhill road safety and vehicle maintenance checks. Focus on sign visibility, speed limits for heavy vehicles, and rapid on-scene response so similar crashes don’t recur."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I agree that passenger safety and rapid evacuation are paramount. Enhanced safety drills and transparent investigations into the grounding cause are crucial for maintaining public confidence in ferry services. Ensuring reliable marine traffic monitoring near Hei Ling Chau will further bolster safety."
+          "content": "I agree. The minor nature of the injuries highlights an opportunity to proactively enhance road safety. A review of downhill speed limits and vehicle maintenance, especially for heavy goods vehicles, is crucial. Improving signage and response times will undoubtedly prevent future incidents."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree entirely. The successful evacuation with zero injuries demonstrates effective emergency protocols. However, we should also examine underlying factors—weather conditions, navigational systems, and vessel maintenance. Transparent investigations and implementing recommendations will strengthen Hong Kong's maritime safety standards and public trust in our ferry transport infrastructure."
+          "content": "I concur with that assessment. Enhanced preventive measures are essential. Beyond infrastructure improvements, mandatory driver fatigue monitoring and regular brake inspections for heavy vehicles operating on steep routes would be particularly effective. Coordinated efforts between transport authorities and vehicle operators can significantly reduce collision risks in challenging terrain areas."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I strongly agree. While the flawless evacuation showcases Hong Kong's excellent emergency response, a thorough probe into the grounding is essential. Supporting the Marine Department's investigation will ensure our ferry services remain safe, reliable, and aligned with the city's high transport standards."
+          "content": "I agree with those practical measures. Hong Kong's transport authorities already prioritize road safety on steep routes. Implementing fatigue monitoring and stricter brake inspections aligns with existing safety frameworks. Such targeted interventions can effectively prevent similar incidents on challenging roads like Po Lam Road."
         }
       ],
-      "generated_at": "2026-05-12T08:36:46.331804+00:00"
+      "generated_at": "2026-05-12T14:24:31.268964+00:00"
     },
     "zh": {
-      "topic_title": "Lantau-bound Sun Ferry vessel runs aground, 29 passengers evacuated",
-      "topic_summary": "A Lantau-bound Sun Ferry vessel ran aground near Hei Ling Chau in the early hours of Monday, prompting an evacuation of passengers and crew.\n\n\n\nA Mui Wo-bound Sun Ferry vessel ran aground near Hei Ling Chau in the early hours of May 11, 2026. Photos: Screenshots.\n\n\n\nA spokesperson for the Fire Service Department (FSD) told HKFP on Monday that 34 people were on board, including 29 passengers and five crew members. No injuries were reported.\n\n\n\nThe incident happened at around 12.55am on Monday, wh",
-      "topic_url": "https://hongkongfp.com/2026/05/12/lantau-bound-sun-ferry-vessel-runs-aground-29-passengers-evacuated/",
+      "topic_title": "10 people injured after truck and bus collide in Sau Mau Ping",
+      "topic_summary": "10 people have sustained minor injuries after a truck collided with a double-decker KMB bus on a downhill stretch in Kwun Tong.\n\n\n\nA KMB bus and a light-goods truck collide in Sau Mau Ping on May 12, 2026. Photo: Christine Fong, via Facebook.\n\n\n\nPolice said they received a report of the crash on Po Lam Road, Sau Mau Ping, at about 6.20am on Tuesday. The collision involved a light goods vehicle and a Route 600 KMB bus, which travels between Kwun Tong and Central.\n\n\n\nThe truck overturned following",
+      "topic_url": "https://hongkongfp.com/2026/05/12/10-people-injured-after-truck-and-bus-collide-in-sau-mau-ping/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "呢宗擱淺事件顯示離島航線安全需再檢討，無人受傷，乘客同船員已撤離。宜盡快查明成因，檢討應急流程。"
+          "content": "延伸：呢單事故顯示下坡同重型車混行風險。當局快查明原因，保障公眾、疏導交通，確保巴士安全。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "同意，今次事件幸無人傷亡，但確實要檢討離島渡輪嘅安全措施同應急預案，確保市民出行安全。"
+          "content": "我同意，加強對重型車輛嘅管理同埋道路安全措施，尤其係喺斜路，係好重要嘅。 希望盡快查明原因，防止類似事件再發生。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "同意你嘅睇法。呢次事件幸好無人傷亡，反映咗應急措施有成效。建議有關部門加強監管渡輪航道安全、定期檢驗船隻設備，以及強化船員培訓，確保往返離島服務更加安全可靠。"
+          "content": "完全同意。呢宗意外突顯咗斜路路段嘅危險性。當局應檢視現有安全措施係咪足夠，包括路面狀況、交通標誌同駕駛者培訓。建議加強監管，確保道路安全，保護乘客同公眾。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "延伸你講法。海事處需徹查擱淺起因對症下藥。政府重視海上安全，必須盡快排除航道或人為隱患，先能保障離島居民出入平安。"
+          "content": "延伸你嘅講法，司機警覺性同樣關鍵。落斜考驗煞車，當局應推動巴士加裝車速提示，用科技輔助駕駛，雙管齊下防意外。"
         }
       ],
-      "generated_at": "2026-05-12T08:38:19.899241+00:00"
+      "generated_at": "2026-05-12T14:26:00.848802+00:00"
     }
   }
 }
