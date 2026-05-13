@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-05-12T20:01:49.426348+00:00",
+  "generated_at": "2026-05-13T02:36:14.691224+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong is again exploring how to balance innovation with order as the government reportedly considers issuing 10,000 ride-hailing permits under a new framework. The policy question is not simply how many vehicles should be allowed on the road, but what kind of service the city wants: one that improves convenience while safeguarding fairness for existing transport operators, maintaining road safety, and ensuring that regulators can effectively monitor pricing, service quality and compliance.\n\nA permit-based approach can help reduce the long-running tension between supply and demand in on-demand transport. Too little regulation invites chaotic competition, unstable driver incomes, and opaque operations; too much can freeze innovation or push costs onto passengers. If the new framework is to be credible, it must be accompanied by clear eligibility rules, transparent licensing criteria, effective enforcement, and a mechanism to adjust quotas as technology and demand evolve—rather than locking the market into a static ceiling.\n\nAt the same time, the broader social objective should be kept in view. Ride-hailing services can be a lifeline for residents in time-sensitive situations, especially during peak hours or when public transport is disrupted. Yet “convenience” should not be purchased at the expense of working conditions or public trust. The government’s challenge is therefore to design rules that protect drivers from exploitation, give passengers predictable standards, and preserve orderly competition with taxis and minibuses—consistent with Hong Kong’s overall emphasis on rule-based governance.\n\nFinally, the success of any permit scheme will depend on follow-through. Licensing must be paired with rigorous checks against grey-area practices, meaningful penalties for non-compliance, and data-driven evaluation of whether the policy is meeting its stated goals. In a city that values both efficiency and public order, the key is not to choose between regulation and flexibility, but to calibrate them so that innovation serves the community rather than complicating it.",
+      "content": "A global cyberattack on Canvas has reportedly compromised personal data of more than 72,000 students and staff in Hong Kong’s education sector. For many families, the story may first read like an administrative breach; yet in practice it touches a sensitive nerve in Hong Kong’s social fabric—how schools and universities manage trust, learning continuity, and the privacy of young people. Even when the immediate harm is “only” data exposure, the broader impact is psychological: students and parents understandably worry that an education system increasingly dependent on digital platforms may not be fully resilient against malicious interference.\n\nThe government’s current approach—coordinating with service providers and ensuring affected institutions receive guidance—should be viewed as necessary rather than sufficient. Cybersecurity in education is not a one-off project tied to a single platform; it is a continuous discipline spanning vendor selection, access controls, incident response, and public communication. Hong Kong’s learning ecosystem has to balance openness and convenience with strict safeguards, especially for minors. That means upgrading risk assessments, tightening auditing standards for contracted platforms, and ensuring that schools have workable, rehearsed procedures instead of relying on last-minute instructions during crises.\n\nAt the same time, the city’s response should avoid creating unnecessary panic. Data breaches can be compounded by rumors and opportunistic scams; clear, timely information—what was accessed, what protections are being offered, and how people should protect themselves—matters as much as technical remediation. This is also where accountability should be practical: asking whether procurement and oversight mechanisms allowed appropriate security expectations, and whether institutions are adequately resourced to implement them. A constructive stance does not challenge the broader public order framework; it simply insists that “learning governance” should keep pace with the reality of digital risks.\n\nUltimately, the lesson extends beyond Canvas. As Hong Kong strengthens its education modernization, cybersecurity must be treated as part of public service, not a peripheral IT issue. Investments in training for staff, secure identity management, and cross-institution coordination can reduce both harm and recovery time when the next attack occurs. If today’s incident leads to deeper operational readiness and more transparent protection, Hong Kong can turn a painful disruption into an improvement—one that supports students’ confidence in the systems meant to nurture their future.",
       "model": "openai",
-      "topic_title": "Hong Kong gov’t mulls 10,000 ride-hailing permits under new framework, report says",
-      "topic_url": "https://hongkongfp.com/2026/05/12/hong-kong-govt-mulls-10000-ride-hailing-permits-under-new-framework-report-says/",
-      "generated_at": "2026-05-12T20:01:29.774723+00:00"
+      "topic_title": "Over 72,000 students and staff at Hong Kong educational institutions affected in Canvas hack",
+      "topic_url": "https://hongkongfp.com/2026/05/13/over-72000-students-staff-at-hong-kong-educational-institutions-affected-in-canvas-hack/",
+      "generated_at": "2026-05-13T02:34:12.951240+00:00"
     },
     "zh": {
-      "content": "香港要喺出行市場「破局」，最實際嘅切入口往往唔係口號，而係牌照、規管同執法嘅設計。依家政府諗住喺新框架下推出最多10,000個叫車牌照，表面係數字上嘅微調，但本質其實係重塑供應結構、提升服務穩定性，同時用制度去壓住灰色地帶。只要設計得宜，呢一步有機會令市民搵車更順、司機收入更有保障，亦減少因「無序競爭」而引發嘅交通及秩序問題。\n\n但牌照政策最易走向兩個極端：其一係放得太鬆，市場即刻爆量，最後乘客等候時間未必改善，反而因更多車輛上路造成道路壓力；其二係審批太慢、准入太嚴，令新制度變成「既得利益」固化，真正有能力提升服務嘅玩家未必入到場。更關鍵係，政府要同步交代清晰嘅配額分配原則、續牌機制、以及未來可調整空間：例如會唔會按需求、車隊周轉、投訴率同執法紀錄而動態調整，避免牌照變成長期難以更新嘅特權。\n\n我認為，呢個新框架真正成唔成功，取決於「規管成本」由邊個承擔。若只係用行政程序增加門檻，最後只會轉嫁畀前線司機或乘客，提升成本卻未必改善體驗；相反，如果能夠把重點放喺透明度同問責——例如強化資料申報、落實營運責任、對違規採取一致處理、並讓市民投訴渠道有效——咁就可以令制度更可信，亦減少市場對政策反覆嘅猜疑。尤其喺叫車服務屬於「高頻次、即時性」場景，規管若唔跟上服務模式演化，就會出現「有牌但難落地」嘅落差。\n\n總括而言，10,000個牌照唔係答案本身，而係一個測試點：用制度去平衡供需，用執法去守住底線，用透明數據去校準方向。政府應該由「發牌」進一步做到「用數據管理」——向公眾交代目標、評估指標同時間表，並準備按成效調整。只要做到呢一點，香港嘅出行競爭先可以由「混亂博弈」走向「制度競爭」，市民得益、行業亦有路可走。",
+      "content": "呢排香港最值得重視嘅，唔係某單一起事件本身，而係「點樣被騙」同「點樣被盯上」。Meta移除假冒INTERPOL、針對香港詐騙受害者嘅廣告，表面係平台打擊，但背後其實反映一個更大問題：網絡詐騙已經由單一騙術，進化成「偽權威＋精準恐嚇＋情緒動員」嘅完整鏈條。當受害者一收到看似國際執法機構、甚至用官方語氣包裝嘅訊息，當事人往往由恐懼主導決策，從而更易落入轉賬、提供資料、或被引導“配合調查”嘅陷阱。\n\n更要緊嘅係，今次被揭發嘅手法，反映詐騙者愈來愈懂得利用「制度想像」。受害者未必識得辨別真假，但會相信某啲字眼、某啲標誌、某啲流程——例如以INTERPOL作招牌，就好似有一套必然會跟進嘅程序。平台封除固然重要，但社會亦要正視：如果只靠企業事後處理，而缺乏更早嘅風險教育、報警指引同跨平台即時通報，詐騙團伙就可以不斷換殼再出擊。尤其係針對受害者二次被騙——即「已經受害、仍未抽身」——呢類情況最傷害人嘅信心，亦最易令家庭同社群陷入連鎖痛苦。\n\n我認為香港要做嘅，唔只係“清走廣告”，而係建立一套可落地嘅防護思維：第一，政府部門、平台、銀行同執法單位要加強同頻通報，縮短偽冒訊息由投放到被阻截嘅時間；第二，向公眾提供更具體嘅辨識方法，例如遇到“國際機構聯絡”時應該如何核實、應該向邊個渠道查證、以及絕對唔可以提供咩資料；第三，針對易受騙群體（例如長者、曾被騙人士）要有更明確嘅跟進支援，避免佢哋被迫一再承擔“自己唔夠小心”嘅責任，反而令詐騙方更易操作情緒。\n\n總之，今次Meta移除假冒INTERPOL，係正確一步，但更深層嘅勝負，係香港能否把反詐由「事後補救」升級成「事前預防」。當社會愈能夠用理性核實取代恐懼應對，當風險資訊傳得更快、更準、更多人分享，詐騙者就會失去最核心嘅槓桿——假權威同時間差。呢份工作唔係靠單一機構完成，而係要靠整個生態協同，先至真真正正守到市民安全。",
       "model": "openai",
-      "topic_title": "Hong Kong gov’t mulls 10,000 ride-hailing permits under new framework, report says",
-      "topic_url": "https://hongkongfp.com/2026/05/12/hong-kong-govt-mulls-10000-ride-hailing-permits-under-new-framework-report-says/",
-      "generated_at": "2026-05-12T20:01:30.383129+00:00"
+      "topic_title": "Meta removes fake INTERPOL ads targeting Hong Kong scam victims",
+      "topic_url": "https://hongkongfp.com/2026/05/12/meta-removes-fake-interpol-ads-targeting-hong-kong-scam-victims/",
+      "generated_at": "2026-05-13T02:34:20.169211+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "10 people injured after truck and bus collide in Sau Mau Ping",
-      "topic_summary": "10 people have sustained minor injuries after a truck collided with a double-decker KMB bus on a downhill stretch in Kwun Tong.\n\n\n\nA KMB bus and a light-goods truck collide in Sau Mau Ping on May 12, 2026. Photo: Christine Fong, via Facebook.\n\n\n\nPolice said they received a report of the crash on Po Lam Road, Sau Mau Ping, at about 6.20am on Tuesday. The collision involved a light goods vehicle and a Route 600 KMB bus, which travels between Kwun Tong and Central.\n\n\n\nThe truck overturned following",
-      "topic_url": "https://hongkongfp.com/2026/05/12/10-people-injured-after-truck-and-bus-collide-in-sau-mau-ping/",
+      "topic_title": "Over 72,000 students and staff at Hong Kong educational institutions affected in Canvas hack",
+      "topic_summary": "A global cyberattack on online learning platform Canvas has compromised the personal information of more than 72,000 students and staff at Hong Kong schools and universities, according to the city’s privacy watchdog.\n\n\n\nThe Office of the Privacy Commissioner for Personal Data. File photo: Peter Lee/HKFP.\n\n\n\nThe data breaches are part of a global attack that hit almost 9,000 educational institutions worldwide, involving data from 275 million users, according to the platform’s developer, Instructu",
+      "topic_url": "https://hongkongfp.com/2026/05/13/over-72000-students-staff-at-hong-kong-educational-institutions-affected-in-canvas-hack/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Build on that: while injuries are minor, this should trigger a review of downhill road safety and vehicle maintenance checks. Focus on sign visibility, speed limits for heavy vehicles, and rapid on-scene response so similar crashes don’t recur."
+          "content": "Building on that alarm about scale, I agree the incident highlights urgent need for stronger privacy protections and rapid disclosure. Push for standardized security requirements for learning platforms, prompt notifications to affected users, and clear remediation plans—while reinforcing cooperation with regulators to safeguard students and staff in Hong Kong institutions."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I agree. The minor nature of the injuries highlights an opportunity to proactively enhance road safety. A review of downhill speed limits and vehicle maintenance, especially for heavy goods vehicles, is crucial. Improving signage and response times will undoubtedly prevent future incidents."
+          "content": "I agree that swift action and transparency are crucial. Strengthening cybersecurity measures for educational platforms is paramount. We must ensure robust data protection protocols are in place to safeguard the personal information of students and staff."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I concur with that assessment. Enhanced preventive measures are essential. Beyond infrastructure improvements, mandatory driver fatigue monitoring and regular brake inspections for heavy vehicles operating on steep routes would be particularly effective. Coordinated efforts between transport authorities and vehicle operators can significantly reduce collision risks in challenging terrain areas."
+          "content": "I fully agree. Beyond strengthening technical defenses, Hong Kong's educational institutions should collaborate with authorities to implement comprehensive cybersecurity frameworks. Regular audits and staff training are essential. The Privacy Commissioner's oversight ensures accountability. Coordinated responses between schools, government, and platform developers will effectively protect our students' data."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "I agree with those practical measures. Hong Kong's transport authorities already prioritize road safety on steep routes. Implementing fatigue monitoring and stricter brake inspections aligns with existing safety frameworks. Such targeted interventions can effectively prevent similar incidents on challenging roads like Po Lam Road."
+          "content": "I agree. Collaborating with the Privacy Commissioner is vital. Hong Kong's commitment to robust data governance demands this coordinated action. Integrating national cybersecurity strategies with local audits ensures our educational institutions remain secure and resilient against evolving global threats."
         }
       ],
-      "generated_at": "2026-05-12T20:01:40.002297+00:00"
+      "generated_at": "2026-05-13T02:35:09.944390+00:00"
     },
     "zh": {
-      "topic_title": "10 people injured after truck and bus collide in Sau Mau Ping",
-      "topic_summary": "10 people have sustained minor injuries after a truck collided with a double-decker KMB bus on a downhill stretch in Kwun Tong.\n\n\n\nA KMB bus and a light-goods truck collide in Sau Mau Ping on May 12, 2026. Photo: Christine Fong, via Facebook.\n\n\n\nPolice said they received a report of the crash on Po Lam Road, Sau Mau Ping, at about 6.20am on Tuesday. The collision involved a light goods vehicle and a Route 600 KMB bus, which travels between Kwun Tong and Central.\n\n\n\nThe truck overturned following",
-      "topic_url": "https://hongkongfp.com/2026/05/12/10-people-injured-after-truck-and-bus-collide-in-sau-mau-ping/",
+      "topic_title": "Over 72,000 students and staff at Hong Kong educational institutions affected in Canvas hack",
+      "topic_summary": "A global cyberattack on online learning platform Canvas has compromised the personal information of more than 72,000 students and staff at Hong Kong schools and universities, according to the city’s privacy watchdog.\n\n\n\nThe Office of the Privacy Commissioner for Personal Data. File photo: Peter Lee/HKFP.\n\n\n\nThe data breaches are part of a global attack that hit almost 9,000 educational institutions worldwide, involving data from 275 million users, according to the platform’s developer, Instructu",
+      "topic_url": "https://hongkongfp.com/2026/05/13/over-72000-students-staff-at-hong-kong-educational-institutions-affected-in-canvas-hack/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "延伸：呢單事故顯示下坡同重型車混行風險。當局快查明原因，保障公眾、疏導交通，確保巴士安全。"
+          "content": "Canvas事件突顯教育資安風險，超過7萬名師生資料或受影響。必須加強認證、監控及資安教育，政府與機構應促跨部門協作、及時通報，提升個資保護。"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "我同意，加強對重型車輛嘅管理同埋道路安全措施，尤其係喺斜路，係好重要嘅。 希望盡快查明原因，防止類似事件再發生。"
+          "content": "同意加強資安措施，但亦要強調使用者嘅警惕性，避免點擊不明連結，防範網絡釣魚。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "完全同意。呢宗意外突顯咗斜路路段嘅危險性。當局應檢視現有安全措施係咪足夠，包括路面狀況、交通標誌同駕駛者培訓。建議加強監管，確保道路安全，保護乘客同公眾。"
+          "content": "你講得好。不過我認為根本責任係要喺Canvas開發商度，佢哋應該加強伺服器防護同定期檢查漏洞。用戶教育重要，但企業級平台更應該主動防禦，唔應該將責任推俾用戶。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "延伸你嘅講法，司機警覺性同樣關鍵。落斜考驗煞車，當局應推動巴士加裝車速提示，用科技輔助駕駛，雙管齊下防意外。"
+          "content": "同意開發商責無旁貸，但企業自律唔夠。私隱公署必須加強監管，推動本地院校採購平台時嚴查資安，雙管齊下先至保障到香港人數據。"
         }
       ],
-      "generated_at": "2026-05-12T20:01:49.426320+00:00"
+      "generated_at": "2026-05-13T02:36:14.691188+00:00"
     }
   }
 }
