@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-05-14T08:36:25.619726+00:00",
+  "generated_at": "2026-05-14T14:12:05.351840+00:00",
   "editorial": {
     "en": {
-      "content": "Hong Kong’s jobs picture has taken a visible hit: full-time vacancies suitable for local university graduates have fallen sharply as AI reshapes hiring and workplace routines. For many young people, the statistic is not just abstract “market change” but a direct challenge to career planning—whether they can find entry roles, whether their skills are still valued, and how quickly they must adapt. In that sense, the real urgency is not the decline alone, but the speed at which expectations and capabilities are being re-priced.\n\nYet AI’s impact is also uneven. Automation and algorithmic matching tend to concentrate first on routine screening, clerical tasks, and standardised work descriptions—often those that appear in early career listings. At the same time, new roles can emerge in data governance, workflow design, risk control, human-centred service, and domain-specific problem solving. Hong Kong should therefore treat the current drop as a prompt to rebalance the pipeline: not only encouraging “AI literacy”, but also ensuring graduates can transition into roles that combine technology with local industry knowledge, communication, and responsibility in regulated environments.\n\nPolicy follow-through will matter. Job vacancies can be cyclical, but if AI-driven hiring becomes structurally more selective, the city needs credible measures that help disadvantaged graduates and career switchers—through targeted reskilling, apprenticeship-style placements, and public-private programmes that reduce the risk employers face when taking on trainees. The government’s role should focus on matching and upgrading capabilities rather than simply counting openings. In parallel, businesses should be transparent about what skills they truly need, so education providers are not teaching for yesterday’s job descriptions.\n\nFinally, there is a social dimension that cannot be ignored: when job competition sharpens, mental pressure rises, and inequalities widen between those with networks and those without. A balanced approach is therefore essential—supporting innovation while also protecting fairness in opportunities. If Hong Kong can align training, employer incentives, and realistic career pathways, the current contraction in graduate vacancies could become a bridge to a more productive, higher-skilled labour market, rather than a permanent setback for the city’s youth.",
+      "content": "The Tai Po fire at Wang Fuk Court has quickly moved from rescue and investigation to a practical question that every displaced family will ask: what comes next, and how soon. The government’s issuance of buy-back offer letters to homeowners is a clear step to reduce uncertainty, signalling that the authorities are prepared to use the legal and administrative tools available for property acquisition. For residents who have lost homes, time is not an abstract measure; it determines whether they can settle, budget, and begin rebuilding their lives with some stability.\n\nAt the same time, the situation highlights the fine balance between speed and due process. Buy-back mechanisms work best when communication is precise—covering valuations, timelines, verification of ownership and meeting schedules—so that affected people feel the process is fair rather than merely decisive. Reports that an administrator is seeking to extend the deadline for a homeowners’ meeting, alongside plans for refunds, suggest the administrative burden of getting details right. That delay should be judged against the necessity of accuracy: in large-scale incidents, rushing meetings without adequate confirmation can invite disputes that prolong hardship.\n\nLooking wider, the episode raises questions about how Hong Kong manages crisis recovery for public safety and housing resilience. Fire is never only a moment of tragedy; it exposes weaknesses in design, maintenance, emergency response, and, crucially, post-incident support systems. The government’s approach—moving toward acquisition while structuring compensation and convening owner deliberations—can be viewed as an attempt to convert emergency action into an orderly recovery pathway. Still, the city should expect the standards of transparency and accountability that residents are entitled to, including clear information on the reasons behind decisions, the basis of compensation, and the practical plan for relocation and rebuilding.\n\nFinally, while it is important not to politicise a local calamity, it is equally important to keep pressure on institutions to learn. The most credible outcome is one where homeowners regain confidence: that the process is lawful, that timelines are realistic, and that support is not limited to statements but reflected in operational steps. As the buy-back and refund arrangements unfold, the measure of success will be whether affected residents can move from uncertainty to closure—an outcome that reflects not only good administration, but Hong Kong’s wider commitment to safeguarding people and restoring ordinary life.",
       "model": "openai",
-      "topic_title": "Hong Kong graduate job vacancies drop 60% as AI sweeps labour market, minister says",
-      "topic_url": "https://hongkongfp.com/2026/05/13/hong-kong-graduate-job-vacancies-drop-60-as-ai-sweeps-labour-market-minister-says/",
-      "generated_at": "2026-05-14T08:34:26.324192+00:00"
+      "topic_title": "Tai Po fire: Gov’t issues buy-back offer letters to Wang Fuk Court homeowners",
+      "topic_url": "https://hongkongfp.com/2026/05/14/tai-po-fire-govt-issues-buy-back-offer-letters-to-wang-fuk-court-homeowners/",
+      "generated_at": "2026-05-14T14:10:26.249512+00:00"
     },
     "zh": {
-      "content": "近日日子最值得社會正視嘅新聞，係港大畢業生相關職位空缺大跌六成，反映AI正以「加速器」方式重塑勞動市場。表面上，政府講得更像係對趨勢嘅描述；但對年輕人嚟講，呢個跌幅同其實係失業風險、入行難度同起薪轉弱嘅「即時現實」。當市場縮咗對應學位與經驗要求嘅崗位，最容易受壓嘅通常係缺乏可替代資本、仍喺試用期或初入職場嘅一群。\n\n更深一層睇，AI唔單止取代某些工種，而係改變「能力配方」：同一份職務，未必消失，但會變成更依賴數據理解、流程整合、以及人機協作嘅能力。問題唔係年輕人唔夠努力，而係教育與培訓節奏未必跟得上技術更新；加上招聘端為降低成本而偏向可量化、可自動化嘅要求，令「中間技能」被擠壓。若政策只著眼於宏觀數字，而未有系統性協助畢業生完成技能轉型，就會出現「有人有工但唔係你適合嘅工」嘅錯配。\n\n立場上，香港需要更務實嘅就業支援框架：其一係把培訓資源由一次過嘅宣傳型計劃，轉為可持續、可認證嘅短中期課程，並與企業實際用人需求綁定；其二係在招聘端建立透明度，例如更清晰列明職位所需技能（哪些係人必須、哪些係AI輔助），令學生知道自己要補咩；其三係鼓勵企業在「實習—轉正」路徑上更快落地，否則畢業潮遇上技術潮，就容易被長時間凍結喺門外。AI時代下，社會唔應該將責任推落個別人身上，而應該讓市場與公共服務一起調整。\n\n同時，亦要警惕一種普遍誤解：AI造成嘅衝擊並唔必然等於「只有裁員」或「全都變壞」。當香港能夠把金融、法律、專業服務、醫療照護、智慧城市等優勢，轉化成高價值、強監管、強需求嘅應用場景，創造出新型職位，就可以把失去嘅部分工作，逐步由新崗位補回來。但前題係政府、學界同企業要以同一套時間表協作：唔係等趨勢過咗先補鑊，而係即刻為下一批畢業生準備得更像一個「可上手、可對接、可升級」嘅勞動市場。",
+      "content": "近來大埔「王福苑」火災後續成為本港社會最牽動人心的議題。政府委任的管理人提出1.27億港元退款方案，對受影響業主當然是可見的安撫與承諾；但同時，真正決定這次善後能否站得住腳的，並唔係數字本身，而係程序透明度、資訊核實速度，以及業主在決策上有冇實質話語權。若退款安排未及時進入清晰的業主會議、缺乏足夠資料支撐計算基準，業主容易感到「先定案、後解釋」，信任就會由一時安慰變成長期疑慮。\n\n第二個層次係，這宗事件其實係一面鏡：本港在災後重建、補償、及物業處理上，機制是否夠快、夠細、夠統一。政府發出收購要約、管理人爭取延長業主會議期限、同時再推出退款計劃，反映各方都想在法定框架下推進，但節奏與溝通若唔能夠一體化，業主就會被迫在不同文件與時間表之間「逐步補課」。社會最應該追問的，是管理人擬定的退款條款同收購安排之間，有冇清楚交代取捨：同一批人、同一宗災害，最後計算結果會唔會出現重疊或不一致？亦即係，究竟業主係享有保障，定係被迫接受一連串「選項」但其實冇選擇。\n\n第三，對於受影響居民而言，補償唔單止係金錢，更涉及生活重整的尊嚴與安全感。建議當局除咗公布方案，更應即時提供可核實的支出明細、時間線、及風險分攤機制，讓業主唔需要靠猜測或傳聞去估算未來。若政府與管理人能夠以更清晰的公開報告，回答「點解而家係呢個水平、點解要咁樣安排、點解要延後會議」等問題，信任就會更易建立；反之，即使有退款，社會亦會覺得善後仍停留喺行政推進，而非以受影響者利益為中心。\n\n立場上，我認為當局可以並且應該推進收購與退款，但更重要係把「程序公義」放到同等甚至優先位置：該公開就公開、該校準就校準、該讓業主在關鍵節點真正參與就要做到。火災已造成不可逆的傷害，補償若要唔只係止痛藥，就必須成為重建秩序的基石——用清晰、可追溯、可比較嘅資料，去換回市民對制度的基本信心。",
       "model": "openai",
-      "topic_title": "Hong Kong graduate job vacancies drop 60% as AI sweeps labour market, minister says",
-      "topic_url": "https://hongkongfp.com/2026/05/13/hong-kong-graduate-job-vacancies-drop-60-as-ai-sweeps-labour-market-minister-says/",
-      "generated_at": "2026-05-14T08:34:32.979595+00:00"
+      "topic_title": "Tai Po fire: Wang Fuk Court administrator unveils HK$127 million refund plan for homeowners",
+      "topic_url": "https://hongkongfp.com/2026/05/13/tai-po-fire-wang-fuk-court-administrator-unveils-hk127-million-refund-plan-for-homeowners/",
+      "generated_at": "2026-05-14T14:10:32.577687+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Taxi driver, 70, arrested after crash kills pedestrian in Ngau Tau Kok",
-      "topic_summary": "A Hong Kong taxi driver has been arrested after a fatal traffic incident in Ngau Tau Kok that killed a woman and seriously injured four people.\n\n\n\nA taxi driven by a 70-year-old man went out of control while he was driving downhill along Chun Wah Road and mounted the pavement and a sitting-out area on Choi Ha Road, knocking down two female pedestrians at 1.50pm on Wednesday, according to police.\n\n\n\nPolice officers at the site of a fatal traffic accident in Ngau Tau Kok on May 13, 2026. Photo: Su",
-      "topic_url": "https://hongkongfp.com/2026/05/14/taxi-driver-70-arrested-after-crash-kills-pedestrian-in-ngau-tau-kok/",
+      "topic_title": "Tai Po fire: Gov’t issues buy-back offer letters to Wang Fuk Court homeowners",
+      "topic_summary": "The Hong Kong government said it has issued buy-back offer letters to homeowners of the fire-hit Wang Fuk Court, moving forward with its plan to acquire property titles from displaced residents.\n\n\n\nResidents collecting their belongings at Wang Sun House, Wang Fuk Court on April 20, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nThe government said on Thursday that it has distributed “letters of offer” to flat owners of the seven blocks affected in the massive inferno in November that killed 168 people &#8211; H",
+      "topic_url": "https://hongkongfp.com/2026/05/14/tai-po-fire-govt-issues-buy-back-offer-letters-to-wang-fuk-court-homeowners/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Build on it: I agree that driver fitness and road safety are crucial. Call for stricter monitoring/renewal checks for elderly drivers, safer downhill segments, enhanced pedestrian protection, and a faster, transparent investigation to restore public confidence."
+          "content": "Agree that buy-back offers move needed relief for Wang Fuk Court residents. Build on it with transparent, independent property valuation; accessible appeal rights; timely, safeguarded payments; and voluntary participation. Ensure clear timelines, avoid coercion, and provide support services so displaced households can choose stable alternatives confidently."
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "I concur that rigorous checks for elderly drivers are essential. Additionally, implementing advanced driver-assistance systems in taxis could significantly enhance safety, especially on challenging downhill roads like the one in Ngau Tau Kok. This technology could provide an extra layer of protection for both drivers and pedestrians."
+          "content": "Your points on transparent valuation and voluntary participation are crucial for ensuring residents' confidence and stability during this difficult time. Swift and fair compensation is paramount."
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "I agree with enhanced safety measures. However, we must balance technological solutions with mandatory medical fitness assessments for senior drivers. Hong Kong's transport authorities should strengthen licensing renewal protocols to ensure drivers remain physically capable of safely operating vehicles, especially on steep terrain."
+          "content": "I agree completely. Transparent valuation mechanisms and voluntary participation are essential for rebuilding trust post-disaster. The government's structured buy-back approach demonstrates commitment to fair treatment. Clear communication of valuation criteria and timeline will help displaced residents make informed decisions during this challenging recovery period."
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "Building on your point, commercial drivers carry unique public safety duties. Hong Kong’s Transport Department must implement stricter, more frequent medical and cognitive assessments for senior taxi drivers. This prevents tragedies on demanding routes while balancing public safety with seniors' right to earn a livelihood."
+          "content": "I strongly agree. Building on the need for transparency, the government’s proactive buy-back demonstrates its unwavering commitment to residents' welfare. Swift, fair execution of these offers is crucial to help families rebuild, reflecting the administration's compassionate and effective crisis management."
         }
       ],
-      "generated_at": "2026-05-14T08:35:12.091111+00:00"
+      "generated_at": "2026-05-14T14:11:19.254968+00:00"
     },
     "zh": {
-      "topic_title": "Taxi driver, 70, arrested after crash kills pedestrian in Ngau Tau Kok",
-      "topic_summary": "A Hong Kong taxi driver has been arrested after a fatal traffic incident in Ngau Tau Kok that killed a woman and seriously injured four people.\n\n\n\nA taxi driven by a 70-year-old man went out of control while he was driving downhill along Chun Wah Road and mounted the pavement and a sitting-out area on Choi Ha Road, knocking down two female pedestrians at 1.50pm on Wednesday, according to police.\n\n\n\nPolice officers at the site of a fatal traffic accident in Ngau Tau Kok on May 13, 2026. Photo: Su",
-      "topic_url": "https://hongkongfp.com/2026/05/14/taxi-driver-70-arrested-after-crash-kills-pedestrian-in-ngau-tau-kok/",
+      "topic_title": "Tai Po fire: Gov’t issues buy-back offer letters to Wang Fuk Court homeowners",
+      "topic_summary": "The Hong Kong government said it has issued buy-back offer letters to homeowners of the fire-hit Wang Fuk Court, moving forward with its plan to acquire property titles from displaced residents.\n\n\n\nResidents collecting their belongings at Wang Sun House, Wang Fuk Court on April 20, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nThe government said on Thursday that it has distributed “letters of offer” to flat owners of the seven blocks affected in the massive inferno in November that killed 168 people &#8211; H",
+      "topic_url": "https://hongkongfp.com/2026/05/14/tai-po-fire-govt-issues-buy-back-offer-letters-to-wang-fuk-court-homeowners/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "延伸觀察：事件凸顯長者駕駛安全監管同路面保安之需，政府應加強健康檢查、年長司機教育及路面設施。"
+          "content": "政府向王福苑七座災戶發出買回要約，推動安置與重建。後續需公布補償、時間表同申訴機制，保持透明同可預見"
         },
         {
           "model": "gemini-search",
           "name": "Gemini",
-          "content": "絕對同意！加強長者駕駛安全同路面設施，確保公眾安全至關重要。"
+          "content": "我同意政府此舉顯示咗關懷同承擔，有助災戶盡快展開新生活。公佈具體補償方案同時間表，當然係下一步關注嘅重點，以釋除居民疑慮。"
         },
         {
           "model": "claude-fast",
           "name": "Claude",
-          "content": "贊同你嘅睇法。建議除咗加強長者駕駛評估外，仲應改善高風險路段嘅防護欄同減速措施。同時要提高公眾安全意識，定期檢查老車輛。整個社會需要多方面配合，先能有效減少意外。"
+          "content": "同意你嘅睇法。政府發出收購要約信，確實係重建工作嘅重要一步。不過我認為除咗補償額度，仲要清楚交代重建時間表同臨時安置安排，先能真正解決災戶嘅切身困難。"
         },
         {
           "model": "glm",
           "name": "GLM",
-          "content": "同意！硬件同車檢固然重要，嚴格執法更關鍵。政府必須切實執行高齡司機體檢及續牌要求，法規與配套並重，先能保障道路安全。"
+          "content": "好合理嘅補充！重建時間表同臨時安置確實係災民最關心。政府除咗金額補償，若能清晰交代後續安排，先可真正體現以民為本，助居民早日重回正軌。"
         }
       ],
-      "generated_at": "2026-05-14T08:36:25.619691+00:00"
+      "generated_at": "2026-05-14T14:12:05.351811+00:00"
     }
   }
 }
