@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-20T15:20:15.212678+00:00",
+  "generated_at": "2026-05-20T20:25:08.896805+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s latest move to register about 11,000 subdivided-unit flats under a three-year grace period marks a pragmatic attempt to bring long-criticised housing practices into a clearer regulatory framework. For many residents, subdivided units have long been a last resort shaped by steep rents and limited options. The government’s approach—allowing time for landlords to comply—suggests an intention to avoid abrupt disruption while tightening standards step by step, rather than relying only on enforcement after the fact.\n\nStill, regulation alone will not solve the underlying affordability crisis. A grace period can be understood as a transition for safety upgrades and compliance, yet it may also inadvertently extend the lifespan of substandard living conditions if compliance criteria are weak or inspections inconsistent. The key question is whether the policy will meaningfully raise safety, ventilation, fire safety, and habitability across the city—or whether it will mainly formalise “temporary” arrangements that become semi-permanent by default.\n\nThere is also a delicate social balance to manage. On one hand, clearer registration can help the public and regulators map the scale of the problem and target improvements. On the other, households in subdivided units—many of whom are low-income—should not be treated as bargaining chips in a compliance process that results in sudden rent hikes or mass displacement. A humane transition would pair enforcement with safeguards: transparent timelines, support for safety upgrades, and monitoring to ensure that any regulatory cost does not simply get passed down to tenants without recourse.\n\nUltimately, the effectiveness of this policy will be judged by outcomes, not paperwork. If the grace period leads to measurable improvements in safety and living conditions, and if enforcement keeps pace with compliance, it can be seen as a constructive step consistent with the city’s broader goal of improving governance and protecting the wellbeing of residents. But if it becomes a bureaucratic pause with limited impact, Hong Kong will still face the same structural housing dilemma—one that regulation can manage, yet cannot fully replace.",
       "model": "openai",
       "topic_title": "11,000 subdivided units registered under 3-year grace period system as Hong Kong seeks to regulate shoebox flats",
       "topic_url": "https://hongkongfp.com/2026/05/20/11000-subdivided-units-registered-under-3-year-grace-period-system-as-hong-kong-seeks-to-regulate-shoebox-flats/",
-      "generated_at": "2026-05-20T15:18:04.093070+00:00"
+      "generated_at": "2026-05-20T20:24:49.528083+00:00"
     },
     "zh": {
       "content": "香港政府再向「國安特別基金」追加5 0億港元（自2020年以來第三次撥款），係一個足以牽動社會觀感嘅信號：一方面，當局以「提升能力」作為動機，強調資源落地；另一方面，資金規模愈來愈大，亦令公眾更關注——呢筆錢究竟用喺邊？如何衡量成效？以及最重要：在不透明與高度政治化的環境下，公共資源投向安全領域時，是否會不經不覺擴大寒意，令社會走向自我審查。\n\n從法治角度講，國家安全事務本身可以有合法治理空間；但社會信任唔會因為「出於良好意圖」而自動建立。資金層面的持續加碼，若未能配合清晰的監察機制、合理的目標設定同可理解的成果呈列，就容易被解讀為「政策需要資源」之外，仲包括「政治需要威懾」。當監察欠缺、資訊不足時，理性討論就變得更難，社會只能靠猜測去填補空白——而猜測一旦形成，往往會比事實更快、更持久。\n\n同時，國安議題亦牽連到香港「制度」與「生活」兩條主線：制度層面，法院、執法、檢控與監管如何運作，決定咗社會對法治一致性的感受；生活層面，公共空間、媒體運作、學術交流同公民參與嘅界線會否愈收愈緊，直接影響營商信心與人才流動。當基金持續擴容，而外界又難以取得足夠可核實嘅資訊，社會就會更傾向於把所有不確定都當作風險，最後帶來的是成本：成本不會只落喺某一群人身上，而係彌散成整體的怯化氛圍，令香港競爭力與開放度一起受壓。\n\n所以，較具建設性而同時具原則性的立場係：支持有效治理，但要求程序正義同資源透明。當局應該清楚交代基金用途分類、評估指標、年度審計結果，以及在保障安全同維護法治之間如何劃出可被公眾理解嘅界線。否則，今日追加的每一億港元，都可能唔再被視為單純的政策工具，而成為社會對「界線收緊」嘅又一個依據。香港要走得穩，唔只要安全，更要可信；唔只要能力，更要可問責。",
       "model": "openai",
       "topic_title": "Hong Kong gov’t adds HK$5 billion to national security fund – third allocation since 2020",
       "topic_url": "https://hongkongfp.com/2026/05/19/hong-kong-govt-adds-hk5-billion-to-national-security-fund-third-allocation-since-2020/",
-      "generated_at": "2026-05-20T15:18:11.624559+00:00"
+      "generated_at": "2026-05-20T20:24:50.166782+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "I agree wholeheartedly. The Fire Services Department's swift action ensured everyone’s safety. Building on your point, upgrading ventilation standards in commercial kitchens would prevent such smoke incidents, further protecting the community and maintaining Hong Kong’s public safety excellence."
         }
       ],
-      "generated_at": "2026-05-20T15:18:52.197274+00:00"
+      "generated_at": "2026-05-20T20:24:59.520843+00:00"
     },
     "zh": {
       "topic_title": "Smoke engulfs Kowloon Bay neighbourhood after kitchen fire at restaurant, 8 evacuated",
@@ -71,7 +71,7 @@
           "content": "完全同意！執法同罰則固然重要，但市民自救意識更關鍵。建議政府推廣「廚房安全必修課」，要求食肆員工定期培訓，由源頭減低火災風險。"
         }
       ],
-      "generated_at": "2026-05-20T15:20:15.212645+00:00"
+      "generated_at": "2026-05-20T20:25:08.896768+00:00"
     }
   }
 }
