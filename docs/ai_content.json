@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-21T15:25:35.208518+00:00",
+  "generated_at": "2026-05-21T20:01:46.836705+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s rapid deployment of the “water-pumping dragon” machines after heavy rainfall is a small but telling example of how the city is steadily shifting from reactive firefighting to more visible, systematic risk management. When the northern territories are hit by sudden downpours, the difference between minor disruption and major flooding often comes down to preparedness at the operational level—how quickly pumps are brought in, how drainage capacity is scaled up, and how the public is informed in time to reduce harm. In that sense, infrastructure and emergency response are not abstract “policy talk”; they are everyday resilience that residents can feel.\n\nStill, the appearance of advanced machinery should not be mistaken for a one-off solution. Climate variability is not something Hong Kong can “pump away” forever. As extreme weather patterns become more frequent, the effectiveness of drainage equipment depends on broader groundwork: maintaining canals and culverts, removing blockages, coordinating district-level plans, and continuously testing contingency procedures before storms arrive. There is also the question of how evacuation guidance and traffic control are calibrated in real time—whether the city’s communication channels and frontline decision-making can keep up with fast-changing conditions.\n\nThe same principle applies to public participation. Effective resilience is partly technical, but it is also behavioural: residents benefit when they know what to do when warnings are issued—where waterlogging hotspots tend to occur, how to respond to hazards, and how to avoid putting themselves at risk during cleanup. A city that leans on engineering alone may find its advantages eroded when public cooperation is weak or delayed. Conversely, when authorities pair hardware and logistics with clear, consistent guidance, the whole community becomes a partner in safety rather than merely an audience after the fact.\n\nAt a time when Hong Kong faces multiple pressures—from governance adjustments to social concerns—investing in practical, measurable capacity to handle flooding is both politically sensible and socially meaningful. The “water-pumping dragon” is a symbol of capability, but its real value will be judged by outcomes: fewer trapped commuters, less damage to livelihoods, and quicker recovery after each storm. That is the standard by which Hong Kong’s resilience should be assessed—steadily, transparently, and with an eye on long-term improvement.",
       "model": "openai",
       "topic_title": "Hong Kong deploys ‘water-pumping dragon’ machines to clear flooding after heavy rainfall",
       "topic_url": "https://hongkongfp.com/2026/05/21/hong-kong-deploys-water-pumping-dragon-machines-to-clear-flooding-after-heavy-rainfall/",
-      "generated_at": "2026-05-21T15:23:50.485713+00:00"
+      "generated_at": "2026-05-21T20:01:27.276605+00:00"
     },
     "zh": {
       "content": "今日最值得社會深思嘅，係香港政府喺大雨後部署「水泵龍」清淤排水嘅行動。城市治理最終靠嘅唔係口號，而係喺極端天氣來臨時，系統可唔可以「即刻啟動、有效運作、透明交代」。當北部地區遭受強降雨，若基建調度同應急機制能夠迅速落地，市民唔單止少咗受困風險，亦會更理解公共服務點樣喺平日投資，轉化成災害時嘅保障。\n\n不過，單靠短期抽排仍然唔夠。香港近年極端天氣頻率上升，排水能力亦要面向「未來」而唔係「事後補鑊」。包括渠網容量、清淤頻率、路面設計排水坡度、以及跨部門協作節奏，都應該由每次事故中可量化嘅數據去持續優化。所謂「水泵龍」嘅象徵性創新固然令人安心，但更重要係背後嘅科學評估：例如啟動門檻、覆蓋範圍、處理時間表、以及與天文預警訊號嘅聯動是否足夠精準。\n\n同時，亦要記住防災唔只係機械同工程，更係資訊同風險溝通。市民最想知嘅，係「我哋而家應唔應該移動？邊度會易積水？公共服務會唔會受影響？」若政府能夠喺天氣轉差時提供更清晰、可操作嘅指引（包括即時水浸路段資訊同撤離建議），就可以減少人為決策失誤，亦降低社會恐慌。這種可預見、可追蹤嘅治理透明度，正正係提升城市韌性嘅核心。\n\n最後，喺經濟與民生壓力之下，防洪排水同樣要視為長遠公共投資，而唔係按次數攞效果。當「水泵龍」把積水抽走，真正嘅考核應該延伸到：渠網是否能夠在下一次更嚴重降雨時承受得起？是否建立了可持續嘅維修保養與清淤制度？以及是否能夠把每次行動變成可量化嘅改善清單。只要政府把應急做得更快、更準，再把長期治理做得更實，香港先至可能喺風雨之中，同步守住安全與生活秩序。",
       "model": "openai",
       "topic_title": "Hong Kong deploys ‘water-pumping dragon’ machines to clear flooding after heavy rainfall",
       "topic_url": "https://hongkongfp.com/2026/05/21/hong-kong-deploys-water-pumping-dragon-machines-to-clear-flooding-after-heavy-rainfall/",
-      "generated_at": "2026-05-21T15:23:58.400847+00:00"
+      "generated_at": "2026-05-21T20:01:27.920961+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "Absolutely. The guilty plea underscores that Hong Kong's legal system upholds national security robustly. Defending the \"patriots only\" principle is crucial for stability, ensuring \"one country, two systems\" thrives without compromising sovereignty."
         }
       ],
-      "generated_at": "2026-05-21T15:24:58.299288+00:00"
+      "generated_at": "2026-05-21T20:01:37.314684+00:00"
     },
     "zh": {
       "topic_title": "Construction worker pleads guilty to distributing ‘seditious’ materials, including calls to boycott ‘patriots only’ polls",
@@ -71,7 +71,7 @@
           "content": "完全同意。法庭裁決彰顯法律公正，維護國家安全與社會穩定。任何煽動破壞選舉行為都必須承擔後果，支持「愛國者治港」原則。"
         }
       ],
-      "generated_at": "2026-05-21T15:25:35.208483+00:00"
+      "generated_at": "2026-05-21T20:01:46.836670+00:00"
     }
   }
 }
