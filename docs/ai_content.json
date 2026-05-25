@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-25T02:50:19.627180+00:00",
+  "generated_at": "2026-05-25T10:00:31.655963+00:00",
   "editorial": {
     "en": {
       "content": "As Hong Kong continues to confront persistent street-level crime, police drone patrols signal a pragmatic shift toward more immediate, scalable surveillance—especially in areas where incidents can erupt quickly and disperse just as fast. The sight described in today’s report—drones rising from police stations with high-capacity cameras and visible warning lights—reflects an operational logic: deter wrongdoing, improve situational awareness, and respond more effectively to calls for help. For residents weary of petty theft, scams, and harassment, the promise is not dramatic but real—greater coverage, faster follow-up, and potentially fewer opportunities for repeat offenders.\n\nYet the public’s lingering concern about privacy is not a mere technicality; it goes to the heart of how modern policing should earn trust. Drones, by their very nature, can hover, linger, and capture details beyond what ground patrols typically see. If safeguards are unclear—about what footage is collected, how long it is stored, who can access it, and what triggers review—then even well-intentioned use may feel like watching rather than protecting. In a city where daily life is dense and personal space is already limited, “effective policing” must also be “perceived as fair,” or the technology risks becoming a source of chronic unease rather than confidence.\n\nA balanced approach would therefore hinge on transparency and disciplined restraint. The police can continue to use drones where they add clear value, but they should also articulate standards: targeted deployments rather than blanket monitoring, strict data-retention limits, transparent complaint channels, and independent auditing where feasible. Just as importantly, visible safeguards—such as prominent notice in areas of operation and clear guidance on what counts as lawful footage review—can convert privacy worries into manageable expectations. This is not about weakening enforcement; it is about strengthening legitimacy, so that the community understands drones are tools with boundaries, not instruments without them.\n\nUltimately, Hong Kong’s task is to modernise public safety without normalising an atmosphere of surveillance. Drone patrols may help police keep pace with petty crime, but their long-term success depends on whether the public can see that every flight is governed by necessity, proportionality, and accountability. If those principles are consistently met and communicated, residents are more likely to view the sky above them not as an intrusive eye, but as an additional layer of protection—one that enhances security while respecting the privacy that underpins civic trust.",
       "model": "openai",
       "topic_title": "Eyes in the sky: Hong Kong police tackle petty crime with drone patrols, but privacy concerns linger",
       "topic_url": "https://hongkongfp.com/2026/05/25/eyes-in-the-sky-combating-petty-crime-with-drone-patrols-in-hong-kong/",
-      "generated_at": "2026-05-25T02:48:19.394783+00:00"
+      "generated_at": "2026-05-25T10:00:08.813023+00:00"
     },
     "zh": {
       "content": "近排香港警務處「以天眼打擊細罪」嘅訊號愈嚟愈清晰：由警署屋頂升上天嘅無人機，帶住高容量攝影鏡頭，配合閃爍警示燈，係要喺更大範圍內即時發現同遏止小偷小摸、聚賭滋事、以及街頭滋擾等情況。喺治安工作上，呢種技術確實可以提升威懾力，亦令警方更快掌握現場脈絡；尤其對於「難以追查但影響民生」嘅低層次犯罪，無人機巡邏或會係一個更具彈性嘅工具。\n\n不過，社會對私隱同監察權嘅憂慮同樣存在。因為無人機鏡頭所見，未必只係「可疑目標」，而係整個公眾空間；而當影像以數據形式儲存、調閱、流轉，風險就會唔止停喺「有冇睇錯」咁簡單。更關鍵係，香港市民對「技術用途」有期待，對「制度邊界」就更要保障：例如拍攝範圍如何限定、何時啟動同終止、影像保存期限、誰可以調閱、以及事後如何接受監督同追責。若透明度唔夠、程序唔清晰，市民感受到就會唔係「治安改善」，而係「被注視」。\n\n我哋認為，無人機巡邏可以用，但必須用得更「規矩」。警方要更主動交代操作原則，例如以公開指引清楚講明：一般情況下只做高空移動監察還是需要特定目標追蹤；資料只在調查期間使用定係長期保留；以及一旦涉及誤拍或無關影像，如何即時刪除同避免交叉使用。與此同時，亦要有獨立層面嘅監督機制，確保科技唔會變成「解決唔到政治監管就靠技術遮掩」嘅替代品；否則，治安效益可能同時帶來社會信任赤字。\n\n整體而言，今次最重要唔係「無人機有冇用」，而係「點樣用先至可信」。只要警方將個人資料保護、啟動門檻同問責制度落到可驗證嘅細節，市民先會明白：天眼唔係為監察而監察，而係為保障公共安全、減少犯罪成本。技術可以快，但底線一定要清楚；呢條底線守得穩，香港先可以在提升治安同維護私隱之間，找到真正可持續嘅平衡。",
       "model": "openai",
       "topic_title": "Eyes in the sky: Hong Kong police tackle petty crime with drone patrols, but privacy concerns linger",
       "topic_url": "https://hongkongfp.com/2026/05/25/eyes-in-the-sky-combating-petty-crime-with-drone-patrols-in-hong-kong/",
-      "generated_at": "2026-05-25T02:48:25.621450+00:00"
+      "generated_at": "2026-05-25T10:00:09.685092+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "Absolutely agree. Hong Kong's legal framework ensures drones are used responsibly, balancing public safety with privacy. This innovation deters crime while respecting rights, reinforcing social stability. Well said."
         }
       ],
-      "generated_at": "2026-05-25T02:49:16.509524+00:00"
+      "generated_at": "2026-05-25T10:00:21.156966+00:00"
     },
     "zh": {
       "topic_title": "Eyes in the sky: Hong Kong police tackle petty crime with drone patrols, but privacy concerns linger",
@@ -71,7 +71,7 @@
           "content": "完全同意。有私隱條例規管，警方依法執勤，科技應用只為公眾利益。關鍵係持續監察同透明運作，確保市民權益不受損。"
         }
       ],
-      "generated_at": "2026-05-25T02:50:19.627143+00:00"
+      "generated_at": "2026-05-25T10:00:31.655935+00:00"
     }
   }
 }
