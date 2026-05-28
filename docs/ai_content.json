@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-28T15:57:26.548488+00:00",
+  "generated_at": "2026-05-28T20:31:37.269657+00:00",
   "editorial": {
     "en": {
       "content": "The government’s plan to raise civil servants’ pay by up to 4.12% alongside an overhaul of the appraisal system in October signals an effort to balance stability in the public sector with renewed standards of performance. For the city’s workforce, pay adjustments are not merely a budgetary measure; they affect morale, retention, and the public’s confidence that services will remain reliable. At the same time, appraisal reform matters precisely because compensation without credible evaluation can weaken incentives and public trust.\n\nAn appraisal system, however redesigned, inevitably becomes a public-facing tool that shapes how residents experience the administration. If the revamp can make assessments clearer, fairer, and more closely tied to measurable outcomes—without eroding professionalism or pushing staff into box-ticking—it would be a constructive step. Hong Kong has long relied on an ethos of service and rule-based governance; reform should therefore aim at strengthening the link between effort and recognition while protecting staff from political overtones and workload volatility. The key will be how the government explains the criteria, handles appeals, and ensures that different bureaux and grades apply standards consistently.\n\nYet it is also important to acknowledge that appraisal reform can create anxiety if staff perceive it as a sudden change in “how success is judged.” The government must communicate early and transparently, provide guidance and training before October, and allow a reasonable transition period. For residents, the most persuasive outcome will be improved service quality—shorter waiting times, smoother case handling, and more accountable delivery—rather than the mere announcement of procedural tweaks.\n\nOverall, the pairing of a pay rise with appraisal revamp offers an opportunity to modernise the civil service in a pragmatic way: reward dependably, evaluate fairly, and keep the administration focused on public results. If implemented with clear metrics, consistent standards across departments, and a genuine channel for feedback, it can help Hong Kong maintain a capable workforce while reinforcing the credibility of public administration—an objective that aligns with the city’s long-term governance priorities.",
       "model": "openai",
       "topic_title": "Civil servants may get up to 4.12% pay rise as gov’t plans appraisal revamp in October",
       "topic_url": "https://hongkongfp.com/2026/05/28/civil-servants-may-get-up-to-4-12-pay-rise-as-govt-plans-appraisal-revamp-in-october/",
-      "generated_at": "2026-05-28T15:55:31.581069+00:00"
+      "generated_at": "2026-05-28T20:31:17.089544+00:00"
     },
     "zh": {
       "content": "公務員加薪、同時重整績效評核制度，表面係「待遇調整」同「制度優化」兩件事；但更深一層其實係政府想用更可量化、可追蹤嘅管理框架，去重塑行政系統嘅激勵結構與問責方式。若加薪能夠同員工嘅角色、專業投入及服務成效建立更直接嘅連繫，確實可以提升士氣、吸引人才，亦減少以往只靠資歷、而難以反映實際貢獻嘅失衡。\n\n不過，績效評核一旦「翻修」，就唔只係調一兩個指標咁簡單，而係會影響每個部門、每個職系，甚至日常決策嘅行為模式。公共服務同私營公司最大分別在於：成效唔一定即時、唔一定全都可量化，亦常常要處理不可預見風險同跨部門協作。要避免出現「為數字而做事」——例如傾向挑易量化嘅任務、忽略長期基建或難度較高但對市民更關鍵嘅工作——政府就必須確保評核設計透明、申訴機制有效、同且避免評價權過度集中於單一層級。\n\n另外，加薪同評核制度嘅時序安排，亦值得留意。當制度重整喺同一時間推進，員工會自然地把它視為「待遇同表現綁定」；如果溝通不足、過渡安排含糊、或者指標經常改動，就容易引發不確定感，最終反而損害服務穩定性。因此，政府要做嘅唔單係公布新框架，而係提供清晰指引、讓員工在制度落地前有足夠理解與試行空間；同時要把「服務質素」而唔係純粹「交付量」放入核心，並定期檢討避免偏差。\n\n我認為，呢一步若能夠真正做到「公平、可驗證、兼顧專業判斷」，就有機會提升整體行政效率與市民感受；相反，若只係用更複雜嘅評核語言去包裝管理壓力，長遠只會加劇內耗、削弱創意同承擔。現階段最重要係：政府要同公務員建立可預期嘅契約關係——承認公共服務本身嘅複雜性，同時把制度做得夠透明、夠可追責，先至配得上今次可能達至嘅加薪承諾。",
       "model": "openai",
       "topic_title": "Civil servants may get up to 4.12% pay rise as gov’t plans appraisal revamp in October",
       "topic_url": "https://hongkongfp.com/2026/05/28/civil-servants-may-get-up-to-4-12-pay-rise-as-govt-plans-appraisal-revamp-in-october/",
-      "generated_at": "2026-05-28T15:55:41.506376+00:00"
+      "generated_at": "2026-05-28T20:31:17.716217+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "Absolutely agree. The government’s focus on consultation and transparency is key to maintaining a motivated civil service. This balanced approach strengthens public trust and ensures the appraisal revamp truly supports meritocracy and stability in Hong Kong."
         }
       ],
-      "generated_at": "2026-05-28T15:56:14.033065+00:00"
+      "generated_at": "2026-05-28T20:31:27.425335+00:00"
     },
     "zh": {
       "topic_title": "Civil servants may get up to 4.12% pay rise as gov’t plans appraisal revamp in October",
@@ -71,7 +71,7 @@
           "content": "講得好！評核改革係關鍵，確保加薪係公平激勵，唔係大鍋飯。但都要留意執行細節，避免流於形式，同時確保財政穩健。"
         }
       ],
-      "generated_at": "2026-05-28T15:57:26.548458+00:00"
+      "generated_at": "2026-05-28T20:31:37.269631+00:00"
     }
   }
 }
