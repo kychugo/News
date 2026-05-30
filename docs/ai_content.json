@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-30T08:26:25.685342+00:00",
+  "generated_at": "2026-05-30T13:27:50.381122+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s latest housing reform has been framed as a practical response to soaring costs, but for many low-income residents it is arriving as something more like a postponement of fate. The “shoebox” flat model aims to make homeownership and tenancy more attainable in strictly measurable ways—square footage, eligibility rules, timetable milestones—yet the lived reality is that families still face the same structural question: whether they can secure stability long enough to treat housing as a foundation rather than a temporary stop. When an eviction shadow remains over households even after they participate in the reform process, the policy’s promise risks becoming conditional on circumstances that ordinary residents cannot control.\n\nThe deeper issue is not only the size of the unit, but the coherence of the whole system—between who qualifies, how long support lasts, and what happens when income and eligibility inevitably fluctuate. People like the residents forced into costume-like routines in tiny spaces are not simply describing discomfort; they are describing uncertainty, the psychological burden of knowing that progress on paper may not translate into protection in practice. A reform that is technically “improved” can still be experienced as punitive if the social safety net, transitional arrangements, and enforcement guidance are not aligned with real household timelines.\n\nAt the same time, it would be unfair to reduce the reform debate to criticism alone. Hong Kong faces genuine constraints in land, construction capacity, and the fiscal demands of building sufficient public housing. The government’s stated direction—expanding supply and tightening policy tools—reflects an attempt to manage these constraints responsibly. The challenge is to ensure that policy delivery matches the reform’s stated social objective: that low-income residents are not left in limbo between eligibility assessments, housing allocations, and compliance requirements.\n\nGoing forward, the most constructive expectation is for the authorities to make the process more predictable and humane: clearer transitional protection, faster and more transparent allocation procedures, and practical support for households during any change of status. Housing policy should not require residents to “adapt” their lives to administrative volatility. In a city where space is scarce and rents can quickly swallow savings, stability is itself a form of welfare—and the success of reform should be measured not only by units built, but by the number of families who can truly move forward without looking over their shoulder.",
       "model": "openai",
       "topic_title": "Hong Kong’s ‘shoebox’ flat reform leaves low-income residents in limbo",
       "topic_url": "https://hongkongfp.com/2026/05/30/hong-kongs-shoebox-flat-reform-leaves-low-income-residents-in-limbo/",
-      "generated_at": "2026-05-30T08:25:08.163004+00:00"
+      "generated_at": "2026-05-30T13:27:31.140003+00:00"
     },
     "zh": {
       "content": "香港嘅「劏房化」改革，最需要被問嘅唔係口號，而係落地後會唔會真正解決低收入居民嘅住屋不確定性。今次所謂「膠囊／鞋盒式」單位嘅修訂，表面上係提升居住空間同改善環境，但實情可能係把「擠逼」變成「暫住」，同時令本來就脆弱嘅家庭更難規劃將來——尤其當安置安排、租住年期、轉介制度同住戶權益仍然唔夠清晰。政府若以「可提供」取代「可保障」，就容易令基層長期停留喺焦慮之中：住得起唔代表住得定，收得窄唔代表生活可翻身。\n\n同時，呢類改革亦反映出政策思維嘅矛盾：一方面社會接受到基層「有得住」比「等上樓」更迫切，另一方面，當資源被導向短中期「填補缺口」而非長期「建立供給」時，空間改善就會同結構性問題分離。房屋需求長期累積，若只係以較細單位換取較快上架數字，會令公共房屋與過渡性房屋之間形成無限循環——住一段時間、再面對調整或搬遷；每一次制度改動，都可能對最唔有議價能力嘅群體造成二次傷害。\n\n當然，我哋亦要承認：在土地、建屋周期同財政約束下，任何立法同工程都唔可能即時「大躍進」。因此，改革若能把焦點放喺「風險管理」而唔係「容量管理」，就仍然有進步空間。當局應清楚交代過渡性安排嘅法律效力同期限、搬遷及補償機制、以及把低收入住戶優先納入可預期嘅長期安置路徑；同時亦要配套社區設施與醫療支援，否則細單位只會加劇心理壓力，令所謂改善變成「外觀上更好，但生活更難」。\n\n我嘅立場係：香港需要嘅唔單止係「細到可住」嘅房型，更係「住得定」嘅制度。喺強烈樓價與租金壓力下，任何改革若令基層落入反覆等待、反覆搬遷嘅困局，就會令政策正當性受損。政府若真係以民生為先，就要把責任由「提供單位」升級到「保障權益」，用可量化嘅承諾去消除低收入戶嘅「長期不確定」——否則鞋盒再細、改革再快，都只係暫時止血，唔係真正醫治。",
       "model": "openai",
       "topic_title": "Hong Kong’s ‘shoebox’ flat reform leaves low-income residents in limbo",
       "topic_url": "https://hongkongfp.com/2026/05/30/hong-kongs-shoebox-flat-reform-leaves-low-income-residents-in-limbo/",
-      "generated_at": "2026-05-30T08:25:14.671741+00:00"
+      "generated_at": "2026-05-30T13:27:31.684462+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "Absolutely agree. A genuine stable equilibrium hinges on the US fully respecting the One-China principle and ceasing interference in Taiwan. Only then can mutual trust and regional peace be achieved."
         }
       ],
-      "generated_at": "2026-05-30T08:25:45.262247+00:00"
+      "generated_at": "2026-05-30T13:27:41.148083+00:00"
     },
     "zh": {
       "topic_title": "Pentagon chief Pete Hegseth says US seeks ‘stable equilibrium’ with China in Asia",
@@ -71,7 +71,7 @@
           "content": "講得好。中國一直主張通過對話解決分歧，關鍵係美方要真正停止軍事挑釁，尊重中國主權，先可以達到真正嘅穩定均衡。"
         }
       ],
-      "generated_at": "2026-05-30T08:26:25.685309+00:00"
+      "generated_at": "2026-05-30T13:27:50.381089+00:00"
     }
   }
 }
