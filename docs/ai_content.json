@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-01T17:39:28.591913+00:00",
+  "generated_at": "2026-06-01T21:39:28.218156+00:00",
   "editorial": {
     "en": {
       "content": "The government-appointed administrator for the fire-ravaged Wang Fuk Court has asked the court to delay the statutory deadline for holding a homeowners’ meeting. On its face, such a move is procedural—an attempt to buy time for an orderly process after a catastrophe. Yet it also raises a familiar public concern in Hong Kong: when affected residents are already under immense stress, any delay can feel like another round of uncertainty, especially if the community suspects that the pace of decisions is being set by institutions rather than by those living with the consequences.\n\nA nuanced view, however, suggests there are legitimate reasons for seeking postponement. Complex post-disaster claims, repair and safety assessments, and the need to clarify governance arrangements can take longer than a fixed statutory timetable allows. In this context, a court-approved extension could prevent a “meeting-led” process that later collapses due to unresolved technical or administrative issues—ultimately saving residents time and legal costs. Still, legitimacy hinges on transparency: the administrator and relevant departments must clearly explain what is preventing an earlier meeting and provide a credible, time-bound roadmap for subsequent steps.\n\nEqually important is residents’ expectations of accountability. The same theme of risk management appears in today’s other Wang Fuk Court reporting: authorities cannot rule out theft in a subset of lost property reports. That detail underscores the broader point that post-fire recovery is not only about reconstruction, but also about restoring trust. If a homeowners’ meeting is delayed, residents will understandably ask whether protections for property, records, and communications are strengthened in the interim—so that procedural time does not become a vacuum in which harm can occur or information can be controlled.\n\nUltimately, the court’s consideration should balance two imperatives: procedural fairness for an administrator managing complex tasks, and urgency in giving residents a voice. If the delay is granted, it should come with measurable milestones and clear disclosure requirements, ensuring the meeting’s postponement serves recovery rather than deferral. In a city where public confidence is fragile, the best way to “gain deeper trust” after a tragedy is not just to follow process, but to make that process visible, accountable, and responsive to those most affected.",
       "model": "openai",
       "topic_title": "Gov’t-appointed administrator of fire-hit estate applies to court to delay owners’ meeting deadline",
       "topic_url": "https://hongkongfp.com/2026/06/01/govt-appointed-administrator-of-fire-hit-estate-applies-to-court-to-delay-owners-meeting-deadline/",
-      "generated_at": "2026-06-01T17:37:28.370069+00:00"
+      "generated_at": "2026-06-01T21:39:09.245405+00:00"
     },
     "zh": {
       "content": "今日「王福法院」火災後續，最關鍵嘅唔係口號，而係程序同責任點算。政府委任嘅管理人員已向法庭申請延遲業主會議期限，意味住處理方式唔會即時「硬推落去」，而係試圖爭取時間建立更清晰嘅資訊框架、整理損失清單同維修/補償方案。當然，拖延本身就容易令業主焦慮甚至失去信心：災後每多一日，焦慮同生活停頓都會加深，亦會畀不明朗空間擴大傳言。\n\n不過，站在公共利益角度，延期若果能夠用得其所，就唔應該被簡化成「推責」。更重要係，政府以委任方式接手善後，本身就係一種高度權力介入；一旦引入法庭程序，就更需要透明度同可核實嘅進度。業主真正關心嘅，係屋宇安全、重置或修復可行性、財務來源、以及管理人員處理資源同資料嘅問責機制。要令「延遲」變成「有序」，就要同時交代：延期期間將會完成咩關鍵工作、業主何時能收到獨立可查證嘅技術評估、以及若方案未能達標會點處理。\n\n與此同時，今次仲凸顯香港處理重大事故時嘅制度張力：到底應唔應該以速度取代審慎？如果「快」導致決策欠缺資料，日後只會更多爭議、更高成本；但若「慢」而缺乏節點同承諾，就會把創傷拖長。社會真正需要嘅係一套能夠同時兼顧「即時保障」同「程序正義」嘅節奏管理：例如在會議延後期間，先行確保緊急安全措施、讓業主即時取得補貼/過渡安排，同時提供獨立渠道監察管理人員決策。\n\n我嘅立場係：延遲唔應該被當作問題本身，問題係當局必須用更具體嘅承諾去回應公眾不信任。法庭程序可以保護程序公平，但不能取代實質交代；政府委任更需接受更高標準嘅透明監督。只要當局清楚交代時間表、提供可核實資料、建立可追究機制，業主會議延期就可能由「拖」變成「修正」，令災後重建唔再停留喺扯皮，而係真正走向安全同恢復。",
       "model": "openai",
       "topic_title": "Gov’t-appointed administrator of fire-hit estate applies to court to delay owners’ meeting deadline",
       "topic_url": "https://hongkongfp.com/2026/06/01/govt-appointed-administrator-of-fire-hit-estate-applies-to-court-to-delay-owners-meeting-deadline/",
-      "generated_at": "2026-06-01T17:37:37.172631+00:00"
+      "generated_at": "2026-06-01T21:39:09.833736+00:00"
     }
   },
   "arena": {
@@ -43,7 +43,7 @@
           "content": "Absolutely. Any dialogue with the US must unequivocally reaffirm the One-China principle and reject separatist narratives. Peace and stability in the Taiwan Strait depend on non-interference and commitment to national reunification."
         }
       ],
-      "generated_at": "2026-06-01T17:38:08.396676+00:00"
+      "generated_at": "2026-06-01T21:39:18.975206+00:00"
     },
     "zh": {
       "topic_title": "Taiwan’s opposition leader hopes to ‘gain deeper trust’ from US",
@@ -71,7 +71,7 @@
           "content": "完全同意。九二共識係兩岸和平基礎。國民黨應明確反對台獨，唔好幻想靠美國撐腰，否則只會損害台灣同胞利益。"
         }
       ],
-      "generated_at": "2026-06-01T17:39:28.591882+00:00"
+      "generated_at": "2026-06-01T21:39:28.218121+00:00"
     }
   }
 }
