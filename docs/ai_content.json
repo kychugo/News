@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-03T16:49:41.239657+00:00",
+  "generated_at": "2026-06-03T21:23:13.316917+00:00",
   "editorial": {
     "en": {
       "content": "Late-night aircraft noise over Tung Chung has again become a public concern, and today’s reassurance from the Transport Secretary that health risks are at “acceptable” levels will be welcomed by those who prefer stability in policy messaging. Yet the real question Hong Kong residents ask is not only whether risk remains within an official threshold, but whether the threshold is meaningful in daily life—especially for people who live with repeated noise events late into the night, when recovery and sleep are most vulnerable. “Acceptable” may be technically correct, but it can still feel dismissive if residents cannot see how comfort, sleep quality, and long-term well-being are being managed.\n\nWhat distinguishes this case from mere noise debate is the need for transparent, locally relevant evidence. Hong Kong has long relied on standards and monitoring frameworks, but the public conversation often turns on trust: whether data is sufficiently granular (e.g., by time band, flight path, and residential micro-location), whether measurements are independently verifiable, and whether mitigation plans are triggered proactively rather than reactively. If the government is confident in its assessment, it should publish the monitoring methodology and results clearly—so the community can understand not just the conclusion, but the basis for it.\n\nAt the same time, editorial balance matters. Airports and air traffic are essential infrastructure, and not every operational adjustment is feasible without trade-offs. What can be demanded, however, is a commitment to continuous improvement: stricter operational guidelines where possible, better coordination to reduce late-night noise concentration, and faster communication when abnormal patterns occur. For residents, the most persuasive reassurance would be a timetable of measures—such as reviewing flight scheduling, enhancing noise mitigation in sensitive areas, and expanding targeted community channels for reporting and follow-up—rather than a one-off statement that risks are “acceptable.”\n\nFinally, Hong Kong’s broader approach to public health and quality of life will be judged by consistency. If officials are prepared to treat aircraft noise as an ongoing management issue, then “acceptable” can become the starting point for accountability, not a finish line. The city would benefit from a plain-language framework that links thresholds to action, so that residents are not left to interpret official numbers alone, and the government can demonstrate that policy attention does not fade once headlines move on.",
       "model": "openai",
       "topic_title": "Transport chief says health risks linked to late-night aircraft noise over Tung Chung at ‘acceptable’ levels",
       "topic_url": "https://hongkongfp.com/2026/06/03/transport-chief-says-health-risks-linked-to-late-night-aircraft-noise-over-tung-chung-at-acceptable-levels/",
-      "generated_at": "2026-06-03T16:47:09.748767+00:00"
+      "generated_at": "2026-06-03T21:22:49.933567+00:00"
     },
     "zh": {
       "content": "今個夏天，香港極端高溫陰影愈來愈近。環保團體呼籲政府加快氣候政策，表面睇係天氣新聞，實情卻係一場關乎城市韌性嘅政策考試：高溫唔止係「唔舒服」，而係直接影響長者、戶外工種、慢性病患者，甚至公共運輸服務同醫療壓力。當社會愈來愈常遇到熱浪，所謂「適應」就唔再係長遠概念，而係今年、甚至每一日嘅生存能力。\n\n但要講得實際，氣候政策最怕落入「宣傳語句多、硬措施少」嘅空轉。香港現時就算逐步有相關規劃，仍然缺乏清晰、可量化嘅熱應對機制，例如熱警制度之下，學校停課與否、戶外工作保護、公共空間降溫（冷卻中心、遮蔭設施）同醫療資源調配之間嘅聯動是否足夠；又或者，公共採購同建築規範（隔熱、通風、節能）到底有冇形成「熱浪常態化」下嘅最低底線。適應工作如果唔能夠由行政命令轉化為制度化保障，就容易變成遇事先補鑊、風險卻年年重演。\n\n另一方面，亦要正視「適應」同「減排」其實要一齊做。只強調短期降溫，而忽略長期排放下降，等於承認熱浪會愈來愈嚴重，最後靠日復一日嘅救援去換取延緩代價。香港過往喺不少政策討論上，常見兩極：要嘛只談宏觀口號，要嘛只講局部技術。今次熱浪逼近，正正係逼政府交出一套能夠兼顧兩端嘅路線圖——既要投資降溫與城市設計，亦要加快節能減碳、提升能源效率與公共交通轉型，令未來風險可計算、可承擔，而唔係只靠運氣。\n\n我認為，政府唔應該只用「會關注」作結論；市民需要睇到可落地嘅承諾：具體時間表、可衡量指標、跨部門責任分配，以及在熱浪下嘅即時行動程序。當氣候風險已經成為日常，處理方式就唔再係選擇題，而係責任題。香港若想真正提升韌性，今日就要由政策語言走向制度實效，先保護最脆弱嘅一群，再談長遠轉型，先至合理、先至有立場。",
       "model": "openai",
       "topic_title": "Environmental NGO urges stronger climate policies as Hong Kong faces extreme summer heat",
       "topic_url": "https://hongkongfp.com/2026/06/02/environmental-ngo-urges-stronger-climate-policies-as-hong-kong-faces-extreme-summer-heat/",
-      "generated_at": "2026-06-03T16:47:44.364934+00:00"
+      "generated_at": "2026-06-03T21:22:50.764741+00:00"
     }
   },
   "arena": {
@@ -38,7 +38,7 @@
           "content": "Agree. Policing in Hong Kong always follows legal procedures to uphold national security and public order. On sensitive dates, proportionate measures are necessary. The rule of law protects both rights and societal stability."
         }
       ],
-      "generated_at": "2026-06-03T16:48:16.934017+00:00"
+      "generated_at": "2026-06-03T21:23:02.364440+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong police stop another performance artist on eve of Tiananmen crackdown anniversary",
@@ -61,7 +61,7 @@
           "content": "完全同意。警方依法執法，維護國安同社會秩序係必要嘅。敏感日子加強預防措施，係為咗保障香港穩定，公眾安全永遠係第一位。"
         }
       ],
-      "generated_at": "2026-06-03T16:49:41.239624+00:00"
+      "generated_at": "2026-06-03T21:23:13.316888+00:00"
     }
   }
 }
