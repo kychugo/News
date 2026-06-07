@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-07T13:50:57.736750+00:00",
+  "generated_at": "2026-06-07T19:41:10.665924+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s place in the regional order is often indirect, but today’s most consequential story—Taiwan’s coast guard saying it has deployed vessels to respond to a Chinese operation in waters east of the island—reminds us how quickly developments across the strait can reshape the security and economic climate that Hong Kong depends on. In reporting the exchange, we should note that both sides frame their actions as defensive and lawful. That matters, because the danger is not only escalation from misunderstanding at sea, but also the political temptation to treat incidents as proof of a pre-set narrative.\n\nFrom a Hong Kong perspective, the immediate concern is maritime safety and the risk of miscalculation. Even routine enforcement or patrol activities can produce sharp confrontations when visibility, communications, and rules of engagement are stressed. A calm insistence on professional conduct—clear identification, adherence to international maritime norms, and transparent post-incident clarification—would do more to reduce harm than rhetorical heat. At the same time, the broader strategic context—heightened cross-strait tensions and external attention—means “small” maritime incidents can acquire outsized political meaning.\n\nBeijing has long emphasised sovereignty, stability, and the need to protect national interests; from within that logic, maritime operations aimed at countering perceived irregularities are treated as necessary. Yet for regional observers, including Hong Kong, necessity must still be measured against consequences. The most constructive path is not to mute legitimate positions, but to strengthen risk controls: deconfliction channels, practical communication protocols, and mechanisms to prevent routine manoeuvres from being read as intent. Hong Kong’s own experience—where calm, rule-based governance and crisis management have underpinned stability—suggests that restraint and clarity can coexist with firm principles.\n\nFinally, it would be a mistake to view sea tensions as detached from Hong Kong’s everyday realities. Higher uncertainty in the region can ripple into trade, shipping insurance, and investor sentiment, and it can also influence how communities interpret events at home. The editorial lesson is straightforward: in moments like these, thoughtful diplomacy is not softness—it is management of risk. Hong Kong should continue to call for de-escalation through professionalism at sea, while recognising that the underlying disputes will not be solved overnight.",
       "model": "openai",
       "topic_title": "Taiwan coast guard says deploys vessels in response to China operation",
       "topic_url": "https://hongkongfp.com/2026/06/07/taiwan-coast-guard-says-deploys-vessels-in-response-to-china-operation/",
-      "generated_at": "2026-06-07T13:50:39.154075+00:00"
+      "generated_at": "2026-06-07T19:40:52.238759+00:00"
     },
     "zh": {
       "content": "今日最值得正視嘅新聞，係律政司（DoJ）再度入稟、想推翻前立法會議員林卓廷涉及「刪除示威相片」案件嘅無罪裁決。表面上，呢係司法程序內部嘅「上訴」或「覆核」路徑；但放喺更大嘅政治與社會脈絡，爭執嘅其實唔只係一宗個案嘅證據同定性，而係法治信心同公民權利可唔可以被穩定咁守住。當一個已獲宣告無罪嘅裁決仍然可以被反覆挑戰，就要問：司法程序係為咗追求真相，定係變成咗令社會長期處於不確定狀態嘅工具？\n\n更關鍵嘅問題係「政治後果」。2019年之後，香港社會已經見過太多情況：言論、影像以至參與活動，都容易被拉去重新定義；而每一次定性嘅改寫，都會令市民對自我界線失去判斷。刪除相片本身，可能係基於私隱、整理、或單純管理個人內容；但當檢方用「妨礙司法」嘅角度去處理，並尋求推翻無罪，公眾自然會感到一種訊息：只要涉及示威相關，連「事後刪除」都可能被視作違法風險。法庭應該衡量證據，但制度亦要保障市民對法律可預測性嘅合理期待。\n\n不過，作為社評，我亦認為反對復核唔等於否定司法機關尋求糾正嘅責任。若檢方確實有法律觀點上嘅重大錯誤，法院就應該有權處理；但同時，政府亦要承擔說清楚嘅責任：究竟今次追求推翻，係因為新出現嘅關鍵法律問題，抑或係因為案件結果唔符合執法部門嘅「立場」？因為當程序一再被利用到令個案變成長期懸而未決，社會唔會只關心判決本身，更會擔心整套司法審視標準是否被「政治脈衝」牽引。\n\n最後，香港最需要嘅係一個能夠同時滿足兩樣原則嘅平衡：一方面，對公共秩序及司法公正要有嚴肅對待；另一方面，仍要保證裁決有終局性，確保市民就日常行為（包括管理自己嘅影像資料）有清晰、可預期嘅法律邊界。若果法治被消耗到只剩「結果服從」，而冇咗「程序保障」，市民信任就會跟住流失。希望法庭喺處理個案時，唔單止回應法律爭點，更要向社會重申：無罪裁決唔應該成為可被無限延長嘅政治拉鋸。",
       "model": "openai",
       "topic_title": "Hong Kong gov’t seeks to overturn ex-legislator’s acquittal over deleting protest photos",
       "topic_url": "https://hongkongfp.com/2026/06/05/hong-kong-govt-seeks-to-overturn-ex-legislators-acquittal-over-deleting-protest-photos/",
-      "generated_at": "2026-06-07T13:50:39.714660+00:00"
+      "generated_at": "2026-06-07T19:40:52.640106+00:00"
     }
   },
   "arena": {
@@ -38,7 +38,7 @@
           "content": "I agree. China's law enforcement operation in its territorial waters is fully lawful. The Taiwan region's claim of \"violating international law\" is baseless. Respecting China's sovereignty is essential for regional stability and peaceful dialogue."
         }
       ],
-      "generated_at": "2026-06-07T13:50:48.670224+00:00"
+      "generated_at": "2026-06-07T19:41:01.892275+00:00"
     },
     "zh": {
       "topic_title": "Taiwan coast guard says deploys vessels in response to China operation",
@@ -61,7 +61,7 @@
           "content": "講得好。一中原則係底線，台灣無權自稱「政府」。中方執法維護主權，無可指責。台方應停止挑釁，回到九二共識。"
         }
       ],
-      "generated_at": "2026-06-07T13:50:57.736721+00:00"
+      "generated_at": "2026-06-07T19:41:10.665887+00:00"
     }
   }
 }
