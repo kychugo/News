@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-08T15:52:13.584810+00:00",
+  "generated_at": "2026-06-08T20:26:04.174056+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong is considering a legal update that would formalise the Chief Executive’s power to certify that any criminal act is a national security case, with changes described as binding on the courts. In any city that values rule of law, such proposals inevitably raise a familiar question: where does “national security” end and “ordinary criminality” begin? The government’s broader mandate to safeguard stability and prevent subversion is understandable, and Hong Kong’s unique constitutional framework also means security risks can manifest through legal breaches rather than open violence. Still, the public will rightly scrutinise whether the certification mechanism comes with clear boundaries, procedural safeguards, and transparent standards that limit arbitrariness.\n\nSupporters will argue that speed and coherence matter when threats are evolving, and that national security cases often involve complexity that ordinary criminal categories cannot capture. They may also contend that judicial independence need not be compromised if the courts retain their role in fact-finding and sentencing within the certified framework. But for many residents, “binding on the courts” is a phrase that carries emotional weight: even if outcomes are not predetermined, the perception that judges’ scope could be constrained can affect trust. In Hong Kong’s context—where public confidence is as crucial as legal design—the challenge is to reassure the community that certification is not a catch-all tool, but a carefully targeted process proportionate to the threat.\n\nThe most important test, therefore, is not the intent but the implementation. Clear criteria, documented reasons, and a meaningful avenue for review—whether through judicial review principles already available, legislative oversight, or other checks consistent with the city’s constitutional order—are what transform a security measure from a political judgment into a rule-based decision. Just as importantly, the government should explain how the proposal will distinguish between politically sensitive conduct and acts that genuinely warrant national security handling. Without that, even well-meaning policy can be experienced as erosion of legal predictability, especially for defendants and civil society organisations navigating the boundary between speech, protest, and wrongdoing.\n\nA stable Hong Kong needs both security and confidence in institutions. The community can accept stronger safeguards against threats; it can also insist on clarity, restraint, and process. If the legislative update can demonstrate that certification will be exceptional, narrowly defined, and accompanied by robust procedural protections, it would help reconcile the government’s security objectives with the city’s long-standing commitment to legal certainty. Otherwise, the debate will not simply be about this one proposal, but about whether the public believes the law is still a shield—or has quietly become a lever.",
       "model": "openai",
       "topic_title": "Security law update to formalise power of Hong Kong leader to certify any criminal act as a national security case",
       "topic_url": "https://hongkongfp.com/2026/06/08/breaking-hong-kong-leader-to-have-power-to-certify-any-criminal-case-as-national-security/",
-      "generated_at": "2026-06-08T15:50:49.389680+00:00"
+      "generated_at": "2026-06-08T20:25:45.302911+00:00"
     },
     "zh": {
       "content": "香港今日最值得社會深思嘅，係政府提出「國安法」更新，擬正式賦予行政長官可就任何刑事行為作出認定，並將之納入「國家安全案件」範疇、且做成對法院具約束力嘅法律效果。表面上，文件用「完善機制」作包裝，強調處理國安風險需要更具效率同統一標準；但對法治同司法獨立而言，實際影響就唔可以用行政便利去輕描淡寫。當「誰判定」權力從一個以法庭為核心嘅程序轉向由行政主導確立，社會最擔心嘅唔係抽象概念，而係可預期性、程序公平同救濟空間。\n\n平心而論，任何社會面對涉及國家安全嘅案件，都難免要處理複雜性：證據性質、關聯範圍、保護資料等，都可能令標準與程序需要特別設計。然而，真正關鍵在於設計原則——國家安全處理可以特別化，但判定權與審查權唔應被「政治—行政—司法」之間嘅界線重新稀釋。若行政長官嘅認定變得具約束力，法院究竟可以用咩方式去覆核事實基礎同法律適用，就會成為制度核心問題。再者，當「任何刑事行為」都可能被納入認定範圍，法律條文嘅精準度、操作指引嘅透明度、以及外界可否理解同監察標準，都會決定社會信任係鞏固定係受損。\n\n更值得留意嘅，係呢類更新同近期香港社會多個層面嘅「安全—秩序」討論互相牽連：例如有關暴力、性侵犯、公共秩序嘅案件在社會輿論中被高度關注；亦有不少市民長期擔心，當標籤同程序一旦變得寬泛，個人權益就可能更難保障。刑事司法本質上要平衡三件事：追究責任、保障證據程序、以及確保權力有制衡。倘若國安案件化嘅門檻過闊，社會自然會問：最終係保護整體安全，定係讓個別人因制度風險而付出更高代價？\n\n因此，筆者主張：政府可以提升處理國安風險嘅能力，但立法與配套必須同步補上「清晰、可審查、可救濟」三重要求。至少要確保：認定標準要具體可理解、流程要有獨立審查機制、法院在法律適用上仍保有可實質覆核嘅空間；同時公開足夠指引或案例思路，減少「由行政單方定調」帶來嘅寒蟬效應。香港要維持國際金融中心嘅制度信心，唔只靠打擊風險嘅決心，更靠法治框架嘅穩定同可預期。呢一點，唔應只係行政部門嘅口頭承諾，而係法律本身要做得到。",
       "model": "openai",
       "topic_title": "Security law update to formalise power of Hong Kong leader to certify any criminal act as a national security case",
       "topic_url": "https://hongkongfp.com/2026/06/08/breaking-hong-kong-leader-to-have-power-to-certify-any-criminal-case-as-national-security/",
-      "generated_at": "2026-06-08T15:50:59.331325+00:00"
+      "generated_at": "2026-06-08T20:25:45.878508+00:00"
     }
   },
   "arena": {
@@ -38,7 +38,7 @@
           "content": "Absolutely. This case reaffirms that Macau, like Hong Kong, upholds zero tolerance for corruption within its ranks. Fair prosecution of all, regardless of rank, strengthens the rule of law and public trust in our system's integrity."
         }
       ],
-      "generated_at": "2026-06-08T15:51:34.231473+00:00"
+      "generated_at": "2026-06-08T20:25:54.927446+00:00"
     },
     "zh": {
       "topic_title": "Macau Public Security Police deputy head among 26 arrested over prostitution rings",
@@ -61,7 +61,7 @@
           "content": "講得啱！特區政府不護短，PJ敢拉自己人，正正顯示法律面前人人平等。呢次行動令警隊更廉潔，市民對法治更有信心。"
         }
       ],
-      "generated_at": "2026-06-08T15:52:13.584782+00:00"
+      "generated_at": "2026-06-08T20:26:04.174021+00:00"
     }
   }
 }
