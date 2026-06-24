@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-24T14:28:39.221155+00:00",
+  "generated_at": "2026-06-24T19:55:21.688198+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s latest fire simulation findings on the Tai Po tragedy are a sobering reminder that public safety is not just a matter of emergency response, but of everyday engineering discipline. The inquiry’s indication that substandard scaffold nets and non-fire-retardant materials may have contributed to rapid flame spread underscores a straightforward principle: when materials are chosen to cut corners, consequences will inevitably cascade, turning a controllable incident into a catastrophe.\n\nAt the same time, it is important that this becomes a prompt, practical audit rather than a purely forensic exercise. After a blaze, the community naturally asks “who failed,” yet the deeper question for policy is “what systems allowed failure to persist?” Construction and maintenance regimes must ensure that fire-safety requirements are clearly specified, independently verified, and enforced at each stage—procurement, installation, inspection, and follow-up. Transparent standards for scaffolding and temporary works, coupled with routine third-party checks, are often less visible than spectacular firefighting, but they are the most reliable way to prevent escalation.\n\nHong Kong must also weigh the human and operational realities of the built environment. Tight schedules and high-density development can tempt project participants to prioritise speed over compliance; the answer is not to blame one trade or one project, but to strengthen incentives and accountability. If enforcement is inconsistent, or if inspection relies too heavily on self-reporting, the “quantity illusion” seen elsewhere in housing debates—where reported supply differs from lived reality—can also appear in safety: paperwork may suggest standards are met, while on-site materials and workmanship fall short. A robust regime should therefore be measurable and data-driven, with clear consequences for violations and clear pathways for remediation.\n\nThe most constructive response to Tai Po is to treat the simulation as a roadmap for reform. By tightening material specifications, raising the bar for inspections, and ensuring that lessons from the investigation translate into enforceable rules, authorities can show that tragedy leads to lasting prevention. For the public, confidence grows when safety is built into the system—not merely promised after the fact.",
       "model": "openai",
       "topic_title": "Tai Po fire: Simulation finds substandard scaffold nets caused rapid spread of blaze, inquiry hears",
       "topic_url": "https://hongkongfp.com/2026/06/24/tai-po-fire-simulation-finds-substandard-scaffold-nets-caused-rapid-spread-of-blaze-inquiry-hears/",
-      "generated_at": "2026-06-24T14:27:17.546612+00:00"
+      "generated_at": "2026-06-24T19:54:35.847095+00:00"
     },
     "zh": {
       "content": "樓價同住屋供應，向來係香港社會最敏感嘅「數字遊戲」。今次有智庫指香港住宅實用面積喺三十年內縮細近一格四分之一，問題唔只係「愈住愈細」，而係政府一方面強調落成量、另一邊居民卻以實際居住面積感受到壓迫——呢種落差，表面係統計口徑問題，深層卻反映出政策衡量標準嘅失焦。當制度只講「供應量」而唔講「可用空間」，所謂增加供應就可能變成「供應咗單位，但生活冇因此變得寬闊」。\n\n更要睇清楚嘅係，「面積縮小」未必必然係單一因素造成：例如單位設計傾向更細嘅房間、走廊/公用部分分攤方式、甚至樓宇建築規劃同成本控制，都可能令可用空間被「壓縮」。但政治責任唔會因為成因複雜而消失。政府若只用容易被宣傳嘅指標，就容易產生一種「數量幻覺」：用單位數去安撫焦慮，用名義供應去對沖現實不便。長遠而言，呢類幻覺會侵蝕市民對公共政策嘅信任，亦會令基層家庭因居住條件惡化而承受更大生活壓力。\n\n因此，我認為辯論核心應該由「建咗幾多」轉為「住到幾多、過唔過到生活」。政策上可考慮將單位面積（尤其係實用面積、房間可用尺寸及家庭功能配置）納入更具體嘅評估架構，並要求房屋規劃喺設計階段就交代清楚：同樣一個目標量，用戶將會得到點樣嘅可用空間；同時亦要檢視補地、樓宇規格及成本控制機制，避免把「細化」變成長期趨勢。仲要做到透明化，令市民唔使再靠估計同感覺去對抗官方簡報。\n\n立場上，我支持政府增加住屋供應嘅方向，但同時認為衡量供應嘅指標必須修正。香港嘅住屋問題唔係單靠量可以解決：當居住面積持續縮細，家庭健康、學習空間、社區生活品質都會連鎖受影響。若要真正回應市民訴求，就要用更貼近生活嘅標準去「計數」，並以可被核實嘅改善承諾作為回應。只要「數量幻覺」未清，供應多嘅宣傳就只會換來更多不安；而把面積、可用空間同家庭需要放回政策中心，先至有機會令住屋真正成為可安居而非只係可登記嘅承諾。",
       "model": "openai",
       "topic_title": "‘Quantity illusion’: Think tank says Hong Kong homes have shrunk in size by a quarter over 3 decades",
       "topic_url": "https://hongkongfp.com/2026/06/24/quantity-illusion-think-tank-says-hong-kong-homes-have-shrunk-in-size-by-a-quarter-over-3-decades/",
-      "generated_at": "2026-06-24T14:27:24.489331+00:00"
+      "generated_at": "2026-06-24T19:54:36.777098+00:00"
     }
   },
   "arena": {
@@ -38,7 +38,7 @@
           "content": "Absolutely agree. Swift implementation of recommendations is vital. Strengthening contractor accountability and regular inspections will prevent future tragedies, reinforcing Hong Kong's commitment to public safety and upholding the rule of law."
         }
       ],
-      "generated_at": "2026-06-24T14:28:15.379874+00:00"
+      "generated_at": "2026-06-24T19:54:48.368443+00:00"
     },
     "zh": {
       "topic_title": "Tai Po fire: Simulation finds substandard scaffold nets caused rapid spread of blaze, inquiry hears",
@@ -51,12 +51,17 @@
           "content": "同意模擬結論，指非防火材料致次生點火。建議嚴控臨時結構與材料防火標準，加強工地監管，減低日後風險。"
         },
         {
+          "model": "glm",
+          "name": "GLM",
+          "content": "延伸同意。除监管外，应检视《建筑物条例》对临时工程嘅防火要求，推动业界用认证防火材料，从源头防惨剧重演。"
+        },
+        {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "認同加強監管方向。除咗材料標準，更應全面檢討建築法規同應急機制，並參考國際經驗提升防火安全水平。"
+          "content": "完全同意。除修例，更需加強對棚架物料嘅抽查與執法，杜絕次貨，同時追究違規者刑事責任，提升阻嚇力。"
         }
       ],
-      "generated_at": "2026-06-24T14:28:39.221129+00:00"
+      "generated_at": "2026-06-24T19:55:21.688163+00:00"
     }
   }
 }
