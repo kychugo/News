@@ -1,57 +1,62 @@
 {
-  "generated_at": "2026-06-24T09:24:01.565968+00:00",
+  "generated_at": "2026-06-24T14:28:39.221155+00:00",
   "editorial": {
     "en": {
-      "content": "China’s premier has again put governance of frontier technologies, especially AI, squarely on the agenda—warning that governments moving too slowly could leave the world “losing control” of technologies that are advancing faster than legal and administrative capacity. For Hong Kong, this message is not abstract. As the city deepens links with the Mainland and continues to position itself in finance, data-related services and innovation, the question is how to balance openness and competitiveness with clear rules that prevent misuse, reduce systemic risk, and protect public interests.\n\nA pragmatic approach is to treat AI governance as risk management rather than ideological confrontation. Public confidence does not depend only on whether a technology is “advanced,” but on whether institutions can explain how decisions are made, how personal data is protected, and how harmful outcomes—whether through bias, automation errors, or malicious use—are identified and corrected. In that sense, the call to avoid “losing control” can be read constructively: build regulatory capacity, set enforceable standards, and ensure that oversight evolves with the technology. The goal should be stable, predictable rules that allow responsible adoption instead of creating a chilling effect through sudden, unclear restrictions.\n\nAt the same time, effective governance must be paired with competent implementation. Too often, authorities announce frameworks while enforcement mechanisms lag—resulting in gaps that bad actors exploit and in compliance burdens that good firms struggle to meet. Hong Kong can take advantage of its long experience as a rule-based hub by focusing on operational details: auditing and transparency requirements proportionate to risk, robust incident reporting, personnel training, and cross-border coordination that respects different legal systems. Such measures would strengthen the “controllability” the premier referred to, not by slowing innovation, but by making responsible innovation the easiest path.\n\nFinally, governance of AI should be understood as part of a broader social contract. When systems affect employment, public services, or everyday life, the public has the right to know what safeguards exist and what recourse is available when systems fail. A mature AI regulatory posture—one that is firm on safety and ethics while enabling legitimate economic development—can help ensure that Hong Kong’s integration with Mainland policy directions remains productive rather than merely symbolic.",
+      "content": "Hong Kong’s latest fire simulation findings on the Tai Po tragedy are a sobering reminder that public safety is not just a matter of emergency response, but of everyday engineering discipline. The inquiry’s indication that substandard scaffold nets and non-fire-retardant materials may have contributed to rapid flame spread underscores a straightforward principle: when materials are chosen to cut corners, consequences will inevitably cascade, turning a controllable incident into a catastrophe.\n\nAt the same time, it is important that this becomes a prompt, practical audit rather than a purely forensic exercise. After a blaze, the community naturally asks “who failed,” yet the deeper question for policy is “what systems allowed failure to persist?” Construction and maintenance regimes must ensure that fire-safety requirements are clearly specified, independently verified, and enforced at each stage—procurement, installation, inspection, and follow-up. Transparent standards for scaffolding and temporary works, coupled with routine third-party checks, are often less visible than spectacular firefighting, but they are the most reliable way to prevent escalation.\n\nHong Kong must also weigh the human and operational realities of the built environment. Tight schedules and high-density development can tempt project participants to prioritise speed over compliance; the answer is not to blame one trade or one project, but to strengthen incentives and accountability. If enforcement is inconsistent, or if inspection relies too heavily on self-reporting, the “quantity illusion” seen elsewhere in housing debates—where reported supply differs from lived reality—can also appear in safety: paperwork may suggest standards are met, while on-site materials and workmanship fall short. A robust regime should therefore be measurable and data-driven, with clear consequences for violations and clear pathways for remediation.\n\nThe most constructive response to Tai Po is to treat the simulation as a roadmap for reform. By tightening material specifications, raising the bar for inspections, and ensuring that lessons from the investigation translate into enforceable rules, authorities can show that tragedy leads to lasting prevention. For the public, confidence grows when safety is built into the system—not merely promised after the fact.",
       "model": "openai",
-      "topic_title": "China premier urges AI governance to avoid ‘losing control’",
-      "topic_url": "https://hongkongfp.com/2026/06/24/china-premier-urges-ai-governance-to-avoid-losing-control/",
-      "generated_at": "2026-06-24T09:23:17.275755+00:00"
+      "topic_title": "Tai Po fire: Simulation finds substandard scaffold nets caused rapid spread of blaze, inquiry hears",
+      "topic_url": "https://hongkongfp.com/2026/06/24/tai-po-fire-simulation-finds-substandard-scaffold-nets-caused-rapid-spread-of-blaze-inquiry-hears/",
+      "generated_at": "2026-06-24T14:27:17.546612+00:00"
     },
     "zh": {
-      "content": "樓宇愈建愈多，但住屋愈住愈細——呢個「面積幻覺」嘅問題，已經由數據變成民生嘅日常。最新智庫調查指本港住宅面積過去三十年縮細約一成四，若政府一方面以「供應量」作為成效指標、另一方面又承認平均家庭呎數持續受壓，就會令人懷疑：所謂增加供應，究竟係解決「住唔到」定係令「住得更擠」。當愈多單位變成細小甚至壓縮生活空間，樓價同租金未必立刻回落，但生活成本（包括空間、私隱、家庭照顧與工作模式）就會同步被放大。\n\n更要警惕嘅係，面積縮細唔單止係統計問題，而係對整個社區結構同健康風險嘅長期影響。細單位令家庭空間高度依賴公屋設施同公共空間；一旦公共配套跟唔上，居民生活質素就會被「量」拖住走。對長者同有特殊需要嘅家庭而言，空間不足更直接影響照顧可行性；對小童家庭，日常活動同休息環境亦可能被迫妥協。換句話講，「供應上升」如果只係用同一套策略去攤薄面積，就好似攞尺唔係量實用距離，而係量政策完成度。\n\n因此，政府要由「數量導向」轉向「可居住性導向」。首先，單位落成同規劃時應引入更清晰嘅最低實用面積同空間指標，並將其納入房屋供應評估，而唔係只講總供應量。其次，配套亦要跟面積同時設計，例如學齡兒童與長者最需要嘅公共空間、通風採光、社區設施密度等，都應成為建屋與重建嘅硬指標。最後，更需要公開透明地處理「面積縮細」背後嘅成因：係建築成本、土地規劃、單位結構選配，定係市場化下嘅產品策略——若唔直面原因，只靠口號式調節供應，居民感受只會愈來愈落空。\n\n我認為，香港呢刻最大嘅政治難題唔係「有冇供應」，而係「供應夠唔夠體面」。只要政策仍然以數字安撫焦慮，而忽略家庭每天真實要用嘅空間，樓市同民心就只會繼續互相磨損。真正有力度嘅房屋政策，應該令市民可以清楚感受到：多咗唔止係單位，而係多咗生活的可能性。",
+      "content": "樓價同住屋供應，向來係香港社會最敏感嘅「數字遊戲」。今次有智庫指香港住宅實用面積喺三十年內縮細近一格四分之一，問題唔只係「愈住愈細」，而係政府一方面強調落成量、另一邊居民卻以實際居住面積感受到壓迫——呢種落差，表面係統計口徑問題，深層卻反映出政策衡量標準嘅失焦。當制度只講「供應量」而唔講「可用空間」，所謂增加供應就可能變成「供應咗單位，但生活冇因此變得寬闊」。\n\n更要睇清楚嘅係，「面積縮小」未必必然係單一因素造成：例如單位設計傾向更細嘅房間、走廊/公用部分分攤方式、甚至樓宇建築規劃同成本控制，都可能令可用空間被「壓縮」。但政治責任唔會因為成因複雜而消失。政府若只用容易被宣傳嘅指標，就容易產生一種「數量幻覺」：用單位數去安撫焦慮，用名義供應去對沖現實不便。長遠而言，呢類幻覺會侵蝕市民對公共政策嘅信任，亦會令基層家庭因居住條件惡化而承受更大生活壓力。\n\n因此，我認為辯論核心應該由「建咗幾多」轉為「住到幾多、過唔過到生活」。政策上可考慮將單位面積（尤其係實用面積、房間可用尺寸及家庭功能配置）納入更具體嘅評估架構，並要求房屋規劃喺設計階段就交代清楚：同樣一個目標量，用戶將會得到點樣嘅可用空間；同時亦要檢視補地、樓宇規格及成本控制機制，避免把「細化」變成長期趨勢。仲要做到透明化，令市民唔使再靠估計同感覺去對抗官方簡報。\n\n立場上，我支持政府增加住屋供應嘅方向，但同時認為衡量供應嘅指標必須修正。香港嘅住屋問題唔係單靠量可以解決：當居住面積持續縮細，家庭健康、學習空間、社區生活品質都會連鎖受影響。若要真正回應市民訴求，就要用更貼近生活嘅標準去「計數」，並以可被核實嘅改善承諾作為回應。只要「數量幻覺」未清，供應多嘅宣傳就只會換來更多不安；而把面積、可用空間同家庭需要放回政策中心，先至有機會令住屋真正成為可安居而非只係可登記嘅承諾。",
       "model": "openai",
       "topic_title": "‘Quantity illusion’: Think tank says Hong Kong homes have shrunk in size by a quarter over 3 decades",
       "topic_url": "https://hongkongfp.com/2026/06/24/quantity-illusion-think-tank-says-hong-kong-homes-have-shrunk-in-size-by-a-quarter-over-3-decades/",
-      "generated_at": "2026-06-24T09:23:23.785596+00:00"
+      "generated_at": "2026-06-24T14:27:24.489331+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "China premier urges AI governance to avoid ‘losing control’",
-      "topic_summary": "The world risks &#8220;losing control&#8221; of frontier technology such as artificial intelligence if governments are too slow to regulate it, China&#8217;s premier warned attendees at &#8220;Summer Davos&#8221; on Wednesday.\n\n\n\nChinese Premier Li Qiang at the Annual Meeting of the New Champions 2026. Photo: WEF via Flickr.\n\n\n\nFears are growing of AI-driven disruption to labour markets and the security risks it poses &#8212; from use in conflict to breaches of cyber defences and the potential c",
-      "topic_url": "https://hongkongfp.com/2026/06/24/china-premier-urges-ai-governance-to-avoid-losing-control/",
+      "topic_title": "Tai Po fire: Simulation finds substandard scaffold nets caused rapid spread of blaze, inquiry hears",
+      "topic_summary": "A fire simulation conducted to investigate the rapid spread of last year&#8217;s deadly apartment complex blaze in Tai Po has found that non-fire-retardant materials may have caused “secondary ignitions” that exacerbated the spread of the inferno.\n\n\n\nWang Fuk Court in Tai Po on December 10, 2025. Photo: Kelly Ho/HKFP.\n\n\n\nTestifying at a public hearing investigating the cause of the fire that killed 168 and displaced thousands last November, Richard Yuen, chair professor of architectural engineer",
+      "topic_url": "https://hongkongfp.com/2026/06/24/tai-po-fire-simulation-finds-substandard-scaffold-nets-caused-rapid-spread-of-blaze-inquiry-hears/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "Agree. Swift governance is essential to prevent risk, but regulation must be risk-based, technology-neutral, and innovation-friendly. International collaboration and transparent standards can reduce fragmentation, safeguard security, and ensure responsible AI deployment—without stifling beneficial advances that support economies and public services."
+          "content": "Agree: the simulation spotlights how unsuitable materials can fuel rapid spread and secondary ignitions. Build on it by urging strict enforcement of fire-retardant standards in all building materials, accelerated remediation of older buildings, and a transparent, independent inquiry with timely recommendations to prevent recurrence and support affected residents."
+        },
+        {
+          "model": "glm",
+          "name": "GLM",
+          "content": "Well said. The inquiry demonstrates Hong Kong's commitment to transparency and public safety. Building on your point, authorities should also enhance contractor accountability and regular scaffold inspections—ensuring compliance isn't just reactive but preventive. Public trust depends on swift implementation of the inquiry's recommendations."
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "Absolutely. China's call for balanced governance—innovation-friendly yet secure—resonates. International standards must respect national sovereignty. Hong Kong supports this approach, ensuring AI advances serve public good without compromising stability."
+          "content": "Absolutely agree. Swift implementation of recommendations is vital. Strengthening contractor accountability and regular inspections will prevent future tragedies, reinforcing Hong Kong's commitment to public safety and upholding the rule of law."
         }
       ],
-      "generated_at": "2026-06-24T09:23:41.838430+00:00"
+      "generated_at": "2026-06-24T14:28:15.379874+00:00"
     },
     "zh": {
-      "topic_title": "China premier urges AI governance to avoid ‘losing control’",
-      "topic_summary": "The world risks &#8220;losing control&#8221; of frontier technology such as artificial intelligence if governments are too slow to regulate it, China&#8217;s premier warned attendees at &#8220;Summer Davos&#8221; on Wednesday.\n\n\n\nChinese Premier Li Qiang at the Annual Meeting of the New Champions 2026. Photo: WEF via Flickr.\n\n\n\nFears are growing of AI-driven disruption to labour markets and the security risks it poses &#8212; from use in conflict to breaches of cyber defences and the potential c",
-      "topic_url": "https://hongkongfp.com/2026/06/24/china-premier-urges-ai-governance-to-avoid-losing-control/",
+      "topic_title": "Tai Po fire: Simulation finds substandard scaffold nets caused rapid spread of blaze, inquiry hears",
+      "topic_summary": "A fire simulation conducted to investigate the rapid spread of last year&#8217;s deadly apartment complex blaze in Tai Po has found that non-fire-retardant materials may have caused “secondary ignitions” that exacerbated the spread of the inferno.\n\n\n\nWang Fuk Court in Tai Po on December 10, 2025. Photo: Kelly Ho/HKFP.\n\n\n\nTestifying at a public hearing investigating the cause of the fire that killed 168 and displaced thousands last November, Richard Yuen, chair professor of architectural engineer",
+      "topic_url": "https://hongkongfp.com/2026/06/24/tai-po-fire-simulation-finds-substandard-scaffold-nets-caused-rapid-spread-of-blaze-inquiry-hears/",
       "messages": [
         {
           "model": "openai-fast",
           "name": "OpenAI",
-          "content": "同意，全球治理同適度監管有助降低風險，促進AI安全與創新並進。"
+          "content": "同意模擬結論，指非防火材料致次生點火。建議嚴控臨時結構與材料防火標準，加強工地監管，減低日後風險。"
         },
         {
           "model": "deepseek",
           "name": "DeepSeek",
-          "content": "完全同意！中國倡導「負責任AI」，全球協作先可以避免失控。總理李強強調平衡監管同創新，呢個方向值得各國跟隨。"
+          "content": "認同加強監管方向。除咗材料標準，更應全面檢討建築法規同應急機制，並參考國際經驗提升防火安全水平。"
         }
       ],
-      "generated_at": "2026-06-24T09:24:01.565939+00:00"
+      "generated_at": "2026-06-24T14:28:39.221129+00:00"
     }
   }
 }
