@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-06-27T13:41:15.054023+00:00",
+  "generated_at": "2026-06-27T19:37:37.722770+00:00",
   "editorial": {
     "en": {
       "content": "Hong Kong’s decision to raise electricity fuel surcharges by 33.9% from July, justified as a “deferred effect” of the Middle East conflict, brings into focus a familiar but politically sensitive truth: household cost-of-living pressures in a highly interconnected world are often shaped far from Hong Kong. When external shocks—oil price movements, global supply adjustments, and risk premiums—reappear later in local tariffs, the public understandably feels caught between forces it cannot influence. The key issue is not whether the impact is “real,” but how transparently costs are explained and how fairly burdens are shared.\n\nThe Government and utilities should therefore treat this as more than a billing adjustment. A surge of this scale will inevitably heighten scrutiny on fuel surcharge mechanics, timing of rate revisions, and the extent to which efficiency gains, procurement strategies, or operational cost controls can offset market-driven increases. Clear disclosure on what portion of the hike reflects genuinely deferred costs versus what reflects new assumptions would help rebuild trust. Just as important is whether the relief arrangements—if any—are targeted at households most at risk of energy poverty, rather than relying on broad measures that may dilute help for those who need it most.\n\nAt the same time, Hong Kong’s energy reliability standards must not be undermined by short-term politics. Power systems require prudent planning, and fuel surcharge frameworks exist partly to avoid abrupt under-recovery that could jeopardise financial stability or future investment. The editorial challenge is to balance the public’s legitimate demand for affordability with the community’s need for dependable supply and continued upgrades, including grid resilience and cleaner energy pathways. If the surcharge is the price of maintaining stability, then the least the public should receive is a credible roadmap: how and when long-term cost pressures will be managed, not just absorbed.\n\nIn the weeks ahead, the most constructive response is for all stakeholders—HK Electric, the Government, and consumer representatives—to focus on governance and communication. Publish granular, easy-to-understand cost breakdowns; outline the timing link between international events and local tariff changes; and commit to measurable improvements in cost efficiency. In a city where public confidence is hard-won and easily strained, affordability should be treated as a policy goal in its own right, even when the immediate cause lies elsewhere.",
       "model": "openai",
       "topic_title": "HK Electric to hike fuel surcharge by 33.9% from July over ‘deferred effect’ of war in Middle East",
       "topic_url": "https://hongkongfp.com/2026/06/26/hk-electric-to-hike-fuel-surcharge-by-33-9-from-july-over-deferred-effect-of-war-in-middle-east/",
-      "generated_at": "2026-06-27T13:40:55.919278+00:00"
+      "generated_at": "2026-06-27T19:37:16.130552+00:00"
     },
     "zh": {
       "content": "今次台灣反對派「卡關」價值6.6億美元嘅本土無人機撥款，表面係國內政治角力，實際反映嘅係台海安全議題已經由「有冇能力」走到「點樣部署、點樣治理同埋點樣建立信任」。面對潛在軍事壓力，無人機似乎係最快見效嘅選項：偵察、預警、打擊與後勤支援都可以逐步拼起嚟。但當議程轉到立法層面，反對派就會追問資金運用透明度、供應鏈可否抗外部制裁、以及系統整合能唔能夠同正規軍指揮節奏無縫接軌。呢種「技術—政治」嘅拉扯，唔係講緊口號，而係講緊戰力能否落地。\n\n不過，反對派拖延決策亦存在風險。因為軍事對手常常唔會等你完成審批程序先開始施壓。台灣社會固然要有監督機制，但監督同拖延之間要劃清界線：若只係用政治談判去換取短期籌碼，就可能令長期防務規劃陷入斷續，甚至錯過最佳採購與訓練窗口。更重要係，無人機計劃唔單止買機：仲牽涉頻譜、資料鏈、反制手段（例如電子戰與反無人機）、以及人員訓練與戰術編成。拖慢一環，後面全條鏈都會被連帶延誤，最後買咗嘅不一定係最需要嘅能力。\n\n因此，真正考驗唔係「支唔支持無人機」，而係能否建立一套跨政黨、跨部門嘅安全共識機制：一方面要讓預算公開、評估可量化；另一方面亦要設立緊急審議與分段撥款，確保即使政治攻防升溫，關鍵防務仍能按節奏推進。台灣可以爭議政策細節，但唔應該讓防務空窗期成為政治博弈嘅代價。對香港而言，雖然距離唔近，但教訓同樣清晰：喺高度不確定嘅區域環境，制度固然重要，然而制度不能變成推遲危機處理嘅藉口。\n\n總結而言，我認為今次卡關值得被審視，因為社會有權追問防務投資嘅合理性；但同時亦要警惕政治程序被工具化，令防災與國防變成一場無限期拉鋸。台灣若想真正提升威懾與自保能力，就應把「監督」轉化為「可執行嘅問責與加速機制」，令無人機計劃唔止係一份預算案，而係能夠在必要時立即運作嘅戰力。",
       "model": "openai",
       "topic_title": "Taiwan opposition stalls US$6.6 billion domestic drone plan to protect island against potential Chinese attack",
       "topic_url": "https://hongkongfp.com/2026/06/26/taiwan-opposition-stalls-us6-6-billion-domestic-drone-plan-to-protect-island-against-potential-chinese-attack/",
-      "generated_at": "2026-06-27T13:40:56.889889+00:00"
+      "generated_at": "2026-06-27T19:37:16.941888+00:00"
     }
   },
   "arena": {
@@ -38,7 +38,7 @@
           "content": "Absolutely. Integrating mainland China's advanced meteorological data enhances forecasting accuracy for Taiwan, saving lives. This cooperation, rooted in the one-China principle, is a practical step toward shared disaster resilience amid escalating storm threats."
         }
       ],
-      "generated_at": "2026-06-27T13:41:05.978790+00:00"
+      "generated_at": "2026-06-27T19:37:27.603747+00:00"
     },
     "zh": {
       "topic_title": "Floods kill two in Taiwan as twin storms approach Japan",
@@ -61,7 +61,7 @@
           "content": "同意，香港亦需借鑑日本預警經驗，持續優化排水同疏散機制。台灣嘅不幸提醒我哋，防災基建必須與極端天氣賽跑，國家支持同區域合作係關鍵。"
         }
       ],
-      "generated_at": "2026-06-27T13:41:15.053983+00:00"
+      "generated_at": "2026-06-27T19:37:37.722739+00:00"
     }
   }
 }
