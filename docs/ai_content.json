@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-02T02:39:19.525840+00:00",
+  "generated_at": "2026-07-02T08:51:56.939960+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong Observatory hoists T1 storm signal, will consider T3 on Friday",
-      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-observatory-hoists-t1-storm-signal-will-consider-t3-on-friday/",
-      "generated_at": "2026-07-02T02:39:03.273554+00:00"
+      "topic_title": "Hong Kong lawmaker William Wong arrested on suspicion of drink driving on Chinese University campus",
+      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-lawmaker-william-wong-arrested-on-suspicion-of-drink-driving-on-chinese-university-campus/",
+      "generated_at": "2026-07-02T08:51:41.265902+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong Observatory hoists T1 storm signal, will consider T3 on Friday",
-      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-observatory-hoists-t1-storm-signal-will-consider-t3-on-friday/",
-      "generated_at": "2026-07-02T02:39:03.593493+00:00"
+      "topic_title": "Hong Kong lawmaker William Wong arrested on suspicion of drink driving on Chinese University campus",
+      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-lawmaker-william-wong-arrested-on-suspicion-of-drink-driving-on-chinese-university-campus/",
+      "generated_at": "2026-07-02T08:51:41.539543+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong Observatory hoists T1 storm signal, will consider T3 on Friday",
-      "topic_summary": "The Observatory (HKO) hoisted the T1 storm signal at 7.45am on Thursday, as a tropical depression approached China&#8217;s Hainan Island.\n\n\n\nPhoto: Observatory.\n\n\n\n&#8220;According to the present forecast, the tropical depression will intensify gradually and move in the general direction of Hainan Island today, maintaining a distance of 500 kilometres or more from Hong Kong,&#8221; the HKO said.\n\n\n\nThe tropical cyclone signal may be raised again on Friday, it said: &#8220;Due to the effect of te",
-      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-observatory-hoists-t1-storm-signal-will-consider-t3-on-friday/",
+      "topic_title": "Hong Kong lawmaker William Wong arrested on suspicion of drink driving on Chinese University campus",
+      "topic_summary": "Hong Kong lawmaker William Wong has been arrested on suspicion of drink driving and three other offences linked to a car accident on Chinese University of Hong Kong (CUHK)&#8217;s campus.\n\n\n\nHong Kong lawmaker William Wong attends ceremony to celebrate the handover anniversary on July 1, 2026. Photo: William Wong via Facebook. \n\n\n\nThe 66-year-old lawmaker, who is also an engineering professor at the university, allegedly hit two parked cars outside a residential hall at CUHK on Monday night, acc",
+      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-lawmaker-william-wong-arrested-on-suspicion-of-drink-driving-on-chinese-university-campus/",
       "messages": [],
-      "generated_at": "2026-07-02T02:39:11.649577+00:00"
+      "generated_at": "2026-07-02T08:51:49.195696+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong Observatory hoists T1 storm signal, will consider T3 on Friday",
-      "topic_summary": "The Observatory (HKO) hoisted the T1 storm signal at 7.45am on Thursday, as a tropical depression approached China&#8217;s Hainan Island.\n\n\n\nPhoto: Observatory.\n\n\n\n&#8220;According to the present forecast, the tropical depression will intensify gradually and move in the general direction of Hainan Island today, maintaining a distance of 500 kilometres or more from Hong Kong,&#8221; the HKO said.\n\n\n\nThe tropical cyclone signal may be raised again on Friday, it said: &#8220;Due to the effect of te",
-      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-observatory-hoists-t1-storm-signal-will-consider-t3-on-friday/",
+      "topic_title": "Hong Kong lawmaker William Wong arrested on suspicion of drink driving on Chinese University campus",
+      "topic_summary": "Hong Kong lawmaker William Wong has been arrested on suspicion of drink driving and three other offences linked to a car accident on Chinese University of Hong Kong (CUHK)&#8217;s campus.\n\n\n\nHong Kong lawmaker William Wong attends ceremony to celebrate the handover anniversary on July 1, 2026. Photo: William Wong via Facebook. \n\n\n\nThe 66-year-old lawmaker, who is also an engineering professor at the university, allegedly hit two parked cars outside a residential hall at CUHK on Monday night, acc",
+      "topic_url": "https://hongkongfp.com/2026/07/02/hong-kong-lawmaker-william-wong-arrested-on-suspicion-of-drink-driving-on-chinese-university-campus/",
       "messages": [],
-      "generated_at": "2026-07-02T02:39:19.525805+00:00"
+      "generated_at": "2026-07-02T08:51:56.939924+00:00"
     }
   }
 }
