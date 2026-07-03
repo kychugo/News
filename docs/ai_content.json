@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-03T02:14:54.499807+00:00",
+  "generated_at": "2026-07-03T08:58:10.410754+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong police search 15 people on  Handover anniversary, citing national security and public order",
-      "topic_url": "https://hongkongfp.com/2026/07/03/hong-kong-police-search-15-people-on-handover-anniversary-citing-national-security-and-public-order/",
-      "generated_at": "2026-07-03T02:14:38.738265+00:00"
+      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
+      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
+      "generated_at": "2026-07-03T08:57:54.545948+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong police search 15 people on  Handover anniversary, citing national security and public order",
-      "topic_url": "https://hongkongfp.com/2026/07/03/hong-kong-police-search-15-people-on-handover-anniversary-citing-national-security-and-public-order/",
-      "generated_at": "2026-07-03T02:14:39.047392+00:00"
+      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
+      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
+      "generated_at": "2026-07-03T08:57:54.826032+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong police search 15 people on  Handover anniversary, citing national security and public order",
-      "topic_summary": "Police officers stopped and searched 15 people on Hong Kong&#8217;s Handover anniversary, citing national security and public order.\n\n\n\nPolice vehicles parked in Causeway Bay on July 1, 2026. Photo: P H Yang. \n\n\n\nThe 15, which included five men and 10 women aging from 25 to 73 years old, were stopped in Wan Chai and eastern Hong Kong island on Wednesday, police said in a response to HKFP.\n\n\n\nAmong them, a 32-year-old man was taken away by police for further investigation after being stopped and ",
-      "topic_url": "https://hongkongfp.com/2026/07/03/hong-kong-police-search-15-people-on-handover-anniversary-citing-national-security-and-public-order/",
+      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
+      "topic_summary": "Legislator William Wong has stepped down as a lawmaker following his arrest on Monday over an alleged drink driving incident.\n\n\n\nWilliam Wong. Photo: William Wong, via Facebook.\n\n\n\nHis resignation was announced in a Friday statement by Legislative Council (LegCo) President Starry Lee, who said she respected Wong&#8217;s decision and thanked him for his service.\n\n\n\nWong told local media outlets on Friday he had stepped down from the &#8220;patriots only&#8221; LegCo effective immediately, and tha",
+      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
       "messages": [],
-      "generated_at": "2026-07-03T02:14:46.754757+00:00"
+      "generated_at": "2026-07-03T08:58:02.323376+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong police search 15 people on  Handover anniversary, citing national security and public order",
-      "topic_summary": "Police officers stopped and searched 15 people on Hong Kong&#8217;s Handover anniversary, citing national security and public order.\n\n\n\nPolice vehicles parked in Causeway Bay on July 1, 2026. Photo: P H Yang. \n\n\n\nThe 15, which included five men and 10 women aging from 25 to 73 years old, were stopped in Wan Chai and eastern Hong Kong island on Wednesday, police said in a response to HKFP.\n\n\n\nAmong them, a 32-year-old man was taken away by police for further investigation after being stopped and ",
-      "topic_url": "https://hongkongfp.com/2026/07/03/hong-kong-police-search-15-people-on-handover-anniversary-citing-national-security-and-public-order/",
+      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
+      "topic_summary": "Legislator William Wong has stepped down as a lawmaker following his arrest on Monday over an alleged drink driving incident.\n\n\n\nWilliam Wong. Photo: William Wong, via Facebook.\n\n\n\nHis resignation was announced in a Friday statement by Legislative Council (LegCo) President Starry Lee, who said she respected Wong&#8217;s decision and thanked him for his service.\n\n\n\nWong told local media outlets on Friday he had stepped down from the &#8220;patriots only&#8221; LegCo effective immediately, and tha",
+      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
       "messages": [],
-      "generated_at": "2026-07-03T02:14:54.499766+00:00"
+      "generated_at": "2026-07-03T08:58:10.410729+00:00"
     }
   }
 }
