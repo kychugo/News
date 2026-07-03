@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-03T08:58:10.410754+00:00",
+  "generated_at": "2026-07-03T14:22:50.854135+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
-      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
-      "generated_at": "2026-07-03T08:57:54.545948+00:00"
+      "topic_title": "China accuses critics of ethnic unity law of ‘spreading falsehoods’ as UN warns it threatens rights of minorities",
+      "topic_url": "https://hongkongfp.com/2026/07/03/china-accuses-critics-of-ethnic-unity-law-of-spreading-falsehoods-as-un-warns-it-threatens-rights-of-minorities/",
+      "generated_at": "2026-07-03T14:03:07.278467+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
-      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
-      "generated_at": "2026-07-03T08:57:54.826032+00:00"
+      "topic_title": "China accuses critics of ethnic unity law of ‘spreading falsehoods’ as UN warns it threatens rights of minorities",
+      "topic_url": "https://hongkongfp.com/2026/07/03/china-accuses-critics-of-ethnic-unity-law-of-spreading-falsehoods-as-un-warns-it-threatens-rights-of-minorities/",
+      "generated_at": "2026-07-03T14:04:37.438967+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
-      "topic_summary": "Legislator William Wong has stepped down as a lawmaker following his arrest on Monday over an alleged drink driving incident.\n\n\n\nWilliam Wong. Photo: William Wong, via Facebook.\n\n\n\nHis resignation was announced in a Friday statement by Legislative Council (LegCo) President Starry Lee, who said she respected Wong&#8217;s decision and thanked him for his service.\n\n\n\nWong told local media outlets on Friday he had stepped down from the &#8220;patriots only&#8221; LegCo effective immediately, and tha",
-      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
+      "topic_title": "China accuses critics of ethnic unity law of ‘spreading falsehoods’ as UN warns it threatens rights of minorities",
+      "topic_summary": "China urged countries on Friday to &#8220;stop spreading falsehoods&#8221; about its new ethnic unity law, after US lawmakers, the United Nations and rights groups warned it threatens the freedoms of minorities.\n\n\n\nPhoto: United Nations.\n\n\n\nThe Law on Promoting Ethnic Unity and Progress came into force on Wednesday and aims to forge a &#8220;shared&#8221; national identity among ethnic groups by, for example, strengthening the status of Mandarin as the official language.\n\n\n\nBut overseas campaign",
+      "topic_url": "https://hongkongfp.com/2026/07/03/china-accuses-critics-of-ethnic-unity-law-of-spreading-falsehoods-as-un-warns-it-threatens-rights-of-minorities/",
       "messages": [],
-      "generated_at": "2026-07-03T08:58:02.323376+00:00"
+      "generated_at": "2026-07-03T14:13:44.227896+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong lawmaker William Wong resigns from Legislative Council after drink driving arrest",
-      "topic_summary": "Legislator William Wong has stepped down as a lawmaker following his arrest on Monday over an alleged drink driving incident.\n\n\n\nWilliam Wong. Photo: William Wong, via Facebook.\n\n\n\nHis resignation was announced in a Friday statement by Legislative Council (LegCo) President Starry Lee, who said she respected Wong&#8217;s decision and thanked him for his service.\n\n\n\nWong told local media outlets on Friday he had stepped down from the &#8220;patriots only&#8221; LegCo effective immediately, and tha",
-      "topic_url": "https://hongkongfp.com/2026/07/03/breaking-hong-kong-lawmaker-william-wong-resigns-from-legislative-council-after-drink-driving-arrest/",
+      "topic_title": "China accuses critics of ethnic unity law of ‘spreading falsehoods’ as UN warns it threatens rights of minorities",
+      "topic_summary": "China urged countries on Friday to &#8220;stop spreading falsehoods&#8221; about its new ethnic unity law, after US lawmakers, the United Nations and rights groups warned it threatens the freedoms of minorities.\n\n\n\nPhoto: United Nations.\n\n\n\nThe Law on Promoting Ethnic Unity and Progress came into force on Wednesday and aims to forge a &#8220;shared&#8221; national identity among ethnic groups by, for example, strengthening the status of Mandarin as the official language.\n\n\n\nBut overseas campaign",
+      "topic_url": "https://hongkongfp.com/2026/07/03/china-accuses-critics-of-ethnic-unity-law-of-spreading-falsehoods-as-un-warns-it-threatens-rights-of-minorities/",
       "messages": [],
-      "generated_at": "2026-07-03T08:58:10.410729+00:00"
+      "generated_at": "2026-07-03T14:22:50.854115+00:00"
     }
   }
 }
