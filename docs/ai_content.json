@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-07T09:36:16.094410+00:00",
+  "generated_at": "2026-07-07T14:31:33.953708+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Japanese, Chinese coast guards face off near disputed islands",
-      "topic_url": "https://hongkongfp.com/2026/07/07/japanese-chinese-coast-guards-face-off-near-disputed-islands/",
-      "generated_at": "2026-07-07T09:35:59.957624+00:00"
+      "topic_title": "Jailed activist Joshua Wong to plead guilty, face second national security jail term in September",
+      "topic_url": "https://hongkongfp.com/2026/07/07/jailed-activist-joshua-wong-to-plead-guilty-face-second-national-security-jail-term-in-september/",
+      "generated_at": "2026-07-07T14:31:14.867268+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Japanese, Chinese coast guards face off near disputed islands",
-      "topic_url": "https://hongkongfp.com/2026/07/07/japanese-chinese-coast-guards-face-off-near-disputed-islands/",
-      "generated_at": "2026-07-07T09:36:00.292461+00:00"
+      "topic_title": "Jailed activist Joshua Wong to plead guilty, face second national security jail term in September",
+      "topic_url": "https://hongkongfp.com/2026/07/07/jailed-activist-joshua-wong-to-plead-guilty-face-second-national-security-jail-term-in-september/",
+      "generated_at": "2026-07-07T14:31:15.940824+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Japanese, Chinese coast guards face off near disputed islands",
-      "topic_summary": "Ships from Japan&#8217;s and China&#8217;s coast guards faced off near disputed islands Tuesday, with each claiming they drove out the other&#8217;s vessels that had intruded into their territorial waters.\n\n\n\nAn undated photo shows a Japan Coast Guard vesel, and a China Coast Guard ship. File photo: Japan Coast Guard.\n\n\n\nThe incident occurred near uninhabited islands claimed as the Senkaku in Japan and the Diaoyu in China, which sit between Taiwan and Okinawa and have caused diplomatic tensions ",
-      "topic_url": "https://hongkongfp.com/2026/07/07/japanese-chinese-coast-guards-face-off-near-disputed-islands/",
+      "topic_title": "Jailed activist Joshua Wong to plead guilty, face second national security jail term in September",
+      "topic_summary": "Hong Kong activist Joshua Wong is set to plead guilty and face sentencing for a foreign collusion charge in September, marking his second conviction under the national security law.\n\n\n\nJoshua Wong, former secretary general of the now-disbanded political group Demosisto. Photo: Etan Liam, via Flickr. \n\n\n\nWong is slated to appear at the High Court on September 2, according to the Judiciary&#8217;s court diary. The diary states he will sit for a plea and sentence hearing, indicating that Wong will ",
+      "topic_url": "https://hongkongfp.com/2026/07/07/jailed-activist-joshua-wong-to-plead-guilty-face-second-national-security-jail-term-in-september/",
       "messages": [],
-      "generated_at": "2026-07-07T09:36:08.130029+00:00"
+      "generated_at": "2026-07-07T14:31:26.029614+00:00"
     },
     "zh": {
-      "topic_title": "Japanese, Chinese coast guards face off near disputed islands",
-      "topic_summary": "Ships from Japan&#8217;s and China&#8217;s coast guards faced off near disputed islands Tuesday, with each claiming they drove out the other&#8217;s vessels that had intruded into their territorial waters.\n\n\n\nAn undated photo shows a Japan Coast Guard vesel, and a China Coast Guard ship. File photo: Japan Coast Guard.\n\n\n\nThe incident occurred near uninhabited islands claimed as the Senkaku in Japan and the Diaoyu in China, which sit between Taiwan and Okinawa and have caused diplomatic tensions ",
-      "topic_url": "https://hongkongfp.com/2026/07/07/japanese-chinese-coast-guards-face-off-near-disputed-islands/",
+      "topic_title": "Jailed activist Joshua Wong to plead guilty, face second national security jail term in September",
+      "topic_summary": "Hong Kong activist Joshua Wong is set to plead guilty and face sentencing for a foreign collusion charge in September, marking his second conviction under the national security law.\n\n\n\nJoshua Wong, former secretary general of the now-disbanded political group Demosisto. Photo: Etan Liam, via Flickr. \n\n\n\nWong is slated to appear at the High Court on September 2, according to the Judiciary&#8217;s court diary. The diary states he will sit for a plea and sentence hearing, indicating that Wong will ",
+      "topic_url": "https://hongkongfp.com/2026/07/07/jailed-activist-joshua-wong-to-plead-guilty-face-second-national-security-jail-term-in-september/",
       "messages": [],
-      "generated_at": "2026-07-07T09:36:16.094376+00:00"
+      "generated_at": "2026-07-07T14:31:33.953676+00:00"
     }
   }
 }
