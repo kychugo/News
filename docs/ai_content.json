@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-09T02:21:53.188741+00:00",
+  "generated_at": "2026-07-09T09:33:55.254215+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong fertility clinic probed after sending wrong embryo samples for DNA testing",
-      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-fertility-clinic-probed-after-sending-wrong-embryo-samples-for-dna-testing/",
-      "generated_at": "2026-07-09T02:21:37.344512+00:00"
+      "topic_title": "Hong Kong court denies jailed social worker leave to appeal 2019 rioting conviction",
+      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-court-denies-jailed-social-worker-leave-to-appeal-2019-rioting-conviction/",
+      "generated_at": "2026-07-09T09:33:38.445939+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong fertility clinic probed after sending wrong embryo samples for DNA testing",
-      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-fertility-clinic-probed-after-sending-wrong-embryo-samples-for-dna-testing/",
-      "generated_at": "2026-07-09T02:21:37.652805+00:00"
+      "topic_title": "Hong Kong court denies jailed social worker leave to appeal 2019 rioting conviction",
+      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-court-denies-jailed-social-worker-leave-to-appeal-2019-rioting-conviction/",
+      "generated_at": "2026-07-09T09:33:38.855539+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong fertility clinic probed after sending wrong embryo samples for DNA testing",
-      "topic_summary": "Hong Kong authorities are investigating a human reproductive medical centre after it allegedly sent the wrong embryo specimens from two couples for DNA testing, the city&#8217;s health minister has said.\n\n\n\nSecretary for Health Lo Chung-mau told the press on Wednesday that the authorities had reported the incidents at Heal Fertility Centre to the police.\n\n\n\nHeal Fertility Centre in Central. Photo: Heal Fertility Centre.\n\n\n\nThe Council on Human Reproductive Technology said on Tuesday evening that",
-      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-fertility-clinic-probed-after-sending-wrong-embryo-samples-for-dna-testing/",
+      "topic_title": "Hong Kong court denies jailed social worker leave to appeal 2019 rioting conviction",
+      "topic_summary": "A Hong Kong court has rejected a jailed social worker&#8217;s appeal against her rioting conviction linked to the 2019 protests and unrest.\n\n\n\nSocial worker Jackie Chen outside the District Court in Hong Kong on March 11, 2025. File photo: Hillary Leung/HKFP.\n\n\n\nThe High Court on Thursday refused to allow Jackie Chen to appeal her rioting conviction, for which she is serving a jail term of three years and nine months. \n\n\n\nCourt of Appeal Judge Derek Pang said the grounds for her appeal were not ",
+      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-court-denies-jailed-social-worker-leave-to-appeal-2019-rioting-conviction/",
       "messages": [],
-      "generated_at": "2026-07-09T02:21:45.566243+00:00"
+      "generated_at": "2026-07-09T09:33:47.653951+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong fertility clinic probed after sending wrong embryo samples for DNA testing",
-      "topic_summary": "Hong Kong authorities are investigating a human reproductive medical centre after it allegedly sent the wrong embryo specimens from two couples for DNA testing, the city&#8217;s health minister has said.\n\n\n\nSecretary for Health Lo Chung-mau told the press on Wednesday that the authorities had reported the incidents at Heal Fertility Centre to the police.\n\n\n\nHeal Fertility Centre in Central. Photo: Heal Fertility Centre.\n\n\n\nThe Council on Human Reproductive Technology said on Tuesday evening that",
-      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-fertility-clinic-probed-after-sending-wrong-embryo-samples-for-dna-testing/",
+      "topic_title": "Hong Kong court denies jailed social worker leave to appeal 2019 rioting conviction",
+      "topic_summary": "A Hong Kong court has rejected a jailed social worker&#8217;s appeal against her rioting conviction linked to the 2019 protests and unrest.\n\n\n\nSocial worker Jackie Chen outside the District Court in Hong Kong on March 11, 2025. File photo: Hillary Leung/HKFP.\n\n\n\nThe High Court on Thursday refused to allow Jackie Chen to appeal her rioting conviction, for which she is serving a jail term of three years and nine months. \n\n\n\nCourt of Appeal Judge Derek Pang said the grounds for her appeal were not ",
+      "topic_url": "https://hongkongfp.com/2026/07/09/hong-kong-court-denies-jailed-social-worker-leave-to-appeal-2019-rioting-conviction/",
       "messages": [],
-      "generated_at": "2026-07-09T02:21:53.188723+00:00"
+      "generated_at": "2026-07-09T09:33:55.254182+00:00"
     }
   }
 }
