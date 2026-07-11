@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-11T13:16:45.212259+00:00",
+  "generated_at": "2026-07-11T19:15:26.240285+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong welcomes dogs into restaurants, to pet owners’ delight",
       "topic_url": "https://hongkongfp.com/2026/07/11/hong-kong-welcomes-dogs-into-restaurants-to-pet-owners-delight/",
-      "generated_at": "2026-07-11T13:16:28.581436+00:00"
+      "generated_at": "2026-07-11T19:12:10.204809+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong welcomes dogs into restaurants, to pet owners’ delight",
       "topic_url": "https://hongkongfp.com/2026/07/11/hong-kong-welcomes-dogs-into-restaurants-to-pet-owners-delight/",
-      "generated_at": "2026-07-11T13:16:28.894944+00:00"
+      "generated_at": "2026-07-11T19:12:10.506729+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "Hong Kong resident Joe Lam was finally able to sit with his pet poodle Glutinous Rice inside an air-conditioned cafe on Thursday, as the city allowed dogs to enter restaurants for the first time in decades.\n\n\n\n\n\n\n\n\n\n&#8220;Usually we sit outside, but I just found out that we can bring the dog in today, so we were happy, because at least it won&#8217;t be so hot,&#8221; Lam, a 62-year-old retiree, told AFP.\n\n\n\nA staff member directed Lam and his wife to park the stroller carrying the 15-year-old ",
       "topic_url": "https://hongkongfp.com/2026/07/11/hong-kong-welcomes-dogs-into-restaurants-to-pet-owners-delight/",
       "messages": [],
-      "generated_at": "2026-07-11T13:16:36.833052+00:00"
+      "generated_at": "2026-07-11T19:13:48.386512+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong welcomes dogs into restaurants, to pet owners’ delight",
       "topic_summary": "Hong Kong resident Joe Lam was finally able to sit with his pet poodle Glutinous Rice inside an air-conditioned cafe on Thursday, as the city allowed dogs to enter restaurants for the first time in decades.\n\n\n\n\n\n\n\n\n\n&#8220;Usually we sit outside, but I just found out that we can bring the dog in today, so we were happy, because at least it won&#8217;t be so hot,&#8221; Lam, a 62-year-old retiree, told AFP.\n\n\n\nA staff member directed Lam and his wife to park the stroller carrying the 15-year-old ",
       "topic_url": "https://hongkongfp.com/2026/07/11/hong-kong-welcomes-dogs-into-restaurants-to-pet-owners-delight/",
       "messages": [],
-      "generated_at": "2026-07-11T13:16:45.212223+00:00"
+      "generated_at": "2026-07-11T19:15:26.240247+00:00"
     }
   }
 }
