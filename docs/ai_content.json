@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-12T13:17:20.260424+00:00",
+  "generated_at": "2026-07-12T19:13:40.548397+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
       "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
-      "generated_at": "2026-07-12T13:17:04.836662+00:00"
+      "generated_at": "2026-07-12T19:13:24.514557+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
       "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
-      "generated_at": "2026-07-12T13:17:05.126790+00:00"
+      "generated_at": "2026-07-12T19:13:24.836319+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "Typhoon Bavi was downgraded to a severe tropical storm Sunday after making landfall in eastern China, where authorities had evacuated nearly two million people in its path.\n\n\n\nStrong waves break along the coast in Yilan on July 10, 2026, as Typhoon Bavi moves toward Northeastern Taiwan. Photo: I-Hwa Cheng /  AFP.\n\n\n\nThere were no immediate reports of damage or casualties.\n\n\n\nBefore reaching China, the storm lashed northern Taiwan and Japan&#8217;s remote southwestern islands, toppling trees and ",
       "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
       "messages": [],
-      "generated_at": "2026-07-12T13:17:12.720399+00:00"
+      "generated_at": "2026-07-12T19:13:32.739774+00:00"
     },
     "zh": {
       "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
       "topic_summary": "Typhoon Bavi was downgraded to a severe tropical storm Sunday after making landfall in eastern China, where authorities had evacuated nearly two million people in its path.\n\n\n\nStrong waves break along the coast in Yilan on July 10, 2026, as Typhoon Bavi moves toward Northeastern Taiwan. Photo: I-Hwa Cheng /  AFP.\n\n\n\nThere were no immediate reports of damage or casualties.\n\n\n\nBefore reaching China, the storm lashed northern Taiwan and Japan&#8217;s remote southwestern islands, toppling trees and ",
       "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
       "messages": [],
-      "generated_at": "2026-07-12T13:17:20.260393+00:00"
+      "generated_at": "2026-07-12T19:13:40.548361+00:00"
     }
   }
 }
