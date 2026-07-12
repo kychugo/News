@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-12T02:12:14.913155+00:00",
+  "generated_at": "2026-07-12T08:12:19.801512+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong prosecutors should treat children as children",
-      "topic_url": "https://hongkongfp.com/2026/07/12/hong-kong-prosecutors-should-treat-children-as-children/",
-      "generated_at": "2026-07-12T02:04:28.019464+00:00"
+      "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
+      "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
+      "generated_at": "2026-07-12T08:12:03.196567+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong prosecutors should treat children as children",
-      "topic_url": "https://hongkongfp.com/2026/07/12/hong-kong-prosecutors-should-treat-children-as-children/",
-      "generated_at": "2026-07-12T02:04:28.916369+00:00"
+      "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
+      "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
+      "generated_at": "2026-07-12T08:12:03.675946+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong prosecutors should treat children as children",
-      "topic_summary": "The Department of Justice continues to find ways to spoil my breakfast. Consider the case of Ms Ami Chan, which was heard in the Eastern Magistrates Court earlier this week.\n\n\n\nDepartment of Justice. Photo: GovHK. \n\n\n\nMs Chan was arrested in 2019 (yes, it’s one of those cases) although she was not accused of rioting. The case revolves round the contents of her rucksack, which included two laser pointers and two cans of spray paint. A rare hit from “stop and search” policing.\n\n\n\nNothing further h",
-      "topic_url": "https://hongkongfp.com/2026/07/12/hong-kong-prosecutors-should-treat-children-as-children/",
+      "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
+      "topic_summary": "Typhoon Bavi was downgraded to a severe tropical storm Sunday after making landfall in eastern China, where authorities had evacuated nearly two million people in its path.\n\n\n\nStrong waves break along the coast in Yilan on July 10, 2026, as Typhoon Bavi moves toward Northeastern Taiwan. Photo: I-Hwa Cheng /  AFP.\n\n\n\nThere were no immediate reports of damage or casualties.\n\n\n\nBefore reaching China, the storm lashed northern Taiwan and Japan&#8217;s remote southwestern islands, toppling trees and ",
+      "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
       "messages": [],
-      "generated_at": "2026-07-12T02:07:37.095184+00:00"
+      "generated_at": "2026-07-12T08:12:11.690341+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong prosecutors should treat children as children",
-      "topic_summary": "The Department of Justice continues to find ways to spoil my breakfast. Consider the case of Ms Ami Chan, which was heard in the Eastern Magistrates Court earlier this week.\n\n\n\nDepartment of Justice. Photo: GovHK. \n\n\n\nMs Chan was arrested in 2019 (yes, it’s one of those cases) although she was not accused of rioting. The case revolves round the contents of her rucksack, which included two laser pointers and two cans of spray paint. A rare hit from “stop and search” policing.\n\n\n\nNothing further h",
-      "topic_url": "https://hongkongfp.com/2026/07/12/hong-kong-prosecutors-should-treat-children-as-children/",
+      "topic_title": "Typhoon Bavi makes landfall in China as death toll in Philippines rises to 18",
+      "topic_summary": "Typhoon Bavi was downgraded to a severe tropical storm Sunday after making landfall in eastern China, where authorities had evacuated nearly two million people in its path.\n\n\n\nStrong waves break along the coast in Yilan on July 10, 2026, as Typhoon Bavi moves toward Northeastern Taiwan. Photo: I-Hwa Cheng /  AFP.\n\n\n\nThere were no immediate reports of damage or casualties.\n\n\n\nBefore reaching China, the storm lashed northern Taiwan and Japan&#8217;s remote southwestern islands, toppling trees and ",
+      "topic_url": "https://hongkongfp.com/2026/07/12/typhoon-bavi-makes-landfall-in-china-as-death-toll-in-philippines-rises-to-18/",
       "messages": [],
-      "generated_at": "2026-07-12T02:12:14.913127+00:00"
+      "generated_at": "2026-07-12T08:12:19.801479+00:00"
     }
   }
 }
