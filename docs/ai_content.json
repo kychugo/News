@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-19T08:11:27.996014+00:00",
+  "generated_at": "2026-07-19T13:15:18.792029+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "US ends its state of emergency over Hong Kong security threat",
-      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
-      "generated_at": "2026-07-19T08:11:12.101875+00:00"
+      "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
+      "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
+      "generated_at": "2026-07-19T13:15:02.293723+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "US ends its state of emergency over Hong Kong security threat",
-      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
-      "generated_at": "2026-07-19T08:11:12.398356+00:00"
+      "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
+      "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
+      "generated_at": "2026-07-19T13:15:02.726795+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "US ends its state of emergency over Hong Kong security threat",
-      "topic_summary": "The United States has chosen not to extend its state of emergency over what it deemed threats posed by Beijing&#8217;s hardline national security law in Hong Kong, US officials confirmed Friday.\n\n\n\nThe White House. Photo: White House, via Flickr.\n\n\n\nBut it remains unclear whether Washington would restore preferential trade treatment for the financial hub &#8212; a move that had accompanied the July 2020 emergency declaration.\n\n\n\nChina&#8217;s Ministry of Commerce lauded the development, saying i",
-      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
+      "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
+      "topic_summary": "Hong Kong&#8217;s book lovers are packing the city&#8217;s book fair, an annual event run by a government-established statutory body.\n\n\n\nPeople attend the Hong Kong Book Fair in Hong Kong Convention and Exhibition Centre in Wan Chai, on July 17, 2026. The locations where booths of independent booksellers once stood have been turned into reading areas this year. Photo: Kyle Lam/HKFP.\n\n\n\nThe Hong Kong Trade Development Council (HKTDC) event took place in the backdrop of national security raids and",
+      "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
       "messages": [],
-      "generated_at": "2026-07-19T08:11:20.367399+00:00"
+      "generated_at": "2026-07-19T13:15:11.053836+00:00"
     },
     "zh": {
-      "topic_title": "US ends its state of emergency over Hong Kong security threat",
-      "topic_summary": "The United States has chosen not to extend its state of emergency over what it deemed threats posed by Beijing&#8217;s hardline national security law in Hong Kong, US officials confirmed Friday.\n\n\n\nThe White House. Photo: White House, via Flickr.\n\n\n\nBut it remains unclear whether Washington would restore preferential trade treatment for the financial hub &#8212; a move that had accompanied the July 2020 emergency declaration.\n\n\n\nChina&#8217;s Ministry of Commerce lauded the development, saying i",
-      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
+      "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
+      "topic_summary": "Hong Kong&#8217;s book lovers are packing the city&#8217;s book fair, an annual event run by a government-established statutory body.\n\n\n\nPeople attend the Hong Kong Book Fair in Hong Kong Convention and Exhibition Centre in Wan Chai, on July 17, 2026. The locations where booths of independent booksellers once stood have been turned into reading areas this year. Photo: Kyle Lam/HKFP.\n\n\n\nThe Hong Kong Trade Development Council (HKTDC) event took place in the backdrop of national security raids and",
+      "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
       "messages": [],
-      "generated_at": "2026-07-19T08:11:27.995979+00:00"
+      "generated_at": "2026-07-19T13:15:18.792012+00:00"
     }
   }
 }
