@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-19T02:02:22.961922+00:00",
+  "generated_at": "2026-07-19T08:11:27.996014+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "‘We are X’: Hong Kong moves to reform its archaic sex laws, but victims of prolonged child sexual abuse feel left out",
-      "topic_url": "https://hongkongfp.com/2026/07/19/we-are-x-hong-kong-moves-to-reform-its-archaic-sex-laws-but-victims-of-prolonged-child-sexual-abuse-feel-left-out/",
-      "generated_at": "2026-07-19T02:02:07.077580+00:00"
+      "topic_title": "US ends its state of emergency over Hong Kong security threat",
+      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
+      "generated_at": "2026-07-19T08:11:12.101875+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "‘We are X’: Hong Kong moves to reform its archaic sex laws, but victims of prolonged child sexual abuse feel left out",
-      "topic_url": "https://hongkongfp.com/2026/07/19/we-are-x-hong-kong-moves-to-reform-its-archaic-sex-laws-but-victims-of-prolonged-child-sexual-abuse-feel-left-out/",
-      "generated_at": "2026-07-19T02:02:07.527953+00:00"
+      "topic_title": "US ends its state of emergency over Hong Kong security threat",
+      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
+      "generated_at": "2026-07-19T08:11:12.398356+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "‘We are X’: Hong Kong moves to reform its archaic sex laws, but victims of prolonged child sexual abuse feel left out",
-      "topic_summary": "When police asked Mui to recall every sexual abuse incident she suffered, she found it incredibly painful. She had been abused by her stepfather for seven years, beginning when she was just 13 and lasting until she turned 20.&nbsp;\n\n\n\nMui, who suffered seven years of sexual child abuse. Photo: Irene Chan/HKFP.\n\n\n\n“There were too many incidents and it was hard to recall each,” Mui, who is now 25, told HKFP in mid-June under a pseudonym. According to her witness statement, it occurred at least 100",
-      "topic_url": "https://hongkongfp.com/2026/07/19/we-are-x-hong-kong-moves-to-reform-its-archaic-sex-laws-but-victims-of-prolonged-child-sexual-abuse-feel-left-out/",
+      "topic_title": "US ends its state of emergency over Hong Kong security threat",
+      "topic_summary": "The United States has chosen not to extend its state of emergency over what it deemed threats posed by Beijing&#8217;s hardline national security law in Hong Kong, US officials confirmed Friday.\n\n\n\nThe White House. Photo: White House, via Flickr.\n\n\n\nBut it remains unclear whether Washington would restore preferential trade treatment for the financial hub &#8212; a move that had accompanied the July 2020 emergency declaration.\n\n\n\nChina&#8217;s Ministry of Commerce lauded the development, saying i",
+      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
       "messages": [],
-      "generated_at": "2026-07-19T02:02:15.346682+00:00"
+      "generated_at": "2026-07-19T08:11:20.367399+00:00"
     },
     "zh": {
-      "topic_title": "‘We are X’: Hong Kong moves to reform its archaic sex laws, but victims of prolonged child sexual abuse feel left out",
-      "topic_summary": "When police asked Mui to recall every sexual abuse incident she suffered, she found it incredibly painful. She had been abused by her stepfather for seven years, beginning when she was just 13 and lasting until she turned 20.&nbsp;\n\n\n\nMui, who suffered seven years of sexual child abuse. Photo: Irene Chan/HKFP.\n\n\n\n“There were too many incidents and it was hard to recall each,” Mui, who is now 25, told HKFP in mid-June under a pseudonym. According to her witness statement, it occurred at least 100",
-      "topic_url": "https://hongkongfp.com/2026/07/19/we-are-x-hong-kong-moves-to-reform-its-archaic-sex-laws-but-victims-of-prolonged-child-sexual-abuse-feel-left-out/",
+      "topic_title": "US ends its state of emergency over Hong Kong security threat",
+      "topic_summary": "The United States has chosen not to extend its state of emergency over what it deemed threats posed by Beijing&#8217;s hardline national security law in Hong Kong, US officials confirmed Friday.\n\n\n\nThe White House. Photo: White House, via Flickr.\n\n\n\nBut it remains unclear whether Washington would restore preferential trade treatment for the financial hub &#8212; a move that had accompanied the July 2020 emergency declaration.\n\n\n\nChina&#8217;s Ministry of Commerce lauded the development, saying i",
+      "topic_url": "https://hongkongfp.com/2026/07/19/us-ends-its-state-of-emergency-over-hong-kong-security-threat/",
       "messages": [],
-      "generated_at": "2026-07-19T02:02:22.961903+00:00"
+      "generated_at": "2026-07-19T08:11:27.995979+00:00"
     }
   }
 }
