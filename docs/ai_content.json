@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-19T13:15:18.792029+00:00",
+  "generated_at": "2026-07-19T19:18:48.081289+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
       "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
-      "generated_at": "2026-07-19T13:15:02.293723+00:00"
+      "generated_at": "2026-07-19T19:13:58.646766+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
       "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
-      "generated_at": "2026-07-19T13:15:02.726795+00:00"
+      "generated_at": "2026-07-19T19:15:28.763697+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "Hong Kong&#8217;s book lovers are packing the city&#8217;s book fair, an annual event run by a government-established statutory body.\n\n\n\nPeople attend the Hong Kong Book Fair in Hong Kong Convention and Exhibition Centre in Wan Chai, on July 17, 2026. The locations where booths of independent booksellers once stood have been turned into reading areas this year. Photo: Kyle Lam/HKFP.\n\n\n\nThe Hong Kong Trade Development Council (HKTDC) event took place in the backdrop of national security raids and",
       "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
       "messages": [],
-      "generated_at": "2026-07-19T13:15:11.053836+00:00"
+      "generated_at": "2026-07-19T19:17:09.874887+00:00"
     },
     "zh": {
       "topic_title": "HKFP Lens: Hong Kong holds annual book fair as independent booksellers face exclusion, legal woes",
       "topic_summary": "Hong Kong&#8217;s book lovers are packing the city&#8217;s book fair, an annual event run by a government-established statutory body.\n\n\n\nPeople attend the Hong Kong Book Fair in Hong Kong Convention and Exhibition Centre in Wan Chai, on July 17, 2026. The locations where booths of independent booksellers once stood have been turned into reading areas this year. Photo: Kyle Lam/HKFP.\n\n\n\nThe Hong Kong Trade Development Council (HKTDC) event took place in the backdrop of national security raids and",
       "topic_url": "https://hongkongfp.com/2026/07/19/hkfp-lens-hong-kong-holds-annual-book-fair-as-independent-booksellers-face-exclusion-legal-woes/",
       "messages": [],
-      "generated_at": "2026-07-19T13:15:18.792012+00:00"
+      "generated_at": "2026-07-19T19:18:48.081263+00:00"
     }
   }
 }
