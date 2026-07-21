@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-21T08:23:28.802079+00:00",
+  "generated_at": "2026-07-21T13:50:06.524218+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong High Court judge Wilson Chan caught plagiarising in judgement for third time",
-      "topic_url": "https://hongkongfp.com/2026/07/21/hong-kong-high-court-judge-wilson-chan-caught-plagiarising-judgement-for-third-time/",
-      "generated_at": "2026-07-21T08:23:11.662837+00:00"
+      "topic_title": "78 arrests as Hong Kong police bust underground ‘mini-casino’ and racecourse betting syndicate",
+      "topic_url": "https://hongkongfp.com/2026/07/21/78-arrests-as-hong-kong-police-bust-underground-mini-casino-and-racecourse-betting-syndicate/",
+      "generated_at": "2026-07-21T13:46:50.563530+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong High Court judge Wilson Chan caught plagiarising in judgement for third time",
-      "topic_url": "https://hongkongfp.com/2026/07/21/hong-kong-high-court-judge-wilson-chan-caught-plagiarising-judgement-for-third-time/",
-      "generated_at": "2026-07-21T08:23:12.034415+00:00"
+      "topic_title": "78 arrests as Hong Kong police bust underground ‘mini-casino’ and racecourse betting syndicate",
+      "topic_url": "https://hongkongfp.com/2026/07/21/78-arrests-as-hong-kong-police-bust-underground-mini-casino-and-racecourse-betting-syndicate/",
+      "generated_at": "2026-07-21T13:46:50.873671+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong High Court judge Wilson Chan caught plagiarising in judgement for third time",
-      "topic_summary": "A Hong Kong judge previously reprimanded for plagiarism has been caught copying again, making it the third known incident over the past three years.\n\n\n\nHigh Court Judge Wilson Chan. Photo: Judiciary. \n\n\n\nHigh Court judge Wilson Chan was accused by the plaintiff in a case he presided over of lifting the defendant&#8217;s opening and closing arguments. Those paragraphs comprised 95 per cent of the judgement he delivered, local media reported on Monday.\n\n\n\nThe case related to a dispute between Koo ",
-      "topic_url": "https://hongkongfp.com/2026/07/21/hong-kong-high-court-judge-wilson-chan-caught-plagiarising-judgement-for-third-time/",
+      "topic_title": "78 arrests as Hong Kong police bust underground ‘mini-casino’ and racecourse betting syndicate",
+      "topic_summary": "Police have arrested 78 people during a Hong Kong Island anti-triad operation, targeting an underground &#8220;mini-casino&#8221; in North Point and a gang organising illegal racehorse betting.\n\n\n\nForty-two men and 36 women were arrested between July 7 and Monday, Vincent Lo, senior inspector of police said in a media briefing on Tuesday.\n\n\n\nHappy Valley Racecourse. File photo: GovHK.\n\n\n\nThe arrestees were aged 16 to 68, with some having links to organised crime.\n\n\n\nThey were arrested on suspici",
+      "topic_url": "https://hongkongfp.com/2026/07/21/78-arrests-as-hong-kong-police-bust-underground-mini-casino-and-racecourse-betting-syndicate/",
       "messages": [],
-      "generated_at": "2026-07-21T08:23:20.708755+00:00"
+      "generated_at": "2026-07-21T13:48:28.916487+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong High Court judge Wilson Chan caught plagiarising in judgement for third time",
-      "topic_summary": "A Hong Kong judge previously reprimanded for plagiarism has been caught copying again, making it the third known incident over the past three years.\n\n\n\nHigh Court Judge Wilson Chan. Photo: Judiciary. \n\n\n\nHigh Court judge Wilson Chan was accused by the plaintiff in a case he presided over of lifting the defendant&#8217;s opening and closing arguments. Those paragraphs comprised 95 per cent of the judgement he delivered, local media reported on Monday.\n\n\n\nThe case related to a dispute between Koo ",
-      "topic_url": "https://hongkongfp.com/2026/07/21/hong-kong-high-court-judge-wilson-chan-caught-plagiarising-judgement-for-third-time/",
+      "topic_title": "78 arrests as Hong Kong police bust underground ‘mini-casino’ and racecourse betting syndicate",
+      "topic_summary": "Police have arrested 78 people during a Hong Kong Island anti-triad operation, targeting an underground &#8220;mini-casino&#8221; in North Point and a gang organising illegal racehorse betting.\n\n\n\nForty-two men and 36 women were arrested between July 7 and Monday, Vincent Lo, senior inspector of police said in a media briefing on Tuesday.\n\n\n\nHappy Valley Racecourse. File photo: GovHK.\n\n\n\nThe arrestees were aged 16 to 68, with some having links to organised crime.\n\n\n\nThey were arrested on suspici",
+      "topic_url": "https://hongkongfp.com/2026/07/21/78-arrests-as-hong-kong-police-bust-underground-mini-casino-and-racecourse-betting-syndicate/",
       "messages": [],
-      "generated_at": "2026-07-21T08:23:28.802049+00:00"
+      "generated_at": "2026-07-21T13:50:06.524179+00:00"
     }
   }
 }
