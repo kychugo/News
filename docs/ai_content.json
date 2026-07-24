@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-24T02:03:07.616036+00:00",
+  "generated_at": "2026-07-24T08:22:36.483164+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Philippines says China harassed its vessels in disputed waters",
-      "topic_url": "https://hongkongfp.com/2026/07/23/philippines-says-china-harassed-its-vessels-in-disputed-waters/",
-      "generated_at": "2026-07-24T02:02:51.009459+00:00"
+      "topic_title": "Off the rails: Monkey trouble disrupts Hong Kong’s MTR for second day in a row",
+      "topic_url": "https://hongkongfp.com/2026/07/24/off-the-rails-monkey-trouble-disrupts-hong-kongs-mtr-for-second-day-in-a-row/",
+      "generated_at": "2026-07-24T08:22:21.111575+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Philippines says China harassed its vessels in disputed waters",
-      "topic_url": "https://hongkongfp.com/2026/07/23/philippines-says-china-harassed-its-vessels-in-disputed-waters/",
-      "generated_at": "2026-07-24T02:02:51.497800+00:00"
+      "topic_title": "Off the rails: Monkey trouble disrupts Hong Kong’s MTR for second day in a row",
+      "topic_url": "https://hongkongfp.com/2026/07/24/off-the-rails-monkey-trouble-disrupts-hong-kongs-mtr-for-second-day-in-a-row/",
+      "generated_at": "2026-07-24T08:22:21.385365+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Philippines says China harassed its vessels in disputed waters",
-      "topic_summary": "The Philippines accused China&#8217;s coast guard of firing water cannon and using a &#8220;dangerous manoeuvre&#8221; on Thursday to block vessels bringing aid to Filipino fishermen near a disputed South China Sea reef.\n\n\n\nThe Philippine military accused the China Coast Guard of clubbing a Filipino sailor with a baton on Monday, July 20, 2026. Photo: Philippines Coast Guard.\n\n\n\nThe incident took place near Scarborough Shoal, hours before Manila hosted a regional security forum attended by the t",
-      "topic_url": "https://hongkongfp.com/2026/07/23/philippines-says-china-harassed-its-vessels-in-disputed-waters/",
+      "topic_title": "Off the rails: Monkey trouble disrupts Hong Kong’s MTR for second day in a row",
+      "topic_summary": "MTR services on the Tsuen Wan Line were disrupted on Friday for around an hour owing to a monkey on the tracks. It is the second primate-related transit incident in as many days.\n\n\n\nCommuters observe an intruder on the tracks at Tsuen Wan station. Photo: MTRC.\n\n\n\nPolice and staff from the Agriculture, Fisheries and Conservation Department responded to reports of the monkey sighting at around 9am at Tsuen Wan station.\n\n\n\nNormal services resumed at around 10am after the monkey was removed.\n\n\n\nMonk",
+      "topic_url": "https://hongkongfp.com/2026/07/24/off-the-rails-monkey-trouble-disrupts-hong-kongs-mtr-for-second-day-in-a-row/",
       "messages": [],
-      "generated_at": "2026-07-24T02:02:59.479967+00:00"
+      "generated_at": "2026-07-24T08:22:28.887466+00:00"
     },
     "zh": {
-      "topic_title": "Philippines says China harassed its vessels in disputed waters",
-      "topic_summary": "The Philippines accused China&#8217;s coast guard of firing water cannon and using a &#8220;dangerous manoeuvre&#8221; on Thursday to block vessels bringing aid to Filipino fishermen near a disputed South China Sea reef.\n\n\n\nThe Philippine military accused the China Coast Guard of clubbing a Filipino sailor with a baton on Monday, July 20, 2026. Photo: Philippines Coast Guard.\n\n\n\nThe incident took place near Scarborough Shoal, hours before Manila hosted a regional security forum attended by the t",
-      "topic_url": "https://hongkongfp.com/2026/07/23/philippines-says-china-harassed-its-vessels-in-disputed-waters/",
+      "topic_title": "Off the rails: Monkey trouble disrupts Hong Kong’s MTR for second day in a row",
+      "topic_summary": "MTR services on the Tsuen Wan Line were disrupted on Friday for around an hour owing to a monkey on the tracks. It is the second primate-related transit incident in as many days.\n\n\n\nCommuters observe an intruder on the tracks at Tsuen Wan station. Photo: MTRC.\n\n\n\nPolice and staff from the Agriculture, Fisheries and Conservation Department responded to reports of the monkey sighting at around 9am at Tsuen Wan station.\n\n\n\nNormal services resumed at around 10am after the monkey was removed.\n\n\n\nMonk",
+      "topic_url": "https://hongkongfp.com/2026/07/24/off-the-rails-monkey-trouble-disrupts-hong-kongs-mtr-for-second-day-in-a-row/",
       "messages": [],
-      "generated_at": "2026-07-24T02:03:07.616000+00:00"
+      "generated_at": "2026-07-24T08:22:36.483135+00:00"
     }
   }
 }
