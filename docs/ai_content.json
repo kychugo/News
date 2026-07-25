@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-25T02:02:07.967930+00:00",
+  "generated_at": "2026-07-25T08:02:12.662410+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Trump under pressure from all sides over Chinese AI surge",
-      "topic_url": "https://hongkongfp.com/2026/07/25/trump-under-pressure-from-all-sides-over-chinese-ai-surge/",
-      "generated_at": "2026-07-25T02:01:51.502723+00:00"
+      "topic_title": "China restricts exports to 14 EU entities citing national security concerns",
+      "topic_url": "https://hongkongfp.com/2026/07/25/china-restricts-exports-to-14-eu-entities-citing-national-security-concerns/",
+      "generated_at": "2026-07-25T08:01:54.496894+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Trump under pressure from all sides over Chinese AI surge",
-      "topic_url": "https://hongkongfp.com/2026/07/25/trump-under-pressure-from-all-sides-over-chinese-ai-surge/",
-      "generated_at": "2026-07-25T02:01:51.969824+00:00"
+      "topic_title": "China restricts exports to 14 EU entities citing national security concerns",
+      "topic_url": "https://hongkongfp.com/2026/07/25/china-restricts-exports-to-14-eu-entities-citing-national-security-concerns/",
+      "generated_at": "2026-07-25T08:01:55.081993+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Trump under pressure from all sides over Chinese AI surge",
-      "topic_summary": "US President Donald Trump is under pressure to respond to the increasing success of Chinese AI models that many companies prefer to the more powerful, but pricier, US versions from Anthropic or OpenAI.\n\n\n\nUS President Donald Trump and Chinese President Xi Jinping tour the Hall of Prayer of Good Harvest at the Temple of Heaven in Beijing on May 14, 2026. Photo: The White House, via Flickr.\n\n\n\nThe issue came to the fore this week with the release of Kimi K3 by Moonshot, which White House officials",
-      "topic_url": "https://hongkongfp.com/2026/07/25/trump-under-pressure-from-all-sides-over-chinese-ai-surge/",
+      "topic_title": "China restricts exports to 14 EU entities citing national security concerns",
+      "topic_summary": "China banned exports of products with the potential for dual civilian and military uses to 14 European Union companies on Friday, citing national security concerns.\n\n\n\nFile photo: Gov&#8217;t EU.\n\n\n\nThe move comes a day after the EU imposed similar export restrictions against 51 new entities, including Chinese and Hong Kong companies, which it accused of supporting Russia&#8217;s war in Ukraine.\n\n\n\n&#8220;In order to safeguard national security and national interests&#8230; China has decided to ",
+      "topic_url": "https://hongkongfp.com/2026/07/25/china-restricts-exports-to-14-eu-entities-citing-national-security-concerns/",
       "messages": [],
-      "generated_at": "2026-07-25T02:02:00.063957+00:00"
+      "generated_at": "2026-07-25T08:02:04.115990+00:00"
     },
     "zh": {
-      "topic_title": "Trump under pressure from all sides over Chinese AI surge",
-      "topic_summary": "US President Donald Trump is under pressure to respond to the increasing success of Chinese AI models that many companies prefer to the more powerful, but pricier, US versions from Anthropic or OpenAI.\n\n\n\nUS President Donald Trump and Chinese President Xi Jinping tour the Hall of Prayer of Good Harvest at the Temple of Heaven in Beijing on May 14, 2026. Photo: The White House, via Flickr.\n\n\n\nThe issue came to the fore this week with the release of Kimi K3 by Moonshot, which White House officials",
-      "topic_url": "https://hongkongfp.com/2026/07/25/trump-under-pressure-from-all-sides-over-chinese-ai-surge/",
+      "topic_title": "China restricts exports to 14 EU entities citing national security concerns",
+      "topic_summary": "China banned exports of products with the potential for dual civilian and military uses to 14 European Union companies on Friday, citing national security concerns.\n\n\n\nFile photo: Gov&#8217;t EU.\n\n\n\nThe move comes a day after the EU imposed similar export restrictions against 51 new entities, including Chinese and Hong Kong companies, which it accused of supporting Russia&#8217;s war in Ukraine.\n\n\n\n&#8220;In order to safeguard national security and national interests&#8230; China has decided to ",
+      "topic_url": "https://hongkongfp.com/2026/07/25/china-restricts-exports-to-14-eu-entities-citing-national-security-concerns/",
       "messages": [],
-      "generated_at": "2026-07-25T02:02:07.967901+00:00"
+      "generated_at": "2026-07-25T08:02:12.662377+00:00"
     }
   }
 }
