@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-27T19:49:19.661470+00:00",
+  "generated_at": "2026-07-28T01:54:55.599001+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong judge who committed serial plagiarism to take early retirement at chief justice’s request",
-      "topic_url": "https://hongkongfp.com/2026/07/27/hong-kong-judge-who-committed-serial-plagiarism-to-take-early-retirement-at-chief-justices-request/",
-      "generated_at": "2026-07-27T19:43:04.541104+00:00"
+      "topic_title": "Authorities euthanised over 700 wild boars last year as population halves since catch-and-kill policy reinstated",
+      "topic_url": "https://hongkongfp.com/2026/07/28/authorities-euthanised-over-700-wild-boars-last-year-as-population-halves-since-catch-and-kill-policy-reinstated/",
+      "generated_at": "2026-07-28T01:54:39.901290+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong judge who committed serial plagiarism to take early retirement at chief justice’s request",
-      "topic_url": "https://hongkongfp.com/2026/07/27/hong-kong-judge-who-committed-serial-plagiarism-to-take-early-retirement-at-chief-justices-request/",
-      "generated_at": "2026-07-27T19:43:04.830367+00:00"
+      "topic_title": "Authorities euthanised over 700 wild boars last year as population halves since catch-and-kill policy reinstated",
+      "topic_url": "https://hongkongfp.com/2026/07/28/authorities-euthanised-over-700-wild-boars-last-year-as-population-halves-since-catch-and-kill-policy-reinstated/",
+      "generated_at": "2026-07-28T01:54:40.185074+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong judge who committed serial plagiarism to take early retirement at chief justice’s request",
-      "topic_summary": "A High Court judge will retire early this week after he was found to have committed plagiarism in his judgements at least five times over the past three years.\n\n\n\nHigh Court Judge Wilson Chan. Photo: Judiciary. \n\n\n\nHigh Court Judge Wilson Chan tendered his retirement at the request of Chief Justice Andrew Cheung. It will come into effect on Friday, the judiciary said on Monday.\n\n\n\nChan, 64, received a “serious reprimand” last week for committing plagiarism in his judgement in a 2024 trial over a",
-      "topic_url": "https://hongkongfp.com/2026/07/27/hong-kong-judge-who-committed-serial-plagiarism-to-take-early-retirement-at-chief-justices-request/",
+      "topic_title": "Authorities euthanised over 700 wild boars last year as population halves since catch-and-kill policy reinstated",
+      "topic_summary": "Hong Kong authorities euthanised over 700 wild boars last year, with the population halving since the government reinstated a capture-and-kill programme in late 2021, official figures have shown.\n\n\n\nA wild boar in Hong Kong. Photo: Kelly Ho/HKFP. \n\n\n\nAccording to a Legislative Council (LegCo) document issued on Monday, boar populations have plunged since November 2021, when the government reinstated culling over a sterilisation programme that was “far from catching up” with the rate at which boa",
+      "topic_url": "https://hongkongfp.com/2026/07/28/authorities-euthanised-over-700-wild-boars-last-year-as-population-halves-since-catch-and-kill-policy-reinstated/",
       "messages": [],
-      "generated_at": "2026-07-27T19:46:12.237975+00:00"
+      "generated_at": "2026-07-28T01:54:48.106687+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong judge who committed serial plagiarism to take early retirement at chief justice’s request",
-      "topic_summary": "A High Court judge will retire early this week after he was found to have committed plagiarism in his judgements at least five times over the past three years.\n\n\n\nHigh Court Judge Wilson Chan. Photo: Judiciary. \n\n\n\nHigh Court Judge Wilson Chan tendered his retirement at the request of Chief Justice Andrew Cheung. It will come into effect on Friday, the judiciary said on Monday.\n\n\n\nChan, 64, received a “serious reprimand” last week for committing plagiarism in his judgement in a 2024 trial over a",
-      "topic_url": "https://hongkongfp.com/2026/07/27/hong-kong-judge-who-committed-serial-plagiarism-to-take-early-retirement-at-chief-justices-request/",
+      "topic_title": "Authorities euthanised over 700 wild boars last year as population halves since catch-and-kill policy reinstated",
+      "topic_summary": "Hong Kong authorities euthanised over 700 wild boars last year, with the population halving since the government reinstated a capture-and-kill programme in late 2021, official figures have shown.\n\n\n\nA wild boar in Hong Kong. Photo: Kelly Ho/HKFP. \n\n\n\nAccording to a Legislative Council (LegCo) document issued on Monday, boar populations have plunged since November 2021, when the government reinstated culling over a sterilisation programme that was “far from catching up” with the rate at which boa",
+      "topic_url": "https://hongkongfp.com/2026/07/28/authorities-euthanised-over-700-wild-boars-last-year-as-population-halves-since-catch-and-kill-policy-reinstated/",
       "messages": [],
-      "generated_at": "2026-07-27T19:49:19.661439+00:00"
+      "generated_at": "2026-07-28T01:54:55.598968+00:00"
     }
   }
 }
