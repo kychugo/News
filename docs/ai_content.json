@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-28T08:28:43.448094+00:00",
+  "generated_at": "2026-07-28T14:04:14.167225+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Over 30% of sanitation workers not informed by employers about heat stress warnings, survey finds",
-      "topic_url": "https://hongkongfp.com/2026/07/28/over-30-of-sanitation-workers-not-informed-by-employers-about-heat-stress-warnings-survey-finds/",
-      "generated_at": "2026-07-28T08:28:27.648737+00:00"
+      "topic_title": "Press group says 5 journalists dismissed at BBC Hong Kong amid bullying claims, urges review",
+      "topic_url": "https://hongkongfp.com/2026/07/28/press-group-says-5-journalists-dismissed-at-bbc-hong-kong-amid-bullying-claims-urges-review/",
+      "generated_at": "2026-07-28T14:03:58.461680+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Over 30% of sanitation workers not informed by employers about heat stress warnings, survey finds",
-      "topic_url": "https://hongkongfp.com/2026/07/28/over-30-of-sanitation-workers-not-informed-by-employers-about-heat-stress-warnings-survey-finds/",
-      "generated_at": "2026-07-28T08:28:27.954378+00:00"
+      "topic_title": "Press group says 5 journalists dismissed at BBC Hong Kong amid bullying claims, urges review",
+      "topic_url": "https://hongkongfp.com/2026/07/28/press-group-says-5-journalists-dismissed-at-bbc-hong-kong-amid-bullying-claims-urges-review/",
+      "generated_at": "2026-07-28T14:03:58.751993+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Over 30% of sanitation workers not informed by employers about heat stress warnings, survey finds",
-      "topic_summary": "Over 30 per cent of sanitation workers are not being informed by employers when the Labour Department&#8217;s heat stress warnings are raised, a survey has found.\n\n\n\nCleaners in the New Territories. Photo: Kyle Lam/HKFP.\n\n\n\nThe Federation of Hong Kong and Kowloon Labour Unions (HKFLU) said at a press conference on Monday that it had surveyed 546 sanitation workers between May and July, local media reported.\n\n\n\nAsked whether they were told by employers when the Heat Stress at Work Warning alert w",
-      "topic_url": "https://hongkongfp.com/2026/07/28/over-30-of-sanitation-workers-not-informed-by-employers-about-heat-stress-warnings-survey-finds/",
+      "topic_title": "Press group says 5 journalists dismissed at BBC Hong Kong amid bullying claims, urges review",
+      "topic_summary": "The International Federation of Journalists (IFJ) has urged the BBC to investigate reports of bullying at its Hong Kong bureau after five long-serving journalists were dismissed.\n\n\n\nThe BBC headquarters in London. File Photo: Tom Grundy/HKFP.\n\n\n\nAccording to the press group, five journalists were made redundant on June 17. They were given two working days to sign a settlement after being kept behind at a staff event, the IFJ said. It added that, if the journalists declined, the BBC had threatene",
+      "topic_url": "https://hongkongfp.com/2026/07/28/press-group-says-5-journalists-dismissed-at-bbc-hong-kong-amid-bullying-claims-urges-review/",
       "messages": [],
-      "generated_at": "2026-07-28T08:28:35.795400+00:00"
+      "generated_at": "2026-07-28T14:04:06.575230+00:00"
     },
     "zh": {
-      "topic_title": "Over 30% of sanitation workers not informed by employers about heat stress warnings, survey finds",
-      "topic_summary": "Over 30 per cent of sanitation workers are not being informed by employers when the Labour Department&#8217;s heat stress warnings are raised, a survey has found.\n\n\n\nCleaners in the New Territories. Photo: Kyle Lam/HKFP.\n\n\n\nThe Federation of Hong Kong and Kowloon Labour Unions (HKFLU) said at a press conference on Monday that it had surveyed 546 sanitation workers between May and July, local media reported.\n\n\n\nAsked whether they were told by employers when the Heat Stress at Work Warning alert w",
-      "topic_url": "https://hongkongfp.com/2026/07/28/over-30-of-sanitation-workers-not-informed-by-employers-about-heat-stress-warnings-survey-finds/",
+      "topic_title": "Press group says 5 journalists dismissed at BBC Hong Kong amid bullying claims, urges review",
+      "topic_summary": "The International Federation of Journalists (IFJ) has urged the BBC to investigate reports of bullying at its Hong Kong bureau after five long-serving journalists were dismissed.\n\n\n\nThe BBC headquarters in London. File Photo: Tom Grundy/HKFP.\n\n\n\nAccording to the press group, five journalists were made redundant on June 17. They were given two working days to sign a settlement after being kept behind at a staff event, the IFJ said. It added that, if the journalists declined, the BBC had threatene",
+      "topic_url": "https://hongkongfp.com/2026/07/28/press-group-says-5-journalists-dismissed-at-bbc-hong-kong-amid-bullying-claims-urges-review/",
       "messages": [],
-      "generated_at": "2026-07-28T08:28:43.448063+00:00"
+      "generated_at": "2026-07-28T14:04:14.167193+00:00"
     }
   }
 }
