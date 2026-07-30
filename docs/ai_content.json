@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-07-29T19:25:49.144872+00:00",
+  "generated_at": "2026-07-30T01:55:33.123067+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Death toll in Chongqing landslide rises to 41, authorities say",
-      "topic_url": "https://hongkongfp.com/2026/07/29/death-toll-in-chongqing-landslide-rises-to-41-authorities-say/",
-      "generated_at": "2026-07-29T19:25:24.934226+00:00"
+      "topic_title": "All 15 Hong Kong tour groups in Kyushu safe after 7.1-magnitude earthquake in Japan’s Kumamoto",
+      "topic_url": "https://hongkongfp.com/2026/07/30/all-15-hong-kong-tour-groups-in-kyushu-safe-after-7-1-magnitude-earthquake-in-japans-kumamoto/",
+      "generated_at": "2026-07-30T01:49:16.081735+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Death toll in Chongqing landslide rises to 41, authorities say",
-      "topic_url": "https://hongkongfp.com/2026/07/29/death-toll-in-chongqing-landslide-rises-to-41-authorities-say/",
-      "generated_at": "2026-07-29T19:25:26.002279+00:00"
+      "topic_title": "All 15 Hong Kong tour groups in Kyushu safe after 7.1-magnitude earthquake in Japan’s Kumamoto",
+      "topic_url": "https://hongkongfp.com/2026/07/30/all-15-hong-kong-tour-groups-in-kyushu-safe-after-7-1-magnitude-earthquake-in-japans-kumamoto/",
+      "generated_at": "2026-07-30T01:49:16.564226+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Death toll in Chongqing landslide rises to 41, authorities say",
-      "topic_summary": "Rescuers found another 30 people killed in a landslide that struck southwestern China this month, authorities said, bringing the death toll to 41.\n\n\n\nRescue workers search for survivors at the site of a landslide in Pengshui County in Chongqing, China on July 17, 2026. Photo: CNS/AFP/China OUT.\n\n\n\nThe landslide, which occurred on July 17 in Chongqing&#8217;s Pengshui County, swept away several residential buildings at the foot of a mountain and along a riverbank.\n\n\n\nState media footage showed a ",
-      "topic_url": "https://hongkongfp.com/2026/07/29/death-toll-in-chongqing-landslide-rises-to-41-authorities-say/",
+      "topic_title": "All 15 Hong Kong tour groups in Kyushu safe after 7.1-magnitude earthquake in Japan’s Kumamoto",
+      "topic_summary": "All 15 tour groups in Kyushu, Japan, are safe after a strong earthquake rocked the island and killed at least a dozen people, the Travel Industry Council of Hong Kong (HKTIC) has said.\n\n\n\nA general view shows damage to part of the Aeon Mall Kumamoto in Kashima, Kumamoto Prefecture, on July 29, 2026, after an earthquake struck southwestern Japan on July 28, 2026. Photo: Philip Fong/AFP. \n\n\n\nAccording to initial estimates, there were around 200 tourists travelling in 15 tour groups in the southern",
+      "topic_url": "https://hongkongfp.com/2026/07/30/all-15-hong-kong-tour-groups-in-kyushu-safe-after-7-1-magnitude-earthquake-in-japans-kumamoto/",
       "messages": [],
-      "generated_at": "2026-07-29T19:25:38.032297+00:00"
+      "generated_at": "2026-07-30T01:52:24.660469+00:00"
     },
     "zh": {
-      "topic_title": "Death toll in Chongqing landslide rises to 41, authorities say",
-      "topic_summary": "Rescuers found another 30 people killed in a landslide that struck southwestern China this month, authorities said, bringing the death toll to 41.\n\n\n\nRescue workers search for survivors at the site of a landslide in Pengshui County in Chongqing, China on July 17, 2026. Photo: CNS/AFP/China OUT.\n\n\n\nThe landslide, which occurred on July 17 in Chongqing&#8217;s Pengshui County, swept away several residential buildings at the foot of a mountain and along a riverbank.\n\n\n\nState media footage showed a ",
-      "topic_url": "https://hongkongfp.com/2026/07/29/death-toll-in-chongqing-landslide-rises-to-41-authorities-say/",
+      "topic_title": "All 15 Hong Kong tour groups in Kyushu safe after 7.1-magnitude earthquake in Japan’s Kumamoto",
+      "topic_summary": "All 15 tour groups in Kyushu, Japan, are safe after a strong earthquake rocked the island and killed at least a dozen people, the Travel Industry Council of Hong Kong (HKTIC) has said.\n\n\n\nA general view shows damage to part of the Aeon Mall Kumamoto in Kashima, Kumamoto Prefecture, on July 29, 2026, after an earthquake struck southwestern Japan on July 28, 2026. Photo: Philip Fong/AFP. \n\n\n\nAccording to initial estimates, there were around 200 tourists travelling in 15 tour groups in the southern",
+      "topic_url": "https://hongkongfp.com/2026/07/30/all-15-hong-kong-tour-groups-in-kyushu-safe-after-7-1-magnitude-earthquake-in-japans-kumamoto/",
       "messages": [],
-      "generated_at": "2026-07-29T19:25:49.144836+00:00"
+      "generated_at": "2026-07-30T01:55:33.123040+00:00"
     }
   }
 }
