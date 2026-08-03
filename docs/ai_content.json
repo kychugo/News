@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-03T09:37:56.193762+00:00",
+  "generated_at": "2026-08-03T14:35:38.147472+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong records second-rainiest July, with double the average rainfall and 20 amber rainstorm warnings issued",
-      "topic_url": "https://hongkongfp.com/2026/08/03/hong-kong-records-second-rainiest-july-with-double-the-average-rainfall-and-20-amber-rainstorm-warnings-issued/",
-      "generated_at": "2026-08-03T09:37:36.679184+00:00"
+      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
+      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
+      "generated_at": "2026-08-03T14:35:20.591285+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong records second-rainiest July, with double the average rainfall and 20 amber rainstorm warnings issued",
-      "topic_url": "https://hongkongfp.com/2026/08/03/hong-kong-records-second-rainiest-july-with-double-the-average-rainfall-and-20-amber-rainstorm-warnings-issued/",
-      "generated_at": "2026-08-03T09:37:37.174487+00:00"
+      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
+      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
+      "generated_at": "2026-08-03T14:35:21.009766+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong records second-rainiest July, with double the average rainfall and 20 amber rainstorm warnings issued",
-      "topic_summary": "This past month was Hong Kong&#8217;s second-rainiest July on record, the city&#8217;s observatory has said, with a total of 20 amber rainstorm warnings and five red rainstorm warnings issued.\n\n\n\nPeople walking in the rain on July 15, 2026 in Mong Kok. Photo: Kyle Lam/HKFP. \n\n\n\nAccording to the Hong Kong Observatory (HKO), rain fell on all but four days in July: July 11, 12, 22, and 24.\n\n\n\nThe total monthly rainfall in July was 790.3 mm, more than double the average July rainfall, the HKO said i",
-      "topic_url": "https://hongkongfp.com/2026/08/03/hong-kong-records-second-rainiest-july-with-double-the-average-rainfall-and-20-amber-rainstorm-warnings-issued/",
+      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
+      "topic_summary": "A lawmaker’s speaking record does not reflect the entirety of their work, the president of Hong Kong’s &#8220;patriots-only&#8221; legislature has written in response to a media report that found some members had never spoken at certain committee meetings.\n\n\n\nNinety legislators were sworn in for the eighth term of Hong Kong&#8217;s Legislative Council on January 1, 2026 as the new term begins on the same day. Photo: Kyle Lam/HKFP.\n\n\n\nNewspaper Ming Pao on Monday published an opinion piece writte",
+      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
       "messages": [],
-      "generated_at": "2026-08-03T09:37:46.662148+00:00"
+      "generated_at": "2026-08-03T14:35:29.789528+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong records second-rainiest July, with double the average rainfall and 20 amber rainstorm warnings issued",
-      "topic_summary": "This past month was Hong Kong&#8217;s second-rainiest July on record, the city&#8217;s observatory has said, with a total of 20 amber rainstorm warnings and five red rainstorm warnings issued.\n\n\n\nPeople walking in the rain on July 15, 2026 in Mong Kok. Photo: Kyle Lam/HKFP. \n\n\n\nAccording to the Hong Kong Observatory (HKO), rain fell on all but four days in July: July 11, 12, 22, and 24.\n\n\n\nThe total monthly rainfall in July was 790.3 mm, more than double the average July rainfall, the HKO said i",
-      "topic_url": "https://hongkongfp.com/2026/08/03/hong-kong-records-second-rainiest-july-with-double-the-average-rainfall-and-20-amber-rainstorm-warnings-issued/",
+      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
+      "topic_summary": "A lawmaker’s speaking record does not reflect the entirety of their work, the president of Hong Kong’s &#8220;patriots-only&#8221; legislature has written in response to a media report that found some members had never spoken at certain committee meetings.\n\n\n\nNinety legislators were sworn in for the eighth term of Hong Kong&#8217;s Legislative Council on January 1, 2026 as the new term begins on the same day. Photo: Kyle Lam/HKFP.\n\n\n\nNewspaper Ming Pao on Monday published an opinion piece writte",
+      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
       "messages": [],
-      "generated_at": "2026-08-03T09:37:56.193729+00:00"
+      "generated_at": "2026-08-03T14:35:38.147437+00:00"
     }
   }
 }
