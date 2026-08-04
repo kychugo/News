@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-03T19:45:47.602205+00:00",
+  "generated_at": "2026-08-04T01:53:31.411490+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
-      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
-      "generated_at": "2026-08-03T19:45:31.842085+00:00"
+      "topic_title": "Former Hong Kong prison guard jailed for 3 years over attack on inmate",
+      "topic_url": "https://hongkongfp.com/2026/08/04/former-hong-kong-prison-guard-jailed-for-3-years-over-attack-on-inmate/",
+      "generated_at": "2026-08-04T01:53:14.101635+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
-      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
-      "generated_at": "2026-08-03T19:45:32.123983+00:00"
+      "topic_title": "Former Hong Kong prison guard jailed for 3 years over attack on inmate",
+      "topic_url": "https://hongkongfp.com/2026/08/04/former-hong-kong-prison-guard-jailed-for-3-years-over-attack-on-inmate/",
+      "generated_at": "2026-08-04T01:53:14.543817+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
-      "topic_summary": "A lawmaker’s speaking record does not reflect the entirety of their work, the president of Hong Kong’s &#8220;patriots-only&#8221; legislature has written in response to a media report that found some members had never spoken at certain committee meetings.\n\n\n\nNinety legislators were sworn in for the eighth term of Hong Kong&#8217;s Legislative Council on January 1, 2026 as the new term begins on the same day. Photo: Kyle Lam/HKFP.\n\n\n\nNewspaper Ming Pao on Monday published an opinion piece writte",
-      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
+      "topic_title": "Former Hong Kong prison guard jailed for 3 years over attack on inmate",
+      "topic_summary": "A former Hong Kong corrections officer who wounded an inmate by repeatedly thrusting a stick into his rectum has been jailed for three years.\n\n\n\nPik Uk Correctional Institution. File photo: Wikimedia Commons.\n\n\n\nTam Lik-chung, a former Correctional Services Department assistant officer, was handed the jail term after District Court Judge Frankie Yiu ruled the former prison guard had ordered other inmates to take part in the December 2023 attack.\n\n\n\nTam was also charged with perverting the course",
+      "topic_url": "https://hongkongfp.com/2026/08/04/former-hong-kong-prison-guard-jailed-for-3-years-over-attack-on-inmate/",
       "messages": [],
-      "generated_at": "2026-08-03T19:45:39.987924+00:00"
+      "generated_at": "2026-08-04T01:53:22.687787+00:00"
     },
     "zh": {
-      "topic_title": "Speaking record does not fully reflect lawmakers’ work, Hong Kong legislature president writes in op-ed rebuttal",
-      "topic_summary": "A lawmaker’s speaking record does not reflect the entirety of their work, the president of Hong Kong’s &#8220;patriots-only&#8221; legislature has written in response to a media report that found some members had never spoken at certain committee meetings.\n\n\n\nNinety legislators were sworn in for the eighth term of Hong Kong&#8217;s Legislative Council on January 1, 2026 as the new term begins on the same day. Photo: Kyle Lam/HKFP.\n\n\n\nNewspaper Ming Pao on Monday published an opinion piece writte",
-      "topic_url": "https://hongkongfp.com/2026/08/03/speaking-record-does-not-fully-reflect-lawmakers-work-hong-kong-legislature-president-writes-in-op-ed-rebuttal/",
+      "topic_title": "Former Hong Kong prison guard jailed for 3 years over attack on inmate",
+      "topic_summary": "A former Hong Kong corrections officer who wounded an inmate by repeatedly thrusting a stick into his rectum has been jailed for three years.\n\n\n\nPik Uk Correctional Institution. File photo: Wikimedia Commons.\n\n\n\nTam Lik-chung, a former Correctional Services Department assistant officer, was handed the jail term after District Court Judge Frankie Yiu ruled the former prison guard had ordered other inmates to take part in the December 2023 attack.\n\n\n\nTam was also charged with perverting the course",
+      "topic_url": "https://hongkongfp.com/2026/08/04/former-hong-kong-prison-guard-jailed-for-3-years-over-attack-on-inmate/",
       "messages": [],
-      "generated_at": "2026-08-03T19:45:47.602187+00:00"
+      "generated_at": "2026-08-04T01:53:31.411454+00:00"
     }
   }
 }
