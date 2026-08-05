@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-05T08:30:32.132627+00:00",
+  "generated_at": "2026-08-05T14:06:16.547661+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Taiwan probes 17 China-funded firms over high-tech talent poaching",
-      "topic_url": "https://hongkongfp.com/2026/08/05/taiwan-probes-17-china-funded-firms-over-high-tech-talent-poaching/",
-      "generated_at": "2026-08-05T08:30:15.218325+00:00"
+      "topic_title": "2 domestic workers acquitted of illegal dentistry as Hong Kong authorities accused of staging a ‘show’ during arrests",
+      "topic_url": "https://hongkongfp.com/2026/08/05/2-domestic-workers-acquitted-of-illegal-dentistry-as-hong-kong-authorities-accused-of-staging-a-show-during-arrests/",
+      "generated_at": "2026-08-05T14:05:57.799571+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Taiwan probes 17 China-funded firms over high-tech talent poaching",
-      "topic_url": "https://hongkongfp.com/2026/08/05/taiwan-probes-17-china-funded-firms-over-high-tech-talent-poaching/",
-      "generated_at": "2026-08-05T08:30:15.579424+00:00"
+      "topic_title": "2 domestic workers acquitted of illegal dentistry as Hong Kong authorities accused of staging a ‘show’ during arrests",
+      "topic_url": "https://hongkongfp.com/2026/08/05/2-domestic-workers-acquitted-of-illegal-dentistry-as-hong-kong-authorities-accused-of-staging-a-show-during-arrests/",
+      "generated_at": "2026-08-05T14:05:58.262567+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Taiwan probes 17 China-funded firms over high-tech talent poaching",
-      "topic_summary": "Taiwanese investigators said Wednesday they have raided dozens of locations as part of a probe into 17 Chinese-funded companies suspected of trying to &#8220;illegally&#8221; poach Taiwan&#8217;s high-tech talent to erode the island&#8217;s competitive edge.\n\n\n\nTaiwan&#8217;s Ministry of Justice Investigation Bureau. Photo: Wikicommons via CC2.0.\n\n\n\nTaiwan is a powerhouse in the global semiconductor industry, producing nearly all of the most advanced chips for companies including Nvidia and Appl",
-      "topic_url": "https://hongkongfp.com/2026/08/05/taiwan-probes-17-china-funded-firms-over-high-tech-talent-poaching/",
+      "topic_title": "2 domestic workers acquitted of illegal dentistry as Hong Kong authorities accused of staging a ‘show’ during arrests",
+      "topic_summary": "Two Filipina domestic workers have been acquitted of practising illegal dentistry in Hong Kong after the defence raised concerns that authorities staged a “show” during their arrest.\n\n\n\nThis photo provided by Hong Kong&#8217;s Immigration Department shows an arrest operation on August 17, 2025, in which six Filipina domestic workers were apprehended on suspicion of running an unlicensed dental clinic in Sham Shui Po. Photo: GovHK.\n\n\n\nJucen Lihaylihay Naong and Rowena Marcaida Cerdina were cleare",
+      "topic_url": "https://hongkongfp.com/2026/08/05/2-domestic-workers-acquitted-of-illegal-dentistry-as-hong-kong-authorities-accused-of-staging-a-show-during-arrests/",
       "messages": [],
-      "generated_at": "2026-08-05T08:30:23.762853+00:00"
+      "generated_at": "2026-08-05T14:06:07.968438+00:00"
     },
     "zh": {
-      "topic_title": "Taiwan probes 17 China-funded firms over high-tech talent poaching",
-      "topic_summary": "Taiwanese investigators said Wednesday they have raided dozens of locations as part of a probe into 17 Chinese-funded companies suspected of trying to &#8220;illegally&#8221; poach Taiwan&#8217;s high-tech talent to erode the island&#8217;s competitive edge.\n\n\n\nTaiwan&#8217;s Ministry of Justice Investigation Bureau. Photo: Wikicommons via CC2.0.\n\n\n\nTaiwan is a powerhouse in the global semiconductor industry, producing nearly all of the most advanced chips for companies including Nvidia and Appl",
-      "topic_url": "https://hongkongfp.com/2026/08/05/taiwan-probes-17-china-funded-firms-over-high-tech-talent-poaching/",
+      "topic_title": "2 domestic workers acquitted of illegal dentistry as Hong Kong authorities accused of staging a ‘show’ during arrests",
+      "topic_summary": "Two Filipina domestic workers have been acquitted of practising illegal dentistry in Hong Kong after the defence raised concerns that authorities staged a “show” during their arrest.\n\n\n\nThis photo provided by Hong Kong&#8217;s Immigration Department shows an arrest operation on August 17, 2025, in which six Filipina domestic workers were apprehended on suspicion of running an unlicensed dental clinic in Sham Shui Po. Photo: GovHK.\n\n\n\nJucen Lihaylihay Naong and Rowena Marcaida Cerdina were cleare",
+      "topic_url": "https://hongkongfp.com/2026/08/05/2-domestic-workers-acquitted-of-illegal-dentistry-as-hong-kong-authorities-accused-of-staging-a-show-during-arrests/",
       "messages": [],
-      "generated_at": "2026-08-05T08:30:32.132608+00:00"
+      "generated_at": "2026-08-05T14:06:16.547630+00:00"
     }
   }
 }
