@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-06T01:56:05.819379+00:00",
+  "generated_at": "2026-08-06T08:30:47.730140+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Chinese activist Zhang Xinyan, wanted by Hong Kong gov’t, finally arrives in Canada after Thailand detention",
-      "topic_url": "https://hongkongfp.com/2026/08/06/chinese-activist-zhang-xinyan-wanted-by-hong-kong-govt-finally-arrives-in-canada-after-thailand-detention/",
-      "generated_at": "2026-08-06T01:55:48.846689+00:00"
+      "topic_title": "China announces ‘countermeasures’ after US trade sanctions",
+      "topic_url": "https://hongkongfp.com/2026/08/06/china-announces-countermeasures-after-us-trade-sanctions/",
+      "generated_at": "2026-08-06T08:30:29.851087+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Chinese activist Zhang Xinyan, wanted by Hong Kong gov’t, finally arrives in Canada after Thailand detention",
-      "topic_url": "https://hongkongfp.com/2026/08/06/chinese-activist-zhang-xinyan-wanted-by-hong-kong-govt-finally-arrives-in-canada-after-thailand-detention/",
-      "generated_at": "2026-08-06T01:55:49.242232+00:00"
+      "topic_title": "China announces ‘countermeasures’ after US trade sanctions",
+      "topic_url": "https://hongkongfp.com/2026/08/06/china-announces-countermeasures-after-us-trade-sanctions/",
+      "generated_at": "2026-08-06T08:30:30.524808+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Chinese activist Zhang Xinyan, wanted by Hong Kong gov’t, finally arrives in Canada after Thailand detention",
-      "topic_summary": "Chinese activist Zhang Xinyan, who is wanted by the Hong Kong government, has finally arrived in Canada after being detained in Thailand ahead of her scheduled flight.\n\n\n\nSheng Xue, a Chinese Canadian activist who has been trying to assist Zhang, said on Facebook on Wednesday that the activist arrived at Vancouver International Airport on Monday morning, Canadian time.\n\n\n\nA wanted notice on the Hong Kong police&#8217;s website for Zhang Xinyan. Screenshot: Hong Kong Police Force.\n\n\n\nZhang is wan",
-      "topic_url": "https://hongkongfp.com/2026/08/06/chinese-activist-zhang-xinyan-wanted-by-hong-kong-govt-finally-arrives-in-canada-after-thailand-detention/",
+      "topic_title": "China announces ‘countermeasures’ after US trade sanctions",
+      "topic_summary": "China announced restrictions on drone exports to the United States and blacklisted six companies on Wednesday in response to trade sanctions imposed by Washington over forced labour and national security concerns.\n\n\n\nDJI drone. Photo: DJI.\n\n\n\nThe move comes days after the United States imposed fresh tariffs on China and 59 other countries, adding to a series of recent trade measures.\n\n\n\nThe US actions &#8220;seriously harm China&#8217;s legitimate rights and interests&#8221;, a commerce ministry",
+      "topic_url": "https://hongkongfp.com/2026/08/06/china-announces-countermeasures-after-us-trade-sanctions/",
       "messages": [],
-      "generated_at": "2026-08-06T01:55:57.490062+00:00"
+      "generated_at": "2026-08-06T08:30:39.476712+00:00"
     },
     "zh": {
-      "topic_title": "Chinese activist Zhang Xinyan, wanted by Hong Kong gov’t, finally arrives in Canada after Thailand detention",
-      "topic_summary": "Chinese activist Zhang Xinyan, who is wanted by the Hong Kong government, has finally arrived in Canada after being detained in Thailand ahead of her scheduled flight.\n\n\n\nSheng Xue, a Chinese Canadian activist who has been trying to assist Zhang, said on Facebook on Wednesday that the activist arrived at Vancouver International Airport on Monday morning, Canadian time.\n\n\n\nA wanted notice on the Hong Kong police&#8217;s website for Zhang Xinyan. Screenshot: Hong Kong Police Force.\n\n\n\nZhang is wan",
-      "topic_url": "https://hongkongfp.com/2026/08/06/chinese-activist-zhang-xinyan-wanted-by-hong-kong-govt-finally-arrives-in-canada-after-thailand-detention/",
+      "topic_title": "China announces ‘countermeasures’ after US trade sanctions",
+      "topic_summary": "China announced restrictions on drone exports to the United States and blacklisted six companies on Wednesday in response to trade sanctions imposed by Washington over forced labour and national security concerns.\n\n\n\nDJI drone. Photo: DJI.\n\n\n\nThe move comes days after the United States imposed fresh tariffs on China and 59 other countries, adding to a series of recent trade measures.\n\n\n\nThe US actions &#8220;seriously harm China&#8217;s legitimate rights and interests&#8221;, a commerce ministry",
+      "topic_url": "https://hongkongfp.com/2026/08/06/china-announces-countermeasures-after-us-trade-sanctions/",
       "messages": [],
-      "generated_at": "2026-08-06T01:56:05.819349+00:00"
+      "generated_at": "2026-08-06T08:30:47.730108+00:00"
     }
   }
 }
