@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-07T00:07:31.278065+00:00",
+  "generated_at": "2026-08-07T02:19:02.881227+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong lyricist Peter Lai dies at 76",
-      "topic_url": "https://hongkongfp.com/2026/08/06/hong-kong-lyricist-peter-lai-dies-at-76/",
-      "generated_at": "2026-08-07T00:07:09.244285+00:00"
+      "topic_title": "Hong Kong police arrest 16 over bar fight murder",
+      "topic_url": "https://hongkongfp.com/2026/08/07/hong-kong-police-arrest-16-over-bar-fight-murder/",
+      "generated_at": "2026-08-07T02:18:47.164673+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong lyricist Peter Lai dies at 76",
-      "topic_url": "https://hongkongfp.com/2026/08/06/hong-kong-lyricist-peter-lai-dies-at-76/",
-      "generated_at": "2026-08-07T00:07:10.447342+00:00"
+      "topic_title": "Hong Kong police arrest 16 over bar fight murder",
+      "topic_url": "https://hongkongfp.com/2026/08/07/hong-kong-police-arrest-16-over-bar-fight-murder/",
+      "generated_at": "2026-08-07T02:18:47.720045+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong lyricist Peter Lai dies at 76",
-      "topic_summary": "Renowned Hong Kong lyricist Peter Lai, who spearheaded the city&#8217;s golden era of Cantonese pop music, has died aged 76, his family and friends said Thursday.\n\n\n\nPeter Lai. Photo: Supplied.\n\n\n\nLai was hospitalised after suffering a stroke this year and passed away on Wednesday morning, his son and a long-time friend said at a press conference.\n\n\n\nNicknamed &#8220;The Lyrical Maverick&#8221;, he wrote the words to hits including &#8220;Monica&#8221; in 1984, performed by superstar Leslie Cheu",
-      "topic_url": "https://hongkongfp.com/2026/08/06/hong-kong-lyricist-peter-lai-dies-at-76/",
+      "topic_title": "Hong Kong police arrest 16 over bar fight murder",
+      "topic_summary": "Police have arrested 16 people over the killing of a 32-year-old businessmen during a Tsim Sha Tsui bar fight.\n\n\n\nKowloon City Magistrates&#8217; Courts. File photo: Hans Tse/HKFP.\n\n\n\nThe police initially arrested nine men and three women aged between 24 and 52 in connection with the July 26 bar fight which left a beauty consultant dead. Eight of them were charged with murder or assisting offenders, according to a Wednesday statement.\n\n\n\nIn the latest development, four more men were arrested and",
+      "topic_url": "https://hongkongfp.com/2026/08/07/hong-kong-police-arrest-16-over-bar-fight-murder/",
       "messages": [],
-      "generated_at": "2026-08-07T00:07:20.535105+00:00"
+      "generated_at": "2026-08-07T02:18:55.324451+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong lyricist Peter Lai dies at 76",
-      "topic_summary": "Renowned Hong Kong lyricist Peter Lai, who spearheaded the city&#8217;s golden era of Cantonese pop music, has died aged 76, his family and friends said Thursday.\n\n\n\nPeter Lai. Photo: Supplied.\n\n\n\nLai was hospitalised after suffering a stroke this year and passed away on Wednesday morning, his son and a long-time friend said at a press conference.\n\n\n\nNicknamed &#8220;The Lyrical Maverick&#8221;, he wrote the words to hits including &#8220;Monica&#8221; in 1984, performed by superstar Leslie Cheu",
-      "topic_url": "https://hongkongfp.com/2026/08/06/hong-kong-lyricist-peter-lai-dies-at-76/",
+      "topic_title": "Hong Kong police arrest 16 over bar fight murder",
+      "topic_summary": "Police have arrested 16 people over the killing of a 32-year-old businessmen during a Tsim Sha Tsui bar fight.\n\n\n\nKowloon City Magistrates&#8217; Courts. File photo: Hans Tse/HKFP.\n\n\n\nThe police initially arrested nine men and three women aged between 24 and 52 in connection with the July 26 bar fight which left a beauty consultant dead. Eight of them were charged with murder or assisting offenders, according to a Wednesday statement.\n\n\n\nIn the latest development, four more men were arrested and",
+      "topic_url": "https://hongkongfp.com/2026/08/07/hong-kong-police-arrest-16-over-bar-fight-murder/",
       "messages": [],
-      "generated_at": "2026-08-07T00:07:31.278002+00:00"
+      "generated_at": "2026-08-07T02:19:02.881191+00:00"
     }
   }
 }
