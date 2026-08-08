@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-08T12:44:59.575789+00:00",
+  "generated_at": "2026-08-08T18:46:44.391848+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong swelters as Tropical Cyclone Dolphin sees temperatures exceed 38°C",
       "topic_url": "https://hongkongfp.com/2026/08/08/hong-kong-swelters-as-tropical-cyclone-dolphin-sees-temperatures-exceed-38c/",
-      "generated_at": "2026-08-08T12:44:40.482606+00:00"
+      "generated_at": "2026-08-08T18:46:26.337595+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong swelters as Tropical Cyclone Dolphin sees temperatures exceed 38°C",
       "topic_url": "https://hongkongfp.com/2026/08/08/hong-kong-swelters-as-tropical-cyclone-dolphin-sees-temperatures-exceed-38c/",
-      "generated_at": "2026-08-08T12:44:41.089088+00:00"
+      "generated_at": "2026-08-08T18:46:26.726272+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "Temperatures exceeded 38 degrees Celsius in some parts of the city on Saturday, as Tropical Cyclone Dolphin brought a heatwave to Hong Kong.\n\n\n\nTemperatures as of 2pm, August 8, 2026. Photo: Observatory. \n\n\n\nThe Observatory (HKO) said on Saturday that the storm was moving towards the vicinity of Zhejiang and northern Fujian: &#8220;[I]ts outer subsiding air will persistently bring extremely hot weather to the territory in the next couple of days. Temperatures in some areas will reach 37 degrees ",
       "topic_url": "https://hongkongfp.com/2026/08/08/hong-kong-swelters-as-tropical-cyclone-dolphin-sees-temperatures-exceed-38c/",
       "messages": [],
-      "generated_at": "2026-08-08T12:44:50.988356+00:00"
+      "generated_at": "2026-08-08T18:46:35.612879+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong swelters as Tropical Cyclone Dolphin sees temperatures exceed 38°C",
       "topic_summary": "Temperatures exceeded 38 degrees Celsius in some parts of the city on Saturday, as Tropical Cyclone Dolphin brought a heatwave to Hong Kong.\n\n\n\nTemperatures as of 2pm, August 8, 2026. Photo: Observatory. \n\n\n\nThe Observatory (HKO) said on Saturday that the storm was moving towards the vicinity of Zhejiang and northern Fujian: &#8220;[I]ts outer subsiding air will persistently bring extremely hot weather to the territory in the next couple of days. Temperatures in some areas will reach 37 degrees ",
       "topic_url": "https://hongkongfp.com/2026/08/08/hong-kong-swelters-as-tropical-cyclone-dolphin-sees-temperatures-exceed-38c/",
       "messages": [],
-      "generated_at": "2026-08-08T12:44:59.575752+00:00"
+      "generated_at": "2026-08-08T18:46:44.391815+00:00"
     }
   }
 }
