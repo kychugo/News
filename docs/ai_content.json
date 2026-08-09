@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-09T12:47:20.813980+00:00",
+  "generated_at": "2026-08-09T18:49:56.110953+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Tropical Cyclone Dolphin: Hong Kong sees hottest day on record as Observatory HQ records 36.9°C",
       "topic_url": "https://hongkongfp.com/2026/08/09/tropical-cyclone-dolphin-hong-kong-sees-hottest-day-on-record-as-observatory-hq-records-36-9c/",
-      "generated_at": "2026-08-09T12:47:04.464578+00:00"
+      "generated_at": "2026-08-09T18:49:37.318383+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Tropical Cyclone Dolphin: Hong Kong sees hottest day on record as Observatory HQ records 36.9°C",
       "topic_url": "https://hongkongfp.com/2026/08/09/tropical-cyclone-dolphin-hong-kong-sees-hottest-day-on-record-as-observatory-hq-records-36-9c/",
-      "generated_at": "2026-08-09T12:47:04.821055+00:00"
+      "generated_at": "2026-08-09T18:49:38.334485+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "Temperatures reached a record-breaking 36.9 degrees Celsius at the Observatory (HKO) headquarters on Sunday, as a heatwave influenced by Tropical Cyclone Dolphin continued to affect Hong Kong.\n\n\n\nTemperatures as of 3pm, August 9, 2026. Photo: Observatory. \n\n\n\nOfficial reference temperatures for the city&#8217;s long-term records are recorded at the HKO headquarters in Tsim Sha Tsui. Sunday&#8217;s reading marks the highest temperature recorded since records began in 1884.\n\n\n\nTemperatures elsewhe",
       "topic_url": "https://hongkongfp.com/2026/08/09/tropical-cyclone-dolphin-hong-kong-sees-hottest-day-on-record-as-observatory-hq-records-36-9c/",
       "messages": [],
-      "generated_at": "2026-08-09T12:47:12.851573+00:00"
+      "generated_at": "2026-08-09T18:49:47.615561+00:00"
     },
     "zh": {
       "topic_title": "Tropical Cyclone Dolphin: Hong Kong sees hottest day on record as Observatory HQ records 36.9°C",
       "topic_summary": "Temperatures reached a record-breaking 36.9 degrees Celsius at the Observatory (HKO) headquarters on Sunday, as a heatwave influenced by Tropical Cyclone Dolphin continued to affect Hong Kong.\n\n\n\nTemperatures as of 3pm, August 9, 2026. Photo: Observatory. \n\n\n\nOfficial reference temperatures for the city&#8217;s long-term records are recorded at the HKO headquarters in Tsim Sha Tsui. Sunday&#8217;s reading marks the highest temperature recorded since records began in 1884.\n\n\n\nTemperatures elsewhe",
       "topic_url": "https://hongkongfp.com/2026/08/09/tropical-cyclone-dolphin-hong-kong-sees-hottest-day-on-record-as-observatory-hq-records-36-9c/",
       "messages": [],
-      "generated_at": "2026-08-09T12:47:20.813944+00:00"
+      "generated_at": "2026-08-09T18:49:56.110921+00:00"
     }
   }
 }
