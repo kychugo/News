@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-11T01:10:36.261600+00:00",
+  "generated_at": "2026-08-11T07:01:26.064861+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Restaurant barred from hiring non-local workers after providing false info in application",
-      "topic_url": "https://hongkongfp.com/2026/08/11/restaurant-barred-from-hiring-non-local-workers-after-providing-false-info-in-application/",
-      "generated_at": "2026-08-11T01:10:20.355826+00:00"
+      "topic_title": "Domestic worker union hits back over employer group’s pay freeze petition",
+      "topic_url": "https://hongkongfp.com/2026/08/11/domestic-worker-union-hits-back-over-employer-groups-pay-freeze-petition/",
+      "generated_at": "2026-08-11T07:01:09.321332+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Restaurant barred from hiring non-local workers after providing false info in application",
-      "topic_url": "https://hongkongfp.com/2026/08/11/restaurant-barred-from-hiring-non-local-workers-after-providing-false-info-in-application/",
-      "generated_at": "2026-08-11T01:10:20.642567+00:00"
+      "topic_title": "Domestic worker union hits back over employer group’s pay freeze petition",
+      "topic_url": "https://hongkongfp.com/2026/08/11/domestic-worker-union-hits-back-over-employer-groups-pay-freeze-petition/",
+      "generated_at": "2026-08-11T07:01:09.730723+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Restaurant barred from hiring non-local workers after providing false info in application",
-      "topic_summary": "A restaurant has been barred from hiring non-local workers after it provided false information to the Labour Department in its application to bring in servers, junior cooks, and dishwashers.\n\n\n\nLabour Department. File photo: Candice Chau/HKFP.\n\n\n\nThe department served Waso Cafe in Prince Edward an administrative sanction and terminated the restaurant’s application under the Enhanced Supplementary Labour Scheme (ESLS), according to a Monday statement.\n\n\n\nThe programme was introduced in 2023 to al",
-      "topic_url": "https://hongkongfp.com/2026/08/11/restaurant-barred-from-hiring-non-local-workers-after-providing-false-info-in-application/",
+      "topic_title": "Domestic worker union hits back over employer group’s pay freeze petition",
+      "topic_summary": "A Hong Kong migrant domestic worker union has rebuked calls by employer groups for a pay freeze as it called for stronger protections. It said recent wage increases have failed to catch up with the rising cost of living.\n\n\n\nA foreign domestic worker at a training centre. File photo: Robert Godden.\n\n\n\nThe Hong Kong Federation of Asian Domestic Workers Unions (FADWU) made the statement in response to a petition by the International Domestic Service Industry Development Federation and the Quadripar",
+      "topic_url": "https://hongkongfp.com/2026/08/11/domestic-worker-union-hits-back-over-employer-groups-pay-freeze-petition/",
       "messages": [],
-      "generated_at": "2026-08-11T01:10:28.574981+00:00"
+      "generated_at": "2026-08-11T07:01:17.892119+00:00"
     },
     "zh": {
-      "topic_title": "Restaurant barred from hiring non-local workers after providing false info in application",
-      "topic_summary": "A restaurant has been barred from hiring non-local workers after it provided false information to the Labour Department in its application to bring in servers, junior cooks, and dishwashers.\n\n\n\nLabour Department. File photo: Candice Chau/HKFP.\n\n\n\nThe department served Waso Cafe in Prince Edward an administrative sanction and terminated the restaurant’s application under the Enhanced Supplementary Labour Scheme (ESLS), according to a Monday statement.\n\n\n\nThe programme was introduced in 2023 to al",
-      "topic_url": "https://hongkongfp.com/2026/08/11/restaurant-barred-from-hiring-non-local-workers-after-providing-false-info-in-application/",
+      "topic_title": "Domestic worker union hits back over employer group’s pay freeze petition",
+      "topic_summary": "A Hong Kong migrant domestic worker union has rebuked calls by employer groups for a pay freeze as it called for stronger protections. It said recent wage increases have failed to catch up with the rising cost of living.\n\n\n\nA foreign domestic worker at a training centre. File photo: Robert Godden.\n\n\n\nThe Hong Kong Federation of Asian Domestic Workers Unions (FADWU) made the statement in response to a petition by the International Domestic Service Industry Development Federation and the Quadripar",
+      "topic_url": "https://hongkongfp.com/2026/08/11/domestic-worker-union-hits-back-over-employer-groups-pay-freeze-petition/",
       "messages": [],
-      "generated_at": "2026-08-11T01:10:36.261564+00:00"
+      "generated_at": "2026-08-11T07:01:26.064832+00:00"
     }
   }
 }
