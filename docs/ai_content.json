@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-12T01:18:32.111644+00:00",
+  "generated_at": "2026-08-12T07:19:33.727543+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong Housing Society raises public housing rent by 2.85%",
-      "topic_url": "https://hongkongfp.com/2026/08/12/hong-kong-housing-society-raises-public-housing-rent-by-2-85/",
-      "generated_at": "2026-08-12T01:18:13.793112+00:00"
+      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
+      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
+      "generated_at": "2026-08-12T07:19:17.303868+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong Housing Society raises public housing rent by 2.85%",
-      "topic_url": "https://hongkongfp.com/2026/08/12/hong-kong-housing-society-raises-public-housing-rent-by-2-85/",
-      "generated_at": "2026-08-12T01:18:14.306395+00:00"
+      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
+      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
+      "generated_at": "2026-08-12T07:19:17.750098+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong Housing Society raises public housing rent by 2.85%",
-      "topic_summary": "Rent for public housing under the Hong Kong Housing Society (HKHS) will increase by 2.85 per cent from October. \n\n\n\nProsperous Garden in Yau Ma Tei. Photo: Hong Kong Housing Society.\n\n\n\nThe HKHS said in a statement on Tuesday that the new rent will be effective from October 1 this year to September 30, 2028.\n\n\n\nFor rental units falling into Group A, which caters to low-income families, the average monthly rent increase per household is about HK$73.\n\n\n\nHouseholds with Group B units, for relativel",
-      "topic_url": "https://hongkongfp.com/2026/08/12/hong-kong-housing-society-raises-public-housing-rent-by-2-85/",
+      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
+      "topic_summary": "A Hong Kong woman has been prosecuted for allegedly keeping 136 dogs without licences at an animal shelter in Yuen Long.\n\n\n\nAgriculture, Fisheries and Conservation Department logo. File photo: Tom Grundy/HKFP.\n\n\n\nThe Agriculture, Fisheries and Conservation Department (AFCD) said on Wednesday that it had charged the woman under the city’s Rabies Regulation, which stipulates that all dogs over five months old must hold a valid licence.\n\n\n\n“Following complaints received earlier concerning an animal",
+      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
       "messages": [],
-      "generated_at": "2026-08-12T01:18:23.663118+00:00"
+      "generated_at": "2026-08-12T07:19:25.800059+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong Housing Society raises public housing rent by 2.85%",
-      "topic_summary": "Rent for public housing under the Hong Kong Housing Society (HKHS) will increase by 2.85 per cent from October. \n\n\n\nProsperous Garden in Yau Ma Tei. Photo: Hong Kong Housing Society.\n\n\n\nThe HKHS said in a statement on Tuesday that the new rent will be effective from October 1 this year to September 30, 2028.\n\n\n\nFor rental units falling into Group A, which caters to low-income families, the average monthly rent increase per household is about HK$73.\n\n\n\nHouseholds with Group B units, for relativel",
-      "topic_url": "https://hongkongfp.com/2026/08/12/hong-kong-housing-society-raises-public-housing-rent-by-2-85/",
+      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
+      "topic_summary": "A Hong Kong woman has been prosecuted for allegedly keeping 136 dogs without licences at an animal shelter in Yuen Long.\n\n\n\nAgriculture, Fisheries and Conservation Department logo. File photo: Tom Grundy/HKFP.\n\n\n\nThe Agriculture, Fisheries and Conservation Department (AFCD) said on Wednesday that it had charged the woman under the city’s Rabies Regulation, which stipulates that all dogs over five months old must hold a valid licence.\n\n\n\n“Following complaints received earlier concerning an animal",
+      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
       "messages": [],
-      "generated_at": "2026-08-12T01:18:32.111613+00:00"
+      "generated_at": "2026-08-12T07:19:33.727509+00:00"
     }
   }
 }
