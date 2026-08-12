@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-12T07:19:33.727543+00:00",
+  "generated_at": "2026-08-12T13:05:28.685921+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
-      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
-      "generated_at": "2026-08-12T07:19:17.303868+00:00"
+      "topic_title": "Zhu Rongji, trailblazing ex-premier who transformed China’s economy, dead at 97",
+      "topic_url": "https://hongkongfp.com/2026/08/12/breaking-ex-chinese-premier-zhu-rongji-dead-at-98-state-media/",
+      "generated_at": "2026-08-12T13:05:12.027223+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
-      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
-      "generated_at": "2026-08-12T07:19:17.750098+00:00"
+      "topic_title": "Zhu Rongji, trailblazing ex-premier who transformed China’s economy, dead at 97",
+      "topic_url": "https://hongkongfp.com/2026/08/12/breaking-ex-chinese-premier-zhu-rongji-dead-at-98-state-media/",
+      "generated_at": "2026-08-12T13:05:12.878856+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
-      "topic_summary": "A Hong Kong woman has been prosecuted for allegedly keeping 136 dogs without licences at an animal shelter in Yuen Long.\n\n\n\nAgriculture, Fisheries and Conservation Department logo. File photo: Tom Grundy/HKFP.\n\n\n\nThe Agriculture, Fisheries and Conservation Department (AFCD) said on Wednesday that it had charged the woman under the city’s Rabies Regulation, which stipulates that all dogs over five months old must hold a valid licence.\n\n\n\n“Following complaints received earlier concerning an animal",
-      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
+      "topic_title": "Zhu Rongji, trailblazing ex-premier who transformed China’s economy, dead at 97",
+      "topic_summary": "Zhu Rongji, China&#8217;s former premier who died on Wednesday aged 97, championed free-market policies and delivered far-reaching economic reforms during his five years at the helm.\n\n\n\nFormer Chinese premier Zhu Rongji. File photo: Wikicommons.\n\n\n\nRumoured to be descended from Zhu Yuanzhang, the founding emperor of the Ming dynasty, Zhu was born in the central city of Changsha in 1928 into a China riven by civil war.\n\n\n\nZhu studied electrical engineering at Beijing&#8217;s elite Tsinghua Univer",
+      "topic_url": "https://hongkongfp.com/2026/08/12/breaking-ex-chinese-premier-zhu-rongji-dead-at-98-state-media/",
       "messages": [],
-      "generated_at": "2026-08-12T07:19:25.800059+00:00"
+      "generated_at": "2026-08-12T13:05:21.122586+00:00"
     },
     "zh": {
-      "topic_title": "Woman charged after 136 dogs found without licences at Yuen Long shelter",
-      "topic_summary": "A Hong Kong woman has been prosecuted for allegedly keeping 136 dogs without licences at an animal shelter in Yuen Long.\n\n\n\nAgriculture, Fisheries and Conservation Department logo. File photo: Tom Grundy/HKFP.\n\n\n\nThe Agriculture, Fisheries and Conservation Department (AFCD) said on Wednesday that it had charged the woman under the city’s Rabies Regulation, which stipulates that all dogs over five months old must hold a valid licence.\n\n\n\n“Following complaints received earlier concerning an animal",
-      "topic_url": "https://hongkongfp.com/2026/08/12/woman-charged-after-136-dogs-found-without-licences-at-yuen-long-shelter/",
+      "topic_title": "Zhu Rongji, trailblazing ex-premier who transformed China’s economy, dead at 97",
+      "topic_summary": "Zhu Rongji, China&#8217;s former premier who died on Wednesday aged 97, championed free-market policies and delivered far-reaching economic reforms during his five years at the helm.\n\n\n\nFormer Chinese premier Zhu Rongji. File photo: Wikicommons.\n\n\n\nRumoured to be descended from Zhu Yuanzhang, the founding emperor of the Ming dynasty, Zhu was born in the central city of Changsha in 1928 into a China riven by civil war.\n\n\n\nZhu studied electrical engineering at Beijing&#8217;s elite Tsinghua Univer",
+      "topic_url": "https://hongkongfp.com/2026/08/12/breaking-ex-chinese-premier-zhu-rongji-dead-at-98-state-media/",
       "messages": [],
-      "generated_at": "2026-08-12T07:19:33.727509+00:00"
+      "generated_at": "2026-08-12T13:05:28.685890+00:00"
     }
   }
 }
