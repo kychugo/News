@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-13T07:21:37.637398+00:00",
+  "generated_at": "2026-08-13T13:06:33.899108+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong court orders retrial of man charged with murdering taxi driver after jury fails to reach majority verdict",
-      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-orders-retrial-of-man-charged-with-murdering-taxi-driver-after-jury-fails-to-reach-majority-verdict/",
-      "generated_at": "2026-08-13T07:21:21.277912+00:00"
+      "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
+      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
+      "generated_at": "2026-08-13T13:06:16.693629+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong court orders retrial of man charged with murdering taxi driver after jury fails to reach majority verdict",
-      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-orders-retrial-of-man-charged-with-murdering-taxi-driver-after-jury-fails-to-reach-majority-verdict/",
-      "generated_at": "2026-08-13T07:21:21.704921+00:00"
+      "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
+      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
+      "generated_at": "2026-08-13T13:06:17.694314+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong court orders retrial of man charged with murdering taxi driver after jury fails to reach majority verdict",
-      "topic_summary": "A Hong Kong court has ordered a retrial of a man accused of murdering a taxi driver in 2021 after the jury failed to reach a majority verdict.\n\n\n\nHong Kong police arresting Matthew Choi, who was suspected in the stabbing of a taxi driver, on October 13, 2021. Photo: Hong Kong Police Force, via X.\n\n\n\nMatthew Choi, 36,&nbsp;had pleaded not guilty to one count of murder. He was arrested on Lamma Island in October 2021 after a night-shift taxi driver was stabbed to death. \n\n\n\nAfter a 16-hour deliber",
-      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-orders-retrial-of-man-charged-with-murdering-taxi-driver-after-jury-fails-to-reach-majority-verdict/",
+      "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
+      "topic_summary": "A Hong Kong court has acquitted a woman of possessing a weapon when protests were taking place in a neighbouring district in 2019, after she was re-arrested upon returning to the city from Australia earlier this year.\n\n\n\nAmi Chan was found not guilty of both charges of possessing an offensive weapon and possessing an item with intent to destroy or damage property at the Eastern Magistrates’ Courts on Thursday.\n\n\n\nEastern Magistrates&#8217; Courts. Photo: Kelly Ho/HKFP.\n\n\n\nMagistrate Edward Wong ",
+      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
       "messages": [],
-      "generated_at": "2026-08-13T07:21:29.685560+00:00"
+      "generated_at": "2026-08-13T13:06:26.351728+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong court orders retrial of man charged with murdering taxi driver after jury fails to reach majority verdict",
-      "topic_summary": "A Hong Kong court has ordered a retrial of a man accused of murdering a taxi driver in 2021 after the jury failed to reach a majority verdict.\n\n\n\nHong Kong police arresting Matthew Choi, who was suspected in the stabbing of a taxi driver, on October 13, 2021. Photo: Hong Kong Police Force, via X.\n\n\n\nMatthew Choi, 36,&nbsp;had pleaded not guilty to one count of murder. He was arrested on Lamma Island in October 2021 after a night-shift taxi driver was stabbed to death. \n\n\n\nAfter a 16-hour deliber",
-      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-orders-retrial-of-man-charged-with-murdering-taxi-driver-after-jury-fails-to-reach-majority-verdict/",
+      "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
+      "topic_summary": "A Hong Kong court has acquitted a woman of possessing a weapon when protests were taking place in a neighbouring district in 2019, after she was re-arrested upon returning to the city from Australia earlier this year.\n\n\n\nAmi Chan was found not guilty of both charges of possessing an offensive weapon and possessing an item with intent to destroy or damage property at the Eastern Magistrates’ Courts on Thursday.\n\n\n\nEastern Magistrates&#8217; Courts. Photo: Kelly Ho/HKFP.\n\n\n\nMagistrate Edward Wong ",
+      "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
       "messages": [],
-      "generated_at": "2026-08-13T07:21:37.637368+00:00"
+      "generated_at": "2026-08-13T13:06:33.899074+00:00"
     }
   }
 }
