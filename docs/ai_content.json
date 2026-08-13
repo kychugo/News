@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-13T13:06:33.899108+00:00",
+  "generated_at": "2026-08-13T19:09:17.649608+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
       "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
-      "generated_at": "2026-08-13T13:06:16.693629+00:00"
+      "generated_at": "2026-08-13T19:08:58.391717+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
       "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
-      "generated_at": "2026-08-13T13:06:17.694314+00:00"
+      "generated_at": "2026-08-13T19:08:58.830356+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "A Hong Kong court has acquitted a woman of possessing a weapon when protests were taking place in a neighbouring district in 2019, after she was re-arrested upon returning to the city from Australia earlier this year.\n\n\n\nAmi Chan was found not guilty of both charges of possessing an offensive weapon and possessing an item with intent to destroy or damage property at the Eastern Magistrates’ Courts on Thursday.\n\n\n\nEastern Magistrates&#8217; Courts. Photo: Kelly Ho/HKFP.\n\n\n\nMagistrate Edward Wong ",
       "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
       "messages": [],
-      "generated_at": "2026-08-13T13:06:26.351728+00:00"
+      "generated_at": "2026-08-13T19:09:08.900720+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong court acquits woman over possessing laser pointers in 2019",
       "topic_summary": "A Hong Kong court has acquitted a woman of possessing a weapon when protests were taking place in a neighbouring district in 2019, after she was re-arrested upon returning to the city from Australia earlier this year.\n\n\n\nAmi Chan was found not guilty of both charges of possessing an offensive weapon and possessing an item with intent to destroy or damage property at the Eastern Magistrates’ Courts on Thursday.\n\n\n\nEastern Magistrates&#8217; Courts. Photo: Kelly Ho/HKFP.\n\n\n\nMagistrate Edward Wong ",
       "topic_url": "https://hongkongfp.com/2026/08/13/hong-kong-court-acquits-woman-over-possessing-laser-pointers-in-2019/",
       "messages": [],
-      "generated_at": "2026-08-13T13:06:33.899074+00:00"
+      "generated_at": "2026-08-13T19:09:17.649591+00:00"
     }
   }
 }
