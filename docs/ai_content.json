@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-16T06:34:28.100069+00:00",
+  "generated_at": "2026-08-16T12:36:01.939863+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Powerful quake off Indonesia kills 20, sparks mass evacuations",
-      "topic_url": "https://hongkongfp.com/2026/08/15/powerful-quake-off-indonesia-kills-20-sparks-mass-evacuations/",
-      "generated_at": "2026-08-16T06:34:12.669131+00:00"
+      "topic_title": "Chinese ship sets off for Europe through Arctic, halving travel time",
+      "topic_url": "https://hongkongfp.com/2026/08/16/chinese-ship-sets-off-for-europe-through-arctic-halving-travel-time/",
+      "generated_at": "2026-08-16T12:35:43.975320+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Powerful quake off Indonesia kills 20, sparks mass evacuations",
-      "topic_url": "https://hongkongfp.com/2026/08/15/powerful-quake-off-indonesia-kills-20-sparks-mass-evacuations/",
-      "generated_at": "2026-08-16T06:34:12.942815+00:00"
+      "topic_title": "Chinese ship sets off for Europe through Arctic, halving travel time",
+      "topic_url": "https://hongkongfp.com/2026/08/16/chinese-ship-sets-off-for-europe-through-arctic-halving-travel-time/",
+      "generated_at": "2026-08-16T12:35:44.364338+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Powerful quake off Indonesia kills 20, sparks mass evacuations",
-      "topic_summary": "By Arnold Welianto and Dessy Sagita in Jakarta\n\n\n\nRescuers combed through debris for survivors Saturday after a powerful earthquake struck off Flores island in eastern Indonesia, killing at least 20 people and sending thousands fleeing.\n\n\n\nThis handout picture taken and released on August 15, 2026 by Indonesia&#8217;s National Search and Rescue Agency (BASARNAS) shows rescuers working amid the rubble of a damaged building after an earthquake in Maumere, East Nusa Tenggara. Photo: Handout/AFP.\n\n\n",
-      "topic_url": "https://hongkongfp.com/2026/08/15/powerful-quake-off-indonesia-kills-20-sparks-mass-evacuations/",
+      "topic_title": "Chinese ship sets off for Europe through Arctic, halving travel time",
+      "topic_summary": "A Chinese container vessel has set sail for Europe through the Arctic, part of new weekly service on a route that cuts shipment times in half but which environmental groups warn could speed up the melting of polar ice.\n\n\n\nChinese flag. File photo: Will Clayton, via Flickr. \n\n\n\nThe &#8220;Dubai Tower&#8221; left the eastern port city of Ningbo on Saturday evening heading north, where it will pass through the Bering Strait, then turn west through the frigid waters along Russia&#8217;s northern coa",
+      "topic_url": "https://hongkongfp.com/2026/08/16/chinese-ship-sets-off-for-europe-through-arctic-halving-travel-time/",
       "messages": [],
-      "generated_at": "2026-08-16T06:34:20.680950+00:00"
+      "generated_at": "2026-08-16T12:35:53.922700+00:00"
     },
     "zh": {
-      "topic_title": "Powerful quake off Indonesia kills 20, sparks mass evacuations",
-      "topic_summary": "By Arnold Welianto and Dessy Sagita in Jakarta\n\n\n\nRescuers combed through debris for survivors Saturday after a powerful earthquake struck off Flores island in eastern Indonesia, killing at least 20 people and sending thousands fleeing.\n\n\n\nThis handout picture taken and released on August 15, 2026 by Indonesia&#8217;s National Search and Rescue Agency (BASARNAS) shows rescuers working amid the rubble of a damaged building after an earthquake in Maumere, East Nusa Tenggara. Photo: Handout/AFP.\n\n\n",
-      "topic_url": "https://hongkongfp.com/2026/08/15/powerful-quake-off-indonesia-kills-20-sparks-mass-evacuations/",
+      "topic_title": "Chinese ship sets off for Europe through Arctic, halving travel time",
+      "topic_summary": "A Chinese container vessel has set sail for Europe through the Arctic, part of new weekly service on a route that cuts shipment times in half but which environmental groups warn could speed up the melting of polar ice.\n\n\n\nChinese flag. File photo: Will Clayton, via Flickr. \n\n\n\nThe &#8220;Dubai Tower&#8221; left the eastern port city of Ningbo on Saturday evening heading north, where it will pass through the Bering Strait, then turn west through the frigid waters along Russia&#8217;s northern coa",
+      "topic_url": "https://hongkongfp.com/2026/08/16/chinese-ship-sets-off-for-europe-through-arctic-halving-travel-time/",
       "messages": [],
-      "generated_at": "2026-08-16T06:34:28.100028+00:00"
+      "generated_at": "2026-08-16T12:36:01.939833+00:00"
     }
   }
 }
