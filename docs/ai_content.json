@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-17T00:52:01.023465+00:00",
+  "generated_at": "2026-08-17T06:47:48.814992+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong police launch internal probe into officer over viral dog-ear dancing clip",
-      "topic_url": "https://hongkongfp.com/2026/08/17/hong-kong-police-launch-internal-probe-into-officer-over-viral-dog-ear-dancing-clip/",
-      "generated_at": "2026-08-17T00:51:45.252084+00:00"
+      "topic_title": "Subdivided flat residents swelter in heat that feels like 52°C, climate NGO finds",
+      "topic_url": "https://hongkongfp.com/2026/08/17/subdivided-flat-residents-swelter-in-heat-that-feels-like-52c-climate-ngo-finds/",
+      "generated_at": "2026-08-17T06:47:31.265250+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong police launch internal probe into officer over viral dog-ear dancing clip",
-      "topic_url": "https://hongkongfp.com/2026/08/17/hong-kong-police-launch-internal-probe-into-officer-over-viral-dog-ear-dancing-clip/",
-      "generated_at": "2026-08-17T00:51:45.576893+00:00"
+      "topic_title": "Subdivided flat residents swelter in heat that feels like 52°C, climate NGO finds",
+      "topic_url": "https://hongkongfp.com/2026/08/17/subdivided-flat-residents-swelter-in-heat-that-feels-like-52c-climate-ngo-finds/",
+      "generated_at": "2026-08-17T06:47:31.670875+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong police launch internal probe into officer over viral dog-ear dancing clip",
-      "topic_summary": "The police force has launched an internal investigation into an officer who appeared in a viral video dancing in uniform with a dog-ear filter.\n\n\n\nThe video video of a Hong Kong police officer. Photo: Supplied.\n\n\n\nThe clip gained traction on platforms in mainland China, including Douyin, the mainland&#8217;s version of TikTok. It was captioned &#8220;It’s too hot. Let me fan some wind.&#8221;\n\n\n\n&#8220;The police have confirmed that the woman in the video is an active-duty police officer. The po",
-      "topic_url": "https://hongkongfp.com/2026/08/17/hong-kong-police-launch-internal-probe-into-officer-over-viral-dog-ear-dancing-clip/",
+      "topic_title": "Subdivided flat residents swelter in heat that feels like 52°C, climate NGO finds",
+      "topic_summary": "Residents living in &#8220;shoebox&#8221; flats and other inadequate housing have experienced temperatures that feel like 52 degrees Celsius this summer, a climate NGO has found.\n\n\n\nA tenant in a &#8220;coffin home.&#8221; Photo: James Lee/HKFP.\n\n\n\nThe CarbonCare InnoLab said in a press conference on Sunday that it took temperature and humidity readings at 86 households over the past two months, 80 per cent of which were classified as inadequate housing, such as subdivided flats and “coffin home",
+      "topic_url": "https://hongkongfp.com/2026/08/17/subdivided-flat-residents-swelter-in-heat-that-feels-like-52c-climate-ngo-finds/",
       "messages": [],
-      "generated_at": "2026-08-17T00:51:53.304323+00:00"
+      "generated_at": "2026-08-17T06:47:39.875078+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong police launch internal probe into officer over viral dog-ear dancing clip",
-      "topic_summary": "The police force has launched an internal investigation into an officer who appeared in a viral video dancing in uniform with a dog-ear filter.\n\n\n\nThe video video of a Hong Kong police officer. Photo: Supplied.\n\n\n\nThe clip gained traction on platforms in mainland China, including Douyin, the mainland&#8217;s version of TikTok. It was captioned &#8220;It’s too hot. Let me fan some wind.&#8221;\n\n\n\n&#8220;The police have confirmed that the woman in the video is an active-duty police officer. The po",
-      "topic_url": "https://hongkongfp.com/2026/08/17/hong-kong-police-launch-internal-probe-into-officer-over-viral-dog-ear-dancing-clip/",
+      "topic_title": "Subdivided flat residents swelter in heat that feels like 52°C, climate NGO finds",
+      "topic_summary": "Residents living in &#8220;shoebox&#8221; flats and other inadequate housing have experienced temperatures that feel like 52 degrees Celsius this summer, a climate NGO has found.\n\n\n\nA tenant in a &#8220;coffin home.&#8221; Photo: James Lee/HKFP.\n\n\n\nThe CarbonCare InnoLab said in a press conference on Sunday that it took temperature and humidity readings at 86 households over the past two months, 80 per cent of which were classified as inadequate housing, such as subdivided flats and “coffin home",
+      "topic_url": "https://hongkongfp.com/2026/08/17/subdivided-flat-residents-swelter-in-heat-that-feels-like-52c-climate-ngo-finds/",
       "messages": [],
-      "generated_at": "2026-08-17T00:52:01.023430+00:00"
+      "generated_at": "2026-08-17T06:47:48.814962+00:00"
     }
   }
 }
