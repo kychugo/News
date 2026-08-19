@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-18T18:46:02.391415+00:00",
+  "generated_at": "2026-08-19T00:51:05.081126+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong vows to revamp heat stress warning system by month’s end",
-      "topic_url": "https://hongkongfp.com/2026/08/18/hong-kong-vows-to-revamp-inadequate-heat-stress-warning-system-by-months-end/",
-      "generated_at": "2026-08-18T18:45:44.208345+00:00"
+      "topic_title": "Hong Kong court orders now-defunct Apple Daily to pay HK$1.5 million to couple in defamation lawsuit over 2019 articles",
+      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-court-orders-now-defunct-apple-daily-to-pay-hk1-5-million-to-couple-in-defamation-lawsuit-over-2019-articles/",
+      "generated_at": "2026-08-19T00:50:49.109999+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong vows to revamp heat stress warning system by month’s end",
-      "topic_url": "https://hongkongfp.com/2026/08/18/hong-kong-vows-to-revamp-inadequate-heat-stress-warning-system-by-months-end/",
-      "generated_at": "2026-08-18T18:45:45.441366+00:00"
+      "topic_title": "Hong Kong court orders now-defunct Apple Daily to pay HK$1.5 million to couple in defamation lawsuit over 2019 articles",
+      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-court-orders-now-defunct-apple-daily-to-pay-hk1-5-million-to-couple-in-defamation-lawsuit-over-2019-articles/",
+      "generated_at": "2026-08-19T00:50:49.388631+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong vows to revamp heat stress warning system by month’s end",
-      "topic_summary": "Authorities are aiming to revamp a heat stress warning system by the end of the month after it was deemed inadequate by former Observatory chiefs amid a historic heatwave.\n\n\n\nHong Kong saw a record-breaking heatwave in summer 2026. File photo: Kyle Lam/HKFP.\n\n\n\nLabour and welfare chief Chris Sun said on Tuesday that the government would look into whether the warning system could be better tailored to Hong Kong’s weather, adding that the thresholds under its three-tier colour-coded warning system",
-      "topic_url": "https://hongkongfp.com/2026/08/18/hong-kong-vows-to-revamp-inadequate-heat-stress-warning-system-by-months-end/",
+      "topic_title": "Hong Kong court orders now-defunct Apple Daily to pay HK$1.5 million to couple in defamation lawsuit over 2019 articles",
+      "topic_summary": "A Hong Kong court has ordered the now-defunct pro-democracy newspaper Apple Daily to pay HK$1.5 million in damages to a couple that sued the outlet for defamation over articles published in 2019.\n\n\n\nApple Daily&#8217;s final edition dated June 24, 2021. File photo: Kelly Ho/HKFP.\n\n\n\nThe defamation suit was lodged by listed company China Innovation Investment Limited, its chairperson Xiang Xin, and his wife Kung Ching against Apple Daily Limited and AD Internet Limited.\n\n\n\nThe Apple Daily compani",
+      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-court-orders-now-defunct-apple-daily-to-pay-hk1-5-million-to-couple-in-defamation-lawsuit-over-2019-articles/",
       "messages": [],
-      "generated_at": "2026-08-18T18:45:54.139858+00:00"
+      "generated_at": "2026-08-19T00:50:57.334416+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong vows to revamp heat stress warning system by month’s end",
-      "topic_summary": "Authorities are aiming to revamp a heat stress warning system by the end of the month after it was deemed inadequate by former Observatory chiefs amid a historic heatwave.\n\n\n\nHong Kong saw a record-breaking heatwave in summer 2026. File photo: Kyle Lam/HKFP.\n\n\n\nLabour and welfare chief Chris Sun said on Tuesday that the government would look into whether the warning system could be better tailored to Hong Kong’s weather, adding that the thresholds under its three-tier colour-coded warning system",
-      "topic_url": "https://hongkongfp.com/2026/08/18/hong-kong-vows-to-revamp-inadequate-heat-stress-warning-system-by-months-end/",
+      "topic_title": "Hong Kong court orders now-defunct Apple Daily to pay HK$1.5 million to couple in defamation lawsuit over 2019 articles",
+      "topic_summary": "A Hong Kong court has ordered the now-defunct pro-democracy newspaper Apple Daily to pay HK$1.5 million in damages to a couple that sued the outlet for defamation over articles published in 2019.\n\n\n\nApple Daily&#8217;s final edition dated June 24, 2021. File photo: Kelly Ho/HKFP.\n\n\n\nThe defamation suit was lodged by listed company China Innovation Investment Limited, its chairperson Xiang Xin, and his wife Kung Ching against Apple Daily Limited and AD Internet Limited.\n\n\n\nThe Apple Daily compani",
+      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-court-orders-now-defunct-apple-daily-to-pay-hk1-5-million-to-couple-in-defamation-lawsuit-over-2019-articles/",
       "messages": [],
-      "generated_at": "2026-08-18T18:46:02.391384+00:00"
+      "generated_at": "2026-08-19T00:51:05.081091+00:00"
     }
   }
 }
