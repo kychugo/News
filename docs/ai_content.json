@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-20T06:39:37.089477+00:00",
+  "generated_at": "2026-08-20T12:45:37.386168+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
-      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
-      "generated_at": "2026-08-20T06:39:21.492585+00:00"
+      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
+      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
+      "generated_at": "2026-08-20T12:45:19.638632+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
-      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
-      "generated_at": "2026-08-20T06:39:21.759381+00:00"
+      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
+      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
+      "generated_at": "2026-08-20T12:45:20.099317+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
-      "topic_summary": "Fewer than 30,000 babies were born over the past year, representing a plummeting birth rate despite the government&#8217;s monetary incentives aimed at encouraging fertility.\n\n\n\nLunchtime at a kindergarten. Photo: Kyle Lam/HKFP.\n\n\n\nAccording to figures released by the Census and Statistics Department on Tuesday, a total of 29,709 babies were born from July 2025 to to the end of June this year.\n\n\n\nIt marks the first time mid-year births have fallen beneath 30,000. Ten years ago, the number of bir",
-      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
+      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
+      "topic_summary": "North Korean paramount leader Kim Jong-un has demonstrated he can make bold policy decisions. In 2013 he sought to frighten his senior officials into obedience by ordering the execution of his uncle and senior mentor Jang Song-thaek. In 2017 he kept his nerve and continued to develop a nuclear missile capability despite US threats of a preventive [&#8230;]\nThe post Kim Jong-un balks at grasping fleeting opportunity appeared first on Asia Times.",
+      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
       "messages": [],
-      "generated_at": "2026-08-20T06:39:29.619055+00:00"
+      "generated_at": "2026-08-20T12:45:28.880797+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
-      "topic_summary": "Fewer than 30,000 babies were born over the past year, representing a plummeting birth rate despite the government&#8217;s monetary incentives aimed at encouraging fertility.\n\n\n\nLunchtime at a kindergarten. Photo: Kyle Lam/HKFP.\n\n\n\nAccording to figures released by the Census and Statistics Department on Tuesday, a total of 29,709 babies were born from July 2025 to to the end of June this year.\n\n\n\nIt marks the first time mid-year births have fallen beneath 30,000. Ten years ago, the number of bir",
-      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
+      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
+      "topic_summary": "North Korean paramount leader Kim Jong-un has demonstrated he can make bold policy decisions. In 2013 he sought to frighten his senior officials into obedience by ordering the execution of his uncle and senior mentor Jang Song-thaek. In 2017 he kept his nerve and continued to develop a nuclear missile capability despite US threats of a preventive [&#8230;]\nThe post Kim Jong-un balks at grasping fleeting opportunity appeared first on Asia Times.",
+      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
       "messages": [],
-      "generated_at": "2026-08-20T06:39:37.089446+00:00"
+      "generated_at": "2026-08-20T12:45:37.386137+00:00"
     }
   }
 }
