@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-20T00:51:04.744056+00:00",
+  "generated_at": "2026-08-20T06:39:37.089477+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong stock exchange posts record half-yearly profit",
-      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-stock-exchange-posts-record-half-yearly-profit/",
-      "generated_at": "2026-08-20T00:50:47.338663+00:00"
+      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
+      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
+      "generated_at": "2026-08-20T06:39:21.492585+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong stock exchange posts record half-yearly profit",
-      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-stock-exchange-posts-record-half-yearly-profit/",
-      "generated_at": "2026-08-20T00:50:47.759447+00:00"
+      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
+      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
+      "generated_at": "2026-08-20T06:39:21.759381+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong stock exchange posts record half-yearly profit",
-      "topic_summary": "Hong Kong&#8217;s stock exchange reported record profits on Wednesday, thanks to a surge in demand for initial public offerings by tech and artificial intelligence companies, the bourse operator said on Wednesday.\n\n\n\nExchange Square in Central, Hong Kong. Photo: GovHK. \n\n\n\nThe results come as Hong Kong&#8217;s IPO market saw a surge in listings from the artificial intelligence, technology and media and telecommunications sectors in the first half of 2026.\n\n\n\nHong Kong Exchanges and Clearing (HKE",
-      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-stock-exchange-posts-record-half-yearly-profit/",
+      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
+      "topic_summary": "Fewer than 30,000 babies were born over the past year, representing a plummeting birth rate despite the government&#8217;s monetary incentives aimed at encouraging fertility.\n\n\n\nLunchtime at a kindergarten. Photo: Kyle Lam/HKFP.\n\n\n\nAccording to figures released by the Census and Statistics Department on Tuesday, a total of 29,709 babies were born from July 2025 to to the end of June this year.\n\n\n\nIt marks the first time mid-year births have fallen beneath 30,000. Ten years ago, the number of bir",
+      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
       "messages": [],
-      "generated_at": "2026-08-20T00:50:56.037253+00:00"
+      "generated_at": "2026-08-20T06:39:29.619055+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong stock exchange posts record half-yearly profit",
-      "topic_summary": "Hong Kong&#8217;s stock exchange reported record profits on Wednesday, thanks to a surge in demand for initial public offerings by tech and artificial intelligence companies, the bourse operator said on Wednesday.\n\n\n\nExchange Square in Central, Hong Kong. Photo: GovHK. \n\n\n\nThe results come as Hong Kong&#8217;s IPO market saw a surge in listings from the artificial intelligence, technology and media and telecommunications sectors in the first half of 2026.\n\n\n\nHong Kong Exchanges and Clearing (HKE",
-      "topic_url": "https://hongkongfp.com/2026/08/19/hong-kong-stock-exchange-posts-record-half-yearly-profit/",
+      "topic_title": "Hong Kong’s mid-year birth rates fall below 30,000 for the first time despite HK$20k payouts for new parents",
+      "topic_summary": "Fewer than 30,000 babies were born over the past year, representing a plummeting birth rate despite the government&#8217;s monetary incentives aimed at encouraging fertility.\n\n\n\nLunchtime at a kindergarten. Photo: Kyle Lam/HKFP.\n\n\n\nAccording to figures released by the Census and Statistics Department on Tuesday, a total of 29,709 babies were born from July 2025 to to the end of June this year.\n\n\n\nIt marks the first time mid-year births have fallen beneath 30,000. Ten years ago, the number of bir",
+      "topic_url": "https://hongkongfp.com/2026/08/20/hong-kongs-mid-year-birth-rates-fall-below-30000-for-the-first-time-despite-hk20k-payouts-for-new-parents/",
       "messages": [],
-      "generated_at": "2026-08-20T00:51:04.744025+00:00"
+      "generated_at": "2026-08-20T06:39:37.089446+00:00"
     }
   }
 }
