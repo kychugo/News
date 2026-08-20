@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-20T12:45:37.386168+00:00",
+  "generated_at": "2026-08-20T18:48:37.498173+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
-      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
-      "generated_at": "2026-08-20T12:45:19.638632+00:00"
+      "topic_title": "Around 66% of Hong Kong upper primary students experience stress from testing overload – survey",
+      "topic_url": "https://hongkongfp.com/2026/08/20/around-66-of-hong-kong-upper-primary-students-experience-stress-from-testing-overload-survey/",
+      "generated_at": "2026-08-20T18:48:17.669030+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
-      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
-      "generated_at": "2026-08-20T12:45:20.099317+00:00"
+      "topic_title": "Around 66% of Hong Kong upper primary students experience stress from testing overload – survey",
+      "topic_url": "https://hongkongfp.com/2026/08/20/around-66-of-hong-kong-upper-primary-students-experience-stress-from-testing-overload-survey/",
+      "generated_at": "2026-08-20T18:48:18.101509+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
-      "topic_summary": "North Korean paramount leader Kim Jong-un has demonstrated he can make bold policy decisions. In 2013 he sought to frighten his senior officials into obedience by ordering the execution of his uncle and senior mentor Jang Song-thaek. In 2017 he kept his nerve and continued to develop a nuclear missile capability despite US threats of a preventive [&#8230;]\nThe post Kim Jong-un balks at grasping fleeting opportunity appeared first on Asia Times.",
-      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
+      "topic_title": "Around 66% of Hong Kong upper primary students experience stress from testing overload – survey",
+      "topic_summary": "Close to 70 percent of upper primary students in Hong Kong say they experience stress brought on by excessive school assessments and testing, a new survey conducted by a local charity and a social work scholar has found.\n\n\n\nA total of 5,200 pupils in Primary Four to Six were interviewed in the survey, conducted by Caritas Hong Kong and Chinese University of Hong Kong (CUHK) researcher Moon Law between October and January last year.\n\n\n\nCaritas Hong Kong and the CUHK Social Work Department host a ",
+      "topic_url": "https://hongkongfp.com/2026/08/20/around-66-of-hong-kong-upper-primary-students-experience-stress-from-testing-overload-survey/",
       "messages": [],
-      "generated_at": "2026-08-20T12:45:28.880797+00:00"
+      "generated_at": "2026-08-20T18:48:28.114511+00:00"
     },
     "zh": {
-      "topic_title": "Kim Jong-un balks at grasping fleeting opportunity",
-      "topic_summary": "North Korean paramount leader Kim Jong-un has demonstrated he can make bold policy decisions. In 2013 he sought to frighten his senior officials into obedience by ordering the execution of his uncle and senior mentor Jang Song-thaek. In 2017 he kept his nerve and continued to develop a nuclear missile capability despite US threats of a preventive [&#8230;]\nThe post Kim Jong-un balks at grasping fleeting opportunity appeared first on Asia Times.",
-      "topic_url": "https://asiatimes.com/2026/08/kim-jong-un-balks-at-grasping-fleeting-opportunity/",
+      "topic_title": "Around 66% of Hong Kong upper primary students experience stress from testing overload – survey",
+      "topic_summary": "Close to 70 percent of upper primary students in Hong Kong say they experience stress brought on by excessive school assessments and testing, a new survey conducted by a local charity and a social work scholar has found.\n\n\n\nA total of 5,200 pupils in Primary Four to Six were interviewed in the survey, conducted by Caritas Hong Kong and Chinese University of Hong Kong (CUHK) researcher Moon Law between October and January last year.\n\n\n\nCaritas Hong Kong and the CUHK Social Work Department host a ",
+      "topic_url": "https://hongkongfp.com/2026/08/20/around-66-of-hong-kong-upper-primary-students-experience-stress-from-testing-overload-survey/",
       "messages": [],
-      "generated_at": "2026-08-20T12:45:37.386137+00:00"
+      "generated_at": "2026-08-20T18:48:37.498116+00:00"
     }
   }
 }
