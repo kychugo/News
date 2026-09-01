@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-01T11:03:42.338174+00:00",
+  "generated_at": "2026-09-01T16:07:25.417407+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong Int’l School and US church founder reach settlement over financial mismanagement lawsuit",
-      "topic_url": "https://hongkongfp.com/2026/09/01/hong-kong-intl-school-and-us-church-founder-reach-settlement-over-financial-mismanagement-lawsuit/",
-      "generated_at": "2026-09-01T11:03:23.013277+00:00"
+      "topic_title": "China says solar power capacity surpasses coal for first time",
+      "topic_url": "https://hongkongfp.com/2026/09/01/china-says-solar-power-capacity-surpasses-coal-for-first-time/",
+      "generated_at": "2026-09-01T16:07:05.166163+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong Int’l School and US church founder reach settlement over financial mismanagement lawsuit",
-      "topic_url": "https://hongkongfp.com/2026/09/01/hong-kong-intl-school-and-us-church-founder-reach-settlement-over-financial-mismanagement-lawsuit/",
-      "generated_at": "2026-09-01T11:03:23.709097+00:00"
+      "topic_title": "China says solar power capacity surpasses coal for first time",
+      "topic_url": "https://hongkongfp.com/2026/09/01/china-says-solar-power-capacity-surpasses-coal-for-first-time/",
+      "generated_at": "2026-09-01T16:07:05.586965+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong Int’l School and US church founder reach settlement over financial mismanagement lawsuit",
-      "topic_summary": "Hong Kong International School (HKIS) and its US-based founder have reached an out-of-court settlement, after the latter sued the school last year for alleged financial mismanagement and over accusations it served only an &#8220;elite&#8221; section of the city&#8217;s population.\n\n\n\nHong Kong International School&#8217;s Lower Primary campus in Repulse Bay. Photo: HKIS.\n\n\n\nThe school will no longer be governed by its founder, The Lutheran Church—Missouri Synod (LCMS), but will continue to provi",
-      "topic_url": "https://hongkongfp.com/2026/09/01/hong-kong-intl-school-and-us-church-founder-reach-settlement-over-financial-mismanagement-lawsuit/",
+      "topic_title": "China says solar power capacity surpasses coal for first time",
+      "topic_summary": "China&#8217;s installed solar energy capacity has surpassed that of coal-fired power for the first time, the national energy body said Tuesday, hailing the milestone.\n\n\n\nInstallation of solar photovoltaic panels on the roofs of the Hongqiao Passenger Rail Terminal in Shanghai, China, in 2010. Photo: Climate Group, via Flickr. \n\n\n\nChina, the world&#8217;s largest emitter of greenhouse gases that drive climate change, has pledged to peak carbon emissions by 2030 and achieve carbon neutrality by 20",
+      "topic_url": "https://hongkongfp.com/2026/09/01/china-says-solar-power-capacity-surpasses-coal-for-first-time/",
       "messages": [],
-      "generated_at": "2026-09-01T11:03:33.350832+00:00"
+      "generated_at": "2026-09-01T16:07:15.590772+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong Int’l School and US church founder reach settlement over financial mismanagement lawsuit",
-      "topic_summary": "Hong Kong International School (HKIS) and its US-based founder have reached an out-of-court settlement, after the latter sued the school last year for alleged financial mismanagement and over accusations it served only an &#8220;elite&#8221; section of the city&#8217;s population.\n\n\n\nHong Kong International School&#8217;s Lower Primary campus in Repulse Bay. Photo: HKIS.\n\n\n\nThe school will no longer be governed by its founder, The Lutheran Church—Missouri Synod (LCMS), but will continue to provi",
-      "topic_url": "https://hongkongfp.com/2026/09/01/hong-kong-intl-school-and-us-church-founder-reach-settlement-over-financial-mismanagement-lawsuit/",
+      "topic_title": "China says solar power capacity surpasses coal for first time",
+      "topic_summary": "China&#8217;s installed solar energy capacity has surpassed that of coal-fired power for the first time, the national energy body said Tuesday, hailing the milestone.\n\n\n\nInstallation of solar photovoltaic panels on the roofs of the Hongqiao Passenger Rail Terminal in Shanghai, China, in 2010. Photo: Climate Group, via Flickr. \n\n\n\nChina, the world&#8217;s largest emitter of greenhouse gases that drive climate change, has pledged to peak carbon emissions by 2030 and achieve carbon neutrality by 20",
+      "topic_url": "https://hongkongfp.com/2026/09/01/china-says-solar-power-capacity-surpasses-coal-for-first-time/",
       "messages": [],
-      "generated_at": "2026-09-01T11:03:42.338143+00:00"
+      "generated_at": "2026-09-01T16:07:25.417375+00:00"
     }
   }
 }
