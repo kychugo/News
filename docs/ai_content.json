@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-02T02:20:02.805700+00:00",
+  "generated_at": "2026-09-02T10:35:23.027625+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong tax chief apologises after online interface error leads to 33,000 unfiled returns",
-      "topic_url": "https://hongkongfp.com/2026/09/02/hong-kong-tax-chief-apologises-after-online-interface-error-leads-to-33000-unfiled-returns/",
-      "generated_at": "2026-09-02T02:19:43.423054+00:00"
+      "topic_title": "Jailed Hong Kong pro-democracy campaigner Joshua Wong pleads guilty to foreign collusion charge",
+      "topic_url": "https://hongkongfp.com/2026/09/02/breaking-jailed-hong-kong-pro-democracy-campaigner-joshua-wong-pleads-guilty-to-foreign-collusion-charge/",
+      "generated_at": "2026-09-02T10:35:04.884503+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong tax chief apologises after online interface error leads to 33,000 unfiled returns",
-      "topic_url": "https://hongkongfp.com/2026/09/02/hong-kong-tax-chief-apologises-after-online-interface-error-leads-to-33000-unfiled-returns/",
-      "generated_at": "2026-09-02T02:19:44.679470+00:00"
+      "topic_title": "Jailed Hong Kong pro-democracy campaigner Joshua Wong pleads guilty to foreign collusion charge",
+      "topic_url": "https://hongkongfp.com/2026/09/02/breaking-jailed-hong-kong-pro-democracy-campaigner-joshua-wong-pleads-guilty-to-foreign-collusion-charge/",
+      "generated_at": "2026-09-02T10:35:05.275443+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong tax chief apologises after online interface error leads to 33,000 unfiled returns",
-      "topic_summary": "Hong Kong’s tax chief has apologised after the government&#8217;s watchdog found that more than 33,000 taxpayers failed to file their tax returns via the electronic eTAX platform due to “unclear” wording, in some cases facing penalties as a result.\n\n\n\nHong Kong&#8217;s Inland Revenue Department. File photo: Kyle Lam/HKFP.\n\n\n\nCommissioner of Inland Revenue Benjamin Chan said on Tuesday that his department will arrange refunds or cancel the penalties issued to some 800 taxpayers in the 2025-26 tax",
-      "topic_url": "https://hongkongfp.com/2026/09/02/hong-kong-tax-chief-apologises-after-online-interface-error-leads-to-33000-unfiled-returns/",
+      "topic_title": "Jailed Hong Kong pro-democracy campaigner Joshua Wong pleads guilty to foreign collusion charge",
+      "topic_summary": "Hong Kong pro-democracy campaigner Joshua Wong has pleaded guilty to conspiracy to collude with foreign forces &#8211; his second conviction under a Beijing-imposed national security law following a landmark subversion case.\n\n\n\nJoshua Wong. File photo: Studio Incendo.\n\n\n\nWong entered a guilty plea at the High Court on Wednesday over the foreign collusion charge. The 29-year-old was accused of conspiring with self-exiled activist Nathan Law and others to request foreign countries to impose sancti",
+      "topic_url": "https://hongkongfp.com/2026/09/02/breaking-jailed-hong-kong-pro-democracy-campaigner-joshua-wong-pleads-guilty-to-foreign-collusion-charge/",
       "messages": [],
-      "generated_at": "2026-09-02T02:19:54.495817+00:00"
+      "generated_at": "2026-09-02T10:35:13.478667+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong tax chief apologises after online interface error leads to 33,000 unfiled returns",
-      "topic_summary": "Hong Kong’s tax chief has apologised after the government&#8217;s watchdog found that more than 33,000 taxpayers failed to file their tax returns via the electronic eTAX platform due to “unclear” wording, in some cases facing penalties as a result.\n\n\n\nHong Kong&#8217;s Inland Revenue Department. File photo: Kyle Lam/HKFP.\n\n\n\nCommissioner of Inland Revenue Benjamin Chan said on Tuesday that his department will arrange refunds or cancel the penalties issued to some 800 taxpayers in the 2025-26 tax",
-      "topic_url": "https://hongkongfp.com/2026/09/02/hong-kong-tax-chief-apologises-after-online-interface-error-leads-to-33000-unfiled-returns/",
+      "topic_title": "Jailed Hong Kong pro-democracy campaigner Joshua Wong pleads guilty to foreign collusion charge",
+      "topic_summary": "Hong Kong pro-democracy campaigner Joshua Wong has pleaded guilty to conspiracy to collude with foreign forces &#8211; his second conviction under a Beijing-imposed national security law following a landmark subversion case.\n\n\n\nJoshua Wong. File photo: Studio Incendo.\n\n\n\nWong entered a guilty plea at the High Court on Wednesday over the foreign collusion charge. The 29-year-old was accused of conspiring with self-exiled activist Nathan Law and others to request foreign countries to impose sancti",
+      "topic_url": "https://hongkongfp.com/2026/09/02/breaking-jailed-hong-kong-pro-democracy-campaigner-joshua-wong-pleads-guilty-to-foreign-collusion-charge/",
       "messages": [],
-      "generated_at": "2026-09-02T02:20:02.805684+00:00"
+      "generated_at": "2026-09-02T10:35:23.027594+00:00"
     }
   }
 }
