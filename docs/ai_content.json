@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-03T02:27:24.927057+00:00",
+  "generated_at": "2026-09-03T10:38:38.886164+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Ex-Hong Kong care home warden found guilty of raping intellectually disabled female resident",
-      "topic_url": "https://hongkongfp.com/2026/09/03/ex-hong-kong-care-home-warden-found-guilty-of-raping-intellectually-disabled-female-resident/",
-      "generated_at": "2026-09-03T02:27:05.971979+00:00"
+      "topic_title": "Language requirement change from Cantonese to Chinese not targeting specific students – HKU med school",
+      "topic_url": "https://hongkongfp.com/2026/09/03/language-requirement-change-from-cantonese-to-chinese-not-targeting-specific-students-hku-med-school/",
+      "generated_at": "2026-09-03T10:38:19.200088+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Ex-Hong Kong care home warden found guilty of raping intellectually disabled female resident",
-      "topic_url": "https://hongkongfp.com/2026/09/03/ex-hong-kong-care-home-warden-found-guilty-of-raping-intellectually-disabled-female-resident/",
-      "generated_at": "2026-09-03T02:27:06.561109+00:00"
+      "topic_title": "Language requirement change from Cantonese to Chinese not targeting specific students – HKU med school",
+      "topic_url": "https://hongkongfp.com/2026/09/03/language-requirement-change-from-cantonese-to-chinese-not-targeting-specific-students-hku-med-school/",
+      "generated_at": "2026-09-03T10:38:20.098902+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Ex-Hong Kong care home warden found guilty of raping intellectually disabled female resident",
-      "topic_summary": "A former Hong Kong care home warden has been found guilty of raping an intellectually disabled female resident five times two years ago.\n\n\n\nThe High Court. File photo: Kyle Lam/HKFP.\n\n\n\nA High Court jury consisting of five men and two women on Wednesday found Chung Pui-kei, a former assistant warden at a Tai Po care home operated by the Hong Chi Association, guilty of five counts of rape, local media reported.\n\n\n\nFollowing roughly five hours of deliberation, the jury returned a 6:1 majority verd",
-      "topic_url": "https://hongkongfp.com/2026/09/03/ex-hong-kong-care-home-warden-found-guilty-of-raping-intellectually-disabled-female-resident/",
+      "topic_title": "Language requirement change from Cantonese to Chinese not targeting specific students – HKU med school",
+      "topic_summary": "The University of Hong Kong (HKU)&#8217;s medical school has said that revising its admission prerequisites from Cantonese to Chinese proficiency was not meant to target students from any particular background.\n\n\n\nThe University of Hong Kong&#8217;s Li Ka Shing Faculty of Medicine. Photo: Peter Lee/HKFP.\n\n\n\nThe Li Ka Shing Faculty of Medicine&#8217;s statement, emailed to HKFP on Wednesday, said the changes do not constitute a &#8220;lowering&#8221; of admission standards, and are intended to en",
+      "topic_url": "https://hongkongfp.com/2026/09/03/language-requirement-change-from-cantonese-to-chinese-not-targeting-specific-students-hku-med-school/",
       "messages": [],
-      "generated_at": "2026-09-03T02:27:16.036221+00:00"
+      "generated_at": "2026-09-03T10:38:29.679345+00:00"
     },
     "zh": {
-      "topic_title": "Ex-Hong Kong care home warden found guilty of raping intellectually disabled female resident",
-      "topic_summary": "A former Hong Kong care home warden has been found guilty of raping an intellectually disabled female resident five times two years ago.\n\n\n\nThe High Court. File photo: Kyle Lam/HKFP.\n\n\n\nA High Court jury consisting of five men and two women on Wednesday found Chung Pui-kei, a former assistant warden at a Tai Po care home operated by the Hong Chi Association, guilty of five counts of rape, local media reported.\n\n\n\nFollowing roughly five hours of deliberation, the jury returned a 6:1 majority verd",
-      "topic_url": "https://hongkongfp.com/2026/09/03/ex-hong-kong-care-home-warden-found-guilty-of-raping-intellectually-disabled-female-resident/",
+      "topic_title": "Language requirement change from Cantonese to Chinese not targeting specific students – HKU med school",
+      "topic_summary": "The University of Hong Kong (HKU)&#8217;s medical school has said that revising its admission prerequisites from Cantonese to Chinese proficiency was not meant to target students from any particular background.\n\n\n\nThe University of Hong Kong&#8217;s Li Ka Shing Faculty of Medicine. Photo: Peter Lee/HKFP.\n\n\n\nThe Li Ka Shing Faculty of Medicine&#8217;s statement, emailed to HKFP on Wednesday, said the changes do not constitute a &#8220;lowering&#8221; of admission standards, and are intended to en",
+      "topic_url": "https://hongkongfp.com/2026/09/03/language-requirement-change-from-cantonese-to-chinese-not-targeting-specific-students-hku-med-school/",
       "messages": [],
-      "generated_at": "2026-09-03T02:27:24.927019+00:00"
+      "generated_at": "2026-09-03T10:38:38.886131+00:00"
     }
   }
 }
