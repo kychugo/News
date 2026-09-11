@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-10T20:42:23.520875+00:00",
+  "generated_at": "2026-09-11T02:26:14.238951+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Nearly 40% of Hong Kong’s elderly face medium to extreme heat risk – Greenpeace",
-      "topic_url": "https://hongkongfp.com/2026/09/10/nearly-40-of-hong-kongs-elderly-face-medium-to-extreme-heat-risk-greenpeace/",
-      "generated_at": "2026-09-10T20:42:04.437064+00:00"
+      "topic_title": "Suicide rate among children under 15 tripled last year, as researchers urge schools and media to do better",
+      "topic_url": "https://hongkongfp.com/2026/09/11/suicide-rate-among-children-under-15-tripled-last-year-as-reseachers-urge-schools-and-media-to-do-better/",
+      "generated_at": "2026-09-11T02:25:54.429961+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Nearly 40% of Hong Kong’s elderly face medium to extreme heat risk – Greenpeace",
-      "topic_url": "https://hongkongfp.com/2026/09/10/nearly-40-of-hong-kongs-elderly-face-medium-to-extreme-heat-risk-greenpeace/",
-      "generated_at": "2026-09-10T20:42:04.818570+00:00"
+      "topic_title": "Suicide rate among children under 15 tripled last year, as researchers urge schools and media to do better",
+      "topic_url": "https://hongkongfp.com/2026/09/11/suicide-rate-among-children-under-15-tripled-last-year-as-reseachers-urge-schools-and-media-to-do-better/",
+      "generated_at": "2026-09-11T02:25:55.810916+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Nearly 40% of Hong Kong’s elderly face medium to extreme heat risk – Greenpeace",
-      "topic_summary": "Nearly 40 per cent of Hong Kong&#8217;s elderly live in districts with medium to high or high-extreme heat risk, a new study has found.\n\n\n\nA subdivided unit in Kwun Tong, on February 8, 2025. Photo: James Lee/HKFP.\n\n\n\nNGO Greenpeace said on Thursday that it evaluated extreme heat risks in districts across the city by assessing factors such as day and night temperatures, concentrations of senior citizens, and income levels.\n\n\n\nKwun Tong, Kwai Tsing, Tuen Mun, and Wong Tai Sin comprised the highes",
-      "topic_url": "https://hongkongfp.com/2026/09/10/nearly-40-of-hong-kongs-elderly-face-medium-to-extreme-heat-risk-greenpeace/",
+      "topic_title": "Suicide rate among children under 15 tripled last year, as researchers urge schools and media to do better",
+      "topic_summary": "A university research centre has urged schools to strengthen mental health awareness among students after statistics revealed a rise in the suicide rate for children under 15 last year.\n\n\n\nA man sits on a bench in Hong Kong. File photo: GovHK. \n\n\n\nThe Hong Kong Jockey Club Centre for Suicide Research and Prevention at the University of Hong Kong&nbsp;announced&nbsp;the city&#8217;s latest suicide statistics on Thursday.\n\n\n\nWhile the overall suicide rate fell from 13.8 per 100,000 residents in 20",
+      "topic_url": "https://hongkongfp.com/2026/09/11/suicide-rate-among-children-under-15-tripled-last-year-as-reseachers-urge-schools-and-media-to-do-better/",
       "messages": [],
-      "generated_at": "2026-09-10T20:42:14.435478+00:00"
+      "generated_at": "2026-09-11T02:26:05.623310+00:00"
     },
     "zh": {
-      "topic_title": "Nearly 40% of Hong Kong’s elderly face medium to extreme heat risk – Greenpeace",
-      "topic_summary": "Nearly 40 per cent of Hong Kong&#8217;s elderly live in districts with medium to high or high-extreme heat risk, a new study has found.\n\n\n\nA subdivided unit in Kwun Tong, on February 8, 2025. Photo: James Lee/HKFP.\n\n\n\nNGO Greenpeace said on Thursday that it evaluated extreme heat risks in districts across the city by assessing factors such as day and night temperatures, concentrations of senior citizens, and income levels.\n\n\n\nKwun Tong, Kwai Tsing, Tuen Mun, and Wong Tai Sin comprised the highes",
-      "topic_url": "https://hongkongfp.com/2026/09/10/nearly-40-of-hong-kongs-elderly-face-medium-to-extreme-heat-risk-greenpeace/",
+      "topic_title": "Suicide rate among children under 15 tripled last year, as researchers urge schools and media to do better",
+      "topic_summary": "A university research centre has urged schools to strengthen mental health awareness among students after statistics revealed a rise in the suicide rate for children under 15 last year.\n\n\n\nA man sits on a bench in Hong Kong. File photo: GovHK. \n\n\n\nThe Hong Kong Jockey Club Centre for Suicide Research and Prevention at the University of Hong Kong&nbsp;announced&nbsp;the city&#8217;s latest suicide statistics on Thursday.\n\n\n\nWhile the overall suicide rate fell from 13.8 per 100,000 residents in 20",
+      "topic_url": "https://hongkongfp.com/2026/09/11/suicide-rate-among-children-under-15-tripled-last-year-as-reseachers-urge-schools-and-media-to-do-better/",
       "messages": [],
-      "generated_at": "2026-09-10T20:42:23.520840+00:00"
+      "generated_at": "2026-09-11T02:26:14.238911+00:00"
     }
   }
 }
