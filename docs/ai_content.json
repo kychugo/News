@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-20T02:48:29.315787+00:00",
+  "generated_at": "2026-09-20T10:35:15.688770+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Japan emperor declares Asian Games open following turbulent build-up",
-      "topic_url": "https://hongkongfp.com/2026/09/20/japan-emperor-declares-asian-games-open-following-turbulent-build-up/",
-      "generated_at": "2026-09-20T02:48:12.626543+00:00"
+      "topic_title": "In Pictures: Hong Kong pays final respects to former city leader Tung Chee-hwa",
+      "topic_url": "https://hongkongfp.com/2026/09/20/in-pictures-hong-kong-pays-final-respects-to-former-city-leader-tung-chee-hwa/",
+      "generated_at": "2026-09-20T10:34:57.052988+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Japan emperor declares Asian Games open following turbulent build-up",
-      "topic_url": "https://hongkongfp.com/2026/09/20/japan-emperor-declares-asian-games-open-following-turbulent-build-up/",
-      "generated_at": "2026-09-20T02:48:13.041523+00:00"
+      "topic_title": "In Pictures: Hong Kong pays final respects to former city leader Tung Chee-hwa",
+      "topic_url": "https://hongkongfp.com/2026/09/20/in-pictures-hong-kong-pays-final-respects-to-former-city-leader-tung-chee-hwa/",
+      "generated_at": "2026-09-20T10:34:57.536756+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Japan emperor declares Asian Games open following turbulent build-up",
-      "topic_summary": "The 20th Asian Games were declared open by Japan&#8217;s emperor on Saturday following a troubled build-up to the multi-sport spectacular that has more athletes than the Olympics.\n\n\n\nThe opening ceremony of the 20th Asian Games in Japan&#8217;s Nagoya on Saturday, September 19, 2026. Photo: SF&#038;OC.\n\n\n\nThere were a large number of empty seats at the 30,000-capacity stadium in Nagoya, where a subdued crowd saw a colourful opening ceremony on a heart-shaped stage.\n\n\n\nJapan&#8217;s Emperor and E",
-      "topic_url": "https://hongkongfp.com/2026/09/20/japan-emperor-declares-asian-games-open-following-turbulent-build-up/",
+      "topic_title": "In Pictures: Hong Kong pays final respects to former city leader Tung Chee-hwa",
+      "topic_summary": "Hong Kong officials and the public commemorated the city&#8217;s first post-colonial leader, Tung Chee-hwa, at his funeral on Sunday, AFP journalists saw.\n\n\n\nA public memorial and funeral ceremony for Hong Kong&#8217;s first post-colonial leader Tung Chee-hwa took place on Sunday, September 20, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nTung, who died this month at the age of 89, was a former shipping tycoon hand-picked by Beijing to run Hong Kong after the former British colony&#8217;s handover to Chinese ",
+      "topic_url": "https://hongkongfp.com/2026/09/20/in-pictures-hong-kong-pays-final-respects-to-former-city-leader-tung-chee-hwa/",
       "messages": [],
-      "generated_at": "2026-09-20T02:48:21.234127+00:00"
+      "generated_at": "2026-09-20T10:35:06.908844+00:00"
     },
     "zh": {
-      "topic_title": "Japan emperor declares Asian Games open following turbulent build-up",
-      "topic_summary": "The 20th Asian Games were declared open by Japan&#8217;s emperor on Saturday following a troubled build-up to the multi-sport spectacular that has more athletes than the Olympics.\n\n\n\nThe opening ceremony of the 20th Asian Games in Japan&#8217;s Nagoya on Saturday, September 19, 2026. Photo: SF&#038;OC.\n\n\n\nThere were a large number of empty seats at the 30,000-capacity stadium in Nagoya, where a subdued crowd saw a colourful opening ceremony on a heart-shaped stage.\n\n\n\nJapan&#8217;s Emperor and E",
-      "topic_url": "https://hongkongfp.com/2026/09/20/japan-emperor-declares-asian-games-open-following-turbulent-build-up/",
+      "topic_title": "In Pictures: Hong Kong pays final respects to former city leader Tung Chee-hwa",
+      "topic_summary": "Hong Kong officials and the public commemorated the city&#8217;s first post-colonial leader, Tung Chee-hwa, at his funeral on Sunday, AFP journalists saw.\n\n\n\nA public memorial and funeral ceremony for Hong Kong&#8217;s first post-colonial leader Tung Chee-hwa took place on Sunday, September 20, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nTung, who died this month at the age of 89, was a former shipping tycoon hand-picked by Beijing to run Hong Kong after the former British colony&#8217;s handover to Chinese ",
+      "topic_url": "https://hongkongfp.com/2026/09/20/in-pictures-hong-kong-pays-final-respects-to-former-city-leader-tung-chee-hwa/",
       "messages": [],
-      "generated_at": "2026-09-20T02:48:29.315747+00:00"
+      "generated_at": "2026-09-20T10:35:15.688736+00:00"
     }
   }
 }
