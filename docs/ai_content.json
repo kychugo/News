@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-22T02:46:32.631811+00:00",
+  "generated_at": "2026-09-22T10:56:17.117043+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong authorities decline to comment on report that US fighter jet parts diverted to city",
-      "topic_url": "https://hongkongfp.com/2026/09/22/hong-kong-authorities-decline-to-comment-on-report-that-us-fighter-jet-parts-diverted-to-city/",
-      "generated_at": "2026-09-22T02:46:15.153241+00:00"
+      "topic_title": "China curbs drug precursor exports ahead of Xi’s US visit",
+      "topic_url": "https://hongkongfp.com/2026/09/22/china-curbs-drug-precursor-exports-ahead-of-xis-us-visit/",
+      "generated_at": "2026-09-22T10:56:01.043980+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong authorities decline to comment on report that US fighter jet parts diverted to city",
-      "topic_url": "https://hongkongfp.com/2026/09/22/hong-kong-authorities-decline-to-comment-on-report-that-us-fighter-jet-parts-diverted-to-city/",
-      "generated_at": "2026-09-22T02:46:15.698374+00:00"
+      "topic_title": "China curbs drug precursor exports ahead of Xi’s US visit",
+      "topic_url": "https://hongkongfp.com/2026/09/22/china-curbs-drug-precursor-exports-ahead-of-xis-us-visit/",
+      "generated_at": "2026-09-22T10:56:01.421765+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong authorities decline to comment on report that US fighter jet parts diverted to city",
-      "topic_summary": "Hong Kong authorities have declined to comment on a report that parts for F-35 fighter jets, a classified US aircraft targeted by Chinese intelligence, were diverted to the city.\n\n\n\nF-35B Lightning II aircraft at Eielson Air Force Base, Alaska. Photo: F-35 Lightning II Joint Program Office﻿, via Facebook.\n\n\n\nMedia outlet Politico reported last week that a shipment of US-bound F-35 parts being flown from Australia this summer ended up in Hong Kong, citing anonymous sources.\n\n\n\nThe alleged inciden",
-      "topic_url": "https://hongkongfp.com/2026/09/22/hong-kong-authorities-decline-to-comment-on-report-that-us-fighter-jet-parts-diverted-to-city/",
+      "topic_title": "China curbs drug precursor exports ahead of Xi’s US visit",
+      "topic_summary": "China unveiled export restrictions on precursor chemicals that can be used to make drugs on Tuesday, days before a high-stakes meeting between President Xi Jinping and US counterpart Donald Trump.\n\n\n\nFentanyl. Photo: US Drug Enforcement Administration.\n\n\n\nThe rules, announced in a statement by Beijing&#8217;s commerce ministry, take effect immediately.\n\n\n\nThey apply to two varieties of substances which will now be subject to applications in order to be exported to the United States, Mexico or Ca",
+      "topic_url": "https://hongkongfp.com/2026/09/22/china-curbs-drug-precursor-exports-ahead-of-xis-us-visit/",
       "messages": [],
-      "generated_at": "2026-09-22T02:46:24.104825+00:00"
+      "generated_at": "2026-09-22T10:56:09.221758+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong authorities decline to comment on report that US fighter jet parts diverted to city",
-      "topic_summary": "Hong Kong authorities have declined to comment on a report that parts for F-35 fighter jets, a classified US aircraft targeted by Chinese intelligence, were diverted to the city.\n\n\n\nF-35B Lightning II aircraft at Eielson Air Force Base, Alaska. Photo: F-35 Lightning II Joint Program Office﻿, via Facebook.\n\n\n\nMedia outlet Politico reported last week that a shipment of US-bound F-35 parts being flown from Australia this summer ended up in Hong Kong, citing anonymous sources.\n\n\n\nThe alleged inciden",
-      "topic_url": "https://hongkongfp.com/2026/09/22/hong-kong-authorities-decline-to-comment-on-report-that-us-fighter-jet-parts-diverted-to-city/",
+      "topic_title": "China curbs drug precursor exports ahead of Xi’s US visit",
+      "topic_summary": "China unveiled export restrictions on precursor chemicals that can be used to make drugs on Tuesday, days before a high-stakes meeting between President Xi Jinping and US counterpart Donald Trump.\n\n\n\nFentanyl. Photo: US Drug Enforcement Administration.\n\n\n\nThe rules, announced in a statement by Beijing&#8217;s commerce ministry, take effect immediately.\n\n\n\nThey apply to two varieties of substances which will now be subject to applications in order to be exported to the United States, Mexico or Ca",
+      "topic_url": "https://hongkongfp.com/2026/09/22/china-curbs-drug-precursor-exports-ahead-of-xis-us-visit/",
       "messages": [],
-      "generated_at": "2026-09-22T02:46:32.631779+00:00"
+      "generated_at": "2026-09-22T10:56:17.117010+00:00"
     }
   }
 }
