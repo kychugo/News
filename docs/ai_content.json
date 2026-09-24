@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-23T21:21:30.564385+00:00",
+  "generated_at": "2026-09-24T02:36:33.030444+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong considers heavier fines for pet abandonment following fatal Yuen Long dog attack",
-      "topic_url": "https://hongkongfp.com/2026/09/23/hong-kong-considers-heavier-fines-for-pet-abandonment-following-fatal-yuen-long-dog-attack/",
-      "generated_at": "2026-09-23T21:21:13.076652+00:00"
+      "topic_title": "Hong Kong slams EU report claiming ‘deterioration of fundamental freedoms’ in the city",
+      "topic_url": "https://hongkongfp.com/2026/09/24/hong-kong-slams-eu-report-claiming-deterioration-of-fundamental-freedoms-in-the-city/",
+      "generated_at": "2026-09-24T02:36:14.581991+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong considers heavier fines for pet abandonment following fatal Yuen Long dog attack",
-      "topic_url": "https://hongkongfp.com/2026/09/23/hong-kong-considers-heavier-fines-for-pet-abandonment-following-fatal-yuen-long-dog-attack/",
-      "generated_at": "2026-09-23T21:21:13.533438+00:00"
+      "topic_title": "Hong Kong slams EU report claiming ‘deterioration of fundamental freedoms’ in the city",
+      "topic_url": "https://hongkongfp.com/2026/09/24/hong-kong-slams-eu-report-claiming-deterioration-of-fundamental-freedoms-in-the-city/",
+      "generated_at": "2026-09-24T02:36:15.240874+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong considers heavier fines for pet abandonment following fatal Yuen Long dog attack",
-      "topic_summary": "Hong Kong authorities are considering heavier fines for pet abandonment, the environment minister has said as an operation to capture stray dogs after a fatal dog attack in Yuen Long continued.\n\n\n\nDogs in Yuen Long on September 22, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nSecretary for Environment and Ecology Tse Chin-wan said during a Legislative Council meeting on Wednesday that dog owners bear responsibility for their pets, and that there should be consequences if they give them up.\n\n\n\n&#8220;By the en",
-      "topic_url": "https://hongkongfp.com/2026/09/23/hong-kong-considers-heavier-fines-for-pet-abandonment-following-fatal-yuen-long-dog-attack/",
+      "topic_title": "Hong Kong slams EU report claiming ‘deterioration of fundamental freedoms’ in the city",
+      "topic_summary": "Hong Kong authorities have hit back against a European Union (EU) report that described what it called &#8220;continuous erosions&#8221; in the city&#8217;s political freedoms and autonomy.\n\n\n\nThe annual report on Hong Kong, issued on Tuesday by the European Commission and the EU’s high representative for foreign affairs and security policy, highlighted a &#8220;continued deterioration of fundamental freedoms&#8221; due to &#8220;the Hong Kong government&#8217;s incessant focus on national secur",
+      "topic_url": "https://hongkongfp.com/2026/09/24/hong-kong-slams-eu-report-claiming-deterioration-of-fundamental-freedoms-in-the-city/",
       "messages": [],
-      "generated_at": "2026-09-23T21:21:22.038267+00:00"
+      "generated_at": "2026-09-24T02:36:24.013073+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong considers heavier fines for pet abandonment following fatal Yuen Long dog attack",
-      "topic_summary": "Hong Kong authorities are considering heavier fines for pet abandonment, the environment minister has said as an operation to capture stray dogs after a fatal dog attack in Yuen Long continued.\n\n\n\nDogs in Yuen Long on September 22, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nSecretary for Environment and Ecology Tse Chin-wan said during a Legislative Council meeting on Wednesday that dog owners bear responsibility for their pets, and that there should be consequences if they give them up.\n\n\n\n&#8220;By the en",
-      "topic_url": "https://hongkongfp.com/2026/09/23/hong-kong-considers-heavier-fines-for-pet-abandonment-following-fatal-yuen-long-dog-attack/",
+      "topic_title": "Hong Kong slams EU report claiming ‘deterioration of fundamental freedoms’ in the city",
+      "topic_summary": "Hong Kong authorities have hit back against a European Union (EU) report that described what it called &#8220;continuous erosions&#8221; in the city&#8217;s political freedoms and autonomy.\n\n\n\nThe annual report on Hong Kong, issued on Tuesday by the European Commission and the EU’s high representative for foreign affairs and security policy, highlighted a &#8220;continued deterioration of fundamental freedoms&#8221; due to &#8220;the Hong Kong government&#8217;s incessant focus on national secur",
+      "topic_url": "https://hongkongfp.com/2026/09/24/hong-kong-slams-eu-report-claiming-deterioration-of-fundamental-freedoms-in-the-city/",
       "messages": [],
-      "generated_at": "2026-09-23T21:21:30.564356+00:00"
+      "generated_at": "2026-09-24T02:36:33.030412+00:00"
     }
   }
 }
