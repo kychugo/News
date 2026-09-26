@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-25T21:23:40.640146+00:00",
+  "generated_at": "2026-09-26T02:57:36.245160+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Gov’t refutes animal activist’s claims over stray dog culling following fatal mauling",
-      "topic_url": "https://hongkongfp.com/2026/09/25/govt-refutes-animal-activists-claims-over-stray-dog-culling-following-fatal-mauling/",
-      "generated_at": "2026-09-25T21:22:59.794212+00:00"
+      "topic_title": "Migrant domestic workers demand 21% wage hike to HK$6,172, reject calls for pay freeze",
+      "topic_url": "https://hongkongfp.com/2026/09/26/migrant-domestic-workers-demand-21-wage-hike-to-hk6172-reject-calls-for-pay-freeze/",
+      "generated_at": "2026-09-26T02:57:19.539018+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Gov’t refutes animal activist’s claims over stray dog culling following fatal mauling",
-      "topic_url": "https://hongkongfp.com/2026/09/25/govt-refutes-animal-activists-claims-over-stray-dog-culling-following-fatal-mauling/",
-      "generated_at": "2026-09-25T21:23:05.847777+00:00"
+      "topic_title": "Migrant domestic workers demand 21% wage hike to HK$6,172, reject calls for pay freeze",
+      "topic_url": "https://hongkongfp.com/2026/09/26/migrant-domestic-workers-demand-21-wage-hike-to-hk6172-reject-calls-for-pay-freeze/",
+      "generated_at": "2026-09-26T02:57:19.934981+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Gov’t refutes animal activist’s claims over stray dog culling following fatal mauling",
-      "topic_summary": "Hong Kong authorities have dismissed an animal rights activist&#8217;s claims that captured stray dogs will be subject to &#8220;convenience culling,&#8221; as eight unattended canines from Yuen Long were caught in a joint operation following a fatal mauling incident last week.\n\n\n\nAgriculture, Fisheries and Conservation Department personnel carrying out an operation to capture stray dogs in Yuen Long  on September 21, 2026. Photo: Agriculture, Fisheries and Conservation Department.\n\n\n\nThe Agricu",
-      "topic_url": "https://hongkongfp.com/2026/09/25/govt-refutes-animal-activists-claims-over-stray-dog-culling-following-fatal-mauling/",
+      "topic_title": "Migrant domestic workers demand 21% wage hike to HK$6,172, reject calls for pay freeze",
+      "topic_summary": "Domestic workers called for an increase in their Minimum Allowable Wage from HK$5,100 to HK$6,172 at a rally outside the Labour Department on Friday.\n\n\n\nDomestic workers demand an increase to the Minimum Allowable Wage outside the Labour Department on September 25, 2026. Photo: AMCB.\n\n\n\nThe Asian Migrants Coordinating Body (AMCB) also called for an increase in the monthly food allowance from HK$1,236 to HK$3,123. Employers must provide free meals or pay the food allowance set by the Labour Depar",
+      "topic_url": "https://hongkongfp.com/2026/09/26/migrant-domestic-workers-demand-21-wage-hike-to-hk6172-reject-calls-for-pay-freeze/",
       "messages": [],
-      "generated_at": "2026-09-25T21:23:32.409867+00:00"
+      "generated_at": "2026-09-26T02:57:28.315752+00:00"
     },
     "zh": {
-      "topic_title": "Gov’t refutes animal activist’s claims over stray dog culling following fatal mauling",
-      "topic_summary": "Hong Kong authorities have dismissed an animal rights activist&#8217;s claims that captured stray dogs will be subject to &#8220;convenience culling,&#8221; as eight unattended canines from Yuen Long were caught in a joint operation following a fatal mauling incident last week.\n\n\n\nAgriculture, Fisheries and Conservation Department personnel carrying out an operation to capture stray dogs in Yuen Long  on September 21, 2026. Photo: Agriculture, Fisheries and Conservation Department.\n\n\n\nThe Agricu",
-      "topic_url": "https://hongkongfp.com/2026/09/25/govt-refutes-animal-activists-claims-over-stray-dog-culling-following-fatal-mauling/",
+      "topic_title": "Migrant domestic workers demand 21% wage hike to HK$6,172, reject calls for pay freeze",
+      "topic_summary": "Domestic workers called for an increase in their Minimum Allowable Wage from HK$5,100 to HK$6,172 at a rally outside the Labour Department on Friday.\n\n\n\nDomestic workers demand an increase to the Minimum Allowable Wage outside the Labour Department on September 25, 2026. Photo: AMCB.\n\n\n\nThe Asian Migrants Coordinating Body (AMCB) also called for an increase in the monthly food allowance from HK$1,236 to HK$3,123. Employers must provide free meals or pay the food allowance set by the Labour Depar",
+      "topic_url": "https://hongkongfp.com/2026/09/26/migrant-domestic-workers-demand-21-wage-hike-to-hk6172-reject-calls-for-pay-freeze/",
       "messages": [],
-      "generated_at": "2026-09-25T21:23:40.640102+00:00"
+      "generated_at": "2026-09-26T02:57:36.245115+00:00"
     }
   }
 }
