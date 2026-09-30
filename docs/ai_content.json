@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-30T03:25:51.689860+00:00",
+  "generated_at": "2026-09-30T11:53:15.929637+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong gov’t dismisses unemployment concerns among nurses, says non-local hires ‘very small’ in number",
-      "topic_url": "https://hongkongfp.com/2026/09/30/hong-kong-govt-dismisses-unemployment-concerns-among-nurses-says-non-local-hires-very-small-in-number/",
-      "generated_at": "2026-09-30T03:25:35.493632+00:00"
+      "topic_title": "Nat. security police reportedly arrest independent journalist over ‘fake news’",
+      "topic_url": "https://hongkongfp.com/2026/09/30/nat-security-police-reportedly-arrest-independent-journalist-over-fake-news/",
+      "generated_at": "2026-09-30T11:52:59.691352+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong gov’t dismisses unemployment concerns among nurses, says non-local hires ‘very small’ in number",
-      "topic_url": "https://hongkongfp.com/2026/09/30/hong-kong-govt-dismisses-unemployment-concerns-among-nurses-says-non-local-hires-very-small-in-number/",
-      "generated_at": "2026-09-30T03:25:35.866304+00:00"
+      "topic_title": "Nat. security police reportedly arrest independent journalist over ‘fake news’",
+      "topic_url": "https://hongkongfp.com/2026/09/30/nat-security-police-reportedly-arrest-independent-journalist-over-fake-news/",
+      "generated_at": "2026-09-30T11:53:00.116921+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong gov’t dismisses unemployment concerns among nurses, says non-local hires ‘very small’ in number",
-      "topic_summary": "Hong Kong authorities have defended its policies on hiring non-locally trained nurses, saying that they are &#8220;very small&#8221; in number following complaints about the import of non-local workers causing unemployment.\n\n\n\nThe government said in a statement on Tuesday that Hong Kong&#8217;s public hospitals have always prioritised the hiring of locally trained professionals.\n\n\n\nNurses at the Children&#8217;s Hospital. Photo: GovHK. \n\n\n\nIt added that as of end of 2025, Hong Kong had a &#8220;",
-      "topic_url": "https://hongkongfp.com/2026/09/30/hong-kong-govt-dismisses-unemployment-concerns-among-nurses-says-non-local-hires-very-small-in-number/",
+      "topic_title": "Nat. security police reportedly arrest independent journalist over ‘fake news’",
+      "topic_summary": "Hong Kong&#8217;s national security police have reportedly arrested an independent journalist behind an online news outlet on suspicion of publishing fake news.\n\n\n\nTang Ho-wing in a YouTube video. Photo: Screenshot via Boom News.\n\n\n\nAccording to a report by Sing Tao Headline on Wednesday, the National Security Department of the Hong Kong Police Force carried out the arrest of journalist Tang Ho-wing, who runs the online news outlet Boom News, at 7am that morning.\n\n\n\nThe Facebook page of Boom New",
+      "topic_url": "https://hongkongfp.com/2026/09/30/nat-security-police-reportedly-arrest-independent-journalist-over-fake-news/",
       "messages": [],
-      "generated_at": "2026-09-30T03:25:43.678882+00:00"
+      "generated_at": "2026-09-30T11:53:07.975208+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong gov’t dismisses unemployment concerns among nurses, says non-local hires ‘very small’ in number",
-      "topic_summary": "Hong Kong authorities have defended its policies on hiring non-locally trained nurses, saying that they are &#8220;very small&#8221; in number following complaints about the import of non-local workers causing unemployment.\n\n\n\nThe government said in a statement on Tuesday that Hong Kong&#8217;s public hospitals have always prioritised the hiring of locally trained professionals.\n\n\n\nNurses at the Children&#8217;s Hospital. Photo: GovHK. \n\n\n\nIt added that as of end of 2025, Hong Kong had a &#8220;",
-      "topic_url": "https://hongkongfp.com/2026/09/30/hong-kong-govt-dismisses-unemployment-concerns-among-nurses-says-non-local-hires-very-small-in-number/",
+      "topic_title": "Nat. security police reportedly arrest independent journalist over ‘fake news’",
+      "topic_summary": "Hong Kong&#8217;s national security police have reportedly arrested an independent journalist behind an online news outlet on suspicion of publishing fake news.\n\n\n\nTang Ho-wing in a YouTube video. Photo: Screenshot via Boom News.\n\n\n\nAccording to a report by Sing Tao Headline on Wednesday, the National Security Department of the Hong Kong Police Force carried out the arrest of journalist Tang Ho-wing, who runs the online news outlet Boom News, at 7am that morning.\n\n\n\nThe Facebook page of Boom New",
+      "topic_url": "https://hongkongfp.com/2026/09/30/nat-security-police-reportedly-arrest-independent-journalist-over-fake-news/",
       "messages": [],
-      "generated_at": "2026-09-30T03:25:51.689826+00:00"
+      "generated_at": "2026-09-30T11:53:15.929604+00:00"
     }
   }
 }
