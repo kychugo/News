@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-02T03:31:34.699492+00:00",
+  "generated_at": "2026-10-02T11:50:54.320217+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
-      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
-      "generated_at": "2026-10-02T03:31:17.686369+00:00"
+      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
+      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
+      "generated_at": "2026-10-02T11:50:36.453347+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
-      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
-      "generated_at": "2026-10-02T03:31:18.151139+00:00"
+      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
+      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
+      "generated_at": "2026-10-02T11:50:36.891138+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
-      "topic_summary": "Three dog owners have lost their appeal against the government&#8217;s decision to classify their pets as &#8220;fighting dogs,&#8221; designations that were made as authorities tightened regulations following fatal dog attacks in August.\n\n\n\nBao Bao and Baku outside the Animal Management and Animal Welfare Building Complex on September 30, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nThe Dogs and Cats Classification Board, an advisory board to the Agriculture, Fisheries and Conservation Department (AFCD), hel",
-      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
+      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
+      "topic_summary": "Taiwan boxer Lin Yu-ting, the Olympic champion who found herself embroiled in a major gender row at Paris 2024, won gold at the Asian Games on Wednesday.\n\n\n\nLin beat China&#8217;s Yang Chengyu 5-0 in the women&#8217;s 60kg final in Nagoya, giving her a second Asian Games gold after winning in the 57kg class in Hangzhou three years ago.\n\n\n\nTaiwan&#8217;s Lin Yu-ting (red) celebrates her victory against China&#8217;s Yang Chengyu in the women&#8217;s 60kg gold medal boxing bout during the 2026 Asi",
+      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
       "messages": [],
-      "generated_at": "2026-10-02T03:31:26.654609+00:00"
+      "generated_at": "2026-10-02T11:50:45.576153+00:00"
     },
     "zh": {
-      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
-      "topic_summary": "Three dog owners have lost their appeal against the government&#8217;s decision to classify their pets as &#8220;fighting dogs,&#8221; designations that were made as authorities tightened regulations following fatal dog attacks in August.\n\n\n\nBao Bao and Baku outside the Animal Management and Animal Welfare Building Complex on September 30, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nThe Dogs and Cats Classification Board, an advisory board to the Agriculture, Fisheries and Conservation Department (AFCD), hel",
-      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
+      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
+      "topic_summary": "Taiwan boxer Lin Yu-ting, the Olympic champion who found herself embroiled in a major gender row at Paris 2024, won gold at the Asian Games on Wednesday.\n\n\n\nLin beat China&#8217;s Yang Chengyu 5-0 in the women&#8217;s 60kg final in Nagoya, giving her a second Asian Games gold after winning in the 57kg class in Hangzhou three years ago.\n\n\n\nTaiwan&#8217;s Lin Yu-ting (red) celebrates her victory against China&#8217;s Yang Chengyu in the women&#8217;s 60kg gold medal boxing bout during the 2026 Asi",
+      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
       "messages": [],
-      "generated_at": "2026-10-02T03:31:34.699451+00:00"
+      "generated_at": "2026-10-02T11:50:54.320186+00:00"
     }
   }
 }
