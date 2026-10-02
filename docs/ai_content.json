@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-02T11:50:54.320217+00:00",
+  "generated_at": "2026-10-02T17:31:00.866616+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
-      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
-      "generated_at": "2026-10-02T11:50:36.453347+00:00"
+      "topic_title": "Greenpeace urges HK gov’t to cut Po Pin Chau visitor quota after Nat. Day overcrowding",
+      "topic_url": "https://hongkongfp.com/2026/10/02/greenpeace-urges-hk-govt-to-cut-po-pin-chau-visitor-quota-after-nat-day-overcrowding/",
+      "generated_at": "2026-10-02T17:30:42.151366+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
-      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
-      "generated_at": "2026-10-02T11:50:36.891138+00:00"
+      "topic_title": "Greenpeace urges HK gov’t to cut Po Pin Chau visitor quota after Nat. Day overcrowding",
+      "topic_url": "https://hongkongfp.com/2026/10/02/greenpeace-urges-hk-govt-to-cut-po-pin-chau-visitor-quota-after-nat-day-overcrowding/",
+      "generated_at": "2026-10-02T17:30:42.584605+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
-      "topic_summary": "Taiwan boxer Lin Yu-ting, the Olympic champion who found herself embroiled in a major gender row at Paris 2024, won gold at the Asian Games on Wednesday.\n\n\n\nLin beat China&#8217;s Yang Chengyu 5-0 in the women&#8217;s 60kg final in Nagoya, giving her a second Asian Games gold after winning in the 57kg class in Hangzhou three years ago.\n\n\n\nTaiwan&#8217;s Lin Yu-ting (red) celebrates her victory against China&#8217;s Yang Chengyu in the women&#8217;s 60kg gold medal boxing bout during the 2026 Asi",
-      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
+      "topic_title": "Greenpeace urges HK gov’t to cut Po Pin Chau visitor quota after Nat. Day overcrowding",
+      "topic_summary": "Environmental NGO Greenpeace has urged the government to review its ecotourism policies and reduce visitor quotas for a popular Sai Kung trail after finding overcrowding and damage on the first day of the Golden Week holiday.\n\n\n\nTourists stand on the Po Pin Chau viewing platform on October 1, 2026. Photo: Kyle Lam/HKFP. \n\n\n\nThe green group said in a statement that Sai Kung&#8217;s Po Pin Chau trail saw overcrowding on Thursday, which marked China&#8217;s National Day and the beginning of a weekl",
+      "topic_url": "https://hongkongfp.com/2026/10/02/greenpeace-urges-hk-govt-to-cut-po-pin-chau-visitor-quota-after-nat-day-overcrowding/",
       "messages": [],
-      "generated_at": "2026-10-02T11:50:45.576153+00:00"
+      "generated_at": "2026-10-02T17:30:51.800653+00:00"
     },
     "zh": {
-      "topic_title": "Taiwan gender-row boxer Lin Yu-ting wins Asian Games gold",
-      "topic_summary": "Taiwan boxer Lin Yu-ting, the Olympic champion who found herself embroiled in a major gender row at Paris 2024, won gold at the Asian Games on Wednesday.\n\n\n\nLin beat China&#8217;s Yang Chengyu 5-0 in the women&#8217;s 60kg final in Nagoya, giving her a second Asian Games gold after winning in the 57kg class in Hangzhou three years ago.\n\n\n\nTaiwan&#8217;s Lin Yu-ting (red) celebrates her victory against China&#8217;s Yang Chengyu in the women&#8217;s 60kg gold medal boxing bout during the 2026 Asi",
-      "topic_url": "https://hongkongfp.com/2026/10/02/taiwan-gender-row-boxer-lin-yu-ting-wins-asian-games-gold/",
+      "topic_title": "Greenpeace urges HK gov’t to cut Po Pin Chau visitor quota after Nat. Day overcrowding",
+      "topic_summary": "Environmental NGO Greenpeace has urged the government to review its ecotourism policies and reduce visitor quotas for a popular Sai Kung trail after finding overcrowding and damage on the first day of the Golden Week holiday.\n\n\n\nTourists stand on the Po Pin Chau viewing platform on October 1, 2026. Photo: Kyle Lam/HKFP. \n\n\n\nThe green group said in a statement that Sai Kung&#8217;s Po Pin Chau trail saw overcrowding on Thursday, which marked China&#8217;s National Day and the beginning of a weekl",
+      "topic_url": "https://hongkongfp.com/2026/10/02/greenpeace-urges-hk-govt-to-cut-po-pin-chau-visitor-quota-after-nat-day-overcrowding/",
       "messages": [],
-      "generated_at": "2026-10-02T11:50:54.320186+00:00"
+      "generated_at": "2026-10-02T17:31:00.866578+00:00"
     }
   }
 }
