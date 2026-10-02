@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-01T22:32:34.675976+00:00",
+  "generated_at": "2026-10-02T03:31:34.699492+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "China National Day: Hong Kong leader hails Five-Year Plan as astronaut sends greetings",
-      "topic_url": "https://hongkongfp.com/2026/10/01/china-national-day-hong-kong-leader-hails-five-year-plan-as-astronaut-sends-greetings/",
-      "generated_at": "2026-10-01T22:32:18.494220+00:00"
+      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
+      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
+      "generated_at": "2026-10-02T03:31:17.686369+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "China National Day: Hong Kong leader hails Five-Year Plan as astronaut sends greetings",
-      "topic_url": "https://hongkongfp.com/2026/10/01/china-national-day-hong-kong-leader-hails-five-year-plan-as-astronaut-sends-greetings/",
-      "generated_at": "2026-10-01T22:32:18.813459+00:00"
+      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
+      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
+      "generated_at": "2026-10-02T03:31:18.151139+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "China National Day: Hong Kong leader hails Five-Year Plan as astronaut sends greetings",
-      "topic_summary": "Chief Executive John Lee hailed the city&#8217;s first Five-Year Plan at a celebration on Thursday marking the 77th anniversary of the founding of the People&#8217;s Republic of China.\n\n\n\nChief Executive John Lee at the Wan Chai Exhibition Centre on October 1, 2026. Photo: GovHK.\n\n\n\nFollowing a flag-raising ceremony at Golden Bauhinia Square, Lee told attendees at Wan Chai&#8217;s Hong Kong Convention and Exhibition Centre that China had achieved a historic transformation to become the world&#82",
-      "topic_url": "https://hongkongfp.com/2026/10/01/china-national-day-hong-kong-leader-hails-five-year-plan-as-astronaut-sends-greetings/",
+      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
+      "topic_summary": "Three dog owners have lost their appeal against the government&#8217;s decision to classify their pets as &#8220;fighting dogs,&#8221; designations that were made as authorities tightened regulations following fatal dog attacks in August.\n\n\n\nBao Bao and Baku outside the Animal Management and Animal Welfare Building Complex on September 30, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nThe Dogs and Cats Classification Board, an advisory board to the Agriculture, Fisheries and Conservation Department (AFCD), hel",
+      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
       "messages": [],
-      "generated_at": "2026-10-01T22:32:26.531877+00:00"
+      "generated_at": "2026-10-02T03:31:26.654609+00:00"
     },
     "zh": {
-      "topic_title": "China National Day: Hong Kong leader hails Five-Year Plan as astronaut sends greetings",
-      "topic_summary": "Chief Executive John Lee hailed the city&#8217;s first Five-Year Plan at a celebration on Thursday marking the 77th anniversary of the founding of the People&#8217;s Republic of China.\n\n\n\nChief Executive John Lee at the Wan Chai Exhibition Centre on October 1, 2026. Photo: GovHK.\n\n\n\nFollowing a flag-raising ceremony at Golden Bauhinia Square, Lee told attendees at Wan Chai&#8217;s Hong Kong Convention and Exhibition Centre that China had achieved a historic transformation to become the world&#82",
-      "topic_url": "https://hongkongfp.com/2026/10/01/china-national-day-hong-kong-leader-hails-five-year-plan-as-astronaut-sends-greetings/",
+      "topic_title": "3 Hong Kong dog owners lose appeals against ‘fighting dog’ classifications",
+      "topic_summary": "Three dog owners have lost their appeal against the government&#8217;s decision to classify their pets as &#8220;fighting dogs,&#8221; designations that were made as authorities tightened regulations following fatal dog attacks in August.\n\n\n\nBao Bao and Baku outside the Animal Management and Animal Welfare Building Complex on September 30, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nThe Dogs and Cats Classification Board, an advisory board to the Agriculture, Fisheries and Conservation Department (AFCD), hel",
+      "topic_url": "https://hongkongfp.com/2026/10/02/3-hong-kong-dog-owners-lose-appeals-against-fighting-dog-classifications/",
       "messages": [],
-      "generated_at": "2026-10-01T22:32:34.675944+00:00"
+      "generated_at": "2026-10-02T03:31:34.699451+00:00"
     }
   }
 }
