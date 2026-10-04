@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-04T03:44:18.615786+00:00",
+  "generated_at": "2026-10-04T11:45:32.464031+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "China launches anti-dumping probe into EU chemical imports ahead of trade talks",
-      "topic_url": "https://hongkongfp.com/2026/10/03/china-launches-anti-dumping-probe-into-eu-chemical-imports-ahead-of-trade-talks/",
-      "generated_at": "2026-10-04T03:44:03.093296+00:00"
+      "topic_title": "China slams US ‘lie’ over Starbucks stores in Xinjiang",
+      "topic_url": "https://hongkongfp.com/2026/10/04/china-slams-us-lie-over-starbucks-stores-in-xinjiang/",
+      "generated_at": "2026-10-04T11:45:15.336516+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "China launches anti-dumping probe into EU chemical imports ahead of trade talks",
-      "topic_url": "https://hongkongfp.com/2026/10/03/china-launches-anti-dumping-probe-into-eu-chemical-imports-ahead-of-trade-talks/",
-      "generated_at": "2026-10-04T03:44:03.399807+00:00"
+      "topic_title": "China slams US ‘lie’ over Starbucks stores in Xinjiang",
+      "topic_url": "https://hongkongfp.com/2026/10/04/china-slams-us-lie-over-starbucks-stores-in-xinjiang/",
+      "generated_at": "2026-10-04T11:45:15.878395+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "China launches anti-dumping probe into EU chemical imports ahead of trade talks",
-      "topic_summary": "China&#8217;s commerce ministry launched an anti-dumping investigation into imports of a widely used production chemical from the European Union on Saturday, less than a week before the bloc&#8217;s trade chief was due in Beijing for talks.\n\n\n\nA spokesperson for Beijing&#8217;s commerce ministry said China&#8217;s domestic industry had requested the investigation into whether imports from the EU of low-priced p-nitrotoluene were flooding the Chinese market, complaining of &#8220;damage to produc",
-      "topic_url": "https://hongkongfp.com/2026/10/03/china-launches-anti-dumping-probe-into-eu-chemical-imports-ahead-of-trade-talks/",
+      "topic_title": "China slams US ‘lie’ over Starbucks stores in Xinjiang",
+      "topic_summary": "China&#8217;s foreign ministry accused a US congressional committee on Saturday of &#8220;fabricating claims&#8221; after its chairman called on Starbucks to shutter two newly opened cafes in Xinjiang over alleged rights abuses.\n\n\n\nChinese foreign ministry spokesperson Guo Jiakun at a press conference on April 21, 2025. Photo: China&#8217;s Ministry of Foreign Affairs.\n\n\n\nJohn Moolenaar, chairman of the US House Select Committee on China, called the decision to open stores in the regional capita",
+      "topic_url": "https://hongkongfp.com/2026/10/04/china-slams-us-lie-over-starbucks-stores-in-xinjiang/",
       "messages": [],
-      "generated_at": "2026-10-04T03:44:10.955752+00:00"
+      "generated_at": "2026-10-04T11:45:23.941742+00:00"
     },
     "zh": {
-      "topic_title": "China launches anti-dumping probe into EU chemical imports ahead of trade talks",
-      "topic_summary": "China&#8217;s commerce ministry launched an anti-dumping investigation into imports of a widely used production chemical from the European Union on Saturday, less than a week before the bloc&#8217;s trade chief was due in Beijing for talks.\n\n\n\nA spokesperson for Beijing&#8217;s commerce ministry said China&#8217;s domestic industry had requested the investigation into whether imports from the EU of low-priced p-nitrotoluene were flooding the Chinese market, complaining of &#8220;damage to produc",
-      "topic_url": "https://hongkongfp.com/2026/10/03/china-launches-anti-dumping-probe-into-eu-chemical-imports-ahead-of-trade-talks/",
+      "topic_title": "China slams US ‘lie’ over Starbucks stores in Xinjiang",
+      "topic_summary": "China&#8217;s foreign ministry accused a US congressional committee on Saturday of &#8220;fabricating claims&#8221; after its chairman called on Starbucks to shutter two newly opened cafes in Xinjiang over alleged rights abuses.\n\n\n\nChinese foreign ministry spokesperson Guo Jiakun at a press conference on April 21, 2025. Photo: China&#8217;s Ministry of Foreign Affairs.\n\n\n\nJohn Moolenaar, chairman of the US House Select Committee on China, called the decision to open stores in the regional capita",
+      "topic_url": "https://hongkongfp.com/2026/10/04/china-slams-us-lie-over-starbucks-stores-in-xinjiang/",
       "messages": [],
-      "generated_at": "2026-10-04T03:44:18.615750+00:00"
+      "generated_at": "2026-10-04T11:45:32.464009+00:00"
     }
   }
 }
