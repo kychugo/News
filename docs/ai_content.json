@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-07T12:36:54.503118+00:00",
+  "generated_at": "2026-10-07T18:28:16.700828+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Taiwan accuses Hong Kong residents of hiring 4 people to spy on lawmaker critical of China",
-      "topic_url": "https://hongkongfp.com/2026/10/07/taiwan-accuses-hong-kong-residents-of-hiring-4-people-to-spy-on-lawmaker-critical-of-china/",
-      "generated_at": "2026-10-07T12:36:36.977844+00:00"
+      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
+      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
+      "generated_at": "2026-10-07T18:27:58.518160+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Taiwan accuses Hong Kong residents of hiring 4 people to spy on lawmaker critical of China",
-      "topic_url": "https://hongkongfp.com/2026/10/07/taiwan-accuses-hong-kong-residents-of-hiring-4-people-to-spy-on-lawmaker-critical-of-china/",
-      "generated_at": "2026-10-07T12:36:37.411227+00:00"
+      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
+      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
+      "generated_at": "2026-10-07T18:27:58.932301+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Taiwan accuses Hong Kong residents of hiring 4 people to spy on lawmaker critical of China",
-      "topic_summary": "Four people were charged after allegedly surveilling a Taiwanese lawmaker and his family two years ago, prosecutors said on Wednesday.\n\n\n\nLawmaker Puma Shen and the pinhole camera found on his motorbike. Photo: Puma Shen, via Facebook.\n\n\n\nTaipei prosecutors alleged that two people in Hong Kong hired the four Taiwanese defendants to follow, film and photograph Puma Shen, who is a member of the ruling Democratic Progressive Party (DPP) and an outspoken critic of China.\n\n\n\nThe defendants have been ",
-      "topic_url": "https://hongkongfp.com/2026/10/07/taiwan-accuses-hong-kong-residents-of-hiring-4-people-to-spy-on-lawmaker-critical-of-china/",
+      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
+      "topic_summary": "Judges and judicial officers have been recommended to receive a 2 per cent salary increase for this financial year, following a pay freeze last year due to the city&#8217;s mounting deficit.\n\n\n\nJudges gather at the opening of the Legal Year 2025, on January 20, 2025. Photo: Kyle Lam/HKFP.\n\n\n\nThe salary increase follows an annual review of the salaries of judges and judicial officers, which refers to magistrates, coroners, court registrars and roles in the Labour Tribunal, the Small Claims Tribun",
+      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
       "messages": [],
-      "generated_at": "2026-10-07T12:36:45.880657+00:00"
+      "generated_at": "2026-10-07T18:28:07.715722+00:00"
     },
     "zh": {
-      "topic_title": "Taiwan accuses Hong Kong residents of hiring 4 people to spy on lawmaker critical of China",
-      "topic_summary": "Four people were charged after allegedly surveilling a Taiwanese lawmaker and his family two years ago, prosecutors said on Wednesday.\n\n\n\nLawmaker Puma Shen and the pinhole camera found on his motorbike. Photo: Puma Shen, via Facebook.\n\n\n\nTaipei prosecutors alleged that two people in Hong Kong hired the four Taiwanese defendants to follow, film and photograph Puma Shen, who is a member of the ruling Democratic Progressive Party (DPP) and an outspoken critic of China.\n\n\n\nThe defendants have been ",
-      "topic_url": "https://hongkongfp.com/2026/10/07/taiwan-accuses-hong-kong-residents-of-hiring-4-people-to-spy-on-lawmaker-critical-of-china/",
+      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
+      "topic_summary": "Judges and judicial officers have been recommended to receive a 2 per cent salary increase for this financial year, following a pay freeze last year due to the city&#8217;s mounting deficit.\n\n\n\nJudges gather at the opening of the Legal Year 2025, on January 20, 2025. Photo: Kyle Lam/HKFP.\n\n\n\nThe salary increase follows an annual review of the salaries of judges and judicial officers, which refers to magistrates, coroners, court registrars and roles in the Labour Tribunal, the Small Claims Tribun",
+      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
       "messages": [],
-      "generated_at": "2026-10-07T12:36:54.503083+00:00"
+      "generated_at": "2026-10-07T18:28:16.700797+00:00"
     }
   }
 }
