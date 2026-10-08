@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-08T03:56:04.391161+00:00",
+  "generated_at": "2026-10-08T12:46:45.276078+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
-      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
-      "generated_at": "2026-10-08T03:55:46.912245+00:00"
+      "topic_title": "Hong Kong police arrest parents of 11-year-old girl filmed carrying dozens of beer cans",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-police-arrest-parents-of-11-year-old-girl-filmed-carrying-dozens-of-beer-cans/",
+      "generated_at": "2026-10-08T12:46:26.450639+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
-      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
-      "generated_at": "2026-10-08T03:55:47.358157+00:00"
+      "topic_title": "Hong Kong police arrest parents of 11-year-old girl filmed carrying dozens of beer cans",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-police-arrest-parents-of-11-year-old-girl-filmed-carrying-dozens-of-beer-cans/",
+      "generated_at": "2026-10-08T12:46:26.944905+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
-      "topic_summary": "Hong Kong arrested nine people in a city-wide operation targeting illicit fuel activities, authorities said on Wednesday, as surging global oil prices continue to put pressure on the import-dependent financial hub.\n\n\n\nAn illicit motor spirit storage site raided in the joint operation. Photo: Hong Kong Customs and Excise Department.\n\n\n\nThe city lacks its own refineries and imports its entire supply of automotive fuel, with much of it coming from neighbouring mainland China.\n\n\n\nPrices at Hong Kong",
-      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
+      "topic_title": "Hong Kong police arrest parents of 11-year-old girl filmed carrying dozens of beer cans",
+      "topic_summary": "Hong Kong police have arrested the parents of an 11-year-old girl who was filmed carrying dozens of beer cans through Tuen Mun while her father stood by and berated her.\n\n\n\nScreenshot from video showing the girl made to hold bags of beer, posted on October 6, 2026. Photo: Screenshot via Facebook.\n\n\n\nThe 38-year-old man and his 32-year-old wife were detained on suspicion of &#8220;ill-treatment or neglect by those in charge of a child or young person&#8221; &#8211; commonly known as child abuse &",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-police-arrest-parents-of-11-year-old-girl-filmed-carrying-dozens-of-beer-cans/",
       "messages": [],
-      "generated_at": "2026-10-08T03:55:55.991207+00:00"
+      "generated_at": "2026-10-08T12:46:36.429982+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
-      "topic_summary": "Hong Kong arrested nine people in a city-wide operation targeting illicit fuel activities, authorities said on Wednesday, as surging global oil prices continue to put pressure on the import-dependent financial hub.\n\n\n\nAn illicit motor spirit storage site raided in the joint operation. Photo: Hong Kong Customs and Excise Department.\n\n\n\nThe city lacks its own refineries and imports its entire supply of automotive fuel, with much of it coming from neighbouring mainland China.\n\n\n\nPrices at Hong Kong",
-      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
+      "topic_title": "Hong Kong police arrest parents of 11-year-old girl filmed carrying dozens of beer cans",
+      "topic_summary": "Hong Kong police have arrested the parents of an 11-year-old girl who was filmed carrying dozens of beer cans through Tuen Mun while her father stood by and berated her.\n\n\n\nScreenshot from video showing the girl made to hold bags of beer, posted on October 6, 2026. Photo: Screenshot via Facebook.\n\n\n\nThe 38-year-old man and his 32-year-old wife were detained on suspicion of &#8220;ill-treatment or neglect by those in charge of a child or young person&#8221; &#8211; commonly known as child abuse &",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-police-arrest-parents-of-11-year-old-girl-filmed-carrying-dozens-of-beer-cans/",
       "messages": [],
-      "generated_at": "2026-10-08T03:56:04.391117+00:00"
+      "generated_at": "2026-10-08T12:46:45.276042+00:00"
     }
   }
 }
