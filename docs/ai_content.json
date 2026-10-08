@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-07T22:57:13.200253+00:00",
+  "generated_at": "2026-10-08T03:56:04.391161+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
-      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
-      "generated_at": "2026-10-07T22:56:55.669414+00:00"
+      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
+      "generated_at": "2026-10-08T03:55:46.912245+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
-      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
-      "generated_at": "2026-10-07T22:56:56.087716+00:00"
+      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
+      "generated_at": "2026-10-08T03:55:47.358157+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
-      "topic_summary": "Judges and judicial officers have been recommended to receive a 2 per cent salary increase for this financial year, following a pay freeze last year due to the city&#8217;s mounting deficit.\n\n\n\nJudges gather at the opening of the Legal Year 2025, on January 20, 2025. Photo: Kyle Lam/HKFP.\n\n\n\nThe salary increase follows an annual review of the salaries of judges and judicial officers, which refers to magistrates, coroners, court registrars and roles in the Labour Tribunal, the Small Claims Tribun",
-      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
+      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
+      "topic_summary": "Hong Kong arrested nine people in a city-wide operation targeting illicit fuel activities, authorities said on Wednesday, as surging global oil prices continue to put pressure on the import-dependent financial hub.\n\n\n\nAn illicit motor spirit storage site raided in the joint operation. Photo: Hong Kong Customs and Excise Department.\n\n\n\nThe city lacks its own refineries and imports its entire supply of automotive fuel, with much of it coming from neighbouring mainland China.\n\n\n\nPrices at Hong Kong",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
       "messages": [],
-      "generated_at": "2026-10-07T22:57:05.197838+00:00"
+      "generated_at": "2026-10-08T03:55:55.991207+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong judges and judicial officers set for 2% pay rise following last year’s freeze",
-      "topic_summary": "Judges and judicial officers have been recommended to receive a 2 per cent salary increase for this financial year, following a pay freeze last year due to the city&#8217;s mounting deficit.\n\n\n\nJudges gather at the opening of the Legal Year 2025, on January 20, 2025. Photo: Kyle Lam/HKFP.\n\n\n\nThe salary increase follows an annual review of the salaries of judges and judicial officers, which refers to magistrates, coroners, court registrars and roles in the Labour Tribunal, the Small Claims Tribun",
-      "topic_url": "https://hongkongfp.com/2026/10/07/hong-kong-judges-and-judicial-officers-set-for-2-pay-rise-following-last-years-freeze/",
+      "topic_title": "Hong Kong arrests 9 over fuel smuggling as oil prices surge",
+      "topic_summary": "Hong Kong arrested nine people in a city-wide operation targeting illicit fuel activities, authorities said on Wednesday, as surging global oil prices continue to put pressure on the import-dependent financial hub.\n\n\n\nAn illicit motor spirit storage site raided in the joint operation. Photo: Hong Kong Customs and Excise Department.\n\n\n\nThe city lacks its own refineries and imports its entire supply of automotive fuel, with much of it coming from neighbouring mainland China.\n\n\n\nPrices at Hong Kong",
+      "topic_url": "https://hongkongfp.com/2026/10/08/hong-kong-arrests-9-over-fuel-smuggling-as-oil-prices-surge/",
       "messages": [],
-      "generated_at": "2026-10-07T22:57:13.200218+00:00"
+      "generated_at": "2026-10-08T03:56:04.391117+00:00"
     }
   }
 }
