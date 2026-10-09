@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-09T12:32:23.368788+00:00",
+  "generated_at": "2026-10-09T17:59:45.679811+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Revamped Huanggang Port to open next Monday with round-the-clock clearance",
-      "topic_url": "https://hongkongfp.com/2026/10/09/revamped-huanggang-port-to-open-next-monday-with-round-the-clock-clearance/",
-      "generated_at": "2026-10-09T12:32:05.117667+00:00"
+      "topic_title": "Gov’t loses appeal against acquittal of former lawmaker Lam Cheuk-ting over 2019 protest charge",
+      "topic_url": "https://hongkongfp.com/2026/10/09/govt-loses-appeal-against-acquittal-of-former-lawmaker-lam-cheuk-ting-over-2019-protest-charge/",
+      "generated_at": "2026-10-09T17:59:27.104025+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Revamped Huanggang Port to open next Monday with round-the-clock clearance",
-      "topic_url": "https://hongkongfp.com/2026/10/09/revamped-huanggang-port-to-open-next-monday-with-round-the-clock-clearance/",
-      "generated_at": "2026-10-09T12:32:05.595765+00:00"
+      "topic_title": "Gov’t loses appeal against acquittal of former lawmaker Lam Cheuk-ting over 2019 protest charge",
+      "topic_url": "https://hongkongfp.com/2026/10/09/govt-loses-appeal-against-acquittal-of-former-lawmaker-lam-cheuk-ting-over-2019-protest-charge/",
+      "generated_at": "2026-10-09T17:59:27.531864+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Revamped Huanggang Port to open next Monday with round-the-clock clearance",
-      "topic_summary": "Authorities in Hong Kong and Shenzhen have announced that the newly revamped Huanggang border crossing will begin operation next Monday, with an opening ceremony scheduled for Sunday.\n\n\n\nAn artist&#8217;s impression of the new Huanggang Port. File photo: IDA Design Awards. \n\n\n\nIn a notice jointly issued on Friday, Hong Kong&#8217;s Security Bureau and Shenzhen&#8217;s Office of Port of Entry and Exit announced that the new control point will open at 6.30am on Monday, October 12, providing round-",
-      "topic_url": "https://hongkongfp.com/2026/10/09/revamped-huanggang-port-to-open-next-monday-with-round-the-clock-clearance/",
+      "topic_title": "Gov’t loses appeal against acquittal of former lawmaker Lam Cheuk-ting over 2019 protest charge",
+      "topic_summary": "Hong Kong&#8217;s Department of Justice (DoJ) has lost its appeal against a lower court&#8217;s decision to acquit former lawmaker Lam Cheuk-ting of a perverting the course of justice charge linked to the 2019 protests and unrest.\n\n\n\nLam Cheuk-ting, Photo: LegCo Screenshot.\n\n\n\nA panel of three Court of Appeal judges delivered the judgment on Friday, upholding a previous ruling that found Lam and two co-defendants not guilty.\n\n\n\nThe case relates to a confrontation after a protest at Tuen Mun Park",
+      "topic_url": "https://hongkongfp.com/2026/10/09/govt-loses-appeal-against-acquittal-of-former-lawmaker-lam-cheuk-ting-over-2019-protest-charge/",
       "messages": [],
-      "generated_at": "2026-10-09T12:32:14.394599+00:00"
+      "generated_at": "2026-10-09T17:59:36.924638+00:00"
     },
     "zh": {
-      "topic_title": "Revamped Huanggang Port to open next Monday with round-the-clock clearance",
-      "topic_summary": "Authorities in Hong Kong and Shenzhen have announced that the newly revamped Huanggang border crossing will begin operation next Monday, with an opening ceremony scheduled for Sunday.\n\n\n\nAn artist&#8217;s impression of the new Huanggang Port. File photo: IDA Design Awards. \n\n\n\nIn a notice jointly issued on Friday, Hong Kong&#8217;s Security Bureau and Shenzhen&#8217;s Office of Port of Entry and Exit announced that the new control point will open at 6.30am on Monday, October 12, providing round-",
-      "topic_url": "https://hongkongfp.com/2026/10/09/revamped-huanggang-port-to-open-next-monday-with-round-the-clock-clearance/",
+      "topic_title": "Gov’t loses appeal against acquittal of former lawmaker Lam Cheuk-ting over 2019 protest charge",
+      "topic_summary": "Hong Kong&#8217;s Department of Justice (DoJ) has lost its appeal against a lower court&#8217;s decision to acquit former lawmaker Lam Cheuk-ting of a perverting the course of justice charge linked to the 2019 protests and unrest.\n\n\n\nLam Cheuk-ting, Photo: LegCo Screenshot.\n\n\n\nA panel of three Court of Appeal judges delivered the judgment on Friday, upholding a previous ruling that found Lam and two co-defendants not guilty.\n\n\n\nThe case relates to a confrontation after a protest at Tuen Mun Park",
+      "topic_url": "https://hongkongfp.com/2026/10/09/govt-loses-appeal-against-acquittal-of-former-lawmaker-lam-cheuk-ting-over-2019-protest-charge/",
       "messages": [],
-      "generated_at": "2026-10-09T12:32:23.368757+00:00"
+      "generated_at": "2026-10-09T17:59:45.679775+00:00"
     }
   }
 }
