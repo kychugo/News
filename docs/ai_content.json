@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-10T03:46:32.292826+00:00",
+  "generated_at": "2026-10-10T11:52:46.259828+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "HKFP Lens: 1.4 million visitors flock to Hong Kong over China’s Golden Week holiday",
-      "topic_url": "https://hongkongfp.com/2026/10/10/hkfp-lens-1-4-million-visitors-flock-to-hong-kong-over-chinas-golden-week-holiday/",
-      "generated_at": "2026-10-10T03:46:15.835553+00:00"
+      "topic_title": "China’s new development plan includes AI safety goals – Xinhua",
+      "topic_url": "https://hongkongfp.com/2026/10/10/chinas-new-development-plan-includes-ai-safety-goals-xinhua/",
+      "generated_at": "2026-10-10T11:52:28.663460+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "HKFP Lens: 1.4 million visitors flock to Hong Kong over China’s Golden Week holiday",
-      "topic_url": "https://hongkongfp.com/2026/10/10/hkfp-lens-1-4-million-visitors-flock-to-hong-kong-over-chinas-golden-week-holiday/",
-      "generated_at": "2026-10-10T03:46:16.114475+00:00"
+      "topic_title": "China’s new development plan includes AI safety goals – Xinhua",
+      "topic_url": "https://hongkongfp.com/2026/10/10/chinas-new-development-plan-includes-ai-safety-goals-xinhua/",
+      "generated_at": "2026-10-10T11:52:29.079735+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "HKFP Lens: 1.4 million visitors flock to Hong Kong over China’s Golden Week holiday",
-      "topic_summary": "Over 1.4 million tourists from across the Chinese mainland visited Hong Kong over the weeklong &#8220;Golden Week&#8221; holiday marking National Day, official statistics have shown.\n\n\n\nTourists take photos on the Po Pin Chau observation deck in Sai Kung on October 1, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nGone are the days when mainland visitors were drawn to Hong Kong&#8217;s high-end shopping. Now, many are descending on once-sleepy neighbourhoods and scenic country parks to &#8220;check in&#8221; on",
-      "topic_url": "https://hongkongfp.com/2026/10/10/hkfp-lens-1-4-million-visitors-flock-to-hong-kong-over-chinas-golden-week-holiday/",
+      "topic_title": "China’s new development plan includes AI safety goals – Xinhua",
+      "topic_summary": "A new broad set of economic development guidelines adopted by Chinese leadership includes demands for establishing artificial intelligence safeguards while expanding the use of AI across industries, state news agency Xinhua reported Friday.\n\n\n\nThe website for the artificial intelligence (AI) app Xingye. Photo: Hillary Leung/HKFP.\n\n\n\nXinhua said that the Chinese Communist Party&#8217;s Central Committee and the State Council had issued a set of guidelines &#8220;aimed at accelerating the developm",
+      "topic_url": "https://hongkongfp.com/2026/10/10/chinas-new-development-plan-includes-ai-safety-goals-xinhua/",
       "messages": [],
-      "generated_at": "2026-10-10T03:46:24.672325+00:00"
+      "generated_at": "2026-10-10T11:52:37.790665+00:00"
     },
     "zh": {
-      "topic_title": "HKFP Lens: 1.4 million visitors flock to Hong Kong over China’s Golden Week holiday",
-      "topic_summary": "Over 1.4 million tourists from across the Chinese mainland visited Hong Kong over the weeklong &#8220;Golden Week&#8221; holiday marking National Day, official statistics have shown.\n\n\n\nTourists take photos on the Po Pin Chau observation deck in Sai Kung on October 1, 2026. Photo: Kyle Lam/HKFP.\n\n\n\nGone are the days when mainland visitors were drawn to Hong Kong&#8217;s high-end shopping. Now, many are descending on once-sleepy neighbourhoods and scenic country parks to &#8220;check in&#8221; on",
-      "topic_url": "https://hongkongfp.com/2026/10/10/hkfp-lens-1-4-million-visitors-flock-to-hong-kong-over-chinas-golden-week-holiday/",
+      "topic_title": "China’s new development plan includes AI safety goals – Xinhua",
+      "topic_summary": "A new broad set of economic development guidelines adopted by Chinese leadership includes demands for establishing artificial intelligence safeguards while expanding the use of AI across industries, state news agency Xinhua reported Friday.\n\n\n\nThe website for the artificial intelligence (AI) app Xingye. Photo: Hillary Leung/HKFP.\n\n\n\nXinhua said that the Chinese Communist Party&#8217;s Central Committee and the State Council had issued a set of guidelines &#8220;aimed at accelerating the developm",
+      "topic_url": "https://hongkongfp.com/2026/10/10/chinas-new-development-plan-includes-ai-safety-goals-xinhua/",
       "messages": [],
-      "generated_at": "2026-10-10T03:46:32.292789+00:00"
+      "generated_at": "2026-10-10T11:52:46.259758+00:00"
     }
   }
 }
