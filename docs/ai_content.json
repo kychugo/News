@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-13T13:31:28.469984+00:00",
+  "generated_at": "2026-10-13T18:54:47.531071+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
       "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
-      "generated_at": "2026-10-13T13:31:08.887898+00:00"
+      "generated_at": "2026-10-13T18:54:28.147599+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
       "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
-      "generated_at": "2026-10-13T13:31:10.381863+00:00"
+      "generated_at": "2026-10-13T18:54:28.496544+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "Hong Kong firefighters have received over 200 reports of people trapped in lifts and falsely triggered fire alarms after a sudden drop in voltage along a Kowloon power supply line on Tuesday afternoon.\n\n\n\nCLP Power. File photo: Kyle Lam/HKFP.\n\n\n\nThe Fire Services Department (FSD) said it had handled 179 cases of lift entrapment and 39 false alarms as of 3pm on Tuesday, following a flurry of reports after 1.10pm that was mostly concentrated in Yau Tsim Mong district.\n\n\n\nCLP Power, one of the city",
       "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
       "messages": [],
-      "generated_at": "2026-10-13T13:31:19.215183+00:00"
+      "generated_at": "2026-10-13T18:54:39.138373+00:00"
     },
     "zh": {
       "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
       "topic_summary": "Hong Kong firefighters have received over 200 reports of people trapped in lifts and falsely triggered fire alarms after a sudden drop in voltage along a Kowloon power supply line on Tuesday afternoon.\n\n\n\nCLP Power. File photo: Kyle Lam/HKFP.\n\n\n\nThe Fire Services Department (FSD) said it had handled 179 cases of lift entrapment and 39 false alarms as of 3pm on Tuesday, following a flurry of reports after 1.10pm that was mostly concentrated in Yau Tsim Mong district.\n\n\n\nCLP Power, one of the city",
       "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
       "messages": [],
-      "generated_at": "2026-10-13T13:31:28.469944+00:00"
+      "generated_at": "2026-10-13T18:54:47.531033+00:00"
     }
   }
 }
