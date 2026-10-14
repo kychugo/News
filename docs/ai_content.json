@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-13T22:29:35.911884+00:00",
+  "generated_at": "2026-10-14T03:02:04.680289+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
-      "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
-      "generated_at": "2026-10-13T22:29:19.183276+00:00"
+      "topic_title": "Smog persists across Hong Kong on Wed after authorities warn of ‘serious’ health risk",
+      "topic_url": "https://hongkongfp.com/2026/10/14/smog-persists-across-hong-kong-on-wed-after-authorities-warn-of-serious-health-risk/",
+      "generated_at": "2026-10-14T03:01:45.350156+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
-      "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
-      "generated_at": "2026-10-13T22:29:19.487797+00:00"
+      "topic_title": "Smog persists across Hong Kong on Wed after authorities warn of ‘serious’ health risk",
+      "topic_url": "https://hongkongfp.com/2026/10/14/smog-persists-across-hong-kong-on-wed-after-authorities-warn-of-serious-health-risk/",
+      "generated_at": "2026-10-14T03:01:45.984725+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
-      "topic_summary": "Hong Kong firefighters have received over 200 reports of people trapped in lifts and falsely triggered fire alarms after a sudden drop in voltage along a Kowloon power supply line on Tuesday afternoon.\n\n\n\nCLP Power. File photo: Kyle Lam/HKFP.\n\n\n\nThe Fire Services Department (FSD) said it had handled 179 cases of lift entrapment and 39 false alarms as of 3pm on Tuesday, following a flurry of reports after 1.10pm that was mostly concentrated in Yau Tsim Mong district.\n\n\n\nCLP Power, one of the city",
-      "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
+      "topic_title": "Smog persists across Hong Kong on Wed after authorities warn of ‘serious’ health risk",
+      "topic_summary": "Unhealthy levels of air pollution have persisted across parts of Hong Kong on Wednesday, after the Environmental Protection Department (EPD) recorded a &#8220;serious&#8221; level of health risk at monitoring stations on Tuesday.\n\n\n\nAir pollution across Hong Kong on Wednesday, October 14, 2026. Photo: aqicn.org.\n\n\n\nHowever, the Observatory said a fresh easterly airstream will arrive at the coast of Guangdong on Wednesday, helping to dissipate the smog.\n\n\n\n&#8220;Winds are weak over Hong Kong thi",
+      "topic_url": "https://hongkongfp.com/2026/10/14/smog-persists-across-hong-kong-on-wed-after-authorities-warn-of-serious-health-risk/",
       "messages": [],
-      "generated_at": "2026-10-13T22:29:27.970655+00:00"
+      "generated_at": "2026-10-14T03:01:54.580252+00:00"
     },
     "zh": {
-      "topic_title": "Firefighters receive 179 reports of people trapped in lifts after sudden voltage dip",
-      "topic_summary": "Hong Kong firefighters have received over 200 reports of people trapped in lifts and falsely triggered fire alarms after a sudden drop in voltage along a Kowloon power supply line on Tuesday afternoon.\n\n\n\nCLP Power. File photo: Kyle Lam/HKFP.\n\n\n\nThe Fire Services Department (FSD) said it had handled 179 cases of lift entrapment and 39 false alarms as of 3pm on Tuesday, following a flurry of reports after 1.10pm that was mostly concentrated in Yau Tsim Mong district.\n\n\n\nCLP Power, one of the city",
-      "topic_url": "https://hongkongfp.com/2026/10/13/firefighters-receive-179-reports-of-people-trapped-in-lifts-after-sudden-voltage-dip/",
+      "topic_title": "Smog persists across Hong Kong on Wed after authorities warn of ‘serious’ health risk",
+      "topic_summary": "Unhealthy levels of air pollution have persisted across parts of Hong Kong on Wednesday, after the Environmental Protection Department (EPD) recorded a &#8220;serious&#8221; level of health risk at monitoring stations on Tuesday.\n\n\n\nAir pollution across Hong Kong on Wednesday, October 14, 2026. Photo: aqicn.org.\n\n\n\nHowever, the Observatory said a fresh easterly airstream will arrive at the coast of Guangdong on Wednesday, helping to dissipate the smog.\n\n\n\n&#8220;Winds are weak over Hong Kong thi",
+      "topic_url": "https://hongkongfp.com/2026/10/14/smog-persists-across-hong-kong-on-wed-after-authorities-warn-of-serious-health-risk/",
       "messages": [],
-      "generated_at": "2026-10-13T22:29:35.911846+00:00"
+      "generated_at": "2026-10-14T03:02:04.680259+00:00"
     }
   }
 }
