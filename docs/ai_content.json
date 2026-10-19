@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-19T12:03:36.768148+00:00",
+  "generated_at": "2026-10-19T18:22:20.294755+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "China growth narrowly beats forecasts",
       "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
-      "generated_at": "2026-10-19T12:03:19.590716+00:00"
+      "generated_at": "2026-10-19T18:22:01.542108+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "China growth narrowly beats forecasts",
       "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
-      "generated_at": "2026-10-19T12:03:19.988061+00:00"
+      "generated_at": "2026-10-19T18:22:02.185796+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "China&#8217;s economy grew slightly more than expected in the third quarter, but Monday&#8217;s figures still came in at the lower end of the government&#8217;s full-year target, as the global energy shock and weak domestic demand counter surging exports.\n\n\n\nA container terminal. File photo: GovHK. \n\n\n\nThe world&#8217;s second-largest economy has charted a diverging path in recent years, with an AI-fuelled export boom masking the impact of a persistent real estate crisis and gloomy consumer sent",
       "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
       "messages": [],
-      "generated_at": "2026-10-19T12:03:28.551096+00:00"
+      "generated_at": "2026-10-19T18:22:11.732037+00:00"
     },
     "zh": {
       "topic_title": "China growth narrowly beats forecasts",
       "topic_summary": "China&#8217;s economy grew slightly more than expected in the third quarter, but Monday&#8217;s figures still came in at the lower end of the government&#8217;s full-year target, as the global energy shock and weak domestic demand counter surging exports.\n\n\n\nA container terminal. File photo: GovHK. \n\n\n\nThe world&#8217;s second-largest economy has charted a diverging path in recent years, with an AI-fuelled export boom masking the impact of a persistent real estate crisis and gloomy consumer sent",
       "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
       "messages": [],
-      "generated_at": "2026-10-19T12:03:36.768117+00:00"
+      "generated_at": "2026-10-19T18:22:20.294722+00:00"
     }
   }
 }
