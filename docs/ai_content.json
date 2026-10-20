@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-20T02:55:52.308607+00:00",
+  "generated_at": "2026-10-20T10:54:17.086207+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
-      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
-      "generated_at": "2026-10-20T02:55:36.461875+00:00"
+      "topic_title": "Hong Kong issues ambert travel alert for France amid spreading social unrest",
+      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-issues-ambert-travel-alert-for-france-amid-spreading-social-unrest/",
+      "generated_at": "2026-10-20T10:53:59.998627+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
-      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
-      "generated_at": "2026-10-20T02:55:36.768878+00:00"
+      "topic_title": "Hong Kong issues ambert travel alert for France amid spreading social unrest",
+      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-issues-ambert-travel-alert-for-france-amid-spreading-social-unrest/",
+      "generated_at": "2026-10-20T10:54:00.396314+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
-      "topic_summary": "The police are linking CCTV cameras at malls across the city to its AI-enabled SmartView surveillance system, Secretary for Security Chris Tang told TVB on Sunday.\n\n\n\nA CCTV camera in Mong Kok. Photo: Kyle Lam/HKFP.\n\n\n\nWithout naming the malls involved, Tang said the police force was in the final stages of discussion with private shopping centres, with an aim of bringing 60,000 cameras into the integrated police system by 2028. \n\n\n\n&#8220;[W]e see that in some places without CCTV, members of the",
-      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
+      "topic_title": "Hong Kong issues ambert travel alert for France amid spreading social unrest",
+      "topic_summary": "Hong Kong authorities have warned residents travelling to France to be aware of risks and take safety precautions, as violent protests spread across the European nation.\n\n\n\nA man walks past a row of burnt out vehicles on Rue Yves Toudic destroyed after a nationwide protest against the &#8220;high cost of living&#8221;, in central Paris on October 19, 2026. Photo: Kiran Ridley/AFP.\n\n\n\nIn an amber travel alert issued Tuesday evening, the Security Bureau said Hongkongers visiting the region &#8220;",
+      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-issues-ambert-travel-alert-for-france-amid-spreading-social-unrest/",
       "messages": [],
-      "generated_at": "2026-10-20T02:55:44.602273+00:00"
+      "generated_at": "2026-10-20T10:54:08.714352+00:00"
     },
     "zh": {
-      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
-      "topic_summary": "The police are linking CCTV cameras at malls across the city to its AI-enabled SmartView surveillance system, Secretary for Security Chris Tang told TVB on Sunday.\n\n\n\nA CCTV camera in Mong Kok. Photo: Kyle Lam/HKFP.\n\n\n\nWithout naming the malls involved, Tang said the police force was in the final stages of discussion with private shopping centres, with an aim of bringing 60,000 cameras into the integrated police system by 2028. \n\n\n\n&#8220;[W]e see that in some places without CCTV, members of the",
-      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
+      "topic_title": "Hong Kong issues ambert travel alert for France amid spreading social unrest",
+      "topic_summary": "Hong Kong authorities have warned residents travelling to France to be aware of risks and take safety precautions, as violent protests spread across the European nation.\n\n\n\nA man walks past a row of burnt out vehicles on Rue Yves Toudic destroyed after a nationwide protest against the &#8220;high cost of living&#8221;, in central Paris on October 19, 2026. Photo: Kiran Ridley/AFP.\n\n\n\nIn an amber travel alert issued Tuesday evening, the Security Bureau said Hongkongers visiting the region &#8220;",
+      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-issues-ambert-travel-alert-for-france-amid-spreading-social-unrest/",
       "messages": [],
-      "generated_at": "2026-10-20T02:55:52.308576+00:00"
+      "generated_at": "2026-10-20T10:54:17.086166+00:00"
     }
   }
 }
