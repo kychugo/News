@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-19T22:12:13.197283+00:00",
+  "generated_at": "2026-10-20T02:55:52.308607+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "China growth narrowly beats forecasts",
-      "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
-      "generated_at": "2026-10-19T22:11:54.036117+00:00"
+      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
+      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
+      "generated_at": "2026-10-20T02:55:36.461875+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "China growth narrowly beats forecasts",
-      "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
-      "generated_at": "2026-10-19T22:11:54.378600+00:00"
+      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
+      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
+      "generated_at": "2026-10-20T02:55:36.768878+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "China growth narrowly beats forecasts",
-      "topic_summary": "China&#8217;s economy grew slightly more than expected in the third quarter, but Monday&#8217;s figures still came in at the lower end of the government&#8217;s full-year target, as the global energy shock and weak domestic demand counter surging exports.\n\n\n\nA container terminal. File photo: GovHK. \n\n\n\nThe world&#8217;s second-largest economy has charted a diverging path in recent years, with an AI-fuelled export boom masking the impact of a persistent real estate crisis and gloomy consumer sent",
-      "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
+      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
+      "topic_summary": "The police are linking CCTV cameras at malls across the city to its AI-enabled SmartView surveillance system, Secretary for Security Chris Tang told TVB on Sunday.\n\n\n\nA CCTV camera in Mong Kok. Photo: Kyle Lam/HKFP.\n\n\n\nWithout naming the malls involved, Tang said the police force was in the final stages of discussion with private shopping centres, with an aim of bringing 60,000 cameras into the integrated police system by 2028. \n\n\n\n&#8220;[W]e see that in some places without CCTV, members of the",
+      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
       "messages": [],
-      "generated_at": "2026-10-19T22:12:05.003595+00:00"
+      "generated_at": "2026-10-20T02:55:44.602273+00:00"
     },
     "zh": {
-      "topic_title": "China growth narrowly beats forecasts",
-      "topic_summary": "China&#8217;s economy grew slightly more than expected in the third quarter, but Monday&#8217;s figures still came in at the lower end of the government&#8217;s full-year target, as the global energy shock and weak domestic demand counter surging exports.\n\n\n\nA container terminal. File photo: GovHK. \n\n\n\nThe world&#8217;s second-largest economy has charted a diverging path in recent years, with an AI-fuelled export boom masking the impact of a persistent real estate crisis and gloomy consumer sent",
-      "topic_url": "https://hongkongfp.com/2026/10/19/china-growth-expected-to-miss-official-target-in-third-quarter/",
+      "topic_title": "CCTV cameras at Hong Kong malls to be linked to police surveillance network, says security chief",
+      "topic_summary": "The police are linking CCTV cameras at malls across the city to its AI-enabled SmartView surveillance system, Secretary for Security Chris Tang told TVB on Sunday.\n\n\n\nA CCTV camera in Mong Kok. Photo: Kyle Lam/HKFP.\n\n\n\nWithout naming the malls involved, Tang said the police force was in the final stages of discussion with private shopping centres, with an aim of bringing 60,000 cameras into the integrated police system by 2028. \n\n\n\n&#8220;[W]e see that in some places without CCTV, members of the",
+      "topic_url": "https://hongkongfp.com/2026/10/20/cctv-cameras-at-hong-kong-malls-to-be-linked-to-police-surveillance-network-says-security-chief/",
       "messages": [],
-      "generated_at": "2026-10-19T22:12:13.197251+00:00"
+      "generated_at": "2026-10-20T02:55:52.308576+00:00"
     }
   }
 }
