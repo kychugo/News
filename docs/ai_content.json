@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-20T21:26:56.903679+00:00",
+  "generated_at": "2026-10-21T02:50:21.215238+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong International Airport sees 10.2% growth in September passenger traffic",
-      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-international-airport-sees-10-2-growth-in-september-passenger-traffic/",
-      "generated_at": "2026-10-20T21:26:40.047917+00:00"
+      "topic_title": "Parents sue Hospital Authority over death of 5-year-old girl following stitching procedure",
+      "topic_url": "https://hongkongfp.com/2026/10/21/parents-sue-hospital-authority-over-death-of-5-year-old-girl-following-stitching-procedure/",
+      "generated_at": "2026-10-21T02:50:03.193973+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong International Airport sees 10.2% growth in September passenger traffic",
-      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-international-airport-sees-10-2-growth-in-september-passenger-traffic/",
-      "generated_at": "2026-10-20T21:26:40.479726+00:00"
+      "topic_title": "Parents sue Hospital Authority over death of 5-year-old girl following stitching procedure",
+      "topic_url": "https://hongkongfp.com/2026/10/21/parents-sue-hospital-authority-over-death-of-5-year-old-girl-following-stitching-procedure/",
+      "generated_at": "2026-10-21T02:50:03.590658+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong International Airport sees 10.2% growth in September passenger traffic",
-      "topic_summary": "Hong Kong International Airport (HKIA) has said it handled 4.86 million passengers in September &#8211; up 10.2 per cent from the same period last year &#8211; thanks to strong upticks in transit passengers and visitors from mainland China.\n\n\n\nHong Kong International Airport. File photo: GovHK.\n\n\n\nThe Airport Authority said on Tuesday that there was &#8220;steady growth across all key traffic areas&#8221; last month, with flights growing seven per cent to over 32,000 and cargo volume increasing ",
-      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-international-airport-sees-10-2-growth-in-september-passenger-traffic/",
+      "topic_title": "Parents sue Hospital Authority over death of 5-year-old girl following stitching procedure",
+      "topic_summary": "The parents of a five-year-old girl who died last year after receiving stitches for a head injury at a local public hospital have launched a civil suit against Hong Kong&#8217;s Hospital Authority (HA).\n\n\n\nYan Chai Hospital. File Photo: Wikimedia Commons.\n\n\n\nAccording to the writ of summons filed at the District Court last Thursday, then-four-year-old Lai Sum-yuet received medical treatment at Yan Chai Hospital in Tsuen Wan on May 25 and 26, 2024. The lawsuit alleges that, during this period, ei",
+      "topic_url": "https://hongkongfp.com/2026/10/21/parents-sue-hospital-authority-over-death-of-5-year-old-girl-following-stitching-procedure/",
       "messages": [],
-      "generated_at": "2026-10-20T21:26:48.497692+00:00"
+      "generated_at": "2026-10-21T02:50:12.934320+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong International Airport sees 10.2% growth in September passenger traffic",
-      "topic_summary": "Hong Kong International Airport (HKIA) has said it handled 4.86 million passengers in September &#8211; up 10.2 per cent from the same period last year &#8211; thanks to strong upticks in transit passengers and visitors from mainland China.\n\n\n\nHong Kong International Airport. File photo: GovHK.\n\n\n\nThe Airport Authority said on Tuesday that there was &#8220;steady growth across all key traffic areas&#8221; last month, with flights growing seven per cent to over 32,000 and cargo volume increasing ",
-      "topic_url": "https://hongkongfp.com/2026/10/20/hong-kong-international-airport-sees-10-2-growth-in-september-passenger-traffic/",
+      "topic_title": "Parents sue Hospital Authority over death of 5-year-old girl following stitching procedure",
+      "topic_summary": "The parents of a five-year-old girl who died last year after receiving stitches for a head injury at a local public hospital have launched a civil suit against Hong Kong&#8217;s Hospital Authority (HA).\n\n\n\nYan Chai Hospital. File Photo: Wikimedia Commons.\n\n\n\nAccording to the writ of summons filed at the District Court last Thursday, then-four-year-old Lai Sum-yuet received medical treatment at Yan Chai Hospital in Tsuen Wan on May 25 and 26, 2024. The lawsuit alleges that, during this period, ei",
+      "topic_url": "https://hongkongfp.com/2026/10/21/parents-sue-hospital-authority-over-death-of-5-year-old-girl-following-stitching-procedure/",
       "messages": [],
-      "generated_at": "2026-10-20T21:26:56.903642+00:00"
+      "generated_at": "2026-10-21T02:50:21.215203+00:00"
     }
   }
 }
