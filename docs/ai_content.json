@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-23T02:52:26.029175+00:00",
+  "generated_at": "2026-10-23T10:58:43.816426+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Third Hong Kong media outlet receives suspicious letter with unknown powder from UK",
-      "topic_url": "https://hongkongfp.com/2026/10/23/third-hong-kong-media-outlet-receives-suspicious-letter-with-unknown-powder-from-uk/",
-      "generated_at": "2026-10-23T02:52:07.789258+00:00"
+      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
+      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
+      "generated_at": "2026-10-23T10:58:26.637042+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Third Hong Kong media outlet receives suspicious letter with unknown powder from UK",
-      "topic_url": "https://hongkongfp.com/2026/10/23/third-hong-kong-media-outlet-receives-suspicious-letter-with-unknown-powder-from-uk/",
-      "generated_at": "2026-10-23T02:52:08.366806+00:00"
+      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
+      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
+      "generated_at": "2026-10-23T10:58:27.396085+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Third Hong Kong media outlet receives suspicious letter with unknown powder from UK",
-      "topic_summary": "A third Hong Kong media outlet has received a suspicious letter containing unknown powder sent from the UK, marking the second consecutive day of such incidents.\n\n\n\nThreatening letters containing unknown powder from the UK were sent to three Hong Kong media outlets. Photo: Screenshot, via Orange News.\n\n\n\nOnline media outlet Orange News said in a Facebook post on Thursday that its office received the letter, which purported to be a tip-off from “overseas readers,” but contained suspicious powder.",
-      "topic_url": "https://hongkongfp.com/2026/10/23/third-hong-kong-media-outlet-receives-suspicious-letter-with-unknown-powder-from-uk/",
+      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
+      "topic_summary": "Hong Kong&#8217;s Digital Policy Office has urged government departments, bureaus and other public organisations to perform immediate security reviews after vulnerabilities were found in the PHP web programming language.\n\n\n\nThe PHP programming language. Photo: negativespace.co, via HKFP remix.\n\n\n\nIt urged potentially affected bodies to conduct reviews &#8220;to check whether their information systems had been affected and complete all patching work as soon as possible; otherwise, the relevant sy",
+      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
       "messages": [],
-      "generated_at": "2026-10-23T02:52:16.852225+00:00"
+      "generated_at": "2026-10-23T10:58:35.806502+00:00"
     },
     "zh": {
-      "topic_title": "Third Hong Kong media outlet receives suspicious letter with unknown powder from UK",
-      "topic_summary": "A third Hong Kong media outlet has received a suspicious letter containing unknown powder sent from the UK, marking the second consecutive day of such incidents.\n\n\n\nThreatening letters containing unknown powder from the UK were sent to three Hong Kong media outlets. Photo: Screenshot, via Orange News.\n\n\n\nOnline media outlet Orange News said in a Facebook post on Thursday that its office received the letter, which purported to be a tip-off from “overseas readers,” but contained suspicious powder.",
-      "topic_url": "https://hongkongfp.com/2026/10/23/third-hong-kong-media-outlet-receives-suspicious-letter-with-unknown-powder-from-uk/",
+      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
+      "topic_summary": "Hong Kong&#8217;s Digital Policy Office has urged government departments, bureaus and other public organisations to perform immediate security reviews after vulnerabilities were found in the PHP web programming language.\n\n\n\nThe PHP programming language. Photo: negativespace.co, via HKFP remix.\n\n\n\nIt urged potentially affected bodies to conduct reviews &#8220;to check whether their information systems had been affected and complete all patching work as soon as possible; otherwise, the relevant sy",
+      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
       "messages": [],
-      "generated_at": "2026-10-23T02:52:26.029141+00:00"
+      "generated_at": "2026-10-23T10:58:43.816390+00:00"
     }
   }
 }
