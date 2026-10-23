@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-23T10:58:43.816426+00:00",
+  "generated_at": "2026-10-23T16:31:08.984003+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
-      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
-      "generated_at": "2026-10-23T10:58:26.637042+00:00"
+      "topic_title": "Grandmother, domestic worker arrested for suspected child neglect after viral videos spark investigation",
+      "topic_url": "https://hongkongfp.com/2026/10/23/grandmother-domestic-worker-arrested-for-suspected-child-neglect-after-viral-videos-spark-investigation/",
+      "generated_at": "2026-10-23T16:30:48.948816+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
-      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
-      "generated_at": "2026-10-23T10:58:27.396085+00:00"
+      "topic_title": "Grandmother, domestic worker arrested for suspected child neglect after viral videos spark investigation",
+      "topic_url": "https://hongkongfp.com/2026/10/23/grandmother-domestic-worker-arrested-for-suspected-child-neglect-after-viral-videos-spark-investigation/",
+      "generated_at": "2026-10-23T16:30:50.005373+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
-      "topic_summary": "Hong Kong&#8217;s Digital Policy Office has urged government departments, bureaus and other public organisations to perform immediate security reviews after vulnerabilities were found in the PHP web programming language.\n\n\n\nThe PHP programming language. Photo: negativespace.co, via HKFP remix.\n\n\n\nIt urged potentially affected bodies to conduct reviews &#8220;to check whether their information systems had been affected and complete all patching work as soon as possible; otherwise, the relevant sy",
-      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
+      "topic_title": "Grandmother, domestic worker arrested for suspected child neglect after viral videos spark investigation",
+      "topic_summary": "Hong Kong police have arrested a 61-year-old woman and a domestic worker over suspected child neglect after video clips of a girl crying for help went viral on social media.\n\n\n\nA screenshot of a viral video showing a girl calling for help after saying she got into an argument with her family. Photo: Screenshot, via Threads.\n\n\n\nPolice said on Friday they were investigating the suspected maltreatment of an 11-year-old girl by her family, following a referral from the Social Welfare Department.\n\n\n\n",
+      "topic_url": "https://hongkongfp.com/2026/10/23/grandmother-domestic-worker-arrested-for-suspected-child-neglect-after-viral-videos-spark-investigation/",
       "messages": [],
-      "generated_at": "2026-10-23T10:58:35.806502+00:00"
+      "generated_at": "2026-10-23T16:31:00.147046+00:00"
     },
     "zh": {
-      "topic_title": "‘Game of cat and mouse’: Digital Policy Office urges immediate patching as AI-discovered PHP flaws threaten global web",
-      "topic_summary": "Hong Kong&#8217;s Digital Policy Office has urged government departments, bureaus and other public organisations to perform immediate security reviews after vulnerabilities were found in the PHP web programming language.\n\n\n\nThe PHP programming language. Photo: negativespace.co, via HKFP remix.\n\n\n\nIt urged potentially affected bodies to conduct reviews &#8220;to check whether their information systems had been affected and complete all patching work as soon as possible; otherwise, the relevant sy",
-      "topic_url": "https://hongkongfp.com/2026/10/23/game-of-cat-and-mouse-digital-policy-office-urges-immediate-patching-as-ai-discovered-php-flaws-threaten-global-web/",
+      "topic_title": "Grandmother, domestic worker arrested for suspected child neglect after viral videos spark investigation",
+      "topic_summary": "Hong Kong police have arrested a 61-year-old woman and a domestic worker over suspected child neglect after video clips of a girl crying for help went viral on social media.\n\n\n\nA screenshot of a viral video showing a girl calling for help after saying she got into an argument with her family. Photo: Screenshot, via Threads.\n\n\n\nPolice said on Friday they were investigating the suspected maltreatment of an 11-year-old girl by her family, following a referral from the Social Welfare Department.\n\n\n\n",
+      "topic_url": "https://hongkongfp.com/2026/10/23/grandmother-domestic-worker-arrested-for-suspected-child-neglect-after-viral-videos-spark-investigation/",
       "messages": [],
-      "generated_at": "2026-10-23T10:58:43.816390+00:00"
+      "generated_at": "2026-10-23T16:31:08.983973+00:00"
     }
   }
 }
