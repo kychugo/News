@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-31T03:37:51.539014+00:00",
+  "generated_at": "2026-10-31T11:39:47.270655+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "‘I am not important’: Security chief defends staying in post following Wang Fuk Court fire inquiry",
-      "topic_url": "https://hongkongfp.com/2026/10/31/i-am-not-important-security-chief-defends-staying-in-post-following-wang-fuk-court-fire-inquiry/",
-      "generated_at": "2026-10-31T03:37:37.162336+00:00"
+      "topic_title": "‘Groundless speculation’: China denies spying on Nvidia’s Jensen Huang",
+      "topic_url": "https://hongkongfp.com/2026/10/31/groundless-speculation-china-denies-spying-on-nvidias-jensen-huang/",
+      "generated_at": "2026-10-31T11:39:31.808940+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "‘I am not important’: Security chief defends staying in post following Wang Fuk Court fire inquiry",
-      "topic_url": "https://hongkongfp.com/2026/10/31/i-am-not-important-security-chief-defends-staying-in-post-following-wang-fuk-court-fire-inquiry/",
-      "generated_at": "2026-10-31T03:37:37.340281+00:00"
+      "topic_title": "‘Groundless speculation’: China denies spying on Nvidia’s Jensen Huang",
+      "topic_url": "https://hongkongfp.com/2026/10/31/groundless-speculation-china-denies-spying-on-nvidias-jensen-huang/",
+      "generated_at": "2026-10-31T11:39:32.075175+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "‘I am not important’: Security chief defends staying in post following Wang Fuk Court fire inquiry",
-      "topic_summary": "Hong Kong&#8217;s security chief has said that his duty to society, the city, and the country outweighs his personal interests, after facing questions over his political accountability for last year&#8217;s fatal Tai Po fire.\n\n\n\nSecretary for Security Chris Tang. Photo: Kyle Lam/HKFP.\n\n\n\nSecretary for Security Chris Tang offered an apology to the public on Friday over last November&#8217;s blaze at Wang Fuk Court, which killed 168 people and displaced thousands, a day after he bowed alongside Ch",
-      "topic_url": "https://hongkongfp.com/2026/10/31/i-am-not-important-security-chief-defends-staying-in-post-following-wang-fuk-court-fire-inquiry/",
+      "topic_title": "‘Groundless speculation’: China denies spying on Nvidia’s Jensen Huang",
+      "topic_summary": "Beijing dismissed as &#8220;groundless speculation&#8221; on Friday a report that said Jensen Huang, head of US chip giant Nvidia, was the target of a Chinese spy plot.\n\n\n\nNvidia founder and CEO Jensen Huang. File photo: Nvidia.\n\n\n\nThe article by The New York Times, published Thursday, said that US intelligence officials concluded that a Chinese executive linked to a Singapore-based data centre company had been funnelling information to Beijing.\n\n\n\n&#8220;The report in question is based on groun",
+      "topic_url": "https://hongkongfp.com/2026/10/31/groundless-speculation-china-denies-spying-on-nvidias-jensen-huang/",
       "messages": [],
-      "generated_at": "2026-10-31T03:37:44.323126+00:00"
+      "generated_at": "2026-10-31T11:39:39.888273+00:00"
     },
     "zh": {
-      "topic_title": "‘I am not important’: Security chief defends staying in post following Wang Fuk Court fire inquiry",
-      "topic_summary": "Hong Kong&#8217;s security chief has said that his duty to society, the city, and the country outweighs his personal interests, after facing questions over his political accountability for last year&#8217;s fatal Tai Po fire.\n\n\n\nSecretary for Security Chris Tang. Photo: Kyle Lam/HKFP.\n\n\n\nSecretary for Security Chris Tang offered an apology to the public on Friday over last November&#8217;s blaze at Wang Fuk Court, which killed 168 people and displaced thousands, a day after he bowed alongside Ch",
-      "topic_url": "https://hongkongfp.com/2026/10/31/i-am-not-important-security-chief-defends-staying-in-post-following-wang-fuk-court-fire-inquiry/",
+      "topic_title": "‘Groundless speculation’: China denies spying on Nvidia’s Jensen Huang",
+      "topic_summary": "Beijing dismissed as &#8220;groundless speculation&#8221; on Friday a report that said Jensen Huang, head of US chip giant Nvidia, was the target of a Chinese spy plot.\n\n\n\nNvidia founder and CEO Jensen Huang. File photo: Nvidia.\n\n\n\nThe article by The New York Times, published Thursday, said that US intelligence officials concluded that a Chinese executive linked to a Singapore-based data centre company had been funnelling information to Beijing.\n\n\n\n&#8220;The report in question is based on groun",
+      "topic_url": "https://hongkongfp.com/2026/10/31/groundless-speculation-china-denies-spying-on-nvidias-jensen-huang/",
       "messages": [],
-      "generated_at": "2026-10-31T03:37:51.538975+00:00"
+      "generated_at": "2026-10-31T11:39:47.270624+00:00"
     }
   }
 }
