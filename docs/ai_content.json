@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-02T21:25:45.394529+00:00",
+  "generated_at": "2026-11-03T00:49:01.527235+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Chinese Communist Party outlines closer scrutiny of officials",
       "topic_url": "https://hongkongfp.com/2026/11/02/chinese-communist-party-outlines-closer-scrutiny-of-officials/",
-      "generated_at": "2026-11-02T21:25:30.053657+00:00"
+      "generated_at": "2026-11-03T00:48:45.568690+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Chinese Communist Party outlines closer scrutiny of officials",
       "topic_url": "https://hongkongfp.com/2026/11/02/chinese-communist-party-outlines-closer-scrutiny-of-officials/",
-      "generated_at": "2026-11-02T21:25:30.325703+00:00"
+      "generated_at": "2026-11-03T00:48:45.862914+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "The Chinese Communist Party is set to tighten oversight of its officials by scrutinising their assets and online activities, according to a party document released on Sunday.\n\n\n\nXi Jinping speaks at the Fifth Plenary Session of the 20th CCP Central Commission for Discipline Inspection in January 2026. Photo: PRC Ministry of Justice.\n\n\n\nThe document from the CCP&#8217;s powerful Central Committee was published by the Xinhua state news agency following this week&#8217;s annual plenary session in B",
       "topic_url": "https://hongkongfp.com/2026/11/02/chinese-communist-party-outlines-closer-scrutiny-of-officials/",
       "messages": [],
-      "generated_at": "2026-11-02T21:25:37.792957+00:00"
+      "generated_at": "2026-11-03T00:48:53.836337+00:00"
     },
     "zh": {
       "topic_title": "Chinese Communist Party outlines closer scrutiny of officials",
       "topic_summary": "The Chinese Communist Party is set to tighten oversight of its officials by scrutinising their assets and online activities, according to a party document released on Sunday.\n\n\n\nXi Jinping speaks at the Fifth Plenary Session of the 20th CCP Central Commission for Discipline Inspection in January 2026. Photo: PRC Ministry of Justice.\n\n\n\nThe document from the CCP&#8217;s powerful Central Committee was published by the Xinhua state news agency following this week&#8217;s annual plenary session in B",
       "topic_url": "https://hongkongfp.com/2026/11/02/chinese-communist-party-outlines-closer-scrutiny-of-officials/",
       "messages": [],
-      "generated_at": "2026-11-02T21:25:45.394500+00:00"
+      "generated_at": "2026-11-03T00:49:01.527195+00:00"
     }
   }
 }
