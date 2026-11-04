@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-03T23:05:14.076471+00:00",
+  "generated_at": "2026-11-04T04:20:13.379274+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong police arrest 61-year-old man over suspected drink spiking of Japanese DJ Mao Hamasaki",
-      "topic_url": "https://hongkongfp.com/2026/11/03/hong-kong-police-arrest-61-year-old-man-over-suspected-drink-spiking-of-japanese-dj-mao-hamasaki/",
-      "generated_at": "2026-11-03T23:04:58.759831+00:00"
+      "topic_title": "Finance portal MoneySmart apologises after users’ sensitive data accessed in IT system hack",
+      "topic_url": "https://hongkongfp.com/2026/11/04/finance-portal-moneysmart-apologises-after-users-sensitive-data-accessed-in-it-system-hack/",
+      "generated_at": "2026-11-04T04:19:58.528862+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong police arrest 61-year-old man over suspected drink spiking of Japanese DJ Mao Hamasaki",
-      "topic_url": "https://hongkongfp.com/2026/11/03/hong-kong-police-arrest-61-year-old-man-over-suspected-drink-spiking-of-japanese-dj-mao-hamasaki/",
-      "generated_at": "2026-11-03T23:04:59.147566+00:00"
+      "topic_title": "Finance portal MoneySmart apologises after users’ sensitive data accessed in IT system hack",
+      "topic_url": "https://hongkongfp.com/2026/11/04/finance-portal-moneysmart-apologises-after-users-sensitive-data-accessed-in-it-system-hack/",
+      "generated_at": "2026-11-04T04:19:58.711207+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong police arrest 61-year-old man over suspected drink spiking of Japanese DJ Mao Hamasaki",
-      "topic_summary": "Hong Kong police have arrested a 61-year-old man for allegedly spiking drinks and drugging a Japanese DJ at a Halloween party.\n\n\n\nJapanese DJ Mao Hamasaki says she was drugged during a Halloween party at a Hong Kong nightclub on November 1, 2026. Photo via Facebook.\n\n\n\nPolice said on Tuesday that the suspect was arrested the previous day in Central on suspicion of &#8220;administering poison with intent to injure.&#8221; He has been detained for investigation.\n\n\n\nMao Hamasaki, a former adult vid",
-      "topic_url": "https://hongkongfp.com/2026/11/03/hong-kong-police-arrest-61-year-old-man-over-suspected-drink-spiking-of-japanese-dj-mao-hamasaki/",
+      "topic_title": "Finance portal MoneySmart apologises after users’ sensitive data accessed in IT system hack",
+      "topic_summary": "Online finance portal MoneySmart told customers on Tuesday that became aware of a data breach last Thursday after hackers compromised its internal IT systems.\n\n\n\nThe MoneySmart website on November 3, 2026. Photo: HKFP screenshot.\n\n\n\n&#8220;These systems hold personal data that customers share with us when they compare or apply for financial products through MoneySmart,&#8221; it said, according to the email seen by HKFP on Tuesday.\n\n\n\nThe service allows customers to compare financial products su",
+      "topic_url": "https://hongkongfp.com/2026/11/04/finance-portal-moneysmart-apologises-after-users-sensitive-data-accessed-in-it-system-hack/",
       "messages": [],
-      "generated_at": "2026-11-03T23:05:06.580511+00:00"
+      "generated_at": "2026-11-04T04:20:05.945544+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong police arrest 61-year-old man over suspected drink spiking of Japanese DJ Mao Hamasaki",
-      "topic_summary": "Hong Kong police have arrested a 61-year-old man for allegedly spiking drinks and drugging a Japanese DJ at a Halloween party.\n\n\n\nJapanese DJ Mao Hamasaki says she was drugged during a Halloween party at a Hong Kong nightclub on November 1, 2026. Photo via Facebook.\n\n\n\nPolice said on Tuesday that the suspect was arrested the previous day in Central on suspicion of &#8220;administering poison with intent to injure.&#8221; He has been detained for investigation.\n\n\n\nMao Hamasaki, a former adult vid",
-      "topic_url": "https://hongkongfp.com/2026/11/03/hong-kong-police-arrest-61-year-old-man-over-suspected-drink-spiking-of-japanese-dj-mao-hamasaki/",
+      "topic_title": "Finance portal MoneySmart apologises after users’ sensitive data accessed in IT system hack",
+      "topic_summary": "Online finance portal MoneySmart told customers on Tuesday that became aware of a data breach last Thursday after hackers compromised its internal IT systems.\n\n\n\nThe MoneySmart website on November 3, 2026. Photo: HKFP screenshot.\n\n\n\n&#8220;These systems hold personal data that customers share with us when they compare or apply for financial products through MoneySmart,&#8221; it said, according to the email seen by HKFP on Tuesday.\n\n\n\nThe service allows customers to compare financial products su",
+      "topic_url": "https://hongkongfp.com/2026/11/04/finance-portal-moneysmart-apologises-after-users-sensitive-data-accessed-in-it-system-hack/",
       "messages": [],
-      "generated_at": "2026-11-03T23:05:14.076441+00:00"
+      "generated_at": "2026-11-04T04:20:13.379233+00:00"
     }
   }
 }
