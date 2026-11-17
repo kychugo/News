@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-17T05:59:20.066618+00:00",
+  "generated_at": "2026-11-17T15:28:30.545348+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Cold front to bring 15°C lows to Hong Kong on Friday, rain next week",
-      "topic_url": "https://hongkongfp.com/2026/11/17/cold-front-to-bring-15-c-lows-to-hong-kong-on-friday-rain-next-week/",
-      "generated_at": "2026-11-17T05:59:04.990882+00:00"
+      "topic_title": "Singapore in damage control after Nvidia scandal exposes China loophole",
+      "topic_url": "https://hongkongfp.com/2026/11/17/singapore-in-damage-control-after-nvidia-scandal-exposes-china-loophole/",
+      "generated_at": "2026-11-17T15:28:16.118521+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Cold front to bring 15°C lows to Hong Kong on Friday, rain next week",
-      "topic_url": "https://hongkongfp.com/2026/11/17/cold-front-to-bring-15-c-lows-to-hong-kong-on-friday-rain-next-week/",
-      "generated_at": "2026-11-17T05:59:05.163184+00:00"
+      "topic_title": "Singapore in damage control after Nvidia scandal exposes China loophole",
+      "topic_url": "https://hongkongfp.com/2026/11/17/singapore-in-damage-control-after-nvidia-scandal-exposes-china-loophole/",
+      "generated_at": "2026-11-17T15:28:16.302846+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Cold front to bring 15°C lows to Hong Kong on Friday, rain next week",
-      "topic_summary": "Hongkongers will experience another cold snap towards the weekend, with the Observatory predicting lows of 15 degrees Celsius this Friday.\n\n\n\nFile Photo: GovHK.\n\n\n\nThe weather service expects lows of 18 degrees Celsius on Thursday, with temperatures on Friday ranging from 15 to 18 degrees Celsius.\n\n\n\nA cold front will cross China&#8217;s southern coast from Wednesday, the Observatory said: &#8220;Winds will strengthen from the north and there will be a few rain patches over the region. Temperatu",
-      "topic_url": "https://hongkongfp.com/2026/11/17/cold-front-to-bring-15-c-lows-to-hong-kong-on-friday-rain-next-week/",
+      "topic_title": "Singapore in damage control after Nvidia scandal exposes China loophole",
+      "topic_summary": "Singapore is working to maintain its reputation as a trusted business hub, tainted by allegations that Chinese companies had exploited it to gain access to top-end AI chips despite US export restrictions.\n\n\n\nSingapore. File photo: Tom Grundy/HKFP.\n\n\n\nA widening scandal sparked by an affair between Jensen Huang, until recently head of US chip titan Nvidia, and a suspected Chinese spy has spotlighted the city-state&#8217;s position as a global crossroads for the advanced semiconductors that power ",
+      "topic_url": "https://hongkongfp.com/2026/11/17/singapore-in-damage-control-after-nvidia-scandal-exposes-china-loophole/",
       "messages": [],
-      "generated_at": "2026-11-17T05:59:12.126528+00:00"
+      "generated_at": "2026-11-17T15:28:23.312272+00:00"
     },
     "zh": {
-      "topic_title": "Cold front to bring 15°C lows to Hong Kong on Friday, rain next week",
-      "topic_summary": "Hongkongers will experience another cold snap towards the weekend, with the Observatory predicting lows of 15 degrees Celsius this Friday.\n\n\n\nFile Photo: GovHK.\n\n\n\nThe weather service expects lows of 18 degrees Celsius on Thursday, with temperatures on Friday ranging from 15 to 18 degrees Celsius.\n\n\n\nA cold front will cross China&#8217;s southern coast from Wednesday, the Observatory said: &#8220;Winds will strengthen from the north and there will be a few rain patches over the region. Temperatu",
-      "topic_url": "https://hongkongfp.com/2026/11/17/cold-front-to-bring-15-c-lows-to-hong-kong-on-friday-rain-next-week/",
+      "topic_title": "Singapore in damage control after Nvidia scandal exposes China loophole",
+      "topic_summary": "Singapore is working to maintain its reputation as a trusted business hub, tainted by allegations that Chinese companies had exploited it to gain access to top-end AI chips despite US export restrictions.\n\n\n\nSingapore. File photo: Tom Grundy/HKFP.\n\n\n\nA widening scandal sparked by an affair between Jensen Huang, until recently head of US chip titan Nvidia, and a suspected Chinese spy has spotlighted the city-state&#8217;s position as a global crossroads for the advanced semiconductors that power ",
+      "topic_url": "https://hongkongfp.com/2026/11/17/singapore-in-damage-control-after-nvidia-scandal-exposes-china-loophole/",
       "messages": [],
-      "generated_at": "2026-11-17T05:59:20.066578+00:00"
+      "generated_at": "2026-11-17T15:28:30.545308+00:00"
     }
   }
 }
