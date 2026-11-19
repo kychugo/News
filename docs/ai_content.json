@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-19T05:26:45.489725+00:00",
+  "generated_at": "2026-11-19T15:12:35.803352+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong private hospital apologises after doctor mistakenly removed patient’s ovaries during operation",
-      "topic_url": "https://hongkongfp.com/2026/11/19/hong-kong-private-hospital-apologises-after-doctor-mistakenly-removed-patients-ovaries-during-operation/",
-      "generated_at": "2026-11-19T05:26:31.273235+00:00"
+      "topic_title": "Trump says summit with Xi, Putin ‘making history’",
+      "topic_url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
+      "generated_at": "2026-11-19T15:12:19.621793+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong private hospital apologises after doctor mistakenly removed patient’s ovaries during operation",
-      "topic_url": "https://hongkongfp.com/2026/11/19/hong-kong-private-hospital-apologises-after-doctor-mistakenly-removed-patients-ovaries-during-operation/",
-      "generated_at": "2026-11-19T05:26:31.434927+00:00"
+      "topic_title": "Trump says summit with Xi, Putin ‘making history’",
+      "topic_url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
+      "generated_at": "2026-11-19T15:12:19.868667+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong private hospital apologises after doctor mistakenly removed patient’s ovaries during operation",
-      "topic_summary": "A private hospital has apologised to a patient and her family after a doctor mistakenly removed a woman&#8217;s ovaries during an operation.\n\n\n\nCUHK Medical Centre. Photo: 水浪/Google Maps.\n\n\n\nChung Kin-lai, chief executive officer of the Chinese University of Hong Kong (CUHK) Medical Centre, said during a press conference on Wednesday that the doctor involved was an experienced contract obstetrician and gynaecologist resident.\n\n\n\nThe doctor admitted the incident was due to mistakes during a phone",
-      "topic_url": "https://hongkongfp.com/2026/11/19/hong-kong-private-hospital-apologises-after-doctor-mistakenly-removed-patients-ovaries-during-operation/",
+      "topic_title": "Trump says summit with Xi, Putin ‘making history’",
+      "topic_summary": "The presidents of China, the United States and Russia held an unprecedented summit in China on Thursday, with Donald Trump saying the three men were &#8220;making history&#8221;.\n\n\n\nChina&#8217;s President Xi Jinping, US President Donald Trump and Russia&#8217;s President Vladimir Putin arrive for a trilateral meeting at Kylin Villa on the sidelines of the Asia-Pacific Economic Cooperation (APEC) Summit in Shenzhen, in China&#8217;s southern Guangdong province, on November 19, 2026. Photo: Win M",
+      "topic_url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
       "messages": [],
-      "generated_at": "2026-11-19T05:26:38.620355+00:00"
+      "generated_at": "2026-11-19T15:12:28.475009+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong private hospital apologises after doctor mistakenly removed patient’s ovaries during operation",
-      "topic_summary": "A private hospital has apologised to a patient and her family after a doctor mistakenly removed a woman&#8217;s ovaries during an operation.\n\n\n\nCUHK Medical Centre. Photo: 水浪/Google Maps.\n\n\n\nChung Kin-lai, chief executive officer of the Chinese University of Hong Kong (CUHK) Medical Centre, said during a press conference on Wednesday that the doctor involved was an experienced contract obstetrician and gynaecologist resident.\n\n\n\nThe doctor admitted the incident was due to mistakes during a phone",
-      "topic_url": "https://hongkongfp.com/2026/11/19/hong-kong-private-hospital-apologises-after-doctor-mistakenly-removed-patients-ovaries-during-operation/",
+      "topic_title": "Trump says summit with Xi, Putin ‘making history’",
+      "topic_summary": "The presidents of China, the United States and Russia held an unprecedented summit in China on Thursday, with Donald Trump saying the three men were &#8220;making history&#8221;.\n\n\n\nChina&#8217;s President Xi Jinping, US President Donald Trump and Russia&#8217;s President Vladimir Putin arrive for a trilateral meeting at Kylin Villa on the sidelines of the Asia-Pacific Economic Cooperation (APEC) Summit in Shenzhen, in China&#8217;s southern Guangdong province, on November 19, 2026. Photo: Win M",
+      "topic_url": "https://hongkongfp.com/2026/11/19/trump-says-summit-with-xi-putin-making-history/",
       "messages": [],
-      "generated_at": "2026-11-19T05:26:45.489693+00:00"
+      "generated_at": "2026-11-19T15:12:35.803315+00:00"
     }
   }
 }
