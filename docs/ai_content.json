@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-20T19:38:40.068611+00:00",
+  "generated_at": "2026-11-20T23:52:33.024101+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong doctor found guilty over fraudulently issuing over 3,700 Covid-19 vaccine exemptions",
       "topic_url": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/",
-      "generated_at": "2026-11-20T19:38:25.588237+00:00"
+      "generated_at": "2026-11-20T23:52:18.397683+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
       "topic_title": "Hong Kong doctor found guilty over fraudulently issuing over 3,700 Covid-19 vaccine exemptions",
       "topic_url": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/",
-      "generated_at": "2026-11-20T19:38:25.762673+00:00"
+      "generated_at": "2026-11-20T23:52:18.586562+00:00"
     }
   },
   "arena": {
@@ -22,14 +22,14 @@
       "topic_summary": "A Hong Kong doctor accused of fraudulently issuing around 3,700 Covid-19 vaccine exemption certificates during the pandemic has been found guilty of accessing a computer with dishonest intent.\n\n\n\nBioNTech Covid vaccine. Photo: BioNTech. \n\n\n\nTai Kong-shing received his verdict at the District Court on Friday after pleading not guilty. He was also found guilty of money laundering.\n\n\n\nA volunteer at the clinic, Kriselle Young, was also found guilty of accessing a computer with dishonest intent.\n\n\n\n",
       "topic_url": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/",
       "messages": [],
-      "generated_at": "2026-11-20T19:38:32.958603+00:00"
+      "generated_at": "2026-11-20T23:52:25.772130+00:00"
     },
     "zh": {
       "topic_title": "Hong Kong doctor found guilty over fraudulently issuing over 3,700 Covid-19 vaccine exemptions",
       "topic_summary": "A Hong Kong doctor accused of fraudulently issuing around 3,700 Covid-19 vaccine exemption certificates during the pandemic has been found guilty of accessing a computer with dishonest intent.\n\n\n\nBioNTech Covid vaccine. Photo: BioNTech. \n\n\n\nTai Kong-shing received his verdict at the District Court on Friday after pleading not guilty. He was also found guilty of money laundering.\n\n\n\nA volunteer at the clinic, Kriselle Young, was also found guilty of accessing a computer with dishonest intent.\n\n\n\n",
       "topic_url": "https://hongkongfp.com/2026/11/20/hong-kong-doctor-found-guilty-over-fraudulently-issuing-over-3700-covid-19-vaccine-exemptions/",
       "messages": [],
-      "generated_at": "2026-11-20T19:38:40.068573+00:00"
+      "generated_at": "2026-11-20T23:52:33.024072+00:00"
     }
   }
 }
