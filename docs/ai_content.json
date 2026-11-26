@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-25T21:05:38.109209+00:00",
+  "generated_at": "2026-11-26T01:43:03.135643+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "China warns US against imposing new tariffs",
-      "topic_url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/",
-      "generated_at": "2026-11-25T21:05:22.870395+00:00"
+      "topic_title": "Police officer fined HK$8,000 for dangerous driving as doctors unable to link woman’s death to crash",
+      "topic_url": "https://hongkongfp.com/2026/11/26/police-officer-fined-hk8000-for-dangerous-driving-as-doctors-unable-to-link-womans-death-to-crash/",
+      "generated_at": "2026-11-26T01:42:48.032429+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "China warns US against imposing new tariffs",
-      "topic_url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/",
-      "generated_at": "2026-11-25T21:05:23.146923+00:00"
+      "topic_title": "Police officer fined HK$8,000 for dangerous driving as doctors unable to link woman’s death to crash",
+      "topic_url": "https://hongkongfp.com/2026/11/26/police-officer-fined-hk8000-for-dangerous-driving-as-doctors-unable-to-link-womans-death-to-crash/",
+      "generated_at": "2026-11-26T01:42:48.249408+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "China warns US against imposing new tariffs",
-      "topic_summary": "Beijing urged the United States on Wednesday to &#8220;uphold the stable development&#8221; of trade relations, after media reports said Washington was planning to announce new tariffs on China and other&nbsp;countries.\n\n\n\nChinese Foreign Ministry spokesperson Guo Jiakun. File Photo: China&#8217;s Ministry of Foreign Affairs.\n\n\n\nThe reports said that Washington&#8217;s new levies would affect major US trading partners including China, the European Union, Japan and South Korea.\n\n\n\n&#8220;Tariff w",
-      "topic_url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/",
+      "topic_title": "Police officer fined HK$8,000 for dangerous driving as doctors unable to link woman’s death to crash",
+      "topic_summary": "A Hong Kong police officer has been fined HK$8,000 and had his driving licence suspended for 15 months for dangerous driving over a car crash last Christmas. However, a court heard on Wednesday that doctors could not determine whether the collision had caused a woman’s death.\n\n\n\nEastern Magistrates&#8217; Courts. Photo: Kelly Ho/HKFP.\n\n\n\nYip Ka-ho, 31, pleaded guilty on Wednesday at the Eastern Magistrates&#8217; Courts to one count of dangerous driving over the incident, which occurred on Decem",
+      "topic_url": "https://hongkongfp.com/2026/11/26/police-officer-fined-hk8000-for-dangerous-driving-as-doctors-unable-to-link-womans-death-to-crash/",
       "messages": [],
-      "generated_at": "2026-11-25T21:05:30.692415+00:00"
+      "generated_at": "2026-11-26T01:42:55.929726+00:00"
     },
     "zh": {
-      "topic_title": "China warns US against imposing new tariffs",
-      "topic_summary": "Beijing urged the United States on Wednesday to &#8220;uphold the stable development&#8221; of trade relations, after media reports said Washington was planning to announce new tariffs on China and other&nbsp;countries.\n\n\n\nChinese Foreign Ministry spokesperson Guo Jiakun. File Photo: China&#8217;s Ministry of Foreign Affairs.\n\n\n\nThe reports said that Washington&#8217;s new levies would affect major US trading partners including China, the European Union, Japan and South Korea.\n\n\n\n&#8220;Tariff w",
-      "topic_url": "https://hongkongfp.com/2026/11/25/china-warns-us-against-imposing-new-tariffs/",
+      "topic_title": "Police officer fined HK$8,000 for dangerous driving as doctors unable to link woman’s death to crash",
+      "topic_summary": "A Hong Kong police officer has been fined HK$8,000 and had his driving licence suspended for 15 months for dangerous driving over a car crash last Christmas. However, a court heard on Wednesday that doctors could not determine whether the collision had caused a woman’s death.\n\n\n\nEastern Magistrates&#8217; Courts. Photo: Kelly Ho/HKFP.\n\n\n\nYip Ka-ho, 31, pleaded guilty on Wednesday at the Eastern Magistrates&#8217; Courts to one count of dangerous driving over the incident, which occurred on Decem",
+      "topic_url": "https://hongkongfp.com/2026/11/26/police-officer-fined-hk8000-for-dangerous-driving-as-doctors-unable-to-link-womans-death-to-crash/",
       "messages": [],
-      "generated_at": "2026-11-25T21:05:38.109167+00:00"
+      "generated_at": "2026-11-26T01:43:03.135602+00:00"
     }
   }
 }
