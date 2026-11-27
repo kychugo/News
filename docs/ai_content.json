@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-27T06:08:22.722303+00:00",
+  "generated_at": "2026-11-27T16:05:17.959240+00:00",
   "editorial": {
     "en": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong gov’t defends moving Wang Fuk Court fire tributes on first anniversary of deadly blaze",
-      "topic_url": "https://hongkongfp.com/2026/11/27/hong-kong-govt-defends-moving-wang-fuk-court-fire-tributes-on-first-anniversary-of-deadly-blaze/",
-      "generated_at": "2026-11-27T06:08:07.969296+00:00"
+      "topic_title": "‘He’s absolutely fine’: Trump insists Nvidia CEO not a security threat",
+      "topic_url": "https://hongkongfp.com/2026/11/27/hes-absolutely-fine-trump-insists-nvidia-ceo-not-a-security-threat/",
+      "generated_at": "2026-11-27T16:05:02.246501+00:00"
     },
     "zh": {
       "content": "",
       "model": "openai",
-      "topic_title": "Hong Kong gov’t defends moving Wang Fuk Court fire tributes on first anniversary of deadly blaze",
-      "topic_url": "https://hongkongfp.com/2026/11/27/hong-kong-govt-defends-moving-wang-fuk-court-fire-tributes-on-first-anniversary-of-deadly-blaze/",
-      "generated_at": "2026-11-27T06:08:08.282535+00:00"
+      "topic_title": "‘He’s absolutely fine’: Trump insists Nvidia CEO not a security threat",
+      "topic_url": "https://hongkongfp.com/2026/11/27/hes-absolutely-fine-trump-insists-nvidia-ceo-not-a-security-threat/",
+      "generated_at": "2026-11-27T16:05:02.473769+00:00"
     }
   },
   "arena": {
     "en": {
-      "topic_title": "Hong Kong gov’t defends moving Wang Fuk Court fire tributes on first anniversary of deadly blaze",
-      "topic_summary": "Floral tributes for the victims of last year&#8217;s deadly Wang Fuk Court fire were relocated on Thursday to make room for more mourners, the government has said.\n\n\n\nCivil Aid Service personnel rearrange floral tributes near to Wang Fuk Court in Tai Po on the evening of November 26, 2026, one year after a blaze at the complex left 168 people dead. Photo: Kyle Lam/HKFP.\n\n\n\nHongkongers gathered around Kwong Fuk Sitting-out Area, opposite the charred Tai Po housing estate, throughout the day and e",
-      "topic_url": "https://hongkongfp.com/2026/11/27/hong-kong-govt-defends-moving-wang-fuk-court-fire-tributes-on-first-anniversary-of-deadly-blaze/",
+      "topic_title": "‘He’s absolutely fine’: Trump insists Nvidia CEO not a security threat",
+      "topic_summary": "US President Donald Trump said Thursday that he had seen sufficient information that Nvidia&#8217;s Jensen Huang was not a security threat, while touting his administration&#8217;s intervention to save the scandal-plagued CEO&#8217;s job as &#8220;a great thing&#8221; for the world.\n\n\n\nNVIDIA CEO Jensen Huang delivers remarks as President Donald Trump looks on during an “Investing in America” event on Wednesday, April 30, 2025, in the Cross Hall of the White House. Photo: The White House, via Fl",
+      "topic_url": "https://hongkongfp.com/2026/11/27/hes-absolutely-fine-trump-insists-nvidia-ceo-not-a-security-threat/",
       "messages": [],
-      "generated_at": "2026-11-27T06:08:15.568203+00:00"
+      "generated_at": "2026-11-27T16:05:10.739551+00:00"
     },
     "zh": {
-      "topic_title": "Hong Kong gov’t defends moving Wang Fuk Court fire tributes on first anniversary of deadly blaze",
-      "topic_summary": "Floral tributes for the victims of last year&#8217;s deadly Wang Fuk Court fire were relocated on Thursday to make room for more mourners, the government has said.\n\n\n\nCivil Aid Service personnel rearrange floral tributes near to Wang Fuk Court in Tai Po on the evening of November 26, 2026, one year after a blaze at the complex left 168 people dead. Photo: Kyle Lam/HKFP.\n\n\n\nHongkongers gathered around Kwong Fuk Sitting-out Area, opposite the charred Tai Po housing estate, throughout the day and e",
-      "topic_url": "https://hongkongfp.com/2026/11/27/hong-kong-govt-defends-moving-wang-fuk-court-fire-tributes-on-first-anniversary-of-deadly-blaze/",
+      "topic_title": "‘He’s absolutely fine’: Trump insists Nvidia CEO not a security threat",
+      "topic_summary": "US President Donald Trump said Thursday that he had seen sufficient information that Nvidia&#8217;s Jensen Huang was not a security threat, while touting his administration&#8217;s intervention to save the scandal-plagued CEO&#8217;s job as &#8220;a great thing&#8221; for the world.\n\n\n\nNVIDIA CEO Jensen Huang delivers remarks as President Donald Trump looks on during an “Investing in America” event on Wednesday, April 30, 2025, in the Cross Hall of the White House. Photo: The White House, via Fl",
+      "topic_url": "https://hongkongfp.com/2026/11/27/hes-absolutely-fine-trump-insists-nvidia-ceo-not-a-security-threat/",
       "messages": [],
-      "generated_at": "2026-11-27T06:08:22.722266+00:00"
+      "generated_at": "2026-11-27T16:05:17.959169+00:00"
     }
   }
 }
